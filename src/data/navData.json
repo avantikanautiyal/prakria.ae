@@ -1,0 +1,73 @@
+[
+    {
+        "id": "1",
+        "label": "Home",
+        "link": "/",
+        "icon": false
+    },
+    {
+        "id": "2",
+        "label": "About Us",
+        "link": "/about-us",
+        "icon": false
+    },
+    {
+        "id": "3",
+        "label": "What we Do",
+        "link": "#",
+        "icon": true,
+        "subMenu": [
+            {
+                "id": "1",
+                "label": "Digital Marketing",
+                "link": "/digital-marketing"
+            },
+            {
+                "id": "2",
+                "label": "Packaging Design",
+                "link": "/case-study/case-study2"
+            },
+            {
+                "id": "3",
+                "label": "Branding",
+                "link": "/branding"
+            },
+            {
+                "id": "4",
+                "label": "Print Media",
+                "link": "/print-media"
+            },
+            {
+                "id": "5",
+                "label": "3D & CGI",
+                "link": "/cgi"
+            },
+            {
+                "id": "6",
+                "label": "AR,VR & Game Tech",
+                "link": "/ar-vr"
+            },
+            {
+                "id": "6",
+                "label": "Films,Animation & VFX",
+                "link": "/vfx"
+            },
+            {
+                "id": "7",
+                "label": "Illustration",
+                "link": "/illustration"
+            },
+            {
+                "id": "8",
+                "label": "Web Development",
+                "link": "/web-devlopment"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "label": "Contact Us",
+        "link": "/contact-us",
+        "icon": false
+    }
+]
