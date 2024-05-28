@@ -1,0 +1,23 @@
+{
+    "/contact-us": {
+        "title": "Contact Us",
+        "description": "Contact us to get more information about our services and products. We are always available to help you. Contact us today and let us know how we can help you."
+    },
+    "/about-us": {
+        "title": "Curious About Us",
+        "description": "An independent and multidisciplinary creative agency has been on a journey with a Modus Operandi that has flexibly carved out a niche in the creative design world."
+    },
+    "/digital-marketing": {
+        "title": "Digital Marketing",
+        "description": "Digital marketing is the promotion of your brand and products online. We offer a wide range of digital marketing services including SEO, social media management, and digital marketing tools."
+    },
+    "/packaging-design": {},
+    "/branding": {},
+    "/ar-vr-game-tech": {},
+    "/films-animation-vfx": {},
+    "/illustration": {},
+    "/web-development": {
+        "title": "Web Development",
+        "description": "Website development is the process of designing, coding, testing, and maintaining websites. We offer a wide range of web development services including website design, website development, and website hosting."
+    }
+}

@@ -58,8 +58,8 @@ function MyMarquee() {
   ];
 
   return (
-    <div class={"scroller  m-auto"} data-speed="slow" data-animated="true">
-      <ul class={`${"tag-list"} ${"scroller__inner"} text-black`}>
+    <div className={"scroller  m-auto"} data-speed="slow" data-animated="true">
+      <ul className={`${"tag-list"} ${"scroller__inner"} text-black`}>
         {[...ClinetList, ...ClinetList].map((item, index) => (
           <li key={index}>
             <img className="aspect-auto w-[100px]" src={item.src} />
