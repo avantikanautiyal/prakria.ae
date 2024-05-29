@@ -5,6 +5,7 @@ import useWow from "@/hooks/useWow";
 import Header1 from "@/components/global/header/Header";
 import Footer from "@/components/global/header/Footer";
 import ThemeSwitch from "@/components/global/theme";
+import ContactUs from "@/components/home/homeContact";
 
 function ClientLayout({ children }) {
   useWow();
@@ -17,6 +18,7 @@ function ClientLayout({ children }) {
       <div className="min-h-screen">
         <Header1 />
         {children}
+        <ContactUs />
         <Footer />
       </div>
     </div>

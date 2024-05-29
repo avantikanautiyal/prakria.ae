@@ -5,7 +5,7 @@ import ServiceSection from "@/components/home/serviceSection";
 import Home1About from "@/components/home/homeAbout";
 import HomeTestimonial from "@/components/home/ClientTestimonial";
 import LogoMarquee from "@/components/home/InfiniteCarosal";
-import HomeCarosal from "@/components/home/homeContact";
+import ContanctUs from "@/components/home/homeContact";
 import Blog from "@/components/home/blogCard";
 export default function Home() {
   return (
@@ -172,7 +172,7 @@ export default function Home() {
       <HomeTestimonial />
 
       <Blog />
-      <HomeCarosal />
+      {/* <ContanctUs /> */}
     </div>
   );
 }

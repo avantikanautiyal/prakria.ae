@@ -159,9 +159,7 @@ const Footer2 = () => {
             }}
           >
             <div className=" copyright-area">
-              <p>
-                © 2024 PRAKRIA <a href="#">Zenfy</a>
-              </p>
+              <p>© 2024 PRAKRIA</p>
             </div>
             {/* <div className="footer-bottom-right">
               <ul>

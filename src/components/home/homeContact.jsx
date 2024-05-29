@@ -1,5 +1,5 @@
 import React from "react";
-
+import ContactForm from "@/components/global/contactform/contactform";
 const data = {
   number: "98108 10034",
   email: "info@prakria.com",
@@ -7,7 +7,7 @@ const data = {
 const Home1Contact = () => {
   return (
     <>
-      <div className="contact-section">
+      <div className="contact-section ">
         <div className="container">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-5">
@@ -146,61 +146,9 @@ const Home1Contact = () => {
               data-wow-delay="200ms"
               data-wow-duration="1500ms"
             >
+              {/* form */}
               <div className="contact-form-wrap">
-                <div className="contact-form-area">
-                  <h3>Your Success Starts Here!</h3>
-                  <form>
-                    <div className="row">
-                      <div className="col-lg-6 mb-20">
-                        <div className="form-inner">
-                          <label>Full Name</label>
-                          <input type="text" required />
-                        </div>
-                      </div>
-                      <div className="col-lg-6 mb-20">
-                        <div className="form-inner">
-                          <label>Company / Organization *</label>
-                          <input type="text" required />
-                        </div>
-                      </div>
-                      <div className="col-lg-6 mb-20">
-                        <div className="form-inner">
-                          <label>Phone *</label>
-                          <input type="text" />
-                        </div>
-                      </div>
-                      <div className="col-lg-6 mb-20">
-                        <div className="form-inner">
-                          <label>Company email *</label>
-                          <input type="email" required />
-                        </div>
-                      </div>
-                      <div className="col-lg-12 mb-20">
-                        <div className="form-inner">
-                          <label>Your Subject *</label>
-                          <input type="text" required />
-                        </div>
-                      </div>
-                      <div className="col-lg-12 mb-30">
-                        <div className="form-inner">
-                          <label>Message *</label>
-                          <textarea defaultValue={""} />
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="form-inner">
-                          <button
-                            className="primary-btn2"
-                            type="submit"
-                            data-text="Submit Now"
-                          >
-                            <span>Submit Now</span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
+                <ContactForm />
               </div>
             </div>
           </div>

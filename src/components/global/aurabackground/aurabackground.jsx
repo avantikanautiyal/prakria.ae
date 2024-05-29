@@ -13,9 +13,8 @@ export default function AuraBackgroundSection() {
   const pathname = usePathname();
   console.log(pathname);
   const service = data?.[pathname];
-  // console.log(service);
   return (
-    <AuroraBackground>
+    <AuroraBackground className={"items-start justify-start"}>
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -24,7 +23,7 @@ export default function AuraBackgroundSection() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className=" container relative flex flex-col gap-3 items-center justify-center pt-10 px-4"
+        className="h-[100%] w-[850px!important] overflow-hidden container relative flex flex-col gap-3 items-center justify-center  px-4  mt-[76px]"
       >
         <div className="text-2xl md:text-6xl font-bold dark:text-white text-center">
           {/* Coffee or Beer ? It's on us! */}
@@ -43,9 +42,6 @@ export default function AuraBackgroundSection() {
             <FaAngleDoubleDown />
           </div>
         </a>
-        {/* <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
-          Debug now
-        </button> */}
       </motion.div>
     </AuroraBackground>
   );

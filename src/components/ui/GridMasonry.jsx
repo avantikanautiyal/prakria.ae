@@ -2,46 +2,76 @@
 import React, { useEffect, useState } from "react";
 import { DirectionAwareHover } from "./direction-aware-hover";
 import { cn } from "@/utils/cn";
-function GridMasonry() {
-  // const [render, setRender] = useState(false);
+import Link from "next/link";
 
+/**
+ * Renders a grid masonry layout with optional random placement.
+ *
+ * @param {Object} options - Configuration options for the grid masonry.
+ * @param {boolean} [options.random=true] - Determines whether the placement of items is random or not.
+ * @param {Array} [options.data=[]] - An array of objects representing the items to be placed in the grid.
+ * @param {string} options.data[].src - The source URL for the image.
+ * @param {number} options.data[].col - The column position for the item.
+ * @param {number} options.data[].row - The row position for the item.
+ * @param {string} options.data[].link - A URL link associated with the item.
+ *
+ * @example
+ * const data = [
+ *   { src: "/images/3d_cgi.jpg", col: 1, row: 1, link: "https://example.com" },
+ *   { src: "/images/another_image.jpg", col: 2, row: 1, link: "https://example.com/another" }
+ * ];
+ *
+ * GridMasonry({ random: false, data });
+ */
+function GridMasonry({ random = true, data = [] }) {
   const [list, setList] = useState([]);
+
   useEffect(() => {
-    const li = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    setList(li.map((l) => "row-span-" + (Math.floor(Math.random() * 3) + 1)));
+    // const li = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    const items = data.map((item) => {
+      if (random) {
+        return {
+          ...item,
+          row: item.row ? item.row : Math.floor(Math.random() * 3) + 1,
+          col: item.col ? item.col : Math.floor(Math.random() * 3) + 1,
+        };
+      } else {
+        return {
+          ...item,
+          row: item.row ?? 1,
+          col: item.col ?? 1,
+        };
+      }
+    });
+
+    setList(items);
+    // setList(li.map((l) => Math.floor(Math.random() * 3) + 1));
   }, []);
   useEffect(() => {
     console.log("list", list);
   }, [list]);
   return (
-    <div className=" p-4  rounded-lg grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3   grid-flow-row-dense auto-rows-[150px]">
+    <div className=" p-4 rounded-lg grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row-dense auto-rows-[150px]">
       {list.map((g, i) => {
-        return (
-          <GridCard
-            key={i}
-            className={g}
-            num={Math.floor(Math.random() * 3) + 1}
-          />
-        );
+        return <GridCard key={i} item={g} />;
       })}
     </div>
   );
 }
 
-function GridCard({
-  wide = false,
-  tall = false,
-  imageURL = "/images/3d_cgi.jpg",
-  // num = Math.floor(Math.random() * 3) + 1,
-  num = 1,
-  className,
-}) {
-  console.log("num", num);
+function GridCard({ item, className }) {
+  // src = "/images/3d_cgi.jpg", num = 1
+  // console.log("num", num);
   return (
-    <div className={cn(className, `rounded-lg`)}>
-      <DirectionAwareHover imageUrl={imageURL}>
-        {/* <p>title</p> */}
-      </DirectionAwareHover>
+    <div
+      className={cn(className, `rounded-lg wow animate zoomIn`)}
+      style={{ gridRow: `span ${item.row}`, gridColumn: `span ${item.col}` }}
+    >
+      <Link href={item.link ?? "#"}>
+        <DirectionAwareHover imageUrl={item.src}>
+          {/* <p>title</p> */}
+        </DirectionAwareHover>
+      </Link>
     </div>
   );
 }
