@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
-import useWow from "@/hooks/useWow";
+// import useWow from "@/hooks/useWow";
+import useWow from "../../hooks/useWow";
 // import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Header1 from "@/components/global/header/Header";
 import Footer from "@/components/global/header/Footer";

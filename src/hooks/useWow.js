@@ -1,3 +1,4 @@
+'use clinet';
 import { useEffect } from "react";
 
 const useWow = () => {
