@@ -1,0 +1,57 @@
+[
+    {
+        "title": "DIGITAL MARKETING",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "link": "/digital-marketing",
+        "src": "/assets_main/services/digital_marketing.jpg"
+    },
+    {
+        "title": "PACKAGING DESIGN",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "link": "/packaging-design",
+        "src": "/assets_main/services/packaging_design.jpg"
+    },
+    {
+        "title": "BRANDING",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "link": "/branding",
+        "src": "/assets_main/services/branding.jpg"
+    },
+    {
+        "title": "PRINT MEDIA",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "link": "/print-media",
+        "src": "/assets_main/services/print_media.jpg"
+    },
+    {
+        "title": "3D & CGI",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "src": "/assets_main/services/3d.jpg",
+        "link": "/3d-cgi"
+    },
+    {
+        "title": "AR, VR & GAME TECH",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "src": "/assets_main/services/ar_vr.jpg",
+        "link": "/ar-vr-game-tech"
+    },
+    {
+        "title": "FILMS, ANIMATION & VFX",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "src": "/assets_main/services/film.jpg",
+        "link": "/films-animation-vfx"
+    },
+    {
+        "title": "ILLUSTRATION",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "src": "/assets_main/services/illustration.jpg",
+        "link": "/illustration"
+    },
+    {
+        "title": "WEB DEVELOPMENT",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "src": "/assets_main/services/web_development.jpg",
+        "link": "/web-development"
+    }
+]
+

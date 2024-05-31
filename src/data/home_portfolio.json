@@ -1,0 +1,268 @@
+[
+    {
+        "title": "DIGITAL MARKETING",
+        "description": "",
+        "link": "/digital-marketing",
+        "content": [
+            {
+                "id": 1,
+                "className": "md:row-span-1 md:col-span-2",
+                "title": "Polo",
+                "link": "/",
+                "thumbnail": "/assets_main/digital_marketing/polo.gif",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 2,
+                "className": "md:col-span-1",
+                "title": "Dove",
+                "link": "/",
+                "thumbnail": "/assets_main/digital_marketing/dove.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 3,
+                "className": "md:col-span-1",
+                "title": "Marie Claire",
+                "link": "/",
+                "thumbnail": "/assets_main/digital_marketing/marie_claire.jpg",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 4,
+                "className": "md:col-span-2",
+                "title": "Munch",
+                "link": "/",
+                "thumbnail": "/assets_main/digital_marketing/munch.gif",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            }
+        ]
+    },
+    {
+        "title": "PACKAGING DESIGN",
+        "description": "",
+        "link": "/packaging-design",
+        "content": [
+            {
+                "id": 1,
+                "className": "md:col-span-1",
+                "title": "kitkat",
+                "link": "/",
+                "thumbnail": "/assets_main/packaging_design/kitkat.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 2,
+                "className": "md:col-span-2",
+                "title": "100 Pipers",
+                "link": "/",
+                "thumbnail": "/assets_main/packaging_design/100_pipers.jpg",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 3,
+                "className": "md:col-span-2",
+                "title": "PERFETTI VAN MELLE",
+                "link": "/",
+                "thumbnail": "/assets_main/packaging_design/perfetti.jpg",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 4,
+                "className": "md:col-span-1",
+                "title": "Quality Street",
+                "link": "/",
+                "thumbnail": "/assets_main/packaging_design/quality_street.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            }
+        ]
+    },
+    {
+        "title": "PRINT MEDIA",
+        "description": "",
+        "link": "/print-media",
+        "content": [
+            {
+                "id": 1,
+                "className": "md:col-span-1",
+                "title": "POLO",
+                "link": "/",
+                "thumbnail": "/assets_main/print_media/polo.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 2,
+                "className": "md:col-span-2",
+                "title": "GREKYO",
+                "link": "/",
+                "thumbnail": "/assets_main/print_media/grekyo.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 3,
+                "className": "md:col-span-1",
+                "title": "CARNATION",
+                "link": "/",
+                "thumbnail": "/assets_main/print_media/carnation.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 4,
+                "className": "md:col-span-1",
+                "title": "KOHLER",
+                "link": "/",
+                "thumbnail": "/assets_main/print_media/kohler.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 5,
+                "className": "md:col-span-1",
+                "title": "NIDO",
+                "link": "/",
+                "thumbnail": "/assets_main/print_media/nido.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            }
+        ]
+    },
+    {
+        "title": "3D & CGI",
+        "description": "",
+        "link": "/3d-cgi",
+        "content": [
+            {
+                "id": 1,
+                "className": "md:col-span-1",
+                "title": "KOHLER",
+                "link": "/",
+                "thumbnail": "/assets_main/3d_cgi/kohler.jpg",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 2,
+                "className": "md:col-span-1",
+                "title": "KITKAT",
+                "link": "/",
+                "thumbnail": "/assets_main/3d_cgi/kitkat.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 3,
+                "className": "md:col-span-1",
+                "title": "",
+                "link": "/",
+                "thumbnail": "/assets_main/3d_cgi/choco.gif",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 4,
+                "className": "md:col-span-1",
+                "title": "IMPERIAL BLUE",
+                "link": "/",
+                "thumbnail": "/assets_main/3d_cgi/imp_blue.jpg",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 5,
+                "className": "md:col-span-2",
+                "title": "",
+                "link": "/",
+                "thumbnail": "/assets_main/3d_cgi/str.gif",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            }
+        ]
+    },
+    {
+        "title": "AR, VR & GAME TECH",
+        "description": "",
+        "link": "/ar-vr-game-tech",
+        "content": [
+            {
+                "id": 1,
+                "className": "md:row-span-2 md:col-span-2",
+                "title": "Blanca",
+                "link": "/",
+                "thumbnail": "/assets_main/ar_vr/blanca.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 5,
+                "className": "md:row-span-2 md:col-span-1",
+                "title": "CRICKET GAME",
+                "link": "/",
+                "thumbnail": "/assets_main/ar_vr/cricket_game.jpg",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 2,
+                "className": "md:col-span-1",
+                "title": "POLO",
+                "link": "/",
+                "thumbnail": "/assets_main/ar_vr/polo.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 3,
+                "className": "md:col-span-1",
+                "title": "CEREAL KILLERS",
+                "link": "/",
+                "thumbnail": "/assets_main/ar_vr/cerel_killer.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 4,
+                "className": "md:col-span-1",
+                "title": "CON VIDA",
+                "link": "/",
+                "thumbnail": "/assets_main/ar_vr/con_vida.png",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            }
+        ]
+    },
+    {
+        "title": "FILMS, ANIMATION & VFX",
+        "link": "/films-animation-vfx",
+        "description": "",
+        "content": [
+            {
+                "id": 1,
+                "className": "md:col-span-1",
+                "title": "POLO",
+                "link": "/",
+                "thumbnail": "/assets_main/film_animation/polo.gif",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 5,
+                "className": "md:col-span-1",
+                "title": "kitkat",
+                "link": "/",
+                "thumbnail": "/assets_main/film_animation/kitkat.gif",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 2,
+                "className": "md:row-span-2 md:col-span-1",
+                "title": "MUNCH",
+                "link": "/",
+                "thumbnail": "/assets_main/film_animation/munch.gif",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 3,
+                "className": "md:col-span-1",
+                "title": "JOLLY RENCHER",
+                "link": "/",
+                "thumbnail": "/assets_main/film_animation/jolly_rencher.gif",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            },
+            {
+                "id": 4,
+                "className": "md:col-span-1",
+                "title": "SOMETHING SPECIAL",
+                "link": "/",
+                "thumbnail": "/assets_main/film_animation/something_special.gif",
+                "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+            }
+        ]
+    }
+]

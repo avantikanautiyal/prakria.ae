@@ -4,7 +4,12 @@ import { LayoutGrid } from "../ui/layout-grid";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-export default function LayoutGridDemo({ title, content = [], className }) {
+export default function LayoutGridDemo({
+  title,
+  link,
+  content = [],
+  className,
+}) {
   return (
     <div className="h-auto w-full bg-black flex flex-col p-10">
       <h1 className="z-[1000] p-4 sticky flex md:hidden justify-center items-center top-[75px] font-bold bg-gradient-to-b from-black text-center text-4xl uppercase">
@@ -35,7 +40,7 @@ export default function LayoutGridDemo({ title, content = [], className }) {
       />
       <div className="flex justify-center items-center ">
         <Button variant="outline">
-          <Link href="/services">view all</Link>
+          <Link href={link ?? "#"}>view all</Link>
         </Button>
       </div>
     </div>

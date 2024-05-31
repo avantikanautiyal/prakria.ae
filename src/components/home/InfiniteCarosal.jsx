@@ -1,7 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import "../../styles/marque.css";
-const LogoMarquee = () => {
+const LogoMarquee = ({ list }) => {
   return (
     <div
       className="wow animate fadeInUp bg-white p-6"
@@ -16,7 +16,7 @@ const LogoMarquee = () => {
             </h6>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <MyMarquee />
+            <MyMarquee list={list} />
           </div>
         </div>
       </div>
@@ -24,45 +24,13 @@ const LogoMarquee = () => {
   );
 };
 
-function MyMarquee() {
-  const ClinetList = [
-    {
-      src: "/images/3d_cgi.jpg",
-      id: 1,
-    },
-    {
-      src: "/images/3d_cgi.jpg",
-
-      id: 2,
-    },
-    {
-      src: "/images/3d_cgi.jpg",
-
-      id: 2,
-    },
-    {
-      src: "/images/3d_cgi.jpg",
-
-      id: 2,
-    },
-    {
-      src: "/images/3d_cgi.jpg",
-
-      id: 2,
-    },
-    {
-      src: "/images/3d_cgi.jpg",
-
-      id: 2,
-    },
-  ];
-
+function MyMarquee({ list }) {
   return (
     <div className={"scroller  m-auto"} data-speed="slow" data-animated="true">
       <ul className={`${"tag-list"} ${"scroller__inner"} text-black`}>
-        {[...ClinetList, ...ClinetList].map((item, index) => (
+        {[...list, ...list].map((item, index) => (
           <li key={index}>
-            <img className="aspect-auto w-[100px]" src={item.src} />
+            <img className="aspect-auto w-[100px]" src={item} />
           </li>
         ))}
       </ul>

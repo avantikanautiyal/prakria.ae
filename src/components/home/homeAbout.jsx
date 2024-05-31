@@ -6,7 +6,7 @@ import { SiUnitednations } from "react-icons/si";
 const Home1About = () => {
   return (
     <>
-      <div className="home1-about-section mb-110 py-10">
+      <div className="home1-about-section mb-11 py-10">
         <div className="container">
           <div
             //   className="row mb-90 w-full border-2 border-red-500  "
