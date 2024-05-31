@@ -61,7 +61,7 @@ function GridMasonry({ random = true, data = [] }) {
 
 function GridCard({ item, className }) {
   // src = "/images/3d_cgi.jpg", num = 1
-  // console.log("num", num);
+  console.log("item", item);
   return (
     <div
       className={cn(className, `rounded-lg wow animate zoomIn`)}

@@ -1,7 +1,7 @@
 // "use client";
 import React from "react";
 import { notFound } from "next/navigation";
-import portfolio_data from "@/data/portfolio_data";
+import portfolio_data from "@/data/portfolio.json";
 import GridLayout from "@/components/ui/GridMasonry";
 import MarkDown from "../../markdown";
 
@@ -18,7 +18,7 @@ function Page({ params }) {
           <img
             src={data?.bannerImage}
             alt="banner image"
-            className="object-cover w-[100%] h-[100dvh]"
+            className="object-cover w-[100%] h-[100dvh] origin-center"
           />
         </div>
       </div>
@@ -30,13 +30,14 @@ function Page({ params }) {
 
           <GridLayout
             random={false}
-            data={[
-              { src: "/images/3d_cgi.jpg" },
-              { src: "/images/3d_cgi.jpg", row: 2 },
-              { src: "/images/3d_cgi.jpg", col: 1 },
-              { src: "/images/3d_cgi.jpg", col: 1 },
-              { src: "/images/3d_cgi.jpg", row: 2 },
-            ]}
+            data={data.content ?? []}
+            // data={[
+            //   { src: "/images/3d_cgi.jpg" },
+            //   { src: "/images/3d_cgi.jpg", row: 2 },
+            //   { src: "/images/3d_cgi.jpg", col: 1 },
+            //   { src: "/images/3d_cgi.jpg", col: 1 },
+            //   { src: "/images/3d_cgi.jpg", row: 2 },
+            // ]}
           />
         </div>
         {/* GRID LAYOUT HERE */}

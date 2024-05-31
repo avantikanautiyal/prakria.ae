@@ -14,7 +14,7 @@ export default function AuraBackgroundSection() {
   console.log(pathname);
   const service = data?.[pathname];
   return (
-    <AuroraBackground className={"items-start justify-start"}>
+    <AuroraBackground className={"pt-[75px] grid"}>
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -23,7 +23,7 @@ export default function AuraBackgroundSection() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="h-[100%] w-[850px!important] overflow-hidden container relative flex flex-col gap-3 items-center justify-center  px-4  mt-[76px]"
+        className="h-full overflow-hidden container relative flex flex-col gap-3 items-center justify-center  px-4 "
       >
         <div className="text-2xl md:text-6xl font-bold dark:text-white text-center">
           {/* Coffee or Beer ? It's on us! */}
