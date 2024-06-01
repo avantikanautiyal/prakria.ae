@@ -3,6 +3,7 @@ import GridMasonry from "@/components/ui/GridMasonry";
 import MeteorCard from "@/components/global/cards/MetiorCard";
 import data_service from "@/data/data_service.json";
 import CardsSection from "@/components/service/CardsSection";
+import HeroseSection from "@/components/service/herosSection";
 function page() {
   const data = data_service["/digital-marketing"];
   console.log(data.content);
@@ -12,7 +13,9 @@ function page() {
       <GridMasonry random={false} data={data?.content} />
       <CardsSection data={data?.CardsSection} />
 
-      <div className="px-4 py-6 my-[75px] grid grid-cols-5 gap-4 container">
+      <HeroseSection data={data?.sub} />
+
+      {/* <div className="px-4 py-6 my-[75px] grid grid-cols-5 gap-4 container">
         <div className="col-span-2 flex justify-center items-center wow animate fadeInUp">
           <h1 className="uppercase text-2xl font-bold text-balance">
             {data?.sub?.title}
@@ -23,7 +26,7 @@ function page() {
             {data?.sub?.description}
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -119,7 +119,7 @@
                 "type": "image",
                 "src": "/assets_main/services/packaging_design/2.webp",
                 "id": "7",
-                "link": "/portfolio_item/7",
+                "link": "#",
                 "row": 1,
                 "col": 1
             },
@@ -127,7 +127,7 @@
                 "type": "image",
                 "src": "/assets_main/services/packaging_design/3.webp",
                 "id": "1",
-                "link": "/portfolio_item/6",
+                "link": "/portfolio_item/7",
                 "row": 1,
                 "col": 1
             },
@@ -135,7 +135,7 @@
                 "type": "image",
                 "src": "/assets_main/services/packaging_design/4.webp",
                 "id": "1",
-                "link": "/portfolio_item/6",
+                "link": "#",
                 "row": 1,
                 "col": 1
             },
@@ -143,7 +143,7 @@
                 "type": "image",
                 "src": "/assets_main/services/packaging_design/5.webp",
                 "id": "1",
-                "link": "/portfolio_item/6",
+                "link": "/portfolio_item/8",
                 "row": 1,
                 "col": 1
             },
@@ -151,7 +151,7 @@
                 "type": "image",
                 "src": "/assets_main/services/packaging_design/6.webp",
                 "id": "1",
-                "link": "/portfolio_item/6",
+                "link": "/portfolio_item/9",
                 "row": 1,
                 "col": 1
             },
@@ -159,7 +159,7 @@
                 "type": "image",
                 "src": "/assets_main/services/packaging_design/7.webp",
                 "id": "1",
-                "link": "/portfolio_item/6",
+                "link": "#",
                 "row": 1,
                 "col": 1
             },
@@ -167,7 +167,7 @@
                 "type": "image",
                 "src": "/assets_main/services/packaging_design/8.webp",
                 "id": "1",
-                "link": "/portfolio_item/6",
+                "link": "#",
                 "row": 1,
                 "col": 1
             },
@@ -175,7 +175,7 @@
                 "type": "image",
                 "src": "/assets_main/services/packaging_design/9.webp",
                 "id": "1",
-                "link": "/portfolio_item/6",
+                "link": "#",
                 "row": 1,
                 "col": 1
             },
@@ -183,7 +183,7 @@
                 "type": "image",
                 "src": "/assets_main/services/packaging_design/10.webp",
                 "id": "1",
-                "link": "/portfolio_item/6",
+                "link": "#",
                 "row": 1,
                 "col": 1
             },
@@ -191,7 +191,7 @@
                 "type": "image",
                 "src": "/assets_main/services/packaging_design/11.webp",
                 "id": "1",
-                "link": "/portfolio_item/6",
+                "link": "/portfolio_item/10",
                 "row": 1,
                 "col": 1
             }
@@ -229,7 +229,93 @@
     },
     "/branding": {
         "title": "Brand Identity Redefined: PRAKRIA's Distinctive Touch",
-        "description": "In today's fast-paced world, building a brand is indispensable for making your mark and standing out in the crowd. At PRAKRIA, we have the experience and expertise to transform your brand from a mere idea to an influential force that leaves a lasting impression."
+        "description": "In today's fast-paced world, building a brand is indispensable for making your mark and standing out in the crowd. At PRAKRIA, we have the experience and expertise to transform your brand from a mere idea to an influential force that leaves a lasting impression.",
+        "sub": {
+            "title": "YOUR BRAND, OUR EXPERTISE",
+            "description": "\nCrafting a brand identity is more than just picking colors and fonts; it’s about capturing your brand’s unique personality, its essence, and its voice. With over two decades of shaping successful brands, we know the art of creating a distinctive look-and-feel that resonates with your target audience.\n\nOur team of creative craftsmen dives deep into understanding your product, your audience, and your aspirations. From logos that symbolize your brand’s mission to cohesive visual elements that tell your story, we craft a brand identity that truly represents you.\n\nJoin hands with PRAKRIA, where innovation meets strategy, and let’s build a brand that sparks recognition, trust, and loyalty. Together, we’ll take your brand to new heights and create a lasting legacy in the hearts and minds of your customers.\n"
+        },
+        "content": [
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/1.jpg",
+                "id": "6",
+                "link": "/portfolio_item/11",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/2.jpg",
+                "id": "7",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/3.jpg",
+                "id": "1",
+                "link": "/portfolio_item/7",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/4.jpg",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/5.jpg",
+                "id": "1",
+                "link": "/portfolio_item/8",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/6.jpg",
+                "id": "1",
+                "link": "/portfolio_item/9",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/7.jpg",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/8.jpg",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/9.jpg",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/10.jpg",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            }
+        ]
     },
     "/ar-vr-game-tech": {
         "title": "Immerse Yourself in Creativity & Technology",
