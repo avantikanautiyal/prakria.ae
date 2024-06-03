@@ -1,5 +1,7 @@
 import React from "react";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import HomeTestimonial from "@/components/home/ClientTestimonial";
+import LogoMarquee from "@/components/home/InfiniteCarosal";
 
 function Page() {
   return (
@@ -50,9 +52,11 @@ We are big enough to incubate some of the most innovative ideas and small enough
         </div>
 
         <div className="hidden md:block sticky top-[86px]  rounded-lg overflow-hidden h-fit">
-          <img src="/images/web_dev.jpg" />
+          <img src="/assets_main/about1.jpeg" />
         </div>
       </div>
+      <LogoMarquee />
+      <HomeTestimonial />
     </div>
   );
 }

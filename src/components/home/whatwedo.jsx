@@ -32,7 +32,7 @@ function Whatwedo({ content }) {
           })}
         </div>
         <div className="p-10 hidden md:block">
-          <div className="rounded-md sticky lg:top-[150px] md:top-[200px] md:w-[100%] md:h-[400px] max-w-[600px]    overflow-hidden">
+          <div className=" sticky lg:top-[150px] md:top-[200px] md:w-[100%] md:h-[400px] max-w-[600px]    overflow-hidden">
             <AnimatePresence>
               {!(activeIndex === null) && (
                 <motion.div
@@ -46,7 +46,7 @@ function Whatwedo({ content }) {
                 >
                   <img
                     src={content?.[activeIndex]?.src}
-                    className="w-full h-full"
+                    className="w-full h-full rounded-md"
                   />
                   {/* {content?.[activeIndex]?.content} */}
                 </motion.div>

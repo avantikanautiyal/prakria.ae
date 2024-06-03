@@ -7,6 +7,8 @@ import { cn } from "@/utils/cn";
 
 export const DirectionAwareHover = ({
   imageUrl,
+  type = "image",
+  fill,
   children,
   childrenClassName,
   imageClassName,
@@ -74,16 +76,33 @@ export const DirectionAwareHover = ({
               ease: "easeOut",
             }}
           >
-            <Image
-              alt="image"
-              className={cn(
-                "h-full w-full object-cover scale-[1.25]",
-                imageClassName
-              )}
-              width="1000"
-              height="1000"
-              src={imageUrl}
-            />
+            {type === "video" ? (
+              <video
+                src={imageUrl}
+                muted
+                loop
+                autoPlay
+                className={cn(
+                  "h-full w-full object-cover scale-[1.25]",
+                  imageClassName
+                )}
+              />
+            ) : (
+              <Image
+                alt="image"
+                className={
+                  fill
+                    ? cn(
+                        "h-full w-full object-cover scale-[1.25]",
+                        imageClassName
+                      )
+                    : ""
+                }
+                width="1000"
+                height="1000"
+                src={imageUrl}
+              />
+            )}
           </motion.div>
           <motion.div
             variants={textVariants}

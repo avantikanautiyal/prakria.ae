@@ -10,11 +10,6 @@ import Blog from "@/components/home/blogCard";
 import whatWeDo from "@/data/what_we_do.json";
 import homePortfolio from "@/data/home_portfolio.json";
 export default function Home() {
-  let logos = Array.from(
-    { length: 55 },
-    (_, i) => "/assets_main/brands/" + i + ".jpg"
-  );
-
   return (
     <div className="">
       <HomeBanner />
@@ -28,7 +23,7 @@ export default function Home() {
           content={item.content}
         />
       ))}
-      <LogoMarquee list={logos} />
+      <LogoMarquee />
       <HomeTestimonial />
 
       <Blog />

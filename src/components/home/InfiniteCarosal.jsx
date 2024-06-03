@@ -1,17 +1,21 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import "../../styles/marque.css";
-const LogoMarquee = ({ list }) => {
+const LogoMarquee = ({}) => {
+  let list = Array.from(
+    { length: 55 },
+    (_, i) => "/assets_main/brands/" + i + ".jpg"
+  );
   return (
     <div
-      className="wow animate fadeInUp bg-white p-6"
+      className="home1-testimonial-section wow animate fadeInUp  p-6"
       data-wow-delay="200ms"
       data-wow-duration="1500ms"
     >
       <div>
         <div className="flex flex-col py-4 ">
           <div className="">
-            <h6 className="text-3xl text-center text-gray-900 font-bold">
+            <h6 className="text-3xl text-center text-white font-bold">
               BRANDS WHO LOVE WORKING WITH US
             </h6>
           </div>
@@ -30,7 +34,7 @@ function MyMarquee({ list }) {
       <ul className={`${"tag-list"} ${"scroller__inner"} text-black`}>
         {[...list, ...list].map((item, index) => (
           <li key={index}>
-            <img className="aspect-auto w-[100px]" src={item} />
+            <img className="aspect-auto w-[100px] mix-blend-multiply bg-red-500" src={item} />
           </li>
         ))}
       </ul>

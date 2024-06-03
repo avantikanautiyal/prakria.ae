@@ -1,17 +1,23 @@
-import { Inter, Hanken_Grotesk, Signika } from "next/font/google";
+import {
+  Inter,
+  Hanken_Grotesk,
+  Signika,
+  Playfair_Display,
+  Rubik,
+} from "next/font/google";
 import "./globals.css";
 
-const inter = Signika({
+const inter = Rubik({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
 });
 
-const signika = Signika({
+const signika = Playfair_Display({
   subsets: ["latin"],
 });
 
-const hankenGrotesk = Signika({
+const hankenGrotesk = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-hankenGrotesk",
   display: "swap",
@@ -25,7 +31,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${signika.className} ${inter.variable} ${hankenGrotesk.variable}`}
+        className={`${signika.className} ${inter.variable} ${hankenGrotesk.variable} dark`}
       >
         {children}
       </body>

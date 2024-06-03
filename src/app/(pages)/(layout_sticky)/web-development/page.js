@@ -1,7 +1,20 @@
 import React from "react";
+import GridMasonry from "@/components/ui/GridMasonry";
+import MeteorCard from "@/components/global/cards/MetiorCard";
+import data_service from "@/data/data_service.json";
+import CardsSection from "@/components/service/CardsSection";
+import HeroseSection from "@/components/service/herosSection";
 
 function Page() {
-  return <div>web-development</div>;
+  const data = data_service["/web-development"];
+
+  return (
+    <div>
+      <GridMasonry random={false} data={data?.content} fill={false} />
+      <CardsSection data={data?.CardsSection} />
+      <HeroseSection data={data?.sub} />
+    </div>
+  );
 }
 
 export default Page;
