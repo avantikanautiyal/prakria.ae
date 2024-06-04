@@ -9,6 +9,10 @@ import ContanctUs from "@/components/home/homeContact";
 import Blog from "@/components/home/blogCard";
 import whatWeDo from "@/data/what_we_do.json";
 import homePortfolio from "@/data/home_portfolio.json";
+export const metadata = {
+  description:
+    "Top Creative Marketing Agency. Prakria: The creative design agency where cutting-edge quality meets lightning-fast delivery",
+};
 export default function Home() {
   return (
     <div className="">
@@ -27,7 +31,6 @@ export default function Home() {
       <HomeTestimonial />
 
       <Blog />
-      {/* <ContanctUs /> */}
     </div>
   );
 }

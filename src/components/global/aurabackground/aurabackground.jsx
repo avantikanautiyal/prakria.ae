@@ -11,7 +11,6 @@ import animation from "@/styles/animation.module.css";
 import { usePathname } from "next/navigation";
 export default function AuraBackgroundSection() {
   const pathname = usePathname();
-  console.log(pathname);
   const service = data?.[pathname];
   return (
     <AuroraBackground className={"pt-[75px] grid"}>
@@ -25,10 +24,10 @@ export default function AuraBackgroundSection() {
         }}
         className="h-full overflow-hidden container relative flex flex-col gap-3 items-center justify-center  px-4 "
       >
-        <div className="text-2xl md:text-6xl font-bold dark:text-white text-center">
+        <h1 className="text-2xl md:text-6xl font-bold dark:text-white text-center">
           {/* Coffee or Beer ? It's on us! */}
           {service?.title}
-        </div>
+        </h1>
         <div className="font-extralight text-md dark:text-neutral-200 py-4 text-center">
           {service?.description}
           {/* Our studio doesn’t have a reception. Just barge in and say Hi! (We

@@ -47,9 +47,7 @@ function GridMasonry({ random = true, data = [], fill = true }) {
     setList(items);
     // setList(li.map((l) => Math.floor(Math.random() * 3) + 1));
   }, []);
-  useEffect(() => {
-    console.log("list", list);
-  }, [list]);
+
   return (
     <div className=" p-4 rounded-lg grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row-dense auto-rows-[150px]">
       {list.map((g, i) => {
@@ -61,7 +59,6 @@ function GridMasonry({ random = true, data = [], fill = true }) {
 
 function GridCard({ item, className, fill }) {
   // src = "/images/3d_cgi.jpg", num = 1
-  console.log("item", item);
   return (
     <div
       className={cn(className, `rounded-lg wow animate zoomIn`)}

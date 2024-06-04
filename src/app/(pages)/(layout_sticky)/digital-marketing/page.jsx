@@ -4,9 +4,15 @@ import MeteorCard from "@/components/global/cards/MetiorCard";
 import data_service from "@/data/data_service.json";
 import CardsSection from "@/components/service/CardsSection";
 import HeroseSection from "@/components/service/herosSection";
-function page() {
+export const metadata = {
+  title: {
+    absolute: "Digital Marketing - Lead the Era of DIGITAL DOMINATION",
+  },
+  description:
+    "In the era that’s growing more &amp; more digital by the day, lead the way with PRAKRIA’s 20+ years of expertise in the creative industry.",
+};
+function Page() {
   const data = data_service["/digital-marketing"];
-  console.log(data.content);
   return (
     <div>
       {/* <img src=""/> */}
@@ -31,4 +37,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

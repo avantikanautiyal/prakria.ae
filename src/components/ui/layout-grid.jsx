@@ -17,7 +17,6 @@ export const LayoutGrid = ({ cards }) => {
     setLastSelected(selected);
     setSelected(null);
   };
-  console.log("card ", cards);
 
   return (
     <div className="flex-grow w-full h-full p-10 grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto gap-4 relative auto-rows-[90px] md:auto-rows-[240px]">

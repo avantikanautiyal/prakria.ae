@@ -3,6 +3,13 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import HomeTestimonial from "@/components/home/ClientTestimonial";
 import LogoMarquee from "@/components/home/InfiniteCarosal";
 
+export const metadata = {
+  title: "About",
+
+  description:
+    "We’ve mastered the wide expanse of the FMCG world, and each day we’re claiming new territory.",
+};
+
 function Page() {
   return (
     <div className="pt-10">

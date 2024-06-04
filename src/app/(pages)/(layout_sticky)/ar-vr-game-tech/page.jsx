@@ -4,6 +4,13 @@ import MeteorCard from "@/components/global/cards/MetiorCard";
 import data_service from "@/data/data_service.json";
 import CardsSection from "@/components/service/CardsSection";
 import HeroseSection from "@/components/service/herosSection";
+export const metadata = {
+  title: {
+    absolute: "AR, VR & Game Tech - Best Game Development Agency in Delhi",
+  },
+  description:
+    "We blend cutting-edge technology with our artistic flair to create mind-blowing AR & VR experiences & games that defy imagination leave the audiences spellbound.",
+};
 function Page() {
   const data = data_service["/ar-vr-game-tech"];
 

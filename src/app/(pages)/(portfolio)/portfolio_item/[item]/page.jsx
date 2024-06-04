@@ -5,7 +5,16 @@ import portfolio_data from "@/data/portfolio.json";
 import GridLayout from "@/components/ui/GridMasonry";
 import MarkDown from "../../markdown";
 
-function Page({ params }) {
+export async function generateMetadata({ params }) {
+  const { item } = params;
+  const data = portfolio_data[item];
+  return {
+    title: {
+      absolute: data?.title,
+    },
+  };
+}
+async function Page({ params }) {
   const { item } = params;
   const data = portfolio_data[item];
   if (!data) notFound();
