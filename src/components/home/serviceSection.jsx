@@ -11,7 +11,7 @@ export default function LayoutGridDemo({
   className,
 }) {
   return (
-    <div className="h-auto w-full bg-black flex flex-col p-10">
+    <div className="h-auto  bg-black flex flex-col p-10 ">
       <h1 className="z-[1000] p-4 sticky flex md:hidden justify-center items-center top-[75px] font-bold bg-gradient-to-b from-black text-center text-4xl uppercase">
         {title}
       </h1>
@@ -38,7 +38,7 @@ export default function LayoutGridDemo({
           ),
         }))}
       />
-      <div className="flex justify-center items-center ">
+      <div className="flex justify-center items-center pt-10">
         <Button variant="outline">
           <Link href={link ?? "#"}>view all</Link>
         </Button>

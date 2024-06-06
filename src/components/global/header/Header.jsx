@@ -129,8 +129,14 @@ const Header1 = () => {
               {/* menu */}
               <div className="sidebar-menu-wrap">
                 <ul className="main-menu">
-                  <MenuItems data={navData[0]} />
-                  <MenuItems data={navData[1]} />
+                  <MenuItems
+                    data={navData[0]}
+                    toggleMenu={toggleRightSidebar}
+                  />
+                  <MenuItems
+                    data={navData[1]}
+                    toggleMenu={toggleRightSidebar}
+                  />
 
                   <li>
                     <Link href="#">{navData[2].label}</Link>
@@ -147,10 +153,18 @@ const Header1 = () => {
                         state.activeMenu === "case-study" ? "d-block" : "d-none"
                       }`}
                     >
-                      {navData[2]?.subMenu.map((item ,index) => (
-                        <li key={index}>
-                          <Link href={item.link}>
+                      {navData[2]?.subMenu.map((item, index) => (
+                        <li
+                          key={index}
+                          className="flex gap-1 p-1"
+                          onClick={toggleRightSidebar}
+                        >
+                          <Link
+                            href={item.link}
+                            className="flex items-center gap-2"
+                          >
                             {item.label}
+
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={10}
@@ -160,11 +174,15 @@ const Header1 = () => {
                               <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                             </svg>
                           </Link>
+                          <div></div>
                         </li>
                       ))}
                     </ul>
                   </li>
-                  <MenuItems data={navData[3]} />
+                  <MenuItems
+                    data={navData[3]}
+                    toggleMenu={toggleRightSidebar}
+                  />
                 </ul>
               </div>
             </div>
@@ -296,7 +314,7 @@ const Header1 = () => {
           </div>
           <div className="main-menu d-lg-flex d-none">
             <ul className="menu-list">
-              {navData.map((data , index) => {
+              {navData.map((data, index) => {
                 const { id, label, link, icon, subMenu } = data;
                 return (
                   <li
@@ -418,7 +436,12 @@ const Header1 = () => {
 function MenuItems({ data, toggleMenu, state }) {
   return (
     <>
-      <li>
+      <li
+        onClick={() => {
+          console.log("am clicked");
+          toggleMenu?.();
+        }}
+      >
         <Link href={data.link}>{data.label}</Link>
       </li>
     </>
