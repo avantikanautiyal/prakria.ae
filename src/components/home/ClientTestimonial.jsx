@@ -101,9 +101,9 @@ const Home1Testimonial = () => {
                     {/* Happy Client Stories */}
                   </h2>
                   <p>
-                    These voices echo the confidence and satisfaction of clients
+                    {`These voices echo the confidence and satisfaction of clients
                     who've witnessed firsthand the impact of our solutions. At
-                    PRAKRIA, our clients aren't just partners.
+                    PRAKRIA, our clients aren't just partners.`}
                   </p>
                 </div>
                 {/* <ul className="rating-area">

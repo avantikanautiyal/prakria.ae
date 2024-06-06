@@ -12,10 +12,10 @@ export default function NotFound() {
             <h1>404</h1>
             <h3>Error</h3>
             <p>
-              Apologies, it seems like you've encountered an error page. We
+              {`Apologies, it seems like you've encountered an error page. We
               regret any inconvenience this may have caused. Our technical team
               has been notified and is actively working to resolve the issue
-              promptly.
+              promptly.`}
             </p>
             <div className="star-btn">
               <Link href="/">
