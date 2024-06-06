@@ -15,7 +15,9 @@ function Page() {
 
   return (
     <div>
-      <GridMasonry random={false} data={data?.content} />
+      <div className="px-4">
+        <GridMasonry random={false} data={data?.content} />
+      </div>
       {/* <CardsSection data={data?.CardsSection} /> */}
       <HeroseSection data={data?.sub} />
     </div>

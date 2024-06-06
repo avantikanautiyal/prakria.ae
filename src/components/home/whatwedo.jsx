@@ -94,7 +94,7 @@ const ContentCard = ({ item, onActive, index }) => {
   return (
     <div
       ref={ref}
-      className="flex flex-col gap-6  h-[450px] md:h-[500px] max-w-[500px] min-w-[200px] justify-center"
+      className="flex flex-col gap-6 min-h-[250px] md:h-[450px] max-w-[500px] min-w-[200px] justify-center"
     >
       <h2
         className={`text-3xl font-bold capitalize transition-all duration-300 ${

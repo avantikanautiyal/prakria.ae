@@ -12,7 +12,7 @@ export default function LayoutGridDemo({
 }) {
   return (
     <div className="h-auto  bg-black flex flex-col p-10 ">
-      <h1 className="z-[1000] p-4 sticky flex md:hidden justify-center items-center top-[75px] font-bold bg-gradient-to-b from-black text-center text-4xl uppercase">
+      <h1 className="z-[1000] p-0 md:p-4 sticky flex md:hidden justify-center items-center top-[75px] font-bold bg-gradient-to-b from-black text-center text-4xl uppercase">
         {title}
       </h1>
       <div className="  p-6 gap-3 flex flex-col text-neutral-200">
@@ -26,6 +26,7 @@ export default function LayoutGridDemo({
           sequi quasi? Debitis, quisquam.
         </p>
       </div>
+
       <LayoutGrid
         cards={content?.map((card) => ({
           ...card,
@@ -38,6 +39,7 @@ export default function LayoutGridDemo({
           ),
         }))}
       />
+
       <div className="flex justify-center items-center pt-10">
         <Button variant="outline">
           <Link href={link ?? "#"}>view all</Link>

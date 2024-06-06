@@ -31,9 +31,10 @@ async function Page({ params }) {
           />
         </div>
       </div>
-      <div id="main" className="sticky z-10 bg-black p-10  ">
+
+      <div id="main" className="sticky z-10 bg-black p-0 md:p-10  ">
         <div className="container flex flex-col gap-4">
-          <div className="p-4">
+          <div className="py-4 md:p-4">
             <MarkDown content={data.markdown} />
           </div>
 
@@ -51,6 +52,7 @@ async function Page({ params }) {
         </div>
         {/* GRID LAYOUT HERE */}
       </div>
+      
     </div>
   );
 }
