@@ -886,5 +886,11 @@
                 }
             ]
         }
+    },
+    "/privacy-policy": {
+        "title": "privacy policy"
+    },
+    "/disclaimer": {
+        "title": "Disclaimer"
     }
 }

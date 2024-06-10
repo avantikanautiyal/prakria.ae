@@ -12,7 +12,7 @@ import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
-const Home1Testimonial = () => {
+const Home1Testimonial = ({ style }) => {
   const settings = useMemo(() => {
     return {
       slidesPerView: "auto",
@@ -63,7 +63,12 @@ const Home1Testimonial = () => {
   }, []);
   return (
     <>
-      <div className="home1-testimonial-section two mb-110 ">
+      <div
+        className="home1-testimonial-section two mb-110 "
+        style={{
+          ...style,
+        }}
+      >
         <div className="container-fluid">
           <div className="row g-lg-4 gy-5">
             <div

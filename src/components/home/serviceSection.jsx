@@ -41,9 +41,13 @@ export default function LayoutGridDemo({
       />
 
       <div className="flex justify-center items-center pt-10">
-        <Button variant="outline">
+        <button
+          className="primary-btn2 capitalize"
+          type="submit"
+          data-text="View all"
+        >
           <Link href={link ?? "#"}>view all</Link>
-        </Button>
+        </button>
       </div>
     </div>
   );
@@ -98,42 +102,3 @@ const SkeletonFour = () => {
     </div>
   );
 };
-
-// const cards = [
-//   {
-//     id: 1,
-//     content: <SkeletonOne />,
-//     className: "md:col-span-2",
-//     thumbnail: "/images/digital_marketing.jpg",
-//   },
-//   {
-//     id: 2,
-//     content: <SkeletonTwo />,
-//     className: "col-span-1",
-//     thumbnail: "/images/digital_marketing.jpg",
-//   },
-//   {
-//     id: 3,
-//     content: <SkeletonThree />,
-//     className: "col-span-1",
-//     thumbnail: "/images/digital_marketing.jpg",
-//   },
-//   {
-//     id: 4,
-//     content: <SkeletonFour />,
-//     className: "md:col-span-2",
-//     thumbnail: "/images/digital_marketing.jpg",
-//   },
-//   // {
-//   //   id: 4,
-//   //   content: <SkeletonFour />,
-//   //   className: "md:col-span-2",
-//   //   thumbnail: "/images/digital_marketing.jpg",
-//   // },
-//   // {
-//   //   id: 77,
-//   //   content: <SkeletonFour />,
-//   //   className: "md:col-span-1 ",
-//   //   thumbnail: "/images/digital_marketing.jpg",
-//   // },
-// ];

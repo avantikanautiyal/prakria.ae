@@ -13,8 +13,8 @@ export const metadata = {
 function Page() {
   return (
     <div className="pt-10">
-      <div className="p-4 flex gap-4 container">
-        <div>
+      <div className="p-4 grid gap-4 container grid-cols-1 md:grid-cols-2">
+        <div className="">
           <span className="sub-title5 two">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -58,12 +58,18 @@ We are big enough to incubate some of the most innovative ideas and small enough
           />
         </div>
 
-        <div className="hidden md:block sticky top-[86px]  rounded-lg overflow-hidden h-fit">
+        <div className="flex-grow hidden md:block sticky top-[86px]  rounded-lg overflow-hidden h-fit">
           <img src="/assets_main/about1.jpeg" />
         </div>
       </div>
       <LogoMarquee />
-      <HomeTestimonial />
+      <HomeTestimonial
+        style={{
+          paddingBottom: "0px",
+          backgroundImage:
+            "url(../img/home1/testimonial-bg.png), linear-gradient(180deg, #000 0%, #000 100%)",
+        }}
+      />
     </div>
   );
 }

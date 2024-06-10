@@ -14,10 +14,12 @@ export const LayoutGrid = ({ cards }) => {
   };
 
   const handleOutsideClick = () => {
+
     setLastSelected(selected);
     setSelected(null);
-  };
 
+  };
+  
   return (
     <div className=" flex-grow w-full h-full p-0 md:p-10 grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto gap-4 relative auto-rows-[200px] md:auto-rows-[240px]">
       {cards.map((card, i) => (
