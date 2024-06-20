@@ -14,18 +14,37 @@ export const LayoutGrid = ({ cards }) => {
   };
 
   const handleOutsideClick = () => {
-
     setLastSelected(selected);
     setSelected(null);
-
   };
-  
+
+  // useEffect(() => {
+  //   console.log("handle scroll");
+  //   const handleScroll = () => {
+  //     console.log("scroll");
+  //     setLastSelected(null);
+  //     setSelected(null);
+  //     // Add your scroll handling logic here
+  //   };
+
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
+
   return (
-    <div className=" flex-grow w-full h-full p-0 md:p-10 grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto gap-4 relative auto-rows-[200px] md:auto-rows-[240px]">
+    <div
+      onMouseLeave={() => handleOutsideClick()}
+      className="flex-grow w-full h-full p-0 md:p-10 grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto gap-4 relative auto-rows-[200px] md:auto-rows-[240px]"
+    >
       {cards.map((card, i) => (
         <div key={i} className={cn(card.className, "")}>
           <motion.div
-            onClick={() => handleClick(card)}
+            onMouseEnter={() => handleClick(card)}
+            // onHover={handleClick(card)}
+            // onClick={() => handleClick(card)}
             className={cn(
               card.className,
               "relative overflow-hidden",

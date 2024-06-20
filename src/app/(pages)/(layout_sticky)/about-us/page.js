@@ -58,7 +58,7 @@ We are big enough to incubate some of the most innovative ideas and small enough
           />
         </div>
 
-        <div className="flex-grow hidden md:block sticky top-[86px]  rounded-lg overflow-hidden h-fit">
+        <div className=" flex-grow hidden md:flex sticky top-[86px]  rounded-lg overflow-hidden  justify-center items-center">
           <img src="/assets_main/about1.jpeg" />
         </div>
       </div>

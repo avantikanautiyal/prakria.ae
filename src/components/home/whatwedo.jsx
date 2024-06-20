@@ -13,10 +13,10 @@ function Whatwedo({ content }) {
   };
   return (
     <div className="bg-black py-6">
-      <div className=" sticky top-[75px] bg-gradient-to-b from-black p-6 z-10">
+      <div className="  top-[75px] bg-gradient-to-b from-black p-6 z-10">
         <h1 className="font-bold text-center text-4xl uppercase">what we Do</h1>
       </div>
-      <div className=" flex  justify-center gap-6">
+      <div className=" flex  justify-center gap-6 ">
         <div className=" p-4 flex items-center flex-col grow md:w-auto">
           {content.map((item, index) => {
             return (
@@ -31,8 +31,8 @@ function Whatwedo({ content }) {
             );
           })}
         </div>
-        <div className="p-10 hidden md:block">
-          <div className=" sticky lg:top-[150px] md:top-[200px] md:w-[100%] md:h-[400px] max-w-[600px]    overflow-hidden">
+        <div className="p-10 hidden md:flex justify-center items-center sticky top-[85px] max-h-[calc(100dvh-85px)]">
+          <div className="  lg:top-[150px] md:top-[200px] md:w-[100%] md:h-[400px] max-w-[600px]    overflow-hidden">
             <AnimatePresence>
               {!(activeIndex === null) && (
                 <motion.div

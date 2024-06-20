@@ -41,13 +41,15 @@ export default function LayoutGridDemo({
       />
 
       <div className="flex justify-center items-center pt-10">
-        <button
-          className="primary-btn2 capitalize"
-          type="submit"
-          data-text="View all"
-        >
-          <Link href={link ?? "#"}>view all</Link>
-        </button>
+        <Link href={link ?? "#"}>
+          <button
+            className="primary-btn2 capitalize"
+            type="submit"
+            data-text="View all"
+          >
+            view all
+          </button>
+        </Link>
       </div>
     </div>
   );
