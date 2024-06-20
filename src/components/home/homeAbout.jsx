@@ -43,23 +43,21 @@ const Home1About = () => {
                     </svg>
                   </span>
                   <h3 className="text-4xl">
-                    {
-                      "We are PRAKRIA the creative design agency where cutting-edge quality meets lightning-fast delivery!"
-                    }
+                    {`CATAPULT YOUR BRAND TO THE NEXT LEVEL`}
                   </h3>
                   <p>
-                    {`Not your average design agency – we’ve mastered the wide
-                    expanse of the FMCG world, and each day we’re claiming new
-                    territory. Need a stunning logo, a jaw-dropping 3D product
-                    design, or an innovative AR Filter developed? Our in-house
-                    360-degree creative powerhouse has got you covered with
-                    unmatched speed and great quality. Our team of design
-                    superheroes work tirelessly, crafting high-quality,
-                    pixel-perfect designs that will make your competitors green
-                    with envy. We believe in pushing boundaries and defying the
-                    ticking clock, because who says you can’t have brilliant
-                    designs in record time? Join the fast lane with PRAKRIA,
-                    where extraordinary designs are the new normal.`}
+                    {`We are not your average agency. We specialize in creating
+                    amazing experiences that set any event or brand out from the
+                    crowd. Need a magnificent logo, a jaw-dropping 3D product
+                    design, or an innovative AR filter created? Our in-house
+                    360-degree creative powerhouse has you covered with
+                    unrivaled speed and quality. Our team of design superheroes
+                    works diligently to create high-quality, pixel-perfect
+                    designs that will leave your competitors green with envy. We
+                    believe in pushing the envelope and defying the clock, since
+                    who says you can't create beautiful designs in record time?
+                    Join the fast lane with PRAKRIA, where astonishing designs
+                    are the new norm.`}
                   </p>
                 </div>
               </div>
