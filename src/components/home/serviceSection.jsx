@@ -16,15 +16,30 @@ export default function LayoutGridDemo({
         {title}
       </h1>
       <div className="  p-6 gap-3 flex flex-col text-neutral-200">
-        <h1 className=" md:flex hidden font-bold justify-center items-center text-center text-4xl uppercase">
-          {title}
-        </h1>
-        <p className="flex justify-center items-center text-center text-base">
+        <div className="container">
+        <div className="d-flex justify-content-between">
+          <h1 className=" md:flex hidden font-bold justify-center items-center text-center text-4xl uppercase">
+            {title}
+          </h1>
+          <Link href={link ?? "#"}>
+            <button
+              className="primary-btn2 capitalize"
+              type="submit"
+              data-text="View all"
+            >
+              view all
+            </button>
+          </Link>
+        </div>
+        </div>
+       
+
+        {/* <p className="flex justify-center items-center text-center text-base">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
           quam laborum, illo incidunt odit placeat commodi quidem libero
           laudantium magni, exercitationem dolores ea provident, dolorum modi
           sequi quasi? Debitis, quisquam.
-        </p>
+        </p> */}
       </div>
 
       <LayoutGrid
@@ -39,7 +54,7 @@ export default function LayoutGridDemo({
           ),
         }))}
       />
-
+{/* 
       <div className="flex justify-center items-center pt-10">
         <Link href={link ?? "#"}>
           <button
@@ -50,7 +65,7 @@ export default function LayoutGridDemo({
             view all
           </button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }

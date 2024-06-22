@@ -8,8 +8,8 @@ const Footer2 = () => {
       <footer className="footer-section style-2">
         <div className="container">
           <div className="footer-top">
-            <div className=" gap-5 row g-lg-4 gy-5 justify-content-center">
-              <div className="col-lg-4 col-md-8 col-sm-6">
+            <div className="  row g-lg-4 gy-5 justify-content-center">
+              <div className="col-lg-3 col-md-8 col-sm-6">
                 <div className="footer-widget">
                   <div className="footer-logo">
                     <Link href="/index2" className="logo-dark">
@@ -28,37 +28,21 @@ const Footer2 = () => {
                   </div>
                   <ul className="rating-area">
                     <li className="social-area">
-                      <h6>Social Just You Connected Us!</h6>
                       <ul className="social-list">
                         <li>
-                          <a href="https://www.linkedin.com/">
+                          <a target="_blank" href="https://in.linkedin.com/company/prakriauklimited">
                             <i className="bi bi-linkedin" />
                             <span>LinkedIn</span>
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.facebook.com/">
+                          <a target="_blank" href="https://www.facebook.com/prakria/">
                             <i className="bi bi-facebook" />
                             <span>Facebook</span>
                           </a>
                         </li>
                         <li>
-                          <a href="https://twitter.com/">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={18}
-                              height={18}
-                              fill="currentColor"
-                              className="bi bi-twitter-x"
-                              viewBox="0 0 16 16"
-                            >
-                              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                            </svg>
-                            <span>Twitter</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://www.instagram.com/">
+                          <a target="_blank" href="https://www.instagram.com/prakria/">
                             <i className="bi bi-instagram" />
                             <span>Instagram</span>
                           </a>
@@ -116,7 +100,7 @@ const Footer2 = () => {
               </div>
               <div className="content">
                 <span>Address</span>
-                <h6 className="max-w-[300px]">
+                <h6 className="max-w-[400px]">
                   <a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">
                     902, Aggarwal Corporate Heights, Netaji Subhash Place,
                     Pitampura, Delhi 110034
@@ -159,21 +143,8 @@ const Footer2 = () => {
             }}
           >
             <div className=" copyright-area">
-              <p>© 2024 PRAKRIA</p>
+              <p>© 2023 PRAKRIA | All Rights Reserved</p>
             </div>
-            {/* <div className="footer-bottom-right">
-              <ul>
-                <li>
-                  <a href="#">Support Policy</a>
-                </li>
-                <li>
-                  <a href="#">Terms &amp; Conditions</a>
-                </li>
-                <li>
-                  <a href="#">Privacy Policy</a>
-                </li>
-              </ul>
-            </div> */}
           </div>
         </div>
       </footer>
@@ -183,7 +154,7 @@ const Footer2 = () => {
 
 function FooterLinks({ title = "", links = [] }) {
   return (
-    <div className="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-lg-center justify-content-sm-end">
+    <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-lg-center justify-content-sm-end">
       <div className="footer-widget">
         <div className="widget-title">
           <h4>{title}</h4>
@@ -195,21 +166,6 @@ function FooterLinks({ title = "", links = [] }) {
                 <Link href={link.link}>{link.label}</Link>
               </li>
             ))}
-            {/* <li>
-              <Link href="/service-details">Search Engine</Link>
-            </li>
-            <li>
-              <Link href="/service-details">Paid Search</Link>
-            </li>
-            <li>
-              <Link href="/service-details">Social Media</Link>
-            </li>
-            <li>
-              <Link href="/service-details">Email Marketing</Link>
-            </li>
-            <li>
-              <Link href="/service-details">Content Marketing</Link>
-            </li> */}
           </ul>
         </div>
       </div>

@@ -18,6 +18,7 @@ export default function Home() {
     <div className="">
       <HomeBanner />
       <Home1About />
+      <LogoMarquee />
       <WhatWeDo content={whatWeDo} />
       {homePortfolio.map((item, index) => (
         <ServiceSection
@@ -27,7 +28,7 @@ export default function Home() {
           content={item.content}
         />
       ))}
-      <LogoMarquee />
+      
       <HomeTestimonial />
 
       <Blog />

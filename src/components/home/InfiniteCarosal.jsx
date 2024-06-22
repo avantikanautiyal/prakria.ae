@@ -7,34 +7,22 @@ const LogoMarquee = ({}) => {
     (_, i) => "/assets_main/brands/" + i + ".jpg"
   );
   return (
-    <div
-      className="home1-testimonial-section wow animate fadeInUp  p-6"
-      data-wow-delay="200ms"
-      data-wow-duration="1500ms"
-    >
-      <div>
-        <div className="flex flex-col py-4 ">
-          <div className="">
-            <h6 className="text-3xl text-center text-white font-bold">
-              BRANDS WHO LOVE WORKING WITH US
-            </h6>
-          </div>
-          <div className="flex flex-col justify-center items-center">
-            <MyMarquee list={list} />
-          </div>
-        </div>
-      </div>
+    <div>
+      <MyMarquee list={list} />
     </div>
   );
 };
 
 function MyMarquee({ list }) {
   return (
-    <div className={"scroller  m-auto"} data-speed="slow" data-animated="true">
+    <div className={"scroller   mb-30"}  data-speed="slow" data-animated="true">
       <ul className={`${"tag-list"} ${"scroller__inner"} text-black`}>
         {[...list, ...list].map((item, index) => (
           <li key={index}>
-            <img className="aspect-auto w-[100px] mix-blend-multiply bg-red-500" src={item} />
+            <img
+              className="rounded-full aspect-auto w-[100px] mix-blend-multiply bg-red-500"
+              src={item}
+            />
           </li>
         ))}
       </ul>

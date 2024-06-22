@@ -12,106 +12,213 @@ function Whatwedo({ content }) {
     exit: { opacity: 0 },
   };
   return (
-    <div className="bg-black py-6">
-      <div className="  top-[75px] bg-gradient-to-b from-black p-6 z-10">
-        <h1 className="font-bold text-center text-4xl uppercase">what we Do</h1>
-      </div>
-      <div className=" flex  justify-center gap-6 ">
-        <div className=" p-4 flex items-center flex-col grow md:w-auto">
-          {content.map((item, index) => {
-            return (
-              <ContentCard
-                key={index}
-                item={item}
-                index={index}
-                onActive={(cont) => {
-                  setActiveIndex(cont);
-                }}
-              />
-            );
-          })}
-        </div>
-        <div className="p-10 hidden md:flex justify-center items-center sticky top-[85px] max-h-[calc(100dvh-85px)]">
-          <div className="  lg:top-[150px] md:top-[200px] md:w-[100%] md:h-[400px] max-w-[600px]    overflow-hidden">
-            <AnimatePresence>
-              {!(activeIndex === null) && (
-                <motion.div
-                  ref={ref}
-                  initial="hidden"
-                  animate="visible"
-                  exit="exit"
-                  variants={variants}
-                  transition={{ duration: 0.5 }}
-                  className="flex flex-col gap-6"
-                >
-                  <img
-                    src={content?.[activeIndex]?.src}
-                    className="w-full h-full rounded-md"
-                  />
-                  {/* {content?.[activeIndex]?.content} */}
-                </motion.div>
-              )}
-            </AnimatePresence>
+    <div
+      className="home4-banner-section"
+      style={{
+        background:
+          "url(https://zenfy-next-js.vercel.app/_next/static/media/home4-banner-bg-dark.9899db56.png)",
+        padding: "100px 0px",
+      }}
+    >
+      <div className="container">
+        <h1 className="font-bold text-center mb-5 text-4xl uppercase">
+          What we Do
+        </h1>
+        <div className="row g-4">
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <div className="about-feature-card two">
+              <div className="icon d-flex justify-content-center">
+                <img
+                  className="rounded-sm"
+                  src="/images/digital_marketing.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="content">
+                <h4>DIGITAL MARKETING</h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <div className="about-feature-card two">
+              <div className="icon d-flex justify-content-center">
+                <img
+                  className="rounded-sm"
+                  src="/images/packaging.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="content">
+                <h4>PACKAGING DESIGN</h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <div className="about-feature-card two">
+              <div className="icon d-flex justify-content-center">
+                <img className="rounded-sm" src="/images/branding.jpg" alt="" />
+              </div>
+              <div className="content">
+                <h4>BRANDING</h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <div className="about-feature-card two">
+              <div className="icon d-flex justify-content-center">
+                <img
+                  className="rounded-sm"
+                  src="/images/print_media.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="content">
+                <h4>PRINT MEDIA</h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <div className="about-feature-card two">
+              <div className="icon d-flex justify-content-center">
+                <img className="rounded-sm" src="/images/3d_cgi.jpg" alt="" />
+              </div>
+              <div className="content">
+                <h4>3D & CGI</h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <div className="about-feature-card two">
+              <div className="icon d-flex justify-content-center">
+                <img className="rounded-sm" src="/images/ar_vr.jpg" alt="" />
+              </div>
+              <div className="content">
+                <h4>AR, VR & GAME TECH</h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <div className="about-feature-card two">
+              <div className="icon d-flex justify-content-center">
+                <img
+                  className="rounded-sm"
+                  src="/images/film_animation.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="content">
+                <h4>FILMS, ANIMATION & VFX</h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <div className="about-feature-card two">
+              <div className="icon d-flex justify-content-center">
+                <img
+                  className="rounded-sm"
+                  src="/images/illustration.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="content">
+                <h4>ILLUSTRATION</h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <div className="about-feature-card two">
+              <div className="icon d-flex justify-content-center">
+                <img className="rounded-sm" src="/images/web_dev.jpg" alt="" />
+              </div>
+              <div className="content">
+                <h4>WEB DEVELOPMENT</h4>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
-const ContentCard = ({ item, onActive, index }) => {
-  const ref = useRef(null);
-  const [active, setActive] = useState(false);
-
-  useEffect(() => {
-    const checkMiddleContainer = () => {
-      const windowHeight = window.innerHeight;
-
-      if (ref.current) {
-        const { top, bottom } = ref.current.getBoundingClientRect();
-        if (top < windowHeight / 2 && bottom > windowHeight / 2) {
-          setActive(true);
-          onActive?.(index);
-        } else {
-          //   onActive?.(null);
-
-          setActive(false);
-        }
-      }
-    };
-
-    window.addEventListener("scroll", checkMiddleContainer);
-    window.addEventListener("resize", checkMiddleContainer);
-
-    // Initial check
-    checkMiddleContainer();
-
-    return () => {
-      window.removeEventListener("scroll", checkMiddleContainer);
-      window.removeEventListener("resize", checkMiddleContainer);
-    };
-  }, []);
-  return (
-    <div
-      ref={ref}
-      className="flex flex-col gap-6 min-h-[250px] md:h-[450px] max-w-[500px] min-w-[200px] justify-center"
-    >
-      <h2
-        className={`text-3xl font-bold capitalize transition-all duration-300 ${
-          active ? "text-current" : "text-gray-600"
-        }`}
-      >
-        <Link href={item.link ?? "#"}>{item.title}</Link>
-      </h2>
-      <p
-        className={`text-pretty transition-all duration-300  ${
-          active ? "text-current" : "text-gray-600"
-        }`}
-      >
-        {item.description}
-      </p>
-    </div>
-  );
-};
-
 export default Whatwedo;

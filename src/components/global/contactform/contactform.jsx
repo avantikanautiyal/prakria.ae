@@ -92,8 +92,9 @@ function ContactForm() {
         <div className="row">
           <div className="col-lg-6 mb-20">
             <div className="form-inner">
-              <label>Full Name</label>
+              {/* <label>Full Name</label> */}
               <input
+              placeholder="Full Name"
                 type="text"
                 name="fullname"
                 required
@@ -103,8 +104,9 @@ function ContactForm() {
           </div>
           <div className="col-lg-6 mb-20">
             <div className="form-inner">
-              <label>Company / Organization *</label>
+              {/* <label>Company / Organization *</label> */}
               <input
+              placeholder="Company / Organization *"
                 type="text"
                 name="organisation"
                 onChange={(e) =>
@@ -115,8 +117,9 @@ function ContactForm() {
           </div>
           <div className="col-lg-6 mb-20">
             <div className="form-inner">
-              <label>Phone *</label>
+              {/* <label>Phone *</label> */}
               <input
+              placeholder="Phone"
                 type="text"
                 name="phone"
                 onChange={(e) => setField({ ...field, phone: e.target.value })}
@@ -125,9 +128,10 @@ function ContactForm() {
           </div>
           <div className="col-lg-6 mb-20">
             <div className="form-inner">
-              <label>Company email *</label>
+              {/* <label>Company email *</label> */}
               <input
                 type="email"
+                placeholder="Company email *"
                 name="email"
                 onChange={(e) => setField({ ...field, email: e.target.value })}
               />
@@ -135,9 +139,10 @@ function ContactForm() {
           </div>
           <div className="col-lg-12 mb-20">
             <div className="form-inner">
-              <label>Your Subject *</label>
+              {/* <label>Your Subject *</label> */}
               <input
                 type="text"
+                placeholder="Your Subject *"
                 name="subject"
                 onChange={(e) =>
                   setField({ ...field, subject: e.target.value })
@@ -147,8 +152,9 @@ function ContactForm() {
           </div>
           <div className="col-lg-12 mb-30">
             <div className="form-inner">
-              <label>Message *</label>
+              {/* <label>Message *</label> */}
               <textarea
+              placeholder="Message *"
                 defaultValue={""}
                 name="message"
                 onChange={(e) =>
