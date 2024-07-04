@@ -1,10 +1,25 @@
 "use client";
 import React, { useEffect } from "react";
-import useWow from "@/hooks/useWow";
+import "../../../public/assets/css/bootstrap-icons.css";
+import "../../../public/assets/css/boxicons.min.css";
+import "../../../public/assets/css/swiper-bundle.min.css";
+// import "react-modal-video/css/modal-video.css";
+import "../../../public/assets/css/slick-theme.css";
+import "../../../public/assets/css/animate.min.css";
+import "../../../public/assets/css/slick.css";
+import "../../../public/assets/css/bootstrap-datetimepicker.min.css";
+// import "react-datepicker/dist/react-datepicker.css";
+import "../../../public/assets/css/bootstrap.min.css";
+import "yet-another-react-lightbox/styles.css";
+import "../../../public/assets/css/style.css";
+
+// import useWow from "@/hooks/useWow";
+import useWow from "../../hooks/useWow";
 // import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Header1 from "@/components/global/header/Header";
 import Footer from "@/components/global/header/Footer";
 import ThemeSwitch from "@/components/global/theme";
+import ContactUs from "@/components/home/homeContact";
 
 function ClientLayout({ children }) {
   useWow();
@@ -17,6 +32,7 @@ function ClientLayout({ children }) {
       <div className="min-h-screen">
         <Header1 />
         {children}
+        <ContactUs />
         <Footer />
       </div>
     </div>

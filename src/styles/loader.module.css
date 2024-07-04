@@ -1,0 +1,58 @@
+.smart-glass {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 288px;
+    height: 388px;
+}
+
+.logo {
+    width: 288px;
+    height: 288px;
+    position: relative;
+}
+
+.circle {
+    padding: 20px;
+    border: 6px solid transparent;
+    border-top-color: #bf57ff;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    animation: connect 2.5s linear infinite;
+}
+
+.xbox {
+    background: #FFF;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.loading-text {
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+
+@keyframes connect {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}

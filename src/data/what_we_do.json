@@ -1,0 +1,56 @@
+[
+    {
+        "title": "DIGITAL MARKETING",
+        "description": "Significantly boost your business by increasing online visibility, attracting more leads, and converting those leads into customers.",
+        "link": "/digital-marketing",
+        "src": "/assets_main/services/digital_marketing.jpg"
+    },
+    {
+        "title": "PACKAGING DESIGN",
+        "description": "The packaging is usually what you touch first, rather than the product itself. From a user experience standpoint, packaging symbolizes your product on multiple levels and is the first engagement your customers have with it. From a marketing standpoint, packaging design is a representation of your brand.",
+        "link": "/packaging-design",
+        "src": "/assets_main/services/packaging_design.jpg"
+    },
+    {
+        "title": "BRANDING",
+        "description": "Create a distinct identity for a business in the minds of your target audience and the general population. We have you sorted, from your name and logo, visual identity design, mission, values, and tone of voice.",
+        "link": "/branding",
+        "src": "/assets_main/services/branding.jpg"
+    },
+    {
+        "title": "PRINT MEDIA",
+        "description": "Print Media is the most impactful and compelling medium, and it has maintained its position as the pioneer thus far. We have all of the resources needed to unlock and leverage its endless potential for your benefit. ",
+        "link": "/print-media",
+        "src": "/assets_main/services/print_media.jpg"
+    },
+    {
+        "title": "3D & CGI",
+        "description": "We have expanded our creative services with 3D and CGI. Set your brand apart with state-of-the-art 3D images and CGI animations.",
+        "src": "/assets_main/services/3d.jpg",
+        "link": "/3d-cgi"
+    },
+    {
+        "title": "AR, VR & GAME TECH",
+        "description": "AR & VR are new technologies that are quickly gaining traction in the game business. AR combines digital content with the actual world, whereas VR entirely immerses viewers in a simulated environment. AR/VR games can be more entertaining than traditional games because they allow players to interact with the game environment in a more immersive manner.",
+        "src": "/assets_main/services/ar_vr.jpg",
+        "link": "/ar-vr-game-tech"
+    },
+    {
+        "title": "FILMS, ANIMATION & VFX",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "src": "/assets_main/services/film.jpg",
+        "link": "/films-animation-vfx"
+    },
+    {
+        "title": "ILLUSTRATION",
+        "description": "Animation and VFX are two booming streams of the entertainment industry. We offer the best-in-class VFX and animation for films. Animation focuses on computer animated movies or games. VFX uses software and specific techniques to create visual effects.",
+        "src": "/assets_main/services/illustration.jpg",
+        "link": "/illustration"
+    },
+    {
+        "title": "WEB DEVELOPMENT",
+        "description": "We offer our full end-to-end support in creating, building, and maintaining your websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.",
+        "src": "/assets_main/services/web_development.jpg",
+        "link": "/web-development"
+    }
+]

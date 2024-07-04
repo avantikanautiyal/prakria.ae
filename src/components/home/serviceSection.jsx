@@ -4,23 +4,44 @@ import { LayoutGrid } from "../ui/layout-grid";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-export default function LayoutGridDemo({ title, content = [], className }) {
+export default function LayoutGridDemo({
+  title,
+  link,
+  content = [],
+  className,
+}) {
   return (
-    <div className="h-auto w-full bg-black flex flex-col p-10">
-      <h1 className="z-[1000] p-4 sticky flex md:hidden justify-center items-center top-[75px] font-bold bg-gradient-to-b from-black text-center text-4xl uppercase">
+    <div className="h-auto  bg-black flex flex-col p-10 ">
+      <h1 className="z-[1000] p-0 md:p-4 sticky flex md:hidden justify-center items-center top-[75px] font-bold bg-gradient-to-b from-black text-center text-4xl uppercase">
         {title}
       </h1>
       <div className="  p-6 gap-3 flex flex-col text-neutral-200">
-        <h1 className=" md:flex hidden font-bold justify-center items-center text-center text-4xl uppercase">
-          {title}
-        </h1>
-        <p className="flex justify-center items-center text-center text-base">
+        <div className="container">
+        <div className="d-flex justify-content-between">
+          <h1 className=" md:flex hidden font-bold justify-center items-center text-center text-4xl uppercase">
+            {title}
+          </h1>
+          <Link href={link ?? "#"}>
+            <button
+              className="primary-btn2 capitalize"
+              type="submit"
+              data-text="View all"
+            >
+              view all
+            </button>
+          </Link>
+        </div>
+        </div>
+       
+
+        {/* <p className="flex justify-center items-center text-center text-base">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
           quam laborum, illo incidunt odit placeat commodi quidem libero
           laudantium magni, exercitationem dolores ea provident, dolorum modi
           sequi quasi? Debitis, quisquam.
-        </p>
+        </p> */}
       </div>
+
       <LayoutGrid
         cards={content?.map((card) => ({
           ...card,
@@ -33,11 +54,18 @@ export default function LayoutGridDemo({ title, content = [], className }) {
           ),
         }))}
       />
-      <div className="flex justify-center items-center ">
-        <Button variant="outline">
-          <Link href="/services">view all</Link>
-        </Button>
-      </div>
+{/* 
+      <div className="flex justify-center items-center pt-10">
+        <Link href={link ?? "#"}>
+          <button
+            className="primary-btn2 capitalize"
+            type="submit"
+            data-text="View all"
+          >
+            view all
+          </button>
+        </Link>
+      </div> */}
     </div>
   );
 }
@@ -91,42 +119,3 @@ const SkeletonFour = () => {
     </div>
   );
 };
-
-// const cards = [
-//   {
-//     id: 1,
-//     content: <SkeletonOne />,
-//     className: "md:col-span-2",
-//     thumbnail: "/images/digital_marketing.jpg",
-//   },
-//   {
-//     id: 2,
-//     content: <SkeletonTwo />,
-//     className: "col-span-1",
-//     thumbnail: "/images/digital_marketing.jpg",
-//   },
-//   {
-//     id: 3,
-//     content: <SkeletonThree />,
-//     className: "col-span-1",
-//     thumbnail: "/images/digital_marketing.jpg",
-//   },
-//   {
-//     id: 4,
-//     content: <SkeletonFour />,
-//     className: "md:col-span-2",
-//     thumbnail: "/images/digital_marketing.jpg",
-//   },
-//   // {
-//   //   id: 4,
-//   //   content: <SkeletonFour />,
-//   //   className: "md:col-span-2",
-//   //   thumbnail: "/images/digital_marketing.jpg",
-//   // },
-//   // {
-//   //   id: 77,
-//   //   content: <SkeletonFour />,
-//   //   className: "md:col-span-1 ",
-//   //   thumbnail: "/images/digital_marketing.jpg",
-//   // },
-// ];

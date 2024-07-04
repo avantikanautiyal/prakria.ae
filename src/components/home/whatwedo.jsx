@@ -1,137 +1,250 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import Link from "next/link";
 
-function Whatwedo({}) {
-  const [activeIndex, setActiveIndex] = useState(null);
+function Whatwedo({ content }) {
+  const [activeIndex, setActiveIndex] = useState(0);
   const ref = useRef(null);
   const variants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
     exit: { opacity: 0 },
   };
-
-  const content = [
-    {
-      tilte: "title 1",
-      description: "description 1",
-      content: (
-        <img src="/images/digital_marketing.jpg" className="w-full h-full" />
-      ),
-    },
-    {
-      tilte: "title 2",
-      description: "description 2",
-      content: <img src="/images/branding.jpg" className="w-full h-full" />,
-    },
-    {
-      tilte: "title 3",
-      description: "description 3",
-      content: (
-        <img src="/images/digital_marketing.jpg" className="w-full h-full" />
-      ),
-    },
-  ];
   return (
-    <div className="bg-black py-6">
-      <div className=" sticky top-[75px] bg-gradient-to-b from-black p-6 z-10">
-        <h1 className="font-bold text-center text-4xl uppercase">what we Do</h1>
-      </div>
-      <div className=" flex  justify-center gap-6">
-        <div className=" p-4 flex items-center flex-col">
-          {content.map((item, index) => {
-            return (
-              <ContentCard
-                key={index}
-                item={item}
-                index={index}
-                onActive={(cont) => {
-                  setActiveIndex(cont);
-                }}
-              />
-            );
-          })}
-        </div>
-        <div className="p-10 hidden md:block">
-          <div className="rounded-md sticky lg:top-[250px] md:top-[200px] md:w-[400px] md:h-[400px]  lg:w-[6    00px]   overflow-hidden">
-            <AnimatePresence>
-              {!(activeIndex === null) && (
-                <motion.div
-                  ref={ref}
-                  initial="hidden"
-                  animate="visible"
-                  exit="exit"
-                  variants={variants}
-                  transition={{ duration: 0.5 }}
-                  className="flex flex-col gap-6"
-                >
-                  {content?.[activeIndex]?.content}
-                </motion.div>
-              )}
-            </AnimatePresence>
+    <div
+      className="home4-banner-section"
+      style={{
+        background:
+          "url(https://zenfy-next-js.vercel.app/_next/static/media/home4-banner-bg-dark.9899db56.png)",
+        padding: "50px 0px",
+      }}
+    >
+      <div className="container">
+        <h1 className="font-bold text-center mb-5 text-4xl uppercase">
+          What we Do
+        </h1>
+        <div className="row g-4">
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <Link href="/digital-marketing">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/digital_marketing.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>DIGITAL MARKETING</h4>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <Link href="/packaging-design">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/packaging.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>PACKAGING DESIGN</h4>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <Link href="/branding">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/branding.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>BRANDING</h4>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <Link href="/print-media">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/print_media.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>PRINT MEDIA</h4>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <Link href="/3d-cgi">
+            <div className="about-feature-card two">
+              <div className="icon d-flex justify-content-center">
+                <img className="rounded-sm" src="/images/3d_cgi.jpg" alt="" />
+              </div>
+              <div className="content">
+                <h4>3D & CGI</h4>
+              </div>
+            </div>
+            </Link>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <Link href="/ar-vr-game-tech">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img className="rounded-sm" src="/images/ar_vr.jpg" alt="" />
+                </div>
+                <div className="content">
+                  <h4>AR, VR & GAME TECH</h4>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <Link href="/films-animation-vfx">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/film_animation.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>FILMS, ANIMATION & VFX</h4>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <Link href="/illustration">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/illustration.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>ILLUSTRATION</h4>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 wow animate fadeInDown"
+            data-wow-delay="400ms"
+            data-wow-duration="1500ms"
+            style={{
+              visibility: "visible",
+              animationDuration: "1500ms",
+              animationDelay: "400ms",
+            }}
+          >
+            <Link href="/web-development">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/web_dev.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>WEB DEVELOPMENT</h4>
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
-const ContentCard = ({ item, onActive, index }) => {
-  const ref = useRef(null);
-  const [active, setActive] = useState(false);
-
-  useEffect(() => {
-    const checkMiddleContainer = () => {
-      const windowHeight = window.innerHeight;
-
-      if (ref.current) {
-        const { top, bottom } = ref.current.getBoundingClientRect();
-        if (top < windowHeight / 2 && bottom > windowHeight / 2) {
-          setActive(true);
-          onActive?.(index);
-        } else {
-          //   onActive?.(null);
-
-          setActive(false);
-        }
-      }
-    };
-
-    window.addEventListener("scroll", checkMiddleContainer);
-    window.addEventListener("resize", checkMiddleContainer);
-
-    // Initial check
-    checkMiddleContainer();
-
-    return () => {
-      window.removeEventListener("scroll", checkMiddleContainer);
-      window.removeEventListener("resize", checkMiddleContainer);
-    };
-  }, []);
-  return (
-    <div
-      ref={ref}
-      className="flex flex-col gap-6  h-[500px] max-w-[500px] min-w-[200px]"
-    >
-      <h2
-        className={`text-3xl font-bold capitalize transition-all duration-300 ${
-          active ? "text-current" : "text-gray-600"
-        }`}
-      >
-        {item.tilte}
-      </h2>
-      <p
-        className={`text-pretty transition-all duration-300  ${
-          active ? "text-current" : "text-gray-600"
-        }`}
-      >
-        {item.description}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a
-        modi voluptatibus beatae architecto quis officia nobis saepe praesentium
-        sint sequi, laboriosam inventore fuga similique?
-      </p>
-    </div>
-  );
-};
-
 export default Whatwedo;

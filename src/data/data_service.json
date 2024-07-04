@@ -1,0 +1,896 @@
+{
+    "/contact-us": {
+        "title": "Contact Us",
+        "description": "Contact us to get more information about our services and products. We are always available to help you. Contact us today and let us know how we can help you."
+    },
+    "/about-us": {
+        "title": "Curious About Us",
+        "description": "An independent and multidisciplinary creative agency has been on a journey with a Modus Operandi that has flexibly carved out a niche in the creative design world."
+    },
+    "/digital-marketing": {
+        "title": "Digital Marketing",
+        "description": "Digital marketing is the promotion of your brand and products online. We offer a wide range of digital marketing services including SEO, social media management, and digital marketing tools.",
+        "sub": {
+            "title": "DIGITAL MARKETING IS NOT JUST A SERVICE IT'S AN ART FORM",
+            "description": "\nWhat sets us apart is our deep understanding of the digital landscape, backed by our FMCG heritage. Our team of skilled professionals delves into the nitty-gritties of your brand, uncovering its unique essence and crafting bespoke strategies that are sure to resonate with your target audiences. From captivating content creation to data-driven SEO and cutting-edge social media campaigns, we leave no stone unturned in ensuring your brand thrives in the digital realm. Our meticulous approach blends creativity with technology, delivering results that are not only impactful but also measurable.\n\nPartner with us, and you’ll witness the seamless fusion of artistry and analytics, fuelling your brand’s growth and transforming it into a digital powerhouse.\n"
+        },
+        "cardsSection": {
+            "title": "Looking for specific Digital Marketing Services to kickstart your Digital plans?",
+            "description": "Explore the cornucopia of digital marketing services best suited for your business.",
+            "cards": [
+                {
+                    "title": "Social Media Marketing",
+                    "description": "Unlock your brand's potential with our social media marketing expertise. We create engaging campaigns that resonate with your audience, driving brand awareness and customer engagement across all major platforms."
+                },
+                {
+                    "title": "Search Engine Optimization",
+                    "description": "Reach the top of search results and stay there with our SEO strategies. Our team ensures your website is optimized for higher visibility, increased traffic, and improved organic rankings."
+                },
+                {
+                    "title": "Social Media and Google Ads",
+                    "description": "Combine the power of social media and Google Ads to maximize your reach. Our integrated approach drives targeted traffic, increases conversions, and enhances your online presence."
+                },
+                {
+                    "title": "Content Writing",
+                    "description": "Craft compelling narratives that captivate your audience and boost your brand's authority. Our content marketing services deliver valuable and shareable content that connects with your customers on a deeper level."
+                },
+                {
+                    "title": "Blogging",
+                    "description": "Ignite your brand's storytelling with captivating blog posts. Our expert bloggers create relevant and engaging content, driving traffic, building brand loyalty, and establishing you as a thought leader in your industry."
+                },
+                {
+                    "title": "Affiliate Marketing",
+                    "description": "Supercharge your growth with our affiliate marketing solutions. We establish partnerships that boost brand exposure and drive sales, providing you with a cost-effective way to expand your customer base."
+                },
+                {
+                    "title": "Email Marketing",
+                    "description": "Connect directly with your audience through personalized email campaigns. Our strategic email marketing approach nurtures leads, drives conversions, and keeps your brand at the forefront of your customers' minds."
+                },
+                {
+                    "title": "Influencer Marketing",
+                    "description": "Elevate your brand's presence with our exceptional influencer marketing services. Engage with your target audience and accelerate your growth on digital platforms like never before. We help you connect with top-notch influencers and craft compelling campaigns that leave a lasting impression."
+                }
+            ]
+        },
+        "content": [
+            {
+                "type": "image",
+                "src": "/assets_main/services/digital_marketing/1.webp",
+                "id": "1",
+                "link": "/portfolio_item/1",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/digital_marketing/2.webp",
+                "id": "2",
+                "link": "/portfolio_item/2"
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/digital_marketing/3.gif",
+                "id": "3",
+                "link": "/portfolio_item/3"
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/digital_marketing/4.gif",
+                "id": "4",
+                "link": "/portfolio_item/4"
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/digital_marketing/5.gif",
+                "id": "5",
+                "link": "/portfolio_item/5"
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/digital_marketing/dm1.gif"
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/digital_marketing/dm2.gif"
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/digital_marketing/dm3.webp"
+            }
+        ]
+    },
+    "/packaging-design": {
+        "title": "From Ordinary to Extraordinary: Packaging Design That Stands Out",
+        "description": "Step into a world where packaging design goes beyond functionality and becomes a true reflection of your brand's essence. With a legacy of two decades, PRAKRIA has become synonymous with innovation, creativity, and strategic brilliance. Collaborating with global powerhouse brands like Nestlé, Pernod Ricard, and Burger King, we have consistently crafted packaging solutions that elevate brands and create unforgettable consumer experiences.",
+        "sub": {
+            "title": "2 DECADES OF EXPERIENCE IN CRAFTING PACKS THAT LEAP OFF THE SHELF",
+            "description": "\nWe know that your packaging is more than just a container – it’s your shopping window and the embodiment of your brand. Our dedicated team works tirelessly to craft packaging that elevates your brand experience and increases its presence on the shelf. We have been in the business for over two decades now.\n\nWe have seen the hustle, the grind, the nitty-gritty, the nuances, the blood, sweat, and toil that it takes to create a truly spectacular packaging design that leaves a lasting impression.\n\nWith our experience & expertise, we have a rather unique combination of being able to zoom into the subtleties of packaging design, and at the same time, zooming out to the level of strategy & brand ethos, resulting in packaging designs that transcend mere aesthetics & functionality, becoming powerful marketing tools that directly result in better business.\n"
+        },
+        "content": [
+            {
+                "type": "image",
+                "src": "/assets_main/services/packaging_design/1.jpg",
+                "id": "6",
+                "link": "/portfolio_item/6",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/packaging_design/2.webp",
+                "id": "7",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/packaging_design/3.webp",
+                "id": "1",
+                "link": "/portfolio_item/7",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/packaging_design/4.webp",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/packaging_design/5.webp",
+                "id": "1",
+                "link": "/portfolio_item/8",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/packaging_design/6.webp",
+                "id": "1",
+                "link": "/portfolio_item/9",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/packaging_design/7.webp",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/packaging_design/8.webp",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/packaging_design/9.webp",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/packaging_design/10.webp",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/packaging_design/11.webp",
+                "id": "1",
+                "link": "/portfolio_item/10",
+                "row": 1,
+                "col": 1
+            }
+        ],
+        "cardsSection": {
+            "title": "LOOKING FOR A SPECIFIC TYPE OF PACKAGING DESIGN?",
+            "description": "Explore the different types of packaging designs best suited for your business.",
+            "cards": [
+                {
+                    "title": "Tin Can Packaging",
+                    "description": "Embrace the power of metal with our exquisite tin can packaging solutions. Combining superior protection and durability, our creative minds are poised to craft exceptional designs that ensure your products fly off the shelves in no time!"
+                },
+                {
+                    "title": "Pouch Packaging",
+                    "description": "We recognize the power of pouch design in captivating consumers and boosting brand visibility through their exceptional versatility and unmatched customization potential. No matter the unique dimensions of your product, our skilled designers can create an attention-grabbing pouch design that appeals directly to your target audience, giving your brand a distinct edge in the market."
+                },
+                {
+                    "title": "Box Packaging",
+                    "description": "Discover the power of box packaging, the go-to choice for industries worldwide. Combining versatility, affordability, and sustainability, our box packaging design solutions offer superior protection, enhancing the overall visual impact of your products, ensuring they remain captivating and flawless."
+                },
+                {
+                    "title": "Bottle Packaging Design",
+                    "description": "Convenience, versatility, and user-friendliness are all cornerstones of great bottle packaging. In the business of crafting stunning bottle packs for two decades now, we understand just what it takes for the pack to leave a lasting impression on your customers."
+                }
+            ]
+        }
+    },
+    "/print-media": {
+        "title": "Print Perfection: Elevate Your Brand Presence",
+        "description": "Unveil the brilliance of our 20+ year journey, crafting Print Masterpieces that redefine brand storytelling. We understand that Print remains a powerful tool for brand recognition and have honed our skills to create designs that make a difference. Serving top global brands like Nestle, Pernod Ricard, Burger King, Kohler and many more, we bring our FMCG expertise to deliver print solutions that captivate and convert.",
+        "sub": {
+            "title": "THIS IS WHERE DESIGN DEADLINES YIELD TIMELESS BRAND STORIES",
+            "description": "\nWe have been doing Print Media since the cradle days of our journey into the Ad-Mad world. We understand how the clock is always ticking for brand managers, how important it is for Print KVs to reach the markets on time & set the business plans in action, and just how valuable an eye-catching, captivating print design can be. It is a never-ending hustle. And we are the OG hustlers of the game. Over the last two decades, we have learned the subtlest of nuances of our market and honed our expertise accordingly. There have been many battles fought, and all of them, without exception, won with applause. We take pride in delivering world class Print Designs in un-heard of timelines; really, for us, our ultimate high is that look of astonishment on our client’s faces when they witness our print wizardry in action.\n\nWhen you partner with us, you open the door to a world of print possibilities, where compelling storytelling and unparalleled creativity converge. Together, let’s make your brand’s print presence an unforgettable journey, etched in the hearts of your consumers for years to come.\n\n"
+        },
+        "content": [
+            {
+                "type": "image",
+                "src": "/assets_main/services/print_media/pm01.webp",
+                "id": "19",
+                "link": "/portfolio_item/19",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/print_media/pm02.webp",
+                "id": "20",
+                "link": "/portfolio_item/20",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/print_media/pm03.webp",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/print_media/pm04.webp",
+                "id": "1",
+                "link": "/portfolio_item/21",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/print_media/pm05.webp",
+                "id": "1",
+                "link": "/portfolio_item/15",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/print_media/pm06.webp",
+                "id": "1",
+                "link": "/portfolio_item/22",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/print_media/pm07.webp",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/print_media/pm08.webp",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/print_media/pm09.webp",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/print_media/pm10.webp",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            }
+        ]
+    },
+    "/3d-cgi": {
+        "title": "Igniting Imagination: PRAKRIA's 3D & CGI Extravaganza",
+        "description": "Step into the realm of visual wonders with PRAKRIA's 3D & CGI services. With over two decades of experience, we are the architects of virtual worlds, crafting stunning visualizations and animations that leave audiences spellbound.",
+        "sub": {
+            "title": "FROM PIXELS TO PERFECTION: CRAFTING MAGIC, ONE PIXEL AT A TIME",
+            "description": "\nOur team of passionate artists and technologists embraces the minutiae of every project, ensuring that every pixel is imbued with artistry and precision. From hyper-realistic product renders that breathe life into your creations to cutting-edge CGI animations that push the boundaries of imagination, we redefine the possibilities of visual storytelling. Every project is an exploration of limitless creativity, where we turn your ideas into breathtaking visual symphonies.\n\nTrusted by global giants like Nestle, Pernod Ricard, Perfetti, Burger King, and many more, our 3D & CGI symphonies elevate your brand’s storytelling, leaving an unforgettable imprint on hearts and minds. Unleash the magic of PRAKRIA’s 3D & CGI mastery, and let your brand take center stage with immersive experiences that dazzle and engage.\n\n"
+        },
+        "content": [
+            {
+                "type": "image",
+                "src": "/assets_main/services/3d_cgi/cgi1.webp",
+                "id": "11",
+                "link": "/portfolio_item/23",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/3d_cgi/cgi2.webp",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/3d_cgi/cgi3.webp",
+                "id": "24",
+                "link": "/portfolio_item/24",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/3d_cgi/cgi4.webp",
+                "id": "25",
+                "link": "/portfolio_item/25",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/3d_cgi/cgi5.gif",
+                "id": "26",
+                "link": "/portfolio_item/26",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/3d_cgi/cgi6.gif",
+                "id": "27",
+                "link": "/portfolio_item/27",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/3d_cgi/cgi7.gif",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/3d_cgi/cgi8.gif",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            }
+        ]
+    },
+    "/branding": {
+        "title": "Brand Identity Redefined: PRAKRIA's Distinctive Touch",
+        "description": "In today's fast-paced world, building a brand is indispensable for making your mark and standing out in the crowd. At PRAKRIA, we have the experience and expertise to transform your brand from a mere idea to an influential force that leaves a lasting impression.",
+        "sub": {
+            "title": "YOUR BRAND, OUR EXPERTISE",
+            "description": "\nCrafting a brand identity is more than just picking colors and fonts; it’s about capturing your brand’s unique personality, its essence, and its voice. With over two decades of shaping successful brands, we know the art of creating a distinctive look-and-feel that resonates with your target audience.\n\nOur team of creative craftsmen dives deep into understanding your product, your audience, and your aspirations. From logos that symbolize your brand’s mission to cohesive visual elements that tell your story, we craft a brand identity that truly represents you.\n\nJoin hands with PRAKRIA, where innovation meets strategy, and let’s build a brand that sparks recognition, trust, and loyalty. Together, we’ll take your brand to new heights and create a lasting legacy in the hearts and minds of your customers.\n"
+        },
+        "content": [
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/1.jpg",
+                "id": "11",
+                "link": "/portfolio_item/11",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/2.jpg",
+                "id": "12",
+                "link": "/portfolio_item/12",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/3.jpg",
+                "id": "1",
+                "link": "/portfolio_item/13",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/4.jpg",
+                "id": "1",
+                "link": "/portfolio_item/14",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/5.jpg",
+                "id": "1",
+                "link": "/portfolio_item/15",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/6.jpg",
+                "id": "1",
+                "link": "/portfolio_item/16",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/7.jpg",
+                "id": "1",
+                "link": "/portfolio_item/17",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/8.jpg",
+                "id": "1",
+                "link": "/portfolio_item/18",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/9.jpg",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/branding/10.jpg",
+                "id": "1",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            }
+        ]
+    },
+    "/ar-vr-game-tech": {
+        "title": "Immerse Yourself in Creativity & Technology",
+        "description": "Welcome to the future of immersive tech. We blend cutting-edge technology with our artistic flair to create mind-blowing AR & VR experiences & games that defy imagination and leave the audiences spellbound.",
+        "sub": {
+            "title": "VIRTUAL REALITIES, REAL RESULTS – PRAKRIA'S AR & VR GAMING EXPERTISE",
+            "description": "\nPicture this: interactive virtual showrooms that make shopping an adventure, lifelike product demos that leave you in awe, training simulations that take learning to a whole new level, interactive & exhilarating games that leave the audiences wanting for more.\n\nThat’s just the beginning! As a creative-tech enterprise with a knack for innovation, we push the boundaries of reality to spark brand engagement that captivates and connects. From interactive marketing campaigns & unforgettable virtual storytelling to seamless gameplay mechanics, our AR/VR and gaming solutions breathe life into your brand’s vision.\n\nJoin us in stepping into the future with PRAKRIA’s AR/VR and gaming brilliance. Let’s redefine your brand’s digital presence, transport audiences to extraordinary realms, and create experiences that leave a lasting impact. Embrace the magic of Immersive Tech, and together, we’ll write a new chapter in your brand’s success story\n"
+        },
+        "content": [
+            {
+                "type": "video",
+                "src": "/assets_main/services/ar_vr/Ar1.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 4,
+                "col": 1
+            },
+            {
+                "type": "video",
+                "src": "/assets_main/services/ar_vr/Ar2.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 3,
+                "col": 1
+            },
+            {
+                "type": "video",
+                "src": "/assets_main/services/ar_vr/Ar4.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 4,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/ar_vr/ar1.gif",
+                "id": "11",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/ar_vr/ar2.gif",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "video",
+                "src": "/assets_main/services/ar_vr/Ar5.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 4,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/ar_vr/ar3.gif",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/ar_vr/ar4.webp",
+                "id": "27",
+                "link": "/portfolio_item/28",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/ar_vr/ar5.webp",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/ar_vr/ar6.webp",
+                "id": "11",
+                "link": "/portfolio_item/29",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/ar_vr/ar7.png",
+                "id": "29",
+                "link": "/portfolio_item/30",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/ar_vr/ar8.gif",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            }
+        ]
+    },
+    "/films-animation-vfx": {
+        "title": "Lights, camera, and action - at PRAKRIA",
+        "description": "Welcome to the realm of cinematic wonders, where PRAKRIA weaves storytelling magic into every frame. We bring your visions to life through our comprehensive filmmaking services. From scriptwriting and storyboarding to final production, post-production, 3D & 2D animation along with cutting-edge CGI, we handle just about everything in the journey of films, end-to-end, all under one roof.",
+        "sub": {
+            "title": "BRINGING IMAGINATION TO LIFE, 24 FRAMES PER SECOND.",
+            "description": "\n\nFilms are the surest way to reach the hearts of the people – and stay there for a long time to come. At PRAKRIA, we believe that every film deserves a unique touch. Our filmmakers immerse themselves in your brand’s essence, crafting narratives that resonate with your audience and inspire action. With an eye for detail and a passion for innovation, our filmmakers craft TVCs and digital Films that leave an indelible mark. From seamless post-production, we elevate every frame to cinematic perfection.\n\nFrom awe-inspiring visuals, spell-binding character animations(2D), exquisitely crafted stop motion animation, to breathtaking visual effects (3D& CGI), our one-of-a-kind team of filmmakers, cinematographers, animators and VFX artists combine technical prowess with an artistic finesse that is sure to transport audiences to unimaginable realms and bring your brand’s vision to life. Join us on this magical journey of Animation & VFX, and let your brand shine like never before.\n\n"
+        },
+        "content": [
+            {
+                "type": "video",
+                "src": "/assets_main/services/film_animations/1.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 2
+            },
+            {
+                "type": "video",
+                "src": "/assets_main/services/film_animations/2.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "video",
+                "src": "/assets_main/services/film_animations/3.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "video",
+                "src": "/assets_main/services/film_animations/4.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 2
+            },
+            {
+                "type": "video",
+                "src": "/assets_main/services/film_animations/5.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "video",
+                "src": "/assets_main/services/film_animations/6.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 2
+            },
+            {
+                "type": "video",
+                "src": "/assets_main/services/film_animations/7.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 2
+            },
+            {
+                "type": "video",
+                "src": "/assets_main/services/film_animations/8.mp4",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            }
+        ]
+    },
+    "/illustration": {
+        "title": "Illustrate to Impress: PRAKRIA's Artistic Ingenuity",
+        "description": "Welcome to the realm of boundless creativity, where PRAKRIA's illustrators work their magic to unlock the UNIMAGINABLE. With over two decades of experience, our illustrators have honed their crafty brushstrokes, transforming concepts into mesmerizing visual tales.",
+        "sub": {
+            "title": "DRAWING IDEAS TO LIFE @ PRAKRIA",
+            "description": "\n\nOur creative magicians breathe life into characters, landscapes, and ideas, crafting illustrations that captivate and engage your audience. From whimsical illustrations that spark wonder to intricate artwork that evokes emotions, our illustrators are versatile in their artistic approach.\n\nWith a keen eye for detail and a passion for storytelling, PRAKRIA’s illustrators infuse your brand with unique personality and charm. We believe that illustrations are more than just art; they are a powerful tool to communicate your brand’s essence.\n\nTrust PRAKRIA to illustrate your vision and create a captivating visual language that speaks directly to your audience. Join us on a creative journey where ideas flourish and illustrations cast spells of enchantment, leaving a lasting impression on hearts and minds. Let’s illustrate your brand’s extraordinary narrative together.\n"
+        },
+        "content": [
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il01.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il02.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il03.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il04.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il05.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il06.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il07.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il08.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il09.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il10.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 1,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il11.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il12.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il13.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il14.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il15.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/illustration/il16.jpg",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            }
+        ]
+    },
+    "/web-development": {
+        "title": "Web Wonders: Crafting Sites that Captivate",
+        "description": "Get ready to witness web development like never before with PRAKRIA. With over 20 years of experience, we breathe life into websites that captivate, engage, and drive results. Our team of web wizards combines creativity with functionality, ensuring your site not only looks stunning but also converts visitors into loyal customers.",
+        "content": [
+            {
+                "type": "image",
+                "src": "/assets_main/services/web_dev/wd1.png",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/web_dev/wd2.png",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/web_dev/wd3.png",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/web_dev/wd4.png",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/web_dev/wd5.png",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/web_dev/wd6.png",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            },
+            {
+                "type": "image",
+                "src": "/assets_main/services/web_dev/wd7.png",
+                "id": "#",
+                "link": "#",
+                "row": 2,
+                "col": 1
+            }
+        ],
+        "sub": {
+            "title": "THE WIDE WORLD OF WEB: WHERE CREATIVITY MEETS TECHNOLOGY",
+            "description": "\n\nA true Creative Tech enterprise at heart, we understand the subtleties & nuances involved in crafting a website that is functional, user-friendly, and ultimately, out-and-out, drop-dead beautiful.\n\nWe meticulously craft every element in the web world to tell your brand’s story, creating a seamless user experience that keeps visitors coming back for more. From intuitive user interfaces to robust backend architecture, we ensure that every aspect of your website works cohesively to meet your business goals. Join the league of top brands who have trusted us with their web development needs. Together, let’s craft a website that resonates with your audience, drives business growth, and sets your brand apart from the competition.\n\n"
+        },
+        "CardsSection": {
+            "title": "OUR TEAM EXPERTISE",
+            "description": "",
+            "cards": [
+                {
+                    "title": "CRM Development",
+                    "description": "Our customized CRM solutions will optimize customer interactions and streamline your operations, empowering you to build stronger relationships and drive growth."
+                },
+                {
+                    "title": "Website Development",
+                    "description": "Our team's expertise in website development ensures that your brand gets a compelling online presence, tailored to your unique vision and goals."
+                },
+                {
+                    "title": "Portfolio Website",
+                    "description": "We take pride in creating stunning portfolio websites that showcase your work in its best light. With our expert touch, your portfolio will stand out."
+                },
+                {
+                    "title": "Web Application",
+                    "description": "Unleash the potential of your digital presence with our innovative web applications tailored to your specific needs."
+                },
+                {
+                    "title": "Landing Pages",
+                    "description": "Our expert team will create engaging and optimized landing pages to maximize your campaign's success and boost conversions."
+                },
+                {
+                    "title": "CMS",
+                    "description": "We offer top-notch CMS services that empower you to manage your content with ease. With our user-friendly CMS solutions."
+                }
+            ]
+        }
+    },
+    "/privacy-policy": {
+        "title": "privacy policy"
+    },
+    "/disclaimer": {
+        "title": "Disclaimer"
+    }
+}

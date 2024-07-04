@@ -34,11 +34,11 @@
 }
 
 .scroller[data-speed="fast"] {
-    --_animation-duration: 20s;
+    --_animation-duration: 1120s;
 }
 
 .scroller[data-speed="slow"] {
-    --_animation-duration: 60s;
+    --_animation-duration: 250s;
 }
 
 @keyframes scroll {

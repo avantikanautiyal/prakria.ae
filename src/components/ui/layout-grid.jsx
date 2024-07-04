@@ -18,17 +18,38 @@ export const LayoutGrid = ({ cards }) => {
     setSelected(null);
   };
 
+  // useEffect(() => {
+  //   console.log("handle scroll");
+  //   const handleScroll = () => {
+  //     console.log("scroll");
+  //     setLastSelected(null);
+  //     setSelected(null);
+  //     // Add your scroll handling logic here
+  //   };
+
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
+
   return (
-    <div className="flex-grow w-full h-full p-10 grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto gap-4 relative auto-rows-[90px] md:auto-rows-[240px]">
+    <div
+      // onMouseLeave={() => handleOutsideClick()}
+      className="flex-grow w-full h-full p-0 md:p-10 grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto gap-4 relative auto-rows-[200px] md:auto-rows-[330px]"
+    >
       {cards.map((card, i) => (
         <div key={i} className={cn(card.className, "")}>
           <motion.div
+            // onMouseEnter={() => handleClick(card)}
+            // onHover={handleClick(card)}
             onClick={() => handleClick(card)}
             className={cn(
               card.className,
               "relative overflow-hidden",
               selected?.id === card.id
-                ? "rounded-lg cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col"
+                ? "rounded-lg cursor-pointer absolute inset-0 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col"
                 : lastSelected?.id === card.id
                 ? "z-40 bg-white rounded-xl h-full w-full"
                 : "bg-white rounded-xl h-full w-full"
@@ -61,7 +82,7 @@ const BlurImage = ({ card }) => {
       width="500"
       onLoad={() => setLoaded(true)}
       className={cn(
-        "object-cover object-top absolute inset-0 h-full w-full transition duration-200",
+        "object-contain object-top absolute inset-0 h-full w-full transition duration-200",
         loaded ? "blur-none" : "blur-md"
       )}
       alt="thumbnail"

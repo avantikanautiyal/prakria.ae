@@ -25,7 +25,7 @@
             {
                 "id": "2",
                 "label": "Packaging Design",
-                "link": "/case-study/case-study2"
+                "link": "/packaging-design"
             },
             {
                 "id": "3",
@@ -40,17 +40,17 @@
             {
                 "id": "5",
                 "label": "3D & CGI",
-                "link": "/cgi"
+                "link": "/3d-cgi"
             },
             {
                 "id": "6",
                 "label": "AR,VR & Game Tech",
-                "link": "/ar-vr"
+                "link": "/ar-vr-game-tech"
             },
             {
                 "id": "6",
                 "label": "Films,Animation & VFX",
-                "link": "/vfx"
+                "link": "/films-animation-vfx"
             },
             {
                 "id": "7",
@@ -60,7 +60,7 @@
             {
                 "id": "8",
                 "label": "Web Development",
-                "link": "/web-devlopment"
+                "link": "/web-development"
             }
         ]
     },
