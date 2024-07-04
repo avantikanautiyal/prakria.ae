@@ -17,7 +17,7 @@ function Whatwedo({ content }) {
       style={{
         background:
           "url(https://zenfy-next-js.vercel.app/_next/static/media/home4-banner-bg-dark.9899db56.png)",
-        padding: "100px 0px",
+        padding: "50px 0px",
       }}
     >
       <div className="container">
@@ -35,18 +35,20 @@ function Whatwedo({ content }) {
               animationDelay: "400ms",
             }}
           >
-            <div className="about-feature-card two">
-              <div className="icon d-flex justify-content-center">
-                <img
-                  className="rounded-sm"
-                  src="/images/digital_marketing.jpg"
-                  alt=""
-                />
+            <Link href="/digital-marketing">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/digital_marketing.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>DIGITAL MARKETING</h4>
+                </div>
               </div>
-              <div className="content">
-                <h4>DIGITAL MARKETING</h4>
-              </div>
-            </div>
+            </Link>
           </div>
           <div
             className="col-lg-4 col-md-6 wow animate fadeInDown"
@@ -58,18 +60,20 @@ function Whatwedo({ content }) {
               animationDelay: "400ms",
             }}
           >
-            <div className="about-feature-card two">
-              <div className="icon d-flex justify-content-center">
-                <img
-                  className="rounded-sm"
-                  src="/images/packaging.jpg"
-                  alt=""
-                />
+            <Link href="/packaging-design">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/packaging.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>PACKAGING DESIGN</h4>
+                </div>
               </div>
-              <div className="content">
-                <h4>PACKAGING DESIGN</h4>
-              </div>
-            </div>
+            </Link>
           </div>
           <div
             className="col-lg-4 col-md-6 wow animate fadeInDown"
@@ -81,14 +85,20 @@ function Whatwedo({ content }) {
               animationDelay: "400ms",
             }}
           >
-            <div className="about-feature-card two">
-              <div className="icon d-flex justify-content-center">
-                <img className="rounded-sm" src="/images/branding.jpg" alt="" />
+            <Link href="/branding">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/branding.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>BRANDING</h4>
+                </div>
               </div>
-              <div className="content">
-                <h4>BRANDING</h4>
-              </div>
-            </div>
+            </Link>
           </div>
           <div
             className="col-lg-4 col-md-6 wow animate fadeInDown"
@@ -100,18 +110,20 @@ function Whatwedo({ content }) {
               animationDelay: "400ms",
             }}
           >
-            <div className="about-feature-card two">
-              <div className="icon d-flex justify-content-center">
-                <img
-                  className="rounded-sm"
-                  src="/images/print_media.jpg"
-                  alt=""
-                />
+            <Link href="/print-media">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/print_media.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>PRINT MEDIA</h4>
+                </div>
               </div>
-              <div className="content">
-                <h4>PRINT MEDIA</h4>
-              </div>
-            </div>
+            </Link>
           </div>
           <div
             className="col-lg-4 col-md-6 wow animate fadeInDown"
@@ -123,6 +135,7 @@ function Whatwedo({ content }) {
               animationDelay: "400ms",
             }}
           >
+            <Link href="/3d-cgi">
             <div className="about-feature-card two">
               <div className="icon d-flex justify-content-center">
                 <img className="rounded-sm" src="/images/3d_cgi.jpg" alt="" />
@@ -131,6 +144,7 @@ function Whatwedo({ content }) {
                 <h4>3D & CGI</h4>
               </div>
             </div>
+            </Link>
           </div>
           <div
             className="col-lg-4 col-md-6 wow animate fadeInDown"
@@ -142,14 +156,16 @@ function Whatwedo({ content }) {
               animationDelay: "400ms",
             }}
           >
-            <div className="about-feature-card two">
-              <div className="icon d-flex justify-content-center">
-                <img className="rounded-sm" src="/images/ar_vr.jpg" alt="" />
+            <Link href="/ar-vr-game-tech">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img className="rounded-sm" src="/images/ar_vr.jpg" alt="" />
+                </div>
+                <div className="content">
+                  <h4>AR, VR & GAME TECH</h4>
+                </div>
               </div>
-              <div className="content">
-                <h4>AR, VR & GAME TECH</h4>
-              </div>
-            </div>
+            </Link>
           </div>
           <div
             className="col-lg-4 col-md-6 wow animate fadeInDown"
@@ -161,18 +177,20 @@ function Whatwedo({ content }) {
               animationDelay: "400ms",
             }}
           >
-            <div className="about-feature-card two">
-              <div className="icon d-flex justify-content-center">
-                <img
-                  className="rounded-sm"
-                  src="/images/film_animation.jpg"
-                  alt=""
-                />
+            <Link href="/films-animation-vfx">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/film_animation.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>FILMS, ANIMATION & VFX</h4>
+                </div>
               </div>
-              <div className="content">
-                <h4>FILMS, ANIMATION & VFX</h4>
-              </div>
-            </div>
+            </Link>
           </div>
           <div
             className="col-lg-4 col-md-6 wow animate fadeInDown"
@@ -184,18 +202,20 @@ function Whatwedo({ content }) {
               animationDelay: "400ms",
             }}
           >
-            <div className="about-feature-card two">
-              <div className="icon d-flex justify-content-center">
-                <img
-                  className="rounded-sm"
-                  src="/images/illustration.jpg"
-                  alt=""
-                />
+            <Link href="/illustration">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/illustration.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>ILLUSTRATION</h4>
+                </div>
               </div>
-              <div className="content">
-                <h4>ILLUSTRATION</h4>
-              </div>
-            </div>
+            </Link>
           </div>
           <div
             className="col-lg-4 col-md-6 wow animate fadeInDown"
@@ -207,14 +227,20 @@ function Whatwedo({ content }) {
               animationDelay: "400ms",
             }}
           >
-            <div className="about-feature-card two">
-              <div className="icon d-flex justify-content-center">
-                <img className="rounded-sm" src="/images/web_dev.jpg" alt="" />
+            <Link href="/web-development">
+              <div className="about-feature-card two">
+                <div className="icon d-flex justify-content-center">
+                  <img
+                    className="rounded-sm"
+                    src="/images/web_dev.jpg"
+                    alt=""
+                  />
+                </div>
+                <div className="content">
+                  <h4>WEB DEVELOPMENT</h4>
+                </div>
               </div>
-              <div className="content">
-                <h4>WEB DEVELOPMENT</h4>
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

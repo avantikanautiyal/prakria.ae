@@ -23,6 +23,29 @@ function Page() {
 
   return (
     <div>
+      <div className="service-page-hero">
+        <div className="container text-center">
+          <div class="banner-wrapper">
+            <div class="banner-content">
+              <h1>Brand Identity Redefined: PRAKRIA&apos;s Distinctive Touch</h1>
+              <p>
+                In today&apos;s fast-paced world, building a brand is indispensable
+                for making your mark and standing out in the crowd. At PRAKRIA,
+                we have the experience and expertise to transform your brand
+                from a mere idea to an influential force that leaves a lasting
+                impression.
+              </p>
+              <button
+                class="primary-btn2 capitalize"
+                type="submit"
+                data-text="Enquire Now"
+              >
+                Enquire Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="px-4">
         <GridMasonry random={false} data={data?.content} />
       </div>

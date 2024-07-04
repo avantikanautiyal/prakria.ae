@@ -2,14 +2,14 @@ import React from "react";
 
 function HeroseSection({ data }) {
   return (
-    <div className="px-4 py-6 my-[75px] grid grid-cols-5 gap-4 container">
-      <div className=" col-span-5 md:col-span-2 flex justify-center items-center wow animate fadeInUp">
-        <h1 className="uppercase text-2xl font-bold text-balance">
-          {data?.title}
-        </h1>
-      </div>
-      <div className="col-span-5 md:col-span-3">
-        <p className="text-sm wow animate fadeInUp">{data?.description}</p>
+    <div className="container-fluid bg-dark py-5 my-[75px]">
+      <div className="grid grid-cols-5 container">
+        <div className=" col-span-5 md:col-span-2 flex justify-center items-center wow animate fadeInUp">
+          <h2 className="uppercase font-bold text-balance">{data?.title}</h2>
+        </div>
+        <div className="col-span-5 md:col-span-3">
+          <p className="mb-0 wow animate fadeInUp">{data?.description}</p>
+        </div>
       </div>
     </div>
   );

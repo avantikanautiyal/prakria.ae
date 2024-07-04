@@ -76,11 +76,11 @@
 }
 
 .about-feature-card {
-  background-color:#242627;
-    border-radius: 10px;
-    border: 1px solid rgba(var(--title-color-opc), .05);
-    padding: 15px;
-    transition: .5s;
+  background-color: #242627;
+  border-radius: 10px;
+  border: 1px solid rgba(var(--title-color-opc), 0.05);
+  padding: 15px;
+  transition: 0.5s;
 }
 .about-feature-card .icon {
   margin-bottom: 20px;
@@ -91,33 +91,111 @@
   transform: translateY(-10px);
 }
 
-h4{
+h4 {
   margin-bottom: 0 !important;
   font-size: 20px !important;
 }
 
-#right-speaker{
+#right-speaker {
   position: absolute;
   right: 0;
 }
-#left-speaker{
+#left-speaker {
   position: absolute;
   left: 0;
 }
 
-.tag-list.scroller__inner.text-black li img{
+/* .tag-list.scroller__inner.text-black li img{
   filter: invert(1);
-}
+} */
 
-.about-section-title{
+.about-section-title {
   margin: auto;
   width: 85%;
 }
-.testimonial-card3{
+.testimonial-card3 {
   position: relative;
-    background: rgb(152 152 152 / 20%) !important;
-    border-radius: 16px !important;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
-    backdrop-filter: blur(7px) !important;
-    border: 1px solid rgb(134 134 134 / 30%) !important;
+  background: rgb(152 152 152 / 20%) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(7px) !important;
+  border: 1px solid rgb(134 134 134 / 30%) !important;
+}
+
+.about-page-hero {
+  background: url(https://www.prakria.tech/assets/img/bg/about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  padding: 150px 0 80px;
+}
+.contact-page-hero {
+  background: url(https://www.prakria.tech/assets/img/bg/contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  padding: 150px 0 80px;
+}
+
+.about-page-hero p {
+  width: 60%;
+  /* margin: auto; */
+}
+.about-page-hero h1 {
+  font-size: 56px;
+  font-weight: 800;
+}
+.contact-page-hero p {
+  width: 60%;
+  /* margin: auto; */
+}
+.contact-page-hero h1 {
+  font-size: 56px;
+  font-weight: 800;
+}
+
+.breadcrumb-list {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 50px;
+  padding: 11px 22px;
+  line-height: 1;
+  margin: 0 0 12px;
+}
+.breadcrumb-list li {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.39px;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 16px;
+}
+
+.scroll-down-btn {
+  animation: up-down2 2s linear infinite alternate;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.scroll-down-btn a {
+  width: 41px;
+  height: 80px;
+  border-radius: 110px;
+  border: 1px solid hsla(0, 0%, 100%, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+.scroll-down-btn a svg {
+  fill: none;
+  stroke: hsla(0, 0%, 100%, 0.5);
+  transition: 0.5s;
+}
+.service-page-hero{
+  padding: 200px 0 90px;
 }

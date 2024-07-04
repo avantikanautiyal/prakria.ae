@@ -14464,7 +14464,7 @@ header.style-3 .main-menu>ul li.menu-item-has-children>i {
   background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -23032,3 +23032,6 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+

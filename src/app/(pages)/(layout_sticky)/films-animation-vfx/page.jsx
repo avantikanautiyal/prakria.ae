@@ -19,6 +19,31 @@ function Page() {
 
   return (
     <div>
+      <div className="service-page-hero">
+        <div className="container text-center">
+          <div class="banner-wrapper">
+            <div class="banner-content">
+              <h1>Lights, camera, and action - at PRAKRIA</h1>
+              <p>
+                Welcome to the realm of cinematic wonders, where PRAKRIA weaves
+                storytelling magic into every frame. We bring your visions to
+                life through our comprehensive filmmaking services. From
+                scriptwriting and storyboarding to final production,
+                post-production, 3D & 2D animation along with cutting-edge CGI,
+                we handle just about everything in the journey of films,
+                end-to-end, all under one roof.
+              </p>
+              <button
+                class="primary-btn2 capitalize"
+                type="submit"
+                data-text="Enquire Now"
+              >
+                Enquire Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="px-4">
         <GridMasonry random={false} data={data?.content} />
       </div>

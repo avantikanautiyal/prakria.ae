@@ -82,7 +82,7 @@ export const DirectionAwareHover = ({
                 loop
                 autoPlay
                 className={cn(
-                  "h-full w-full object-cover scale-[1.25]",
+                  "h-full w-full object-cover scale-[1]",
                   imageClassName
                 )}
               />
@@ -91,10 +91,7 @@ export const DirectionAwareHover = ({
                 alt="image"
                 className={
                   fill
-                    ? cn(
-                        "h-full w-full object-cover scale-[1.25]",
-                        imageClassName
-                      )
+                    ? cn("h-full w-full object-cover scale-[1]", imageClassName)
                     : ""
                 }
                 width="1000"

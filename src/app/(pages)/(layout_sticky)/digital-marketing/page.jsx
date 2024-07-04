@@ -4,6 +4,7 @@ import MeteorCard from "@/components/global/cards/MetiorCard";
 import data_service from "@/data/data_service.json";
 import CardsSection from "@/components/service/CardsSection";
 import HeroseSection from "@/components/service/herosSection";
+import Home1Blog from "@/components/home/blogCard";
 export const metadata = {
   title: {
     absolute: "Digital Marketing - Lead the Era of DIGITAL DOMINATION",
@@ -15,26 +16,85 @@ function Page() {
   const data = data_service["/digital-marketing"];
   return (
     <div>
+      <div className="service-page-hero">
+        <div className="container text-center">
+          <div class="banner-wrapper">
+            <div class="banner-content">
+              <h1>Lead the Era of DIGITAL DOMINATION</h1>
+              <p>
+                In the era that’s growing more & more digital by the day, lead
+                the way with PRAKRIA’s 20+ years of expertise in the creative
+                industry. Our digital marketing services are meticulously
+                crafted to reshape your brand&apos;s online landscape. From
+                captivating content strategies to cutting-edge campaigns, we
+                unlock the full potential of your brand in the digital realm.
+                Trust our insights to catapult your brand to new heights.
+              </p>
+              <button
+                class="primary-btn2 capitalize"
+                type="submit"
+                data-text="Enquire Now"
+              >
+                Enquire Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* <img src=""/> */}
-      <div className="px-4">
+      <div className="px-0">
         <GridMasonry random={false} data={data?.content} />
       </div>
       <CardsSection data={data?.CardsSection} />
 
       <HeroseSection data={data?.sub} />
-
-      {/* <div className="px-4 py-6 my-[75px] grid grid-cols-5 gap-4 container">
-        <div className="col-span-2 flex justify-center items-center wow animate fadeInUp">
-          <h1 className="uppercase text-2xl font-bold text-balance">
-            {data?.sub?.title}
-          </h1>
-        </div>
-        <div className="col-span-3">
-          <p className="text-sm wow animate fadeInUp">
-            {data?.sub?.description}
+      <div className="container">
+        <div className="text-center">
+          <h2>
+            Looking for specific Digital Marketing Services to kickstart your
+            Digital plans?
+          </h2>
+          <p>
+            Explore the cornucopia of digital marketing services best suited for
+            your business.
           </p>
         </div>
-      </div> */}
+        <div className="row">
+          {data?.cardsSection.cards.map((card, index) => {
+            return <ContentCard {...card} key={index} />;
+          })}
+        </div>
+      </div>
+      <Home1Blog />
+    </div>
+  );
+}
+
+function ContentCard({ title, description }) {
+  return (
+    <div
+      className="col-lg-6 mb-4 col-md-6 wow animate fadeInDown"
+      data-wow-delay="200ms"
+      data-wow-duration="1500ms"
+      style={{
+        visibility: "visible",
+        animationDuration: "1500ms",
+        animationDelay: "200ms",
+      }}
+    >
+      <div className="about-feature-card d-flex">
+        <div className="icon ">
+          <img
+            className="w-75"
+            src="https://www.prakria.com/wp-content/uploads/2023/07/logo-18.png"
+            alt=""
+          />
+        </div>
+        <div className="content">
+          <h4 className="mb-2">{title}</h4>
+          <p className="text-sm">{description}</p>
+        </div>
+      </div>
     </div>
   );
 }
