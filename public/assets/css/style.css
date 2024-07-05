@@ -907,11 +907,11 @@ ul {
 
 .primary-btn2 {
   border-radius: 5px;
-  background-color: var(--primary-color2);
+  background-color: #363636;
   font-family: var(--font-inter);
-  font-weight: 600;
+  font-weight: 300;
   font-size: 16px;
-  color: var(--dark-white-color);
+  color: var(--primary-color2);
   letter-spacing: 0.48px;
   line-height: 1;
   padding: 16px 20px;
@@ -1845,7 +1845,7 @@ ul {
 }
 
 .section-title5.two h2 {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .section-title5.two h2 span {
@@ -23035,3 +23035,26 @@ body:not(.is-mobile) .tt-style-switch:hover {
 
 
 
+#whatsappp img{
+  position: fixed;
+    bottom: 3%;
+    width: 50px;
+    right: 2%;
+    z-index:99999;
+}
+
+#socialwidget{
+  position: fixed;
+    bottom: 43%;
+    right: 0%;
+    z-index:99999;
+}
+#socialwidget img{
+    width: 30px;
+    z-index:99999;
+    transition: 0.1s;
+}
+#socialwidget img:hover{
+    scale:1.2;
+    z-index:99999;
+}

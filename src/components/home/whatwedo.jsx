@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import { Half2Icon } from "@radix-ui/react-icons";
 
 function Whatwedo({ content }) {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -21,9 +22,9 @@ function Whatwedo({ content }) {
       }}
     >
       <div className="container">
-        <h1 className="font-bold text-center mb-5 text-4xl uppercase">
+        <h2 className="font-bold text-center mb-5  uppercase">
           What we Do
-        </h1>
+        </h2>
         <div className="row g-4">
           <div
             className="col-lg-4 col-md-6 wow animate fadeInDown"

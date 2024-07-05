@@ -10,7 +10,7 @@ const Home1About = () => {
         <div className="container">
           <div
             //   className="row mb-90 w-full border-2 border-red-500  "
-            className="flex gap-14 items-center flex-col md:flex-row p-4"
+            className="flex gap-14 items-center flex-col md:flex-row"
           >
             <div
               className="col-lg-12 wow animate fadeInUp "

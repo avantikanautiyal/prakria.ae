@@ -108,13 +108,11 @@ function AddressWithMap({ address = {}, left }) {
               </svg>
             </div>
             <div className="content">
-              <span>Working Hours</span>
-              <h6>
-                {address.open} : {address.time}
+            <h6>
+              Working Hours
               </h6>
-              <h6>
-                {address.closed} : <span>Closed</span>
-              </h6>
+              <span>24x7x365</span>
+              
             </div>
           </div>
         </div>

@@ -15,16 +15,12 @@
                 "link": "/contact-us"
             },
             {
-                "label": "Blogs",
-                "link": "/"
-            },
-            {
                 "label": "Privacy Policy",
-                "link": "/"
+                "link": "/privacy-policy"
             },
             {
                 "label": "Disclaimer",
-                "link": "/"
+                "link": "/disclaimer"
             }
         ]
     },

@@ -9,6 +9,7 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+import Link from "next/link";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
@@ -63,7 +64,7 @@ const Home1Testimonial = ({ style }) => {
   }, []);
   return (
     <>
-      <div className="home4-testimonial-section mt-120 mb-130">
+      <div className="home4-testimonial-section mb-80" style={{marginTop:"80px"}}>
         <div className="container">
           <div className="row">
 
@@ -103,14 +104,14 @@ const Home1Testimonial = ({ style }) => {
                     PRAKRIA, our clients aren&apos;t just partners.
                   </p>
                 </div>
-                <a className="button-area d-xl-none d-flex" href="/contact">
+                <Link className="button-area d-xl-none d-flex" href="/contact-us">
                   <span className="details-button">
                     Become a Client
                     <svg viewBox="0 0 13 20">
                       <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -148,8 +149,8 @@ const Home1Testimonial = ({ style }) => {
           </div>
           </div>
         </div>
-        <a
-          href="#"
+        <Link
+          href="/contact-us"
           className="button-area wow animate zoomIn"
           data-wow-delay="400ms"
           data-wow-duration="1500ms"
@@ -165,7 +166,7 @@ const Home1Testimonial = ({ style }) => {
               <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
             </svg>
           </span>
-        </a>
+        </Link>
       </div>
     </>
   );

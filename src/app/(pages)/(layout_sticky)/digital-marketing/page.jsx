@@ -1,10 +1,10 @@
 import React from "react";
 import GridMasonry from "@/components/ui/GridMasonry";
-import MeteorCard from "@/components/global/cards/MetiorCard";
 import data_service from "@/data/data_service.json";
 import CardsSection from "@/components/service/CardsSection";
 import HeroseSection from "@/components/service/herosSection";
 import Home1Blog from "@/components/home/blogCard";
+import EnquireBtn from "@/components/global/enquirenow";
 export const metadata = {
   title: {
     absolute: "Digital Marketing - Lead the Era of DIGITAL DOMINATION",
@@ -18,8 +18,8 @@ function Page() {
     <div>
       <div className="service-page-hero">
         <div className="container text-center">
-          <div class="banner-wrapper">
-            <div class="banner-content">
+          <div className="banner-wrapper">
+            <div className="banner-content">
               <h1>Lead the Era of DIGITAL DOMINATION</h1>
               <p>
                 In the era that’s growing more & more digital by the day, lead
@@ -30,19 +30,13 @@ function Page() {
                 unlock the full potential of your brand in the digital realm.
                 Trust our insights to catapult your brand to new heights.
               </p>
-              <button
-                class="primary-btn2 capitalize"
-                type="submit"
-                data-text="Enquire Now"
-              >
-                Enquire Now
-              </button>
+              <EnquireBtn />
             </div>
           </div>
         </div>
       </div>
       {/* <img src=""/> */}
-      <div className="px-0">
+      <div className="container-fluid">
         <GridMasonry random={false} data={data?.content} />
       </div>
       <CardsSection data={data?.CardsSection} />
@@ -59,13 +53,47 @@ function Page() {
             your business.
           </p>
         </div>
-        <div className="row">
+        <div className="row mb-5">
           {data?.cardsSection.cards.map((card, index) => {
             return <ContentCard {...card} key={index} />;
           })}
         </div>
       </div>
       <Home1Blog />
+
+      <div className="container">
+        <div className="faq-content style-2">
+          <div className="accordion" id="accordionTravel">
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="faqheadingOne">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faqcollapseOne"
+                  aria-expanded="false"
+                  aria-controls="faqcollapseOne"
+                >
+                  01. What is Task Management and how does it work?
+                </button>
+              </h2>
+              <div
+                id="faqcollapseOne"
+                className="accordion-collapse collapse"
+                aria-labelledby="faqheadingOne"
+                data-bs-parent="#accordionTravel"
+              >
+                <div className="accordion-body">
+                  Aptent taciti sociosqu ad litora torquent per conubia nostra,
+                  per inci only Integer purus onthis felis non aliquam.Mauris
+                  nec just vitae ann auctor tol euismod sit amet non ipsul
+                  growing this
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
@@ -82,14 +110,8 @@ function ContentCard({ title, description }) {
         animationDelay: "200ms",
       }}
     >
-      <div className="about-feature-card d-flex">
-        <div className="icon ">
-          <img
-            className="w-75"
-            src="https://www.prakria.com/wp-content/uploads/2023/07/logo-18.png"
-            alt=""
-          />
-        </div>
+      <div className="about-feature-card d-flex p-4">
+        
         <div className="content">
           <h4 className="mb-2">{title}</h4>
           <p className="text-sm">{description}</p>

@@ -1,9 +1,9 @@
 import React from "react";
 import GridMasonry from "@/components/ui/GridMasonry";
-import MeteorCard from "@/components/global/cards/MetiorCard";
 import data_service from "@/data/data_service.json";
-import CardsSection from "@/components/service/CardsSection";
 import HeroseSection from "@/components/service/herosSection";
+import Home1Blog from "@/components/home/blogCard";
+import EnquireBtn from "@/components/global/enquirenow";
 
 export const metadata = {
   title: {
@@ -20,19 +20,17 @@ function Page() {
     <div>
       <div className="service-page-hero">
         <div className="container text-center">
-          <div class="banner-wrapper">
-            <div class="banner-content">
+          <div className="banner-wrapper">
+            <div className="banner-content">
               <h1>Illustrate to Impress: PRAKRIA&apos;s Artistic Ingenuity</h1>
               <p>
-              Welcome to the realm of boundless creativity, where PRAKRIA&apos;s illustrators work their magic to unlock the UNIMAGINABLE. With over two decades of experience, our illustrators have honed their crafty brushstrokes, transforming concepts into mesmerizing visual tales.
+                Welcome to the realm of boundless creativity, where
+                PRAKRIA&apos;s illustrators work their magic to unlock the
+                UNIMAGINABLE. With over two decades of experience, our
+                illustrators have honed their crafty brushstrokes, transforming
+                concepts into mesmerizing visual tales.
               </p>
-              <button
-                class="primary-btn2 capitalize"
-                type="submit"
-                data-text="Enquire Now"
-              >
-                Enquire Now
-              </button>
+              <EnquireBtn />
             </div>
           </div>
         </div>
@@ -43,6 +41,7 @@ function Page() {
 
       {/* <CardsSection data={data?.CardsSection} /> */}
       <HeroseSection data={data?.sub} />
+      <Home1Blog />
     </div>
   );
 }

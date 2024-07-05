@@ -79,7 +79,7 @@ function ContactForm() {
     // }
   };
   return (
-    <div className="contact-form-area">
+    <div className="contact-form-area" id="contactForm">
       <ToastContainer />
       <h3>Your Success Starts Here!</h3>
       <form onSubmit={onSubmit}>
@@ -94,7 +94,7 @@ function ContactForm() {
             <div className="form-inner">
               {/* <label>Full Name</label> */}
               <input
-              placeholder="Full Name"
+                placeholder="Full Name"
                 type="text"
                 name="fullname"
                 required
@@ -106,7 +106,7 @@ function ContactForm() {
             <div className="form-inner">
               {/* <label>Company / Organization *</label> */}
               <input
-              placeholder="Company / Organization *"
+                placeholder="Company / Organization *"
                 type="text"
                 name="organisation"
                 onChange={(e) =>
@@ -119,7 +119,7 @@ function ContactForm() {
             <div className="form-inner">
               {/* <label>Phone *</label> */}
               <input
-              placeholder="Phone"
+                placeholder="Phone"
                 type="text"
                 name="phone"
                 onChange={(e) => setField({ ...field, phone: e.target.value })}
@@ -154,7 +154,7 @@ function ContactForm() {
             <div className="form-inner">
               {/* <label>Message *</label> */}
               <textarea
-              placeholder="Message *"
+                placeholder="Message *"
                 defaultValue={""}
                 name="message"
                 onChange={(e) =>

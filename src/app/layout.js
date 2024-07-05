@@ -6,6 +6,8 @@ import {
   Rubik,
 } from "next/font/google";
 import "./globals.css";
+import Whatsapp from "@/components/global/whatsapp/Whatsapp";
+import SocialWidget from "@/components/global/socialmedia/SocialWidget";
 
 const inter = Rubik({
   subsets: ["latin"],
@@ -36,9 +38,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/images/favicon.ico"/>
+      </head>
       <body
         className={`${signika.className} ${inter.variable} ${hankenGrotesk.variable} dark`}
       >
+        <Whatsapp />
+        <SocialWidget />
         {children}
       </body>
     </html>

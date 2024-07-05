@@ -3,6 +3,8 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import HomeTestimonial from "@/components/home/ClientTestimonial";
 import LogoMarquee from "@/components/home/InfiniteCarosal";
 import Home1Blog from "@/components/home/blogCard";
+import Link from "next/link";
+import EnquireBtn from "@/components/global/enquirenow";
 
 export const metadata = {
   title: "About",
@@ -14,34 +16,20 @@ export const metadata = {
 function Page() {
   return (
     <>
-      <div className="about-page-hero">
-        <div className="container ">
-          <div class="banner-wrapper">
-            <div class="banner-content">
-              <ul class="breadcrumb-list">
-                <li>
-                  <a href="/">Home</a>
-                </li>
-                <li>About Us</li>
-              </ul>
-              <h1>Curious About Us.</h1>
+      
+      <div className="service-page-hero">
+        <div className="container text-center">
+          <div className="banner-wrapper">
+            <div className="banner-content">
+              <h1>
+              Curious About Us.
+              </h1>
               <p>
-                An independent and multidisciplinary creative agency has been on
+              An independent and multidisciplinary creative agency has been on
                 a journey with a Modus Operandi that has flexibly carved out a
                 niche in the creative design world.
               </p>
-            </div>
-            <div class="scroll-down-btn">
-              <a href="#service-details-section">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="19"
-                  height="29"
-                  viewBox="0 0 19 29"
-                >
-                  <path d="M9.5 0V28M9.5 28C10 24.3333 12.4 17.1 18 17.5M9.5 28C8.5 24.1667 5.4 16.7 1 17.5"></path>
-                </svg>
-              </a>
+              <EnquireBtn />
             </div>
           </div>
         </div>

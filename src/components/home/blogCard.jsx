@@ -1,9 +1,28 @@
+"use client";
 import Link from "next/link";
-import React from "react";
-
-
+import React, { useEffect, useState } from "react";
 
 const Home1Blog = () => {
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    // Fetch posts when the component mounts
+    const fetchPosts = async () => {
+      try {
+        const res = await fetch(
+          "https://blogs.prakria.tech/wp-json/wp/v2/posts?per_page=3"
+        );
+        const data = await res.json();
+        setPosts(data || []); // Set posts or an empty array if data is undefined
+      } catch (error) {
+        console.error("Error fetching posts:", error);
+        setPosts([]); // Set an empty array on error
+      }
+    };
+
+    fetchPosts();
+  }, []);
+
   return (
     <>
       <div className="home1-blog-section mb-110">
@@ -45,23 +64,14 @@ const Home1Blog = () => {
             </div>
           </div>
           <div className="row g-md-4 gy-5">
-            {/*  BLOG POST */}
-
-            <BlogCard
-              src="/images/web_dev.jpg"
-              title="How to been population the Startup company of this."
-              link="/blog/blog-details"
-            />
-            <BlogCard
-              src="/images/web_dev.jpg"
-              title="How to been population the Startup company of this."
-              link="/blog/blog-details"
-            />
-            <BlogCard
-              src="/images/web_dev.jpg"
-              title="How to been population the Startup company of this."
-              link="/blog/blog-details"
-            />
+            {posts.map((post, index) => (
+              <BlogCard
+                key={post.id}
+                src={post.jetpack_featured_media_url || "/images/default.jpg"} // Replace with your default image path if needed
+                title={post.title.rendered}
+                link={post.link}
+              />
+            ))}
           </div>
         </div>
       </div>
@@ -77,57 +87,31 @@ function BlogCard({ src = "", title, link = "#" }) {
       data-wow-duration="500ms"
     >
       <div className="blog-card">
-        <div className="blog-card-img-wrap">
-          <Link href={link} className="card-img">
-            <img src={src} alt="blog image" />
-          </Link>
-          {/* <Link href="/blog" className="date">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width={15}
-              height={15}
-              viewBox="0 0 15 15"
-            >
-              <g>
-                <path d="M7.5 6.5625C7.62432 6.5625 7.74355 6.61189 7.83146 6.69979C7.91936 6.7877 7.96875 6.90693 7.96875 7.03125V8.4375H9.375C9.49932 8.4375 9.61855 8.48689 9.70646 8.57479C9.79436 8.6627 9.84375 8.78193 9.84375 8.90625C9.84375 9.03057 9.79436 9.1498 9.70646 9.23771C9.61855 9.32561 9.49932 9.375 9.375 9.375H7.96875V10.7812C7.96875 10.9056 7.91936 11.0248 7.83146 11.1127C7.74355 11.2006 7.62432 11.25 7.5 11.25C7.37568 11.25 7.25645 11.2006 7.16854 11.1127C7.08064 11.0248 7.03125 10.9056 7.03125 10.7812V9.375H5.625C5.50068 9.375 5.38145 9.32561 5.29354 9.23771C5.20564 9.1498 5.15625 9.03057 5.15625 8.90625C5.15625 8.78193 5.20564 8.6627 5.29354 8.57479C5.38145 8.48689 5.50068 8.4375 5.625 8.4375H7.03125V7.03125C7.03125 6.90693 7.08064 6.7877 7.16854 6.69979C7.25645 6.61189 7.37568 6.5625 7.5 6.5625Z" />
-                <path d="M3.28125 0C3.40557 0 3.5248 0.049386 3.61271 0.137294C3.70061 0.225201 3.75 0.34443 3.75 0.46875V0.9375H11.25V0.46875C11.25 0.34443 11.2994 0.225201 11.3873 0.137294C11.4752 0.049386 11.5944 0 11.7188 0C11.8431 0 11.9623 0.049386 12.0502 0.137294C12.1381 0.225201 12.1875 0.34443 12.1875 0.46875V0.9375H13.125C13.6223 0.9375 14.0992 1.13504 14.4508 1.48667C14.8025 1.83831 15 2.31522 15 2.8125V13.125C15 13.6223 14.8025 14.0992 14.4508 14.4508C14.0992 14.8025 13.6223 15 13.125 15H1.875C1.37772 15 0.900806 14.8025 0.549175 14.4508C0.197544 14.0992 0 13.6223 0 13.125V2.8125C0 2.31522 0.197544 1.83831 0.549175 1.48667C0.900806 1.13504 1.37772 0.9375 1.875 0.9375H2.8125V0.46875C2.8125 0.34443 2.86189 0.225201 2.94979 0.137294C3.0377 0.049386 3.15693 0 3.28125 0ZM0.9375 3.75V13.125C0.9375 13.3736 1.03627 13.6121 1.21209 13.7879C1.3879 13.9637 1.62636 14.0625 1.875 14.0625H13.125C13.3736 14.0625 13.6121 13.9637 13.7879 13.7879C13.9637 13.6121 14.0625 13.3736 14.0625 13.125V3.75H0.9375Z" />
-              </g>
-            </svg>
-          </Link> */}
-        </div>
-        <div className="card-content">
-          {/* <div className="blog-meta">
-        <ul className="category">
-          <li>
-            <Link href="/blog">Development</Link>
-          </li>
-        </ul>
-        <div className="blog-comment">
-          <span>Comment (20)</span>
-        </div>
-      </div> */}
-          <h4>
-            <Link href={link}>
-              {title}
-              {/* How to been population the Startup company of this. */}
-            </Link>
-          </h4>
-          <Link href={link} className="read-more-btn">
-            Read More
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width={10}
-              height={10}
-              viewBox="0 0 10 10"
-            >
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z"
-              />
-            </svg>
-          </Link>
-        </div>
+        <Link target="_blank" href={link}>
+          <div className="blog-card-img-wrap">
+            <div className="card-img">
+              <img src={src} alt="blog image" />
+            </div>
+          </div>
+          <div className="card-content">
+            <h4>{title}</h4>
+            <div target="_blank" href={link} className="read-more-btn">
+              Read More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={10}
+                height={10}
+                viewBox="0 0 10 10"
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </Link>
       </div>
     </div>
   );

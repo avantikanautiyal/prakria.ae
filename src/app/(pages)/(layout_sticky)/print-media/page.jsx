@@ -4,6 +4,8 @@ import MeteorCard from "@/components/global/cards/MetiorCard";
 import data_service from "@/data/data_service.json";
 import CardsSection from "@/components/service/CardsSection";
 import HeroseSection from "@/components/service/herosSection";
+import Home1Blog from "@/components/home/blogCard";
+import EnquireBtn from "@/components/global/enquirenow";
 
 export const metadata = {
   title: {
@@ -20,19 +22,19 @@ function Page() {
     <div>
       <div className="service-page-hero">
         <div className="container text-center">
-          <div class="banner-wrapper">
-            <div class="banner-content">
+          <div className="banner-wrapper">
+            <div className="banner-content">
               <h1>Print Perfection: Elevate Your Brand Presence</h1>
               <p>
-              Unveil the brilliance of our 20+ year journey, crafting Print Masterpieces that redefine brand storytelling. We understand that Print remains a powerful tool for brand recognition and have honed our skills to create designs that make a difference. Serving top global brands like Nestle, Pernod Ricard, Burger King, Kohler and many more, we bring our FMCG expertise to deliver print solutions that captivate and convert.
+                Unveil the brilliance of our 20+ year journey, crafting Print
+                Masterpieces that redefine brand storytelling. We understand
+                that Print remains a powerful tool for brand recognition and
+                have honed our skills to create designs that make a difference.
+                Serving top global brands like Nestle, Pernod Ricard, Burger
+                King, Kohler and many more, we bring our FMCG expertise to
+                deliver print solutions that captivate and convert.
               </p>
-              <button
-                class="primary-btn2 capitalize"
-                type="submit"
-                data-text="Enquire Now"
-              >
-                Enquire Now
-              </button>
+              <EnquireBtn />
             </div>
           </div>
         </div>
@@ -40,6 +42,7 @@ function Page() {
       <GridMasonry random={false} data={data?.content} />
       {/* <CardsSection data={data?.CardsSection} /> */}
       <HeroseSection data={data?.sub} />
+      <Home1Blog />
     </div>
   );
 }

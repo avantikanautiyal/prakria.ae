@@ -11,35 +11,27 @@ export default function LayoutGridDemo({
   className,
 }) {
   return (
-    <div className="h-auto  bg-black flex flex-col p-10 ">
-      <h1 className="z-[1000] p-0 md:p-4 sticky flex md:hidden justify-center items-center top-[75px] font-bold bg-gradient-to-b from-black text-center text-4xl uppercase">
+    <div className="py-4  h-auto container bg-black flex flex-col">
+      <h2 className="z-[1000] p-0 md:p-4 sticky flex md:hidden justify-center items-center top-[75px] font-bold bg-gradient-to-b from-black text-center uppercase">
         {title}
-      </h1>
-      <div className="  p-6 gap-3 flex flex-col text-neutral-200">
-        <div className="container">
-        <div className="d-flex justify-content-between">
-          <h1 className=" md:flex hidden font-bold justify-center items-center text-center text-4xl uppercase">
-            {title}
-          </h1>
-          <Link href={link ?? "#"}>
-            <button
-              className="primary-btn2 capitalize"
-              type="submit"
-              data-text="View all"
-            >
-              view all
-            </button>
-          </Link>
+      </h2>
+      <div className=" gap-3 flex flex-col text-neutral-200">
+        <div className="container pb-3">
+          <div className="d-flex justify-content-between">
+            <h2 className=" md:flex hidden font-bold justify-center items-center text-center text-4xl uppercase">
+              {title}
+            </h2>
+            <Link href={link ?? "#"}>
+              <button
+                className="primary-btn2 capitalize"
+                type="submit"
+                data-text="View all"
+              >
+                view all
+              </button>
+            </Link>
+          </div>
         </div>
-        </div>
-       
-
-        {/* <p className="flex justify-center items-center text-center text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          quam laborum, illo incidunt odit placeat commodi quidem libero
-          laudantium magni, exercitationem dolores ea provident, dolorum modi
-          sequi quasi? Debitis, quisquam.
-        </p> */}
       </div>
 
       <LayoutGrid
@@ -54,7 +46,7 @@ export default function LayoutGridDemo({
           ),
         }))}
       />
-{/* 
+      {/* 
       <div className="flex justify-center items-center pt-10">
         <Link href={link ?? "#"}>
           <button

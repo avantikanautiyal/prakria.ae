@@ -27,10 +27,17 @@
       },
       {
         "id": 4,
-        "className": "md:col-span-2",
+        "className": "md:col-span-1",
         "title": "Munch",
         "link": "/",
         "thumbnail": "/assets_main/digital_marketing/munch.gif"
+      },
+      {
+        "id": 4,
+        "className": "md:col-span-1",
+        "title": "Munch",
+        "link": "/",
+        "thumbnail": "/assets_main/digital_marketing/dabur.jpg"
       }
     ]
   },
@@ -44,18 +51,18 @@
         "className": "md:col-span-1",
         "title": "kitkat",
         "link": "/",
-        "thumbnail": "/assets_main/packaging_design/kitkat.png"
+        "thumbnail": "/assets_main/packaging_design/100_pipers.jpg"
       },
       {
         "id": 2,
         "className": "md:col-span-2",
         "title": "100 Pipers",
         "link": "/",
-        "thumbnail": "/assets_main/packaging_design/100_pipers.jpg"
+        "thumbnail": "/assets_main/packaging_design/kitkat.png"
       },
       {
         "id": 3,
-        "className": "md:col-span-2",
+        "className": "md:col-span-1",
         "title": "PERFETTI VAN MELLE",
         "link": "/",
         "thumbnail": "/assets_main/packaging_design/perfetti.jpg"
@@ -66,6 +73,13 @@
         "title": "Quality Street",
         "link": "/",
         "thumbnail": "/assets_main/packaging_design/quality_street.png"
+      },
+      {
+        "id": 4,
+        "className": "md:col-span-1",
+        "title": "Quality Street",
+        "link": "/",
+        "thumbnail": "/assets_main/packaging_design/palmoliv.png"
       }
     ]
   },
@@ -74,20 +88,21 @@
     "description": "",
     "link": "/print-media",
     "content": [
-      {
-        "id": 1,
-        "className": "md:col-span-1",
-        "title": "POLO",
-        "link": "/",
-        "thumbnail": "/assets_main/print_media/polo.png",
-        "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
-      },
+      
       {
         "id": 2,
         "className": "md:col-span-2",
         "title": "GREKYO",
         "link": "/",
         "thumbnail": "/assets_main/print_media/grekyo.png",
+        "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
+      },
+      {
+        "id": 1,
+        "className": "md:col-span-1",
+        "title": "POLO",
+        "link": "/",
+        "thumbnail": "/assets_main/print_media/polo.png",
         "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
       },
       {
@@ -121,13 +136,7 @@
     "description": "",
     "link": "/3d-cgi",
     "content": [
-      {
-        "id": 1,
-        "className": "md:col-span-1",
-        "title": "KOHLER",
-        "link": "/",
-        "thumbnail": "/assets_main/3d_cgi/kohler.jpg"
-      },
+      
       {
         "id": 2,
         "className": "md:col-span-1",
@@ -136,11 +145,11 @@
         "thumbnail": "/assets_main/3d_cgi/kitkat.png"
       },
       {
-        "id": 3,
-        "className": "md:col-span-1",
+        "id": 5,
+        "className": "md:col-span-2",
         "title": "",
         "link": "/",
-        "thumbnail": "/assets_main/3d_cgi/choco.gif"
+        "thumbnail": "/assets_main/3d_cgi/str.gif"
       },
       {
         "id": 4,
@@ -150,11 +159,18 @@
         "thumbnail": "/assets_main/3d_cgi/imp_blue.jpg"
       },
       {
-        "id": 5,
-        "className": "md:col-span-2",
+        "id": 3,
+        "className": "md:col-span-1",
         "title": "",
         "link": "/",
-        "thumbnail": "/assets_main/3d_cgi/str.gif"
+        "thumbnail": "/assets_main/3d_cgi/choco.gif"
+      },
+      {
+        "id": 1,
+        "className": "md:col-span-1",
+        "title": "KOHLER",
+        "link": "/",
+        "thumbnail": "/assets_main/3d_cgi/kohler.jpg"
       }
     ]
   },
@@ -214,7 +230,7 @@
       },
       {
         "id": 5,
-        "className": "md:col-span-1",
+        "className": "md:col-span-2",
         "title": "kitkat",
         "link": "/",
         "thumbnail": "/assets_main/film_animation/kitkat.gif"
