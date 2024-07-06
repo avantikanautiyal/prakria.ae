@@ -1,19 +1,19 @@
 [
     {
         "id": "1",
-        "label": "Home",
+        "label": "HOME",
         "link": "/",
         "icon": false
     },
     {
         "id": "2",
-        "label": "About Us",
+        "label": "ABOUT US",
         "link": "/about-us",
         "icon": false
     },
     {
         "id": "3",
-        "label": "What we Do",
+        "label": "WHAT WE DO",
         "link": "#",
         "icon": true,
         "subMenu": [
@@ -44,12 +44,12 @@
             },
             {
                 "id": "6",
-                "label": "AR,VR & Game Tech",
+                "label": "AR, VR & Game Tech",
                 "link": "/ar-vr-game-tech"
             },
             {
                 "id": "6",
-                "label": "Films,Animation & VFX",
+                "label": "Films, Animation & VFX",
                 "link": "/films-animation-vfx"
             },
             {
@@ -66,7 +66,7 @@
     },
     {
         "id": "4",
-        "label": "Contact Us",
+        "label": "CONTACT US",
         "link": "/contact-us",
         "icon": false
     }
