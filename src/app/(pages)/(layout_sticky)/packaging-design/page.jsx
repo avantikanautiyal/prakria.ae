@@ -3,6 +3,7 @@ import data_service from "@/data/data_service.json";
 import GridMasonry from "@/components/ui/GridMasonry";
 import Home1Blog from "@/components/home/blogCard";
 import EnquireBtn from "@/components/global/enquirenow";
+import { Faq } from "@/components/global/faq";
 
 export const metadata = {
   title: {
@@ -58,6 +59,7 @@ function Page() {
         </div>
       </div>
       <Home1Blog />
+      <Faq data={data?.faq} />
     </div>
   );
 }
@@ -75,7 +77,6 @@ function ContentCard({ title, description }) {
       }}
     >
       <div className="about-feature-card d-flex p-4">
-        
         <div className="content">
           <h4 className="mb-2">{title}</h4>
           <p className="text-sm">{description}</p>

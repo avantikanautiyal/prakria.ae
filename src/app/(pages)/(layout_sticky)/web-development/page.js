@@ -5,6 +5,7 @@ import HeroseSection from "@/components/service/herosSection";
 import Home1Blog from "@/components/home/blogCard";
 import Link from "next/link";
 import EnquireBtn from "@/components/global/enquirenow";
+import { Faq } from "@/components/global/faq";
 
 export const metadata = {
   title: {
@@ -63,6 +64,7 @@ function Page() {
       <HeroseSection data={data?.sub} />
       <CardsSection data={data?.CardsSection} />
       <Home1Blog />
+      <Faq data={data?.faq} />
     </div>
   );
 }

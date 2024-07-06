@@ -5,6 +5,7 @@ import CardsSection from "@/components/service/CardsSection";
 import HeroseSection from "@/components/service/herosSection";
 import Home1Blog from "@/components/home/blogCard";
 import EnquireBtn from "@/components/global/enquirenow";
+import { Faq } from "@/components/global/faq";
 export const metadata = {
   title: {
     absolute: "Digital Marketing - Lead the Era of DIGITAL DOMINATION",
@@ -61,39 +62,7 @@ function Page() {
       </div>
       <Home1Blog />
 
-      <div className="container">
-        <div className="faq-content style-2">
-          <div className="accordion" id="accordionTravel">
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="faqheadingOne">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#faqcollapseOne"
-                  aria-expanded="false"
-                  aria-controls="faqcollapseOne"
-                >
-                  01. What is Task Management and how does it work?
-                </button>
-              </h2>
-              <div
-                id="faqcollapseOne"
-                className="accordion-collapse collapse"
-                aria-labelledby="faqheadingOne"
-                data-bs-parent="#accordionTravel"
-              >
-                <div className="accordion-body">
-                  Aptent taciti sociosqu ad litora torquent per conubia nostra,
-                  per inci only Integer purus onthis felis non aliquam.Mauris
-                  nec just vitae ann auctor tol euismod sit amet non ipsul
-                  growing this
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Faq data={data?.faq} />
     </div>
   );
 }

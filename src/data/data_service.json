@@ -222,11 +222,10 @@
       "title": "LOOKING FOR A SPECIFIC TYPE OF PACKAGING DESIGN?",
       "description": "Explore the different types of packaging designs best suited for your business.",
       "cards": [
-        
         {
           "title": "Box Packaging",
           "description": "Discover the power of box packaging, the go-to choice for industries worldwide. Combining versatility, affordability, and sustainability, our box packaging design solutions offer superior protection, enhancing the overall visual impact of your products, ensuring they remain captivating and flawless."
-        }, 
+        },
         {
           "title": "Bottle Packaging Design",
           "description": "Convenience, versatility, and user-friendliness are all cornerstones of great bottle packaging. In the business of crafting stunning bottle packs for two decades now, we understand just what it takes for the pack to leave a lasting impression on your customers."
@@ -239,9 +238,26 @@
           "title": "Tin Can Packaging",
           "description": "Embrace the power of metal with our exquisite tin can packaging solutions. Combining superior protection and durability, our creative minds are poised to craft exceptional designs that ensure your products fly off the shelves in no time!"
         }
-        
       ]
-    }
+    },
+    "faq": [
+      {
+        "ques": "What is packaging design?",
+        "ans": "Packaging design involves creating an attractive and functional visual representation of a product, including its graphics, and branding elements to enhance the product’s marketability and communicate its value."
+      },
+      {
+        "ques": "What makes a good packaging design?",
+        "ans": "A good packaging design combines appealing visuals, clear messaging, reflects the brand identity, and communicates the product’s purpose. It should engage with consumers emotionally, and ultimately drive purchase decisions."
+      },
+      {
+        "ques": "What are packaging design services?",
+        "ans": "Packaging design services encompass the professional expertise and creativity needed to develop visually compelling and functional packaging solutions for products."
+      },
+      {
+        "ques": "What is the process of packaging design?",
+        "ans": "Packaging design includes conceptualizing, designing, and executing packaging designs that align with brand identity, attract customers, and enhance product presentation."
+      }
+    ]
   },
   "/print-media": {
     "title": "Print Perfection: Elevate Your Brand Presence",
@@ -331,6 +347,20 @@
         "row": 1,
         "col": 1
       }
+    ],
+    "faq": [
+      {
+        "ques": "What are print media designs?",
+        "ans": "Print media designs refer to visual creations specifically designed for printed materials such as newspapers, magazines, billboards, books, brochures, flyers, posters, catalogs etc."
+      },
+      {
+        "ques": "What does designing for print media include?",
+        "ans": "Designing for print media encompasses the use of typography, graphics, layout, and color schemes to communicate messages effectively and engage the target audience."
+      },
+      {
+        "ques": "Why is designing important in print media?",
+        "ans": "Designing is crucial in print media as it plays a vital role in capturing attention, conveying messages clearly, and enhancing the overall visual appeal."
+      }
     ]
   },
   "/3d-cgi": {
@@ -404,6 +434,40 @@
         "link": "#",
         "row": 1,
         "col": 1
+      }
+    ],
+    "faq": [
+      {
+        "ques": "What services do you offer in 3D and CGI?",
+        "ans": "We offer a range of 3D and CGI services including 3D modeling, rendering, animation, visualizations, character design, architectural visualizations, product visualizations, special effects, and simulations to create stunning visual fidelity."
+      },
+      {
+        "ques": "Can you create realistic 3D models and animations?",
+        "ans": "Yes, with advanced software and techniques, we specialize in creating realistic 3D models and animations."
+      },
+      {
+        "ques": "Do you provide 3D rendering and visualization services?",
+        "ans": "Yes, we provide 3D rendering and visualization services and have the expertise to create realistic and immersive visualizations that showcase architectural designs, product concepts, and virtual environments with exceptional detail and quality."
+      },
+      {
+        "ques": "Can you assist with character design and animation for 3D projects?",
+        "ans": "Yes, we offer assistance with character design and animation for 3D projects. Through specialized software, we can bring characters to life, infusing them with personality, movement, and expression through high-quality animations that enhance the overall visual storytelling experience."
+      },
+      {
+        "ques": "What software and tools do you use for 3D modeling and CGI?",
+        "ans": "We utilize industry-leading software and tools for 3D modeling and CGI, including Adobe Creative Suite.  Our team stays up-to-date with the latest advancements to deliver exceptional quality 3D models, visualizations, animations, and results."
+      },
+      {
+        "ques": "How do you ensure high-quality and visually appealing results in 3D and CGI projects?",
+        "ans": "We deliver high-quality and visually appealing results in 3D and CGI projects by combining our expertise in advanced software, attention to detail, and artistic sensibility. Our team focuses on precise modeling, realistic texturing, lighting, and meticulous rendering to deliver stunning and immersive visual experiences."
+      },
+      {
+        "ques": "Do you offer post-production services like compositing and special effects?",
+        "ans": "Yes, we offer post-production services including compositing and special effects. We can seamlessly integrate 3D elements into live-action footage, apply visual effects, and enhance the overall visual appeal of your project through professional post-production techniques."
+      },
+      {
+        "ques": "Can you integrate 3D and CGI elements into live-action footage or environments?",
+        "ans": "Yes, we specialize in seamlessly integrating 3D and CGI elements into live-action footage or environments. Through advanced compositing techniques, we create a cohesive visual blend that enhances the overall impact."
       }
     ]
   },
@@ -494,6 +558,44 @@
         "link": "#",
         "row": 1,
         "col": 1
+      }
+    ],
+    "faq": [
+      {
+        "ques": "What is the concept of branding?",
+        "ans": "Branding is the strategic process of creating a unique identity and perception for a business or product. It involves defining the core values, visual elements, and messaging that distinguish the brand and connects with its target audience, ultimately driving recognition, trust, and loyalty."
+      },
+      {
+        "ques": "What is the importance/power of branding?",
+        "ans": "The power of branding lies in its ability to differentiate your business, build recognition, and foster customer loyalty. A strong brand identity resonates with your audience, evokes trust, and sets you apart from competitors, driving long-term success."
+      },
+      {
+        "ques": "Where is branding used?",
+        "ans": "Branding is used across various touchpoints, including logos, websites, packaging, marketing materials, social media, and customer interactions. It creates a consistent identity that strengthens brand perception and fosters lasting connections with the audience."
+      },
+      {
+        "ques": "What is the main objective of branding?",
+        "ans": "The main objective of branding is to create a strong and unique identity for a business or product that resonates with the target audience, builds trust, and fosters brand loyalty, ultimately driving business growth and success."
+      },
+      {
+        "ques": "What is the scope of branding?",
+        "ans": "The scope of branding encompasses a wide range of strategic elements, including logo design, brand messaging, visual identity, brand guidelines, and brand communication. It aims to create a cohesive and memorable brand presence with a strong customer experience."
+      },
+      {
+        "ques": "What are the 3 rules of branding?",
+        "ans": "The three rules of branding are consistency, authenticity, and relevance. Consistency ensures a cohesive brand image, authenticity builds trust with customers, and relevance connects the brand with its target audience, driving brand loyalty and recognition."
+      },
+      {
+        "ques": "What are the 5 aspects of branding?",
+        "ans": "The five aspects of branding are brand strategy, brand identity (logo, colors, and design), brand messaging (storytelling and brand positioning), brand experience (customer interactions), and brand consistency (maintaining a cohesive image). These aspects work together to create a strong and memorable brand presence."
+      },
+      {
+        "ques": "What are the 5 C's of branding?",
+        "ans": "The 5 C’s of branding are Clarity (clear brand message), Consistency (uniform brand image), Creativity & Credibility (trustworthy brand perception), Customer Centricity/Focus (aligning with customer needs), and Competitive Distinctiveness/Positioning (standing out from competitors). These elements play a crucial role in building a strong brand identity and fostering lasting connections with the target audience."
+      },
+      {
+        "ques": "What is the difference between marketing and branding?",
+        "ans": "Marketing and branding are closely related but distinct concepts. Marketing is the tactical process of promoting products or services to achieve specific business goals, while branding is the strategic approach of creating a unique and memorable identity that connects emotionally with the audience, fostering long-term loyalty and recognition."
       }
     ]
   },
@@ -602,6 +704,56 @@
         "row": 1,
         "col": 1
       }
+    ],
+    "faq": [
+      {
+        "ques": "What services do you offer in Immersive Technology (AR & VR)?",
+        "ans": "We offer a range of services in Immersive Technology, including augmented reality (AR) and virtual reality (VR) development. Our services encompass concept development, storytelling, custom experience creation, platform utilization, user-friendly design, technical implementation, and deployment for immersive AR & VR applications."
+      },
+      {
+        "ques": "Do you specialize in any specific type of AR or VR experience?",
+        "ans": "Yes, we specialize in all types of AR and VR experiences, including interactive simulations, immersive training modules, virtual tours, product visualizations, gamified experiences, educational applications, interactive AR applications, immersive VR simulations, virtual tours, and 360-degree video content."
+      },
+      {
+        "ques": "Can you develop both AR and VR applications?",
+        "ans": "Yes, we are proficient in developing both augmented reality (AR) and virtual reality (VR) applications."
+      },
+      {
+        "ques": "What platforms and technologies do you use for AR & VR development?",
+        "ans": "We utilize industry-leading platforms and technologies for AR & VR development, including Unity, Unreal Engine, ARKit, ARCore, and WebXR."
+      },
+      {
+        "ques": "Can you assist with concept development and storyboarding for AR & VR projects?",
+        "ans": "Yes, we offer assistance with concept development and storyboarding for AR & VR projects. Our creative team collaborates with you to shape ideas, create compelling narratives, and plan the user journey, ensuring a cohesive and engaging AR or VR experience."
+      },
+      {
+        "ques": "Do you provide 3D modeling and animation services for AR & VR experiences?",
+        "ans": "Yes, we provide comprehensive 3D modeling and animation services for AR & VR experiences. We can create high-quality 3D assets and animations that enhance the visual appeal and interactivity of your AR or VR project."
+      },
+      {
+        "ques": "How do you ensure user-friendly and immersive AR & VR experiences?",
+        "ans": "We ensure user-friendly and immersive AR & VR experiences by focusing on intuitive user interfaces, smooth interactions, realistic visuals, spatial audio, and optimized performance. We employ best practices in UX design and technical implementation to create engaging and seamless immersive experiences."
+      },
+      {
+        "ques": "How do you ensure the quality and performance of AR & VR applications?",
+        "ans": "We ensure the quality and performance of AR & VR applications through meticulous testing, optimization, and adherence to industry standards. Our team conducts thorough quality assurance checks, optimizes visuals and interactions, and ensures smooth performance on a variety of devices to deliver exceptional AR & VR experiences."
+      },
+      {
+        "ques": "How do I get started with an AR or VR project with your creative agency?",
+        "ans": "We ensure the quality and performance of AR & VR applications through meticulous testing, optimization, and adherence to industry standards. Our team conducts thorough quality assurance checks, optimizes visuals and interactions, and ensures smooth performance on a variety of devices to deliver exceptional AR & VR experiences."
+      },
+      {
+        "ques": "Explain the application of Game Tech in creating interactive brand experiences and engaging market content?",
+        "ans": "Game Tech offers a dynamic platform to create interactive brand experiences and engaging market content. Through gamification, we captivate audiences, fostering deeper connections with brands. Our innovative Game Tech solutions enhance customer engagement, driving memorable brand interactions and boosting marketing success."
+      },
+      {
+        "ques": "How do AR/VR experiences drive customer engagement and brand loyalty?",
+        "ans": "AR/VR experiences elevate customer engagement and foster brand loyalty by offering immersive interactions. Through interactive campaigns and virtual experiences, brands create memorable moments, forging stronger connections with their audience. These innovative AR/VR solutions enhance customer satisfaction, driving long-term brand loyalty and business success."
+      },
+      {
+        "ques": "What are the benefits of integrating AR, VR, and Game Tech in marketing strategies?",
+        "ans": "Integrating AR, VR, and Game Tech in marketing strategies opens doors to limitless possibilities. It enhances customer engagement, boosts brand visibility, and delivers unique, interactive experiences that set your brand apart from the competition, leading to increased conversions and brand loyalty."
+      }
     ]
   },
   "/films-animation-vfx": {
@@ -675,6 +827,56 @@
         "link": "#",
         "row": 1,
         "col": 2
+      }
+    ],
+    "faq": [
+      {
+        "ques": "What services do we offer in films?",
+        "ans": "We offer comprehensive films including scriptwriting, storyboarding, casting, location scouting, production coordination, filming, editing, and post-production. We handle projects of all scales and genres, ensuring high-quality and captivating films, bringing your vision to life."
+      },
+      {
+        "ques": "What equipment and technology do you use for filming and post-production?",
+        "ans": "We use industry-standard equipment for filming, including high-resolution cameras, audio recording devices, and lighting setups. In post-production, we utilize advanced software for editing, color grading, visual effects, and sound mixing to deliver high-quality films that captivate audiences."
+      },
+      {
+        "ques": "Can you assist with casting, location scouting, and production coordination?",
+        "ans": "Yes, we provide comprehensive assistance with casting, location scouting, and production coordination. We ensure a seamless production process by helping you find the right talent, identifying suitable locations, and managing all logistical aspects to bring your vision to life."
+      },
+      {
+        "ques": "How do I get started with a film project with your creative agency?",
+        "ans": "To get started with your film project, simply reach out to us. We’ll discuss your ideas, goals, and requirements, and work together to develop a customized plan to bring your vision to life."
+      },
+      {
+        "ques": "How do you handle copyrights and legal aspects related to film making?",
+        "ans": "We prioritize the legal and ethical aspects of filmmaking by taking copyrights and legal aspects seriously. We ensure proper licensing and permissions for music, stock footage, and other copyrighted materials used in the film. Our team ensures proper clearance of intellectual property rights for a smooth release."
+      },
+      {
+        "ques": "Do you provide editing and post-production services for films?",
+        "ans": "Yes, we provide comprehensive editing and post-production services for films. We use advanced software and techniques for video editing, color grading, sound design, visual effects, and final mastering to deliver a polished and impactful final product."
+      },
+      {
+        "ques": "How do you incorporate animation and VFX in your film projects to enhance storytelling?",
+        "ans": "We expertly integrate animation and VFX in our film projects to elevate storytelling. Through seamless and captivating visual effects, we bring stories to life, engaging audiences on a whole new level of immersive cinematic experience."
+      },
+      {
+        "ques": "What role does animation play in bringing characters and scenes to life in films?",
+        "ans": "Animation plays a vital role in breathing life into characters and scenes in our films. Through skilled animation techniques, we create compelling visuals that captivate audiences and enhance the overall storytelling experience."
+      },
+      {
+        "ques": "How do you utilize VFX to create realistic and immersive environments in films?",
+        "ans": "We leverage advanced VFX techniques to craft realistic and immersive environments in our films. By seamlessly integrating visual effects, we transport audiences to captivating worlds that enhance the overall cinematic experience."
+      },
+      {
+        "ques": "Explain the creative process behind incorporating animation and VFX in film productions?",
+        "ans": "Our creative process for incorporating animation and VFX in film productions involves meticulous planning, collaboration with filmmakers, and skilled execution. We bring stories to life by seamlessly integrating captivating visual effects, ensuring an immersive and unforgettable cinematic experience."
+      },
+      {
+        "ques": "What technologies and software do you use to achieve high-quality animation and VFX in films?",
+        "ans": "We employ cutting-edge technologies and industry-leading software to achieve high-quality animation and VFX in films. Our skilled team utilizes advanced tools like Autodesk Maya, Adobe After Effects, and Nuke, ensuring seamless integration and stunning visual effects that elevate the overall cinematic experience."
+      },
+      {
+        "ques": "Describe the process of conceptualizing and executing animation and VFX scenes in a film?",
+        "ans": "Our process of conceptualizing and executing animation and VFX scenes in a film involves meticulous planning, collaboration with filmmakers, and creative expertise. From ideation to post-production, we seamlessly integrate stunning visual effects that enhance storytelling, captivate audiences, and deliver an exceptional cinematic experience."
       }
     ]
   },
@@ -814,6 +1016,36 @@
         "row": 1,
         "col": 1
       }
+    ],
+    "faq": [
+      {
+        "ques": "What type of image is an illustration?",
+        "ans": "An illustration is a visual representation created by artists or designers to convey ideas, stories, or concepts. It is a unique and creative form of imagery that adds depth and storytelling to various communication materials and marketing campaigns."
+      },
+      {
+        "ques": "What is illustration style?",
+        "ans": "Illustration style refers to the distinctive artistic approach and visual language used by an illustrator to create their artwork. It encompasses various elements like line work, color palette, composition, lines, shapes, textures, and overall aesthetic, which contribute to the unique and recognizable look of the illustrations."
+      },
+      {
+        "ques": "What are the 4 categories of illustration?",
+        "ans": "The four categories of illustration are Traditional, Digital, Infographic, and Editorial. Traditional illustrations are hand-drawn or painted, while digital illustrations are created using software. Infographic illustrations visualize data, and editorial illustrations accompany articles or stories."
+      },
+      {
+        "ques": "Where are illustrations used?",
+        "ans": "Illustrations are used across various media and industries. Illustrations are used in various applications such as branding, marketing materials, packaging design, websites, social media posts, editorial publications, children’s books, infographics, and animations. They add creativity, visual appeal, and storytelling elements to engage and communicate with the target audience effectively."
+      },
+      {
+        "ques": "What are the rules of illustration?",
+        "ans": "The rules of illustration involve understanding the client’s vision, creating a cohesive visual language, maintaining consistency, employing appropriate techniques and styles, and effectively communicating the intended message."
+      },
+      {
+        "ques": "What is 2D and 3D illustration?",
+        "ans": "2D illustration refers to two-dimensional artwork created using flat images or surfaces, such as paintings or digital illustrations. On the other hand, 3D illustration adds depth and dimension, creating lifelike objects or scenes that appear three-dimensional. At PRAKRIA UK LTD, we offer both 2D and 3D illustrations, providing versatile and captivating visual solutions for your projects."
+      },
+      {
+        "ques": "What is the difference between an illustration and a drawing?",
+        "ans": "While both illustrations and drawings are visual representations, the main difference lies in their purpose and style. Illustrations are often used to convey concepts, ideas, or stories, employing various techniques and styles. On the other hand, drawings typically refer to freehand sketches or artistic renderings without a specific narrative, serving as standalone artistic expressions. At PRAKRIA UK LTD, we offer professional illustration services that cater to your unique creative and marketing needs."
+      }
     ]
   },
   "/web-development": {
@@ -910,7 +1142,38 @@
           "description": "We offer top-notch CMS services that empower you to manage your content with ease. With our user-friendly CMS solutions."
         }
       ]
-    }
+      
+    },
+    "faq": [
+      {
+        "ques": "What is web development, and why do I need it for my business?",
+        "ans": "Web development refers to the process of creating and maintaining websites and web applications. It is essential for your business because a well-designed and functional website can help you establish an online presence, reach a broader audience, and promote your products or services 24/7 "
+      },
+      {
+        "ques": "What types of websites can you create for my business?",
+        "ans": "Whether you require a professional corporate website, a creative portfolio to showcase your work, an e-commerce store to sell products online, a blog or news platform, or a robust web application, we have the expertise to deliver a solution that matches your vision and requirements."
+      },
+      {
+        "ques": "What steps are involved in the web development process?",
+        "ans": "The web development process typically includes several stages, such as project discovery and planning, designing the website’s layout and user interface, development and coding, testing, and finally, launching the website. Ongoing maintenance and updates may also be necessary."
+      },
+      {
+        "ques": "How long does it take to develop a website?",
+        "ans": "The time required for web development depends on the complexity and scope of your website. A simple brochure website might take a few weeks, while more complex e-commerce platforms or web applications could take several months. We’ll provide you with a timeline based on your specific requirements."
+      },
+      {
+        "ques": "Do you offer responsive web design?",
+        "ans": "Yes, absolutely! We believe in creating websites that are fully responsive, which means they adapt to various screen sizes and devices, including desktops, laptops, tablets, and smartphones. A responsive design ensures your website looks great and functions well across all platforms."
+      },
+      {
+        "ques": "Can I update the website content myself after it's launched?",
+        "ans": "Yes, we can provide you with a content management system (CMS) that allows you to update and manage the website’s content easily. With a user-friendly CMS, you can make changes to text, images, and other elements without any coding knowledge."
+      },
+      {
+        "ques": "What about website security? How do you protect my site from cyber threats?",
+        "ans": "Website security is of utmost importance to us. We implement robust security measures such as SSL certificates, firewalls, and regular security audits to protect your website from potential cyber threats and ensure the safety of user data."
+      }
+    ]
   },
   "/privacy-policy": {
     "title": "privacy policy"
