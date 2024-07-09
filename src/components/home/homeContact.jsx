@@ -68,7 +68,7 @@ const Home1Contact = () => {
                       </svg>
                     </div>
                     <div className="content">
-                      <span>To More Inquiry</span>
+                      <span>For further enquiries, contact </span>
                       <h6>
                         <a href={`tel:${data.number}`}>{data.number}</a>
                       </h6>
@@ -90,7 +90,7 @@ const Home1Contact = () => {
                       </svg>
                     </div>
                     <div className="content">
-                      <span>To Send Mail</span>
+                      <span>Email</span>
                       <h6>
                         <a href={`mailto:${data.email}`}>{data.email}</a>
                       </h6>

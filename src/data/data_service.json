@@ -11,7 +11,7 @@
     "title": "Digital Marketing",
     "description": "Digital marketing is the promotion of your brand and products online. We offer a wide range of digital marketing services including SEO, social media management, and digital marketing tools.",
     "sub": {
-      "title": "DIGITAL MARKETING IS NOT JUST A SERVICE IT'S AN ART FORM",
+      "title": "DIGITAL MARKETING IS NOT JUST A SERVICE. IT'S AN ART FORM",
       "description": "\nWhat sets us apart is our deep understanding of the digital landscape, backed by our FMCG heritage. Our team of skilled professionals delves into the nitty-gritties of your brand, uncovering its unique essence and crafting bespoke strategies that are sure to resonate with your target audiences. From captivating content creation to data-driven SEO and cutting-edge social media campaigns, we leave no stone unturned in ensuring your brand thrives in the digital realm. Our meticulous approach blends creativity with technology, delivering results that are not only impactful but also measurable.\n\nPartner with us, and you’ll witness the seamless fusion of artistry and analytics, fuelling your brand’s growth and transforming it into a digital powerhouse.\n"
     },
     "cardsSection": {
@@ -81,43 +81,50 @@
         "id": "1",
         "link": "/portfolio_item/1",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/2.webp",
         "id": "2",
-        "link": "/portfolio_item/2"
+        "link": "/portfolio_item/2",
+        "col": 3
       },
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/3.gif",
         "id": "3",
-        "link": "/portfolio_item/3"
+        "link": "/portfolio_item/3",
+        "col": 3
       },
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/4.gif",
         "id": "4",
-        "link": "/portfolio_item/4"
+        "link": "/portfolio_item/4",
+        "col": 3
       },
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/5.gif",
         "id": "5",
-        "link": "/portfolio_item/5"
+        "link": "/portfolio_item/5",
+        "col": 3
       },
       {
         "type": "image",
-        "src": "/assets_main/services/digital_marketing/dm1.gif"
+        "src": "/assets_main/services/digital_marketing/dm1.gif",
+        "col": 3
       },
       {
         "type": "image",
-        "src": "/assets_main/services/digital_marketing/dm2.gif"
+        "src": "/assets_main/services/digital_marketing/dm2.gif",
+        "col": 3
       },
       {
         "type": "image",
-        "src": "/assets_main/services/digital_marketing/dm3.webp"
+        "src": "/assets_main/services/digital_marketing/dm3.webp",
+        "col": 3
       }
     ]
   },
@@ -135,7 +142,7 @@
         "id": "6",
         "link": "/portfolio_item/6",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -143,7 +150,7 @@
         "id": "7",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -151,7 +158,7 @@
         "id": "1",
         "link": "/portfolio_item/7",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -159,7 +166,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -167,7 +174,7 @@
         "id": "1",
         "link": "/portfolio_item/8",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -175,7 +182,7 @@
         "id": "1",
         "link": "/portfolio_item/9",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -183,7 +190,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -191,7 +198,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -199,7 +206,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -207,7 +214,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -215,7 +222,7 @@
         "id": "1",
         "link": "/portfolio_item/10",
         "row": 1,
-        "col": 1
+        "col": 3
       }
     ],
     "cardsSection": {
@@ -261,7 +268,7 @@
   },
   "/print-media": {
     "title": "Print Perfection: Elevate Your Brand Presence",
-    "description": "Unveil the brilliance of our 20+ year journey, crafting Print Masterpieces that redefine brand storytelling. We understand that Print remains a powerful tool for brand recognition and have honed our skills to create designs that make a difference. Serving top global brands like Nestle, Pernod Ricard, Burger King, Kohler and many more, we bring our FMCG expertise to deliver print solutions that captivate and convert.",
+    "description": "Unveil the brilliance of our 20+ year journey, crafting Print Masterpieces that redefine brand storytelling. We understand that Print remains a powerful tool for brand recognition and have honed our skills to create designs that make a difference. Serving top global brands like Nestlé , Pernod Ricard, Burger King, Kohler and many more, we bring our FMCG expertise to deliver print solutions that captivate and convert.",
     "sub": {
       "title": "THIS IS WHERE DESIGN DEADLINES YIELD TIMELESS BRAND STORIES",
       "description": "\nWe have been doing Print Media since the cradle days of our journey into the Ad-Mad world. We understand how the clock is always ticking for brand managers, how important it is for Print KVs to reach the markets on time & set the business plans in action, and just how valuable an eye-catching, captivating print design can be. It is a never-ending hustle. And we are the OG hustlers of the game. Over the last two decades, we have learned the subtlest of nuances of our market and honed our expertise accordingly. There have been many battles fought, and all of them, without exception, won with applause. We take pride in delivering world class Print Designs in un-heard of timelines; really, for us, our ultimate high is that look of astonishment on our client’s faces when they witness our print wizardry in action.\n\nWhen you partner with us, you open the door to a world of print possibilities, where compelling storytelling and unparalleled creativity converge. Together, let’s make your brand’s print presence an unforgettable journey, etched in the hearts of your consumers for years to come.\n\n"
@@ -273,7 +280,7 @@
         "id": "19",
         "link": "/portfolio_item/19",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -281,7 +288,7 @@
         "id": "20",
         "link": "/portfolio_item/20",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -289,7 +296,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -297,7 +304,7 @@
         "id": "1",
         "link": "/portfolio_item/21",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -305,7 +312,7 @@
         "id": "1",
         "link": "/portfolio_item/15",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -313,7 +320,7 @@
         "id": "1",
         "link": "/portfolio_item/22",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -321,7 +328,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -329,7 +336,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -337,7 +344,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -345,7 +352,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       }
     ],
     "faq": [
@@ -368,7 +375,7 @@
     "description": "Step into the realm of visual wonders with PRAKRIA's 3D & CGI services. With over two decades of experience, we are the architects of virtual worlds, crafting stunning visualizations and animations that leave audiences spellbound.",
     "sub": {
       "title": "FROM PIXELS TO PERFECTION: CRAFTING MAGIC, ONE PIXEL AT A TIME",
-      "description": "\nOur team of passionate artists and technologists embraces the minutiae of every project, ensuring that every pixel is imbued with artistry and precision. From hyper-realistic product renders that breathe life into your creations to cutting-edge CGI animations that push the boundaries of imagination, we redefine the possibilities of visual storytelling. Every project is an exploration of limitless creativity, where we turn your ideas into breathtaking visual symphonies.\n\nTrusted by global giants like Nestle, Pernod Ricard, Perfetti, Burger King, and many more, our 3D & CGI symphonies elevate your brand’s storytelling, leaving an unforgettable imprint on hearts and minds. Unleash the magic of PRAKRIA’s 3D & CGI mastery, and let your brand take center stage with immersive experiences that dazzle and engage.\n\n"
+      "description": "\nOur team of passionate artists and technologists embraces the minutiae of every project, ensuring that every pixel is imbued with artistry and precision. From hyper-realistic product renders that breathe life into your creations to cutting-edge CGI animations that push the boundaries of imagination, we redefine the possibilities of visual storytelling. Every project is an exploration of limitless creativity, where we turn your ideas into breathtaking visual symphonies.\n\nTrusted by global giants like Nestlé , Pernod Ricard, Perfetti, Burger King, and many more, our 3D & CGI symphonies elevate your brand’s storytelling, leaving an unforgettable imprint on hearts and minds. Unleash the magic of PRAKRIA’s 3D & CGI mastery, and let your brand take center stage with immersive experiences that dazzle and engage.\n\n"
     },
     "content": [
       {
@@ -377,7 +384,7 @@
         "id": "11",
         "link": "/portfolio_item/23",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -385,7 +392,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -393,7 +400,7 @@
         "id": "24",
         "link": "/portfolio_item/24",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -401,7 +408,7 @@
         "id": "25",
         "link": "/portfolio_item/25",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -409,7 +416,7 @@
         "id": "26",
         "link": "/portfolio_item/26",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -417,7 +424,7 @@
         "id": "27",
         "link": "/portfolio_item/27",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -425,7 +432,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -433,7 +440,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       }
     ],
     "faq": [
@@ -485,7 +492,7 @@
         "id": "11",
         "link": "/portfolio_item/11",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -493,7 +500,7 @@
         "id": "12",
         "link": "/portfolio_item/12",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -501,7 +508,7 @@
         "id": "1",
         "link": "/portfolio_item/13",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -509,7 +516,7 @@
         "id": "1",
         "link": "/portfolio_item/14",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -517,7 +524,7 @@
         "id": "1",
         "link": "/portfolio_item/15",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -525,7 +532,7 @@
         "id": "1",
         "link": "/portfolio_item/16",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -533,7 +540,7 @@
         "id": "1",
         "link": "/portfolio_item/17",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -541,7 +548,7 @@
         "id": "1",
         "link": "/portfolio_item/18",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -549,7 +556,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -557,7 +564,7 @@
         "id": "1",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       }
     ],
     "faq": [
@@ -613,7 +620,7 @@
         "id": "#",
         "link": "#",
         "row": 2,
-        "col": 1
+        "col": 3
       },
       {
         "type": "video",
@@ -621,7 +628,7 @@
         "id": "#",
         "link": "#",
         "row": 2,
-        "col": 1
+        "col": 3
       },
       {
         "type": "video",
@@ -629,7 +636,7 @@
         "id": "#",
         "link": "#",
         "row": 2,
-        "col": 1
+        "col": 3
       },
       {
         "type": "video",
@@ -637,7 +644,7 @@
         "id": "#",
         "link": "#",
         "row": 2,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -645,7 +652,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
 
       {
@@ -654,7 +661,7 @@
         "id": "11",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -662,7 +669,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -670,7 +677,7 @@
         "id": "27",
         "link": "/portfolio_item/28",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -678,7 +685,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -686,7 +693,7 @@
         "id": "11",
         "link": "/portfolio_item/29",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -694,7 +701,7 @@
         "id": "29",
         "link": "/portfolio_item/30",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -702,7 +709,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       }
     ],
     "faq": [
@@ -770,7 +777,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 2
+        "col": 6
       },
       {
         "type": "video",
@@ -778,7 +785,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 2
+        "col": 6
       },
       {
         "type": "video",
@@ -786,7 +793,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 2
+        "col": 6
       },
       {
         "type": "video",
@@ -794,7 +801,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 2
+        "col": 6
       },
       {
         "type": "video",
@@ -802,7 +809,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 2
+        "col": 6
       },
       {
         "type": "video",
@@ -810,7 +817,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 2
+        "col": 6
       },
       {
         "type": "video",
@@ -818,7 +825,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 2
+        "col": 6
       },
       {
         "type": "video",
@@ -826,7 +833,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 2
+        "col": 6
       }
     ],
     "faq": [
@@ -894,7 +901,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -902,7 +909,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -910,7 +917,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -918,7 +925,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -926,7 +933,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -934,7 +941,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -942,7 +949,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -950,7 +957,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -958,7 +965,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -966,7 +973,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -974,7 +981,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -982,7 +989,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -990,7 +997,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -998,7 +1005,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -1006,7 +1013,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       },
       {
         "type": "image",
@@ -1014,7 +1021,7 @@
         "id": "#",
         "link": "#",
         "row": 1,
-        "col": 1
+        "col": 3
       }
     ],
     "faq": [

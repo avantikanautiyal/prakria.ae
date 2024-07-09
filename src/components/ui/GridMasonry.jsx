@@ -49,7 +49,7 @@ function GridMasonry({ random = true, data = [], fill = true }) {
   }, []);
 
   return (
-    <div className=" py-4 md:p-4 rounded-lg grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-flow-row-dense auto-rows-[350px]">
+    <div className=" py-4 md:p-4 rounded-lg grid gap-3 grid-cols-12 grid-flow-row-dense ">
       {list.map((g, i) => {
         return <GridCard key={i} item={g} fill={fill} />;
       })}
@@ -62,9 +62,10 @@ function GridCard({ item, className, fill }) {
   return (
     <>
       <div
+        id={"portfolio-card"}
         className={cn(
           className,
-          `rounded-lg wow animate zoomIn hidden md:block`
+          `rounded-lg wow animate zoomIn hidden  md:block col-span-12`
         )}
         style={{
           gridRow: `span ${item.row}`,
@@ -72,21 +73,26 @@ function GridCard({ item, className, fill }) {
         }}
       >
         <Link href={item.link ?? "#"}>
-          <DirectionAwareHover imageUrl={item.src} type={item.type} fill={fill}>
-            {/* <p>title</p> */}
-          </DirectionAwareHover>
+          <DirectionAwareHover
+            imageUrl={item.src}
+            type={item.type}
+            fill={fill}
+          ></DirectionAwareHover>
         </Link>
       </div>
+
       <div
         className={cn(
           className,
-          `rounded-lg wow animate zoomIn block md:hidden`
+          `rounded-lg wow animate zoomIn block md:hidden col-span-12`
         )}
       >
         <Link href={item.link ?? "#"}>
-          <DirectionAwareHover imageUrl={item.src} type={item.type} fill={fill}>
-            {/* <p>title</p> */}
-          </DirectionAwareHover>
+          <DirectionAwareHover
+            imageUrl={item.src}
+            type={item.type}
+            fill={fill}
+          ></DirectionAwareHover>
         </Link>
       </div>
     </>

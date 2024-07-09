@@ -11,7 +11,7 @@ export const metadata = {
     absolute: "Print Media - Leading Print Media Agency in India",
   },
   description:
-    "Serving top global brands like Nestle, Pernod Ricard, Burger King, Kohler and many more, we bring our FMCG expertise to deliver print solutions that captivate and convert.",
+    "Serving top global brands like Nestlé , Pernod Ricard, Burger King, Kohler and many more, we bring our FMCG expertise to deliver print solutions that captivate and convert.",
 };
 
 function Page() {
@@ -29,7 +29,7 @@ function Page() {
                 Masterpieces that redefine brand storytelling. We understand
                 that Print remains a powerful tool for brand recognition and
                 have honed our skills to create designs that make a difference.
-                Serving top global brands like Nestle, Pernod Ricard, Burger
+                Serving top global brands like Nestlé , Pernod Ricard, Burger
                 King, Kohler and many more, we bring our FMCG expertise to
                 deliver print solutions that captivate and convert.
               </p>

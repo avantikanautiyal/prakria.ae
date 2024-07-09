@@ -23058,3 +23058,12 @@ body:not(.is-mobile) .tt-style-switch:hover {
     scale:1.2;
     z-index:99999;
 }
+
+#dialog-img:focus-visible{
+  outline: 0px !important;
+}
+#portfolio-card[data-size="sm"] {
+  /* border  : 1px solid red ; */
+  /* gridColumn */
+  grid-column: 12;
+}

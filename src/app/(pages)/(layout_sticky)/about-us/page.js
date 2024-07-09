@@ -16,16 +16,13 @@ export const metadata = {
 function Page() {
   return (
     <>
-      
       <div className="service-page-hero">
         <div className="container text-center">
           <div className="banner-wrapper">
             <div className="banner-content">
-              <h1>
-              Curious About Us.
-              </h1>
+              <h1>Curious About Us?</h1>
               <p>
-              An independent and multidisciplinary creative agency has been on
+                An independent and multidisciplinary creative agency has been on
                 a journey with a Modus Operandi that has flexibly carved out a
                 niche in the creative design world.
               </p>
@@ -65,7 +62,7 @@ We love madness at work. A well-planned and controlled madness that we’ve perf
 
 ##### “With Great design responsibility comes greater ‘Deliver on time’ responsibilities”
 
-We are big enough to incubate some of the most innovative ideas and small enough to service them personally to our clients. We can go all berserk thinking out of the box for extra creative projects and come back faster than Bolt’s sprint for deadline oriented ones.
+We are big enough to incubate some of the most innovative ideas and small enough to service them personally to our clients. We can go all berserk thinking out of the box for extra creative projects and come back faster than Bolt’s sprint for deadline-oriented ones.
 
 #### There are things which we always look up to and believe in them-
 

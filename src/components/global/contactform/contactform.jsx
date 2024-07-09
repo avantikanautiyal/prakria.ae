@@ -4,11 +4,12 @@ import Link from "next/link";
 import React, { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import { toast, ToastContainer } from "react-toastify";
+import { useRouter } from "next/navigation";
 function ContactForm() {
   const [result, setResult] = useState("");
-  const [capVal, setcapVal] = useState(null);
-  const [checked, setChecked] = React.useState(false);
-  const [field, setField] = useState({
+  const router = useRouter();
+
+  const [formData, setFormData] = useState({
     name: "",
     company: "",
     phone: "",
@@ -16,73 +17,57 @@ function ContactForm() {
     subject: "",
     message: "",
   });
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    console.log("submited");
-    toast.success(
-      "Thank you for showing your interest in the services offered by us. One of our team members will attend to you shortly.",
-      {
-        position: "bottom-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-        transition: "Bounce",
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const res = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setSuccessMessage("Your message has been sent successfully!");
+        setFormData({
+          name: "",
+          company: "",
+          phone: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+        // router.push("/thank-you");
+      } else {
+        setErrorMessage("Failed to send your message. Please try again.");
       }
-    );
-    // // setResult("Sending....");
-    // const formData = new FormData(event.target);
-    // console.log(formData);
+    } catch (error) {
+      setErrorMessage("An error occurred. Please try again.");
+    }
 
-    // formData.append("access_key", "324b2d24-b3f4-48e9-af01-0ba65fa02b2c");
-
-    // const response = await fetch("https://api.web3forms.com/submit", {
-    //   method: "POST",
-    //   body: formData,
-    // });
-
-    // const data = await response.json();
-
-    // if (data.success) {
-    //   event.target.reset();
-    //   // Show success toast notification
-    //   toast.success(
-    //     "Thank you for showing your interest in the services offered by us. One of our team members will attend to you shortly.",
-    //     {
-    //       position: "bottom-right",
-    //       autoClose: 3000,
-    //       hideProgressBar: false,
-    //       closeOnClick: true,
-    //       pauseOnHover: true,
-    //       draggable: true,
-    //       progress: undefined,
-    //       theme: "dark",
-    //       transition: "Bounce",
-    //     }
-    //   );
-    // } else {
-    //   console.log("Error", data);
-    //   toast.error(data.message, {
-    //     position: "bottom-right",
-    //     autoClose: 3000,
-    //     hideProgressBar: false,
-    //     closeOnClick: true,
-    //     pauseOnHover: true,
-    //     draggable: true,
-    //     progress: undefined,
-    //     theme: "dark",
-    //     transition: "Bounce",
-    //   });
-    // }
+    setIsSubmitting(false);
   };
   return (
     <div className="contact-form-area" id="contactForm">
       <ToastContainer />
       <h3>Your Success Starts Here!</h3>
-      <form onSubmit={onSubmit}>
+      <form onSubmit={handleSubmit}>
         <input
           type="hidden"
           name="access_key"
@@ -96,8 +81,10 @@ function ContactForm() {
               <input
                 placeholder="Full Name"
                 type="text"
-                name="fullname"
+                name="name"
                 required
+                value={formData.name}
+                onChange={handleChange}
                 // onChange={(e) => setField({ ...field, name: e.target.value })}
               />
             </div>
@@ -108,10 +95,10 @@ function ContactForm() {
               <input
                 placeholder="Company / Organization *"
                 type="text"
-                name="organisation"
-                onChange={(e) =>
-                  setField({ ...field, company: e.target.value })
-                }
+                name="company"
+                value={formData.company}
+                onChange={handleChange}
+                required
               />
             </div>
           </div>
@@ -122,7 +109,9 @@ function ContactForm() {
                 placeholder="Phone"
                 type="text"
                 name="phone"
-                onChange={(e) => setField({ ...field, phone: e.target.value })}
+                value={formData.phone}
+                onChange={handleChange}
+                required
               />
             </div>
           </div>
@@ -133,7 +122,9 @@ function ContactForm() {
                 type="email"
                 placeholder="Company email *"
                 name="email"
-                onChange={(e) => setField({ ...field, email: e.target.value })}
+                value={formData.email}
+                onChange={handleChange}
+                required
               />
             </div>
           </div>
@@ -144,9 +135,9 @@ function ContactForm() {
                 type="text"
                 placeholder="Your Subject *"
                 name="subject"
-                onChange={(e) =>
-                  setField({ ...field, subject: e.target.value })
-                }
+                value={formData.subject}
+                onChange={handleChange}
+                required
               />
             </div>
           </div>
@@ -157,9 +148,8 @@ function ContactForm() {
                 placeholder="Message *"
                 defaultValue={""}
                 name="message"
-                onChange={(e) =>
-                  setField({ ...field, message: e.target.value })
-                }
+                value={formData.message}
+                onChange={handleChange}
               />
             </div>
           </div>
@@ -168,7 +158,7 @@ function ContactForm() {
               <input
                 style={{ height: "20px" }}
                 type="checkbox"
-                defaultChecked={checked}
+                required
                 name="message"
                 // onChange={(e) =>
                 //   setField({ ...field, message: e.target.value })
@@ -186,15 +176,15 @@ function ContactForm() {
                 .
               </label>
             </div>
-            <ReCAPTCHA
+            {/* <ReCAPTCHA
               sitekey="6LeMX9IpAAAAAMPWQvm3SYQ98X13vK2MI6CdQoiS"
               onChange={(val) => setcapVal(val)}
-            />
+            /> */}
           </div>
           <div className="col-lg-12">
             <div className="form-inner">
               <button
-                // disabled={!capVal}
+                disabled={isSubmitting}
                 className="primary-btn2"
                 type="submit"
                 data-text="Submit Now"
@@ -205,6 +195,8 @@ function ContactForm() {
           </div>
         </div>
       </form>
+      {successMessage && <p className="text-success">{successMessage}</p>}
+      {errorMessage && <p className="text-danger">{errorMessage}</p>}
       <span>{result}</span>
     </div>
   );

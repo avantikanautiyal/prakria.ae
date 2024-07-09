@@ -78,7 +78,7 @@ const Footer2 = () => {
                 </svg>
               </div>
               <div className="content">
-                <span>Call Any Time</span>
+                <span>Call anytime</span>
                 <h6>
                   <a href="tel:9810810034">+91 98108 10034</a>
                 </h6>
