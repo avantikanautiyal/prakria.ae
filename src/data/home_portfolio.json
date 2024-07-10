@@ -6,35 +6,38 @@
     "content": [
       {
         "id": 1,
-        "className": "md:row-span-2 md:col-span-2",
+
+        "className": "col-lg-8 col-12",
         "title": "Polo",
         "link": "/",
-        "thumbnail": "/assets_main/digital_marketing/polo.gif"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/ezgif.com-optimize-1.gif"
       },
       {
         "id": 2,
-        "className": "md:col-span-1",
+
+        "className": "col-lg-4 col-12",
+
         "title": "Dove",
         "link": "/",
-        "thumbnail": "/assets_main/digital_marketing/dove.png"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_661727e0e050418193d3983125f1933cmv2.png"
       },
       {
         "id": 3,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "Marie Claire",
         "link": "/",
-        "thumbnail": "/assets_main/digital_marketing/marie_claire.jpg"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/08/Marie-claire-digital-mockup-626-x-500-03.gif"
       },
       {
         "id": 4,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "Munch",
         "link": "/",
-        "thumbnail": "/assets_main/digital_marketing/munch.gif"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_58b2af853df547a596c81e2a09f5e3b9mv2.gif"
       },
       {
-        "id": 4,
-        "className": "md:col-span-1",
+        "id": 5,
+        "className": "col-lg-4 col-12",
         "title": "Munch",
         "link": "/",
         "thumbnail": "/assets_main/digital_marketing/dabur.jpg"
@@ -48,35 +51,35 @@
     "content": [
       {
         "id": 1,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "kitkat",
         "link": "/",
         "thumbnail": "/assets_main/packaging_design/100_pipers.jpg"
       },
       {
         "id": 2,
-        "className": "md:col-span-2",
+        "className": "col-lg-8 col-12",
         "title": "100 Pipers",
         "link": "/",
         "thumbnail": "/assets_main/packaging_design/kitkat.png"
       },
       {
         "id": 3,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "PERFETTI VAN MELLE",
         "link": "/",
-        "thumbnail": "/assets_main/packaging_design/perfetti.jpg"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/08/perfetti.jpg"
       },
       {
         "id": 4,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "Quality Street",
         "link": "/",
         "thumbnail": "/assets_main/packaging_design/quality_street.png"
       },
       {
         "id": 4,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "Quality Street",
         "link": "/",
         "thumbnail": "/assets_main/packaging_design/palmoliv.png"
@@ -88,42 +91,41 @@
     "description": "",
     "link": "/print-media",
     "content": [
-      
       {
         "id": 2,
-        "className": "md:col-span-2",
+        "className": "col-lg-8 col-12",
         "title": "GREKYO",
         "link": "/",
-        "thumbnail": "/assets_main/print_media/grekyo.png",
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_1bfbea37b99c49dca117f70ef16e3c4fmv2.png",
         "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
       },
       {
         "id": 1,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "POLO",
         "link": "/",
-        "thumbnail": "/assets_main/print_media/polo.png",
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_998b7a9e3b094dbfa6e445d4c1e5a317mv2.png",
         "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
       },
       {
         "id": 3,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "CARNATION",
         "link": "/",
-        "thumbnail": "/assets_main/print_media/carnation.png",
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_c004b69c3d974e6da3b0eaf765c8d3e4mv2.png",
         "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
       },
       {
         "id": 4,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "KOHLER",
         "link": "/",
-        "thumbnail": "/assets_main/print_media/kohler.png",
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_c84ba5c374ca47d9a35e5b39cc1dbb17mv2.png",
         "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life."
       },
       {
         "id": 5,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "NIDO",
         "link": "/",
         "thumbnail": "/assets_main/print_media/nido.png",
@@ -136,38 +138,37 @@
     "description": "",
     "link": "/3d-cgi",
     "content": [
-      
       {
         "id": 2,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "KITKAT",
         "link": "/",
-        "thumbnail": "/assets_main/3d_cgi/kitkat.png"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_5afd0d33b81246129e6396bc8f930221mv2.png"
       },
       {
         "id": 5,
-        "className": "md:col-span-2",
+        "className": "col-lg-8 col-12",
         "title": "",
         "link": "/",
-        "thumbnail": "/assets_main/3d_cgi/str.gif"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_a55c0fe790d041bb84849ed731f90219mv2.gif"
       },
       {
         "id": 4,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "IMPERIAL BLUE",
         "link": "/",
-        "thumbnail": "/assets_main/3d_cgi/imp_blue.jpg"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_bc7df132b3b64265bcc6d80fbb981e25mv2.jpg"
       },
       {
         "id": 3,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "",
         "link": "/",
-        "thumbnail": "/assets_main/3d_cgi/choco.gif"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_ca9fe7f338e843f08c7dbcd44e5581c7mv2.gif"
       },
       {
         "id": 1,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "KOHLER",
         "link": "/",
         "thumbnail": "/assets_main/3d_cgi/kohler.jpg"
@@ -181,38 +182,38 @@
     "content": [
       {
         "id": 1,
-        "className": "md:row-span-2 md:col-span-2",
+        "className": "col-lg-8 col-12",
         "title": "Blanca",
         "link": "/",
         "thumbnail": "/assets_main/ar_vr/blanca.png"
       },
       {
         "id": 5,
-        "className": "md:row-span-2 md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "CRICKET GAME",
         "link": "/",
-        "thumbnail": "/assets_main/ar_vr/cricket_game.jpg"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_262c86211aa44d779f3cbaf38049dc56mv2.jpg"
       },
       {
         "id": 2,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "POLO",
         "link": "/",
-        "thumbnail": "/assets_main/ar_vr/polo.png"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_3c295dcd528d4233abc12f53413320dfmv2.png"
       },
       {
         "id": 3,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "CEREAL KILLERS",
         "link": "/",
         "thumbnail": "/assets_main/ar_vr/cerel_killer.png"
       },
       {
         "id": 4,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "CON VIDA",
         "link": "/",
-        "thumbnail": "/assets_main/ar_vr/con_vida.png"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_270985cac667448688b2f24d811bf8b4mv2.png"
       }
     ]
   },
@@ -223,38 +224,38 @@
     "content": [
       {
         "id": 1,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "POLO",
         "link": "/",
         "thumbnail": "/assets_main/film_animation/polo.gif"
       },
       {
         "id": 5,
-        "className": "md:col-span-2",
+        "className": "col-lg-8 col-12",
         "title": "kitkat",
         "link": "/",
         "thumbnail": "/assets_main/film_animation/kitkat.gif"
       },
       {
         "id": 2,
-        "className": "md:row-span-2 md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "MUNCH",
         "link": "/",
         "thumbnail": "/assets_main/film_animation/munch.gif"
       },
       {
         "id": 3,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "JOLLY RENCHER",
         "link": "/",
-        "thumbnail": "/assets_main/film_animation/jolly_rencher.gif"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_fd01df2f7fd74c6db1803f4f6a7d89d9mv2.gif"
       },
       {
         "id": 4,
-        "className": "md:col-span-1",
+        "className": "col-lg-4 col-12",
         "title": "SOMETHING SPECIAL",
         "link": "/",
-        "thumbnail": "/assets_main/film_animation/something_special.gif"
+        "thumbnail": "https://www.prakria.com/wp-content/uploads/2023/07/6667b2_4e5c111ffc9a4078b9e304b37cb2155amv2-1.gif"
       }
     ]
   }

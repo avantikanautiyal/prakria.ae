@@ -15,7 +15,7 @@ const LogoMarquee = ({}) => {
 
 function MyMarquee({ list }) {
   return (
-    <div className={"scroller   mb-30"}  data-speed="slow" data-animated="true">
+    <div className={"scroller   mb-10"}  data-speed="slow" data-animated="true">
       <ul className={`${"tag-list"} ${"scroller__inner"} text-black`}>
         {[...list, ...list].map((item, index) => (
           <li key={index}>

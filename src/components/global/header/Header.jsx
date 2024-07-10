@@ -148,7 +148,6 @@ const Header1 = () => {
                     >
                       <i className="bi bi-plus" />
                     </span>
-                    
                   </li>
                   <MenuItems
                     data={navData[3]}
@@ -160,17 +159,7 @@ const Header1 = () => {
             <div className="col-lg-4 d-lg-flex align-items-center d-none">
               <div className="sidebar-contact">
                 <div className="getin-touch-area mb-60">
-                  <h4>
-                    Get in Touch
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={12}
-                      height={12}
-                      viewBox="0 0 12 12"
-                    >
-                      <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
-                    </svg>
-                  </h4>
+                  <h4 className="mb-3">Get in Touch</h4>
                   <ul>
                     <li className="single-contact">
                       <div className="icon">
@@ -229,41 +218,35 @@ const Header1 = () => {
                     </li>
                   </ul>
                 </div>
-                {/* <div className="social-link-area">
-                  <h6>
-                    Social Link
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={12}
-                      height={12}
-                      viewBox="0 0 12 12"
-                    >
-                      <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
-                    </svg>
-                  </h6>
+                <div className="social-link-area">
+                  <h6>Social Link</h6>
                   <ul className="social-area">
                     <li>
-                      <a href="#">
-                        <i className="bi bi-dribbble" /> Dribbble
+                      <a
+                        target="_blank"
+                        href="https://in.linkedin.com/company/prakriauklimited"
+                      >
+                        <i className="bi bi-linkedin" /> Linkedin
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="bi bi-behance" /> Behance
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="bi bi-pinterest" /> Pinterest
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com/prakria"
+                      >
                         <i className="bi bi-facebook" /> Facebook
                       </a>
                     </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://www.instagram.com/prakria"
+                      >
+                        <i className="bi bi-instagram" /> Instagram
+                      </a>
+                    </li>
                   </ul>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
@@ -409,7 +392,6 @@ function MenuItems({ data, toggleMenu, state }) {
     <>
       <li
         onClick={() => {
-          console.log("am clicked");
           toggleMenu?.();
         }}
       >

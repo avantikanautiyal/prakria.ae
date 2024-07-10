@@ -5070,8 +5070,8 @@ header.style-3 .main-menu>ul li.menu-item-has-children>i {
 .home1-about-section .about-content .about-section-title h2 {
   color: var(--title-color);
   font-family: var(--font-hankenGrotesk);
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: 600;
   line-height: 1.2;
   margin-bottom: 0;
 }

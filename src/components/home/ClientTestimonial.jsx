@@ -81,21 +81,9 @@ const Home1Testimonial = ({ style }) => {
           >
             <div className="row mb-60">
               <div className="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-3">
-                <div className="section-title3">
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={10}
-                      height={10}
-                      viewBox="0 0 10 10"
-                    >
-                      <g>
-                        <circle cx={5} cy={5} r={5} />
-                      </g>
-                    </svg>
-                    Client Testimonial
-                  </span>
-                  <h2 className="text-4xl">
+                <div className="">
+                  
+                  <h2 className="font-bold uppercase">
                     CLIENT PRAISE FUELS {/* */} <span>OUR SUCCESS</span>
                   </h2>
                   <p>

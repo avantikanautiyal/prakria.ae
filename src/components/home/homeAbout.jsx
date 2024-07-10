@@ -30,9 +30,9 @@ const Home1About = () => {
                     src="https://zenfy-next-js.vercel.app/_next/static/media/home2-banner-vector2.f0e2a83d.svg"
                     alt=""
                   />
-                  <h3 className="text-4xl">
+                  <h2>
                     {`CATAPULT YOUR BRAND TO THE NEXT LEVEL`}
-                  </h3>
+                  </h2>
                   <p>
                     {`We are not your average agency. We specialize in creating
                     amazing experiences that set any event or brand out from the
