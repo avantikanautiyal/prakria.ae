@@ -12,10 +12,10 @@ const Footer2 = () => {
               <div className="col-lg-3 col-md-8 col-sm-6">
                 <div className="footer-widget">
                   <div className="footer-logo">
-                    <Link href="/index2" className="logo-dark">
+                    <Link href="/" className="logo-dark">
                       <img src="/Prakria-logo.png" alt="" />
                     </Link>
-                    <Link href="/index2" className="logo-light">
+                    <Link href="/" className="logo-light">
                       <img src="/Prakria-logo.png" alt="logo" />
                     </Link>
                   </div>
