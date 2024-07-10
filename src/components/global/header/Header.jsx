@@ -160,7 +160,9 @@ const Header1 = () => {
                         }`}
                       >
                         {navData[2]?.subMenu?.map((subMenu, subIndex) => (
-                          <li key={subIndex}>
+                          <li key={subIndex}
+                          onClick={toggleRightSidebar}
+                          >
                             <Link legacyBehavior href={subMenu.link}>
                               <a>{subMenu.label}</a>
                             </Link>
