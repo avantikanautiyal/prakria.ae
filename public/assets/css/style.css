@@ -4412,7 +4412,7 @@ header.style-3 .main-menu>ul li.menu-item-has-children>i {
 .sidebar-menu .sidebar-menu-wrap .main-menu>li .submenu-list li a {
   color: var(--text-color);
   font-family: var(--font-hankenGrotesk);
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   transition: 0.35s;
@@ -4426,7 +4426,7 @@ header.style-3 .main-menu>ul li.menu-item-has-children>i {
 
 @media (max-width: 576px) {
   .sidebar-menu .sidebar-menu-wrap .main-menu>li .submenu-list li a {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 

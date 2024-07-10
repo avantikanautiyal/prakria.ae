@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useMemo, useReducer, useRef } from "react";
+import { useEffect, useMemo, useReducer, useRef, useState } from "react";
 import navData from "../../../data/navData.json";
 // import ScrollProgress from "../common/ScrollProgress";
 const initialState = {
@@ -58,6 +58,7 @@ function reducer(state, action) {
 const Header1 = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const headerRef = useRef(null);
+  const [toggleMenuState, setToggleMenuState] = useState(null);
 
   const handleScroll = () => {
     const { scrollY } = window;
@@ -141,13 +142,32 @@ const Header1 = () => {
                   <li>
                     <Link href="#">{navData[2].label}</Link>
                     <span
-                      className={`dropdown-icon2 ${
-                        state.activeMenu === "case-study" ? "active" : ""
-                      }`}
-                      onClick={() => toggleMenu("case-study")}
+                      className="dropdown-icon2"
+                      onClick={() => {
+                        setToggleMenuState((s) =>
+                          !!s ? null : navData[2].label
+                        );
+                      }}
                     >
                       <i className="bi bi-plus" />
                     </span>
+                    {
+                      <ul
+                        className={`submenu-list active ${
+                          toggleMenuState === navData[2].label
+                            ? "d-block"
+                            : "d-none"
+                        }`}
+                      >
+                        {navData[2]?.subMenu?.map((subMenu, subIndex) => (
+                          <li key={subIndex}>
+                            <Link legacyBehavior href={subMenu.link}>
+                              <a>{subMenu.label}</a>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    }
                   </li>
                   <MenuItems
                     data={navData[3]}
