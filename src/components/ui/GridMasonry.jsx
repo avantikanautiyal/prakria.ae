@@ -72,13 +72,21 @@ function GridCard({ item, className, fill }) {
           gridColumn: `span ${item.col}`,
         }}
       >
-        <Link href={item.link ?? "#"}>
+         {item.link ? (
+          <Link href={item.link}>
+            <DirectionAwareHover
+              imageUrl={item.src}
+              type={item.type}
+              fill={fill}
+            ></DirectionAwareHover>
+          </Link>
+        ) : (
           <DirectionAwareHover
             imageUrl={item.src}
             type={item.type}
             fill={fill}
           ></DirectionAwareHover>
-        </Link>
+        )}
       </div>
 
       <div
@@ -87,13 +95,21 @@ function GridCard({ item, className, fill }) {
           `rounded-lg wow animate zoomIn block md:hidden col-span-12`
         )}
       >
-        <Link href={item.link ?? "#"}>
+        {item.link ? (
+          <Link href={item.link}>
+            <DirectionAwareHover
+              imageUrl={item.src}
+              type={item.type}
+              fill={fill}
+            ></DirectionAwareHover>
+          </Link>
+        ) : (
           <DirectionAwareHover
             imageUrl={item.src}
             type={item.type}
             fill={fill}
           ></DirectionAwareHover>
-        </Link>
+        )}
       </div>
     </>
   );
