@@ -49,7 +49,7 @@ function GridMasonry({ random = true, data = [], fill = true }) {
   }, []);
 
   return (
-    <div className=" py-4 md:p-4 rounded-lg grid gap-3 grid-cols-12 grid-flow-row-dense ">
+    <div className=" pb-4  rounded-lg grid gap-3 grid-cols-12 grid-flow-row-dense ">
       {list.map((g, i) => {
         return <GridCard key={i} item={g} fill={fill} />;
       })}

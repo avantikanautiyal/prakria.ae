@@ -2,64 +2,79 @@
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 // import {}
 
 export const LayoutGrid = ({ cards }) => {
-  const [selectedImage, setSelectedImage] = useState(null);
-  const [open, setOpen] = useState(false);
+  const router = useRouter();
+  console.log(cards, "ghghgh");
+  // const [selectedImage, setSelectedImage] = useState(null);
+  // const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    console.log("open ", open);
-  }, [open]);
+  // useEffect(() => {
+  //   console.log("open ", open);
+  // }, [open]);
 
   return (
-    <div
-      // onMouseLeave={() => handleOutsideClick()}
-      className="row"
-    >
-      <DialogDemo />
+    <div className="row">
+      {/* <DialogDemo /> */}
       {cards.map((card, i) => (
+        // <Link
+        //   key={i}
+        //   href={`/portfolio_item/${card.id.toString()}`}
+        //   className={card.className}
+        // >
         <BlurImage
           card={card}
+          // imageUrl={card.id}
+          onClick={() => {
+            if (card?.id) router.push(`/portfolio_item/${card?.id}`);
+          }}
+          onHover={() => {}}
           key={i}
           className={card.className}
-          onClick={() => {
-            setSelectedImage(card);
-            setOpen(true);
-            console.log("clicked", open);
-          }}
         />
+        // </Link>
       ))}
-      <DialogDemo open={open} setOpen={setOpen} card={selectedImage} />
+      {/* <DialogDemo open={open} setOpen={setOpen} card={selectedImage} /> */}
     </div>
   );
 };
 
-const BlurImage = ({ card, open, onClick, className }) => {
+const BlurImage = ({ card, open, onClick, className, onHover }) => {
   const [loaded, setLoaded] = useState(false);
   return (
     <>
-    <img
-      className={className + " mb-4 "}
-      onClick={onClick}
-      src={card.thumbnail}
-      height="900"
-      width="900"
-      onLoad={() => setLoaded(true)}
-      alt="thumbnail"
-    />
+      <span
+        style={{ cursor: "pointer" }}
+        className={className + " mb-4 " + "image-container"}
+        onClick={onClick}
+      >
+        <img
+          src={card.thumbnail}
+          height="900"
+          width="900"
+          onLoad={() => setLoaded(true)}
+          alt="thumbnail"
+          style={{ height: "100%" }}
+        />
+        <div className="overlay">
+          <div className="text">{card.title}</div>
+        </div>
+      </span>
     </>
   );
 };
 
-export function DialogDemo({ open, setOpen, card }) {
-  return (
-    <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="">
-        <div className=" flex justify-center items-center">
-          <img src={card?.thumbnail} />
-        </div>
-      </DialogContent>
-    </Dialog>
-  );
-}
+// export function DialogDemo({ open, setOpen, card }) {
+//   return (
+//     <Dialog open={open} onOpenChange={setOpen}>
+//       <DialogContent className="">
+//         <div className=" flex justify-center items-center">
+//           <img src={card?.thumbnail} />
+//         </div>
+//       </DialogContent>
+//     </Dialog>
+//   );
+// }

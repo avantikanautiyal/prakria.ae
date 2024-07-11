@@ -762,28 +762,24 @@
         "src": "/assets_main/services/3d_cgi/25/cgi2.jpg",
         "id": "4",
         "col": 12
-        
       },
       {
         "type": "image",
         "src": "/assets_main/services/3d_cgi/25/cgi3.jpg",
         "id": "4",
         "col": 6
-        
       },
       {
         "type": "image",
         "src": "/assets_main/services/3d_cgi/25/cgi4.jpg",
         "id": "4",
         "col": 6
-        
       },
       {
         "type": "image",
         "src": "/assets_main/services/3d_cgi/25/cgi5.jpg",
         "id": "4",
         "col": 12
-        
       }
     ]
   },
@@ -903,7 +899,7 @@
         "id": "2",
         "col": 8
       },
-     
+
       {
         "type": "image",
         "src": "/assets_main/services/ar_vr/29/ar5.png",
@@ -934,6 +930,265 @@
         "src": "/assets_main/services/ar_vr/30/ar4.png",
         "id": "4",
         "col": 4
+      }
+    ]
+  },
+  "31": {
+    "title": "Dabur Baby E- Commerce",
+    "bannerImage": "/assets_main/services/digital_marketing/31/1.jpg",
+    "markdown": "\n## Dabur Baby E- Commerce\n\n### Scenario\nDabur is known to be a brand that always walks the talk of Tradition. But with Dabur Baby they wanted to do something different. They wanted to reach out to millennial moms, young moms, and create a brand identity that reaches out to them.\n\n### Why PRAKRIA?\nIt was a tricky challenge. And Dabur wanted an agency that can take tricky challenges and come back with solutions in incredible time. Though Dabur has its legacy of amazing products, it always struggled with appealing to the more urbane, younger, millennial audience. The ask was to take the Traditional Dabur legacy forward in a manner that appeals to the modern Mom.\n\n### Our Solution\nSince the Dabur Baby range was going to be a completely Digital Launch, we took a platform-first approach and decided the Pack Aesthetic based on the medium where it will sell.\n\nOur idea was to take the ingredients as the core; as the center of our design strategy, and explore around it in a manner that will appeal to the millennial moms. Ingredients that capture the Dabur Legacy, and a design language that used contemporary color palettes: pastel green, white, cream, etc., to give a modern aesthetic to the pack. \n\nTraditional ingredients, Modern outlook. That was what the final pack communicated. Checkmate, you challenge. And Checkmate in almost no time. The range was extended to Dabur Baby diapers, and we did all the digital release with time to spare.\n\n\n",
+    "content": [
+      {
+        "type": "image",
+        "src": "/assets_main/services/digital_marketing/31/2.jpg",
+        "id": "1",
+        "col": 12
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/digital_marketing/31/3.jpg",
+        "id": "2",
+        "col": 6
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/digital_marketing/31/4.jpg",
+        "id": "3",
+        "col": 6
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/digital_marketing/31/5.jpg",
+        "id": "4",
+        "col": 12
+      }
+    ]
+  },
+  "32": {
+    "title": "Nestlé Ramadan Kareem",
+    "markdown": "## Nestlé Ramadan Kareem",
+    "bannerImage": "/assets_main/services/print_media/32/1.png",
+
+    "content": [
+      {
+        "type": "image",
+        "src": "/assets_main/services/print_media/32/2.png",
+        "id": "1",
+        "col": 12
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/print_media/32/3.png",
+        "id": "2",
+        "col": 6
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/print_media/32/4.png",
+        "id": "3",
+        "col": 6
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/print_media/32/5.png",
+        "id": "4",
+        "col": 12
+      }
+    ]
+  },
+  "33": {
+    "title": "Cricket AR Filter",
+    "markdown": "## Cricket AR Filter",
+    "bannerImage": "/assets_main/services/ar_vr/33/1.jpg",
+
+    "content": [
+      {
+        "type": "image",
+        "src": "/assets_main/services/ar_vr/33/2.jpg",
+        "id": "1",
+        "col": 12
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/ar_vr/33/3.jpg",
+        "id": "2",
+        "col": 6
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/ar_vr/33/4.jpg",
+        "id": "3",
+        "col": 6
+      }
+    ]
+  },
+  "34": {
+    "title": "Cereal Killers AR Packaging",
+    "markdown": "## Cereal Killers AR Packaging",
+    "bannerImage": "/assets_main/services/ar_vr/34/1.png",
+
+    "content": [
+      {
+        "type": "image",
+        "src": "/assets_main/services/ar_vr/34/2.jpg",
+        "id": "1",
+        "col": 12
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/ar_vr/34/3.gif",
+        "id": "2",
+        "col": 6
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/ar_vr/34/4.jpg",
+        "id": "3",
+        "col": 6
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/ar_vr/34/5.jpg",
+        "id": "4",
+        "col": 12
+      }
+    ]
+  },
+  "35": {
+    "title": "NESTLÉ Polo Republic Day - Stop Motion Animation",
+    "markdown": "\n## NESTLÉ Polo Republic Day - Stop Motion Animation\n\n### Scenario\nThis story begins at the start of 2021. The brand Polo had big plans for Republic Day. They wanted something revolutionary, something truly clutter-breaking. They wanted the Republic Day Social Media Post – which is the first major festive event of the year, to set the tone for all the following digital assets in the year to come. With their big plans and soaring expectations, they knocked on our doors.\n\n### Why PRAKRIA?\nNESTLÉ Polo had been relying on PRAKRIA for most of its Digital Assets. Needless to say, they were thoroughly pleased with the work and wanted to take things to a whole another level. They wanted not just a regular social media creative for Republic Day, but something that would go on to become an iconic digital property that would pave the way for others to follow. They knew only PRAKRIA could achieve this feat and in such little time.\n\n### Our Solution\nWe did our research, our brainstorming sessions, — you know, the works, and reached to the conclusion that for a fun, urbane, and “cool” brand like Polo, the Stop Motion Animation style would fit perfectly. The jittery, Stop Motion Animation would be the perfect visual tonality that the brand could follow for the days to come.\n\nThe ’21 Republic Day Animation was meant to be the start of a host of many other stellar Stop Motion Animations for Polo. And what a solid start it was!\n\nWe captured the ethos of Republic Day celebrations in India by creating a Tank made of Polo rings through the iconic and visually catchy Paper Art Treatment of Stop Motion Animations. This new Animation style was HOLEsome and Refreshing, and got insanely popular with the audience. It also got featured, and over time, helped the brand create its unique fan base on Social Media.\n\n\n",
+    "bannerImage": "/assets_main/services/film_animations/35/1.png",
+
+    "content": [
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/35/2.png",
+        "id": "1",
+        "col": 12
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/35/3.png",
+        "id": "2",
+        "col": 6
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/35/4.gif",
+        "id": "3",
+        "col": 6
+      }
+    ]
+  },
+  "36": {
+    "title": "Kitkat Dessert Delight Film",
+    "markdown": "\n## Kitkat Dessert Delight Film",
+    "bannerImage": "/assets_main/services/film_animations/36/1.jpg",
+    "content": [
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/36/2.jpg",
+        "id": "1",
+        "col": 12
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/36/3.jpg",
+        "id": "2",
+        "col": 6
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/36/4.jpg",
+        "id": "3",
+        "col": 6
+      },
+      {
+        "type": "video",
+        "src": "/assets_main/services/film_animations/36/5.mp4",
+        "id": "3",
+        "col": 12
+      }
+    ]
+  },
+  "37": {
+    "title": "Munch Crispop 3D Creative",
+    "markdown": "\n## Munch Crispop 3D Creative",
+    "bannerImage": "/assets_main/services/film_animations/37/1.png",
+    "content": [
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/37/2.jpg",
+        "id": "1",
+        "col": 12
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/37/3.gif",
+        "id": "2",
+        "col": 6
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/37/4.jpg",
+        "id": "3",
+        "col": 6
+      }
+    ]
+  },
+  "38": {
+    "title": "Jolly Rancher Triple Pop | Everest",
+    "markdown": "\n## Jolly Rancher Triple Pop | Everest\n\n### Scenario\nJolly Ranchers is one of the biggest brand names in the candy space. The product at its core is all about fun and games. With several Brand characters bringing out the fun and various collaboration exercises, the brand had created its solid ground in the Traditional Media channels, but was yet to harness the power of Digital. That was where they came to us.\n\n### Why PRAKRIA?\nJolly Rancher needed an agency that had expertise in creating stellar Digital-Forward Animation Films that could translate the fun in the product into a digital asset that would stand the test of time. They looked no further than PRAKRIA as an agency that could see the project through from concept to final execution.\n\n### Our Solution\nWe realized that the brand was looking for iconic work. Something that would not only grab eyeballs, but also gather acclaim and stand the test of time. And so we got to work to achieve this feat.\n\nJolly Rancher characters are in themselves fun and iconic. They are at the heart of the brand sensibilities, so our approach was to create something fun and entertaining around the characters.\n\nUsing the characters as the central propellers for our animation, we wrote the script, did the storyboard — honed it, perfected it, got it approved, and finally executed it in almost no time. The film was ready way before the expectations of the brand manager. As it saw the light of the day, it became an iconic digital asset for the brand, and stood its ground in all the global forums where it was showcased.\n\n\n",
+    "bannerImage": "/assets_main/services/film_animations/38/4.jpg",
+    "content": [
+      {
+        "type": "video",
+        "src": "/assets_main/services/film_animations/38/1.mp4",
+        "id": "1",
+        "col": 8
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/38/3.png",
+        "id": "2",
+        "col": 4
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/38/2.jpg",
+        "id": "3",
+        "col": 8
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/38/5.jpg",
+        "id": "4",
+        "col": 4
+      }
+    ]
+  },
+  "39": {
+    "title": "Something Special Film",
+    "markdown": "\n## Something Special Film",
+    "bannerImage": "/assets_main/services/film_animations/39/1.png",
+    "content": [
+      {
+        "type": "video",
+        "src": "/assets_main/services/film_animations/39/2.mp4",
+        "id": "1",
+        "col": 12
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/39/3.png",
+        "id": "2",
+        "col": 6
+      },
+      {
+        "type": "image",
+        "src": "/assets_main/services/film_animations/39/4.png",
+        "id": "3",
+        "col": 6
       }
     ]
   }

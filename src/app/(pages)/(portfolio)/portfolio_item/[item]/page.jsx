@@ -34,7 +34,7 @@ async function Page({ params }) {
 
       <div id="main" className="sticky z-10 bg-black p-0 md:p-10  ">
         <div className="container flex flex-col gap-4">
-          <div className="py-4 md:p-4">
+          <div className="pt-4">
             <MarkDown content={data.markdown} />
           </div>
 
