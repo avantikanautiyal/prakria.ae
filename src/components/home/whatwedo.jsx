@@ -22,7 +22,7 @@ function Whatwedo({ content }) {
       }}
     >
       <div className="container">
-        <h2 className="font-bold text-center mb-5  uppercase">
+        <h2 className="font-bold text-center mb-3  uppercase">
           What we Do
         </h2>
         <div className="row g-4">
