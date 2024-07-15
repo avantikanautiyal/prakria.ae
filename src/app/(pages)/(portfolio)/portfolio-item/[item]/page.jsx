@@ -42,18 +42,10 @@ async function Page({ params }) {
             random={false}
             data={data.content ?? []}
             className={"border-2 border-red-500"}
-            // data={[
-            //   { src: "/images/3d_cgi.jpg" },
-            //   { src: "/images/3d_cgi.jpg", row: 2 },
-            //   { src: "/images/3d_cgi.jpg", col: 1 },
-            //   { src: "/images/3d_cgi.jpg", col: 1 },
-            //   { src: "/images/3d_cgi.jpg", row: 2 },
-            // ]}
           />
         </div>
         {/* GRID LAYOUT HERE */}
       </div>
-      
     </div>
   );
 }

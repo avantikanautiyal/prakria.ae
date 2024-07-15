@@ -5,38 +5,38 @@
     "link": "/digital-marketing",
     "content": [
       {
-        "id": 2,
+        "id": "nestle-polo",
         "className": "col-lg-8 col-12",
         "title": "Polo",
-        "link": "/",
+        "link": "nestle-polo",
         "thumbnail": "/assets_main/digital_marketing/polo.gif"
       },
       {
-        "id": 4,
+        "id": "unilever-dove-e-commerce",
         "className": "col-lg-4 col-12",
         "title": "Dove",
-        "link": "/",
+        "link": "unilever-dove-e-commerce",
         "thumbnail": "/assets_main/digital_marketing/dove.png"
       },
       {
-        "id": 5,
+        "id": "marie-claire-e-commerce",
         "className": "col-lg-4 col-12",
         "title": "Marie Claire",
-        "link": "/",
+        "link": "marie-claire-e-commerce",
         "thumbnail": "/assets_main/digital_marketing/marie_claire.gif"
       },
       {
-        "id": 3,
+        "id": "nestle-munch-social-media",
         "className": "col-lg-4 col-12",
         "title": "Munch",
-        "link": "/",
+        "link": "nestle-munch-social-media",
         "thumbnail": "/assets_main/digital_marketing/munch.gif"
       },
       {
-        "id": 31,
+        "id": "dabur-baby-e-commerce",
         "className": "col-lg-4 col-12",
         "title": "Dabur",
-        "link": "/",
+        "link": "dabur-baby-e-commerce",
         "thumbnail": "/assets_main/digital_marketing/dabur.jpg"
       }
     ]
@@ -47,38 +47,38 @@
     "link": "/packaging-design",
     "content": [
       {
-        "id": 7,
+        "id": "100-pipers",
         "className": "col-lg-4 col-12",
         "title": "100 Pipers",
-        "link": "/",
+        "link": "100-pipers",
         "thumbnail": "/assets_main/packaging_design/100_pipers.jpg"
       },
       {
-        "id": 6,
+        "id": "kitkat",
         "className": "col-lg-8 col-12",
         "title": "kitkat",
-        "link": "/",
+        "link": "kitkat",
         "thumbnail": "/assets_main/packaging_design/kitkat.png"
       },
       {
-        "id": 9,
+        "id": "perfetti-workdesk-pack",
         "className": "col-lg-4 col-12",
         "title": "PERFETTI VAN MELLE",
-        "link": "/",
+        "link": "perfetti-workdesk-pack",
         "thumbnail": "/assets_main/packaging_design/perfetti.jpg"
       },
       {
-        "id": 8,
+        "id": "quality-street",
         "className": "col-lg-4 col-12",
         "title": "Quality Street",
-        "link": "/",
+        "link": "quality-street",
         "thumbnail": "/assets_main/packaging_design/quality_street.png"
       },
       {
-        "id": 10,
+        "id": "palmolive-european-treasures",
         "className": "col-lg-4 col-12",
         "title": "Palmolive",
-        "link": "/",
+        "link": "palmolive-european-treasures",
         "thumbnail": "/assets_main/packaging_design/palmoliv.png"
       }
     ]
@@ -89,38 +89,38 @@
     "link": "/print-media",
     "content": [
       {
-        "id": 22,
+        "id": "nestle-grekyo-blueberry-yogurt",
         "className": "col-lg-8 col-12",
         "title": "GREKYO",
-        "link": "/",
+        "link": "nestle-grekyo-blueberry-yogurt",
         "thumbnail": "/assets_main/print_media/grekyo.png"
       },
       {
-        "id": 21,
+        "id": "polo-extra-strong",
         "className": "col-lg-4 col-12",
         "title": "POLO",
-        "link": "/",
+        "link": "polo-extra-strong",
         "thumbnail": "/assets_main/print_media/polo.png"
       },
       {
-        "id": 32,
+        "id": "nestle-ramadan-mauritius",
         "className": "col-lg-4 col-12",
         "title": "CARNATION",
-        "link": "/",
+        "link": "nestle-ramadan-mauritius",
         "thumbnail": "/assets_main/print_media/carnation.png"
       },
       {
-        "id": 19,
+        "id": "kohler",
         "className": "col-lg-4 col-12",
         "title": "KOHLER",
-        "link": "/",
+        "link": "kohler",
         "thumbnail": "/assets_main/print_media/kohler.png"
       },
       {
-        "id": 20,
+        "id": "nestle-nido-merchandise-design",
         "className": "col-lg-4 col-12",
         "title": "NIDO",
-        "link": "/",
+        "link": "nestle-nido-merchandise-design",
         "thumbnail": "/assets_main/print_media/nido.png"
       }
     ]
@@ -131,38 +131,38 @@
     "link": "/3d-cgi",
     "content": [
       {
-        "id": 24,
+        "id": "fruits-and-nuts-3d",
         "className": "col-lg-4 col-12",
         "title": "KITKAT",
-        "link": "/",
+        "link": "fruits-and-nuts-3d",
         "thumbnail": "/assets_main/3d_cgi/kitkat.png"
       },
       {
-        "id": 26,
+        "id": "food-cgi-reel",
         "className": "col-lg-8 col-12",
         "title": "Food CGI",
-        "link": "/",
+        "link": "food-cgi-reel",
         "thumbnail": "/assets_main/3d_cgi/str.gif"
       },
       {
-        "id": 25,
+        "id": "imperial-blue-water-3d",
         "className": "col-lg-4 col-12",
         "title": "IMPERIAL BLUE",
-        "link": "/",
+        "link": "imperial-blue-water-3d",
         "thumbnail": "/assets_main/3d_cgi/imp_blue.jpg"
       },
       {
-        "id": 27,
+        "id": "kitkat-dessert-delight-3d",
         "className": "col-lg-4 col-12",
         "title": "Fruits and Nuts 3D",
-        "link": "/",
+        "link": "kitkat-dessert-delight-3d",
         "thumbnail": "/assets_main/3d_cgi/choco.gif"
       },
       {
-        "id": 23,
+        "id": "kohler-3d",
         "className": "col-lg-4 col-12",
         "title": "KOHLER",
-        "link": "/",
+        "link": "kohler-3d",
         "thumbnail": "/assets_main/3d_cgi/kohler.jpg"
       }
     ]
@@ -173,38 +173,38 @@
     "link": "/ar-vr-game-tech",
     "content": [
       {
-        "id": 29,
+        "id": "blanca-wine-proof-of-concept",
         "className": "col-lg-8 col-12",
         "title": "Blanca",
-        "link": "/",
+        "link": "blanca-wine-proof-of-concept",
         "thumbnail": "/assets_main/ar_vr/blanca.png"
       },
       {
-        "id": 33,
+        "id": "cricket-ar-filter",
         "className": "col-lg-4 col-12",
         "title": "CRICKET GAME",
-        "link": "/",
+        "link": "cricket-ar-filter",
         "thumbnail": "/assets_main/ar_vr/cricket_game.jpg"
       },
       {
-        "id": 30,
+        "id": "nestle-polo-christmas-ar-filter",
         "className": "col-lg-4 col-12",
         "title": "POLO",
-        "link": "/",
+        "link": "nestle-polo-christmas-ar-filter",
         "thumbnail": "/assets_main/ar_vr/polo.png"
       },
       {
-        "id": 28,
+        "id": "con-vida-proof-of-concept",
         "className": "col-lg-4 col-12",
         "title": "CON VIDA",
-        "link": "/",
+        "link": "con-vida-proof-of-concept",
         "thumbnail": "/assets_main/ar_vr/con_vida.png"
       },
       {
-        "id": 34,
+        "id": "cereal-killers-ar-packaging",
         "className": "col-lg-4 col-12",
         "title": "CEREAL KILLERS",
-        "link": "/",
+        "link": "cereal-killers-ar-packaging",
         "thumbnail": "/assets_main/ar_vr/cerel_killer.png"
       }
     ]
@@ -215,38 +215,38 @@
     "description": "",
     "content": [
       {
-        "id": 35,
+        "id": "nestle-polo-republic-day-stop-motion-animation",
         "className": "col-lg-4 col-12",
         "title": "POLO",
-        "link": "/",
+        "link": "nestle-polo-republic-day-stop-motion-animation",
         "thumbnail": "/assets_main/film_animation/polo.gif"
       },
       {
-        "id": 36,
+        "id": "kitkat-dessert-delight-film",
         "className": "col-lg-8 col-12",
         "title": "kitkat",
-        "link": "/",
+        "link": "kitkat-dessert-delight-film",
         "thumbnail": "/assets_main/film_animation/kitkat.gif"
       },
       {
-        "id": 37,
+        "id": "munch-crispop-3d-creative",
         "className": "col-lg-4 col-12",
         "title": "MUNCH",
-        "link": "/",
+        "link": "munch-crispop-3d-creative",
         "thumbnail": "/assets_main/film_animation/munch.gif"
       },
       {
-        "id": 38,
+        "id": "jolly-rancher-triple-pop-everest",
         "className": "col-lg-4 col-12",
         "title": "JOLLY RENCHER",
-        "link": "/",
+        "link": "jolly-rancher-triple-pop-everest",
         "thumbnail": "/assets_main/film_animation/jolly_rencher.gif"
       },
       {
-        "id": 39,
+        "id": "something-special-film",
         "className": "col-lg-4 col-12",
         "title": "SOMETHING SPECIAL",
-        "link": "/",
+        "link": "something-special-film",
         "thumbnail": "/assets_main/film_animation/something_special.gif"
       }
     ]

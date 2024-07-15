@@ -72,7 +72,7 @@ function GridCard({ item, className, fill }) {
           gridColumn: `span ${item.col}`,
         }}
       >
-         {item.link ? (
+        {item.link ? (
           <Link href={item.link}>
             <DirectionAwareHover
               imageUrl={item.src}

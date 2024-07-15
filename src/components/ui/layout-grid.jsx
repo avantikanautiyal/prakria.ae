@@ -29,7 +29,7 @@ export const LayoutGrid = ({ cards }) => {
           card={card}
           // imageUrl={card.id}
           onClick={() => {
-            if (card?.id) router.push(`/portfolio_item/${card?.id}`);
+            if (card?.id) router.push(`/portfolio-item/${card?.id}`);
           }}
           onHover={() => {}}
           key={i}
