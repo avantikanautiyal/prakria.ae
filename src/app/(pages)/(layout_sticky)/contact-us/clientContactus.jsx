@@ -21,7 +21,7 @@ const address = [
     open: "Mon - Sat",
     time: "8 AM - 9 PM",
     location:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7411.324699945439!2d77.14538875179844!3d28.690665191723028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d023370000001%3A0x72a8879631f3472e!2sAggarwal%20Corporate!5e0!3m2!1sen!2sin!4v1716964515229!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.9090651694496!2d77.14904087550494!3d28.69236668136101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0233844eff5f%3A0xce5c8fad12791189!2sPRAKRIA%20Marketing%20Services%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1721023523719!5m2!1sen!2sin",
   },
 ];
 const ContactPage = () => {

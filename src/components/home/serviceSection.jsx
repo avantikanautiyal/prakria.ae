@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export default function LayoutGridDemo({ title, link, content = [] }) {
   return (
-    <div className="py-4 container bg-black">
+    <div className="pb-2 container bg-black">
       <div className="pb-3">
         <div className="d-flex justify-content-between align-items-center">
           <h2 className=" md:flex  font-bold uppercase">

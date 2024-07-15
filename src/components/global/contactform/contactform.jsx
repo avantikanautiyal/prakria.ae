@@ -79,7 +79,7 @@ function ContactForm() {
             <div className="form-inner">
               {/* <label>Full Name</label> */}
               <input
-                placeholder="Full Name"
+                placeholder="Full Name *"
                 type="text"
                 name="name"
                 required
@@ -106,8 +106,8 @@ function ContactForm() {
             <div className="form-inner">
               {/* <label>Phone *</label> */}
               <input
-                placeholder="Phone"
-                type="text"
+                placeholder="Phone *"
+                type="number"
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
@@ -145,7 +145,7 @@ function ContactForm() {
             <div className="form-inner">
               {/* <label>Message *</label> */}
               <textarea
-                placeholder="Message *"
+                placeholder="Message"
                 defaultValue={""}
                 name="message"
                 value={formData.message}

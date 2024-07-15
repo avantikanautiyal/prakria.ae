@@ -101,7 +101,7 @@ const Footer2 = () => {
               <div className="content">
                 <span>Address</span>
                 <h6 className="max-w-[400px]">
-                  <a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">
+                  <a href="https://maps.app.goo.gl/4THy8p4FatQes1jZ7">
                     902, Aggarwal Corporate Heights, Netaji Subhash Place,
                     Pitampura, Delhi 110034
                   </a>
@@ -143,7 +143,7 @@ const Footer2 = () => {
             }}
           >
             <div className=" copyright-area">
-              <p>© 2023 PRAKRIA | All Rights Reserved</p>
+              <p>© 2024 PRAKRIA | All Rights Reserved</p>
             </div>
           </div>
         </div>

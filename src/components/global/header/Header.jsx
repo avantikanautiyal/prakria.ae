@@ -149,7 +149,7 @@ const Header1 = () => {
                         );
                       }}
                     >
-                      <i className="bi bi-plus" />
+                      <i className={`bi ${toggleMenuState === navData[2].label ? 'bi-dash' : 'bi-plus'}`} />
                     </span>
                     {
                       <ul
@@ -231,8 +231,8 @@ const Header1 = () => {
                       </div>
                       <div className="contact">
                         <h6>
-                          902, Aggarwal Corporate Heights, Netaji Subhash Place,
-                          Pitampura, Delhi 110034 Canada City, Office-02,
+                          <Link target="_blank" href="https://maps.app.goo.gl/4THy8p4FatQes1jZ7">902, Aggarwal Corporate Heights, Netaji Subhash Place,
+                          Pitampura, Delhi 110034 Canada City, Office-02,</Link>
                         </h6>
                       </div>
                     </li>

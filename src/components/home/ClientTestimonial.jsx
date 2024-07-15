@@ -14,6 +14,7 @@ import Link from "next/link";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 const Home1Testimonial = ({ style }) => {
+  
   const settings = useMemo(() => {
     return {
       slidesPerView: "auto",
@@ -26,7 +27,7 @@ const Home1Testimonial = ({ style }) => {
       },
       autoplay: {
         delay: 2500,
-        disableOnInteraction: false,
+        disableOnInteraction: true,
       },
       navigation: {
         nextEl: ".case-study-slider-next",
@@ -120,17 +121,6 @@ const Home1Testimonial = ({ style }) => {
                       </div>
                     </SwiperSlide>
                   ))}
-                  {/* <SwiperSlide className="swiper-slide">
-                      <div className="testimonial-card3 style-2 flex gap-3 flex-col">
-                        <FaQuoteLeft />
-                        <p>
-                          “You can adjust the length and style of the line to
-                          match the overall design and formatting of your
-                          document. Some other divider options include dashes,
-                          stars, or even a graphical element.”
-                        </p>
-                      </div>
-                    </SwiperSlide> */}
                 </div>
               </Swiper>
             </div>
