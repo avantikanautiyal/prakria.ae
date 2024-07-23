@@ -22953,3 +22953,9 @@ body:not(.is-mobile) .tt-style-switch:hover {
   /* gridColumn */
   grid-column: 12;
 }
+
+#isoo img{
+  width: 120px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
