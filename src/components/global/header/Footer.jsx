@@ -26,30 +26,10 @@ const Footer2 = () => {
                       PRAKRIA now!
                     </p>
                   </div>
-                  <ul className="rating-area">
-                    <li className="social-area">
-                      <ul className="social-list">
-                        <li>
-                          <a target="_blank" href="https://in.linkedin.com/company/prakriauklimited">
-                            <i className="bi bi-linkedin" />
-                            <span>LinkedIn</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a target="_blank" href="https://www.facebook.com/prakria/">
-                            <i className="bi bi-facebook" />
-                            <span>Facebook</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a target="_blank" href="https://www.instagram.com/prakria/">
-                            <i className="bi bi-instagram" />
-                            <span>Instagram</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                  <div className="d-flex" id="isoo">
+                  <img src="/images/2015.jpg" alt="" />
+                  <img src="/images/2022.jpg" alt="" />
+                  </div>
                 </div>
               </div>
               {FooterData.map((section, index) => (
@@ -154,6 +134,7 @@ const Footer2 = () => {
 
 function FooterLinks({ title = "", links = [] }) {
   return (
+    <>
     <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-lg-center justify-content-sm-end">
       <div className="footer-widget">
         <div className="widget-title">
@@ -169,7 +150,9 @@ function FooterLinks({ title = "", links = [] }) {
           </ul>
         </div>
       </div>
+      
     </div>
+    </>
   );
 }
 
