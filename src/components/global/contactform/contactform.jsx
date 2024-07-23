@@ -176,10 +176,10 @@ function ContactForm() {
                 .
               </label>
             </div>
-            {/* <ReCAPTCHA
+            <ReCAPTCHA
               sitekey="6LeMX9IpAAAAAMPWQvm3SYQ98X13vK2MI6CdQoiS"
               onChange={(val) => setcapVal(val)}
-            /> */}
+            />
           </div>
           <div className="col-lg-12">
             <div className="form-inner">
