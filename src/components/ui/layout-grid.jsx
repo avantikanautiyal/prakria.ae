@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 
 export const LayoutGrid = ({ cards }) => {
   const router = useRouter();
-  console.log(cards, "ghghgh");
+  // console.log(cards, "ghghgh");
   // const [selectedImage, setSelectedImage] = useState(null);
   // const [open, setOpen] = useState(false);
 
