@@ -61,7 +61,7 @@ function ContactForm() {
           subject: "",
           message: "",
         });
-        router.push("/thank-you");
+        // router.push("/thank-you");
       } else {
         setErrorMessage("Failed to send your message. Please try again.");
       }
