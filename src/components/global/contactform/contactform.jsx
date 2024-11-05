@@ -5,8 +5,8 @@ import React, { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import { toast, ToastContainer } from "react-toastify";
 import { useRouter } from "next/navigation";
+
 function ContactForm() {
-  const [result, setResult] = useState("");
   const router = useRouter();
 
   const [formData, setFormData] = useState({
@@ -21,6 +21,7 @@ function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [captchaValue, setCaptchaValue] = useState(null);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -32,6 +33,13 @@ function ContactForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Check if reCAPTCHA is checked
+    if (!captchaValue) {
+      toast.error("Please complete the reCAPTCHA.");
+      return;
+    }
+
     setIsSubmitting(true);
 
     try {
@@ -53,7 +61,7 @@ function ContactForm() {
           subject: "",
           message: "",
         });
-        // router.push("/thank-you");
+        router.push("/thank-you");
       } else {
         setErrorMessage("Failed to send your message. Please try again.");
       }
@@ -63,6 +71,7 @@ function ContactForm() {
 
     setIsSubmitting(false);
   };
+
   return (
     <div className="contact-form-area" id="contactForm">
       <ToastContainer />
@@ -77,7 +86,6 @@ function ContactForm() {
         <div className="row">
           <div className="col-lg-6 mb-20">
             <div className="form-inner">
-              {/* <label>Full Name</label> */}
               <input
                 placeholder="Full Name *"
                 type="text"
@@ -85,13 +93,11 @@ function ContactForm() {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                // onChange={(e) => setField({ ...field, name: e.target.value })}
               />
             </div>
           </div>
           <div className="col-lg-6 mb-20">
             <div className="form-inner">
-              {/* <label>Company / Organization *</label> */}
               <input
                 placeholder="Company / Organization *"
                 type="text"
@@ -104,7 +110,6 @@ function ContactForm() {
           </div>
           <div className="col-lg-6 mb-20">
             <div className="form-inner">
-              {/* <label>Phone *</label> */}
               <input
                 placeholder="Phone *"
                 type="number"
@@ -117,7 +122,6 @@ function ContactForm() {
           </div>
           <div className="col-lg-6 mb-20">
             <div className="form-inner">
-              {/* <label>Company email *</label> */}
               <input
                 type="email"
                 placeholder="Company email *"
@@ -130,7 +134,6 @@ function ContactForm() {
           </div>
           <div className="col-lg-12 mb-20">
             <div className="form-inner">
-              {/* <label>Your Subject *</label> */}
               <input
                 type="text"
                 placeholder="Your Subject *"
@@ -143,10 +146,8 @@ function ContactForm() {
           </div>
           <div className="col-lg-12 mb-30">
             <div className="form-inner">
-              {/* <label>Message *</label> */}
               <textarea
                 placeholder="Message"
-                defaultValue={""}
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
@@ -159,10 +160,7 @@ function ContactForm() {
                 style={{ height: "20px" }}
                 type="checkbox"
                 required
-                name="message"
-                // onChange={(e) =>
-                //   setField({ ...field, message: e.target.value })
-                // }
+                name="agreement"
               />{" "}
               <label className="text-sm">
                 By checking this box, you are agreeing to our{" "}
@@ -177,14 +175,14 @@ function ContactForm() {
               </label>
             </div>
             <ReCAPTCHA
-              sitekey="6LeMX9IpAAAAAMPWQvm3SYQ98X13vK2MI6CdQoiS"
-              onChange={(val) => setcapVal(val)}
+              sitekey="6LcKb_wpAAAAAA4667I6qrWUInknWbCpjqvxHr-B"
+              onChange={(val) => setCaptchaValue(val)}
             />
           </div>
           <div className="col-lg-12">
             <div className="form-inner">
               <button
-                disabled={isSubmitting}
+                disabled={isSubmitting || !captchaValue} // Disable button if reCAPTCHA is not checked
                 className="primary-btn2"
                 type="submit"
                 data-text="Submit Now"
@@ -197,7 +195,6 @@ function ContactForm() {
       </form>
       {successMessage && <p className="text-success">{successMessage}</p>}
       {errorMessage && <p className="text-danger">{errorMessage}</p>}
-      <span>{result}</span>
     </div>
   );
 }
