@@ -149,7 +149,13 @@ const Header1 = () => {
                         );
                       }}
                     >
-                      <i className={`bi ${toggleMenuState === navData[2].label ? 'bi-dash' : 'bi-plus'}`} />
+                      <i
+                        className={`bi ${
+                          toggleMenuState === navData[2].label
+                            ? "bi-dash"
+                            : "bi-plus"
+                        }`}
+                      />
                     </span>
                     {
                       <ul
@@ -231,8 +237,14 @@ const Header1 = () => {
                       </div>
                       <div className="contact">
                         <h6>
-                          <Link target="_blank" href="https://maps.app.goo.gl/4THy8p4FatQes1jZ7">902, Aggarwal Corporate Heights, Netaji Subhash Place,
-                          Pitampura, Delhi 110034 Canada City, Office-02,</Link>
+                          <Link
+                            target="_blank"
+                            href="https://maps.app.goo.gl/4THy8p4FatQes1jZ7"
+                          >
+                            902, Aggarwal Corporate Heights, Netaji Subhash
+                            Place, Pitampura, Delhi 110034 Canada City,
+                            Office-02,
+                          </Link>
                         </h6>
                       </div>
                     </li>
@@ -363,6 +375,22 @@ const Header1 = () => {
           </div> */}
           <div className="nav-right d-flex jsutify-content-end align-items-center">
             <div className="right-sidebar-and-hotline-area">
+              <Link target="_blank" href="https://www.prakria.tech/">
+                <div className="hotline-area d-xl-flex d-none me-3">
+                  <div className="icon bg-white p-0">
+                    <img
+                      className="rounded"
+                      width="35px"
+                      src="/images/tech.gif"
+                      alt=""
+                    />
+                  </div>
+                  <div className="content">
+                    <span>Tap into Tech Innovation </span>
+                    <h6>PRAKRIA TECH</h6>
+                  </div>
+                </div>
+              </Link>
               <div className="hotline-area d-xl-flex d-none">
                 <div className="icon">
                   <svg
