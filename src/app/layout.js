@@ -8,6 +8,7 @@ import {
 import "./globals.css";
 import Whatsapp from "@/components/global/whatsapp/Whatsapp";
 import SocialWidget from "@/components/global/socialmedia/SocialWidget";
+import Script from "next/script";
 
 const inter = Rubik({
   subsets: ["latin"],
@@ -39,11 +40,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href="/images/favicon.ico"/>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
       </head>
       <body
         className={`${signika.className} ${inter.variable} ${hankenGrotesk.variable} dark`}
       >
+        {/* Google tag (gtag.js) */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-TDS9XMGZG2"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-TDS9XMGZG2');
+          `}
+        </Script>
         <Whatsapp />
         <SocialWidget />
         {children}
