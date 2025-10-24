@@ -95,14 +95,14 @@ const Header1 = () => {
             <div className="sidebar-menu-logo">
               <Link href="/" className="logo-dark">
                 <img
-                  alt="image"
+                  alt="prakria logo"
                   className="img-fluid"
                   src="/Prakria-logo.png"
                 />
               </Link>
               <Link href="/" className="logo-light">
                 <img
-                  alt="image"
+                  alt="prakria logo"
                   className="img-fluid"
                   src="/Prakria-logo.png"
                 />
@@ -292,10 +292,10 @@ const Header1 = () => {
         <div className="container d-flex flex-nowrap align-items-center justify-content-between py-2">
           <div className="company-logo">
             <Link href="/" className="logo-dark">
-              <img alt="image" className="img-fluid" src="/Prakria-logo.png" />
+              <img alt="prakria logo" className="img-fluid" src="/Prakria-logo.png" />
             </Link>
             <Link href="/" className="logo-light">
-              <img alt="image" className="img-fluid" src="/Prakria-logo.png" />
+              <img alt="prakria logo" className="img-fluid" src="/Prakria-logo.png" />
             </Link>
           </div>
           {/* <div className="main-menu d-lg-flex d-none">
@@ -382,7 +382,7 @@ const Header1 = () => {
                       className="rounded"
                       width="35px"
                       src="/images/tech.gif"
-                      alt=""
+                      alt="tech gif"
                     />
                   </div>
                   <div className="content">

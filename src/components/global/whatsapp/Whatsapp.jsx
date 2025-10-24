@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 function Whatsapp() {
   // Encode the default message for the WhatsApp URL
@@ -10,11 +10,11 @@ function Whatsapp() {
 
   return (
     <div id="whatsappp">
-      <Link target='_blank' href={whatsappUrl}>
-        <img src="/images/whatsapp.png" alt="WhatsApp" />
+      <Link target="_blank" href={whatsappUrl}>
+        <img src="/images/whatsapp.png" alt="WhatsApp icon" />
       </Link>
     </div>
   );
 }
 
-export default Whatsapp
+export default Whatsapp;

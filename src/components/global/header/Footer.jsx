@@ -13,10 +13,10 @@ const Footer2 = () => {
                 <div className="footer-widget">
                   <div className="footer-logo">
                     <Link href="/" className="logo-dark">
-                      <img src="/Prakria-logo.png" alt="" />
+                      <img src="/Prakria-logo.png" alt="prakria logo" />
                     </Link>
                     <Link href="/" className="logo-light">
-                      <img src="/Prakria-logo.png" alt="logo" />
+                      <img src="/Prakria-logo.png" alt="prakria logo" />
                     </Link>
                   </div>
                   <div className="content">
@@ -27,8 +27,8 @@ const Footer2 = () => {
                     </p>
                   </div>
                   <div className="d-flex" id="isoo">
-                  <img src="/images/2015.jpg" alt="" />
-                  <img src="/images/2022.jpg" alt="" />
+                  <img src="/images/2015.jpg" alt="iso certificate image" />
+                  <img src="/images/2022.jpg" alt="iso certificate image 2" />
                   </div>
                 </div>
               </div>

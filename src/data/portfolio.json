@@ -3,6 +3,7 @@
     "title": "NESTLÉ Maggi Social Media",
     "markdown": "## NESTLÉ Maggi Social Media",
     "bannerImage": "/assets_main/services/digital_marketing/1/1.jpg",
+    "bannerAlt": "digital marketing dabur",
     "content": [
       {
         "type": "video",
@@ -14,6 +15,7 @@
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/1/4.gif",
+        "alt": "digital marketing marie claire",
         "id": "4",
         "col": 4,
         "row": 1
@@ -21,6 +23,7 @@
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/1/3.png",
+        "alt": "digital marketing munch",
         "id": "3",
         "col": "8",
         "row": 1
@@ -28,6 +31,7 @@
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/1/2.png",
+        "alt": "digital marketing dabur",
         "id": "2",
         "row": "1",
         "col": 4
@@ -37,6 +41,7 @@
   "nestle-polo": {
     "title": "NESTLÉ Polo Social Media",
     "bannerImage": "/assets_main/services/digital_marketing/2/dm1.png",
+    "bannerAlt": "digital marketing polo",
     "markdown": "\n## NESTLÉ Polo Social Media\n\n### Scenario\nNESTLÉ Polo is an iconic global brand. It’s got an iconic shape that has a history of great quality work associated with it. But there was a challenge in the Indian market. In India, Polo had to up its game in terms of its overall presence in the market. Over time, the brand wasn’t getting the attention it deserved. So the Brand Team at NESTLÉ pulled up their socks and contacted an agency that could turn things around for them.\n\n### Why PRAKRIA?\nPolo, a cool brand by its inherent nature, was perfectly suited for a presence in the Digital space. The Big Idea was: “POLO Keeps You Cool”. Linear, simple, elegant.  \nThe Brand Team wanted an agency that could translate this Big Idea into a host of Digital Assets integrating all the cutting-edge styles of execution in a seamless manner. From AR Filters, to Stop Motion, and beyond. The brand wanted a truly 360 Degree experience on their Social Media handles, and PRAKRIA, with its proven reputation as a complete 360 Degree Agency, was just the right choice to meet these objectives.\n\n### Our Solution\nWe took the shape of the Polo Ring as the central visual element to play with across all formats. We integrated the Punny, Cool language of the brand into our dictionaries. And we got to work with a Hole Lot of Excitemint!\n\nAnd then it was a matter of one great quality Digital Asset after another. When we started working on the account, Polo India’s Instagram followers stood at less than 3k. Over a span of 6 to 8 months, the follower count clocked at over 20k, with millions of hits across various Digital Assets.\n\nOur 360 Degree approach involved an AR Filter Campaign, Stop Motion Animations, 3D Animation, Disruptive Instagram UI Animations, and a unique scalable digital property, ‘Polo’s Humor Series’.\n\nWe created a Humor-forward, Stand Up Comedy ethos of the brand on its Digital presence, which then carried forward to its subsequent TVC. With Polo, we re-defined what it really means to be “cool”.\n\n\n",
     "content": [
       {
@@ -49,6 +54,7 @@
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/2/dm2.gif",
+        "alt": "digital marketing polo",
         "id": "5",
         "col": 4,
         "row": 1
@@ -56,6 +62,7 @@
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/2/dm3.jpg",
+        "alt": "digital marketing polo",
         "id": "2",
         "row": 1,
         "col": 8
@@ -63,6 +70,7 @@
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/2/dm4.gif",
+        "alt": "digital marketing polo",
         "id": "3",
         "row": 1,
         "col": 4
@@ -73,6 +81,7 @@
     "title": "NESTLÉ Munch Social Media",
     "markdown": "## NESTLÉ Munch Social Media",
     "bannerImage": "/assets_main/services/digital_marketing/3/1.jpg",
+    "bannerAlt": "digital marketing munch",
     "content": [
       {
         "type": "video",
@@ -83,18 +92,21 @@
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/3/2.png",
+        "alt": "digital marketing munch",
         "id": "4",
         "col": 6
       },
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/3/3.gif",
+        "alt": "digital marketing munch",
         "id": "2",
         "col": 6
       },
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/3/4.png",
+        "alt": "digital marketing munch",
         "id": "3",
         "col": 12
       }
@@ -104,6 +116,7 @@
     "title": "Unilever Dove E- Commerce",
     "markdown": "## Unilever Dove E- Commerce",
     "bannerImage": "/assets_main/services/digital_marketing/4/1.png",
+    "bannerAlt": "digital marketing dove",
     "content": [
       {
         "type": "video",
@@ -114,18 +127,21 @@
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/4/2.png",
+        "alt": "digital marketing dove",
         "id": "4",
         "col": 6
       },
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/4/3.png",
+        "alt": "digital marketing dove",
         "id": "2",
         "col": 6
       },
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/4/4.png",
+        "alt": "digital marketing dove",
         "id": "3",
         "col": 12
       }
@@ -135,22 +151,26 @@
     "title": "Marie Claire E-Commerce",
     "markdown": "## Marie Claire E-Commerce",
     "bannerImage": "/assets_main/services/digital_marketing/5/dm1.jpg",
+    "bannerAlt": "digital marketing marie claire",
     "content": [
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/5/dm2.jpg",
+        "alt": "digital marketing marie claire",
         "id": "4",
         "col": 12
       },
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/5/dm3.png",
+        "alt": "digital marketing marie claire",
         "id": "2",
         "col": 6
       },
       {
         "type": "image",
         "src": "/assets_main/services/digital_marketing/5/dm4.jpg",
+        "alt": "digital marketing marie claire",
         "id": "3",
         "col": 6
       }

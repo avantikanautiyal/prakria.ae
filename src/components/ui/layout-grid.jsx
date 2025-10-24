@@ -56,7 +56,7 @@ const BlurImage = ({ card, open, onClick, className, onHover }) => {
           height="900"
           width="900"
           onLoad={() => setLoaded(true)}
-          alt="thumbnail"
+          alt={card?.alt || "thumbnail"}
           style={{ height: "100%" }}
         />
         <div className="overlay">

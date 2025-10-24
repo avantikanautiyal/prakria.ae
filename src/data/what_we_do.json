@@ -3,25 +3,29 @@
         "title": "DIGITAL MARKETING",
         "description": "Significantly boost your business by increasing online visibility, attracting more leads, and converting those leads into customers.",
         "link": "/digital-marketing",
-        "src": "/assets_main/services/digital_marketing.jpg"
+        "src": "/assets_main/services/digital_marketing.jpg",
+        "alt": "digital marketing laptop image"
     },
     {
         "title": "PACKAGING DESIGN",
         "description": "The packaging is usually what you touch first, rather than the product itself. From a user experience standpoint, packaging symbolizes your product on multiple levels and is the first engagement your customers have with it. From a marketing standpoint, packaging design is a representation of your brand.",
         "link": "/packaging-design",
-        "src": "/assets_main/services/packaging_design.jpg"
+        "src": "/assets_main/services/packaging_design.jpg",
+        "alt": "color palette image"
     },
     {
         "title": "BRANDING",
         "description": "Create a distinct identity for a business in the minds of your target audience and the general population. We have you sorted, from your name and logo, visual identity design, mission, values, and tone of voice.",
         "link": "/branding",
-        "src": "/assets_main/services/branding.jpg"
+        "src": "/assets_main/services/branding.jpg",
+        "alt": "branding image"
     },
     {
         "title": "PRINT MEDIA",
         "description": "Print Media is the most impactful and compelling medium, and it has maintained its position as the pioneer thus far. We have all of the resources needed to unlock and leverage its endless potential for your benefit. ",
         "link": "/print-media",
-        "src": "/assets_main/services/print_media.jpg"
+        "src": "/assets_main/services/print_media.jpg",
+        "alt": "print media image"
     },
     {
         "title": "3D & CGI",
