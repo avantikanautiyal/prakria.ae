@@ -1,30 +1,30 @@
 {
-    "/goodyz-box": {
+    "goodyz-box": {
         "herosection": {
             "title": "Goodyz Box — Bringing the Magic of Goodies in One Box",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/goodyz/1.webp",
+                    "src": "/assets_main/services/branding/12/brand1.jpg",
                     "alt": "Goodyz Box social media visuals for Maggi campaign"
                 },
                 {
-                    "src": "/assets_main/portfolio/goodyz/2.webp",
+                    "src": "/assets_main/services/branding/12/brand2.jpg",
                     "alt": "Laptop showing Goodyz Box digital campaign presentation"
                 },
                 {
-                    "src": "/assets_main/portfolio/goodyz/3.webp",
+                    "src": "/assets_main/services/branding/12/brand3.jpg",
                     "alt": "Creative visuals highlighting Goodyz Box concept"
                 },
                 {
-                    "src": "/assets_main/portfolio/goodyz/4.webp",
+                    "src": "/assets_main/services/branding/12/brand4.jpg",
                     "alt": "Product and packaging showcase for Goodyz Box"
                 },
                 {
-                    "src": "/assets_main/portfolio/goodyz/5.webp",
+                    "src": "/assets_main/services/branding/12/brand5.jpg",
                     "alt": "Instagram mockups featuring Goodyz Box content"
                 },
                 {
-                    "src": "/assets_main/portfolio/goodyz/6.webp",
+                    "src": "/assets_main/services/branding/12/brand6.jpg",
                     "alt": "Mobile and social media posts of Goodyz Box campaign"
                 }
             ]
@@ -83,34 +83,28 @@
             "description": "To transform Goodyz Box from an idea into an evergreen icon, we focused on research, material selection, design development, and structural innovation.",
             "list": [
                 {
-                    "src": "/icon/service/research.png",
+                    "src": "/icon/service/render.png",
                     "alt": "Research and positioning icon",
                     "title": "Research & Positioning",
                     "description": "We analyzed gifting categories and premium packaging trends to position Goodyz Box as both a giftable and everyday delight."
                 },
                 {
-                    "src": "/icon/service/design.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "Concept design icon",
                     "title": "Concept & Design Development",
                     "description": "We created multiple design directions — from minimalist to ornate — and finalized a balance between bold playfulness and premium appeal."
                 },
                 {
-                    "src": "/icon/service/material.png",
+                    "src": "/icon/service/ineractive.png",
                     "alt": "Material finish icon",
                     "title": "Material & Finish Selection",
                     "description": "We used durable board stock, soft-touch coatings, embossing, and foil finishes for tactile delight and longevity."
                 },
                 {
-                    "src": "/icon/service/structure.png",
+                    "src": "/icon/service/star.png",
                     "alt": "Structural design icon",
                     "title": "Structural Engineering",
                     "description": "Internal trays and partitions were engineered for stability and safety — even during transit."
-                },
-                {
-                    "src": "/icon/service/brand.png",
-                    "alt": "Brand consistency icon",
-                    "title": "Brand Consistency",
-                    "description": "Every visual element — logos, colors, typography — remained true to Perfetti’s brand identity."
                 }
             ]
         },
@@ -134,57 +128,35 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "Goodyz Box demonstrates how packaging design can transform perception — from simple to special.",
-            "list": [
-                {
-                    "src": "/icon/service/star.png",
-                    "alt": "Creative design icon",
-                    "text": "It shows how creative package design can turn the ordinary into aspirational."
-                },
-                {
-                    "src": "/icon/service/lightbulb.png",
-                    "alt": "Retail leadership icon",
-                    "text": "A case of retail packaging that doesn’t just blend in — it leads."
-                },
-                {
-                    "src": "/icon/service/finesse.png",
-                    "alt": "Visual finesse icon",
-                    "text": "Highlights custom packaging executed with strategic insight and design finesse."
-                },
-                {
-                    "src": "/icon/service/box.png",
-                    "alt": "Storytelling box icon",
-                    "text": "Underscores how packaging can serve as a canvas for brand storytelling."
-                }
-            ]
+            "description": "Goodyz Box demonstrates how packaging design can transform perception — from simple to special."
         }
     },
-    "/dr-oetker-premium-sauce": {
+    "dr-oetker-premium-sauce": {
         "herosection": {
             "title": "Dr. Oetker — Crafting a Premium Sauce Experience with Packaging Design",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/droetker/1.webp",
+                    "src": "/assets_main/services/branding/13/brand1.jpg",
                     "alt": "Dr. Oetker Premium Sauce packaging visuals and design elements"
                 },
                 {
-                    "src": "/assets_main/portfolio/droetker/2.webp",
+                    "src": "/assets_main/services/branding/13/brand2.jpg",
                     "alt": "Laptop showing Dr. Oetker packaging presentation"
                 },
                 {
-                    "src": "/assets_main/portfolio/droetker/3.webp",
+                    "src": "/assets_main/services/branding/13/brand3.jpg",
                     "alt": "Product range showcasing Dr. Oetker premium sauces"
                 },
                 {
-                    "src": "/assets_main/portfolio/droetker/4.webp",
+                    "src": "/assets_main/services/branding/13/brand4.jpg",
                     "alt": "Creative digital mockups of Dr. Oetker sauces"
                 },
                 {
-                    "src": "/assets_main/portfolio/droetker/5.webp",
+                    "src": "/assets_main/services/branding/13/brand5.jpg",
                     "alt": "Retail and social visuals for Dr. Oetker premium sauce line"
                 },
                 {
-                    "src": "/assets_main/portfolio/droetker/6.webp",
+                    "src": "/assets_main/services/branding/13/brand6.jpg",
                     "alt": "Mobile display of Dr. Oetker packaging designs"
                 }
             ]
@@ -243,31 +215,31 @@
             "description": "This was more than food packaging — it was luxury packaging for sauces, turning everyday condiments into collectible experiences.",
             "list": [
                 {
-                    "src": "/icon/service/research.png",
+                    "src": "/icon/service/render.png",
                     "alt": "Research storytelling icon",
                     "title": "Research & Storytelling",
                     "description": "Cultural insights and regional authenticity informed design narratives and visual direction."
                 },
                 {
-                    "src": "/icon/service/unified.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "Unified range icon",
                     "title": "Creating a Unified Range",
                     "description": "Unified yet distinct packaging across variants — a consistent premium visual family."
                 },
                 {
-                    "src": "/icon/service/visual.png",
+                    "src": "/icon/service/ineractive.png",
                     "alt": "Visual craft icon",
                     "title": "Visual & Structural Craft",
                     "description": "Combining typography, textures, and illustrations for emotional storytelling and tactile luxury."
                 },
                 {
-                    "src": "/icon/service/label.png",
+                    "src": "/icon/service/brand.png",
                     "alt": "Label design icon",
                     "title": "Package Label Design",
                     "description": "Premium label design with heritage-inspired typography and finish detailing."
                 },
                 {
-                    "src": "/icon/service/retail.png",
+                    "src": "/icon/service/ineractive.png",
                     "alt": "Retail packaging icon",
                     "title": "Retail Packaging Design",
                     "description": "Designed for visibility, recognition, and desirability — both on shelves and online."
@@ -294,63 +266,28 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "The Dr. Oetker premium range showcases how packaging design can elevate food products from everyday essentials to symbols of taste and culture.",
-            "list": [
-                {
-                    "src": "/icon/service/global.png",
-                    "alt": "Global design icon",
-                    "text": "Custom packaging design can bring global traditions to local markets."
-                },
-                {
-                    "src": "/icon/service/treasure.png",
-                    "alt": "Creative package icon",
-                    "text": "Creative package design can make sauces feel like curated treasures."
-                },
-                {
-                    "src": "/icon/service/story.png",
-                    "alt": "Storytelling icon",
-                    "text": "Packaging design can transform jars into storytelling mediums."
-                },
-                {
-                    "src": "/icon/service/brand.png",
-                    "alt": "Brand system icon",
-                    "text": "Brand packaging design can unify diverse products while preserving individuality."
-                },
-                {
-                    "src": "/icon/service/retail.png",
-                    "alt": "Retail standout icon",
-                    "text": "Retail packaging design makes products leap off the shelf and stand out online."
-                }
-            ]
+            "description": "The Dr. Oetker premium range showcases how packaging design can elevate food products from everyday essentials to symbols of taste and culture."
         }
     },
-    "/nescafe-digital-packaging": {
+    "nescafe-digital-packaging": {
         "herosection": {
             "title": "Nescafé — Brewing a Digital & Packaging Narrative The Moment",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/nescafe/1.webp",
+                    "src": "/assets_main/services/branding/14/brand1.jpg",
                     "alt": "Nescafé social media and packaging visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/nescafe/2.webp",
+                    "src": "/assets_main/services/branding/14/brand2.jpg",
                     "alt": "Laptop showing Nescafé digital campaign"
                 },
                 {
-                    "src": "/assets_main/portfolio/nescafe/3.webp",
+                    "src": "/assets_main/services/branding/14/brand3.jpg",
                     "alt": "Nescafé AR and brand storytelling visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/nescafe/4.webp",
+                    "src": "/assets_main/services/branding/14/brand4.jpg",
                     "alt": "Instagram mockups and packaging creatives"
-                },
-                {
-                    "src": "/assets_main/portfolio/nescafe/5.webp",
-                    "alt": "Nescafé retail and digital marketing visuals"
-                },
-                {
-                    "src": "/assets_main/portfolio/nescafe/6.webp",
-                    "alt": "Nescafé mobile experience with packaging"
                 }
             ]
         },
@@ -427,54 +364,54 @@
             "description": "This case shows how powerful packaging design services can be when combined with storytelling and tech.",
             "list": [
                 {
-                    "src": "/icon/service/star.png",
+                    "src": "/icon/service/render.png",
                     "alt": "Innovative design icon",
                     "text": "Innovative packaging design brings the physical and digital worlds together."
                 },
                 {
-                    "src": "/icon/service/bulb.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "Tech storytelling icon",
                     "text": "Packaging designers can be engineers, technologists, and storytellers combined."
                 },
                 {
-                    "src": "/icon/service/glow.png",
+                    "src": "/icon/service/star.png",
                     "alt": "Brand reinforcement icon",
                     "text": "Brand packaging design reinforces brand values, rather than merely aesthetics."
                 },
                 {
-                    "src": "/icon/service/label.png",
+                    "src": "/icon/service/ineractive.png",
                     "alt": "Label design icon",
                     "text": "Package Label Design: Brand elements, typography, and image all complemented each other — readable, expressive, and emotionally stimulating."
                 }
             ]
         }
     },
-    "/coffee-fiesta-packaging": {
+    "coffee-fiesta-packaging": {
         "herosection": {
             "title": "Coffee Fiesta — Brewing a Singapore Coffee Celebration with Creative Packaging Design",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/coffee-fiesta/1.webp",
+                    "src": "/assets_main/services/branding/15/brand1.jpg",
                     "alt": "Coffee Fiesta social media and packaging visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/coffee-fiesta/2.webp",
+                    "src": "/assets_main/services/branding/15/brand2.jpg",
                     "alt": "Laptop showing Coffee Fiesta campaign"
                 },
                 {
-                    "src": "/assets_main/portfolio/coffee-fiesta/3.webp",
+                    "src": "/assets_main/services/branding/15/brand3.jpg",
                     "alt": "Creative Coffee Fiesta packaging and design"
                 },
                 {
-                    "src": "/assets_main/portfolio/coffee-fiesta/4.webp",
+                    "src": "/assets_main/services/branding/15/brand4.jpg",
                     "alt": "Instagram mockups showcasing Coffee Fiesta branding"
                 },
                 {
-                    "src": "/assets_main/portfolio/coffee-fiesta/5.webp",
+                    "src": "/assets_main/services/branding/15/brand5.jpg",
                     "alt": "Retail and digital visuals for Coffee Fiesta"
                 },
                 {
-                    "src": "/assets_main/portfolio/coffee-fiesta/6.webp",
+                    "src": "/assets_main/services/branding/15/brand6.jpg",
                     "alt": "Mobile view of Coffee Fiesta campaign"
                 }
             ]
@@ -529,40 +466,28 @@
             "description": "Through storytelling, design craft, and consistency, we transformed Coffee Fiesta into an experience that celebrated every sip.",
             "list": [
                 {
-                    "src": "/icon/service/brand.png",
+                    "src": "/icon/service/render.png",
                     "alt": "Brand packaging icon",
                     "title": "Brand Packaging Design",
                     "description": "We placed Coffee Fiesta as a premium sub-brand under NESCAFÉ and used festive motifs such as beans, steam, and cityscapes."
                 },
                 {
-                    "src": "/icon/service/creative.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "Creative design icon",
                     "title": "Creative Package Design",
                     "description": "The artwork was playful and strong, making energy and freshness visually compelling."
                 },
                 {
-                    "src": "/icon/service/label.png",
+                    "src": "/icon/service/star.png",
                     "alt": "Label design icon",
                     "title": "Package Label Design",
                     "description": "We balanced creativity with readability, ensuring festive flair complemented product clarity."
                 },
                 {
-                    "src": "/icon/service/custom.png",
+                    "src": "/icon/service/ineractive.png",
                     "alt": "Custom design icon",
                     "title": "Custom Packaging Design",
                     "description": "The Fiesta design was adapted across jars, single-serve sachets, and gift packs for consistent identity."
-                },
-                {
-                    "src": "/icon/service/innovation.png",
-                    "alt": "Innovation icon",
-                    "title": "Innovative Packaging Design",
-                    "description": "Special finishes, layered textures, and spot colors made the packs tactile and vibrant."
-                },
-                {
-                    "src": "/icon/service/retail.png",
-                    "alt": "Retail design icon",
-                    "title": "Retail Packaging Design",
-                    "description": "At supermarkets and online, the Coffee Fiesta packs caught attention through festive color and energy."
                 }
             ]
         },
@@ -586,67 +511,35 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "This project exemplifies how culture, creativity, and brand values can come together through packaging design.",
-            "list": [
-                {
-                    "src": "/icon/service/star.png",
-                    "alt": "Product design icon",
-                    "text": "Product packaging design goes beyond functionality to inspire joy."
-                },
-                {
-                    "src": "/icon/service/bulb.png",
-                    "alt": "Storytelling icon",
-                    "text": "Creative package design tells a story through visuals and structure."
-                },
-                {
-                    "src": "/icon/service/custom.png",
-                    "alt": "Custom design icon",
-                    "text": "Custom packaging design adapts to different formats while maintaining consistency."
-                },
-                {
-                    "src": "/icon/service/culture.png",
-                    "alt": "Cultural interpreter icon",
-                    "text": "Packaging designers become cultural interpreters, not just visual stylists."
-                },
-                {
-                    "src": "/icon/service/brand.png",
-                    "alt": "Brand identity icon",
-                    "text": "Brand packaging design builds trust, recall, and emotional connection."
-                },
-                {
-                    "src": "/icon/service/retail.png",
-                    "alt": "Retail impact icon",
-                    "text": "Retail packaging design ensures standout presence both offline and online."
-                }
-            ]
+            "description": "This project exemplifies how culture, creativity, and brand values can come together through packaging design."
         }
     },
-    "/munch-max-branding": {
+    "munch-max-branding": {
         "herosection": {
             "title": "Munch Max — Elevating a Classic with Bold Branding and Strategic Design",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/munch-max/1.webp",
+                    "src": "/assets_main/services/branding/16/brand1.jpg",
                     "alt": "Munch Max social media and packaging visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/munch-max/2.webp",
+                    "src": "/assets_main/services/branding/16/brand2.jpg",
                     "alt": "Laptop showing Munch Max branding campaign"
                 },
                 {
-                    "src": "/assets_main/portfolio/munch-max/3.webp",
+                    "src": "/assets_main/services/branding/16/brand3.jpg",
                     "alt": "Creative packaging and display for Munch Max"
                 },
                 {
-                    "src": "/assets_main/portfolio/munch-max/4.webp",
+                    "src": "/assets_main/services/branding/16/brand4.jpg",
                     "alt": "Instagram post mockups showcasing Munch Max identity"
                 },
                 {
-                    "src": "/assets_main/portfolio/munch-max/5.webp",
+                    "src": "/assets_main/services/branding/16/brand5.jpg",
                     "alt": "Retail and promotional assets for Munch Max"
                 },
                 {
-                    "src": "/assets_main/portfolio/munch-max/6.webp",
+                    "src": "/assets_main/services/branding/16/brand6.jpg",
                     "alt": "Mobile display showing Munch Max campaign visuals"
                 }
             ]
@@ -701,37 +594,37 @@
             "description": "Our design, strategy, and storytelling combined to elevate Munch Max into a brand that balanced indulgence with energy.",
             "list": [
                 {
-                    "src": "/icon/service/strategy.png",
+                    "src": "/icon/service/render.png",
                     "alt": "Brand strategy icon",
                     "title": "Brand Strategy",
                     "description": "We positioned Munch Max as a sub-premium extension under Munch, employing bold motifs and impactful typography to signal a change in experience."
                 },
                 {
-                    "src": "/icon/service/logo.png",
+                    "src": "/icon/service/star.png",
                     "alt": "Logo design icon",
                     "title": "Logo Design Services",
                     "description": "The 'X' became the heart of the logo — a symbol of 'extra' that defined the new visual identity."
                 },
                 {
-                    "src": "/icon/service/communication.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "Communication strategy icon",
                     "title": "Brand Communication & Strategy",
                     "description": "Campaigns revolved around the 'Max' idea — more indulgence, more punch, more fun — ensuring unified messaging across digital, retail, and outdoor media."
                 },
                 {
-                    "src": "/icon/service/creative.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "Creative logo design icon",
                     "title": "Creative Logo Design Services",
                     "description": "We built flexibility into the design, ensuring consistency across bars, multipacks, shelf displays, and online touchpoints."
                 },
                 {
-                    "src": "/icon/service/promo.png",
+                    "src": "/icon/service/ineractive.png",
                     "alt": "Brand promotion icon",
                     "title": "Brand Promotion",
                     "description": "We delivered strong visual storytelling and standout visibility in competitive retail environments and digital channels."
                 },
                 {
-                    "src": "/icon/service/build.png",
+                    "src": "/icon/service/star.png",
                     "alt": "Brand building icon",
                     "title": "Brand Building",
                     "description": "We crafted an emotional story around Munch Max — an evolution of a classic that stayed true to its joyful DNA."
@@ -761,58 +654,28 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "Munch Max exemplifies how thoughtful branding strategy, design, and storytelling can transform a familiar product into a premium experience.",
-            "list": [
-                {
-                    "src": "/icon/service/star.png",
-                    "alt": "Brand building icon",
-                    "text": "Brand building companies create not just logos, but narratives that people remember."
-                },
-                {
-                    "src": "/icon/service/bulb.png",
-                    "alt": "Creative marketing icon",
-                    "text": "Creative marketing agencies turn strategy into compelling, emotionally resonant experiences."
-                },
-                {
-                    "src": "/icon/service/bridge.png",
-                    "alt": "Brand communication icon",
-                    "text": "Strong brand communication & strategy bridge heritage and innovation seamlessly."
-                },
-                {
-                    "src": "/icon/service/balance.png",
-                    "alt": "Strategic depth icon",
-                    "text": "The best branding work balances visual impact with strategic depth and consistency."
-                }
-            ]
+            "description": "Munch Max exemplifies how thoughtful branding strategy, design, and storytelling can transform a familiar product into a premium experience."
         }
     },
-    "/kitkat-goa-branding": {
+    "kitkat-goa-branding": {
         "herosection": {
             "title": "KitKat Goa — Crafting a Local Identity with Creative Branding & Packaging Design",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/kitkat-goa/1.webp",
+                    "src": "/assets_main/services/branding/17/brand1.jpg",
                     "alt": "KitKat Goa social media campaign visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/kitkat-goa/2.webp",
+                    "src": "/assets_main/services/branding/17/brand2.jpg",
                     "alt": "Laptop showing KitKat Goa campaign visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/kitkat-goa/3.webp",
+                    "src": "/assets_main/services/branding/17/brand3.jpg",
                     "alt": "Creative digital campaign for KitKat Goa"
                 },
                 {
-                    "src": "/assets_main/portfolio/kitkat-goa/4.webp",
+                    "src": "/assets_main/services/branding/17/brand4.jpg",
                     "alt": "KitKat Goa local identity design"
-                },
-                {
-                    "src": "/assets_main/portfolio/kitkat-goa/5.webp",
-                    "alt": "Instagram mockups for KitKat Goa"
-                },
-                {
-                    "src": "/assets_main/portfolio/kitkat-goa/6.webp",
-                    "alt": "KitKat Goa product and packaging visuals"
                 }
             ]
         },
@@ -859,19 +722,19 @@
             "description": "We transformed KitKat Goa into a vibrant narrative that lived across digital, retail, and experiential spaces.",
             "list": [
                 {
-                    "src": "/icon/service/strategy.png",
+                    "src": "/icon/service/render.png",
                     "alt": "Brand strategy icon",
                     "title": "Brand Communication & Strategy",
                     "description": "Messaging centered around Goa’s leisure and sunshine — the idea of taking a mini break in your hand — reflected in ads, social creatives, and in-store visuals."
                 },
                 {
-                    "src": "/icon/service/promotion.png",
+                    "src": "/icon/service/star.png",
                     "alt": "Brand promotion icon",
                     "title": "Brand Promotion",
                     "description": "The Goa motif was amplified across social media, OOH, retail activations, and influencer tie-ins — ensuring the identity lived beyond the shelf."
                 },
                 {
-                    "src": "/icon/service/design.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "Creative design icon",
                     "title": "Creative Design Agency Role",
                     "description": "As a full-service branding company, Prakria guided visual execution, rollout, and emotional storytelling to build deep consumer connection."
@@ -898,57 +761,35 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "The KitKat Goa project showcases how brand building companies can turn local insight into strategic identity — grounded, playful, and powerful.",
-            "list": [
-                {
-                    "src": "/icon/service/star.png",
-                    "alt": "Brand strategy icon",
-                    "text": "Even with tight timelines, a top creative agency can deliver depth, thanks to a strong brand strategy foundation."
-                },
-                {
-                    "src": "/icon/service/bulb.png",
-                    "alt": "Logo design icon",
-                    "text": "Logo design became a narrative extension, transforming a symbol into storytelling."
-                },
-                {
-                    "src": "/icon/service/glow.png",
-                    "alt": "Communication strategy icon",
-                    "text": "Unified brand communication across channels created a consistent voice."
-                },
-                {
-                    "src": "/icon/service/story.png",
-                    "alt": "Storytelling design icon",
-                    "text": "Packaging became storytelling — merging design utility with emotional resonance."
-                }
-            ]
+            "description": "The KitKat Goa project showcases how brand building companies can turn local insight into strategic identity — grounded, playful, and powerful."
         }
     },
-    "/palmolive-sensory-branding": {
+    "palmolive-sensory-branding": {
         "herosection": {
             "title": "Palmolive — Turning Bath Rituals into a Sensory Branding Experience",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/palmolive/1.webp",
+                    "src": "/assets_main/services/branding/18/brand1.jpg",
                     "alt": "Palmolive sensory branding campaign visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/palmolive/2.webp",
+                    "src": "/assets_main/services/branding/18/brand2.jpg",
                     "alt": "Laptop showing Palmolive brand visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/palmolive/3.webp",
+                    "src": "/assets_main/services/branding/18/brand3.jpg",
                     "alt": "Palmolive brand identity and packaging design"
                 },
                 {
-                    "src": "/assets_main/portfolio/palmolive/4.webp",
+                    "src": "/assets_main/services/branding/18/brand4.jpg",
                     "alt": "Palmolive digital campaign mockups"
                 },
                 {
-                    "src": "/assets_main/portfolio/palmolive/5.webp",
+                    "src": "/assets_main/services/branding/18/brand5.jpg",
                     "alt": "Palmolive social media and e-commerce creatives"
                 },
                 {
-                    "src": "/assets_main/portfolio/palmolive/6.webp",
+                    "src": "/assets_main/services/branding/18/brand6.jpg",
                     "alt": "Palmolive branding visuals and packaging"
                 }
             ]
@@ -997,25 +838,25 @@
             "description": "We developed a storytelling-driven identity that lived across packaging, social media, and retail spaces.",
             "list": [
                 {
-                    "src": "/icon/service/brand.png",
+                    "src": "/icon/service/render.png",
                     "alt": "Brand strategy icon",
                     "title": "Brand Communication & Strategy",
                     "description": "Reinforced the idea of 'traveling through scent, touch, and ritual' — each message placed the consumer inside the sensory world of Palmolive."
                 },
                 {
-                    "src": "/icon/service/logo.png",
+                    "src": "/icon/service/star.png",
                     "alt": "Logo adaptation icon",
                     "title": "Logo Design / Identity Adaptation",
                     "description": "Subtle visual treatments made every variant feel like part of a curated collection — refined, cohesive, and emotionally resonant."
                 },
                 {
-                    "src": "/icon/service/promo.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "Promotion icon",
                     "title": "Brand Promotion",
                     "description": "Used immersive storytelling modules on e-commerce portals and impactful offline activations like gift kits and point-of-sale displays."
                 },
                 {
-                    "src": "/icon/service/creative.png",
+                    "src": "/icon/service/ineractive.png",
                     "alt": "Creative design icon",
                     "title": "Creative Design Agency Role",
                     "description": "Handled concept-to-execution with consistency, depth, and sensory engagement — ensuring Palmolive’s evolution was felt across touchpoints."
@@ -1042,29 +883,7 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "Palmolive’s transformation shows how even mature brands can rediscover magic through brand storytelling, strategy, and sensory design.",
-            "list": [
-                {
-                    "src": "/icon/service/star.png",
-                    "alt": "Brand consultants icon",
-                    "text": "Branding consultants guided the vision from insight to execution."
-                },
-                {
-                    "src": "/icon/service/bulb.png",
-                    "alt": "Narrative icon",
-                    "text": "Logo design services supported the larger sensory narrative rather than dominating it."
-                },
-                {
-                    "src": "/icon/service/glow.png",
-                    "alt": "Strategy icon",
-                    "text": "Brand communication tied storytelling to real product benefits and emotional depth."
-                },
-                {
-                    "src": "/icon/service/creative.png",
-                    "alt": "Creative branding icon",
-                    "text": "Showcases how top creative and branding agencies turn mature products into meaningful experiences."
-                }
-            ]
+            "description": "Palmolive’s transformation shows how even mature brands can rediscover magic through brand storytelling, strategy, and sensory design."
         }
     }
 }
