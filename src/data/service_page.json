@@ -1,0 +1,1947 @@
+{
+  "/digital-marketing": {
+    "heroSection": {
+      "title": "Digital Marketing Services That Drive Growth",
+      "description": "In this ever-changing digital world, being differentiated is considered vital. Any brand, from startups to big enterprises, must have a winning online presence that draws attention and drives sales. This is where your digital marketing agency, PRAKRIA, comes in. With more than 20 years of creative experience and exposure to various industries, we blend data-driven strategies with creative storytelling to offer end-to-end digital marketing solutions. We intend for your business to dominate in digital marketing; hence, our marketing services include SEO, social media marketing, PPC (pay per click) campaigns, and email marketing."
+    },
+    "ourWrok": {
+      "title": "Our Work",
+      "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+      "list": [
+        {
+          "src": "/assets_main/services/digital_marketing/1.webp",
+          "alt": "Maggi social media",
+          "link": "/portfolio-item/nestle-maggi-social-media"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/2.webp",
+          "alt": "Nestle polo",
+          "link": "/portfolio-item/nestle-polo"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/3.gif",
+          "alt": "Nestle munch social media",
+          "link": "/portfolio-item/nestle-munch-social-media"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/4.gif",
+          "alt": "unilever dove",
+          "link": "/portfolio-item/unilever-dove-e-commerce"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/5.gif",
+          "alt": "marie claire e commerce",
+          "link": "/portfolio-item/marie-claire-e-commerce"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/dm1.gif",
+          "alt": "Social media post for Valentine's Day"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/dm2.gif",
+          "alt": "Instagram post design for a brand"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/dm3.webp",
+          "alt": "Website design mockup on multiple devices"
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Choose PRAKRIA as Your Digital Marketing Company?",
+      "description": "A right digital marketing service provider can make the difference between mediocre online visibility and stratospheric success. At PRAKRIA we do not just run campaigns; we create digital experiences wherein a brand interacts with an audience.",
+      "list": [
+        {
+          "title": "Proven Expertise",
+          "description": "With FMCG heritage and creative roots, we stand in a unique place to design campaigns that marry creativity with measurable performance.",
+          "src": "/icon/service/lightning.png"
+        },
+        {
+          "title": "End-to-End Services",
+          "description": "From awareness to conversion, our integrated solutions cover every touchpoint of the digital journey. ",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "title": "Consultative Approach",
+          "description": "Sometimes we really act like strategic partners, and sometimes we feel like digital marketing consultants who just give insight.",
+          "src": "/icon/service/users.png"
+        },
+        {
+          "title": "Focus on ROI",
+          "description": "Everything must come back to what really matters: more traffic, more leads, and more revenue.",
+          "src": "/icon/service/star.png"
+        }
+      ]
+    },
+    "ourCore": {
+      "title": "Our Core  Digital Marketing Services",
+      "list": [
+        {
+          "id": "seo",
+          "name": "SEO (Search Engine Optimization)",
+          "icon": "",
+          "title": "SEO (Search Engine Optimization)",
+          "description": "Seo search engine optimization Visibility on search engines is the pillar of digital success. Our SEO services make sure your website ranks at the top, produces quality traffic, and enjoys long-term visibility. As an SEO-focused agency, we focus on:",
+          "focusAreaTitle": "As a dedicated SEO agency, we focus on:",
+          "focusAreas": [
+            "In-depth keyword research",
+            "On-page and technical optimization",
+            "High-quality backlink building",
+            "Local SEO for location-based businesses",
+            "Analytics and performance tracking"
+          ],
+          "closingNote": "With the right SEO strategy, your brand doesn’t just appear online — it dominates the search results."
+        },
+        {
+          "id": "SMM",
+          "name": "Social Media Marketing",
+          "icon": "",
+          "title": "Social Media Marketing",
+          "description": "Social media is no longer about sharing your latest news; it is a means of creating communities, discussions, and trust. We, as a prominent social Media Marketing Agency, create the kind of strategies that empower your brand voice and get you the interactions on various platforms such as Facebook, Instagram, LinkedIn, etc.",
+          "focusAreaTitle": "Our social media marketing services include:",
+          "focusAreas": [
+            "Audience research and content planning",
+            "Creative campaigns and storytelling",
+            "Paid social media ads for reach and conversions",
+            "Influencer collaborations",
+            "Social listening and reputation management"
+          ],
+          "closingNote": "We help you turn followers into brand advocates."
+        },
+        {
+          "id": "PPC",
+          "name": "PPC & Performance Marketing",
+          "icon": "",
+          "title": "PPC & Performance Marketing",
+          "description": "If SEO builds long-term visibility, PPC (pay per click) advertising accelerates growth instantly. At PRAKRIA, we specialize in data-driven performance marketing services that maximize ROI and help you reach the right audience at the right time.",
+          "focusAreaTitle": "As a trusted performance marketing agency and pay per click advertising agency, our PPC expertise includes:",
+          "focusAreas": [
+            "Google Ads & Bing Ads campaign management",
+            "Display and remarketing campaigns",
+            "Conversion rate optimization",
+            "Landing page design for higher ROI",
+            "Transparent reporting"
+          ],
+          "closingNote": "Unlike many PPC marketing agencies, we focus on measurable results — clicks that convert into customers."
+        },
+        {
+          "id": "Email-Marketing",
+          "name": "Email Marketing",
+          "icon": "",
+          "title": "Email Marketing",
+          "description": "Email is still a major factor in the lead nurturing and customer retention process. To engage, inform and convert, we design email marketing campaigns.We design email plans that foster loyalty with your customer and maintain your brand awareness through various means such as personalized newsletters and automated drip campaigns."
+        },
+        {
+          "id": "Content-Marketing",
+          "name": "Content Marketing & Blogging",
+          "icon": "",
+          "title": "Content Marketing & Blogging",
+          "description": "Great marketing starts with great content. As a specialized content marketing agency, we craft stories that resonate with your audience and position your brand as an industry authority.",
+          "focusAreaTitle": "Our content services include:",
+          "focusAreas": [
+            "Blogging for SEO and brand awareness",
+            "Website copywriting that converts",
+            "Whitepapers, case studies, and e-books",
+            "Social media content calendars",
+            "Video scripts and storytelling"
+          ],
+          "closingNote": "Content is more than words — it’s the voice of your brand. We ensure it speaks clearly, consistently, and persuasively."
+        },
+        {
+          "id": "ORM",
+          "name": "Online Reputation Management (ORM)",
+          "icon": "",
+          "title": "Online Reputation Management (ORM)",
+          "description": "In the world of digital technology, your good name is still the most valuable thing that you have. Unfavorable reviews or incorrect signs of your brand can challenge it. Our online reputation management services continuously check, safeguard, and uplift your positive image to your target audience hence giving you peace of mind.We take care of reviewing, monitoring, and developing the plans that will facilitate your strengths to the market while dealing with the problems in an anticipatory manner."
+        },
+        {
+          "id": "IAM",
+          "name": "Influencer & Affiliate Marketing",
+          "icon": "",
+          "title": "Influencer & Affiliate Marketing",
+          "description": "Lever partnerships to widen your brand's sphere of influence. Our influencer marketing gets you the access to the same voices, which your target audience already trusts, while affiliate marketing creates sales channels that are driven by performance. On your own, they wouldn’t have much impact, but together, they bring the trust factor and increase the reach of your campaigns."
+        }
+      ]
+    },
+    "howWork": {
+      "title": "How We Work – The PRAKRIA Approach",
+      "description": "Our belief at PRAKRIA is that every brand is entitled to a personalized road map for the digital world. Our methodology is a combination of creativity, strategy, and performance, so you don’t only get campaigns — you get results.",
+      "list": [
+        {
+          "count": "01",
+          "title": "Discovery & Research",
+          "description": "The start is always with us trying to comprehend your brand, intended clientele, and aims. By doing research and audits, we come up with the ideas that make you stand out from the rest of the competition."
+        },
+        {
+          "count": "02",
+          "title": "Strategic Planning",
+          "description": "The team of our company will provide you with a very detailed plan of how to be successful in the digital world - starting from SEO services and social media marketing and going through to performance marketing and PPC campaigns, all this will be done in such a way that your objectives will be met, and the ROI will be maximized."
+        },
+        {
+          "count": "03",
+          "title": "Creative Execution",
+          "description": "Good ideas turn to reality through great design, the creation of good content, and targeted campaigns. It may be digital marketing services, website development, or social media marketing; in any case, we deliver with creativity and accuracy."
+        },
+        {
+          "count": "04",
+          "title": "Performance Optimization",
+          "description": "We are always monitoring, understanding, and changing our actions for the better. Everything from SEO performance to pay per click advertising is the avenue through which we take the wheel in an ongoing campaign to manage and maintain the growth of the business over time."
+        }
+      ]
+    },
+    "benifits": {
+      "title": "Benefits of Partnering with PRAKRIA",
+      "description": "When you hire us as your digital marketing consultant, it is not only about the completion of tasks but also about getting a return on your investment. Some of the main benefits are:",
+      "list": [
+        {
+          "description": "New and improved online visibility and brand authority",
+          "src": "/icon/service/star.png"
+        },
+        {
+          "description": "Better rankings in the search results through the professional SEO services",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "description": "Lead generation that is budget-friendly with the help of PPC marketing",
+          "src": "/icon/service/cursor.png"
+        },
+        {
+          "description": "Higher engagement with social media communities",
+          "src": "/icon/service/phone.png"
+        },
+        {
+          "description": "Brand loyalty for the long run through content marketing and email campaigns",
+          "src": "/icon/service/lightning.png"
+        },
+        {
+          "description": "Your digital reputation is improved through ORM",
+          "src": "/icon/service/app.png"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Got questions? We've got answers. Check out our frequently asked questions section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
+      "list": [
+        {
+          "question": "What makes PRAKRIA different from other digital marketing agencies?",
+          "answer": "We execute a combination of more than 20 years of creative work with data-driven implementation. Contrary to many PPC or SEO companies, we do not treat each digital marketing aspect as an independent one but rather create an integrated strategy that fits your brand."
+        },
+        {
+          "question": "How long does it take to see results from SEO?",
+          "answer": "Search engine optimization is a long-term investment whose fruits can be picked mainly in the second half of the first year. Most of the time, the indicators of progress will start to be visible after around 3 to 6 months; however, a steady increase will continue only if your website becomes a recognized authority."
+        },
+        {
+          "question": "Is PPC marketing expensive?",
+          "answer": "Not necessarily. If the targeting is accurate and the strategy is well thought out, a pay per click advertising campaign can be one of the cheapest ways to attract the most suitable leads."
+        },
+        {
+          "question": "Can social media really help my business?",
+          "answer": "Of course. Social platforms do not only provide exposure to the clients but are also a vehicle for one-to-one dialogue and thus trust-building. As a social media marketing agency, we’ve worked with businesses big and small to create engaged online communities that drive conversions."
+        },
+        {
+          "question": "Do I need all digital marketing services at once?",
+          "answer": "Not at all — we customize plans based on your objectives and affordability. Some companies begin their journey with SEO and later decide to venture into performance marketing or content marketing."
+        }
+      ]
+    }
+  },
+  "/packaging": {
+    "heroSection": {
+      "title": "Packaging Design That Builds Brands",
+      "description": "If the product is great by itself, still with a non-attractive packaging, the chances are high that your product will be lost on the shelf or in the online store. We at PRAKRIA convey the notion that packaging is not simply the last item in the chain of the product — it’s the first communication your brand has with your customer. Being a ray of creative light over two decades, PRAKRIA is the front-runner packaging design company that produces product packaging designs making apparent the union of beauty, practicality, and brand storytelling. Our professional packaging designers put together solutions that not only help you win the customer’s trust but also their buying decision."
+    },
+    "ourWrok": {
+      "title": "Our Work",
+      "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+      "list": [
+        {
+          "src": "/assets_main/services/packaging/1.webp",
+          "alt": "Food packaging social campaign mockup"
+        },
+        {
+          "src": "/assets_main/services/packaging/2.webp",
+          "alt": "Beverage packaging and social content"
+        },
+        {
+          "src": "/assets_main/services/packaging/3.webp",
+          "alt": "Holiday packaging design preview"
+        },
+        {
+          "src": "/assets_main/services/packaging/4.webp",
+          "alt": "Cosmetic product packaging mockup"
+        },
+        {
+          "src": "/assets_main/services/packaging/5.webp",
+          "alt": "Luxury skincare e-commerce design"
+        },
+        {
+          "src": "/assets_main/services/packaging/6.webp",
+          "alt": "Fashion product packaging visuals"
+        },
+        {
+          "src": "/assets_main/services/packaging/7.webp",
+          "alt": "Valentine’s themed package post design"
+        },
+        {
+          "src": "/assets_main/services/packaging/8.webp",
+          "alt": "Health supplement product packaging"
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Packaging Design Matters",
+      "description": "Packaging is the silent ambassador of your brand. Done well, it captures attention, communicates identity, and elevates brand value. Here’s why packaging design truly matters:",
+      "list": [
+        {
+          "title": "Seizes Attention",
+          "description": "Grabs attention at both physical and online store spaces packed with products.",
+          "src": "/icon/service/star.png"
+        },
+        {
+          "title": "Depicts Brand Identity",
+          "description": "Conveys your brand identity instantly through colors, typography, and shapes.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "title": "Ensures Sustainability",
+          "description": "Keeps the product safe while promoting sustainability and responsible design.",
+          "src": "/icon/service/sun.png"
+        },
+        {
+          "title": "Ergonomic & Aesthetic Appeal",
+          "description": "Attracts buyers through functional design and aesthetic appeal.",
+          "src": "/icon/service/phone.png"
+        },
+        {
+          "title": "Elevates Customer Loyalty",
+          "description": "Creates memorable unboxing and usage experiences that foster customer loyalty.",
+          "src": "/icon/service/flash.png"
+        }
+      ]
+    },
+    "ourCore": {
+      "title": "Our Packaging Design Services",
+      "description": "We are not just another packaging design agency. We’re a packaging strategy and design consultancy that partners with you from concept to execution. Here’s what we offer:",
+      "list": [
+        {
+          "id": "Food-Packaging-Design",
+          "name": "Food Packaging Design",
+          "title": "Food Packaging Design",
+          "description": "Packaging in the food and beverage industry should attract customers visually while being safe, compliant, and convenient. Our innovative designs help products stand out and maintain quality — from snack pouches to beverage bottles."
+        },
+        {
+          "id": "Retail-Packaging-Design",
+          "name": "Retail Packaging Design",
+          "title": "Retail Packaging Design",
+          "description": "We create retail packaging that strengthens brand recall and drives sales through shelf impact, strategic design, and brand consistency."
+        },
+        {
+          "id": "Luxury-Packaging-Design",
+          "name": "Cosmetic & Luxury Packaging Design",
+          "title": "Cosmetic & Luxury Packaging Design",
+          "description": "Our luxury packaging blends sophistication and storytelling to enhance perceived value — perfect for cosmetics, perfumes, and premium goods."
+        },
+        {
+          "id": "Custom-Packaging-Design",
+          "name": "Custom Packaging Design",
+          "title": "Custom Packaging Design",
+          "description": "We tailor designs to match your product’s story, category, and audience — delivering unique, memorable brand experiences."
+        },
+        {
+          "id": "Sustainable-Packaging-Design",
+          "name": "Sustainable Packaging Design",
+          "title": "Sustainable Packaging Design",
+          "description": "Eco-friendly packaging solutions that minimize waste and promote sustainable practices without compromising appeal."
+        }
+      ]
+    },
+    "howWork": {
+      "title": "Our Approach to Creative Package Design",
+      "description": "At PRAKRIA, our process combines creativity with strategy — from research to final delivery, we ensure your packaging stands out.",
+      "list": [
+        {
+          "count": "01",
+          "title": "Discovery & Research",
+          "description": "We study your brand, product, competition, and customer expectations to build a strong foundation."
+        },
+        {
+          "count": "02",
+          "title": "Concept Development",
+          "description": "Our designers brainstorm ideas that align with your brand values and market goals."
+        },
+        {
+          "count": "03",
+          "title": "Design & Prototyping",
+          "description": "From label design to 3D mockups, we bring concepts to life with detail and innovation."
+        },
+        {
+          "count": "04",
+          "title": "Testing & Refinement",
+          "description": "We assess usability, shelf impact, and consumer response — refining until perfection."
+        },
+        {
+          "count": "05",
+          "title": "Final Delivery",
+          "description": "We ensure final designs are production-ready, consistent, and aligned with your brand standards."
+        }
+      ]
+    },
+    "benifits": {
+      "title": "Why Choose PRAKRIA as Your Packaging Design Agency?",
+      "description": "Our experience, versatility, and creativity make PRAKRIA the go-to packaging design partner for brands across industries.",
+      "list": [
+        {
+          "description": "Decades of Experience – With 20+ years in design, we bring unmatched expertise to every project.",
+          "src": "/icon/service/flash.png"
+        },
+        {
+          "description": "Global Brands Trust Us – We’ve worked with Nestlé, Burger King, Pernod Ricard, and more.",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "description": "Cross-Industry Expertise – From food to luxury packaging, we understand diverse markets.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "description": "Consultative Partnership – We act as your packaging strategy and design consultancy, guiding every step.",
+          "src": "/icon/service/users.png"
+        },
+        {
+          "description": "Creative Meets Practical – Our designs are functional yet innovative, balancing beauty with practicality.",
+          "src": "/icon/service/star.png"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Got questions? We’ve got answers. Check out our frequently asked questions to learn more about our packaging design process, timelines, and services.",
+      "list": [
+        {
+          "question": "Why should I invest in professional packaging design?",
+          "answer": "Because the first impression is often through packaging. Professional packaging designers ensure your product looks great, resonates with your audience, and sells."
+        },
+        {
+          "question": "Do you handle both design and production?",
+          "answer": "Yes, we oversee the entire process — from creative design to production coordination, ensuring quality and consistency."
+        },
+        {
+          "question": "Can you create eco-friendly packaging?",
+          "answer": "Absolutely. We specialize in sustainable design solutions that reduce environmental impact."
+        },
+        {
+          "question": "How long does a packaging design project take?",
+          "answer": "The timeline depends on project complexity, but typically ranges from 2 to 6 weeks from concept to delivery."
+        },
+        {
+          "question": "Do you provide custom packaging design for startups?",
+          "answer": "Yes, we love working with startups to create impactful packaging that helps them stand out in competitive markets."
+        }
+      ]
+    }
+  },
+  "/branding": {
+    "heroSection": {
+      "title": "Branding That Builds Lasting Connections",
+      "description": "Your brand is not just a logo, your brand is not colors, and it’s even less a tagline. It’s the feeling your audience gets when they come into contact with you. It’s the reputation you seem to carry, the promises that you make and the story you tell. At PRAKRIA, Branding is about capturing an essence that translates and speaks the language of people, for long. We are a branding agency with 20 years of creating brands, who assist business owners by turning ideas into distinctive identities. Whether you are a start-up in need of a logo design, an existing business in need of re-branding or a growing business requiring brand and marketing collateral to support your evolving strategy; BAM! is the boutique brand builder that will work with you – let’s start winning together."
+    },
+    "ourWrok": {
+      "title": "Our Work",
+      "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+      "list": [
+        {
+          "src": "/assets_main/services/branding/1.webp",
+          "alt": "Food and beverage branding design"
+        },
+        {
+          "src": "/assets_main/services/branding/2.webp",
+          "alt": "Digital product branding and visuals"
+        },
+        {
+          "src": "/assets_main/services/branding/3.webp",
+          "alt": "Holiday marketing campaign visuals"
+        },
+        {
+          "src": "/assets_main/services/branding/4.webp",
+          "alt": "Beauty and skincare brand design"
+        },
+        {
+          "src": "/assets_main/services/branding/5.webp",
+          "alt": "Cosmetic campaign brand assets"
+        },
+        {
+          "src": "/assets_main/services/branding/6.webp",
+          "alt": "Social media brand communication post"
+        },
+        {
+          "src": "/assets_main/services/branding/7.webp",
+          "alt": "Promotional packaging and branding mockups"
+        },
+        {
+          "src": "/assets_main/services/branding/8.webp",
+          "alt": "Health and fitness brand presentation"
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Branding Matters",
+      "description": "Branding is the foundation of every business. It influences how people perceive you, how they remember you, and why they choose you over competitors. Effective brand strategy delivers:",
+      "list": [
+        {
+          "title": "Recognition",
+          "description": "Strong visual identity and creative logo design services make your brand instantly identifiable.",
+          "src": "/icon/service/star.png"
+        },
+        {
+          "title": "Trust",
+          "description": "A consistent message builds confidence and credibility.",
+          "src": "/icon/service/phone.png"
+        },
+        {
+          "title": "Growth",
+          "description": "Strategic brand promotion ensures your products and services reach the right people.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "title": "Connection",
+          "description": "Emotional storytelling creates loyalty and long-term relationships.",
+          "src": "/icon/service/sun.png"
+        }
+      ]
+    },
+    "ourCore": {
+      "title": "Our Branding Services",
+      "description": "We are not just another branding company. We’re a creative design agency and designer studio that blends imagination with strategy. Here’s how we help:",
+      "list": [
+        {
+          "id": "Brand-Strategy",
+          "name": "Brand Strategy & Positioning",
+          "title": "Brand Strategy & Positioning",
+          "description": "Every successful brand begins with a clear direction. Our brand communication & strategy services help define your mission, values, and voice. We create frameworks that position your brand uniquely in the market while guiding all future communication."
+        },
+        {
+          "id": "Logo-Design",
+          "name": "Logo Design Services",
+          "title": "Logo Design Services",
+          "description": "Logo design that expresses your story, connects emotionally, and stays timeless in audience memory."
+        },
+        {
+          "id": "Visual-Identity",
+          "name": "Visual Identity & Brand Guidelines",
+          "title": "Visual Identity & Brand Guidelines",
+          "description": "We build cohesive visual systems and guidelines to ensure brand consistency across every medium."
+        },
+        {
+          "id": "Brand-Campaigns",
+          "name": "Brand Building Campaigns",
+          "title": "Brand Building Campaigns",
+          "description": "Creative campaigns that bring your brand to life through storytelling, advertising, and social media engagement."
+        },
+        {
+          "id": "Marketing-Strategy",
+          "name": "Branding and Marketing Strategy",
+          "title": "Branding and Marketing Strategy",
+          "description": "Comprehensive marketing and branding strategy that connects business objectives with customer engagement and measurable growth."
+        }
+      ]
+    },
+    "howWork": {
+      "title": "Our Process: From Vision to Execution",
+      "description": "At PRAKRIA, we follow a structured yet flexible process that ensures your brand identity is not only creative but also strategic and result-driven.",
+      "list": [
+        {
+          "count": "01",
+          "title": "Discovery & Research",
+          "description": "We begin by deeply understanding your audience, competition, and business goals. This research forms the foundation of a strong brand."
+        },
+        {
+          "count": "02",
+          "title": "Strategy Development",
+          "description": "Our branding consultants craft a clear brand strategy that guides every decision — from messaging to visual identity — ensuring consistency across all touchpoints."
+        },
+        {
+          "count": "03",
+          "title": "Creative Exploration",
+          "description": "Our creative design agency team brings ideas to life through logo design services, branding illustration, and complete brand systems that reflect your unique personality."
+        },
+        {
+          "count": "04",
+          "title": "Execution",
+          "description": "From launch campaigns to activations, we partner like leading brand promotion companies to roll out branding in a way that engages and excites your audience."
+        },
+        {
+          "count": "05",
+          "title": "Measurement & Growth",
+          "description": "We track results, analyze brand performance, and refine strategies to ensure your brand continues to evolve and grow."
+        }
+      ]
+    },
+    "benifits": {
+      "title": "Why Choose PRAKRIA as Your Branding Agency?",
+      "description": "We bring experience, creativity, and measurable growth together to craft brands that inspire and perform.",
+      "list": [
+        {
+          "description": "Two Decades of Expertise — We’ve worked with global and local brands across industries.",
+          "src": "/icon/service/flash.png"
+        },
+        {
+          "description": "Holistic Approach — We combine brand strategy, logo design, and brand promotion into one seamless journey.",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "description": "Creative Meets Commercial — As a creative marketing agency, we ensure designs not only look great but also drive business results.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "description": "Trusted by Brands — Our reputation among brand building companies is built on measurable outcomes and long-term partnerships.",
+          "src": "/icon/service/users.png"
+        },
+        {
+          "description": "Top 10 Branding Quality — Many clients consider us among the top 10 branding agencies in India because we deliver more than design; we deliver growth.",
+          "src": "/icon/service/star.png"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Got questions? We’ve got answers. Check out our frequently asked questions section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
+      "list": [
+        {
+          "question": "What makes PRAKRIA different from other branding agencies?",
+          "answer": "Most branding companies only focus on designs. We, on the other hand, are a creative marketing agency which draws not just looks but also measurable growth."
+        },
+        {
+          "question": "Do you only do logo design?",
+          "answer": "No. We provide full-scale branding solutions — from brand strategy to campaigns and marketing collateral."
+        },
+        {
+          "question": "How long does it take to build a brand?",
+          "answer": "Depending on scope and deliverables, a branding project can take 4 to 10 weeks, including research, design, and implementation."
+        },
+        {
+          "question": "Do you work with startups?",
+          "answer": "Yes, we love collaborating with startups to help them create strong, scalable brand identities from the ground up."
+        },
+        {
+          "question": "Can you handle brand promotion?",
+          "answer": "Absolutely. We design and execute campaigns that enhance your brand visibility and engagement across digital and offline channels."
+        }
+      ]
+    }
+  },
+  "/print-media": {
+    "heroSection": {
+      "title": "Print Media Advertising That Creates Lasting Impact",
+      "description": "In a digital noisy world, there’s something compelling about being able to hold a print piece in your hand. The heft of a brochure, the sheen of a magazine ad, the sheer size of a billboard — print is real, memorable, and trusted. At PRAKRIA, we think that print media advertising is more than paper and ink; it's tangible, memorable storytelling. As a graphic printing company with more than 20 years of experience, we create and produce print ad design that grabs people's attention and establishes brand visibility. From poster printing & design to catalogue printing & design, we make each item with precision, imagination, and tactical thinking. Whether you are a new brand or a mature business, our advertising printing solutions make your message pop in the physical realm."
+    },
+    "ourWrok": {
+      "title": "Our Work",
+      "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+      "list": [
+        {
+          "src": "/assets_main/services/print/1.webp",
+          "alt": "Food and product print campaign design"
+        },
+        {
+          "src": "/assets_main/services/print/2.webp",
+          "alt": "Creative print marketing design"
+        },
+        {
+          "src": "/assets_main/services/print/3.webp",
+          "alt": "Event and festive print collateral"
+        },
+        {
+          "src": "/assets_main/services/print/4.webp",
+          "alt": "Beauty and skincare print ad design"
+        },
+        {
+          "src": "/assets_main/services/print/5.webp",
+          "alt": "Fashion print media campaign"
+        },
+        {
+          "src": "/assets_main/services/print/6.webp",
+          "alt": "Social post print media combination"
+        },
+        {
+          "src": "/assets_main/services/print/7.webp",
+          "alt": "Promotional poster design for print"
+        },
+        {
+          "src": "/assets_main/services/print/8.webp",
+          "alt": "Health product brochure and leaflet design"
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Print Advertising Still Matters",
+      "description": "In today’s digital-first environment, many wonder if print advertising is still effective. The answer is a resounding yes. Here’s why:",
+      "list": [
+        {
+          "title": "Tangible Impact",
+          "description": "Unlike digital ads that disappear in seconds, printed materials linger on desks, in stores, and in homes.",
+          "src": "/icon/service/star.png"
+        },
+        {
+          "title": "Trust Factor",
+          "description": "Print builds credibility. Studies show that audiences trust print media designs more than pop-up ads or online banners.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "title": "Targeted Reach",
+          "description": "Magazines, newspapers, catalogues, and posters allow you to target niche audiences with precision.",
+          "src": "/icon/service/sun.png"
+        },
+        {
+          "title": "Brand Recall",
+          "description": "Beautifully crafted creative print advertisements create lasting impressions that drive loyalty.",
+          "src": "/icon/service/phone.png"
+        },
+        {
+          "title": "Integration with Digital",
+          "description": "Today’s smart brands use print and digital together, linking print ads to websites, QR codes, or campaigns.",
+          "src": "/icon/service/flash.png"
+        }
+      ]
+    },
+    "ourCore": {
+      "title": "Our Print Media Advertising Services",
+      "description": "At PRAKRIA, we provide a full range of print and media advertising solutions to suit your business.",
+      "list": [
+        {
+          "id": "Print-Advertisement-Design",
+          "name": "Print Advertisement Design",
+          "title": "Print Advertisement Design",
+          "description": "Each print advertisement has a story to tell. Our professionals design print advertisement graphics that deliver your message effectively and creatively. From newspaper listings to magazine spreads, we strike the right balance between striking visuals and evocative copy that drives action."
+        },
+        {
+          "id": "Poster-Design-Printing",
+          "name": "Poster Design & Printing",
+          "title": "Poster Design & Printing",
+          "description": "Eye-catching posters designed and printed to make your campaigns stand out across retail, events, and outdoor media."
+        },
+        {
+          "id": "Catalogue-Design-Printing",
+          "name": "Catalogue Design & Printing",
+          "title": "Catalogue Design & Printing",
+          "description": "We craft catalogues that showcase your products with clarity and style, balancing information with visual storytelling."
+        },
+        {
+          "id": "Brochures-Flyers",
+          "name": "Brochures, Flyers & Collaterals",
+          "title": "Brochures, Flyers & Collaterals",
+          "description": "Beautifully designed marketing materials — from brochures to flyers — that highlight your brand with professional quality."
+        },
+        {
+          "id": "Corporate-Print-Media",
+          "name": "Corporate & Retail Print Media Designs",
+          "title": "Corporate & Retail Print Media Designs",
+          "description": "Corporate reports, retail ads, packaging inserts, and other printed materials tailored to your branding and communication goals."
+        },
+        {
+          "id": "Sustainable-Printing",
+          "name": "Sustainable Printing Solutions",
+          "title": "Sustainable Printing Solutions",
+          "description": "Eco-friendly print solutions that minimize environmental impact without compromising on print quality or creativity."
+        }
+      ]
+    },
+    "howWork": {
+      "title": "Our Process: From Idea to Print",
+      "description": "At PRAKRIA, we think each component of print communication should have a story. That’s why we take a clean, start-to-finish process that guarantees your brand’s message is not just beautifully created but also robustly delivered.",
+      "list": [
+        {
+          "count": "01",
+          "title": "Discovery & Briefing",
+          "description": "We begin by understanding your brand, your objectives, and your audience. This process allows us to match your requirements with the appropriate print advertising strategy, be it a poster design & printing initiative, a catalogue design & printing task, or an entire print media advertising campaign."
+        },
+        {
+          "count": "02",
+          "title": "Creative Concepting",
+          "description": "Our creative team taps into distinctive concepts that are in accordance with your brand voice and campaign goals. From designs for print media to innovative print commercials, we ensure the ideas are not only visually appealing but also strategically effective."
+        },
+        {
+          "count": "03",
+          "title": "Design & Development",
+          "description": "After the idea is solidified, we turn it into fine art. From print ad design, brochures, and flyers to big-format materials, our designers give attention to detail so your print assets cut through noisy markets."
+        },
+        {
+          "count": "04",
+          "title": "Production & Printing",
+          "description": "We collaborate with reputable printing firms and partners to guarantee quality production. As a trusted printing agency, we manage the process from start to finish — selecting the ideal paper, finishes, and techniques to produce effective print materials. We also incorporate eco-friendly printing options to help brands with green concerns."
+        },
+        {
+          "count": "05",
+          "title": "Delivery & Impact",
+          "description": "And lastly, we make sure your printed materials are delivered on time, ready to leave a lasting impact. Rather than mere marketing materials, these are brand assets that are intended to establish visibility, credibility, and customer interest."
+        }
+      ]
+    },
+    "benifits": {
+      "title": "Why Choose PRAKRIA as Your Printing Agency?",
+      "description": "We combine decades of creative expertise with design, strategy, and high-quality printing to help brands communicate effectively in print.",
+      "list": [
+        {
+          "description": "Two Decades of Expertise — With over 20 years in design and advertising printing services, we’ve partnered with global brands like Nestlé, Pernod Ricard, and Burger King.",
+          "src": "/icon/service/flash.png"
+        },
+        {
+          "description": "Creative + Strategic — We’re more than just one of the many printing companies — we’re a creative partner that understands design, marketing, and strategy.",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "description": "Fast Turnaround — Deadlines matter. We pride ourselves on delivering quality work within “unheard-of” timelines.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "description": "Diverse Capabilities — From creative print advertisements to complex catalogues, our services cover the entire spectrum of print and media advertising.",
+          "src": "/icon/service/users.png"
+        },
+        {
+          "description": "Sustainability Commitment — We’re a forward-thinking printing agency offering sustainable printing without compromising on quality or creativity.",
+          "src": "/icon/service/star.png"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Got questions? We’ve got answers. Check out our frequently asked questions section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
+      "list": [
+        {
+          "question": "What types of print media advertising do you handle?",
+          "answer": "We deal in everything ranging from the design of print ads, the design & printing of posters, and the design & printing of catalogues to brochures, flyers, and business print materials."
+        },
+        {
+          "question": "Do you only design, or also manage printing?",
+          "answer": "We handle both — from creative concept to final printed delivery, ensuring your brand’s message is communicated flawlessly."
+        },
+        {
+          "question": "How fast can you deliver?",
+          "answer": "Our production timelines are flexible and efficient. Depending on scope, most print campaigns are delivered within a few business days."
+        },
+        {
+          "question": "Is print advertising still effective in the digital age?",
+          "answer": "Yes. Print continues to create credibility, tangibility, and impact — working best when integrated with digital campaigns."
+        },
+        {
+          "question": "Can you provide eco-friendly printing options?",
+          "answer": "Absolutely. We offer sustainable materials, inks, and processes to reduce environmental impact while maintaining print quality."
+        }
+      ]
+    }
+  },
+  "/animation-ar-vr": {
+    "heroSection": {
+      "title": "Animation, AR & VR Experiences That Inspire",
+      "description": "In a society where attention spans are dwindling and competition is heightened, brands must do more than tell their story — they must demonstrate it in ways that engage, envelop, and inspire. That's where PRAKRIA, your go-to animation house, comes into the picture. From 3D modeling and 3D animation solutions to 2D animation, VFX animation, and interactive AR VR development, we bridge ideas into breathtaking visuals. An explainer video, a product demo, an interactive application, or a fully immersive virtual reality development – our studio combines creativity, technology, and storytelling to make your brand rememberable."
+    },
+    "ourWork": {
+      "title": "Our Work",
+      "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+      "list": [
+        {
+          "src": "/assets_main/services/animation_ar_vr/1.webp",
+          "alt": "Maggi social media campaign"
+        },
+        {
+          "src": "/assets_main/services/animation_ar_vr/2.webp",
+          "alt": "Nestle Polo digital post"
+        },
+        {
+          "src": "/assets_main/services/animation_ar_vr/3.webp",
+          "alt": "Nestle Munch creative"
+        },
+        {
+          "src": "/assets_main/services/animation_ar_vr/4.webp",
+          "alt": "Dove product page design"
+        },
+        {
+          "src": "/assets_main/services/animation_ar_vr/5.webp",
+          "alt": "Marie Claire beauty campaign"
+        },
+        {
+          "src": "/assets_main/services/animation_ar_vr/6.webp",
+          "alt": "Gentle Fresh Valentine’s social post"
+        },
+        {
+          "src": "/assets_main/services/animation_ar_vr/7.webp",
+          "alt": "Red mug Instagram creative"
+        },
+        {
+          "src": "/assets_main/services/animation_ar_vr/8.webp",
+          "alt": "Green website and app interface design"
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Animation & AR/VR Matter Today",
+      "description": "Immersive technologies and animation are no longer 'nice-to-have.' They are the engagement of the future. Here's why:",
+      "list": [
+        {
+          "title": "3D design makes things real",
+          "description": "From architectural walkthroughs to product prototypes, 3D modeling produces realistic visuals which enable customers to understand and relate to your products.",
+          "src": "/icon/service/star.png"
+        },
+        {
+          "title": "Animated video making makes complexity easy",
+          "description": "Explainers, tutorials, and storytelling through 2D animation or 3D animation make even complex issues simple and fun.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "title": "Immersive experiences increase engagement",
+          "description": "Virtual reality and augmented reality app development enable your customers to engage with your brand in fresh, memorable ways.",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "title": "Gaming fuels participation",
+          "description": "With our game development services and mobile game development skills, we create interesting, interactive worlds that set people up for the long haul.",
+          "src": "/icon/service/phone.png"
+        }
+      ]
+    },
+    "ourCore": {
+      "title": "Our Animation & Immersive Services",
+      "description": "At PRAKRIA, we offer a full suite of creative and technical services that bring ideas to life.",
+      "list": [
+        {
+          "id": "3d-animation",
+          "name": "3D Animation & Modeling",
+          "title": "3D Animation & Modeling",
+          "description": "Sometimes known as the Cinderella of animation, 3D animation brings life to almost all the images we see. From characters in our movies to product visualizations for business, basically anything that is alive.",
+          "focusAreas": [
+            "3D modeling for products, environments, and characters",
+            "Motion graphics and simulations",
+            "Architectural and industrial 3D design",
+            "Animated presentations and brand showcases"
+          ],
+          "closingNote": "If you want top animation quality with stunning detail, our team delivers world-class results."
+        },
+        {
+          "id": "2d-animation",
+          "name": "2D Animation & Motion Graphics",
+          "title": "2D Animation & Motion Graphics",
+          "description": "We create 2D animated visuals that simplify complex ideas through explainer videos, infographics, and storytelling that resonates with your audience."
+        },
+        {
+          "id": "vfx",
+          "name": "VFX Animation & Special Effects",
+          "title": "VFX Animation & Special Effects",
+          "description": "From cinematic effects to motion design, our VFX services make your visuals come alive with dynamic depth and realism."
+        },
+        {
+          "id": "game-development",
+          "name": "Game Development",
+          "title": "Game Development",
+          "description": "We build interactive, engaging gaming experiences for mobile and web that entertain while reinforcing your brand message."
+        },
+        {
+          "id": "vr-development",
+          "name": "Virtual Reality Development",
+          "title": "Virtual Reality Development",
+          "description": "Our VR team crafts immersive environments that let your customers experience your brand or product in new dimensions."
+        },
+        {
+          "id": "ar-development",
+          "name": "Augmented Reality App Development",
+          "title": "Augmented Reality App Development",
+          "description": "We integrate AR into real-world applications, creating interactive layers that elevate customer engagement and storytelling."
+        }
+      ]
+    },
+    "howWork": {
+      "title": "Our Process: From Concept to Creation",
+      "description": "Every 3D and CGI project in PRAKRIA is accompanied by a process that is structured yet flexible. We make sure that the concepts become captivating animations and visually delightful experiences.",
+      "list": [
+        {
+          "count": "01",
+          "title": "Discovery & Ideation",
+          "description": "We begin by diving deep into your goals and audience needs. Through research and brainstorming, we uncover how 3D design, animation, or AR VR development can best support your brand or campaign."
+        },
+        {
+          "count": "02",
+          "title": "Concept Development",
+          "description": "Our design team outlines concepts, creates storyboards, and prototypes — determining the creative direction for your animation or immersive project."
+        },
+        {
+          "count": "03",
+          "title": "Design & Animation",
+          "description": "This is where imagination comes alive. Our experts handle 3D modeling, 2D animation, VFX for cinematic visuals, and motion graphics for dynamic storytelling."
+        },
+        {
+          "count": "04",
+          "title": "Production & Printing",
+          "description": "Beyond visuals, we integrate technology. Our developers build AR VR applications, mobile games, and immersive experiences that merge creativity with functionality."
+        },
+        {
+          "count": "05",
+          "title": "Development & Integration",
+          "description": "All projects are tested for performance, quality, and experience. From 3D animation to game development, we ensure seamless performance across devices and platforms."
+        },
+        {
+          "count": "06",
+          "title": "Delivery & Support",
+          "description": "Once your project is launched, we provide ongoing support, updates, and optimization to keep your animation or AR VR development growing long-term."
+        }
+      ]
+    },
+    "whyChoose": {
+      "title": "Why Choose PRAKRIA as Your Animation Studio?",
+      "list": [
+        {
+          "title": "Decades of Creative Expertise",
+          "description": "With 20+ years of experience in the creative sector, we understand how to blend storytelling with innovative technology.",
+          "src": "/icon/service/lightning.png"
+        },
+        {
+          "title": "Full-Service Capabilities",
+          "description": "From 3D animation to augmented reality production, we offer end-to-end capabilities under one umbrella.",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "title": "Human-Centered",
+          "description": "We create for human beings, not just brands — ensuring every animation connects emotionally, not just algorithmically.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "title": "Global Brands Rely on Us",
+          "description": "Major brands such as Nestlé, Burger King, and Pernod Ricard trust us for delivering high-impact campaigns.",
+          "src": "/icon/service/users.png"
+        },
+        {
+          "title": "Innovative Approach",
+          "description": "We keep your brand ahead through continuous updates, new tools, and innovative storytelling across all platforms.",
+          "src": "/icon/service/star.png"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Got questions? We've got answers. Check out our FAQ section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
+      "list": [
+        {
+          "question": "What is the difference between 2D animation and 3D animation?",
+          "answer": "2D animation is the creation of flat visuals used in explainers or ads, while 3D animation creates realistic, immersive visuals for films, product demos, and architectural design."
+        },
+        {
+          "question": "Do you provide complete animated video creation services?",
+          "answer": "Yes, we offer end-to-end animated video services from scripting and storyboarding to design, animation, and final delivery."
+        },
+        {
+          "question": "What industries benefit from AR VR development?",
+          "answer": "Virtually every industry — from retail and healthcare to real estate and education — benefits from immersive AR and VR experiences that enhance customer engagement."
+        },
+        {
+          "question": "Can you create mobile games?",
+          "answer": "Absolutely. Our game development team specializes in creating engaging and interactive mobile games that align with your brand strategy."
+        },
+        {
+          "question": "Do you provide both AR and VR development?",
+          "answer": "Yes, we develop both augmented and virtual reality experiences tailored to your project’s needs and objectives."
+        }
+      ]
+    }
+  },
+  "/films-animation-vfx": {
+    "heroSection": {
+      "title": "Films, Animation & VFX – Stories That Captivate",
+      "description": "Exceptional stories require great execution. At PRAKRIA, we embody creativity, technology, and strategy to produce films, animations, and VFX that inspire viewer connection and create brand loyalty. As a full-service production company and video production studio, we produce everything from cinematic commercials to engaging video explainer videos; from dynamic motion graphics studio project production to sophisticated visual effects studio projects. With two decades of expertise as a creative agency, PRAKRIA’s team of storytellers, designers, editors, and VFX artists & technologists creates brands that can develop emotion, impact, and communicate clearly. PRAKRIA produces exceptional film production, video editing, & a quality animated video production studio."
+    },
+    "ourWrok": {
+      "title": "Our Work",
+      "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+      "list": [
+        {
+          "src": "/assets_main/services/films_animation_vfx/1.webp",
+          "alt": "Food brand campaign layout and social previews"
+        },
+        {
+          "src": "/assets_main/services/films_animation_vfx/2.webp",
+          "alt": "Product promo and digital creative tiles"
+        },
+        {
+          "src": "/assets_main/services/films_animation_vfx/3.webp",
+          "alt": "Festive campaign mobile creatives mockup"
+        },
+        {
+          "src": "/assets_main/services/films_animation_vfx/4.webp",
+          "alt": "Beauty and skincare marketplace / PDP content"
+        },
+        {
+          "src": "/assets_main/services/films_animation_vfx/5.webp",
+          "alt": "Cosmetics campaign assets and visual storytelling"
+        },
+        {
+          "src": "/assets_main/services/films_animation_vfx/6.webp",
+          "alt": "Valentine’s Day social media video post mockup"
+        },
+        {
+          "src": "/assets_main/services/films_animation_vfx/7.webp",
+          "alt": "Instagram ad creative and character visuals"
+        },
+        {
+          "src": "/assets_main/services/films_animation_vfx/8.webp",
+          "alt": "Product landing page and mobile UI screens"
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Films, Animation & VFX Still Matter",
+      "description": "In an era characterized by brief attention spans and endless service, video production services are more crucial than ever. Motion images penetrate the noise and ensure consumers remember you.",
+      "list": [
+        {
+          "title": "Films foster trust",
+          "description": "From architectural walkthroughs to product prototypes, 3D modeling produces realistic visuals which enable customers to understand and relate to your products.",
+          "src": "/icon/service/star.png"
+        },
+        {
+          "title": "Animation simplifies it",
+          "description": "Explainers, tutorials, and storytelling through 2D animation or 3D animation make even complex issues simple and fun.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "title": "VFX makes it magic",
+          "description": "Virtual reality and augmented reality app development enable your customers to engage with your brand in fresh, memorable ways.",
+          "src": "/icon/service/sun.png"
+        },
+        {
+          "title": "Editing shapes the impact",
+          "description": "An effective video editing company can produce an edited story that is edited to hold the audience's attention.",
+          "src": "/icon/service/phone.png"
+        },
+        {
+          "title": "Design adds usability",
+          "description": "Even UI UX design can benefit from the stories that come from multimedia and motion graphics.",
+          "src": "/icon/service/lightning.png"
+        }
+      ]
+    },
+    "ourCore": {
+      "title": "Our Core Services",
+      "description": "At PRAKRIA, we do more than just provide video production services — we are a full-service multimedia agency of film, animation, and VFX professionals.",
+      "list": [
+        {
+          "id": "film-production",
+          "name": "Film Production",
+          "title": "Film Production",
+          "description": "As a seasoned film production company, we manage all aspects of film production services. From script development, casting, and directing to post-production, we create cinematic films that resonate.",
+          "focusAreas": [
+            "TV commercials and brand films",
+            "Event coverage and interviews",
+            "Corporate documentaries",
+            "Social media campaigns"
+          ],
+          "closingNote": "Our production services combine creative direction with technical precision on every frame to tell your story."
+        },
+        {
+          "id": "video-production",
+          "name": "Video Production & Creation",
+          "title": "Video Production & Creation",
+          "description": "From brand films and explainer videos to campaign ads and social-first content, we plan, shoot, and produce video tailored for your audience and platforms."
+        },
+        {
+          "id": "video-editing",
+          "name": "Video Editing",
+          "title": "Video Editing",
+          "description": "Our editing team transforms raw footage into compelling narratives with pacing, mood, story flow, sound design, and motion graphics."
+        },
+        {
+          "id": "animation-services",
+          "name": "Animation Services",
+          "title": "Animation Services",
+          "description": "We deliver 2D/3D animation, character animation, motion design, and animated explainer content that makes ideas unforgettable."
+        },
+        {
+          "id": "motion-graphics",
+          "name": "Motion Graphics Studio",
+          "title": "Motion Graphics Studio",
+          "description": "High-impact motion graphics and visual storytelling for intros, promos, campaign assets, digital ads, and product explainers."
+        },
+        {
+          "id": "vfx",
+          "name": "Visual Effects (VFX)",
+          "title": "Visual Effects (VFX)",
+          "description": "Cinematic VFX, compositing, and enhancements that elevate production value — from subtle polish to full-blown spectacle."
+        },
+        {
+          "id": "multimedia",
+          "name": "Multimedia Services",
+          "title": "Multimedia Services",
+          "description": "Integrated multimedia campaigns combining film, animation, graphics, and interactive content for omni-channel brand storytelling."
+        }
+      ]
+    },
+    "howWork": {
+      "title": "Our Process: From Vision to Screen",
+      "description": "At PRAKRIA, there is a straightforward, collaborative process in place for every project that transforms ideas into impactful stories. We take your projects from concept to delivery, pulling together creative skills and technology, to ensure you impact your viewers with your films, animations, and VFX.",
+      "list": [
+        {
+          "count": "01",
+          "title": "Discovery & Strategy",
+          "description": "The initial step in our process is to understand your goals, your target audience, and your brand voice. We can then ensure that all video production services we deliver fit your objectives and speak to your target audience."
+        },
+        {
+          "count": "02",
+          "title": "Concept Development",
+          "description": "Our creative team handles script writing, storyboarding, and developing concepts which shape the foundation of a strong narrative. Whether it’s a Brand Film, Explainer, or Campaign Ad, storytelling starts here."
+        },
+        {
+          "count": "03",
+          "title": "Production & Filming",
+          "description": "We are a professional film production company that takes ideas to the production stage with our crew, directors, and equipment. From corporate documentaries to commercials, our production agency ensures everything goes to plan."
+        },
+        {
+          "count": "04",
+          "title": "Post-Production & Editing",
+          "description": "The magic is made in post. Whether it is our video editing company or our post-production team, we craft raw footage into edited content using video editing, motion graphics, sound design, and finishing — ensuring every frame looks professional."
+        },
+        {
+          "count": "05",
+          "title": "Animation & VFX",
+          "description": "Using our animation studio and visual effects studio, we utilize 2D/3D animation, Flash animation, and VFX as storytelling tools. Whether you are looking for character animation or cinematic VFX animation, we create visuals that take your audience’s breath away."
+        },
+        {
+          "count": "06",
+          "title": "Delivery & Support",
+          "description": "Finally, we optimize the last output for all platforms — broadcast, web, or mobile. In addition to delivery, we support you to ensure your company continues to produce results from the assets we created."
+        }
+      ]
+    },
+    "benifits": {
+      "title": "Why Choose PRAKRIA as Your Animation Studio?",
+      "description": "We are a full-service production partner trusted by major brands, blending storytelling, craft, and technical execution.",
+      "list": [
+        {
+          "description": "More than 20 years in the industry — Trusted by many of the world's biggest brands for quality and innovation.",
+          "src": "/icon/service/lightning.png"
+        },
+        {
+          "description": "Full-Service Capabilities — From concept to post-production, animation to VFX, we are your full-service media production company.",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "description": "Creative + Technical — We blend creative and technical with precision to deliver both visual impact and performance.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "description": "Award-winning storytelling — Our films and animations create emotional impact coupled with a marketing strategy.",
+          "src": "/icon/service/users.png"
+        },
+        {
+          "description": "Scalable — Whether you are looking for a small video production service or a large film production company, we cater to your needs.",
+          "src": "/icon/service/star.png"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Got questions? We've got answers. Check out our frequently asked questions section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
+      "list": [
+        {
+          "question": "Do you offer both film and animation production?",
+          "answer": "Yes, as a hybrid film production company and animation video production company, we manage live-action as well as animation projects."
+        },
+        {
+          "question": "What types of video production services do you provide?",
+          "answer": "We cover concept, scripting, production, editing, animation, VFX, and campaign-ready deliverables."
+        },
+        {
+          "question": "Can you conduct editing from start to finish?",
+          "answer": "Yes. Our post-production team handles full editing, motion graphics, sound design, and finishing to final delivery."
+        },
+        {
+          "question": "Do you do 2-dimensional and 3-dimensional animation?",
+          "answer": "We offer both 2D animation and 3D animation services, depending on your visual style, platform, and storytelling needs."
+        },
+        {
+          "question": "Do you offer multimedia campaigns?",
+          "answer": "Absolutely. We create integrated multimedia assets across film, animation, graphics, and social formats to ensure consistency and reach."
+        }
+      ]
+    }
+  },
+  "/illustration": {
+    "heroSection": {
+      "title": "Illustration Services That Bring Stories to Life",
+      "description": "Top brands do not only communicate through words — they communicate through pictures. At PRAKRIA, we believe visuals can simplify ideas, ignite imagination, and establish emotional connections with an audience. As an illustration agency and illustration studio, we specialize in custom illustration solutions that will provide your business with a unique voice. Whether it is a character illustration for a campaign, a branding illustration for a product launch, or concept art & illustration for your next big idea, our experienced artists and illustration consultants create visual solutions from concept to visuals that inspire."
+    },
+    "ourWrok": {
+      "title": "Our Work",
+      "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+      "list": [
+        {
+          "src": "/assets_main/services/illustration/1.webp",
+          "alt": "Maggi campaign visuals and mobile mockups"
+        },
+        {
+          "src": "/assets_main/services/illustration/2.webp",
+          "alt": "Nestle Polo creative illustrations and layouts"
+        },
+        {
+          "src": "/assets_main/services/illustration/3.webp",
+          "alt": "Nestle Munch concept and digital design"
+        },
+        {
+          "src": "/assets_main/services/illustration/4.webp",
+          "alt": "Dove e-commerce page visuals and branding"
+        },
+        {
+          "src": "/assets_main/services/illustration/5.webp",
+          "alt": "Marie Claire editorial design and illustration"
+        },
+        {
+          "src": "/assets_main/services/illustration/6.webp",
+          "alt": "Gentle Fresh Valentine's Day post design"
+        },
+        {
+          "src": "/assets_main/services/illustration/7.webp",
+          "alt": "Creative Instagram post layout with characters"
+        },
+        {
+          "src": "/assets_main/services/illustration/8.webp",
+          "alt": "Green digital and web interface mockups"
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Illustration Matters for Brands",
+      "description": "In a competitive marketplace, brands are always looking to differentiate themselves from the competition. While stock images and general graphics are abundant, a custom illustration design is the one that will take your branding to the next level.",
+      "list": [
+        {
+          "title": "Clear & Engaging Messages",
+          "description": "Infographic illustrations explain complicated messages, but also help gain instant understanding.",
+          "src": "/icon/service/star.png"
+        },
+        {
+          "title": "Emotional Connection",
+          "description": "Hand-drawn illustrations or expressive fine art give a human aesthetic that connects emotionally with audiences.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "title": "Endless Possibilities",
+          "description": "From 2D illustrations for editorial use to 3D illustrations for product demonstrations, the versatility is unending.",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "title": "Brand Consistency",
+          "description": "A reputable illustration company will make sure every artwork aligns with your brand vision at all levels.",
+          "src": "/icon/service/phone.png"
+        }
+      ]
+    },
+    "ourCore": {
+      "title": "Our Illustration Services",
+      "description": "As a full-service illustration agency, PRAKRIA offers a wide range of illustration services tailored to business needs across industries.",
+      "list": [
+        {
+          "id": "custom-illustrations",
+          "name": "Custom Illustrations",
+          "title": "Custom Illustrations",
+          "description": "We produce personalized illustrations that convey your distinctive narrative. Each line, stroke, and color is designed to reflect your brand personality.",
+          "focusAreas": [
+            "Illustrations for an editorial",
+            "Illustrations for ads",
+            "Illustrations for a package",
+            "Illustrations for product design"
+          ]
+        },
+        {
+          "id": "character-illustration",
+          "name": "Character Illustration",
+          "title": "Character Illustration",
+          "description": "Our character illustrators design unique, expressive characters that enhance storytelling for campaigns, mascots, or brand identity."
+        },
+        {
+          "id": "digital-illustration",
+          "name": "Digital Illustration",
+          "title": "Digital Illustration",
+          "description": "We create digital illustrations for web, print, and social — from stylized vector designs to complex digital paintings."
+        },
+        {
+          "id": "concept-art",
+          "name": "Concept Art & Illustration",
+          "title": "Concept Art & Illustration",
+          "description": "Our artists bring ideas to life through concept art and visualization for branding, gaming, or advertising applications."
+        },
+        {
+          "id": "2d-3d-illustration",
+          "name": "2D & 3D Illustration",
+          "title": "2D & 3D Illustration",
+          "description": "We deliver both 2D and 3D illustrations for editorial layouts, product visualization, and immersive storytelling."
+        },
+        {
+          "id": "hand-drawn",
+          "name": "Hand-Drawn Illustration",
+          "title": "Hand-Drawn Illustration",
+          "description": "From sketch to final form, our artists craft hand-drawn illustrations that evoke emotion and authenticity."
+        },
+        {
+          "id": "infographic",
+          "name": "Infographic Illustration",
+          "title": "Infographic Illustration",
+          "description": "We design visually clear, data-driven infographics that simplify information while retaining creative flair."
+        },
+        {
+          "id": "animation-illustration",
+          "name": "Animation & Illustration",
+          "title": "Animation & Illustration",
+          "description": "Our illustration team collaborates with animation experts to create motion-ready visuals and character-driven content."
+        }
+      ]
+    },
+    "howWork": {
+      "title": "Our Process: From Idea to Illustration",
+      "description": "At PRAKRIA, whenever we partner on an illustration project, we treat it as a collaboration. Our structured and creative method takes you from beautiful visuals to thoughtful designs that are meaningful and functional for brand building.",
+      "list": [
+        {
+          "count": "01",
+          "title": "Brief & Consultation",
+          "description": "We start by listening. Our experienced illustration consultants work closely with you to understand your brand priorities, audience, and vision, and align the project to the right style and purpose."
+        },
+        {
+          "count": "02",
+          "title": "Concept Development",
+          "description": "Our illustration agency team sketches, styles, and prepares early drafts. Whether your project is character illustration, concept art, or branding illustration, we deliver initial concepts and gather your feedback before finalizing direction."
+        },
+        {
+          "count": "03",
+          "title": "Design & Create",
+          "description": "Here the artwork comes to life. Our illustration studio develops detailed digital illustrations, vector artwork, hand-drawn or 2D/3D illustrations that reflect brand identity and engage audiences."
+        },
+        {
+          "count": "04",
+          "title": "Refinement",
+          "description": "Per your feedback, we refine and polish the artwork. We ensure the final illustration meets your brand objectives and achieves memorable impact."
+        },
+        {
+          "count": "05",
+          "title": "Delivery",
+          "description": "We deliver optimized assets for every platform — print, web, and digital. Whether for campaigns, packaging, or animations, our illustrations are designed to captivate and inspire."
+        }
+      ]
+    },
+    "benifits": {
+      "title": "Why Choose PRAKRIA as Your Illustration Company?",
+      "description": "Our two decades of creative expertise make us one of the most trusted illustration companies. We combine artistry with strategy for scalable, on-brand, and emotionally engaging results.",
+      "list": [
+        {
+          "description": "Experience & Expertise – Over twenty years of trusted work with global brands.",
+          "src": "/icon/service/lightning.png"
+        },
+        {
+          "description": "Creative Diversity – From branding illustration to concept art, we cover all styles and industries.",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "description": "Custom Solutions – Every project is tailored to meet the client's unique goals and brand needs.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "description": "Integration with Branding – We align illustration with strategy, packaging, and campaigns.",
+          "src": "/icon/service/users.png"
+        },
+        {
+          "description": "Scalable & Flexible – Whether you need one illustration or an entire design system, we can deliver.",
+          "src": "/icon/service/star.png"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Got questions? We've got answers. Check out our frequently asked questions section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
+      "list": [
+        {
+          "question": "What sets PRAKRIA apart from other illustration studios?",
+          "answer": "PRAKRIA differentiates itself by integrating strategy, branding, and design — offering a more holistic and impactful illustration service."
+        },
+        {
+          "question": "Do you provide both 2D and 3D illustrations?",
+          "answer": "Yes, our team offers both 2D and 3D illustration services for editorial, advertising, and product applications."
+        },
+        {
+          "question": "Can you create illustrations for branding?",
+          "answer": "Absolutely. We design branding illustrations that align with your visual identity, packaging, and marketing materials."
+        },
+        {
+          "question": "Do you provide custom characters?",
+          "answer": "Yes. Our character illustrators specialize in creating original characters tailored to your campaign or brand personality."
+        },
+        {
+          "question": "Do you integrate illustration with animation?",
+          "answer": "Yes. We collaborate with our animation team to bring illustrated assets to life through engaging motion content."
+        }
+      ]
+    }
+  },
+  "/web-development": {
+    "heroSection": {
+      "title": "Web Development & Design Services That Empower Your Brand",
+      "description": "Your website is typically the first encounter customers have with your business. It’s your digital storefront, your brand ambassador, and your most powerful marketing asset. We at PRAKRIA understand that a website is about creating meaningful digital experiences and not just about code. As a full-service web solutions company, we offer website development services, from concept to delivery, that bring together creativity, functionality, and performance. Whether you're looking for e-commerce website designing, WordPress development services, or to partner with a trusted UI/UX design agency, our team of designers and developers takes into consideration what makes your brand unique amongst the many others."
+    },
+    "ourWrok": {
+      "title": "Our Work",
+      "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+      "list": [
+        {
+          "src": "/assets_main/services/web_development/1.webp",
+          "alt": "Maggi campaign and layouts"
+        },
+        {
+          "src": "/assets_main/services/web_development/2.webp",
+          "alt": "Nestlé Polo social & digital tiles"
+        },
+        {
+          "src": "/assets_main/services/web_development/3.webp",
+          "alt": "Festive campaign screens on mobile"
+        },
+        {
+          "src": "/assets_main/services/web_development/4.webp",
+          "alt": "Dove ecommerce / PDP content"
+        },
+        {
+          "src": "/assets_main/services/web_development/5.webp",
+          "alt": "Beauty / ecommerce creative layouts"
+        },
+        {
+          "src": "/assets_main/services/web_development/6.webp",
+          "alt": "Social media Valentine's Day post mockup"
+        },
+        {
+          "src": "/assets_main/services/web_development/7.webp",
+          "alt": "Instagram creative / social content mock"
+        },
+        {
+          "src": "/assets_main/services/web_development/8.webp",
+          "alt": "Responsive website & app UI screens across devices"
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Web Development Matters",
+      "description": "In this modern era of speed and mobility, it is not simply sufficient to have a website. You need to have online establishments that are fast, visually appealing, and conversion optimized.",
+      "list": [
+        {
+          "title": "First impressions matter",
+          "description": "Beautiful design adds instant trust and credibility.",
+          "src": "/icon/service/star.png"
+        },
+        {
+          "title": "User experience drives retention",
+          "description": "Our UI/UX design services ensure visitors can easily find what they are looking for.",
+          "src": "/icon/service/bulb.png"
+        },
+        {
+          "title": "Responsiveness matters",
+          "description": "A mobile-friendly website and responsive website design make a brand accessible on any device.",
+          "src": "/icon/service/spark.png"
+        },
+        {
+          "title": "E-commerce is booming",
+          "description": "A professional e-commerce website development company increases how fast and smart you sell.",
+          "src": "/icon/service/phone.png"
+        },
+        {
+          "title": "Flexibility is essential",
+          "description": "Whether you need static website services or complex applications, you want a website design agency that works for you.",
+          "src": "/icon/service/lightning.png"
+        }
+      ],
+      "closingNote": "That's why businesses partner with PRAKRIA organization - one of the top web development teams being trusted to deliver scalable, high-performing digital solutions."
+    },
+    "ourCore": {
+      "title": "Our Web Development & Design Services",
+      "list": [
+        {
+          "id": "website-development",
+          "name": "Website Development",
+          "icon": "",
+          "title": "Website Development",
+          "description": "We provide custom website development to make your vision a reality. Our team of the best web developers guarantees clean code, superior performance, and scalable architecture.",
+          "focusAreas": [
+            "Corporate websites",
+            "Business landing pages",
+            "Portfolio websites",
+            "Blog and news portals"
+          ],
+          "closingNote": "Your site will not only look great, but it will also function as intended, thanks to our expertise and best development practices in web development."
+        },
+        {
+          "id": "website-designing",
+          "name": "Website Designing",
+          "icon": "",
+          "title": "Website Designing",
+          "description": "High-impact visual web design that communicates clearly, supports your brand, and builds trust."
+        },
+        {
+          "id": "uiux",
+          "name": "UI/UX Design Services",
+          "icon": "",
+          "title": "UI/UX Design Services",
+          "description": "User-first interfaces and seamless digital journeys that make products intuitive and conversion-focused."
+        },
+        {
+          "id": "ecommerce",
+          "name": "E-commerce Website Development",
+          "icon": "",
+          "title": "E-commerce Website Development",
+          "description": "Scalable online stores built for performance, usability, and sales."
+        },
+        {
+          "id": "shopify",
+          "name": "Shopify Development Services",
+          "icon": "",
+          "title": "Shopify Development Services",
+          "description": "Custom Shopify storefronts, themes, and optimizations for DTC growth."
+        },
+        {
+          "id": "wordpress",
+          "name": "WordPress Development Services",
+          "icon": "",
+          "title": "WordPress Development Services",
+          "description": "Flexible, content-driven WordPress development with custom themes, CMS tuning, and optimization."
+        },
+        {
+          "id": "app-dev",
+          "name": "App Development Company",
+          "icon": "",
+          "title": "App Development Company",
+          "description": "Mobile and web app development to extend your product experience beyond the browser."
+        },
+        {
+          "id": "static-sites",
+          "name": "Static Website Services",
+          "icon": "",
+          "title": "Static Website Services",
+          "description": "Ultra-fast static sites for campaigns, launches, and high-performance marketing use cases."
+        }
+      ]
+    },
+    "howWork": {
+      "title": "Our Process",
+      "description": "",
+      "list": [
+        {
+          "count": "01",
+          "title": "Discovery & Planning",
+          "description": "Understanding your project, users, and competitors."
+        },
+        {
+          "count": "02",
+          "title": "Design & Prototyping",
+          "description": "Creating beautiful websites and simple user experiences."
+        },
+        {
+          "count": "03",
+          "title": "Development & Coding",
+          "description": "Building clean, secure, and scalable websites."
+        },
+        {
+          "count": "04",
+          "title": "Testing & Quality Assurance",
+          "description": "Testing that your sites are responsive and mobile friendly across multiple devices."
+        },
+        {
+          "count": "05",
+          "title": "Launch & Optimization",
+          "description": "Launching your project with a complete deployment strategy and support."
+        },
+        {
+          "count": "06",
+          "title": "Support & Growth",
+          "description": "Creating updates and improvements for all your long-term success."
+        }
+      ]
+    },
+    "benifits": {
+      "title": "Why Choose PRAKRIA as Your Web Development Partner?",
+      "description": "",
+      "list": [
+        {
+          "title": "Expertise and Experience",
+          "description": "With 20 years of creativity and digital excellence, we are one of the leading web development companies.",
+          "src": "/icon/service/lightning.png"
+        },
+        {
+          "title": "Creative + Technical",
+          "description": "We leverage both artistry and serious technology, building sophistication into our web design and development agency.",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "title": "Custom Solutions",
+          "description": "Whether you need responsive web design for marketing or e-commerce web design, whether a brochure or a complex system, we deliver solutions that are specific to your goals.",
+          "src": "/icon/service/bulb.png"
+        },
+        {
+          "title": "Scalability & Flexibility",
+          "description": "We focus on working with every organization – startups, medium-to-large organisations, public sector organisations, and not-for-profits.",
+          "src": "/icon/service/users.png"
+        },
+        {
+          "title": "Best Web Developers",
+          "description": "We employ a full team of designers, coders, and strategists who are all dedicated to achieving measurable outcomes.",
+          "src": "/icon/service/star.png"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Got questions? We've got answers. Check out our frequently asked questions section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
+      "list": [
+        {
+          "question": "Do you provide web design and development services?",
+          "answer": "Yes. We're a full-service agency for website design and a web development services company that provides everything from design to deployment."
+        },
+        {
+          "question": "Do you develop E-commerce websites?",
+          "answer": "Yes — we build performance-focused online stores with scalability, usability, and conversion in mind."
+        },
+        {
+          "question": "Do you customize WordPress websites?",
+          "answer": "Absolutely. We design and develop custom WordPress themes and experiences tailored to your brand and content needs."
+        },
+        {
+          "question": "Do you develop mobile apps?",
+          "answer": "Yes, we also build mobile applications to extend your digital presence across platforms."
+        },
+        {
+          "question": "Are your websites usable on mobile devices?",
+          "answer": "Every experience we build is responsive and mobile-friendly by default so your audience can interact from any device."
+        }
+      ]
+    }
+  },
+  "/ar-vr-game-tech": {
+    "heroSection": {
+      "title": "AR, VR & Game Tech – Immersive Experiences that Redefine Reality",
+      "description": "The future of storytelling is not flat — it’s immersive, interactive, and unforgettable. We at PRAKRIA come together with art and technology to create innovative AR VR development, 3D animation, and game development services that capture, inspire, and revolutionize. Whether creating realistic 3D visuals, engaging 2D animation, or a compelling virtual reality experience, we build digital worlds that traverse the thin line between imagination and reality. From product launches to training simulations, from branding campaigns to mobile game development – NAM Animation studio cultivates experiences made to impact."
+    },
+    "ourWrok": {
+      "title": "Our Work",
+      "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+      "list": [
+        {
+          "src": "/assets_main/services/ar_vr/1.webp",
+          "alt": "Maggi social media",
+          "link": ""
+        },
+        {
+          "src": "/assets_main/services/ar_vr/2.webp",
+          "alt": "Nestle Polo social campaign",
+          "link": ""
+        },
+        {
+          "src": "/assets_main/services/ar_vr/3.webp",
+          "alt": "Festive social media creatives on mobile mockups",
+          "link": ""
+        },
+        {
+          "src": "/assets_main/services/ar_vr/4.webp",
+          "alt": "Dove e-commerce / product presentation",
+          "link": ""
+        },
+        {
+          "src": "/assets_main/services/ar_vr/5.webp",
+          "alt": "Beauty / cosmetics campaign layout",
+          "link": ""
+        },
+        {
+          "src": "/assets_main/services/ar_vr/6.webp",
+          "alt": "Valentine's Day campaign social post mockup",
+          "link": ""
+        },
+        {
+          "src": "/assets_main/services/ar_vr/7.webp",
+          "alt": "Instagram creative & character illustration",
+          "link": ""
+        },
+        {
+          "src": "/assets_main/services/ar_vr/8.webp",
+          "alt": "Green-themed responsive product site on multiple devices",
+          "link": ""
+        }
+      ]
+    },
+    "why": {
+      "title": "Why AR, VR & Animation Matter Today",
+      "description": "Immersive technologies and animation are no longer \"nice-to-have.\" They are the engagement of the future. Here's why:",
+      "list": [
+        {
+          "title": "3D design makes things real",
+          "description": "From architectural walkthroughs to product prototypes, 3D modeling produces realistic visuals which enable customers to understand and relate to your products.",
+          "src": "/icon/service/sparkles.png"
+        },
+        {
+          "title": "Animated video making makes complexity easy",
+          "description": "Explainers, tutorials, and storytelling through 2D animation or 3D animation make even complex issues simple and fun.",
+          "src": "/icon/service/bulb.png"
+        },
+        {
+          "title": "Immersive experiences increase engagement",
+          "description": "Virtual reality and augmented reality app development enable your customers to engage with your brand in fresh, memorable ways.",
+          "src": "/icon/service/glow.png"
+        },
+        {
+          "title": "Gaming fuels participation",
+          "description": "With our game development services and mobile game development skills, we create interesting, interactive worlds that set people up for the long haul.",
+          "src": "/icon/service/phone.png"
+        }
+      ]
+    },
+    "ourCore": {
+      "title": "Our Animation & Immersive Services",
+      "list": [
+        {
+          "id": "3d-animation-modeling",
+          "name": "3D Animation & Modeling",
+          "icon": "",
+          "title": "3D Animation & Modeling",
+          "description": "Sometimes known as the Cinderella of animation, 3D animation brings life to almost all the images that we gaze at. From our cast of characters in our movies to product visualizations for business, basically anything that is alive.",
+          "focusAreaTitle": "",
+          "focusAreas": [
+            "3D modeling for products, environments, and characters",
+            "Motion graphics and simulations",
+            "Architectural and industrial 3D design",
+            "Animated presentations and brand showcases"
+          ],
+          "closingNote": "If you want top animation quality with stunning detail, our team delivers world-class results."
+        },
+        {
+          "id": "2d-animation-motion-graphics",
+          "name": "2D Animation & Motion Graphics",
+          "icon": "",
+          "title": "2D Animation & Motion Graphics",
+          "description": "",
+          "focusAreaTitle": "",
+          "focusAreas": [],
+          "closingNote": ""
+        },
+        {
+          "id": "vfx-sfx",
+          "name": "VFX Animation & Special Effects",
+          "icon": "",
+          "title": "VFX Animation & Special Effects",
+          "description": "",
+          "focusAreaTitle": "",
+          "focusAreas": [],
+          "closingNote": ""
+        },
+        {
+          "id": "game-dev",
+          "name": "Game Development",
+          "icon": "",
+          "title": "Game Development",
+          "description": "",
+          "focusAreaTitle": "",
+          "focusAreas": [],
+          "closingNote": ""
+        },
+        {
+          "id": "vr-dev",
+          "name": "Virtual Reality Development",
+          "icon": "",
+          "title": "Virtual Reality Development",
+          "description": "",
+          "focusAreaTitle": "",
+          "focusAreas": [],
+          "closingNote": ""
+        },
+        {
+          "id": "ar-dev",
+          "name": "Augmented Reality App Development",
+          "icon": "",
+          "title": "Augmented Reality App Development",
+          "description": "",
+          "focusAreaTitle": "",
+          "focusAreas": [],
+          "closingNote": ""
+        }
+      ]
+    },
+    "howWork": {
+      "title": "Our Process: From Concept to Creation",
+      "description": "Every 3D and CGI project in PRAKRIA is accompanied by a process which is not only well-defined but also quite flexible. We make sure that the concepts become captivating animations, experiential and aesthetically pleasing visual work that delights a viewer.",
+      "list": [
+        {
+          "count": "01",
+          "title": "Discovery & Ideation",
+          "description": "We begin by diving deep into your goals and audience needs. Through research and brainstorming, we uncover how 3D design, animation, or AR VR development can best support your brand or campaign."
+        },
+        {
+          "count": "02",
+          "title": "Concept Development",
+          "description": "Our design team outlines concepts, creates storyboards, and creates prototypes. Whether concept art & illustration for a game or mockups for a virtual reality development project, this step determines the creative direction."
+        },
+        {
+          "count": "03",
+          "title": "Design & Animation",
+          "description": "This is where imagination comes alive. Our experts handle: • 3D modeling for products, environments, and characters • 2D animation for explainers, infographics, and brand stories • VFX animation for cinematic effects and realistic visuals • Motion graphics and CGI elements for dynamic storytelling"
+        },
+        {
+          "count": "04",
+          "title": "Production & Printing",
+          "description": "Beyond visuals, we integrate technology. Our developers build AR VR app development solutions, mobile game development projects, and immersive experiences that merge creativity with functionality."
+        },
+        {
+          "count": "05",
+          "title": "Development & Integration",
+          "description": "All projects are subject to thorough testing for performance, quality, and user experience. From 3D animation services to game development, we ensure smooth interaction across devices and platforms."
+        },
+        {
+          "count": "06",
+          "title": "Delivery & Support",
+          "description": "Once your project is launched, our work doesn’t stop. We provide ongoing support, updates, and optimization to keep your AR VR development, animated video creation, or game development services delivering results long-term."
+        }
+      ]
+    },
+    "benifits": {
+      "title": "Why Choose PRAKRIA as Your Animation Studio?",
+      "description": "",
+      "list": [
+        {
+          "description": "Decades of Creative Expertise — With 20+ years of experience in the creative sector, we understand how to marry storytelling with innovative technology.",
+          "src": "/icon/service/lightning.png"
+        },
+        {
+          "description": "Full-Service Capabilities — From 3D animation to augmented reality production, we offer end-to-end capabilities under one umbrella.",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "description": "Human-Centered — We don't just create for brands – we create for human beings. Every app or animation that we make is created with the purpose of reaching out to human beings, and not just algorithms.",
+          "src": "/icon/service/bulb.png"
+        },
+        {
+          "description": "Global Brands Rely on Us — Major brands such as Nestlé, Burger King, and Pernod Ricard count on us for the delivery of high-impact campaigns.",
+          "src": "/icon/service/users.png"
+        },
+        {
+          "description": "Innovative Approach — To guarantee that your brand is the leader in animation, gaming, and immersive technology, we continuously update our brand with new tools and platform.",
+          "src": "/icon/service/star.png"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Got questions? We've got answers. Check out our frequently asked questions section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
+      "list": [
+        {
+          "question": "What is the difference between 2D animation and 3D animation?",
+          "answer": "2-D animation is the creation of flat visuals, like those used in explainers or ads. On the other hand, the 3D animation studios create realistic and immersive visuals for various purposes: films, product demos, and architectural design."
+        },
+        {
+          "question": "Do you provide complete animated video creation services?",
+          "answer": ""
+        },
+        {
+          "question": "What industries benefit from AR VR development?",
+          "answer": ""
+        },
+        {
+          "question": "Can you create mobile games?",
+          "answer": ""
+        },
+        {
+          "question": "Do you provide both AR and VR development?",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}

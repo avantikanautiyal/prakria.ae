@@ -1,0 +1,465 @@
+{
+    "/con-vida-proof-of-concept": {
+        "herosection": {
+            "title": "Con Vida Proof of Concept — Bringing Color to Life with AR & Immersive Tech",
+            "list": [
+                {
+                    "src": "/assets_main/portfolio/convida/1.webp",
+                    "alt": "Con Vida AR proof of concept visuals for Maggi"
+                },
+                {
+                    "src": "/assets_main/portfolio/convida/2.webp",
+                    "alt": "Maggi social media AR campaign mockups"
+                },
+                {
+                    "src": "/assets_main/portfolio/convida/3.webp",
+                    "alt": "Laptop displaying AR immersive packaging experience"
+                },
+                {
+                    "src": "/assets_main/portfolio/convida/4.webp",
+                    "alt": "Animated color burst and immersive tech demonstration"
+                },
+                {
+                    "src": "/assets_main/portfolio/convida/5.webp",
+                    "alt": "AR app scanning packaging and interactive visuals"
+                },
+                {
+                    "src": "/assets_main/portfolio/convida/6.webp",
+                    "alt": "Mobile AR app and immersive experience mockup"
+                }
+            ]
+        },
+        "storySection": {
+            "title": "Bringing Color to Life with AR & Immersive Tech",
+            "paragraphs": [
+                "At Prakria, we constantly explore the boundaries of brand experience. With Con Vida, a sketch pen brand from our proof-of-concept portfolio, we aimed to showcase how color, technology, and imagination can intersect to create an interactive, living experience.",
+                "This experimental concept was designed to transform traditional packaging into a dynamic storytelling portal using augmented reality (AR), virtual reality (VR), animation, and playful digital design. While Con Vida wasn’t a real market launch, it served as an experimental playground to test how packaging could evolve into an immersive digital experience."
+            ]
+        },
+        "challenge": {
+            "title": "Why Prakria?",
+            "description": "We needed a creative partner that could merge design, interactivity, and technology into a single expressive ecosystem. Prakria is known for pushing boundaries — from AR/VR app development and game design to immersive storytelling. Con Vida gave us the freedom to experiment with AR, VR, and mobile-based interactive extensions, proving how design and tech can coexist beautifully.",
+            "list": [
+                "AR and VR app development",
+                "3D animation and interactive packaging",
+                "Immersive storytelling with color and motion",
+                "Mobile game development prototypes",
+                "Creative tech experimentation and mixed media innovation"
+            ]
+        },
+        "startageySection": {
+            "title": "Our Solution — AR Pack, Animated Color, Magic in Motion",
+            "description": "The Con Vida project turned packaging into a living, interactive portal by merging AR, animation, and VR-ready frameworks. The focus was on demonstrating how color could move, breathe, and interact with users through their devices.",
+            "list": [
+                {
+                    "number": "01",
+                    "title": "Packaging as Portal",
+                    "description": "We designed a vibrant physical package that acted as an entry point to a digital world. Once scanned, it revealed 3D AR animations that transformed static visuals into dynamic, interactive color experiences."
+                },
+                {
+                    "number": "02",
+                    "title": "AR Activation",
+                    "description": "By scanning the Con Vida pack, users could watch colors flow, drawings animate, and visuals transform into living frames — a playful representation of brand personality and creative imagination."
+                },
+                {
+                    "number": "03",
+                    "title": "Animation & Motion",
+                    "description": "We integrated animated video and motion graphics into the AR layer — sketch lines moving, pigments bursting, and particles floating — turning packaging into an active animation stage."
+                },
+                {
+                    "number": "04",
+                    "title": "VR & Beyond",
+                    "description": "While the proof of concept centered on AR, the system architecture could extend to VR development — letting users step inside a fully immersive, color-driven world."
+                }
+            ]
+        },
+        "executionSection": {
+            "title": "How We Brought It to Life",
+            "description": "Our process combined creative design, animation, and modular tech systems to build a scalable and future-ready AR experience.",
+            "list": [
+                {
+                    "src": "/icon/service/ar.png",
+                    "alt": "AR Pack Experience icon",
+                    "title": "AR Pack Experience",
+                    "description": "We built an AR experience where users could scan layers that animated through motion graphics, particle effects, and color bursts."
+                },
+                {
+                    "src": "/icon/service/animation.png",
+                    "alt": "Animation icon",
+                    "title": "Lightweight Animations",
+                    "description": "Animations were expressive yet mobile-optimized, ensuring smooth performance with fewer frames while retaining visual magic."
+                },
+                {
+                    "src": "/icon/service/modular.png",
+                    "alt": "Modular structure icon",
+                    "title": "Modular Structure",
+                    "description": "A modular setup enabled easy integration of new layers — like mini-games, drawing tools, or VR scenes — without rebuilding the project."
+                },
+                {
+                    "src": "/icon/service/expansion.png",
+                    "alt": "Extension routes icon",
+                    "title": "Future Extensions",
+                    "description": "We mapped out future possibilities including mobile game extensions and VR spin-offs, ensuring scalability and reusability."
+                }
+            ]
+        },
+        "resultSection": {
+            "title": "The Impact",
+            "description": "Though purely conceptual, Con Vida delivered immense creative and strategic value — both as a prototype and as a showcase of Prakria’s immersive design capabilities.",
+            "list": [
+                {
+                    "text": "Showcased the power of combining animated video, AR, and design to transform packaging."
+                },
+                {
+                    "text": "Demonstrated how packaging can exceed its physical limits to become an interactive storytelling medium."
+                },
+                {
+                    "text": "Positioned Prakria as a leading creative studio for AR/VR, animation, and immersive tech services."
+                },
+                {
+                    "text": "Helped future clients visualize how their products could 'come alive' through animation and AR."
+                }
+            ]
+        },
+        "whySection": {
+            "title": "Why This Project Stands Out",
+            "description": "Con Vida serves as a benchmark for immersive brand storytelling through AR, animation, and creative technology.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "AR justification icon",
+                    "text": "Showcases how augmented reality can redefine product perception through meaningful interaction."
+                },
+                {
+                    "src": "/icon/service/bulb.png",
+                    "alt": "Animated video icon",
+                    "text": "Blends animated video with motion design to add life and movement to static visuals."
+                },
+                {
+                    "src": "/icon/service/vr.png",
+                    "alt": "VR expansion icon",
+                    "text": "Lays the groundwork for future expansion into VR and full immersive app development."
+                },
+                {
+                    "src": "/icon/service/game.png",
+                    "alt": "Game development icon",
+                    "text": "Demonstrates the potential for integrating game development elements and interactive storytelling."
+                },
+                {
+                    "src": "/icon/service/glow.png",
+                    "alt": "Packaging innovation icon",
+                    "text": "Proves packaging can transcend the shelf — transforming into an interactive experience that enters the user’s space and imagination."
+                }
+            ]
+        }
+    },
+    "/polo-christmas-ar-filter": {
+        "herosection": {
+            "title": "Polo Christmas AR Filter — When Holiday Cheer Meets Augmented Magic",
+            "list": [
+                {
+                    "src": "/assets_main/portfolio/polo-christmas/1.webp",
+                    "alt": "Polo Christmas AR Filter visuals and campaign preview"
+                },
+                {
+                    "src": "/assets_main/portfolio/polo-christmas/2.webp",
+                    "alt": "Festive AR social media posts for Polo"
+                },
+                {
+                    "src": "/assets_main/portfolio/polo-christmas/3.webp",
+                    "alt": "Laptop showing Polo AR festive campaign"
+                },
+                {
+                    "src": "/assets_main/portfolio/polo-christmas/4.webp",
+                    "alt": "Polo Christmas creative visuals with AR filter elements"
+                },
+                {
+                    "src": "/assets_main/portfolio/polo-christmas/5.webp",
+                    "alt": "AR filter UI mockups and social media integration"
+                },
+                {
+                    "src": "/assets_main/portfolio/polo-christmas/6.webp",
+                    "alt": "Mobile interface showing Polo AR festive effects"
+                }
+            ]
+        },
+        "storySection": {
+            "title": "When Holiday Cheer Meets Augmented Magic",
+            "paragraphs": [
+                "As December arrived, Polo wanted to go beyond traditional social media campaigns. Instead of static visuals, they sought an interactive and shareable experience — one that would encapsulate the joy and sparkle of the holiday season.",
+                "The concept was to develop a Christmas AR filter that users could interact with, record, and share across platforms. The challenge was to keep it festive, branded, and delightful while ensuring smooth, intuitive performance across devices — a joyful experience without friction."
+            ]
+        },
+        "challenge": {
+            "title": "Why Prakria?",
+            "description": "Polo chose Prakria because we don’t just design — we build experiences. As a full-spectrum creative studio specializing in AR, VR, animation, and game technology, we combine technical prowess with storytelling flair. Our expertise in AR app development, animation, and immersive effects allowed us to transform a simple idea into a branded digital moment of magic.",
+            "list": [
+                "AR app development expertise",
+                "3D and 2D animation integration",
+                "Interactive storytelling and festive theming",
+                "Mobile-optimized performance and visual fidelity",
+                "AR/VR creative direction for brand engagement"
+            ]
+        },
+        "startageySection": {
+            "title": "Our Solution — Festive Filter, Real Magic",
+            "description": "We created a dynamic AR filter where users could experience Polo’s Christmas spirit with animated festive elements and interactive AR layers that responded to their movements and surroundings.",
+            "list": [
+                {
+                    "number": "01",
+                    "title": "Concept & Core Experience",
+                    "description": "Users were surrounded by Christmas-themed Polo elements — candy canes, snow, sparkly lights, and mints — enhanced by face detection and responsive anchors. The AR scene felt organic and magical."
+                },
+                {
+                    "number": "02",
+                    "title": "2D/3D Animation Layer",
+                    "description": "We added animated snow, glowing lights, and dancing icons to bring a playful rhythm to the filter. Each animation was designed to complement the brand identity and festive feel."
+                },
+                {
+                    "number": "03",
+                    "title": "Motion & Visual Effects",
+                    "description": "Visuals like snow drifts, glowing pulses, and light trails gave the filter a polished finish while maintaining a lightweight structure for mobile compatibility."
+                },
+                {
+                    "number": "04",
+                    "title": "Optimized Performance",
+                    "description": "The filter was engineered to perform smoothly across devices, with minimal lag and high visual quality — ensuring users could enjoy it seamlessly in real time."
+                }
+            ]
+        },
+        "executionSection": {
+            "title": "How We Brought It to Life",
+            "description": "After developing the filter, we launched it across Polo’s digital ecosystem — including Instagram, Snapchat, and brand-owned platforms — turning interaction into celebration.",
+            "list": [
+                {
+                    "src": "/icon/service/ar.png",
+                    "alt": "Live AR interaction icon",
+                    "title": "Live Interaction",
+                    "description": "Users could try it live, capturing short videos of themselves immersed in Polo’s festive AR world."
+                },
+                {
+                    "src": "/icon/service/motion.png",
+                    "alt": "Animated filter icon",
+                    "title": "Animated Overlays",
+                    "description": "Users could take still images or short clips featuring festive animated overlays and Polo branding."
+                },
+                {
+                    "src": "/icon/service/share.png",
+                    "alt": "Social sharing icon",
+                    "title": "Social Sharing",
+                    "description": "Users shared their creations directly to Instagram stories, messages, and social media feeds."
+                },
+                {
+                    "src": "/icon/service/promo.png",
+                    "alt": "Promotional visuals icon",
+                    "title": "Promotional Content",
+                    "description": "We designed teaser animations, banner images, and AR previews to promote the filter across digital and physical touchpoints."
+                }
+            ]
+        },
+        "resultSection": {
+            "title": "The Impact",
+            "description": "The Polo Christmas AR Filter became more than a campaign — it evolved into an interactive celebration that connected users emotionally with the brand.",
+            "list": [
+                {
+                    "text": "Turned into a shareable holiday asset, with users engaging through festive selfies, greetings, and social posts."
+                },
+                {
+                    "text": "Increased brand engagement as users experienced Polo messaging in personal, joyful contexts."
+                },
+                {
+                    "text": "Elevated Polo’s seasonal campaign with animation and interactivity beyond typical visual assets."
+                },
+                {
+                    "text": "Showcased Prakria’s AR and animation expertise through high-performing, polished execution."
+                }
+            ]
+        },
+        "whySection": {
+            "title": "Why This Project Stands Out",
+            "description": "The Polo Christmas AR Filter redefined how festive campaigns could use augmented reality to create emotional, immersive connections with audiences.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "AR innovation icon",
+                    "text": "Used AR to extend brand storytelling directly into consumers’ personal spaces."
+                },
+                {
+                    "src": "/icon/service/bulb.png",
+                    "alt": "Animated emotion icon",
+                    "text": "Blended animation, motion design, and AR to evoke holiday emotion and engagement."
+                },
+                {
+                    "src": "/icon/service/vr.png",
+                    "alt": "AR VR icon",
+                    "text": "Applied AR/VR development thinking to a lightweight, accessible social experience."
+                },
+                {
+                    "src": "/icon/service/game.png",
+                    "alt": "Immersive strategy icon",
+                    "text": "Showcased how filters and immersive tech can act as strategic brand extensions."
+                },
+                {
+                    "src": "/icon/service/glow.png",
+                    "alt": "Creative connection icon",
+                    "text": "Demonstrated how AR filters can connect brands and users in magical, meaningful ways."
+                }
+            ]
+        }
+    },
+    "/blanca-wine-proof-of-concept": {
+        "herosection": {
+            "title": "Blanca Wine Proof of Concept — Blending Wine, Storytelling & Immersive Tech",
+            "list": [
+                {
+                    "src": "/assets_main/portfolio/blanca/1.webp",
+                    "alt": "Blanca Wine AR and immersive storytelling visuals"
+                },
+                {
+                    "src": "/assets_main/portfolio/blanca/2.webp",
+                    "alt": "Laptop showing Blanca Wine immersive experience"
+                },
+                {
+                    "src": "/assets_main/portfolio/blanca/3.webp",
+                    "alt": "3D modeled Blanca Wine bottle and branding"
+                },
+                {
+                    "src": "/assets_main/portfolio/blanca/4.webp",
+                    "alt": "AR activation and wine storytelling mockups"
+                },
+                {
+                    "src": "/assets_main/portfolio/blanca/5.webp",
+                    "alt": "Blanca Wine augmented reality promotional visuals"
+                },
+                {
+                    "src": "/assets_main/portfolio/blanca/6.webp",
+                    "alt": "Social media preview and AR experience for Blanca Wine"
+                }
+            ]
+        },
+        "storySection": {
+            "title": "Blending Storytelling, Technology & Imagination",
+            "paragraphs": [
+                "Prakria was changing: it was more than just visuals — we were hoping to be a full creaTech studio, integrating creative capability with modern technology like AR & VR.",
+                "To show we could change like that, we decided to develop engaging Proof of Concepts. One of the first was a concept wine brand called Blanca Wine, created in Spanish vineyards.",
+                "The brief was quite ambitious: start a brand (narrative, visuals, pack), then bring it to life with immersive technologies. The goal was to create an experience, not just static images, where you could step into the wine story. That’s where AR, animation, and interactive technology would play a featured role."
+            ]
+        },
+        "challenge": {
+            "title": "Why Prakria?",
+            "description": "Blanca wasn’t created for the market — it was created for belief. To show potential clients our capabilities — what an animation studio can fulfill when technology meets creativity.",
+            "list": [
+                "3D animation and CGI",
+                "Stop motion and interactive storytelling",
+                "AR/VR development",
+                "Immersive tech blending design and experience"
+            ]
+        },
+        "startageySection": {
+            "title": "Our Solution — Building Blanca, Digitally & Immersively",
+            "description": "We started with the brand narrative — its history, its ethos, its visual tone, and communication scaffolding. Then, we designed the wine bottle in 3D, creating both literal and virtual versions enriched through AR and animation.",
+            "list": [
+                {
+                    "number": "01",
+                    "title": "Brand Identity & 3D Design",
+                    "description": "We built the Blanca wine bottle in a 3D model — designing its shape, label, materials, and lighting for lifelike rendering. This created the foundation for both real and AR visualization."
+                },
+                {
+                    "number": "02",
+                    "title": "AR Experience & Immersion",
+                    "description": "Users could scan the bottle or its packaging to unlock a vineyard experience in Spain, complete with light, movement, and sound. Spatial anchoring allowed the digital vineyard to merge with real-world surroundings."
+                },
+                {
+                    "number": "03",
+                    "title": "Animation & Motion",
+                    "description": "We layered animated video creation to add life: pouring wine, leaves fluttering, birds flying — all contributing to the sense of immersion and brand storytelling."
+                },
+                {
+                    "number": "04",
+                    "title": "VR / Future Escapes",
+                    "description": "Although primarily AR-based, Blanca’s assets were designed to extend into VR — walking through vineyards, tasting rooms, and cellars — for future immersive expansions."
+                }
+            ]
+        },
+        "executionSection": {
+            "title": "How We Brought It to Life",
+            "description": "We combined storytelling, animation, and AR layers to create a seamless blend of art and technology that allowed audiences to ‘step into’ the Blanca Wine world.",
+            "list": [
+                {
+                    "src": "/icon/service/3d.png",
+                    "alt": "3D model icon",
+                    "title": "3D Model & Rendering",
+                    "description": "A sleek, high-fidelity 3D model of the Blanca wine bottle for rendering and AR overlay."
+                },
+                {
+                    "src": "/icon/service/ar.png",
+                    "alt": "AR filter icon",
+                    "title": "AR Filters & Experience",
+                    "description": "AR layers translating the narrative to users’ screens for visual immersion."
+                },
+                {
+                    "src": "/icon/service/motion.png",
+                    "alt": "Animation icon",
+                    "title": "Animation & Depth",
+                    "description": "Animated scenes interwoven into AR to create emotion and storytelling depth."
+                },
+                {
+                    "src": "/icon/service/modular.png",
+                    "alt": "Modular structure icon",
+                    "title": "Modular Structure",
+                    "description": "Easily expandable system for adding VR tours, games, or future storytelling layers."
+                },
+                {
+                    "src": "/icon/service/assets.png",
+                    "alt": "Brand engagement icon",
+                    "title": "Brand Assets",
+                    "description": "Assets optimized for social sharing, internal demos, and brand engagement."
+                }
+            ]
+        },
+        "resultSection": {
+            "title": "The Impact",
+            "description": "The Blanca Proof of Concept became more than a showcase — it became a conversation starter for immersive storytelling.",
+            "list": [
+                {
+                    "text": "It demonstrated how AR, 3D modeling, and animation can elevate even conceptual branding."
+                },
+                {
+                    "text": "It showed clients that packaging can be a portal — turning a bottle into an interactive experience."
+                },
+                {
+                    "text": "It highlighted Prakria’s strength in AR/VR app development and immersive narrative design."
+                },
+                {
+                    "text": "As a proof project, it enabled experimentation and innovation without creative limitations."
+                }
+            ]
+        },
+        "whySection": {
+            "title": "Why This Project Stands Out",
+            "description": "Blanca proves that brands can be immersive, interactive, and emotionally resonant.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "AR storytelling icon",
+                    "text": "AR / VR technologies enrich brand storytelling when implemented with care."
+                },
+                {
+                    "src": "/icon/service/bulb.png",
+                    "alt": "Animation in AR icon",
+                    "text": "Animated video production in AR brings life and movement to static visuals."
+                },
+                {
+                    "src": "/icon/service/glow.png",
+                    "alt": "Game development icon",
+                    "text": "Planning for game or VR development allows for deeper, brand-led experiences."
+                },
+                {
+                    "src": "/icon/service/device.png",
+                    "alt": "Tech studio icon",
+                    "text": "Prakria’s AR/VR and interactive expertise turned Blanca into a showcase of future brand engagement."
+                }
+            ]
+        }
+    }
+}

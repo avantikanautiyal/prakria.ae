@@ -1,0 +1,457 @@
+{
+  "/digital-marketing": {
+    "heroSection": {
+      "title": "Digital Marketing Services That Drive Growth",
+      "description": "In this ever-changing digital world, being differentiated is considered vital. Any brand, from startups to big enterprises, must have a winning online presence that draws attention and drives sales. This is where your digital marketing agency, PRAKRIA, comes in. With more than 20 years of creative experience and exposure to various industries, we blend data-driven strategies with creative storytelling to offer end-to-end digital marketing solutions. We intend for your business to dominate in digital marketing; hence, our marketing services include SEO, social media marketing, PPC (pay per click) campaigns, and email marketing."
+    },
+    "ourWrok": {
+      "title": "Our Work",
+      "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+      "list": [
+        {
+          "src": "/assets_main/services/digital_marketing/1.webp",
+          "alt": "Maggi social media",
+          "link": "/portfolio-item/nestle-maggi-social-media"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/2.webp",
+          "alt": "Nestle polo",
+          "link": "/portfolio-item/nestle-polo"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/3.gif",
+          "alt": "Nestle munch social media",
+          "link": "/portfolio-item/nestle-munch-social-media"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/4.gif",
+          "alt": "unilever dove",
+          "link": "/portfolio-item/unilever-dove-e-commerce"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/5.gif",
+          "alt": "marie claire e commerce",
+          "link": "/portfolio-item/marie-claire-e-commerce"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/dm1.gif",
+          "alt": "Social media post for Valentine's Day"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/dm2.gif",
+          "alt": "Instagram post design for a brand"
+        },
+        {
+          "src": "/assets_main/services/digital_marketing/dm3.webp",
+          "alt": "Website design mockup on multiple devices"
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Choose PRAKRIA as Your Digital Marketing Company?",
+      "description": "A right digital marketing service provider can make the difference between mediocre online visibility and stratospheric success. At PRAKRIA we do not just run campaigns; we create digital experiences wherein a brand interacts with an audience.",
+      "list": [
+        {
+          "title": "Proven Expertise",
+          "description": "With FMCG heritage and creative roots, we stand in a unique place to design campaigns that marry creativity with measurable performance.",
+          "src": "/icon/service/lightning.png"
+        },
+        {
+          "title": "End-to-End Services",
+          "description": "From awareness to conversion, our integrated solutions cover every touchpoint of the digital journey. ",
+          "src": "/icon/service/fire.png"
+        },
+        {
+          "title": "Consultative Approach",
+          "description": "Sometimes we really act like strategic partners, and sometimes we feel like digital marketing consultants who just give insight.",
+          "src": "/icon/service/users.png"
+        },
+        {
+          "title": "Focus on ROI",
+          "description": "Everything must come back to what really matters: more traffic, more leads, and more revenue.",
+          "src": "/icon/service/star.png"
+        }
+      ]
+    },
+    "ourCore": {
+      "title": "Our Core  Digital Marketing Services",
+      "list": [
+        {
+          "id": "seo",
+          "name": "SEO (Search Engine Optimization)",
+          "icon": "",
+          "title": "SEO (Search Engine Optimization)",
+          "description": "Seo search engine optimization Visibility on search engines is the pillar of digital success. Our SEO services make sure your website ranks at the top, produces quality traffic, and enjoys long-term visibility. As an SEO-focused agency, we focus on:",
+          "focusAreaTitle": "As a dedicated SEO agency, we focus on:",
+          "focusAreas": [
+            "In-depth keyword research",
+            "On-page and technical optimization",
+            "High-quality backlink building",
+            "Local SEO for location-based businesses",
+            "Analytics and performance tracking"
+          ],
+          "closingNote": "With the right SEO strategy, your brand doesn’t just appear online — it dominates the search results."
+        },
+        {
+          "id": "SMM",
+          "name": "Social Media Marketing",
+          "icon": "",
+          "title": "Social Media Marketing",
+          "description": "Social media is no longer about sharing your latest news; it is a means of creating communities, discussions, and trust. We, as a prominent social Media Marketing Agency, create the kind of strategies that empower your brand voice and get you the interactions on various platforms such as Facebook, Instagram, LinkedIn, etc.",
+
+          "focusAreaTitle": "Our social media marketing services include:",
+          "focusAreas": [
+            "Audience research and content planning",
+            "Creative campaigns and storytelling",
+            "Paid social media ads for reach and conversions",
+            "Influencer collaborations",
+            "Social listening and reputation management"
+          ],
+          "closingNote": "We help you turn followers into brand advocates."
+        },
+        {
+          "id": "PPC",
+          "name": "PPC & Performance Marketing",
+          "icon": "",
+          "title": "PPC & Performance Marketing",
+          "description": "If SEO builds long-term visibility, PPC (pay per click) advertising accelerates growth instantly. At PRAKRIA, we specialize in data-driven performance marketing services that maximize ROI and help you reach the right audience at the right time.",
+
+          "focusAreaTitle": "As a trusted performance marketing agency and pay per click advertising agency, our PPC expertise includes:",
+          "focusAreas": [
+            "Google Ads & Bing Ads campaign management",
+            "Display and remarketing campaigns",
+            "Conversion rate optimization",
+            "Landing page design for higher ROI",
+            "Transparent reporting"
+          ],
+          "closingNote": "Unlike many PPC marketing agencies, we focus on measurable results — clicks that convert into customers."
+        },
+        {
+          "id": "Email-Marketing",
+          "name": "Email Marketing",
+          "icon": "",
+          "title": "Email Marketing",
+          "description": "Email is still a major factor in the lead nurturing and customer retention process. To engage, inform and convert, we design email marketing campaigns.We design email plans that foster loyalty with your customer and maintain your brand awareness through various means such as personalized newsletters and automated drip campaigns."
+        },
+        {
+          "id": "Content-Marketing",
+          "name": "Content Marketing & Blogging",
+          "icon": "",
+          "title": "Content Marketing & Blogging",
+          "description": "Great marketing starts with great content. As a specialized content marketing agency, we craft stories that resonate with your audience and position your brand as an industry authority.",
+
+          "focusAreaTitle": "Our content services include:",
+          "focusAreas": [
+            "Blogging for SEO and brand awareness",
+            "Website copywriting that converts",
+            "Whitepapers, case studies, and e-books",
+            "Social media content calendars",
+            "Video scripts and storytelling"
+          ],
+          "closingNote": "Content is more than words — it’s the voice of your brand. We ensure it speaks clearly, consistently, and persuasively."
+        },
+        {
+          "id": "ORM",
+          "name": "Online Reputation Management (ORM)",
+          "icon": "",
+          "title": "Online Reputation Management (ORM)",
+          "description": "In the world of digital technology, your good name is still the most valuable thing that you have. Unfavorable reviews or incorrect signs of your brand can challenge it. Our online reputation management services continuously check, safeguard, and uplift your positive image to your target audience hence giving you peace of mind.We take care of reviewing, monitoring, and developing the plans that will facilitate your strengths to the market while dealing with the problems in an anticipatory manner."
+        },
+        {
+          "id": "IAM",
+          "name": "Influencer & Affiliate Marketing",
+          "icon": "",
+          "title": "Influencer & Affiliate Marketing",
+          "description": "Lever partnerships to widen your brand's sphere of influence. Our influencer marketing gets you the access to the same voices, which your target audience already trusts, while affiliate marketing creates sales channels that are driven by performance. On your own, they wouldn’t have much impact, but together, they bring the trust factor and increase the reach of your campaigns."
+        }
+      ]
+    },
+    "howWork": {
+      "title": "How We Work – The PRAKRIA Approach",
+      "description": "Our belief at PRAKRIA is that every brand is entitled to a personalized road map for the digital world. Our methodology is a combination of creativity, strategy, and performance, so you don’t only get campaigns — you get results.",
+      "list": [
+        {
+          "count": "01",
+          "title": "Discovery & Research",
+          "description": "The start is always with us trying to comprehend your brand, intended clientele, and aims. By doing research and audits, we come up with the ideas that make you stand out from the rest of the competition."
+        },
+        {
+          "count": "02",
+          "title": "Strategic Planning",
+          "description": "The team of our company will provide you with a very detailed plan of how to be successful in the digital world - starting from SEO services and social media marketing and going through to performance marketing and PPC campaigns, all this will be done in such a way that your objectives will be met, and the ROI will be maximized."
+        },
+        {
+          "count": "03",
+          "title": "Creative Execution",
+          "description": "Good ideas turn to reality through great design, the creation of good content, and targeted campaigns. It may be digital marketing services, website development, or social media marketing; in any case, we deliver with creativity and accuracy."
+        },
+        {
+          "count": "04",
+          "title": "Performance Optimization",
+          "description": "We are always monitoring, understanding, and changing our actions for the better. Everything from SEO performance to pay per click advertising is the avenue through which we take the wheel in an ongoing campaign to manage and maintain the growth of the business over time."
+        }
+      ]
+    },
+    "benifits": {
+      "title": "Benefits of Partnering with PRAKRIA",
+      "description": "When you hire us as your digital marketing consultant, it is not only about the completion of tasks but also about getting a return on your investment. Some of the main benefits are:",
+      "list": [
+        {
+          "description": "New and improved online visibility and brand authority",
+          "src": "/icon/service/star.png"
+        },
+        {
+          "description": "Better rankings in the search results through the professional SEO services",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "description": "Lead generation that is budget-friendly with the help of PPC marketing",
+          "src": "/icon/service/cursor.png"
+        },
+        {
+          "description": "Higher engagement with social media communities",
+          "src": "/icon/service/phone.png"
+        },
+        {
+          "description": "Brand loyalty for the long run through content marketing and email campaigns",
+          "src": "/icon/service/lightning.png"
+        },
+        {
+          "description": "Your digital reputation is improved through ORM",
+          "src": "/icon/service/app.png"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Got questions? We've got answers. Check out our frequently asked questions section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
+      "list": [
+        {
+          "question": "What makes PRAKRIA different from other digital marketing agencies?",
+          "answer": "We execute a combination of more than 20 years of creative work with data-driven implementation. Contrary to many PPC or SEO companies, we do not treat each digital marketing aspect as an independent one but rather create an integrated strategy that fits your brand."
+        },
+        {
+          "question": "How long does it take to see results from SEO?",
+          "answer": "Search engine optimization is a long-term investment whose fruits can be picked mainly in the second half of the first year. Most of the time, the indicators of progress will start to be visible after around 3 to 6 months; however, a steady increase will continue only if your website becomes a recognized authority."
+        },
+        {
+          "question": "Is PPC marketing expensive?",
+          "answer": "Not necessarily. If the targeting is accurate and the strategy is well thought out, a pay per click advertising campaign can be one of the cheapest ways to attract the most suitable leads."
+        },
+        {
+          "question": "Can social media really help my business?",
+          "answer": "Of course. Social platforms do not only provide exposure to the clients but are also a vehicle for one-to-one dialogue and thus trust-building. As a social media marketing agency, we’ve worked with businesses big and small to create engaged online communities that drive conversions."
+        },
+        {
+          "question": "Do I need all digital marketing services at once?",
+          "answer": "Not at all — we customize plans based on your objectives and affordability. Some companies begin their journey with SEO and later decide to venture into performance marketing or content marketing."
+        }
+      ]
+    }
+  },
+  "packaging": {
+    "heroSection": {
+      "title": "Packaging Design That Builds Brands",
+      "description": "If the product is great by itself, still with a non-attractive packaging, the chances are high that your product will be lost on the shelf or in the online store. We at PRAKRIA, convey the notion that packaging is not simply the last item in the chain of the product — it’s the first communication your brand has with your customer.Being a rays of creative light over two decades, PRAKRIA is the front-runner packaging design company that produces product packaging designs making apparent the union of beauty, practicality, and brand storytelling. So, the various packaging needs of the industries from food packaging design, cosmetic packaging design to luxury packaging design, the inimitable team of professional packaging designers put together the packaging solutions that not only help you win the customer trust but also their buying decision."
+    },
+    "ourWrok": {
+        "title": "Our Work",
+        "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+        "list": [
+          {
+            "src": "/assets_main/services/digital_marketing/1.webp",
+            "alt": "Maggi social media",
+            "link": "/portfolio-item/nestle-maggi-social-media"
+          },
+          {
+            "src": "/assets_main/services/digital_marketing/2.webp",
+            "alt": "Nestle polo",
+            "link": "/portfolio-item/nestle-polo"
+          },
+          {
+            "src": "/assets_main/services/digital_marketing/3.gif",
+            "alt": "Nestle munch social media",
+            "link": "/portfolio-item/nestle-munch-social-media"
+          },
+          {
+            "src": "/assets_main/services/digital_marketing/4.gif",
+            "alt": "unilever dove",
+            "link": "/portfolio-item/unilever-dove-e-commerce"
+          },
+          {
+            "src": "/assets_main/services/digital_marketing/5.gif",
+            "alt": "marie claire e commerce",
+            "link": "/portfolio-item/marie-claire-e-commerce"
+          },
+          {
+            "src": "/assets_main/services/digital_marketing/dm1.gif",
+            "alt": "Social media post for Valentine's Day"
+          },
+          {
+            "src": "/assets_main/services/digital_marketing/dm2.gif",
+            "alt": "Instagram post design for a brand"
+          },
+          {
+            "src": "/assets_main/services/digital_marketing/dm3.webp",
+            "alt": "Website design mockup on multiple devices"
+          }
+        ]
+      },
+      "why": {
+        "title": "Why Packaging Design Matters",
+        "description": "Packaging is the silent ambassador of your brand. Done well, it:",
+        "list": [
+          {
+            "description": "Seizes attention at both physical and online store spaces packed with products.",
+            "src": "/icon/service/star.png"
+          },
+          {
+            "description": "Depicts the brand identity at instant with the aid of hues, typography and shapes,",
+            "src": "/icon/service/light.png"
+          },
+          {
+            "description": "Keeps the product at the same time, ensures service and sustainability,",
+            "src": "/icon/service/cursor.png"
+          },
+          {
+            "description": "Gets entry to the buyer through aesthetic and ergonomic aspects of the product.",
+            "src": "/icon/service/phone.png"
+          },
+          {
+            "description": "Elevates customer loyalty by providing a playable unboxing or usage experience.",
+            "src": "/icon/service/lightning.png"
+          }
+        ]
+      },
+      "ourCore": {
+        "title": "Our Packaging Design Services",
+        "description": "We are not just another packaging design agency. We’re a packaging strategy & design consultancy that partners with you from concept to execution. Here’s what we offer:",
+        "list": [
+          {
+            "id": "Food Packaging Design",
+            "name": "Food Packaging Design",
+            "icon": "",
+            "title": "Food Packaging Design",
+            "description": "Packaging in the food and beverage industry is a tough job; it should visually attract the customers and still be safe, comply with the standards, and be convenient. Food product packaging design from us gives your products the power to grab the attention of customers while still maintaining the quality of the industry. In packaging, we communicate through our products' freshness, flavor, and trust with your innovative designs ranging from snack pouches to beverage bottles."
+          },
+          {
+            "id": "Retail Packaging Design",
+            "name": "Retail Packaging Design",
+            "icon": "",
+            "title": "Retail Packaging Design",
+            "description": "In retail, packaging plays the most important role. Sometimes it is the factor deciding the purchase between browsing further or leaving. Our retail packaging design is perfect for companies as it merges the visuals with the messaging and hence direct consumer attention is the result. Whatever the product be e.g., electronics, lifestyle or FMCG, with our creative packaging design your brand is the first brand that comes out as the customer’s choice in the market."
+          },
+          {
+            "id": "Cosmetic & Luxury Packaging Design",
+            "name": " Cosmetic & Luxury Packaging Design",
+            "icon": "",
+            "title": " Cosmetic & Luxury Packaging Design",
+            "description": "Beauty and luxury are synonyms of packages that demand elegant and outstanding qualities. Our cosmetic packaging and luxury packaging design are all about high-end materials, tactile finishes, and minimalist elegance. We are working on making products of the perfume and skincare industry create a feeling of indulgence and reminiscence for the users."
+          },
+          {
+            "id": "Custom Packaging Design",
+            "name": "Custom Packaging Design",
+            "icon": "",
+            "title": "Custom Packaging Design",
+            "description": "There are several product properties with different needs, for example, size, weight, fragility, perishability, etc. Our custom packaging design services are definitely the perfect solution for brands who want to not only create attractive packaging but also ensure the packaging they use matches their brand identity, product dimensions, and customer target. Structural innovations, package label design, and package logo design are among the services that we do for you to blend the packaging with your brand."
+          },
+          {
+            "id": "Sustainable Packaging Design",
+            "name": "Sustainable Packaging Design",
+            "icon": "",
+            "title": "Sustainable Packaging Design",
+            "description": "People these days are more environmentally conscious and prefer brands with whom they can share their concerns. We are a company specialized in designing sustainable packages that leave behind less waste, make use of recyclable materials, and are aesthetically pleasing and functional at the same time. It is packaging with a mission that is both good for your brand and the planet."
+          }
+        ]
+      },
+      "howWork": {
+        "title": "Our Approach to Creative Package Design",
+        "description": "At PRAKRIA, our process combines creativity with strategy:",
+        "list": [
+          {
+            "count": "01",
+            "title": "Discovery & Research",
+            "description": " We study your brand, product, competition, and customer expectations to set a strong foundation."
+          },
+          {
+            "count": "02",
+            "title": "Concept Development",
+            "description": "Our packaging designers brainstorm ideas that align with your brand values and market goals."
+          },
+          {
+            "count": "03",
+            "title": "Design & Prototyping",
+            "description": "From package label design to 3D mockups, we bring concepts to life with attention to detail and innovation."
+          },
+          {
+            "count": "04",
+            "title": "Testing & Refinement",
+            "description": "We evaluate usability, shelf impact, and consumer response, refining until perfection."
+          },
+          {
+            "count": "05",
+            "title": "Final Delivery",
+            "description": " As a trusted packaging design company, we ensure the final designs are production-ready and consistent across formats."
+          }
+        ]
+      },
+      "benifits": {
+        "title": "Why Choose PRAKRIA as Your Packaging Design Agency?",
+        "list": [
+          {
+            "title" : "Decades of Experience",
+            "description": "With 20+ years in design, we bring unmatched expertise to every project.",
+            "src": "/icon/service/lightning.png"
+          },
+          {
+            "title" : "Global Brands Trust Us",
+            "description": "We’ve worked with Nestlé, Burger King, Pernod Ricard, and more.",
+            "src": "/icon/service/fire.png"
+          },
+          {
+            "title" : "Cross-Industry Expertise",
+            "description": "From food packaging design to luxury packaging design, we understand different markets.",
+            "src": "/icon/service/cursor.png"
+          },
+          {
+            "title" : "Consultative Partnership",
+            "description": "We don’t just design; we act as your packaging strategy & design consultancy, guiding you every step.",
+            "src": "/icon/service/users.png"
+          },
+          {
+            "title" : "Creative Meets Practical",
+            "description": "Our designs are innovative yet functional, balancing shelf appeal with practicality.",
+            "src": "/icon/service/star.png"
+          }
+         
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "description":
+         "Got questions? We've got answers. Check out our frequently asked questions section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
+        "list": [
+          {
+            "question": "Why should I invest in professional packaging design?",
+            "answer": "Because the first impression is often through packaging. Professional packaging designers not only make your product look good but also ensure that it resonates with your target audience and sells."
+          },
+          {
+            "question": "Do you handle both design and production?",
+            "answer": "We are mainly a packaging design company, but we have the support of valued production partners who can guarantee smooth execution."
+          },
+          {
+            "question": "Can you create eco-friendly packaging?",
+            "answer": "Yes, our sustainable packaging design solutions use recyclable and biodegradable materials without compromising on creativity or functionality."
+          },
+          {
+            "question": "How long does a packaging design project take?",
+            "answer": "Depending on complexity, most projects take 4–8 weeks from concept to final design."
+          },
+          {
+            "question": "Do you provide custom packaging design for startups?",
+            "answer": "Indeed. We deal with companies of all sizes — from start-ups to multinational organizations — delivering specialized packaging design tailored to their requirements and financial budget."
+          }
+        ]
+      }
+  }
+}

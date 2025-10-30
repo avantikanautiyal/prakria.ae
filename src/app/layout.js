@@ -10,11 +10,17 @@ import Whatsapp from "@/components/global/whatsapp/Whatsapp";
 import SocialWidget from "@/components/global/socialmedia/SocialWidget";
 import Script from "next/script";
 
-const inter = Rubik({
+const inter = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
 });
+
+// Rubik({
+//   subsets: ["latin"],
+//   variable: "--font-inter",
+//   display: "swap",
+// });
 
 const signika = Playfair_Display({
   subsets: ["latin"],

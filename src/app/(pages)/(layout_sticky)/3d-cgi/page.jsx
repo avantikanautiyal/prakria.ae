@@ -5,6 +5,7 @@ import HeroseSection from "@/components/service/herosSection";
 import Home1Blog from "@/components/home/blogCard";
 import EnquireBtn from "@/components/global/enquirenow";
 import { Faq } from "@/components/global/faq";
+import { notFound } from "next/navigation";
 
 export const metadata = {
   title: {
@@ -12,6 +13,7 @@ export const metadata = {
   },
 };
 function Page() {
+  notFound();
   const data = data_service["/3d-cgi"];
 
   return (

@@ -1,0 +1,60 @@
+{
+  "<page slug>": {
+    "herosection": {
+      "title": "",
+      "list": [
+        {
+          "src": "",
+          "alt": ""
+        }
+      ]
+    },
+    "storySection": {
+      "title": "",
+      "paragraphs": ["", ""]
+    },
+    "startageySection": {
+      "title": "",
+      "description": "",
+      "list": [
+        {
+          "number": "01",
+          "title": "",
+          "description": ""
+        }
+      ]
+    },
+    "executionSection": {
+      "title": "",
+      "description": "",
+      "list": [
+        {
+          "src": "",
+          "alt": "",
+          "title": "",
+          "description": ""
+        }
+      ]
+    },
+    "resultSection": {
+      "title": "",
+      "description": "",
+      "list": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    "whySection": {
+      "title": "",
+      "description": "",
+      "list": [
+        {
+          "src": "",
+          "alt": "",
+          "text": ""
+        }
+      ]
+    }
+  }
+}
