@@ -4,27 +4,27 @@
             "title": "Kohler — Crafting Luxury Through 3D Design & Animation",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/kohler/1.webp",
+                    "src": "/assets_main/services/23/cgi1.jpg",
                     "alt": "Kohler product renders and digital assets"
                 },
                 {
-                    "src": "/assets_main/portfolio/kohler/2.webp",
+                    "src": "/assets_main/services/23/cgi2.jpg",
                     "alt": "Kohler CGI and animation showcase"
                 },
                 {
-                    "src": "/assets_main/portfolio/kohler/3.webp",
+                    "src": "/assets_main/services/23/cgi3.jpg",
                     "alt": "Laptop showing Kohler digital visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/kohler/4.webp",
+                    "src": "/assets_main/services/23/cgi4.jpg",
                     "alt": "Photorealistic 3D render of Kohler design"
                 },
                 {
-                    "src": "/assets_main/portfolio/kohler/5.webp",
+                    "src": "/assets_main/services/23/cgi5.jpg",
                     "alt": "3D animation and modeling for Kohler"
                 },
                 {
-                    "src": "/assets_main/portfolio/kohler/6.webp",
+                    "src": "/assets_main/services/23/cgi6.jpg",
                     "alt": "Kohler marketing visuals and product animations"
                 }
             ]
@@ -92,7 +92,7 @@
                     "description": "Dynamic 3D models for presentations, product demos, and trade show experiences."
                 },
                 {
-                    "src": "/icon/service/modular.png",
+                    "src": "/icon/service/interactive.png",
                     "alt": "Modular assets icon",
                     "title": "Modular 3D Assets",
                     "description": "Customizable 3D components allowing teams to localize or adapt visuals for regional campaigns."
@@ -119,24 +119,7 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "This project demonstrates that 3D animation and modeling can redefine brand storytelling for luxury markets. By merging 3D, 2D, and VFX animation, Prakria helped Kohler deliver visuals that were both aspirational and technically flawless.",
-            "list": [
-                {
-                    "src": "/icon/service/star.png",
-                    "alt": "Strategic creativity icon",
-                    "text": "Bridged artistry and technology to create luxurious yet efficient visual workflows."
-                },
-                {
-                    "src": "/icon/service/bulb.png",
-                    "alt": "Innovation icon",
-                    "text": "Showcased how CGI can replace high-cost photography while maintaining realism."
-                },
-                {
-                    "src": "/icon/service/glow.png",
-                    "alt": "Global consistency icon",
-                    "text": "Delivered scalable, reusable, and customizable assets for worldwide campaigns."
-                }
-            ]
+            "description": "This project demonstrates that 3D animation and modeling can redefine brand storytelling for luxury markets. By merging 3D, 2D, and VFX animation, Prakria helped Kohler deliver visuals that were both aspirational and technically flawless."
         }
     },
     "kitkat-dessert-delight-3d": {
@@ -144,28 +127,20 @@
             "title": "KitKat Dessert Delight 3D — Indulgence, Rendered to Perfection",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/kitkat/1.webp",
+                    "src": "/assets_main/services/24/cgi1.jpg",
                     "alt": "KitKat Dessert Delight 3D Campaign visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/kitkat/2.webp",
+                    "src": "/assets_main/services/24/cgi2.jpg",
                     "alt": "Laptop showing KitKat Dessert Delight visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/kitkat/3.webp",
+                    "src": "/assets_main/services/24/cgi3.jpg",
                     "alt": "Chocolate 3D design and renders for KitKat Dessert Delight"
                 },
                 {
-                    "src": "/assets_main/portfolio/kitkat/4.webp",
+                    "src": "/assets_main/services/24/cgi4.jpg",
                     "alt": "KitKat Dessert Delight promotional visuals and social media creatives"
-                },
-                {
-                    "src": "/assets_main/portfolio/kitkat/5.webp",
-                    "alt": "3D renders of KitKat Dessert Delight products and textures"
-                },
-                {
-                    "src": "/assets_main/portfolio/kitkat/6.webp",
-                    "alt": "Instagram campaign and product presentation visuals for KitKat Dessert Delight"
                 }
             ]
         },
@@ -219,25 +194,25 @@
             "description": "After perfecting the hero key visual, we extended it across multiple digital and retail formats, ensuring consistent storytelling at every touchpoint.",
             "list": [
                 {
-                    "src": "/icon/service/3dloop.png",
+                    "src": "/icon/service/render.png",
                     "alt": "3D animation loops icon",
                     "title": "3D Animation Loops",
                     "description": "Created looping 3D videos for product banners and digital ads."
                 },
                 {
-                    "src": "/icon/service/cinematic.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "Cinematic animation icon",
                     "title": "Cinematic 3D Clips",
                     "description": "Produced high-quality cinematic teaser clips for launch campaigns."
                 },
                 {
-                    "src": "/icon/service/looping.png",
+                    "src": "/icon/service/interactive.png",
                     "alt": "Looping video icon",
                     "title": "Looping Store Visuals",
                     "description": "Developed video assets for in-store displays and social rollouts."
                 },
                 {
-                    "src": "/icon/service/variant.png",
+                    "src": "/icon/service/interactive.png",
                     "alt": "Variant adaptations icon",
                     "title": "Variant Adaptations",
                     "description": "Created customized visuals for each Dessert Delight flavor variant."
@@ -267,17 +242,17 @@
             "description": "Dessert Delight showcased how 3D modeling, animation, and VFX can revolutionize food marketing. By combining 2D and 3D animation, we built photorealistic, transportable campaigns that delivered indulgence efficiently and at scale.",
             "list": [
                 {
-                    "src": "/icon/service/star.png",
+                    "src": "/icon/service/render.png",
                     "alt": "Innovation icon",
                     "text": "Showed how digital artistry can replace physical food shoots with richer, faster results."
                 },
                 {
-                    "src": "/icon/service/bulb.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "Efficiency icon",
                     "text": "Proved that 3D workflows can achieve premium realism within tight timelines."
                 },
                 {
-                    "src": "/icon/service/glow.png",
+                    "src": "/icon/service/interactive.png",
                     "alt": "Future marketing icon",
                     "text": "Defined a new paradigm for FMCG marketing — where indulgence is rendered, not photographed."
                 }
@@ -289,27 +264,27 @@
             "title": "Imperial Blue Water 3D — Visualising Purity Through Digital Craft",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/imperialblue/1.webp",
+                    "src": "/assets_main/services/25/cgi1.jpg",
                     "alt": "Imperial Blue Water 3D Campaign visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/imperialblue/2.webp",
+                    "src": "/assets_main/services/25/cgi2.jpg",
                     "alt": "Laptop showing Imperial Blue water render"
                 },
                 {
-                    "src": "/assets_main/portfolio/imperialblue/3.webp",
+                    "src": "/assets_main/services/25/cgi3.jpg",
                     "alt": "3D simulation of water for Imperial Blue"
                 },
                 {
-                    "src": "/assets_main/portfolio/imperialblue/4.webp",
+                    "src": "/assets_main/services/25/cgi4.jpg",
                     "alt": "Product visualization and CGI render for Imperial Blue"
                 },
                 {
-                    "src": "/assets_main/portfolio/imperialblue/5.webp",
+                    "src": "/assets_main/services/25/cgi5.jpg",
                     "alt": "Cinematic water simulation render"
                 },
                 {
-                    "src": "/assets_main/portfolio/imperialblue/6.webp",
+                    "src": "/assets_main/services/25/cgi6.jpg",
                     "alt": "Digital craft visuals showing Imperial Blue brand purity"
                 }
             ]
@@ -364,19 +339,19 @@
             "description": "Once the hero visual was perfected, we extended the 3D outputs into a full asset ecosystem covering brand, print, and digital formats.",
             "list": [
                 {
-                    "src": "/icon/service/3dloop.png",
+                    "src": "/icon/service/render.png",
                     "alt": "3D animation loops icon",
                     "title": "3D Animation Loops",
                     "description": "Created looping 3D videos for banners, digital films, and launch teasers."
                 },
                 {
-                    "src": "/icon/service/print.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "High-resolution print render icon",
                     "title": "High-Res Print & Packaging Renders",
                     "description": "Developed photoreal 3D assets for print ads and packaging visuals."
                 },
                 {
-                    "src": "/icon/service/development.png",
+                    "src": "/icon/service/interactive.png",
                     "alt": "Brand development icon",
                     "title": "Brand Touchpoint Development",
                     "description": "Built assets for marketing and retail touchpoints while ensuring visual consistency."
@@ -409,24 +384,7 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "This project demonstrates how 3D design, modeling, and VFX can elegantly solve creative challenges that traditional photography can’t. By blending cinematic 3D with brand-focused 2D elements, we helped Imperial Blue achieve timeless, scalable visuals that embodied purity and sophistication.",
-            "list": [
-                {
-                    "src": "/icon/service/star.png",
-                    "alt": "Innovation icon",
-                    "text": "Proved how fluid, complex subjects like water can be digitally crafted with emotional resonance."
-                },
-                {
-                    "src": "/icon/service/bulb.png",
-                    "alt": "Technical precision icon",
-                    "text": "Blended 3D realism and brand storytelling to deliver clarity and scalability."
-                },
-                {
-                    "src": "/icon/service/glow.png",
-                    "alt": "Digital craft icon",
-                    "text": "Showcased how digital craft can elevate brand strategy — transforming ordinary visuals into extraordinary storytelling."
-                }
-            ]
+            "description": "This project demonstrates how 3D design, modeling, and VFX can elegantly solve creative challenges that traditional photography can’t. By blending cinematic 3D with brand-focused 2D elements, we helped Imperial Blue achieve timeless, scalable visuals that embodied purity and sophistication."
         }
     },
     "food-cgi-reel": {
@@ -434,28 +392,26 @@
             "title": "Food CGI Reel — Showcasing Visual Mastery in Food Animation & CGI",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/foodcgi/1.webp",
+                    "src": "/assets_main/services/26/cgi1.jpg",
                     "alt": "Food CGI Reel campaign visuals"
                 },
                 {
-                    "src": "/assets_main/portfolio/foodcgi/2.webp",
+                    "src": "/assets_main/services/26/cgi2.jpg",
                     "alt": "Laptop showcasing Maggi and food CGI animation"
                 },
                 {
-                    "src": "/assets_main/portfolio/foodcgi/3.webp",
+                    "src": "/assets_main/services/26/cgi3.jpg",
                     "alt": "Maggi Social Media visual display"
                 },
                 {
-                    "src": "/assets_main/portfolio/foodcgi/4.webp",
-                    "alt": "Food CGI renders and digital creative layouts"
+                    "src": "/assets_main/services/26/file-4.mp4",
+                    "alt": "Food CGI renders and digital creative layouts",
+                    "type": "video"
                 },
                 {
-                    "src": "/assets_main/portfolio/foodcgi/5.webp",
-                    "alt": "Instagram and mobile screens showing food animation visuals"
-                },
-                {
-                    "src": "/assets_main/portfolio/foodcgi/6.webp",
-                    "alt": "Food animation CGI showcase with product visuals"
+                    "src": "/assets_main/services/26/file-5.mp4",
+                    "alt": "Instagram and mobile screens showing food animation visuals",
+                    "type": "video"
                 }
             ]
         },
@@ -509,25 +465,25 @@
             "description": "We refined, polished, and packaged the reel into a full suite of deliverables suited for both client presentations and digital platforms.",
             "list": [
                 {
-                    "src": "/icon/service/reel.png",
+                    "src": "/icon/service/render.png",
                     "alt": "Full CGI reel icon",
                     "title": "Full CGI Reel",
                     "description": "A flagship cinematic reel showcasing Prakria’s mastery in food CGI."
                 },
                 {
-                    "src": "/icon/service/social.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "Social media version icon",
                     "title": "Short Social Media Versions",
                     "description": "Produced short-format edits (15s & 30s) for online sharing and engagement."
                 },
                 {
-                    "src": "/icon/service/stills.png",
+                    "src": "/icon/service/interactive.png",
                     "alt": "Hero frame icon",
                     "title": "Hero Frames & Stills",
                     "description": "Extracted high-resolution stills and frames for print, web, and portfolio use."
                 },
                 {
-                    "src": "/icon/service/breakdown.png",
+                    "src": "/icon/service/interactive.png",
                     "alt": "Scene breakdown icon",
                     "title": "Scene Breakdowns",
                     "description": "Developed behind-the-scenes visual breakdowns to show CGI pipeline and craftsmanship."
@@ -551,24 +507,7 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "This project wasn’t just a collection of work — it was an articulation of Prakria’s visual philosophy and brand identity.",
-            "list": [
-                {
-                    "src": "/icon/service/star.png",
-                    "alt": "Identity icon",
-                    "text": "It transformed a demo reel into a cinematic brand statement — showcasing technical and emotional depth."
-                },
-                {
-                    "src": "/icon/service/bulb.png",
-                    "alt": "Creative process icon",
-                    "text": "Blended 3D, 2D, and VFX to tell a unified story rather than disjointed clips."
-                },
-                {
-                    "src": "/icon/service/glow.png",
-                    "alt": "Craftsmanship icon",
-                    "text": "Set a new standard for how CGI studios present their craft — merging artistry, narrative, and innovation."
-                }
-            ]
+            "description": "This project wasn’t just a collection of work — it was an articulation of Prakria’s visual philosophy and brand identity."
         }
     },
     "fruits-and-nuts-3d": {
@@ -576,28 +515,24 @@
             "title": "Fruits and Nuts 3D — Where Texture & Flavor Come Alive in Digital Space",
             "list": [
                 {
-                    "src": "/assets_main/portfolio/fruitsnuts/1.webp",
+                    "src": "/assets_main/services/27/cgi1.gif",
                     "alt": "Fruits and Nuts 3D visuals showing realistic texture and juiciness"
                 },
                 {
-                    "src": "/assets_main/portfolio/fruitsnuts/2.webp",
+                    "src": "/assets_main/services/27/cgi2.webp",
                     "alt": "Laptop displaying 3D modeled fruit and nut animation"
                 },
                 {
-                    "src": "/assets_main/portfolio/fruitsnuts/3.webp",
+                    "src": "/assets_main/services/27/cgi3.webp",
                     "alt": "Close-up of photorealistic fruit textures and CGI lighting"
                 },
                 {
-                    "src": "/assets_main/portfolio/fruitsnuts/4.webp",
+                    "src": "/assets_main/services/27/cgi4.webp",
                     "alt": "3D animation renders of fruits and nuts in motion"
                 },
                 {
-                    "src": "/assets_main/portfolio/fruitsnuts/5.webp",
+                    "src": "/assets_main/services/27/cgi5.webp",
                     "alt": "Digital stills showcasing glossy textures and juice effects"
-                },
-                {
-                    "src": "/assets_main/portfolio/fruitsnuts/6.webp",
-                    "alt": "Cinematic layout of fruits and nuts visual assets for brand campaign"
                 }
             ]
         },
@@ -651,25 +586,25 @@
             "description": "Once the core visuals were perfected, Prakria extended them into a complete, cross-format 3D asset library adaptable across media and campaigns.",
             "list": [
                 {
-                    "src": "/icon/service/print.png",
+                    "src": "/icon/service/render.png",
                     "alt": "High-definition renders icon",
                     "title": "High-Definition Still Renders",
                     "description": "Created ultra-detailed stills for print, packaging, and e-commerce use."
                 },
                 {
-                    "src": "/icon/service/3dvideo.png",
+                    "src": "/icon/service/animation.png",
                     "alt": "3D cinematic animation icon",
                     "title": "Cinematic 3D Animation Clips",
                     "description": "Developed campaign-ready animations for product launches and teasers."
                 },
                 {
-                    "src": "/icon/service/loop.png",
+                    "src": "/icon/service/interactive.png",
                     "alt": "Looping animation icon",
                     "title": "Looping Animations",
                     "description": "Built short looping animations for digital screens, social banners, and ads."
                 },
                 {
-                    "src": "/icon/service/variant.png",
+                    "src": "/icon/service/interactive.png",
                     "alt": "Variant scene icon",
                     "title": "Flavor Variants & UI Previews",
                     "description": "Rendered multiple flavor combinations and interactive 3D views for websites and kiosks."
@@ -696,24 +631,7 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "The Fruits and Nuts 3D project exemplifies how digital craft can make food feel alive — using 3D design and animation not just as tools, but as storytelling mediums.",
-            "list": [
-                {
-                    "src": "/icon/service/star.png",
-                    "alt": "Innovation icon",
-                    "text": "Demonstrated that CGI can replicate and even enhance natural realism beyond physical photography."
-                },
-                {
-                    "src": "/icon/service/bulb.png",
-                    "alt": "Storytelling icon",
-                    "text": "Blended emotional storytelling with technical precision — allowing consumers to feel texture and flavor digitally."
-                },
-                {
-                    "src": "/icon/service/glow.png",
-                    "alt": "Creativity icon",
-                    "text": "Proved how digital craft and creativity converge to make the intangible — texture, crunch, freshness — tangible."
-                }
-            ]
+            "description": "The Fruits and Nuts 3D project exemplifies how digital craft can make food feel alive — using 3D design and animation not just as tools, but as storytelling mediums."
         }
     }
 }
