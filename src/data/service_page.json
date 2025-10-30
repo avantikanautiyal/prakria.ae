@@ -256,35 +256,35 @@
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
         {
-          "src": "/assets_main/services/packaging/1.webp",
+          "src": "/assets_main/services/packaging_design/1.jpg",
           "alt": "Food packaging social campaign mockup"
         },
         {
-          "src": "/assets_main/services/packaging/2.webp",
+          "src": "/assets_main/services/packaging_design/2.webp",
           "alt": "Beverage packaging and social content"
         },
         {
-          "src": "/assets_main/services/packaging/3.webp",
+          "src": "/assets_main/services/packaging_design/3.webp",
           "alt": "Holiday packaging design preview"
         },
         {
-          "src": "/assets_main/services/packaging/4.webp",
+          "src": "/assets_main/services/packaging_design/4.webp",
           "alt": "Cosmetic product packaging mockup"
         },
         {
-          "src": "/assets_main/services/packaging/5.webp",
+          "src": "/assets_main/services/packaging_design/5.webp",
           "alt": "Luxury skincare e-commerce design"
         },
         {
-          "src": "/assets_main/services/packaging/6.webp",
+          "src": "/assets_main/services/packaging_design/6.webp",
           "alt": "Fashion product packaging visuals"
         },
         {
-          "src": "/assets_main/services/packaging/7.webp",
+          "src": "/assets_main/services/packaging_design/7.webp",
           "alt": "Valentine’s themed package post design"
         },
         {
-          "src": "/assets_main/services/packaging/8.webp",
+          "src": "/assets_main/services/packaging_design/8.webp",
           "alt": "Health supplement product packaging"
         }
       ]
@@ -639,35 +639,43 @@
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
         {
-          "src": "/assets_main/services/print/1.webp",
-          "alt": "Food and product print campaign design"
+          "src": "/assets_main/services/print_media/pm01.webp",
+          "alt": "Food and product print campaign design",
+          "link": "/portfolio-item/kohler-vibrant-brochure"
         },
         {
-          "src": "/assets_main/services/print/2.webp",
-          "alt": "Creative print marketing design"
+          "src": "/assets_main/services/print_media/pm02.webp",
+          "alt": "Creative print marketing design",
+          "link": "/portfolio-item/nestle-nido-merchandise-design"
+
         },
         {
-          "src": "/assets_main/services/print/3.webp",
+          "src": "/assets_main/services/print_media/pm03.webp",
           "alt": "Event and festive print collateral"
+          
+
         },
         {
-          "src": "/assets_main/services/print/4.webp",
-          "alt": "Beauty and skincare print ad design"
+          "src": "/assets_main/services/print_media/pm04.webp",
+          "alt": "Beauty and skincare print ad design",
+          "link": "/portfolio-item/polo-extra-strong"
         },
         {
-          "src": "/assets_main/services/print/5.webp",
+          "src": "/assets_main/services/print_media/pm05.webp",
           "alt": "Fashion print media campaign"
         },
         {
-          "src": "/assets_main/services/print/6.webp",
-          "alt": "Social post print media combination"
+          "src": "/assets_main/services/print_media/pm06.webp",
+          "alt": "Social post print media combination",
+          "link": "/portfolio-item/nestle-grekyo-blueberry-yogurt"
+
         },
         {
-          "src": "/assets_main/services/print/7.webp",
+          "src": "/assets_main/services/print_media/pm07.webp",
           "alt": "Promotional poster design for print"
         },
         {
-          "src": "/assets_main/services/print/8.webp",
+          "src": "/assets_main/services/print_media/pm08.webp",
           "alt": "Health product brochure and leaflet design"
         }
       ]
