@@ -1,3 +1,4 @@
+import { cn } from "@/utils/cn";
 import React from "react";
 
 function StartageySection(props) {
@@ -14,7 +15,7 @@ function StartageySection(props) {
           </p>
         </div>
 
-        <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-${props?.list?.length} gap-x-16 lg:gap-x-24 gap-y-12 justify-items-center md:justify-items-stretch text-center md:text-left`}>
+        <div className={ cn(`grid grid-cols-1 sm:grid-cols-2 gap-x-16 lg:gap-x-24 gap-y-12 justify-items-center md:justify-items-stretch text-center md:text-left`)}>
           {/* --- Item 01: Audience Research --- */}
           {props?.list?.map((startagey, index) => {
             return (
