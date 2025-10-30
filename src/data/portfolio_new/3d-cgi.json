@@ -119,7 +119,24 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "This project demonstrates that 3D animation and modeling can redefine brand storytelling for luxury markets. By merging 3D, 2D, and VFX animation, Prakria helped Kohler deliver visuals that were both aspirational and technically flawless."
+            "description": "This project demonstrates that 3D animation and modeling can redefine brand storytelling for luxury markets. By merging 3D, 2D, and VFX animation, Prakria helped Kohler deliver visuals that were both aspirational and technically flawless.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Strategic creativity icon",
+                    "text": "Bridged artistry and technology to create luxurious yet efficient visual workflows."
+                },
+                {
+                    "src": "/icon/service/render.png",
+                    "alt": "Innovation icon",
+                    "text": "Showcased how CGI can replace high-cost photography while maintaining realism."
+                },
+                {
+                    "src": "/icon/service/animation.png",
+                    "alt": "Global consistency icon",
+                    "text": "Delivered scalable, reusable, and customizable assets for worldwide campaigns."
+                }
+            ]
         }
     },
     "kitkat-dessert-delight-3d": {
@@ -384,7 +401,24 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "This project demonstrates how 3D design, modeling, and VFX can elegantly solve creative challenges that traditional photography can’t. By blending cinematic 3D with brand-focused 2D elements, we helped Imperial Blue achieve timeless, scalable visuals that embodied purity and sophistication."
+            "description": "This project demonstrates how 3D design, modeling, and VFX can elegantly solve creative challenges that traditional photography can’t. By blending cinematic 3D with brand-focused 2D elements, we helped Imperial Blue achieve timeless, scalable visuals that embodied purity and sophistication.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Innovation icon",
+                    "text": "Proved how fluid, complex subjects like water can be digitally crafted with emotional resonance."
+                },
+                {
+                    "src": "/icon/service/render.png",
+                    "alt": "Technical precision icon",
+                    "text": "Blended 3D realism and brand storytelling to deliver clarity and scalability."
+                },
+                {
+                    "src": "/icon/service/animation.png",
+                    "alt": "Digital craft icon",
+                    "text": "Showcased how digital craft can elevate brand strategy — transforming ordinary visuals into extraordinary storytelling."
+                }
+            ]
         }
     },
     "food-cgi-reel": {
@@ -507,7 +541,24 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "This project wasn’t just a collection of work — it was an articulation of Prakria’s visual philosophy and brand identity."
+            "description": "This project wasn’t just a collection of work — it was an articulation of Prakria’s visual philosophy and brand identity.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Identity icon",
+                    "text": "It transformed a demo reel into a cinematic brand statement — showcasing technical and emotional depth."
+                },
+                {
+                    "src": "/icon/service/animation.png",
+                    "alt": "Creative process icon",
+                    "text": "Blended 3D, 2D, and VFX to tell a unified story rather than disjointed clips."
+                },
+                {
+                    "src": "/icon/service/render.png",
+                    "alt": "Craftsmanship icon",
+                    "text": "Set a new standard for how CGI studios present their craft — merging artistry, narrative, and innovation."
+                }
+            ]
         }
     },
     "fruits-and-nuts-3d": {
@@ -631,7 +682,24 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "The Fruits and Nuts 3D project exemplifies how digital craft can make food feel alive — using 3D design and animation not just as tools, but as storytelling mediums."
+            "description": "The Fruits and Nuts 3D project exemplifies how digital craft can make food feel alive — using 3D design and animation not just as tools, but as storytelling mediums.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Innovation icon",
+                    "text": "Demonstrated that CGI can replicate and even enhance natural realism beyond physical photography."
+                },
+                {
+                    "src": "/icon/service/render.png",
+                    "alt": "Storytelling icon",
+                    "text": "Blended emotional storytelling with technical precision — allowing consumers to feel texture and flavor digitally."
+                },
+                {
+                    "src": "/icon/service/animation.png",
+                    "alt": "Creativity icon",
+                    "text": "Proved how digital craft and creativity converge to make the intangible — texture, crunch, freshness — tangible."
+                }
+            ]
         }
     }
 }

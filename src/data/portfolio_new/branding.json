@@ -128,7 +128,29 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "Goodyz Box demonstrates how packaging design can transform perception — from simple to special."
+            "description": "Goodyz Box demonstrates how packaging design can transform perception — from simple to special.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Creative design icon",
+                    "text": "It shows how creative package design can turn the ordinary into aspirational."
+                },
+                {
+                    "src": "/icon/service/lightbulb.png",
+                    "alt": "Retail leadership icon",
+                    "text": "A case of retail packaging that doesn’t just blend in — it leads."
+                },
+                {
+                    "src": "/icon/service/finesse.png",
+                    "alt": "Visual finesse icon",
+                    "text": "Highlights custom packaging executed with strategic insight and design finesse."
+                },
+                {
+                    "src": "/icon/service/box.png",
+                    "alt": "Storytelling box icon",
+                    "text": "Underscores how packaging can serve as a canvas for brand storytelling."
+                }
+            ]
         }
     },
     "dr-oetker-premium-sauce": {
@@ -266,7 +288,34 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "The Dr. Oetker premium range showcases how packaging design can elevate food products from everyday essentials to symbols of taste and culture."
+            "description": "The Dr. Oetker premium range showcases how packaging design can elevate food products from everyday essentials to symbols of taste and culture.",
+            "list": [
+                {
+                    "src": "/icon/service/render.png",
+                    "alt": "Global design icon",
+                    "text": "Custom packaging design can bring global traditions to local markets."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Creative package icon",
+                    "text": "Creative package design can make sauces feel like curated treasures."
+                },
+                {
+                    "src": "/icon/service/animation.png",
+                    "alt": "Storytelling icon",
+                    "text": "Packaging design can transform jars into storytelling mediums."
+                },
+                {
+                    "src": "/icon/service/ineractive.png",
+                    "alt": "Brand system icon",
+                    "text": "Brand packaging design can unify diverse products while preserving individuality."
+                },
+                {
+                    "src": "/icon/service/lightbulb.png",
+                    "alt": "Retail standout icon",
+                    "text": "Retail packaging design makes products leap off the shelf and stand out online."
+                }
+            ]
         }
     },
     "nescafe-digital-packaging": {
@@ -511,7 +560,39 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "This project exemplifies how culture, creativity, and brand values can come together through packaging design."
+            "description": "This project exemplifies how culture, creativity, and brand values can come together through packaging design.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Product design icon",
+                    "text": "Product packaging design goes beyond functionality to inspire joy."
+                },
+                {
+                    "src": "/icon/service/render.png",
+                    "alt": "Storytelling icon",
+                    "text": "Creative package design tells a story through visuals and structure."
+                },
+                {
+                    "src": "/icon/service/animation.png",
+                    "alt": "Custom design icon",
+                    "text": "Custom packaging design adapts to different formats while maintaining consistency."
+                },
+                {
+                    "src": "/icon/service/ineractive.png",
+                    "alt": "Cultural interpreter icon",
+                    "text": "Packaging designers become cultural interpreters, not just visual stylists."
+                },
+                {
+                    "src": "/icon/service/lightbulb.png",
+                    "alt": "Brand identity icon",
+                    "text": "Brand packaging design builds trust, recall, and emotional connection."
+                },
+                {
+                    "src": "/icon/service/ineractive.png",
+                    "alt": "Retail impact icon",
+                    "text": "Retail packaging design ensures standout presence both offline and online."
+                }
+            ]
         }
     },
     "munch-max-branding": {
@@ -654,7 +735,29 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "Munch Max exemplifies how thoughtful branding strategy, design, and storytelling can transform a familiar product into a premium experience."
+            "description": "Munch Max exemplifies how thoughtful branding strategy, design, and storytelling can transform a familiar product into a premium experience.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Brand building icon",
+                    "text": "Brand building companies create not just logos, but narratives that people remember."
+                },
+                {
+                    "src": "/icon/service/render.png",
+                    "alt": "Creative marketing icon",
+                    "text": "Creative marketing agencies turn strategy into compelling, emotionally resonant experiences."
+                },
+                {
+                    "src": "/icon/service/animation.png",
+                    "alt": "Brand communication icon",
+                    "text": "Strong brand communication & strategy bridge heritage and innovation seamlessly."
+                },
+                {
+                    "src": "/icon/service/ineractive.png",
+                    "alt": "Strategic depth icon",
+                    "text": "The best branding work balances visual impact with strategic depth and consistency."
+                }
+            ]
         }
     },
     "kitkat-goa-branding": {
@@ -761,7 +864,29 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "The KitKat Goa project showcases how brand building companies can turn local insight into strategic identity — grounded, playful, and powerful."
+            "description": "The KitKat Goa project showcases how brand building companies can turn local insight into strategic identity — grounded, playful, and powerful.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Brand strategy icon",
+                    "text": "Even with tight timelines, a top creative agency can deliver depth, thanks to a strong brand strategy foundation."
+                },
+                {
+                    "src": "/icon/service/render.png",
+                    "alt": "Logo design icon",
+                    "text": "Logo design became a narrative extension, transforming a symbol into storytelling."
+                },
+                {
+                    "src": "/icon/service/animation.png",
+                    "alt": "Communication strategy icon",
+                    "text": "Unified brand communication across channels created a consistent voice."
+                },
+                {
+                    "src": "/icon/service/ineractive.png",
+                    "alt": "Storytelling design icon",
+                    "text": "Packaging became storytelling — merging design utility with emotional resonance."
+                }
+            ]
         }
     },
     "palmolive-sensory-branding": {
@@ -883,7 +1008,29 @@
         },
         "whySection": {
             "title": "Why This Project Stands Out",
-            "description": "Palmolive’s transformation shows how even mature brands can rediscover magic through brand storytelling, strategy, and sensory design."
+            "description": "Palmolive’s transformation shows how even mature brands can rediscover magic through brand storytelling, strategy, and sensory design.",
+            "list": [
+                {
+                    "src": "/icon/service/ineractive.png",
+                    "alt": "Brand consultants icon",
+                    "text": "Branding consultants guided the vision from insight to execution."
+                },
+                {
+                    "src": "/icon/service/render.png",
+                    "alt": "Narrative icon",
+                    "text": "Logo design services supported the larger sensory narrative rather than dominating it."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Strategy icon",
+                    "text": "Brand communication tied storytelling to real product benefits and emotional depth."
+                },
+                {
+                    "src": "/icon/service/animation.png",
+                    "alt": "Creative branding icon",
+                    "text": "Showcases how top creative and branding agencies turn mature products into meaningful experiences."
+                }
+            ]
         }
     }
 }
