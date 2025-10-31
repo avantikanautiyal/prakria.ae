@@ -43,11 +43,24 @@ const Home1Contact = () => {
                   <h3 className="text-3xl font-bold">
                     {`LET'S START WITH MEANINGFUL CONVERSATIONS`}
                   </h3>
-                  <p>
-                    {/* Ready to take the first step towards unlocking
-                    opportunities, realizing goals, and embracing innovation?
-                    We're here and eager to connect. */}
-                  </p>
+
+                  <div className="">
+                    <p className="leading-tight">
+                      At Prakria, we don’t simply make visuals — we create
+                      connections of people to the thoughts through experiences.
+                    </p>
+                    <p className="leading-tight">
+                      Our team is ready to transform your idea into something
+                      amazing, no matter if it is 3D animation, 2D animation,
+                      VFX animation, or realistic 3D design.
+                    </p>
+                    <p className="leading-tight">{`Let's animate the fantasy.`}</p>
+                    <p className="leading-tight">
+                      Today, call or email us and find out how Prakria, your
+                      premier animation studio, can craft stunning 3D animation
+                      and CGI experiences that engage your audience.
+                    </p>
+                  </div>
                 </div>
                 <div
                   className="contact-area wow animate fadeInUp"

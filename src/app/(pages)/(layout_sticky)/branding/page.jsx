@@ -3,18 +3,13 @@ import React from "react";
 import serviceData from "@/data/service_page.json";
 
 
-// export async function generateMetadata() {
-//   return {
-//     title: "PRAKRIA",
-//   };
-// }
+
 export const metadata = {
-  title: {
-    absolute:
-      "Branding - Best Creative &amp; Packaging Designing Company | PRAKRIA.COM |",
+  title : {
+    absolute : "Prakria Branding Agency | Strategic Brand Building & Logo Design India"
   },
-  description:
-    "Brand Identity Redefined: PRAKRIA's Distinctive Touch In today's fast-paced world, building a brand is indispensable for making your mark and standing out in the crowd. At PRAKRIA, we have the experience and expertise to transform your brand from a mere idea to an influential force that leaves a lasting impression.",
+  keywords : "Brand strategy, Creative logo design services, World’s top creative agencies, Best branding consultants,  Creative design agency, Brand communication & strategy services,Creative marketing agency, Brand promotion companies, Branding and marketing strategy, Food product branding, Luxury brand positioning, Startup brand building,  Branding companies, Branding agencies",
+  description: "Prakria is a leading branding agency with 20 years of experience, offering brand strategy, logo design, visual identity, and brand promotion services that create lasting connections and measurable business growth."
 };
 function Page() {
   const data = serviceData["/branding"];

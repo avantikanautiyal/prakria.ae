@@ -7,10 +7,11 @@ import Link from "next/link";
 import EnquireBtn from "@/components/global/enquirenow";
 
 export const metadata = {
-  title: "About",
-
-  description:
-    "We’ve mastered the wide expanse of the FMCG world, and each day we’re claiming new territory.",
+  title : {
+    absolute : "PRAKRIA – About Us | 360° Marketing & Creative Agency in Delhi"
+  },
+  keywords : "Prakria,  360° marketing agency in Delhi, creative agency Delhi, branding agency Delhi, digital marketing services, packaging design agency, 3D CGI AR VR studio, web development Delhi,about Prakria",
+  description: "PRAKRIA is a leading 360° marketing and creative agency in Delhi, delivering branding, digital marketing, packaging design, 3D/CGI, AR/VR, and web development solutions with strategy, speed, and innovation. Learn more about our story and vision."
 };
 
 function Page() {

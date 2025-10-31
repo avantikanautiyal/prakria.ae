@@ -4,7 +4,7 @@
       "title": "Digital Marketing Services That Drive Growth",
       "description": "In this ever-changing digital world, being differentiated is considered vital. Any brand, from startups to big enterprises, must have a winning online presence that draws attention and drives sales. This is where your digital marketing agency, PRAKRIA, comes in. With more than 20 years of creative experience and exposure to various industries, we blend data-driven strategies with creative storytelling to offer end-to-end digital marketing solutions. We intend for your business to dominate in digital marketing; hence, our marketing services include SEO, social media marketing, PPC (pay per click) campaigns, and email marketing."
     },
-    "ourWrok": {
+    "ourWork": {
       "title": "Our Work",
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
@@ -251,7 +251,7 @@
       "title": "Packaging Design That Builds Brands",
       "description": "If the product is great by itself, still with a non-attractive packaging, the chances are high that your product will be lost on the shelf or in the online store. We at PRAKRIA convey the notion that packaging is not simply the last item in the chain of the product — it’s the first communication your brand has with your customer. Being a ray of creative light over two decades, PRAKRIA is the front-runner packaging design company that produces product packaging designs making apparent the union of beauty, practicality, and brand storytelling. Our professional packaging designers put together solutions that not only help you win the customer’s trust but also their buying decision."
     },
-    "ourWrok": {
+    "ourWork": {
       "title": "Our Work",
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
@@ -306,7 +306,7 @@
         {
           "title": "Ensures Sustainability",
           "description": "Keeps the product safe while promoting sustainability and responsible design.",
-          "src": "/icon/service/sun.png"
+          "src": "/icon/service/cursor.png"
         },
         {
           "title": "Ergonomic & Aesthetic Appeal",
@@ -316,7 +316,7 @@
         {
           "title": "Elevates Customer Loyalty",
           "description": "Creates memorable unboxing and usage experiences that foster customer loyalty.",
-          "src": "/icon/service/flash.png"
+          "src": "/icon/service/lightning.png"
         }
       ]
     },
@@ -445,41 +445,48 @@
       "title": "Branding That Builds Lasting Connections",
       "description": "Your brand is not just a logo, your brand is not colors, and it’s even less a tagline. It’s the feeling your audience gets when they come into contact with you. It’s the reputation you seem to carry, the promises that you make and the story you tell. At PRAKRIA, Branding is about capturing an essence that translates and speaks the language of people, for long. We are a branding agency with 20 years of creating brands, who assist business owners by turning ideas into distinctive identities. Whether you are a start-up in need of a logo design, an existing business in need of re-branding or a growing business requiring brand and marketing collateral to support your evolving strategy; BAM! is the boutique brand builder that will work with you – let’s start winning together."
     },
-    "ourWrok": {
+    "ourWork": {
       "title": "Our Work",
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
         {
-          "src": "/assets_main/services/branding/1.webp",
+          "src": "/assets_main/services/branding/1.jpg",
           "alt": "Food and beverage branding design"
         },
         {
-          "src": "/assets_main/services/branding/2.webp",
-          "alt": "Digital product branding and visuals"
+          "src": "/assets_main/services/branding/2.jpg",
+          "alt": "Digital product branding and visuals",
+          "link": "/portfolio-item/goodyz-box"
         },
         {
-          "src": "/assets_main/services/branding/3.webp",
-          "alt": "Holiday marketing campaign visuals"
+          "src": "/assets_main/services/branding/3.jpg",
+          "alt": "Holiday marketing campaign visuals",
+          "link": "/portfolio-item/dr-oetker-premium-sauce"
         },
         {
-          "src": "/assets_main/services/branding/4.webp",
-          "alt": "Beauty and skincare brand design"
+          "src": "/assets_main/services/branding/4.jpg",
+          "alt": "Beauty and skincare brand design",
+          "link": "/portfolio-item/nescafe-digital-packaging"
         },
         {
-          "src": "/assets_main/services/branding/5.webp",
-          "alt": "Cosmetic campaign brand assets"
+          "src": "/assets_main/services/branding/5.jpg",
+          "alt": "Cosmetic campaign brand assets",
+          "link": "/portfolio-item/coffee-fiesta-packaging"
         },
         {
-          "src": "/assets_main/services/branding/6.webp",
-          "alt": "Social media brand communication post"
+          "src": "/assets_main/services/branding/6.jpg",
+          "alt": "Social media brand communication post",
+          "link": "/portfolio-item/munch-max-branding"
         },
         {
-          "src": "/assets_main/services/branding/7.webp",
-          "alt": "Promotional packaging and branding mockups"
+          "src": "/assets_main/services/branding/7.jpg",
+          "alt": "Promotional packaging and branding mockups",
+          "link": "/portfolio-item/kitkat-goa-branding"
         },
         {
-          "src": "/assets_main/services/branding/8.webp",
-          "alt": "Health and fitness brand presentation"
+          "src": "/assets_main/services/branding/8.jpg",
+          "alt": "Health and fitness brand presentation",
+          "link": "/portfolio-item/palmolive-sensory-branding"
         }
       ]
     },
@@ -505,7 +512,7 @@
         {
           "title": "Connection",
           "description": "Emotional storytelling creates loyalty and long-term relationships.",
-          "src": "/icon/service/sun.png"
+          "src": "/icon/service/cursor.png"
         }
       ]
     },
@@ -634,7 +641,7 @@
       "title": "Print Media Advertising That Creates Lasting Impact",
       "description": "In a digital noisy world, there’s something compelling about being able to hold a print piece in your hand. The heft of a brochure, the sheen of a magazine ad, the sheer size of a billboard — print is real, memorable, and trusted. At PRAKRIA, we think that print media advertising is more than paper and ink; it's tangible, memorable storytelling. As a graphic printing company with more than 20 years of experience, we create and produce print ad design that grabs people's attention and establishes brand visibility. From poster printing & design to catalogue printing & design, we make each item with precision, imagination, and tactical thinking. Whether you are a new brand or a mature business, our advertising printing solutions make your message pop in the physical realm."
     },
-    "ourWrok": {
+    "ourWork": {
       "title": "Our Work",
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
@@ -647,13 +654,10 @@
           "src": "/assets_main/services/print_media/pm02.webp",
           "alt": "Creative print marketing design",
           "link": "/portfolio-item/nestle-nido-merchandise-design"
-
         },
         {
           "src": "/assets_main/services/print_media/pm03.webp",
           "alt": "Event and festive print collateral"
-          
-
         },
         {
           "src": "/assets_main/services/print_media/pm04.webp",
@@ -668,7 +672,6 @@
           "src": "/assets_main/services/print_media/pm06.webp",
           "alt": "Social post print media combination",
           "link": "/portfolio-item/nestle-grekyo-blueberry-yogurt"
-
         },
         {
           "src": "/assets_main/services/print_media/pm07.webp",
@@ -697,7 +700,7 @@
         {
           "title": "Targeted Reach",
           "description": "Magazines, newspapers, catalogues, and posters allow you to target niche audiences with precision.",
-          "src": "/icon/service/sun.png"
+          "src": "/icon/service/cursor.png"
         },
         {
           "title": "Brand Recall",
@@ -707,7 +710,7 @@
         {
           "title": "Integration with Digital",
           "description": "Today’s smart brands use print and digital together, linking print ads to websites, QR codes, or campaigns.",
-          "src": "/icon/service/flash.png"
+          "src": "/icon/service/lightning.png"
         }
       ]
     },
@@ -790,7 +793,7 @@
       "list": [
         {
           "description": "Two Decades of Expertise — With over 20 years in design and advertising printing services, we’ve partnered with global brands like Nestlé, Pernod Ricard, and Burger King.",
-          "src": "/icon/service/flash.png"
+          "src": "/icon/service/lightning.png"
         },
         {
           "description": "Creative + Strategic — We’re more than just one of the many printing companies — we’re a creative partner that understands design, marketing, and strategy.",
@@ -847,35 +850,38 @@
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
         {
-          "src": "/assets_main/services/animation_ar_vr/1.webp",
+          "src": "/assets_main/services/ar_vr/ar1.gif",
           "alt": "Maggi social media campaign"
         },
         {
-          "src": "/assets_main/services/animation_ar_vr/2.webp",
+          "src": "/assets_main/services/ar_vr/ar2.gif",
           "alt": "Nestle Polo digital post"
         },
         {
-          "src": "/assets_main/services/animation_ar_vr/3.webp",
+          "src": "/assets_main/services/ar_vr/ar3.gif",
           "alt": "Nestle Munch creative"
         },
         {
-          "src": "/assets_main/services/animation_ar_vr/4.webp",
-          "alt": "Dove product page design"
+          "src": "/assets_main/services/ar_vr/ar4.webp",
+          "alt": "Dove product page design",
+          "link": "/portfolio-item/con-vida-proof-of-concept"
         },
         {
-          "src": "/assets_main/services/animation_ar_vr/5.webp",
+          "src": "/assets_main/services/ar_vr/ar5.webp",
           "alt": "Marie Claire beauty campaign"
         },
         {
-          "src": "/assets_main/services/animation_ar_vr/6.webp",
-          "alt": "Gentle Fresh Valentine’s social post"
+          "src": "/assets_main/services/ar_vr/ar6.webp",
+          "alt": "Gentle Fresh Valentine’s social post",
+          "link": "/portfolio-item/blanca-wine-proof-of-concept"
         },
         {
-          "src": "/assets_main/services/animation_ar_vr/7.webp",
-          "alt": "Red mug Instagram creative"
+          "src": "/assets_main/services/ar_vr/ar7.png",
+          "alt": "Red mug Instagram creative",
+          "link": "/portfolio-item/polo-christmas-ar-filter"
         },
         {
-          "src": "/assets_main/services/animation_ar_vr/8.webp",
+          "src": "/assets_main/services/ar_vr/ar8.gif",
           "alt": "Green website and app interface design"
         }
       ]
@@ -1048,46 +1054,55 @@
       ]
     }
   },
+
   "/films-animation-vfx": {
     "heroSection": {
       "title": "Films, Animation & VFX – Stories That Captivate",
       "description": "Exceptional stories require great execution. At PRAKRIA, we embody creativity, technology, and strategy to produce films, animations, and VFX that inspire viewer connection and create brand loyalty. As a full-service production company and video production studio, we produce everything from cinematic commercials to engaging video explainer videos; from dynamic motion graphics studio project production to sophisticated visual effects studio projects. With two decades of expertise as a creative agency, PRAKRIA’s team of storytellers, designers, editors, and VFX artists & technologists creates brands that can develop emotion, impact, and communicate clearly. PRAKRIA produces exceptional film production, video editing, & a quality animated video production studio."
     },
-    "ourWrok": {
+    "ourWork": {
       "title": "Our Work",
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
         {
-          "src": "/assets_main/services/films_animation_vfx/1.webp",
-          "alt": "Food brand campaign layout and social previews"
+          "src": "/assets_main/services/film_animations/1.mp4",
+          "alt": "Food brand campaign layout and social previews",
+          "type": "video"
         },
         {
-          "src": "/assets_main/services/films_animation_vfx/2.webp",
-          "alt": "Product promo and digital creative tiles"
+          "src": "/assets_main/services/film_animations/2.mp4",
+          "alt": "Product promo and digital creative tiles",
+          "type": "video"
         },
         {
-          "src": "/assets_main/services/films_animation_vfx/3.webp",
-          "alt": "Festive campaign mobile creatives mockup"
+          "src": "/assets_main/services/film_animations/3.mp4",
+          "alt": "Festive campaign mobile creatives mockup",
+          "type": "video"
         },
         {
-          "src": "/assets_main/services/films_animation_vfx/4.webp",
-          "alt": "Beauty and skincare marketplace / PDP content"
+          "src": "/assets_main/services/film_animations/4.mp4",
+          "alt": "Beauty and skincare marketplace / PDP content",
+          "type": "video"
         },
         {
-          "src": "/assets_main/services/films_animation_vfx/5.webp",
-          "alt": "Cosmetics campaign assets and visual storytelling"
+          "src": "/assets_main/services/film_animations/5.mp4",
+          "alt": "Cosmetics campaign assets and visual storytelling",
+          "type": "video"
         },
         {
-          "src": "/assets_main/services/films_animation_vfx/6.webp",
-          "alt": "Valentine’s Day social media video post mockup"
+          "src": "/assets_main/services/film_animations/6.mp4",
+          "alt": "Valentine’s Day social media video post mockup",
+          "type": "video"
         },
         {
-          "src": "/assets_main/services/films_animation_vfx/7.webp",
-          "alt": "Instagram ad creative and character visuals"
+          "src": "/assets_main/services/film_animations/7.mp4",
+          "alt": "Instagram ad creative and character visuals",
+          "type": "video"
         },
         {
-          "src": "/assets_main/services/films_animation_vfx/8.webp",
-          "alt": "Product landing page and mobile UI screens"
+          "src": "/assets_main/services/film_animations/8.mp4",
+          "alt": "Product landing page and mobile UI screens",
+          "type": "video"
         }
       ]
     },
@@ -1108,7 +1123,7 @@
         {
           "title": "VFX makes it magic",
           "description": "Virtual reality and augmented reality app development enable your customers to engage with your brand in fresh, memorable ways.",
-          "src": "/icon/service/sun.png"
+          "src": "/icon/service/cursor.png"
         },
         {
           "title": "Editing shapes the impact",
@@ -1271,40 +1286,72 @@
       "title": "Illustration Services That Bring Stories to Life",
       "description": "Top brands do not only communicate through words — they communicate through pictures. At PRAKRIA, we believe visuals can simplify ideas, ignite imagination, and establish emotional connections with an audience. As an illustration agency and illustration studio, we specialize in custom illustration solutions that will provide your business with a unique voice. Whether it is a character illustration for a campaign, a branding illustration for a product launch, or concept art & illustration for your next big idea, our experienced artists and illustration consultants create visual solutions from concept to visuals that inspire."
     },
-    "ourWrok": {
+    "ourWork": {
       "title": "Our Work",
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
         {
-          "src": "/assets_main/services/illustration/1.webp",
+          "src": "/assets_main/services/illustration/il01.jpg",
           "alt": "Maggi campaign visuals and mobile mockups"
         },
         {
-          "src": "/assets_main/services/illustration/2.webp",
+          "src": "/assets_main/services/illustration/il02.jpg",
           "alt": "Nestle Polo creative illustrations and layouts"
         },
         {
-          "src": "/assets_main/services/illustration/3.webp",
+          "src": "/assets_main/services/illustration/il03.jpg",
           "alt": "Nestle Munch concept and digital design"
         },
         {
-          "src": "/assets_main/services/illustration/4.webp",
+          "src": "/assets_main/services/illustration/il04.jpg",
           "alt": "Dove e-commerce page visuals and branding"
         },
         {
-          "src": "/assets_main/services/illustration/5.webp",
+          "src": "/assets_main/services/illustration/il05.jpg",
           "alt": "Marie Claire editorial design and illustration"
         },
         {
-          "src": "/assets_main/services/illustration/6.webp",
+          "src": "/assets_main/services/illustration/il06.jpg",
           "alt": "Gentle Fresh Valentine's Day post design"
         },
         {
-          "src": "/assets_main/services/illustration/7.webp",
+          "src": "/assets_main/services/illustration/il07.jpg",
           "alt": "Creative Instagram post layout with characters"
         },
         {
-          "src": "/assets_main/services/illustration/8.webp",
+          "src": "/assets_main/services/illustration/il08.jpg",
+          "alt": "Green digital and web interface mockups"
+        },
+        {
+          "src": "/assets_main/services/illustration/il09.jpg",
+          "alt": "Green digital and web interface mockups"
+        },
+        {
+          "src": "/assets_main/services/illustration/il10.jpg",
+          "alt": "Green digital and web interface mockups"
+        },
+        {
+          "src": "/assets_main/services/illustration/il11.jpg",
+          "alt": "Green digital and web interface mockups"
+        },
+        {
+          "src": "/assets_main/services/illustration/il12.jpg",
+          "alt": "Green digital and web interface mockups"
+        },
+        {
+          "src": "/assets_main/services/illustration/il13.jpg",
+          "alt": "Green digital and web interface mockups"
+        },
+        {
+          "src": "/assets_main/services/illustration/il14.jpg",
+          "alt": "Green digital and web interface mockups"
+        },
+        {
+          "src": "/assets_main/services/illustration/il15.jpg",
+          "alt": "Green digital and web interface mockups"
+        },
+        {
+          "src": "/assets_main/services/illustration/il16.jpg",
           "alt": "Green digital and web interface mockups"
         }
       ]
@@ -1484,41 +1531,37 @@
       "title": "Web Development & Design Services That Empower Your Brand",
       "description": "Your website is typically the first encounter customers have with your business. It’s your digital storefront, your brand ambassador, and your most powerful marketing asset. We at PRAKRIA understand that a website is about creating meaningful digital experiences and not just about code. As a full-service web solutions company, we offer website development services, from concept to delivery, that bring together creativity, functionality, and performance. Whether you're looking for e-commerce website designing, WordPress development services, or to partner with a trusted UI/UX design agency, our team of designers and developers takes into consideration what makes your brand unique amongst the many others."
     },
-    "ourWrok": {
+    "ourWork": {
       "title": "Our Work",
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
         {
-          "src": "/assets_main/services/web_development/1.webp",
+          "src": "/assets_main/services/web_dev/wd1.png",
           "alt": "Maggi campaign and layouts"
         },
         {
-          "src": "/assets_main/services/web_development/2.webp",
+          "src": "/assets_main/services/web_dev/wd2.png",
           "alt": "Nestlé Polo social & digital tiles"
         },
         {
-          "src": "/assets_main/services/web_development/3.webp",
+          "src": "/assets_main/services/web_dev/wd3.png",
           "alt": "Festive campaign screens on mobile"
         },
         {
-          "src": "/assets_main/services/web_development/4.webp",
+          "src": "/assets_main/services/web_dev/wd4.png",
           "alt": "Dove ecommerce / PDP content"
         },
         {
-          "src": "/assets_main/services/web_development/5.webp",
+          "src": "/assets_main/services/web_dev/wd5.png",
           "alt": "Beauty / ecommerce creative layouts"
         },
         {
-          "src": "/assets_main/services/web_development/6.webp",
+          "src": "/assets_main/services/web_dev/wd6.png",
           "alt": "Social media Valentine's Day post mockup"
         },
         {
-          "src": "/assets_main/services/web_development/7.webp",
+          "src": "/assets_main/services/web_dev/wd7.png",
           "alt": "Instagram creative / social content mock"
-        },
-        {
-          "src": "/assets_main/services/web_development/8.webp",
-          "alt": "Responsive website & app UI screens across devices"
         }
       ]
     },
@@ -1534,12 +1577,12 @@
         {
           "title": "User experience drives retention",
           "description": "Our UI/UX design services ensure visitors can easily find what they are looking for.",
-          "src": "/icon/service/bulb.png"
+          "src": "/icon/service/light.png"
         },
         {
           "title": "Responsiveness matters",
           "description": "A mobile-friendly website and responsive website design make a brand accessible on any device.",
-          "src": "/icon/service/spark.png"
+          "src": "/icon/service/cursor.png"
         },
         {
           "title": "E-commerce is booming",
@@ -1675,7 +1718,7 @@
         {
           "title": "Custom Solutions",
           "description": "Whether you need responsive web design for marketing or e-commerce web design, whether a brochure or a complex system, we deliver solutions that are specific to your goals.",
-          "src": "/icon/service/bulb.png"
+          "src": "/icon/service/light.png"
         },
         {
           "title": "Scalability & Flexibility",
@@ -1721,49 +1764,44 @@
       "title": "AR, VR & Game Tech – Immersive Experiences that Redefine Reality",
       "description": "The future of storytelling is not flat — it’s immersive, interactive, and unforgettable. We at PRAKRIA come together with art and technology to create innovative AR VR development, 3D animation, and game development services that capture, inspire, and revolutionize. Whether creating realistic 3D visuals, engaging 2D animation, or a compelling virtual reality experience, we build digital worlds that traverse the thin line between imagination and reality. From product launches to training simulations, from branding campaigns to mobile game development – NAM Animation studio cultivates experiences made to impact."
     },
-    "ourWrok": {
+    "ourWork": {
       "title": "Our Work",
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
         {
-          "src": "/assets_main/services/ar_vr/1.webp",
-          "alt": "Maggi social media",
-          "link": ""
+          "src": "/assets_main/services/ar_vr/ar1.gif",
+          "alt": "Maggi social media campaign"
         },
         {
-          "src": "/assets_main/services/ar_vr/2.webp",
-          "alt": "Nestle Polo social campaign",
-          "link": ""
+          "src": "/assets_main/services/ar_vr/ar2.gif",
+          "alt": "Nestle Polo digital post"
         },
         {
-          "src": "/assets_main/services/ar_vr/3.webp",
-          "alt": "Festive social media creatives on mobile mockups",
-          "link": ""
+          "src": "/assets_main/services/ar_vr/ar3.gif",
+          "alt": "Nestle Munch creative"
         },
         {
-          "src": "/assets_main/services/ar_vr/4.webp",
-          "alt": "Dove e-commerce / product presentation",
-          "link": ""
+          "src": "/assets_main/services/ar_vr/ar4.webp",
+          "alt": "Dove product page design",
+          "link": "/portfolio-item/con-vida-proof-of-concept"
         },
         {
-          "src": "/assets_main/services/ar_vr/5.webp",
-          "alt": "Beauty / cosmetics campaign layout",
-          "link": ""
+          "src": "/assets_main/services/ar_vr/ar5.webp",
+          "alt": "Marie Claire beauty campaign"
         },
         {
-          "src": "/assets_main/services/ar_vr/6.webp",
-          "alt": "Valentine's Day campaign social post mockup",
-          "link": ""
+          "src": "/assets_main/services/ar_vr/ar6.webp",
+          "alt": "Gentle Fresh Valentine’s social post",
+          "link": "/portfolio-item/blanca-wine-proof-of-concept"
         },
         {
-          "src": "/assets_main/services/ar_vr/7.webp",
-          "alt": "Instagram creative & character illustration",
-          "link": ""
+          "src": "/assets_main/services/ar_vr/ar7.png",
+          "alt": "Red mug Instagram creative",
+          "link": "/portfolio-item/polo-christmas-ar-filter"
         },
         {
-          "src": "/assets_main/services/ar_vr/8.webp",
-          "alt": "Green-themed responsive product site on multiple devices",
-          "link": ""
+          "src": "/assets_main/services/ar_vr/ar8.gif",
+          "alt": "Green website and app interface design"
         }
       ]
     },
@@ -1774,17 +1812,17 @@
         {
           "title": "3D design makes things real",
           "description": "From architectural walkthroughs to product prototypes, 3D modeling produces realistic visuals which enable customers to understand and relate to your products.",
-          "src": "/icon/service/sparkles.png"
+          "src": "/icon/service/star.png"
         },
         {
           "title": "Animated video making makes complexity easy",
           "description": "Explainers, tutorials, and storytelling through 2D animation or 3D animation make even complex issues simple and fun.",
-          "src": "/icon/service/bulb.png"
+          "src": "/icon/service/light.png"
         },
         {
           "title": "Immersive experiences increase engagement",
           "description": "Virtual reality and augmented reality app development enable your customers to engage with your brand in fresh, memorable ways.",
-          "src": "/icon/service/glow.png"
+          "src": "/icon/service/cursor.png"
         },
         {
           "title": "Gaming fuels participation",
@@ -1913,7 +1951,7 @@
         },
         {
           "description": "Human-Centered — We don't just create for brands – we create for human beings. Every app or animation that we make is created with the purpose of reaching out to human beings, and not just algorithms.",
-          "src": "/icon/service/bulb.png"
+          "src": "/icon/service/light.png"
         },
         {
           "description": "Global Brands Rely on Us — Major brands such as Nestlé, Burger King, and Pernod Ricard count on us for the delivery of high-impact campaigns.",
@@ -1948,6 +1986,226 @@
         {
           "question": "Do you provide both AR and VR development?",
           "answer": ""
+        }
+      ]
+    }
+  },
+  "/3d-cgi": {
+    "heroSection": {
+      "title": "3D & CGI Experiences That Inspire",
+      "description": "Today’s visual and fast-moving world has the audience expecting not only information but rather a reality-like experience. It is Prakria, in short, your creative partner and 3D & CGI animation studio turning imagination into visual brilliance, which comes into play. 3D modelling, 3D animation, CGI rendering, VFX animation, and 2D animation are all aspects of our storytelling through detail, realism, and emotion. Product visualization, architectural walkthrough, or cinematic brand film, our artists and technologists collaborate to ensure that your ideas are unforgettable, no matter what type of project you have in mind."
+    },
+    "ourWork": {
+      "title": "Our Work",
+      "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
+      "list": [
+        {
+          "src": "/assets_main/services/3d_cgi/cgi1.webp",
+          "alt": "Nestle Maggi Social Media"
+        },
+        {
+          "src": "/assets_main/services/3d_cgi/cgi2.webp",
+          "alt": "Nestle Polo Campaign"
+        },
+        {
+          "src": "/assets_main/services/3d_cgi/cgi3.webp",
+          "alt": "Festive CGI Animation"
+        },
+        {
+          "src": "/assets_main/services/3d_cgi/cgi4.webp",
+          "alt": "Unilever Dove Visualization"
+        },
+        {
+          "src": "/assets_main/services/3d_cgi/cgi5.gif",
+          "alt": "Marie Claire CGI Product Showcase"
+        },
+        {
+          "src": "/assets_main/services/3d_cgi/cgi6.gif",
+          "alt": "Center Fresh Valentine's Day CGI"
+        },
+        {
+          "src": "/assets_main/services/3d_cgi/cgi7.gif",
+          "alt": "Nescafe CGI Campaign"
+        },
+        {
+          "src": "/assets_main/services/3d_cgi/cgi8.gif",
+          "alt": "Men’s Grooming CGI Product Ad"
+        }
+      ]
+    },
+    "why": {
+      "title": "Why 3D & CGI Matter Today",
+      "description": "The use of 3D design and CGI has evolved significantly in the narrative of modern storytelling where it takes place. These technologies are now the main communication of storytelling that is necessary for the brands to connect, clarify, and inspire, which are the ways that static visuals cannot depict at all.",
+      "list": [
+        {
+          "title": "3D design creates actual ideas",
+          "description": "3D modeling from prototypes to architectural models gives life to the concepts by turning them into visuals that are able to convey confidence to the viewers.",
+          "src": "/icon/service/star.png"
+        },
+        {
+          "title": "CGI and animation make stories visible",
+          "description": "3D animation and 2D animation allow the easy grasp of mixed-up ideas through their motion, texture, and lighting while also making them hard to forget.",
+          "src": "/icon/service/light.png"
+        },
+        {
+          "title": "Realism is a trust builder",
+          "description": "When the audience can see and feel the product you offer through virtual means, then the acceptance becomes an instinct.",
+          "src": "/icon/service/cursor.png"
+        },
+        {
+          "title": "The power of visuals to evoke feelings is the reason why",
+          "description": "Beautiful images are the ones that determine the silent and the beautiful brands that are always noticed.",
+          "src": "/icon/service/phone.png"
+        }
+      ]
+    },
+    "ourCore": {
+      "title": "Our 3D & CGI Services",
+      "list": [
+        {
+          "id": "modeling",
+          "name": "3D Modeling & Visualization",
+          "title": "3D Modeling & Visualization",
+          "description": "3D modeling is the first and most essential step in the production of any excellent CGI project – the art of bringing the people’s thoughts and visions into existence. The models we make have all the characteristics of being accurate, lifelike, and having their own character.",
+          "focusAreas": [
+            "Product modeling for marketing and design",
+            "Architectural and industrial visualization",
+            "Environmental and spatial design",
+            "Digital twins and concept prototypes"
+          ]
+        },
+        {
+          "id": "animation",
+          "name": "CGI & 3D Animation",
+          "title": "CGI & 3D Animation",
+          "description": "We bring imagination to life through motion. From character animation to cinematic product films, our 3D artists deliver realism and emotion in every frame."
+        },
+        {
+          "id": "motion",
+          "name": "Motion Graphics, 2D Animation & Compositing",
+          "title": "Motion Graphics, 2D Animation & Compositing",
+          "description": "We create compelling visuals and dynamic storytelling through seamless integration of motion design, 2D animation, and compositing."
+        },
+        {
+          "id": "architecture",
+          "name": "Architectural CGI & Walkthroughs",
+          "title": "Architectural CGI & Walkthroughs",
+          "description": "We design photorealistic architectural renderings and walkthroughs that help clients visualize spaces before they are built."
+        },
+        {
+          "id": "advertising",
+          "name": "Product Visualization & Advertising CGI",
+          "title": "Product Visualization & Advertising CGI",
+          "description": "From commercials to promotional visuals, we deliver product imagery that grabs attention and inspires audiences."
+        },
+        {
+          "id": "vfx",
+          "name": "VFX Animation & Post-Production",
+          "title": "VFX Animation & Post-Production",
+          "description": "We add the finishing touches with industry-leading rendering engines and post-production techniques that make visuals look ultra-realistic."
+        }
+      ]
+    },
+    "howWork": {
+      "title": "Our Process: From Concept to Creation",
+      "description": "At our company, we think that every project needs to be a mixture of creativity, order, and teamwork. Below is the process of how we give your idea a life:",
+      "list": [
+        {
+          "count": "01",
+          "title": "Discovery & Ideation",
+          "description": "Initially, we conduct thorough research on your brand and objectives, and we also analyze whether animation and CGI could help in telling your story."
+        },
+        {
+          "count": "02",
+          "title": "Concept Development",
+          "description": "The creative department of ours does drawing, making the storyboard, and visualization to depict the path of your project."
+        },
+        {
+          "count": "03",
+          "title": "Design & 3D Production",
+          "description": "Our team of artists meticulously does everything related to 3D, that is, from 3D models to CGI, lights, and textures."
+        },
+        {
+          "count": "04",
+          "title": "Rendering & Post-Production",
+          "description": "We put the finishing touches to the imagery by using top-notch rendering engines and combining techniques that make the output look ultra-realistic."
+        },
+        {
+          "count": "05",
+          "title": "Review & Refinement",
+          "description": "The process proceeds by modifying every aspect till the desired level of effect, correctness, and feeling is achieved."
+        },
+        {
+          "count": "06",
+          "title": "Delivery & Support",
+          "description": "After the release, we are still there with you by your side — improving, refreshing, and transforming your visuals along with the growth of your brand."
+        }
+      ]
+    },
+    "benifits": {
+      "title": "Why Choose PRAKRIA as Your 3D & CGI Animation Studio",
+      "list": [
+        {
+          "title": "Decades of Creative Expertise",
+          "src": "/icon/service/lightning.png",
+
+          "description": "More than 20 years of experience. The marriage of creativity and technology has been our faith for so long that brands would get noticed."
+        },
+        {
+          "title": "Broad Range of Skills",
+          "src": "/icon/service/fire.png",
+
+          "description": "In-house we perform everything from 3D modeling, 3D animation, VFX animation, and 2D animation."
+        },
+        {
+          "title": "World-Class Quality",
+          "src": "/icon/service/light.png",
+
+          "description": "The standard of our 3D animation services is globally tuned on with no difference for both cinema and commercials."
+        },
+        {
+          "title": "Choice of Top-Notch Brands",
+          "src": "/icon/service/users.png",
+
+          "description": "Powerful visual communication is the reason for collaboration with companies like Nestlé, Burger King, and Pernod Ricard among a few others."
+        },
+        {
+          "title": "Imagination is Our Main Aspect",
+          "src": "/icon/service/star.png",
+
+          "description": "Always ahead of the trends, our team is constantly using the latest technologies and techniques for producing creative and effective content."
+        },
+        {
+          "title": "3D Modeling",
+          "src": "/icon/service/star.png",
+
+          "description": "3D modeling is the basis of photorealism in every major CGI project. Our characters are conceived to be lifelike, realistic, and rich in character."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Got questions? We've got answers. Check out our frequently asked questions section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
+      "list": [
+        {
+          "question": "What's the difference between 3D modeling and CGI?",
+          "answer": "3D modeling creates the structure, while CGI brings it to life with lighting, texture, and movement."
+        },
+        {
+          "question": "Do you handle full animation production?",
+          "answer": "Yes, we manage the complete production process from concept to rendering and post-production."
+        },
+        {
+          "question": "Can CGI replace photography?",
+          "answer": "In many cases, yes. CGI can replicate real-world photography with flexibility and cost efficiency."
+        },
+        {
+          "question": "What industries benefit most from 3D & CGI?",
+          "answer": "Industries like architecture, automotive, fashion, FMCG, and entertainment benefit the most from 3D and CGI."
+        },
+        {
+          "question": "What do you need to start a project?",
+          "answer": "We start with your concept, brand objectives, and any visual references you have to guide the creative process."
         }
       ]
     }

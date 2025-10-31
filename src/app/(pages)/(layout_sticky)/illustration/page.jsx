@@ -4,10 +4,10 @@ import serviceData from "@/data/service_page.json";
 
 export const metadata = {
   title: {
-    absolute: "Illustration Agency in India- PRAKRIA&#039;s Artistic Ingenuity",
+    absolute: "Prakria - Creative Illustration & Brand Visual Solutions | Expert Agency"
   },
-  description:
-    "PRAKRIA India's leading international illustration agency with over two decades of experience, our illustrators have honed their crafty brushstrokes, transforming concepts into mesmerizing visual tales.",
+  keywords: "Illustration agency, Illustration studio, Custom illustration solutions, Character illustration for a campaign, Branding illustration for a product launch, Concept art & illustration, Illustration consultants, Illustration services, Character illustration services, Personalized illustrations, Digital illustration services, Balance vector illustrations, Art illustrations, Vector illustrations, 2D illustration, 3D illustration, Hand-drawn illustration, Infographic illustration services, Animation & illustration, Illustration companies, Branding illustration, Concept artwork, Print media, Illustration design system, Illustrator agency",
+  description: "Prakria specializes in custom illustration services, including character, digital, 2D & 3D, and infographic illustrations. Elevate your brand with our creative storytelling and visual communication solutions. Discover how our expert team can bring your stories to life."
 };
 
 function Page() {
