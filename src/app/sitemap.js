@@ -1,35 +1,73 @@
-
-
 // TODO to be updated
-import portfolioPage from "@/data/portfolio.json";
+// import portfolioPage from "@/data/portfolio.json";
+import portfolioData from "@/data/portfolio_new/index";
 
-const baseURL = "https://www.prakria.com"
+const baseURL = "https://www.prakria.com";
 export default async function sitemap() {
+  const path_list = portfolioData.getAllPortfolioPath();
+  const portfolio = path_list.map((p) => {
+    return { url: `${baseURL}/portfolio-item/${p}`, lastModified: new Date() };
+  });
 
-const portfolioPages = Object.keys(portfolioPage);
-
-const portfolio = portfolioPages.map(p=> {
-    return {url : `${baseURL}/portfolio-item/${p}` , lastModified : new Date()}
-} )
- 
   const staticpages = [
     {
-      url: `${baseURL}/blog`,
-      lastModified  : ""
+      url: `${baseURL}`,
+      lastModified: "",
     },
     {
-      url: `${baseURL}/contact`,
+      url: `${baseURL}/contact-us`,
+      lastModified: new Date(),
     },
     {
       url: `${baseURL}/privacy-policy`,
+      lastModified: new Date(),
     },
     {
-      url: `${baseURL}/term-condition`,
+      url: `${baseURL}/disclaimer`,
+      lastModified: new Date(),
     },
     {
-      url: `${baseURL}/refund`,
+      url: `${baseURL}/about-us`,
+      lastModified: new Date(),
+    },
+
+    {
+      url: `${baseURL}/digital-marketing`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseURL}/packaging-design`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseURL}/branding`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseURL}/print-media`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseURL}/3d-cgi`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseURL}/ar-vr-game-tech`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseURL}/films-animation-vfx`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseURL}/illustration`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${baseURL}/web-development`,
+      lastModified: new Date(),
     },
   ];
 
-  return [...portfolio];
+  return [...staticpages, ...portfolio];
 }

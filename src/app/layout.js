@@ -40,6 +40,10 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  openGraph: {
+    title: "PRAKRIA : Best Creative Marketing Agency in India",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {

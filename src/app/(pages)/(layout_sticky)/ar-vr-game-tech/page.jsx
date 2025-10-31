@@ -4,13 +4,14 @@ import serviceData from "@/data/service_page.json";
 
 export const metadata = {
   title: {
-    absolute: "AR, VR & Game Tech - Best Game Development Agency in Delhi",
+    absolute: "Prakria AR, VR & Game Tech - Immersive AR VR Development & Game Creation"
   },
-  description:
-    "We blend cutting-edge technology with our artistic flair to create mind-blowing AR & VR experiences & games that defy imagination leave the audiences spellbound.",
+  keywords: "AR VR development, 3D animation, Game development services, 2D animation, 3D visuals,Animated video creation, VR development, Augmented reality app development, Game development services (mobile game development), Top animation, AR, VR, and game technologies, 3D Animation & 3D Modeling, VFX animation services, Game development company, Mobile game development, Virtual reality development expertise, Animation studio",
+  description: "Prakria combines cutting-edge technology and creativity to deliver immersive AR and VR experiences, 2D/3D animation, and innovative game development services. From virtual reality training simulations to interactive mobile games and augmented reality apps, we craft engaging digital worlds that captivate and connect your audience."
 };
 function Page() {
-  const data = serviceData["/animation-ar-vr"];
+  const data = serviceData["/ar-vr-game-tech"];
+
 
   return (
     <div className="bg-black text-white min-h-screen font-sans antialiased">

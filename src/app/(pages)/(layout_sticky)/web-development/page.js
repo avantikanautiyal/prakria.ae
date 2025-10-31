@@ -4,16 +4,15 @@ import serviceData from "@/data/service_page.json";
 
 export const metadata = {
   title: {
-    absolute:
-      "Website Design & Development Services - Crafting Sites that Captivate",
+    absolute: "Web Development & Design Services | Prakria Creative & Technical Solutions"
   },
-  description:
-    "Get ready to witness web development like never before with PRAKRIA. With over 20 years of experience, we breathe life into websites that captivate, engage, and drive results.",
+  keywords: "Web Development, web solutions company, website development services, e-commerce website designing, WordPress development services, UI/UX design agency, website services, custom website development, best web developers, web development, best UI/UX design services, e-commerce website development, e-commerce website design company, Shopify development services, custom WordPress developers, WordPress development service, mobile applications development company, affordable static website services, web design and development, website development agency, website design and web development services, website development company",
+  description: "Prakria offers full-service web development and design solutions, including custom websites, e-commerce, WordPress, Shopify, and mobile app development, combining creativity, performance, and scalability for lasting brand impact."
 };
 
 
 function Page() {
-  const data = serviceData["/illustration"];
+  const data = serviceData["/web-development"];
 
   return (
     <div className="bg-black text-white min-h-screen font-sans antialiased">

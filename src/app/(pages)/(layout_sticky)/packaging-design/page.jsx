@@ -3,11 +3,11 @@ import Servicepage from "@/components/service/Servicepage";
 import serviceData from "@/data/service_page.json";
 
 export const metadata = {
-  title: {
-    absolute: "Product packaging Design Company - Designs That Stands Out",
+  title : {
+    absolute : "Innovative Packaging Design Services | Prakria Packaging Agency India"
   },
-  description:
-    "Step into a world where packaging design goes beyond functionality and becomes a true reflection of your brand&#039;s essence",
+  keywords : "Packaging design company, Food packaging design, Cosmetic packaging design to luxury packaging design, Professional packaging designers, Packaging design services, Brand packaging design, Packaging design agency, Package design companies that deliver not just visuals but complete packaging design services, Packaging strategy & design consultancy, Creative packaging design",
+  description: "Prakria leads in creative and functional packaging design services—from food and luxury packaging to sustainable and custom solutions. Build your brand's shelf appeal with us."
 };
 function Page() {
   const data = serviceData["/packaging"];

@@ -4,10 +4,13 @@ import serviceData from "@/data/service_page.json";
 
 export const metadata = {
   title: {
-    absolute: "Print Media - Leading Print Media Agency in India",
+    absolute:
+      "Print Media Advertising Services | Creative & Strategic Print Solutions by Prakria",
   },
+  keywords:
+    "Print media advertising, Advertising printing solutions, , Print media designs, Creative print advertisements, Advertising printing services, Printing companies,, Printing agency, Print advertisement design, Catalogue design & printing, Poster design & printing, Brochures, flyers & collaterals, Corporate & retail print media designs, Sustainable printing solutions",
   description:
-    "Serving top global brands like Nestlé , Pernod Ricard, Burger King, Kohler and many more, we bring our FMCG expertise to deliver print solutions that captivate and convert.",
+    "Prakria offers over 20 years of expertise in print media advertising, delivering impactful brochure, poster, catalogue, and billboard design with a focus on creativity, strategy, and sustainability to boost brand visibility.",
 };
 
 function Page() {

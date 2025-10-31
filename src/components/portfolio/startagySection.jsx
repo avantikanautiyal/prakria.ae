@@ -20,6 +20,7 @@ function StartageySection(props) {
           {props?.list?.map((startagey, index) => {
             return (
               <StartagyCard
+                key={index}
                 even={(index + 1) % 2 === 1}
                 {...startagey}
                 // number="01"

@@ -17,7 +17,7 @@ function CoreService(props) {
 
   return (
     <section className="mb-20 sm:mb-32">
-      <h2 className="text-3xl sm:text-4xl lg:text-4xl tracking-tight mb-12 sm:mb-16 text-center">
+      <h2 className="text-4xl md:text-4xl tracking-tight mb-12 sm:mb-16 text-center">
         {props?.title}
       </h2>
 

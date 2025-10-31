@@ -122,8 +122,10 @@ const Footer2 = () => {
               alignItems: "center",
             }}
           >
-            <div className=" copyright-area">
-              <p>© 2024 PRAKRIA | All Rights Reserved</p>
+            <div className="copyright-area">
+              <p>
+                © {new Date().getFullYear()} PRAKRIA | All Rights Reserved
+              </p>
             </div>
           </div>
         </div>

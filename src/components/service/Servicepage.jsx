@@ -7,10 +7,11 @@ import ServiceFAQSection from "./faqSection";
 import CoreService from "./coreService";
 
 function Servicepage(props) {
+ 
   return (
     <>
       <HeroSection {...props?.heroSection} />
-      <OurWorkSection  {...props?.ourWrok}/>
+      <OurWorkSection  {...props?.ourWork}/>
       <WhyChoose {...props?.why} />
       <CoreService  {...props?.ourCore} />
       <HowWeWork {...props?.howWork}/>
