@@ -32,6 +32,10 @@ const hankenGrotesk = Playfair_Display({
   display: "swap",
 });
 export const metadata = {
+  metadataBase: new URL('https://www.prakria.com'),
+  alternates: {
+    canonical: './'
+  },
   title: {
     default: "PRAKRIA : Best Creative Marketing Agency in India",
     template: "%s - PRAKRIA",

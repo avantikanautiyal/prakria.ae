@@ -15,18 +15,19 @@ function StartageySection(props) {
           </p>
         </div>
 
-        <div className={ cn(`grid grid-cols-1 sm:grid-cols-2 gap-x-16 lg:gap-x-24 gap-y-12 justify-items-center md:justify-items-stretch text-center md:text-left`)}>
-          {/* --- Item 01: Audience Research --- */}
+        <div
+          className={cn(
+            `flex flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap justify-center sm:justify-between gap-y-12 gap-x-8 lg:gap-x-16 text-center md:text-left`
+          )}
+        >
           {props?.list?.map((startagey, index) => {
             return (
-              <StartagyCard
+              <div
+                className="flex-1 min-w-[250px] max-w-md sm:basis-1/4 flex justify-center md:justify-start"
                 key={index}
-                even={(index + 1) % 2 === 1}
-                {...startagey}
-                // number="01"
-                // title="Audience Research"
-                // description="We began with deep research into the audience, understanding what excites and unites the cricket-loving community of India. Insights here set the stage for concepts that would catch attention and drive engagement."
-              />
+              >
+                <StartagyCard even={(index + 1) % 2 === 1} {...startagey} />
+              </div>
             );
           })}
         </div>

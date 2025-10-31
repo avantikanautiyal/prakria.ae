@@ -1,7 +1,6 @@
 import React from "react";
 
 function HeroSectionPortfolio(props) {
-    console.log("files " , props?.list)
   return (
     <div className="container mx-auto p-4 md:p-8">
       <section>

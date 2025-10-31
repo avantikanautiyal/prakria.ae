@@ -26,7 +26,7 @@ function StorySection(props) {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 relative z-20">
         {/* Left Column: Title */}
         <div>
-          <h3 className="text-4xl sm:text-5xl md:text-6xl  max-w-3xl font-bold leading-tight text-gray-100">
+          <h3 className="text-4xl sm:text-5xl md:text-6xl  max-w-3xl font-semibold leading-tight text-gray-100">
             {props.title}
           </h3>
         </div>

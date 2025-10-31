@@ -22,12 +22,12 @@ function WhySection(props) {
               className="bg-[#0F0F0F] p-8 rounded-xl shadow-2xl flex flex-col items-center justify-start min-h-[300px] text-center"
             >
               {/* Icon (dark circle with actual image) */}
-              <div className="w-20 h-20 rounded-full bg-gray-800 flex items-center justify-center mb-6 border border-gray-700">
+              <div className="w-20 h-20 rounded-full bg-gray-800 flex items-center justify-center mb-6">
                 {item.src && (
                   <img
                     src={item.src}
                     alt={item.alt || "icon"}
-                    className="w-8 h-8 object-contain"
+                    className="w-full h-full object-contain"
                   />
                 )}
               </div>

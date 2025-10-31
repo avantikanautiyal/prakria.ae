@@ -1,7 +1,12 @@
 {
   "nestle-maggi-social-media": {
+    "title" : "Nestlé Maggi #SuperMAGGILeague Campaign | Prakria Social Media Experts",
+    "description" : "Discover how Prakria crafted Nestlé Maggi’s #SuperMAGGILeague cricket-season campaign, blending creativity and strategy to boost engagement and brand love with interactive social media marketing.",
+    "keywords" : "Social media marketing agency, #SuperMAGGILeague, Digital marketing service provider, Content marketing agency,  Digital marketing company, Performance marketing, PPC marketing, Digital marketing consultant,  Performance marketing agency services, SEO agency, Pay per click advertising agency, SEO services, PPC marketing agencies, Content marketing agency solutions,",
+
     "herosection": {
       "title": "Nestlé Maggi Social Media Campaign — #SuperMAGGILeague",
+
       "list": [
         {
           "src": "/assets_main/services/digital_marketing/1/5.mp4",
@@ -126,12 +131,12 @@
           "text": "We don’t just design; we think strategically."
         },
         {
-          "src": "/icon/service/bulb.png",
+          "src": "/icon/service/light.png",
           "alt": "Insight icon",
           "text": "We help brands like Maggi stay relevant, engaging, and impactful in competitive spaces."
         },
         {
-          "src": "/icon/service/glow.png",
+          "src": "/icon/service/lightning.png",
           "alt": "Creativity data merge icon",
           "text": "We merge creativity with data through SEO, PPC, and performance marketing services."
         }
@@ -139,6 +144,10 @@
     }
   },
   "nestle-polo": {
+    "title" : "Nestlé Polo “POLO Keeps You Cool” Social Media Campaign | Prakria Digital Marketing",
+    "description" :"Experience the vibrant digital revival of Nestlé Polo with Prakria’s creative 360° social media campaign, boosting brand engagement and followers through AR, animations, and humor.",
+    "keywords" : "Nestlé Polo, Digital marketing agency, Social media marketing, Digital marketing company, Digital marketing service provider ,  Content marketing, Performance marketing services, , Social media marketing agency, Digital marketing consultant, Performance marketing agency, SEO services, SEO agency, PPC marketing agencies, Social media campaigns",
+
     "herosection": {
       "title": "Nestlé Polo Social Media — “POLO Keeps You Cool”",
       "list": [
@@ -282,6 +291,10 @@
   },
 
   "nestle-munch-social-media": {
+    "title" : "Nestlé Munch “Unbelievably Loaded” Campaign | Prakria Digital Marketing",
+    "description" : "See how Prakria revitalized Nestlé Munch’s social media with the “Unbelievably Loaded” campaign, combining creative storytelling, performance marketing, and engaging content to boost brand engagement and visibility.",
+    "keywords" : " Performance marketing services, Digital marketing company, Content marketing agency, Performance marketing agency, SEO agency,  PPC marketing, Social media marketing agency, Digital marketing consultant, SEO services, PPC marketing agencies, Digital marketing service provider, Pay per click advertising agency",
+    
     "herosection": {
       "title": "Nestlé Munch Social Media — “Unbelievably Loaded” Digital Campaign",
       "list": [
@@ -427,6 +440,10 @@
     }
   },
   "unilever-dove-e-commerce": {
+    "title" : "Unilever Dove E-Commerce Success | Prakria Digital Marketing & SEO",
+    "description" :"Prakria elevates Dove’s e-commerce presence with brand-first design, SEO optimization, and performance marketing, driving sales and boosting digital shelf visibility in competitive markets.",
+    "keywords" : "Dove, Digital marketing firm, Performance marketing,  Digital marketing service provider, SEO services, Performance marketing agency, Content marketing agency, Digital marketing consultant, Digital marketing company, SEO agency, Social media marketing agency, Performance marketing services, SEO, PPC marketing agencies",
+
     "herosection": {
       "title": "Unilever Dove E-Commerce — Elevating Dove’s Digital Shelf",
       "list": [
@@ -588,6 +605,10 @@
     }
   },
   "marie-claire-e-commerce": {
+    "title" : "Marie Claire India E-Commerce | Premium Fashion & Lifestyle by Prakria",
+    "description" :"Discover Marie Claire India’s stylish online boutique created by Prakria, blending editorial elegance with a seamless shopping experience. Elevate your fashion and lifestyle choices today.",
+    "keywords" : "Marie Claire, Digital marketing agency, Digital marketing services, SEO agency, Performance marketing agency, Content marketing agency, Digital marketing service provider, Social media marketing agency, SEO services, Performance marketing services,  PPC marketing agencies",
+    
     "herosection": {
       "title": "Marie Claire E-Commerce — Fashion Meets Digital Excellence",
       "list": [
