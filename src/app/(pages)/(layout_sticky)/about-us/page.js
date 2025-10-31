@@ -56,23 +56,24 @@ function Page() {
             </span> */}
             <MDXRemote
               source={`
+                # We Love Madness at Work
 
-        # About PRAKRIA
+A well-planned and controlled madness — that’s what we’ve perfected over two decades. As a packaging design agency, our creative chaos fuels everything we do, from brand building to web designing, and even venturing into spaces like mobile game development where imagination meets innovation.
 
-We love madness at work. A well-planned and controlled madness that we’ve perfected over 2 decades. And for all the madness that goes inside creating a well-thought-of campaign or a creative, we still retain the composure by pondering over this Spiderman-thought-tweaked-as-per-us:
+And for all the madness that goes inside creating a well-thought-of campaign or a creative, we still retain our composure by pondering over this Spiderman-thought-tweaked-as-per-us:  
+> “With great design responsibility comes greater ‘Deliver on time’ responsibilities.”
 
-##### “With Great design responsibility comes greater ‘Deliver on time’ responsibilities”
+We’re big enough to incubate some of the most innovative ideas and small enough to service them personally for every client. Whether it’s a custom packaging design project that demands artistry and precision, or a high-energy digital campaign that calls for quick execution, we can go all berserk thinking out of the box for the creative ones — and come back faster than Bolt’s sprint for the deadline-oriented ones.
 
-We are big enough to incubate some of the most innovative ideas and small enough to service them personally to our clients. We can go all berserk thinking out of the box for extra creative projects and come back faster than Bolt’s sprint for deadline-oriented ones.
+There are things we always look up to and believe in —  
+**Clients. Brainstorming. Design Aesthetics. Commitments. Coffee (why not?)**
 
-#### There are things which we always look up to and believe in them-
+Then there are things you won’t find in our design studio —  
+**Panic Button. Hierarchical Slavery. Unethical Credit-Takers. Deliberate Soldiers. Irresponsible Designers… (Did we mention PANIC BUTTON?)**
 
- Clients, Brainstorming, Design Aesthetics, Commitments, Coffee (why not?)
+We thrive at the intersection of creativity and strategy — the sweet spot where great design, storytelling, and functionality meet. Whether it’s elevating brands through powerful brand building, crafting identities as a packaging design agency, designing seamless experiences through web designing, or exploring the future of engagement through mobile game development — we bring purpose, play, and precision into everything we create.
 
-#### Then there are things which you won’t find in our Design Studio-
-
- Panic Button, Hierarchal Slavery, Unethical Credit-takers, Deliberate Soldiers, Irresponsible Designers… (Did we mention PANIC BUTTON?)
-
+Because for us, **“madness” isn’t chaos — it’s our method.**
 
       `}
             />

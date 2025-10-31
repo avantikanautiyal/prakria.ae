@@ -31,21 +31,13 @@ const Home1About = () => {
                     alt=""
                   />
                   <h2>
-                    {`CATAPULT YOUR BRAND TO THE NEXT LEVEL`}
+                    {`We Are Not Your Average Agency`}
                   </h2>
                   <p>
-                    {`We are not your average agency. We specialize in creating
-                    amazing experiences that set any event or brand out from the
-                    crowd. Need a magnificent logo, a jaw-dropping 3D product
-                    design, or an innovative AR filter created? Our in-house
-                    360-degree creative powerhouse has you covered with
-                    unrivaled speed and quality. Our team of design superheroes
-                    works diligently to create high-quality, pixel-perfect
-                    designs that will leave your competitors green with envy. We
-                    believe in pushing the envelope and defying the clock, since
-                    who says you can't create beautiful designs in record time?
-                    Join the fast lane with PRAKRIA, where astonishing designs
-                    are the new norm.`}
+                    We are not your average agency — we’re a 360° creative and packaging design agency that specializes in crafting experiences that make every brand building journey unforgettable. Whether it’s a magnificent logo, a jaw-dropping 3D design, a next-gen AR filter, or a stunning digital interface through expert web designing and UI/UX design services, we make brands come alive across every touchpoint.<br /><br />
+                    Our internal creative resource delivers unparalleled speed, quality, and imagination. From custom product packaging that turn products into icons to mobile gaming that redefines interactivity—our designs capture, connect, and convert.<br /><br />
+                    Our design superheroes go above and they consistently deliver high-quality, pixel-perfect graphics that will make your competitors turn green with envy. As one of the best web developers and creative storytellers, we believe in pushing boundaries and defying the clock — because who says you can’t craft beauty and brilliance in record time?<br /><br />
+                    Join the fast lane with PRAKRIA — where astonishing design, innovative brand building, and powerful digital experiences are the new norm.
                   </p>
                 </div>
               </div>
