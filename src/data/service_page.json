@@ -257,15 +257,20 @@
       "list": [
         {
           "src": "/assets_main/services/packaging_design/1.jpg",
-          "alt": "Food packaging social campaign mockup"
+          "alt": "Food packaging social campaign mockup",
+          "link": "/portfolio-item/kitkat-love-break"
+
         },
         {
           "src": "/assets_main/services/packaging_design/2.webp",
           "alt": "Beverage packaging and social content"
+
         },
         {
           "src": "/assets_main/services/packaging_design/3.webp",
-          "alt": "Holiday packaging design preview"
+          "alt": "Holiday packaging design preview",
+          "link": "/portfolio-item/100-pipers-limited-edition"
+
         },
         {
           "src": "/assets_main/services/packaging_design/4.webp",
@@ -273,19 +278,25 @@
         },
         {
           "src": "/assets_main/services/packaging_design/5.webp",
-          "alt": "Luxury skincare e-commerce design"
+          "alt": "Luxury skincare e-commerce design",
+          "link": "/portfolio-item/quality-street-diwali-pack"
+
         },
         {
           "src": "/assets_main/services/packaging_design/6.webp",
-          "alt": "Fashion product packaging visuals"
+          "alt": "perfetti workdesk pack",
+          "link": "/portfolio-item/perfetti-workdesk-pack"
+
         },
         {
           "src": "/assets_main/services/packaging_design/7.webp",
           "alt": "Valentine’s themed package post design"
         },
         {
-          "src": "/assets_main/services/packaging_design/8.webp",
-          "alt": "Health supplement product packaging"
+          "src": "/assets_main/services/packaging_design/10/pd1.jpg",
+          "alt": "Palmolive European Treasures",
+          "link": "/portfolio-item/palmolive-european-treasures"
+
         }
       ]
     },
@@ -2001,7 +2012,9 @@
       "list": [
         {
           "src": "/assets_main/services/3d_cgi/cgi1.webp",
-          "alt": "Nestle Maggi Social Media"
+          "alt": "Nestle Maggi Social Media",
+          "link": "/portfolio-item/kohler-3d-design"
+
         },
         {
           "src": "/assets_main/services/3d_cgi/cgi2.webp",
@@ -2009,19 +2022,27 @@
         },
         {
           "src": "/assets_main/services/3d_cgi/cgi3.webp",
-          "alt": "Festive CGI Animation"
+          "alt": "Festive CGI Animation",
+          "link": "/portfolio-item/kitkat-dessert-delight-3d"
+
         },
         {
           "src": "/assets_main/services/3d_cgi/cgi4.webp",
-          "alt": "Unilever Dove Visualization"
+          "alt": "impreal blue Visualization",
+          "link": "/portfolio-item/imperial-blue-water-3d"
+
         },
         {
           "src": "/assets_main/services/3d_cgi/cgi5.gif",
-          "alt": "Marie Claire CGI Product Showcase"
+          "alt": "Marie Claire CGI Product Showcase",
+          "link": "/portfolio-item/food-cgi-reel"
+
         },
         {
           "src": "/assets_main/services/3d_cgi/cgi6.gif",
-          "alt": "Center Fresh Valentine's Day CGI"
+          "alt": "Center Fresh Valentine's Day CGI",
+          "link": "/portfolio-item/fruits-and-nuts-3d"
+
         },
         {
           "src": "/assets_main/services/3d_cgi/cgi7.gif",

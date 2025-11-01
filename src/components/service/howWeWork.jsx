@@ -14,7 +14,6 @@ function HowWeWork(props) {
 
     {/* Steps List */}
     <div className="space-y-4 container mx-auto">
-      {props?.list?.length}
       {props?.list?.map((step) => (
         <div
           key={step.count}
