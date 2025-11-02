@@ -7,7 +7,7 @@ function HowWeWork(props) {
       <h2 className="text-4xl md:text-4xl  tracking-tight mb-4">
         {props.title}
       </h2>
-      <p className="max-w-3xl mx-auto text-lg sm:text-xl text-gray-300 leading-relaxed">
+        <p className="mx-auto max-w-4xl text-sm md:text-sm sm:text-sm text-gray-300 mb-10 leading-relaxed">
         {props.description}
       </p>
     </div>

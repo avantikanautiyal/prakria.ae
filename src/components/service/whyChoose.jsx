@@ -44,7 +44,12 @@ function WhyChoose(props) {
       {props?.list?.map((feature, index) => (
         <div
           key={index}
-          className="flex flex-col items-center p-6 rounded-lg transition-all duration-300"
+          className={
+            `flex flex-col items-center p-6 transition-all duration-300 border-gray-300 
+            ${[0, 1, 2].includes(index) ? "border-b-[0.1px]" : ""} 
+            ${((index + 1) % 3 !== 0) ? "border-r-[0.1px]" : ""}
+            gap-4`
+          }
         >
           <div className="w-20 h-20  rounded-full flex items-center justify-center mb-6">
             {/* Using a large emoji for the icon, you might replace this with SVG/image icons */}

@@ -259,18 +259,15 @@
           "src": "/assets_main/services/packaging_design/1.jpg",
           "alt": "Food packaging social campaign mockup",
           "link": "/portfolio-item/kitkat-love-break"
-
         },
         {
           "src": "/assets_main/services/packaging_design/2.webp",
           "alt": "Beverage packaging and social content"
-
         },
         {
           "src": "/assets_main/services/packaging_design/3.webp",
           "alt": "Holiday packaging design preview",
           "link": "/portfolio-item/100-pipers-limited-edition"
-
         },
         {
           "src": "/assets_main/services/packaging_design/4.webp",
@@ -280,13 +277,11 @@
           "src": "/assets_main/services/packaging_design/5.webp",
           "alt": "Luxury skincare e-commerce design",
           "link": "/portfolio-item/quality-street-diwali-pack"
-
         },
         {
           "src": "/assets_main/services/packaging_design/6.webp",
           "alt": "perfetti workdesk pack",
           "link": "/portfolio-item/perfetti-workdesk-pack"
-
         },
         {
           "src": "/assets_main/services/packaging_design/7.webp",
@@ -296,7 +291,6 @@
           "src": "/assets_main/services/packaging_design/10/pd1.jpg",
           "alt": "Palmolive European Treasures",
           "link": "/portfolio-item/palmolive-european-treasures"
-
         }
       ]
     },
@@ -345,25 +339,25 @@
           "id": "Retail-Packaging-Design",
           "name": "Retail Packaging Design",
           "title": "Retail Packaging Design",
-          "description": "We create retail packaging that strengthens brand recall and drives sales through shelf impact, strategic design, and brand consistency."
+          "description": "In retail, packaging plays the most important role. Sometimes it is the factor deciding the purchase between browsing further or leaving. Our retail packaging design is perfect for companies as it merges the visuals with the messaging and hence direct consumer attention is the result. Whatever the product be e.g., electronics, lifestyle or FMCG, with our creative packaging design your brand is the first brand that comes out as the customer’s choice in the market."
         },
         {
           "id": "Luxury-Packaging-Design",
           "name": "Cosmetic & Luxury Packaging Design",
           "title": "Cosmetic & Luxury Packaging Design",
-          "description": "Our luxury packaging blends sophistication and storytelling to enhance perceived value — perfect for cosmetics, perfumes, and premium goods."
+          "description": "Beauty and luxury are synonyms of packages that demand elegant and outstanding qualities. Our cosmetic packaging and luxury packaging design are all about high-end materials, tactile finishes, and minimalist elegance. We are working on making products of the perfume and skincare industry create a feeling of indulgence and reminiscence for the users."
         },
         {
           "id": "Custom-Packaging-Design",
           "name": "Custom Packaging Design",
           "title": "Custom Packaging Design",
-          "description": "We tailor designs to match your product’s story, category, and audience — delivering unique, memorable brand experiences."
+          "description": "There are several product properties with different needs, for example, size, weight, fragility, perishability, etc. Our custom packaging design services are definitely the perfect solution for brands who want to not only create attractive packaging but also ensure the packaging they use matches their brand identity, product dimensions, and customer target. Structural innovations, package label design, and package logo design are among the services that we do for you to blend the packaging with your brand."
         },
         {
           "id": "Sustainable-Packaging-Design",
           "name": "Sustainable Packaging Design",
           "title": "Sustainable Packaging Design",
-          "description": "Eco-friendly packaging solutions that minimize waste and promote sustainable practices without compromising appeal."
+          "description": "People these days are more environmentally conscious and prefer brands with whom they can share their concerns. We are a company specialized in designing sustainable packages that leave behind less waste, make use of recyclable materials, and are aesthetically pleasing and functional at the same time. It is packaging with a mission that is both good for your brand and the planet."
         }
       ]
     },
@@ -389,12 +383,12 @@
         {
           "count": "04",
           "title": "Testing & Refinement",
-          "description": "We assess usability, shelf impact, and consumer response — refining until perfection."
+          "description": "We evaluate usability, shelf impact, and consumer response, refining until perfection."
         },
         {
           "count": "05",
           "title": "Final Delivery",
-          "description": "We ensure final designs are production-ready, consistent, and aligned with your brand standards."
+          "description": " As a trusted packaging design company, we ensure the final designs are production-ready and consistent across formats."
         }
       ]
     },
@@ -404,7 +398,7 @@
       "list": [
         {
           "description": "Decades of Experience – With 20+ years in design, we bring unmatched expertise to every project.",
-          "src": "/icon/service/flash.png"
+          "src": "/icon/service/render.png"
         },
         {
           "description": "Global Brands Trust Us – We’ve worked with Nestlé, Burger King, Pernod Ricard, and more.",
@@ -426,27 +420,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Got questions? We’ve got answers. Check out our frequently asked questions to learn more about our packaging design process, timelines, and services.",
+      "description": "Got questions? We've got answers. Check out our frequently asked questions section to find valuable insights into our processes, pricing, and more. Transparency is at the core of our client interactions.",
       "list": [
         {
           "question": "Why should I invest in professional packaging design?",
-          "answer": "Because the first impression is often through packaging. Professional packaging designers ensure your product looks great, resonates with your audience, and sells."
+          "answer": "Because the first impression is often through packaging. Professional packaging designers not only make your product look good but also ensure that it resonates with your target audience and sells."
         },
         {
           "question": "Do you handle both design and production?",
-          "answer": "Yes, we oversee the entire process — from creative design to production coordination, ensuring quality and consistency."
+          "answer": "We are mainly a packaging design company, but we have the support of valued production partners who can guarantee smooth execution."
         },
         {
           "question": "Can you create eco-friendly packaging?",
-          "answer": "Absolutely. We specialize in sustainable design solutions that reduce environmental impact."
+          "answer": "Yes, our sustainable packaging design solutions use recyclable and biodegradable materials without compromising on creativity or functionality."
         },
         {
           "question": "How long does a packaging design project take?",
-          "answer": "The timeline depends on project complexity, but typically ranges from 2 to 6 weeks from concept to delivery."
+          "answer": "Depending on complexity, most projects take 4–8 weeks from concept to final design."
         },
         {
           "question": "Do you provide custom packaging design for startups?",
-          "answer": "Yes, we love working with startups to create impactful packaging that helps them stand out in competitive markets."
+          "answer": "Indeed. We deal with companies of all sizes — from start-ups to multinational organizations — delivering specialized packaging design tailored to their requirements and financial budget."
         }
       ]
     }
@@ -541,25 +535,25 @@
           "id": "Logo-Design",
           "name": "Logo Design Services",
           "title": "Logo Design Services",
-          "description": "Logo design that expresses your story, connects emotionally, and stays timeless in audience memory."
+          "description": "Your logo is the face of your brand. With our logo design services, we craft symbols that are simple, timeless, and impactful. As a creative marketing agency, we know your logo isn’t just design — it’s storytelling in a single mark."
         },
         {
           "id": "Visual-Identity",
           "name": "Visual Identity & Brand Guidelines",
           "title": "Visual Identity & Brand Guidelines",
-          "description": "We build cohesive visual systems and guidelines to ensure brand consistency across every medium."
+          "description": "From typography to color palettes, we build cohesive design systems that ensure consistency across touchpoints. Our creative logo design services go hand-in-hand with brand manuals that keep every communication aligned."
         },
         {
           "id": "Brand-Campaigns",
           "name": "Brand Building Campaigns",
           "title": "Brand Building Campaigns",
-          "description": "Creative campaigns that bring your brand to life through storytelling, advertising, and social media engagement."
+          "description": "We don’t just design; we execute. Our brand building campaigns include brand promotion, digital content, social media storytelling, and offline activations to give your brand life. As one of the most trusted brand promotion companies, we make sure your identity doesn’t just exist — it performs."
         },
         {
           "id": "Marketing-Strategy",
           "name": "Branding and Marketing Strategy",
           "title": "Branding and Marketing Strategy",
-          "description": "Comprehensive marketing and branding strategy that connects business objectives with customer engagement and measurable growth."
+          "description": "We connect branding and marketing strategy to ensure that your identity isn’t just beautiful but also profitable. By aligning creative design with measurable campaigns, we give your brand both a voice and a growth engine."
         }
       ]
     },
@@ -600,7 +594,7 @@
       "list": [
         {
           "description": "Two Decades of Expertise — We’ve worked with global and local brands across industries.",
-          "src": "/icon/service/flash.png"
+          "src": "/icon/service/render.png"
         },
         {
           "description": "Holistic Approach — We combine brand strategy, logo design, and brand promotion into one seamless journey.",
@@ -630,19 +624,19 @@
         },
         {
           "question": "Do you only do logo design?",
-          "answer": "No. We provide full-scale branding solutions — from brand strategy to campaigns and marketing collateral."
+          "answer": "No. Our logo design services are part of our complete brand-building offering. We take care of branding and marketing strategy. From research to design, we got you covered."
         },
         {
           "question": "How long does it take to build a brand?",
-          "answer": "Depending on scope and deliverables, a branding project can take 4 to 10 weeks, including research, design, and implementation."
+          "answer": "It varies. While a basic logo design can be achieved within weeks, a full brand strategy project might take 8-12 weeks."
         },
         {
           "question": "Do you work with startups?",
-          "answer": "Yes, we love collaborating with startups to help them create strong, scalable brand identities from the ground up."
+          "answer": "As we have a client cost-effective creative logo design services, many of our clients are startups. We tend to be their branding consultant to help them a strong start. "
         },
         {
           "question": "Can you handle brand promotion?",
-          "answer": "Absolutely. We design and execute campaigns that enhance your brand visibility and engagement across digital and offline channels."
+          "answer": "For sure! We are one of the competent brand promotion organizations and we are in charge of the campaigns, activations, and digital approaches that expand the reach of your brand. We would love to build your brand."
         }
       ]
     }
@@ -739,13 +733,13 @@
           "id": "Poster-Design-Printing",
           "name": "Poster Design & Printing",
           "title": "Poster Design & Printing",
-          "description": "Eye-catching posters designed and printed to make your campaigns stand out across retail, events, and outdoor media."
+          "description": "Posters are still among the best ways to deliver an event, retail, or promotions message. We do poster design & print that grabs attention — whether in high-traffic streets, shop windows, or exhibitions. Daring designs, powerful imagery, and concise calls-to-action make your posters hard to look away from."
         },
         {
           "id": "Catalogue-Design-Printing",
           "name": "Catalogue Design & Printing",
           "title": "Catalogue Design & Printing",
-          "description": "We craft catalogues that showcase your products with clarity and style, balancing information with visual storytelling."
+          "description": "A catalogue is not just a list of products; it's a brand presentation. Our catalogue design & printing solutions develop compelling layouts that showcase your products while sharing your brand story. From retail catalogues to high-end brochures, we ensure each page welcomes customers to discover and buy."
         },
         {
           "id": "Brochures-Flyers",
@@ -757,13 +751,13 @@
           "id": "Corporate-Print-Media",
           "name": "Corporate & Retail Print Media Designs",
           "title": "Corporate & Retail Print Media Designs",
-          "description": "Corporate reports, retail ads, packaging inserts, and other printed materials tailored to your branding and communication goals."
+          "description": "From business cards and annual reports to in-store signs and banners, our print media designs blend professionalism with creativity. We make sure that your corporate identity remains consistent on all printed materials."
         },
         {
           "id": "Sustainable-Printing",
           "name": "Sustainable Printing Solutions",
           "title": "Sustainable Printing Solutions",
-          "description": "Eco-friendly print solutions that minimize environmental impact without compromising on print quality or creativity."
+          "description": "People these days are more environmentally conscious and prefer brands with whom they can share their concerns. We are a company specialized in designing sustainable packages that leave behind less waste, make use of recyclable materials, and are aesthetically pleasing and functional at the same time. It is packaging with a mission that is both good for your brand and the planet."
         }
       ]
     },
@@ -834,19 +828,19 @@
         },
         {
           "question": "Do you only design, or also manage printing?",
-          "answer": "We handle both — from creative concept to final printed delivery, ensuring your brand’s message is communicated flawlessly."
+          "answer": "We do both. Being a full-service printing agency, we design as well as coordinate with printing houses for ensuring quality output."
         },
         {
           "question": "How fast can you deliver?",
-          "answer": "Our production timelines are flexible and efficient. Depending on scope, most print campaigns are delivered within a few business days."
+          "answer": "The timelines vary with the scope of the project but we are known for delivering on time even if the deadline is tight and without compromising the quality."
         },
         {
           "question": "Is print advertising still effective in the digital age?",
-          "answer": "Yes. Print continues to create credibility, tangibility, and impact — working best when integrated with digital campaigns."
+          "answer": "Definitely. Print advertising establishes credibility and makes a real impression. When used in conjunction with online strategies, it works even better."
         },
         {
           "question": "Can you provide eco-friendly printing options?",
-          "answer": "Absolutely. We offer sustainable materials, inks, and processes to reduce environmental impact while maintaining print quality."
+          "answer": "Yes, our sustainable printing solutions include the use of eco-friendly inks, recycled materials, and processes that lower the environmental impact."
         }
       ]
     }
@@ -1065,7 +1059,6 @@
       ]
     }
   },
-
   "/films-animation-vfx": {
     "heroSection": {
       "title": "Films, Animation & VFX – Stories That Captivate",
@@ -1169,37 +1162,78 @@
           "id": "video-production",
           "name": "Video Production & Creation",
           "title": "Video Production & Creation",
-          "description": "From brand films and explainer videos to campaign ads and social-first content, we plan, shoot, and produce video tailored for your audience and platforms."
+          "description": "Our video production services cater to businesses that desire content that informs, inspires, and converts. As one of the top video production companies, we provide the following:",
+          "focusAreas": [
+            "Explainer videos",
+            "Training and education videos",
+            "Product launch and demo videos",
+            "Testimonial and case study videos"
+          ],
+          "closingNote": "As a video production house, we’re here to support and facilitate execution from concept to delivery."
         },
         {
           "id": "video-editing",
           "name": "Video Editing",
           "title": "Video Editing",
-          "description": "Our editing team transforms raw footage into compelling narratives with pacing, mood, story flow, sound design, and motion graphics."
+          "description": "It is in the editing room where the magic happens. At PRAKRIA, a video editing company that you can trust, our skilled editors understand how to create flow, rhythm, and emotional pull. ",
+          "focusAreas": [
+            "Color correction and color grading",
+            "Sound design and sound mixing",
+            "Integrating visual effects",
+            "Editing the story for maximum engagement"
+          ],
+          "closingNote": "With each cut, transition, and effect, we craft each piece of content into a compelling story."
         },
         {
           "id": "animation-services",
           "name": "Animation Services",
           "title": "Animation Services",
-          "description": "We deliver 2D/3D animation, character animation, motion design, and animated explainer content that makes ideas unforgettable."
+          "description": "As a comprehensive animation studio, we provide imaginative animations that make creativity tangible.",
+          "focusAreas": [
+            "2D animation studio: explainer, infographics, tutorials",
+            "3D animation studio: product visualizations, character animations, walkthroughs",
+            "Flash animation for interactive projects",
+            "Capabilities as a full-service animation video production company"
+          ],
+          "closingNote": "Our animations take complex concepts and make them simple, engaging, and memorable."
         },
         {
           "id": "motion-graphics",
           "name": "Motion Graphics Studio",
           "title": "Motion Graphics Studio",
-          "description": "High-impact motion graphics and visual storytelling for intros, promos, campaign assets, digital ads, and product explainers."
+          "description": "Motion graphics take conventional images to another level with movement, energy, and impact. At PRAKRIA, our motion graphics studio creates animated sequences that effectively amplify communication.",
+          "focusAreas": [
+            "Title animations and openers",
+            "Animated infographics",
+            "Marketing and social content",
+            "Visual enhancements for presentations"
+          ],
+          "closingNote": "As a motion graphics company, we also have a reputation for pushing the creative visual design boundaries in unexpected ways."
         },
         {
           "id": "vfx",
           "name": "Visual Effects (VFX)",
           "title": "Visual Effects (VFX)",
-          "description": "Cinematic VFX, compositing, and enhancements that elevate production value — from subtle polish to full-blown spectacle."
+          "description": "PRAKRIA, being one of the leading VFX companies, merges artistry with advanced technology to produce cinematic masterpieces.",
+          "focusAreas": [
+            "Effortless compositing.",
+            "CGI and 3D integratio",
+            "Simulations and effects (fire, water, particles)",
+            "Green screen replacement"
+          ],
+          "closingNote": "The magic of our VFX studio ultimately lies in the skill of the VFX artists & technologists who make the impossible happen."
         },
         {
           "id": "multimedia",
           "name": "Multimedia Services",
           "title": "Multimedia Services",
-          "description": "Integrated multimedia campaigns combining film, animation, graphics, and interactive content for omni-channel brand storytelling."
+          "description": "We are more than a video production company — we are a multimedia agency with a range of services that combine brand strategy, storytelling, and design. ",
+          "focusAreas": [
+            "UI/UX videos to demonstrate products ",
+            "Training and e-learning resources ",
+            "Event and trade show videos ",
+            "Cross-platform multimedia campaigns"
+          ]
         }
       ]
     },
@@ -1275,19 +1309,19 @@
         },
         {
           "question": "What types of video production services do you provide?",
-          "answer": "We cover concept, scripting, production, editing, animation, VFX, and campaign-ready deliverables."
+          "answer": "We provide everything from brand films and product demos to explainers, training videos, as well as motion graphics studio projects."
         },
         {
           "question": "Can you conduct editing from start to finish?",
-          "answer": "Yes. Our post-production team handles full editing, motion graphics, sound design, and finishing to final delivery."
+          "answer": "Absolutely. As a leading video editing company, we provide full editing services including sound, VFX, and motion graphics."
         },
         {
           "question": "Do you do 2-dimensional and 3-dimensional animation?",
-          "answer": "We offer both 2D animation and 3D animation services, depending on your visual style, platform, and storytelling needs."
+          "answer": "Yes. Our 2D animation studio creates explainer videos, while our 3D animation studio specifically creates realistic product and character animation. "
         },
         {
           "question": "Do you offer multimedia campaigns?",
-          "answer": "Absolutely. We create integrated multimedia assets across film, animation, graphics, and social formats to ensure consistency and reach."
+          "answer": "Yes. As a multimedia company, we uniquely integrate film, animation, and digital content in campaigns."
         }
       ]
     }
@@ -1413,43 +1447,79 @@
           "id": "character-illustration",
           "name": "Character Illustration",
           "title": "Character Illustration",
-          "description": "Our character illustrators design unique, expressive characters that enhance storytelling for campaigns, mascots, or brand identity."
+          "description": "Characters can personify brand personality. Our character illustration services realize mascots, icons, and personalities.",
+          "focusAreas": [
+            "Brand mascots",
+            "Characters for marketing campaigns",
+            "Social media avatars",
+            "Character assets for animation"
+          ]
         },
         {
           "id": "digital-illustration",
           "name": "Digital Illustration",
           "title": "Digital Illustration",
-          "description": "We create digital illustrations for web, print, and social — from stylized vector designs to complex digital paintings."
+          "description": "Our digital illustration services balance creativity and technology. Whether you need vector illustrations for scalability purposes or detailed art illustrations, we are capable of creating all digital illustrations for print and digital media.",
+          "focusAreas": [
+            "Vector illustrations for logo, icons, and infographics",
+            "Art illustrations for campaigns, stylized",
+            "Detailed illustrations for editorial and advertising"
+          ]
         },
         {
           "id": "concept-art",
           "name": "Concept Art & Illustration",
           "title": "Concept Art & Illustration",
-          "description": "Our artists bring ideas to life through concept art and visualization for branding, gaming, or advertising applications."
+          "description": "Every great campaign or great narrative begins with an idea. Our concept art & illustration team brings abstract ideas to visual forms, allowing you to align creative direction.",
+          "focusAreas": [
+            "Animation storyboarding",
+            "Environment and background design",
+            "Film or game concept art",
+            "Mockups for brand campaigns"
+          ]
         },
         {
           "id": "2d-3d-illustration",
           "name": "2D & 3D Illustration",
           "title": "2D & 3D Illustration",
-          "description": "We deliver both 2D and 3D illustrations for editorial layouts, product visualization, and immersive storytelling."
+          "description": "From flat, one-dimensional designs to fully immersive works of art, we can create both 2D & 3D illustrations to bring depth and dimensionality to your storytelling and communication.",
+          "focusAreas": [
+            "2D illustration for children's books, comics, and explainers",
+            "3D illustration for product demos, architecture, or AR/VR applications"
+          ]
         },
         {
           "id": "hand-drawn",
           "name": "Hand-Drawn Illustration",
           "title": "Hand-Drawn Illustration",
-          "description": "From sketch to final form, our artists craft hand-drawn illustrations that evoke emotion and authenticity."
+          "description": "In a world of pixelated graphics and digital truth-telling, a hand-drawn illustration adds warmth, authenticity, and a human touch.",
+          "focusAreas": [
+            "Sketching for branding",
+            "Artistic posters/prints",
+            "Bespoke stationery and packaging"
+          ]
         },
         {
           "id": "infographic",
           "name": "Infographic Illustration",
           "title": "Infographic Illustration",
-          "description": "We design visually clear, data-driven infographics that simplify information while retaining creative flair."
+          "description": "When information is well visualized, information becomes powerful. Our infographic illustration services transform complex data into digestible, clear, shareable, and stunning visuals. ",
+          "focusAreas": [
+            "Corporate presentations",
+            "Social media infographic/post ",
+            "Reports / White papers"
+          ]
         },
         {
           "id": "animation-illustration",
           "name": "Animation & Illustration",
           "title": "Animation & Illustration",
-          "description": "Our illustration team collaborates with animation experts to create motion-ready visuals and character-driven content."
+          "description": "As a creative illustration studio, we also integrate animation & illustration for motion graphics, explainer videos, storytelling campaigns, and more. ",
+          "focusAreas": [
+            "Animated illustrations for social media graphics/posts",
+            "Motion graphics & branding assets"
+          ],
+          "closingNote": "Integration with our animation studio to create the video."
         }
       ]
     },
@@ -1520,19 +1590,19 @@
         },
         {
           "question": "Do you provide both 2D and 3D illustrations?",
-          "answer": "Yes, our team offers both 2D and 3D illustration services for editorial, advertising, and product applications."
+          "answer": "We do, we offer both 2D Illustration as well as 3D Illustration based on your project’s preferences."
         },
         {
           "question": "Can you create illustrations for branding?",
-          "answer": "Absolutely. We design branding illustrations that align with your visual identity, packaging, and marketing materials."
+          "answer": "Certainly, we specialize in branding illustrations that represent your brand while creating brand recall."
         },
         {
           "question": "Do you provide custom characters?",
-          "answer": "Yes. Our character illustrators specialize in creating original characters tailored to your campaign or brand personality."
+          "answer": "Yes. Our character illustration services include mascots, icons, and animation-ready assets."
         },
         {
           "question": "Do you integrate illustration with animation?",
-          "answer": "Yes. We collaborate with our animation team to bring illustrated assets to life through engaging motion content."
+          "answer": "Yes. We frequently combine animation and illustration to develop explainer videos, campaigns, and multimedia storytelling."
         }
       ]
     }
@@ -1630,49 +1700,98 @@
           "name": "Website Designing",
           "icon": "",
           "title": "Website Designing",
-          "description": "High-impact visual web design that communicates clearly, supports your brand, and builds trust."
+          "description": "At the core of user involvement is designing. As a creative agency that designs websites, we want to ensure that we produce beautiful website designs that are usable and user-friendly.",
+          "focusAreas": [
+            "Modern layouts and custom branding.",
+            "Responsive website design that looks great on all screen sizes.",
+            "Simple to navigate, which increases user involvement.",
+            "Interactive features that help convert profits."
+          ],
+          "closingNote": "Our website design will help ensure that your digital presence indicates the personality of your brand."
         },
         {
           "id": "uiux",
           "name": "UI/UX Design Services",
           "icon": "",
           "title": "UI/UX Design Services",
-          "description": "User-first interfaces and seamless digital journeys that make products intuitive and conversion-focused."
+          "description": "We are a fully dedicated UI/UX design agency that creates meaningful, memorable, and easy interactions between your users and your website. ",
+          "focusAreas": [
+            "Wireframes and prototypes",
+            "Intuitive navigation systems",
+            "Co-oriented layouts",
+            "Interactive user journeys "
+          ],
+          "closingNote": "The best UI/UX design services make certain your customers not only view your website, but also enjoy it."
         },
         {
           "id": "ecommerce",
           "name": "E-commerce Website Development",
           "icon": "",
           "title": "E-commerce Website Development",
-          "description": "Scalable online stores built for performance, usability, and sales."
+          "description": "We are a team of experienced e-commerce website development professionals who provide customized solutions for selling online. ",
+          "focusAreas": [
+            "E-commerce web design with easy and efficient shopping flows.",
+            "Payment gateway integration. ",
+            "Inventory and order management systems.",
+            "Check-out systems that are tailored to help increase sales."
+          ],
+          "closingNote": "Whether you want to build a store for a startup or an enterprise-level solution, our e-commerce website design company will help."
         },
         {
           "id": "shopify",
           "name": "Shopify Development Services",
           "icon": "",
           "title": "Shopify Development Services",
-          "description": "Custom Shopify storefronts, themes, and optimizations for DTC growth."
+          "description": "Want to launch your online store quickly and without the hassle? Our Shopify development services help you build an e-commerce platform that’s not only secure and scalable but also designed to look great and perform even better..",
+          "focusAreas": [
+            "Custom Shopify theme design ",
+            "App integrations and blockchain development ",
+            "Migration and upgrades ",
+            "Ongoing maintenance and support "
+          ],
+          "closingNote": "We are here to help you unlock the potential of Shopify for easy e-commerce success."
         },
         {
           "id": "wordpress",
           "name": "WordPress Development Services",
           "icon": "",
           "title": "WordPress Development Services",
-          "description": "Flexible, content-driven WordPress development with custom themes, CMS tuning, and optimization."
+          "description": "With more than 40% of the web built on WordPress, your website will be secure, fast, and easy to manage with our team of custom WordPress developers. ",
+          "focusAreas": [
+            "Custom themes and plugins",
+            "Custom themes and plugins",
+            "Training your team on the content management system",
+            "Solutions that are secure and scalable"
+          ],
+          "closingNote": "As a trusted partner in WordPress development service delivery, we help businesses create a flexible content-incentive web domain that can be scaled as your business grows."
         },
         {
           "id": "app-dev",
           "name": "App Development Company",
           "icon": "",
           "title": "App Development Company",
-          "description": "Mobile and web app development to extend your product experience beyond the browser."
+          "description": "In today's digital-centered ecosystem, web and mobile co-requirements. As a mobile applications development company, we extend your brand beyond the web. ",
+          "focusAreas": [
+            "iOS and Android app development",
+            "Cross-platform solutions",
+            "App integration to websites and systems",
+            "UI/UX design for mobile experiences"
+          ],
+          "closingNote": "We complete your entire digital presence by bridging the gap between web and mobile."
         },
         {
           "id": "static-sites",
           "name": "Static Website Services",
           "icon": "",
           "title": "Static Website Services",
-          "description": "Ultra-fast static sites for campaigns, launches, and high-performance marketing use cases."
+          "description": "For companies wanting a straightforward online presence, we also offer very fast, reliable, and affordable static website services, including:",
+          "focusAreas": [
+            "Landing Pages",
+            "Event or Campaign Microsites",
+            "Personal Portfolio Websites",
+            "Small Business Websites"
+          ],
+          "closingNote": "These are ideal solutions for companies seeking a simple, professional, lightweight web design and development option."
         }
       ]
     },
@@ -1753,19 +1872,19 @@
         },
         {
           "question": "Do you develop E-commerce websites?",
-          "answer": "Yes — we build performance-focused online stores with scalability, usability, and conversion in mind."
+          "answer": "Definitely. As an e-commerce website development company, we develop online stores with responsive designs and easy management."
         },
         {
           "question": "Do you customize WordPress websites?",
-          "answer": "Absolutely. We design and develop custom WordPress themes and experiences tailored to your brand and content needs."
+          "answer": "Certainly. Our custom WordPress developers provide tailored solutions, including advanced features."
         },
         {
           "question": "Do you develop mobile apps?",
-          "answer": "Yes, we also build mobile applications to extend your digital presence across platforms."
+          "answer": "Yes. We are also a mobile app development company providing a mobile app experience across devices"
         },
         {
           "question": "Are your websites usable on mobile devices?",
-          "answer": "Every experience we build is responsive and mobile-friendly by default so your audience can interact from any device."
+          "answer": "Sure. All sites are developed using responsive website design to be usable on any device."
         }
       ]
     }
@@ -1865,17 +1984,22 @@
           "name": "2D Animation & Motion Graphics",
           "icon": "",
           "title": "2D Animation & Motion Graphics",
-          "description": "",
+          "description": "Classic yet powerful, 2D animation remains one of the best ways to tell stories with charm and clarity. We specialize in:",
           "focusAreaTitle": "",
-          "focusAreas": [],
-          "closingNote": ""
+          "focusAreas": [
+            "Explainer videos",
+            "Infographics and educational animations",
+            "Advertising campaigns with creative animation",
+            "Short films and storytelling sequences"
+          ],
+          "closingNote": "Our animated video creation services simplify complex messages and make them engaging for any audience."
         },
         {
           "id": "vfx-sfx",
           "name": "VFX Animation & Special Effects",
           "icon": "",
           "title": "VFX Animation & Special Effects",
-          "description": "",
+          "description": "Make the impossible possible with VFX that simply amaze you to no end. Whatever it is—movie effects or product unveiling videos—'visually stunning' is the keyword with our team.Such a process involves blending real shots with PC-aided graphics to produce a flawless, impressive visual.",
           "focusAreaTitle": "",
           "focusAreas": [],
           "closingNote": ""
@@ -1885,30 +2009,45 @@
           "name": "Game Development",
           "icon": "",
           "title": "Game Development",
-          "description": "",
+          "description": "Gaming is one of the most engaging forms of entertainment and brand interaction. Our game development services cover everything from concept to launch.",
           "focusAreaTitle": "",
-          "focusAreas": [],
-          "closingNote": ""
+          "focusAreas": [
+            "Mobile game development for iOS and Android",
+            "Immersive storytelling and character design",
+            "Gamification for education, training, or marketing",
+            "Integration with AR and VR experiences"
+          ],
+          "closingNote": "We don’t just build games — we build interactive journeys that keep users coming back."
         },
         {
           "id": "vr-dev",
           "name": "Virtual Reality Development",
           "icon": "",
           "title": "Virtual Reality Development",
-          "description": "",
+          "description": "Enter a new world with our virtual reality development skills. We design engaging experiences that immerse users into interactive 3D environments.",
           "focusAreaTitle": "",
-          "focusAreas": [],
-          "closingNote": ""
+          "focusAreas": [
+            "VR simulations for training and education",
+            "Product demonstrations in virtual reality",
+            "Entertainment and gaming experiences",
+            "Enterprise solutions for real estate, healthcare, or manufacturing"
+          ],
+          "closingNote": "When you partner with PRAKRIA, you partner with one of the most creative VR development teams ready to redefine user engagement."
         },
         {
           "id": "ar-dev",
           "name": "Augmented Reality App Development",
           "icon": "",
           "title": "Augmented Reality App Development",
-          "description": "",
+          "description": "Blend the digital with the real world. Our augmented reality app development solutions bring interactive layers to everyday experiences.",
           "focusAreaTitle": "",
-          "focusAreas": [],
-          "closingNote": ""
+          "focusAreas": [
+            "AR shopping experiences",
+            "Interactive product packaging",
+            "AR games and entertainment",
+            "Training and learning applications"
+          ],
+          "closingNote": "We specialize in AR VR app development that connects with audiences in innovative ways, delivering both function and wow factor."
         }
       ]
     },
@@ -1984,19 +2123,19 @@
         },
         {
           "question": "Do you provide complete animated video creation services?",
-          "answer": ""
+          "answer": "Yes. From scriptwriting and storyboarding to design, animation, and editing, we provide end-to-end animated video creation services."
         },
         {
           "question": "What industries benefit from AR VR development?",
-          "answer": ""
+          "answer": "Almost every industry — retail, healthcare, education, entertainment, and real estate — can use ar vr development to create engaging experiences."
         },
         {
           "question": "Can you create mobile games?",
-          "answer": ""
+          "answer": "Yes. Our mobile game development services include concept design, programming, and publishing across platforms."
         },
         {
           "question": "Do you provide both AR and VR development?",
-          "answer": ""
+          "answer": "Absolutely. We specialize in augmented reality app development, virtual reality development, and complete ar vr app development projects.Let’s Create the Future Together"
         }
       ]
     }
@@ -2014,7 +2153,6 @@
           "src": "/assets_main/services/3d_cgi/cgi1.webp",
           "alt": "Nestle Maggi Social Media",
           "link": "/portfolio-item/kohler-3d-design"
-
         },
         {
           "src": "/assets_main/services/3d_cgi/cgi2.webp",
@@ -2024,25 +2162,21 @@
           "src": "/assets_main/services/3d_cgi/cgi3.webp",
           "alt": "Festive CGI Animation",
           "link": "/portfolio-item/kitkat-dessert-delight-3d"
-
         },
         {
           "src": "/assets_main/services/3d_cgi/cgi4.webp",
           "alt": "impreal blue Visualization",
           "link": "/portfolio-item/imperial-blue-water-3d"
-
         },
         {
           "src": "/assets_main/services/3d_cgi/cgi5.gif",
           "alt": "Marie Claire CGI Product Showcase",
           "link": "/portfolio-item/food-cgi-reel"
-
         },
         {
           "src": "/assets_main/services/3d_cgi/cgi6.gif",
           "alt": "Center Fresh Valentine's Day CGI",
           "link": "/portfolio-item/fruits-and-nuts-3d"
-
         },
         {
           "src": "/assets_main/services/3d_cgi/cgi7.gif",
@@ -2082,6 +2216,7 @@
     },
     "ourCore": {
       "title": "Our 3D & CGI Services",
+      "description": "At Prakria, we combine artistry with technology to create visuals that don’t just look good — they connect.",
       "list": [
         {
           "id": "modeling",
@@ -2099,31 +2234,58 @@
           "id": "animation",
           "name": "CGI & 3D Animation",
           "title": "CGI & 3D Animation",
-          "description": "We bring imagination to life through motion. From character animation to cinematic product films, our 3D artists deliver realism and emotion in every frame."
+          "description": "We bring imagination to life through motion. From character animation to cinematic product films, our 3D artists deliver realism and emotion in every frame.",
+          "focusAreas": [
+            "Cinematic 3D animation sequences",
+            "Product explainers and technical videos",
+            "Realistic texturing, shading, and lighting",
+            "Campaign visuals that grab attention"
+          ]
         },
         {
           "id": "motion",
           "name": "Motion Graphics, 2D Animation & Compositing",
           "title": "Motion Graphics, 2D Animation & Compositing",
-          "description": "We create compelling visuals and dynamic storytelling through seamless integration of motion design, 2D animation, and compositing."
+          "description": "We create compelling visuals and dynamic storytelling through seamless integration of motion design, 2D animation, and compositing.",
+          "focusAreas": [
+            "Animated infographics and brand stories",
+            "Motion graphics for digital and corporate films",
+            "CGI compositing for seamless visuals"
+          ]
         },
         {
           "id": "architecture",
           "name": "Architectural CGI & Walkthroughs",
           "title": "Architectural CGI & Walkthroughs",
-          "description": "We design photorealistic architectural renderings and walkthroughs that help clients visualize spaces before they are built."
+          "description": "We design photorealistic architectural renderings and walkthroughs that help clients visualize spaces before they are built.",
+          "focusAreas": [
+            "Exterior and interior 3D renders",
+            "Lighting and material exploration",
+            "Immersive spatial animation"
+          ]
         },
         {
           "id": "advertising",
           "name": "Product Visualization & Advertising CGI",
           "title": "Product Visualization & Advertising CGI",
-          "description": "From commercials to promotional visuals, we deliver product imagery that grabs attention and inspires audiences."
+          "description": "From commercials to promotional visuals, we deliver product imagery that grabs attention and inspires audiences.",
+          "focusAreas": [
+            "High-resolution packshots and renderings",
+            "Exploded views and animation breakdowns",
+            "Launch films and digital ads",
+            "Interactive 3D demos"
+          ]
         },
         {
           "id": "vfx",
           "name": "VFX Animation & Post-Production",
           "title": "VFX Animation & Post-Production",
-          "description": "We add the finishing touches with industry-leading rendering engines and post-production techniques that make visuals look ultra-realistic."
+          "description": "We add the finishing touches with industry-leading rendering engines and post-production techniques that make visuals look ultra-realistic.",
+          "focusAreas": [
+            "Real footage enhanced with CGI",
+            "Visual effects for film and digital",
+            "Tracking, compositing, and color grading"
+          ]
         }
       ]
     },
@@ -2169,37 +2331,31 @@
         {
           "title": "Decades of Creative Expertise",
           "src": "/icon/service/lightning.png",
-
           "description": "More than 20 years of experience. The marriage of creativity and technology has been our faith for so long that brands would get noticed."
         },
         {
           "title": "Broad Range of Skills",
           "src": "/icon/service/fire.png",
-
           "description": "In-house we perform everything from 3D modeling, 3D animation, VFX animation, and 2D animation."
         },
         {
           "title": "World-Class Quality",
           "src": "/icon/service/light.png",
-
           "description": "The standard of our 3D animation services is globally tuned on with no difference for both cinema and commercials."
         },
         {
           "title": "Choice of Top-Notch Brands",
           "src": "/icon/service/users.png",
-
           "description": "Powerful visual communication is the reason for collaboration with companies like Nestlé, Burger King, and Pernod Ricard among a few others."
         },
         {
           "title": "Imagination is Our Main Aspect",
           "src": "/icon/service/star.png",
-
           "description": "Always ahead of the trends, our team is constantly using the latest technologies and techniques for producing creative and effective content."
         },
         {
           "title": "3D Modeling",
           "src": "/icon/service/star.png",
-
           "description": "3D modeling is the basis of photorealism in every major CGI project. Our characters are conceived to be lifelike, realistic, and rich in character."
         }
       ]
