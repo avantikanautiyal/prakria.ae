@@ -1,485 +1,578 @@
 {
-    "kohler-vibrant-brochure": {
-        "title" : "Kohler Vibrant Collection Brochure | Luxury Print Advertising by Prakria",
-        "description" : "Prakria created the Kohler Vibrant Collection brochure, blending hyper-realistic 3D visuals with premium print craftsmanship to deliver a tactile, luxurious brand experience for showrooms and B2B.",
-        "keywords" : "Kohler, Print marketing, Printing agency, Advertising printing services, Print advertisement design, , Print media advertising strategy, Printing companies,, Creative print advertisement,  Print media designs",
-        "herosection": {
-            "title": "Kohler Vibrant Brochure — Where Luxury Meets Print Advertising Craftsmanship",
-            "list": [
-                {
-                    "src": "/assets_main/services/print_media/19/pm1.png",
-                    "alt": "Kohler Vibrant Brochure print and digital visuals"
-                },
-                {
-                    "src": "/assets_main/services/print_media/19/pm2.png",
-                    "alt": "Laptop showcasing Kohler brochure visuals"
-                },
-                {
-                    "src": "/assets_main/services/print_media/19/pm3.png",
-                    "alt": "Print advertisement design for Kohler Vibrant"
-                },
-                {
-                    "src": "/assets_main/services/print_media/19/pm4.png",
-                    "alt": "Luxury print media textures and layouts"
-                },
-                {
-                    "src": "/assets_main/services/print_media/19/pm5.png",
-                    "alt": "Showroom brochure and B2B presentation visuals"
-                }
-            ]
+  "kohler-vibrant-brochure": {
+    "title": "Kohler Vibrant Collection Brochure | Luxury Print Advertising by Prakria",
+    "description": "Prakria created the Kohler Vibrant Collection brochure, blending hyper-realistic 3D visuals with premium print craftsmanship to deliver a tactile, luxurious brand experience for showrooms and B2B.",
+    "keywords": "Kohler, Print marketing, Printing agency, Advertising printing services, Print advertisement design, , Print media advertising strategy, Printing companies,, Creative print advertisement,  Print media designs",
+    "herosection": {
+      "title": "Kohler Vibrant Brochure — Where Luxury Meets Print Advertising Craftsmanship",
+      "list": [
+        {
+          "src": "/assets_main/services/print_media/19/pm1.png",
+          "alt": "Kohler Vibrant Brochure print and digital visuals"
         },
-        "storySection": {
-            "title": "A Luxury Print Story",
-            "paragraphs": [
-                "Kohler has long represented classic design, craftsmanship, and luxury. With the introduction of its high-end Vibrant collection of faucets and vessels, the brand required more than a traditional product catalog. They desired a print ad piece that would allow them to convey the haptic beauty of their products in a manner that couldn’t be delivered on screens.",
-                "The aim was to develop a print marketing medium that would be greater than a brochure — something that raises the products, speaks luxury, and aids their sales teams both in showrooms and B2B presentations. Time was short, quality expectations were astronomical, and accuracy was not an option. This is where Prakria stepped in."
-            ]
+        {
+          "src": "/assets_main/services/print_media/19/pm2.png",
+          "alt": "Laptop showcasing Kohler brochure visuals"
         },
-        "whyPrakria": {
-            "title": "Why PRAKRIA?",
-            "description": "Kohler required a partner who had the ability to blend strategic storytelling with world-class execution. Prakria, as a printing agency and creative studio, bridges the gap between production and concept.",
-            "list": [
-                "Blending strategic storytelling with world-class print execution.",
-                "Services ranging from advertising printing and design strategy to high-end production for luxury brands.",
-                "Treating each brochure as a brand experience, not just a print product.",
-                "Focus on tactile design, layout, and finish to inform brand perception.",
-                "Delivering stories in print — not just printed files."
-            ]
+        {
+          "src": "/assets_main/services/print_media/19/pm3.png",
+          "alt": "Print advertisement design for Kohler Vibrant"
         },
-        "solutionSection": {
-            "title": "Our Solution — A Hyper-Real Experience in Print",
-            "description": "For the Vibrant line, Prakria created hyper-realistic 3D renderings of every Kohler product, turning each into a visual narrative that conveyed reflection, texture, and metallic glow with lifelike precision.",
-            "details": [
-                "Each rendering was designed to feel almost tangible — a visual story that invited viewers to touch and explore.",
-                "These visuals became the foundation of the Vibrant Brochure — combining immersive imagery with refined typography, layout, and narrative.",
-                "Lifestyle photography was complemented with material realism to create a multisensory brand experience."
-            ]
+        {
+          "src": "/assets_main/services/print_media/19/pm4.png",
+          "alt": "Luxury print media textures and layouts"
         },
-        "processSection": {
-            "title": "How We Brought It to Life",
-            "steps": [
-                {
-                    "title": "Print Advertisement Design",
-                    "description": "Each spread was crafted to highlight hero products with generous white space, editorial-style layouts, and sharp detail shots — allowing the products to ‘breathe’ like a luxury fashion catalog."
-                },
-                {
-                    "title": "Print Media Design",
-                    "description": "Finishes and textures were meticulously selected — matte papers paired with glossy spot finishes to highlight metallic vibrancy, turning each brochure page into a tactile experience."
-                },
-                {
-                    "title": "Print Media Advertising Strategy",
-                    "description": "The brochure acted as a storytelling tool across B2B meetings, showroom displays, and client interactions. It was more luxury literature than typical marketing collateral."
-                },
-                {
-                    "title": "Advertising Printing Services",
-                    "description": "Partnering with specialized printing companies, every page carried precision and depth. Finishes were tested and approved to meet Kohler’s global quality standards."
-                },
-                {
-                    "title": "Print and Media Advertising Integration",
-                    "description": "The brochure became the centerpiece of a broader campaign — extended into showroom posters, print inserts, and collateral that maintained a unified brand story."
-                }
-            ]
-        },
-        "impactSection": {
-            "title": "The Impact",
-            "summary": "The Vibrant Brochure proved that print advertising is far from obsolete — when done with precision and creativity, it becomes one of the most powerful storytelling tools available.",
-            "results": [
-                "Retailers praised the premium print design, noting its synergy with Kohler’s showroom experience.",
-                "Customers perceived Kohler as even more luxurious, thanks to the tactile storytelling.",
-                "The brochure became a benchmark for creative print advertisement in the luxury interiors segment."
-            ]
-        },
-        "standoutSection": {
-            "title": "Why This Project Stands Out",
-            "description": "In a digital-first world, print advertisement design still plays a unique role — especially for premium products where touch, texture, and physicality matter.",
-            "list": [
-                "Print media advertising allows brands like Kohler to control the sensory experience beyond screens.",
-                "Advertising printing services and agencies are key partners in turning ideas into tangible masterpieces.",
-                "Print and media advertising excel when they merge strategy, storytelling, and craftsmanship — not just production specs."
-            ],
-            "conclusion": "Prakria’s work on the Kohler Vibrant Brochure demonstrates how precise design, strategic storytelling, and high-end printing can turn a simple brochure into a memorable brand asset."
+        {
+          "src": "/assets_main/services/print_media/19/pm5.png",
+          "alt": "Showroom brochure and B2B presentation visuals"
         }
+      ]
     },
-    "nestle-nido-merchandise-design": {
-        "title" : "Nestlé Nido Merchandise & Print Design Ghana | Prakria Branding Agency",
-        "description" :"Prakria designed engaging merchandise and print advertising for Nestlé Nido Ghana, blending local insights with brand strategy to connect meaningfully with moms and children through Back to School and Ramadan campaigns.",
-        "keywords" : "Nestlé Nido, Branding agency and creative design studio, Brand building, Brand strategy, Logo design, Merchandise designer, Branding consultants, Branding companies, Print media advertising, Print media designs, Printing services, Creative design agency, Brand building companies, Creative print advertisement, Designer studio, Brand communication",
-
-        "herosection": {
-            "title": "Nestlé Nido Merchandise Design — Building Brand Affection Through Thoughtful Merchandise & Print Touchpoints",
-            "list": [
-                {
-                    "src": "/assets_main/services/print_media/20/pm1.png",
-                    "alt": "Nestlé Nido Merchandise Design visuals and print advertising"
-                },
-                {
-                    "src": "/assets_main/services/print_media/20/pm2.png",
-                    "alt": "Laptop showcasing Nestlé Nido campaign"
-                },
-                {
-                    "src": "/assets_main/services/print_media/20/pm3.png",
-                    "alt": "Creative merchandise and packaging design for Nestlé Nido"
-                },
-                {
-                    "src": "/assets_main/services/print_media/20/pm4.png",
-                    "alt": "Print advertisement and promotional design for Nido"
-                },
-                {
-                    "src": "/assets_main/services/print_media/20/pm5.png",
-                    "alt": "Merchandise product visuals and promotional posters"
-                }
-            ]
-        },
-        "storySection": {
-            "title": "A Brand Affection Story",
-            "paragraphs": [
-                "Nestlé Nido, particularly in its Ghana business, wanted to go deeper with its primary consumer group — mothers of children between 0–12 years old. The brand was already trusted at the product level, but it sought to be viewed as caring, friendly, and part of everyday family life.",
-                "To achieve this, Nido decided to introduce merchandise for special occasions such as 'Back to School' and Ramadan — creating meaningful, tangible touchpoints in daily routines. The challenge: how do you design merchandise that resonates with kids and moms, stays true to brand identity, and works across contexts?",
-                "Prakria, acting as a full-spectrum branding agency and creative design studio, partnered with Nido to transform brand values into real, loved objects."
-            ]
-        },
-        "whyPrakria": {
-            "title": "Why PRAKRIA?",
-            "description": "Nido needed a partner who could merge local cultural insight with global brand sensibility. Prakria’s experience in brand building, strategy, and creative execution provided confidence that we could deliver more than just attractive merchandise — we could craft a meaningful brand extension.",
-            "list": [
-                "Ability to combine local insight with global design systems.",
-                "Strong expertise in brand storytelling, visual identity, and creative merchandising.",
-                "Holistic ecosystem approach — merging merchandise, communication, and tactile print experiences.",
-                "Beyond design — acted as full branding consultants for the merchandise touchpoint."
-            ]
-        },
-        "solutionSection": {
-            "title": "Our Solution — Designing With Heart and Context",
-            "description": "We approached Nido’s merchandise design by balancing emotional storytelling, cultural context, and visual consistency.",
-            "details": [
-                "1. Deep Dive on Consumer Insight: We began by mapping the daily routines of mothers and children — from school prep and playtime to family observances — to identify items that could become meaningful brand touchpoints.",
-                "2. Occasions & Themes: Focused on 'Back to School' and 'Ramadan', designing merchandise that felt useful, celebratory, and brand-relevant.",
-                "3. Visual Style: Adopted a youthful doodle style while retaining the iconic Nido heart and brand color palette — reinforcing familiarity and emotional warmth.",
-                "4. Merchandise Forms & Catalog: Developed a full catalog of branded merchandise (bags, t-shirts, stationery, gifts), rendered in 3D mockups to showcase final real-life outcomes."
-            ]
-        },
-        "processSection": {
-            "title": "How We Brought It to Life",
-            "steps": [
-                {
-                    "title": "Brand Communication & Strategy",
-                    "description": "Each item carried a narrative like 'carry love to school' and 'celebrate with joy' — tying back to Nido’s identity as a caring, family-oriented brand."
-                },
-                {
-                    "title": "Print Media Advertising / Merchandise Promotion",
-                    "description": "Posters, flyers, and school handouts were designed to announce the merchandise, build anticipation, and align visually with Nido’s packaging and brand identity."
-                },
-                {
-                    "title": "Creative Print Advertisement",
-                    "description": "Flyers and posters mirrored the merchandise’s doodle elements, heart motif, and bright colors — creating one cohesive storytelling system across print and product."
-                },
-                {
-                    "title": "Printing Services Coordination",
-                    "description": "We worked closely with boutique printing companies to ensure paper color, texture, and finish matched the vibrant design energy of Nido’s merchandise."
-                },
-                {
-                    "title": "Print And Media Advertising Integration",
-                    "description": "Physical and digital touchpoints (retail signage, school posters, online notices) were unified for a consistent omni-channel brand experience."
-                }
-            ]
-        },
-        "impactSection": {
-            "title": "The Impact",
-            "summary": "The merchandise campaign built a deep emotional and visual connection between Nido and its core audience of mothers and kids.",
-            "results": [
-                "The Nido heart and colors created instant brand recall, reinforcing identity through merchandise.",
-                "Print media advertising boosted anticipation — schools and stores used posters and flyers to draw attention.",
-                "The campaign gave Nido cultural and emotional relevance beyond nutrition — making it part of everyday life."
-            ]
-        },
-        "standoutSection": {
-            "title": "Why This Project Stands Out",
-            "description": "Merchandise is often seen as a giveaway, but this project showed how thoughtful design and storytelling can turn it into a brand-building experience.",
-            "list": [
-                "Print media advertising and promotional collateral aligned deeply with brand visuals.",
-                "Branding consultants must extend beyond visual identity into real consumer lives.",
-                "Early integration of printing services ensured final products matched design ambition.",
-                "Blending print advertising, merchandise, and strategy helped Nido move from transactional to relational branding."
-            ],
-            "conclusion": "Prakria’s collaboration with Nido demonstrates how creative design and brand strategy can transform merchandise into lasting brand equity."
-        }
+    "storySection": {
+      "title": "A Luxury Print Story",
+      "paragraphs": [
+        "Kohler has long represented classic design, craftsmanship, and luxury. With the introduction of its high-end Vibrant collection of faucets and vessels, the brand required more than a traditional product catalog. They desired a print ad piece that would allow them to convey the haptic beauty of their products in a manner that couldn’t be delivered on screens.",
+        "The aim was to develop a print marketing medium that would be greater than a brochure — something that raises the products, speaks luxury, and aids their sales teams both in showrooms and B2B presentations. Time was short, quality expectations were astronomical, and accuracy was not an option. This is where Prakria stepped in."
+      ]
     },
-    "polo-extra-strong": {
-        "title" : "Polo Extra Strong Print Advertising | Bold Visuals by Prakria",
-        "description" : "Prakria delivered a high-energy print campaign for Polo Extra Strong featuring a dynamic “X” key visual and integrated print media designs including posters, billboards, and retail displays, ensuring powerful brand presence.",
-        "keywords" : "Polo Extra Strong, Printing companies, Print advertising, Advertising printing services, Print media designs, Print advertisement design, Printing agency, Print and media advertising, Creative print advertisement, Printing services, Creative design agency",
-        "herosection": {
-            "title": "Polo Extra Strong — A Bold Visual Story Brought to Life Through Print",
-            "list": [
-                {
-                    "src": "/assets_main/services/print_media/21/pm1.png",
-                    "alt": "Polo Extra Strong print and media campaign visuals"
-                },
-                {
-                    "src": "/assets_main/services/print_media/21/pm2.png",
-                    "alt": "Laptop displaying Polo Extra Strong key visual design"
-                },
-                {
-                    "src": "/assets_main/services/print_media/21/pm3.png",
-                    "alt": "Posters and outdoor billboard design for Polo Extra Strong"
-                },
-                {
-                    "src": "/assets_main/services/print_media/21/pm4.jpg",
-                    "alt": "Retail display and print collateral for Polo Extra Strong"
-                }
-            ]
+    "challenge": {
+      "title": "The Challage",
+      "description": "Kohler wanted images that reflected the luxury and accuracy of their bathroom and kitchen products, but the pacing of traditional photography and standard design methods proved too slow.",
+      "list": [
+        {
+          "text": "Conventional product photography was getting too time-consuming, expensive and logistically complicated, and not scalable for the diverse product range globally."
         },
-        "storySection": {
-            "title": "A Bold Refresh Story",
-            "paragraphs": [
-                "Polo Extra Strong has always stood out for its intense flavor and strong personality. But the brand needed a sharper, fresher focus — one that visually conveyed the ‘Extra Strong’ energy across print communications, packaging, and in-store touchpoints.",
-                "The new campaign required a key visual that could seamlessly extend across print media advertising, outdoor billboards, in-store displays, and promotional material. It needed to be dynamic, gritty, and unmistakably Polo — while staying true to the brand’s legacy of boldness and clarity.",
-                "To achieve this, Polo sought more than a designer — they needed a creative design partner who understood both concept and execution. That’s where Prakria stepped in."
-            ]
+        {
+          "text": "Kohler needed a partner who could deliver hyper-realistic 3D and CGI renderings matching luxury expectations,  while also meeting tight launch timelines."
         },
-        "challenge": {
-            "title": "Why Prakria?",
-            "description": "Polo chose Prakria because we bridge the gap between creativity and craft. We don’t just design for screens — we design for the real world, where texture, finish, and scale define how visuals are experienced. With deep expertise in print advertising, printing services, and production workflows, we know how to make visuals that retain their power from concept to print.",
-            "list": [
-                "Expertise in print media advertising and visual systems",
-                "Full control from creative concept to print production",
-                "Focus on scale, finish, and material fidelity",
-                "Ability to integrate brand storytelling with print performance",
-                "Experience in high-energy FMCG and flavor-forward branding"
-            ]
+        {
+          "text": "The visual elements needed to be flexible enough to be used globally and had to support the message that Kohler is a provider of experiences, and not just appliances."
         },
-        "startageySection": {
-            "title": "Our Solution — Designing With Heart and Context",
-            "description": "We redefined ‘Extra Strong’ not just as a flavor but as a visual energy — a burst of strength and character that could be felt across every medium.",
-            "list": [
-                {
-                    "number": "01",
-                    "title": "Defining the Creative Anchor",
-                    "description": "We began by exploring what 'Extra Strong' truly means — translating it into a creative language of motion, impact, and power. The slashing ‘X’ shape, drawn from the word 'Extra', became the central motif symbolizing intensity and boldness."
-                },
-                {
-                    "number": "02",
-                    "title": "Visual Language Development",
-                    "description": "We crafted a design system using bold contrasts, textured environments, and strong directional motion lines. This gave us a visual framework that could adapt across all print and retail formats while maintaining instant recognition."
-                },
-                {
-                    "number": "03",
-                    "title": "Designing for Print from Day One",
-                    "description": "From typography to lighting, every design decision was made with print behavior in mind. We tested layouts across formats — magazines, billboards, and packaging — ensuring visual consistency under varying lighting and material conditions."
-                },
-                {
-                    "number": "04",
-                    "title": "Seamless Production Workflow",
-                    "description": "By working closely with trusted printing vendors, we fine-tuned color separations, bleed settings, and finishes to make sure the final output matched the design ambition — vibrant, crisp, and bold."
-                }
-            ]
-        },
-        "executionSection": {
-            "title": "How We Brought It to Life",
-            "description": "Once the key visual was finalized, it was expanded into a full print and media advertising toolkit, ensuring consistency across all brand touchpoints.",
-            "list": [
-                {
-                    "src": "/icon/service/print.png",
-                    "alt": "Poster and billboard icon",
-                    "title": "Posters and Billboards",
-                    "description": "Created high-impact outdoor visuals with striking ‘X’ motifs for visibility and brand energy."
-                },
-                {
-                    "src": "/icon/service/retail.png",
-                    "alt": "Retail display icon",
-                    "title": "Retail Displays and Shelf Talkers",
-                    "description": "Designed retail materials that extended the visual identity into in-store spaces and point-of-sale environments."
-                },
-                {
-                    "src": "/icon/service/ad.png",
-                    "alt": "Creative print ad icon",
-                    "title": "Creative Print Advertisement Layouts",
-                    "description": "Developed magazine and flyer layouts that balanced storytelling with strong visual punch."
-                },
-                {
-                    "src": "/icon/service/tech.png",
-                    "alt": "Technical print file icon",
-                    "title": "Technical Print-Ready Files",
-                    "description": "Delivered precise print-ready files optimized for different vendors to ensure consistent, high-quality output across formats."
-                }
-            ]
-        },
-        "resultSection": {
-            "title": "The Impact",
-            "description": "The new visual identity gave Polo Extra Strong a powerful, attention-grabbing presence in both retail and outdoor advertising.",
-            "list": [
-                {
-                    "text": "Retailers reported stronger shelf visibility and improved recall."
-                },
-                {
-                    "text": "Outdoor placements drew attention thanks to crisp, high-contrast visuals."
-                },
-                {
-                    "text": "Alignment between design and print production ensured perfectly executed results — crisp, colorful, and impactful."
-                }
-            ]
-        },
-        "whySection": {
-            "title": "Why This Project Stands Out",
-            "description": "This project reminds us that great branding doesn’t stop at digital screens — when design meets print, the results become tactile, memorable, and timeless.",
-            "list": [
-                {
-                    "src": "/icon/service/star.png",
-                    "alt": "Print media icon",
-                    "text": "Print media designs are strongest when crafted with real materials, finishes, and tactile depth in mind."
-                },
-                {
-                    "src": "/icon/service/bulb.png",
-                    "alt": "Printing collaboration icon",
-                    "text": "Working closely with printing partners ensures fidelity and color accuracy across every output."
-                },
-                {
-                    "src": "/icon/service/glow.png",
-                    "alt": "Design integration icon",
-                    "text": "A unified design approach across retail, outdoor, and editorial creates cohesive brand storytelling."
-                },
-                {
-                    "src": "/icon/service/flame.png",
-                    "alt": "Brand refresh icon",
-                    "text": "Thoughtful print and media advertising can give a classic brand like Polo a fresh, modern punch."
-                }
-            ]
+        {
+          "text": "In essence, the challenge involved capturing the essence of Kohler’s high-end products and translating that into clean, crisp digital images that could do justice to the physical luxury products and bridge the gap between reality and virtual reality. "
         }
+      ]
     },
-    "nestle-grekyo-blueberry-yogurt": {
-        "title" :"Nestlé Grekyo Blueberry Yogurt Packaging & Print Campaign | Prakria Creative Agency",
-        "description" : "Prakria crafted a vibrant, hyper-real 3D key visual and dynamic print media campaign for Nestlé Grekyo Blueberry Yogurt, delivering fast, high-impact consumer appeal and consistent premium brand presence.",
-        "keywords" : "Nestlé Grekyo Blueberry Yogurt, Print media designs, Print advertising, Printing companies, Brand communication & strategy, , Print advertisement design, Print media advertising, Print and media advertising, Creative print advertisements, Advertising printing services, Printing agencies, Printing services, Creative design agency, Printing agency",
-        
-        "herosection": {
-            "title": "Nestlé Grekyo Blueberry Yogurt — A Key Visual That Bursts With Flavor",
-            "list": [
-                {
-                    "src": "/assets_main/services/print_media/22/pm1.jpg",
-                    "alt": "Nestlé Grekyo Blueberry Yogurt key visual and print campaign"
-                },
-                {
-                    "src": "/assets_main/services/print_media/22/pm2.jpg",
-                    "alt": "Laptop showing CGI visual design for Grekyo Blueberry Yogurt"
-                },
-                {
-                    "src": "/assets_main/services/print_media/22/pm3.png",
-                    "alt": "Creative advertisement visuals for Nestlé Grekyo Blueberry Yogurt"
-                },
-                {
-                    "src": "/assets_main/services/print_media/22/pm4.png",
-                    "alt": "3D rendered yogurt splash and packaging design"
-                }
-            ]
+    "startageySection": {
+      "title": "THE STRATEGY",
+      "description": "For the Vibrant line, we began by making hyper-realistic 3D renderings of every product.\n\nThe Strategy\n\nThe goal was to make the Vibrant line feel truly tangible, not just seen, but felt. We achieved this by crafting hyper-realistic 3D renderings of every product, transforming visuals into detailed, immersive narratives.",
+      "list": [
+        {
+          "number": "01",
+          "title": "Creative Concept",
+          "description": "Each reflection, curve, and metallic highlight was rendered with precision, creating imagery so lifelike it conveyed texture, depth, and emotion."
         },
-        "storySection": {
-            "title": "A Visual Story That Redefined Speed and Flavor",
-            "paragraphs": [
-                "When Nestlé was preparing to introduce the new Grekyo Blueberry Yogurt flavor, the objective was clear: move fast, delight consumers, and make the product instantly recognizable on the shelf.",
-                "This refreshing, foreign-inspired flavor required a standout visual that could evoke indulgence, freshness, and the luxurious texture of blueberries at first glance.",
-                "But time was a challenge. Traditional studio product shoots were slow and costly — the team needed a faster solution that looked every bit as good as a full-scale shoot. That’s when Nestlé turned to Prakria to bring the idea to life."
-            ]
+        {
+          "number": "02",
+          "title": "Design Execution",
+          "description": "These visuals became the foundation of the Vibrant Brochure, a creative print piece that blended 3D imagery, elegant layouts, and refined typography to tell a story of craftsmanship and innovation."
         },
-        "challenge": {
-            "title": "Why Prakria?",
-            "description": "Nestlé required more than a production partner — they needed a creative design agency capable of merging visual storytelling, 3D artistry, and print precision. Prakria’s expertise in crafting brand narratives and executing high-quality print visuals made us the perfect fit.",
-            "list": [
-                "Deep understanding of brand strategy and visual storytelling",
-                "Proven experience in creative print advertisement and campaign design",
-                "Ability to deliver speed without sacrificing visual excellence",
-                "Mastery in CGI and 3D compositing techniques for product visuals",
-                "Holistic end-to-end management — from key visual to print rollout"
-            ]
-        },
-        "startageySection": {
-            "title": "Our Solution — Speed Meets Craft",
-            "description": "We combined creative direction, CGI mastery, and precision print design to create a drool-worthy blueberry yogurt explosion that looked as real as it felt indulgent.",
-            "list": [
-                {
-                    "number": "01",
-                    "title": "Building the Visual from Scratch",
-                    "description": "We constructed the hero visual entirely in 3D and CGI — allowing us to render every droplet, swirl, and blueberry with control and precision. The result: a luxurious, creamy visual narrative bursting with flavor."
-                },
-                {
-                    "number": "02",
-                    "title": "Controlling Every Pixel",
-                    "description": "By owning the entire process digitally, we could create infinite adaptations — for print advertisement design, packaging, outdoor billboards, and retail communication — all without the delays of physical shoots."
-                },
-                {
-                    "number": "03",
-                    "title": "Visual Consistency and Brand Fidelity",
-                    "description": "The visual system was designed to adapt seamlessly across formats, from point-of-sale posters to premium magazine ads, maintaining color accuracy and emotional consistency."
-                }
-            ]
-        },
-        "executionSection": {
-            "title": "How We Brought It to Life",
-            "description": "Once the CGI key visual was approved, we transformed it into a complete suite of print and media advertising materials — tailored for speed and quality.",
-            "list": [
-                {
-                    "src": "/icon/service/poster.png",
-                    "alt": "Poster design icon",
-                    "title": "Posters & Retail Panels",
-                    "description": "Designed point-of-sale materials to highlight the new flavor’s indulgent appeal."
-                },
-                {
-                    "src": "/icon/service/magazine.png",
-                    "alt": "Magazine layout icon",
-                    "title": "Magazine & Flyer Layouts",
-                    "description": "Crafted print advertisements that made the blueberry visuals the hero — elegant, bold, and mouthwatering."
-                },
-                {
-                    "src": "/icon/service/print.png",
-                    "alt": "Print media icon",
-                    "title": "Print Media Designs",
-                    "description": "Developed adaptable layouts for billboards, outdoor hoardings, and shelf talkers, ensuring flawless reproduction across scales."
-                },
-                {
-                    "src": "/icon/service/printing.png",
-                    "alt": "Printing coordination icon",
-                    "title": "Printing Services Coordination",
-                    "description": "Worked with print vendors to maintain color fidelity and texture precision across multiple outputs."
-                }
-            ]
-        },
-        "resultSection": {
-            "title": "The Impact",
-            "description": "The Nestlé Grekyo Blueberry Yogurt launch made a bold visual splash — captivating audiences instantly across print and retail environments.",
-            "list": [
-                {
-                    "text": "Print advertising assets stood out in crowded stores, giving the new flavor instant visibility."
-                },
-                {
-                    "text": "Consistent visual quality across all materials due to collaboration with printing partners."
-                },
-                {
-                    "text": "Creative print visuals allowed Nestlé to communicate freshness and indulgence — fast and effectively."
-                },
-                {
-                    "text": "Achieved rapid time-to-market while maintaining Grekyo’s premium image and design integrity."
-                }
-            ]
-        },
-        "whySection": {
-            "title": "Why This Project Stands Out",
-            "description": "This project demonstrates how innovation in design and technology can deliver premium creative outcomes faster than ever — without compromise.",
-            "list": [
-                {
-                    "src": "/icon/service/star.png",
-                    "alt": "Print ad technology icon",
-                    "text": "Proved that great print visuals don’t always need conventional shoots — CGI can achieve emotional impact faster."
-                },
-                {
-                    "src": "/icon/service/bulb.png",
-                    "alt": "Creative convergence icon",
-                    "text": "Early integration of design and print thinking ensured visuals looked equally stunning in digital and physical forms."
-                },
-                {
-                    "src": "/icon/service/glow.png",
-                    "alt": "Creative partnership icon",
-                    "text": "Collaboration between creative design and printing services ensured flawless color, texture, and finish execution."
-                }
-            ]
+        {
+          "number": "03",
+          "title": "Outcome",
+          "description": "The brochure elevated the brand presentation, proving that design realism can replace photography while delivering a more controlled, premium visual experience."
         }
+      ]
+    },
+    "executionSection": {
+      "title": "THE CREATIVE EXECUTION",
+      "description": "Print Advertisement Design: Each spread was crafted to highlight hero products with generous white space, sharp detail shots, and editorial-style layouts. The intention was to let the products “breathe,” much like a luxury fashion catalog.",
+      "list": [
+        {
+          "src": "/icon/service/lightning.png",
+          "alt": "Brand Packaging Design icon",
+          "title": "Print Media Design",
+          "description": "Our finishes and textures were quite deliberate: matte papers paired with glossy spot finishes to contrast with and reinforce the metallic vibrancy of the ranging products. This really, truly transformed the brochure into a tactile experience."
+        },
+        {
+          "src": "/icon/service/fire.png",
+          "alt": "Logo Design icon",
+          "title": "Print Media Advertising Strategy",
+          "description": "The brochure wasn't just typical hand-out material. It was designed as a story tool for various B2B meetings, showroom displays, and client interactions of a very high-touch nature. It was more luxury brand literature than run-of-the-mill marketing collateral."
+        },
+        {
+          "src": "/icon/service/users.png",
+          "alt": "Retail Packaging icon",
+          "title": "Advertising Printing Services",
+          "description": "Partnering with specialized printing companies, we ensured that every page carried the intended depth and precision. Finishes were tested and approved meticulously to match Kohler’s global quality benchmarks."
+        },
+        {
+          "src": "/icon/service/star.png",
+          "alt": "Luxury Packaging icon",
+          "title": "Print and Media Advertising Integration",
+          "description": "While the brochure was the centerpiece, the assets were extended into supporting print campaigns, showroom posters, and media inserts, creating a consistent story across platforms."
+        }
+      ]
+    },
+    "resultSection": {
+      "title": "The RESULT",
+      "description": "The Vibrant Brochure proved that print advertising is far from obsolete — when done with precision and creativity, it becomes one of the most powerful storytelling tools available.",
+      "list": [
+        {
+          "text": "Retailers appreciated the premium print media designs, noting how well the brochure complemented Kohler’s showroom experience."
+        },
+        {
+          "text": "Customers perceived the brand as even more luxurious, thanks to the brochure’s tactile storytelling."
+        },
+        {
+          "text": "The entire piece became a benchmark for creative print advertisement work in the luxury interiors segment."
+        }
+      ]
+    },
+    "whySection": {
+      "title": "WHY THIS MATTERS",
+      "description": "In a digital-first world, print advertisement design still plays a unique role, especially for premium products where touch, texture, and physicality matter.Print media advertising allows brands like Kohler to control the experience in a way screens can’t.",
+      "list": [
+        {
+          "text": "Advertising printing services and printing agencies are crucial partners in turning concepts into masterpieces."
+        },
+        {
+          "text": "Print and media advertising works best when it blends strategy, storytelling, and material craft,  not just when it delivers specs to a printer."
+        }
+      ],
+      "subDescription": "Prakria’s work on the Kohler Vibrant Brochure demonstrates how precise design, strategic storytelling, and high-end printing can turn a simple brochure into a memorable brand asset."
     }
+  },
+  "nestle-nido-merchandise-design": {
+    "title": "Nestlé Nido Merchandise & Print Design Ghana | Prakria Branding Agency",
+    "description": "Prakria designed engaging merchandise and print advertising for Nestlé Nido Ghana, blending local insights with brand strategy to connect meaningfully with moms and children through Back to School and Ramadan campaigns.",
+    "keywords": "Nestlé Nido, Branding agency and creative design studio, Brand building, Brand strategy, Logo design, Merchandise designer, Branding consultants, Branding companies, Print media advertising, Print media designs, Printing services, Creative design agency, Brand building companies, Creative print advertisement, Designer studio, Brand communication",
+
+    "herosection": {
+      "title": "Nestlé Nido Merchandise Design — Building Brand Affection Through Thoughtful Merchandise & Print Touchpoints",
+      "list": [
+        {
+          "src": "/assets_main/services/print_media/20/pm1.png",
+          "alt": "Nestlé Nido Merchandise Design visuals and print advertising"
+        },
+        {
+          "src": "/assets_main/services/print_media/20/pm2.png",
+          "alt": "Laptop showcasing Nestlé Nido campaign"
+        },
+        {
+          "src": "/assets_main/services/print_media/20/pm3.png",
+          "alt": "Creative merchandise and packaging design for Nestlé Nido"
+        },
+        {
+          "src": "/assets_main/services/print_media/20/pm4.png",
+          "alt": "Print advertisement and promotional design for Nido"
+        },
+        {
+          "src": "/assets_main/services/print_media/20/pm5.png",
+          "alt": "Merchandise product visuals and promotional posters"
+        }
+      ]
+    },
+    "storySection": {
+      "title": "A Brand Affection Story",
+      "description": [
+        "Nestlé Nido, particularly in its Ghana business, desired to go deeper with its primary consumer group, mothers of children between 0–12 years old. They had trust on the product level already, but they wanted to be viewed as more than a formula company, they wanted to be regarded as caring, friendly, and part of everyday life.",
+        "To do that, Nido decided to introduce merchandise for special occasions, “Back to School” and Ramadan, so the brand would appear in more meaningful, tangible ways in everyday routines. Their ask was: how do you design merchandise that resonates with kids and moms, is faithful to brand identity, and works across contexts?",
+        "This is where Prakria, acting like a full-spectrum branding agency and creative design studio, became the partner for turning brand values into real, loved objects."
+      ]
+    },
+    "challenge": {
+      "title": "THE CHALLENGE",
+      "description": "As a beloved children’s milk brand in Ghana, NIDO wanted to deepen its connection with young families and become a visible part of their everyday lives, not just in the pantry.",
+      "list": [
+        {
+          "text": "NIDO needed to create merchandise for special occasions (e.g., Back to School & Ramadan) that felt fun, engaging and relevant for kids aged 0-12, while aligning with the brand’s identity."
+        },
+        {
+          "text": "The brand had to ensure the merchandise was approachable and friendly (to resonate with moms) yet cool and vibrant (to appeal to kids)."
+        },
+        {
+          "text": "The task required a deep understanding of the Ghana market: local routines, kids’ preferences, cultural context, something that hadn’t been fully leveraged previously."
+        },
+        {
+          "text": "The merchandise needed to be both meaningful and collectible, not just a promotional item, but something kids would love and keep."
+        }
+      ]
+    },
+    "startageySection": {
+      "title": "THE STRATEGY",
+      "description": "Our approach combined deep consumer understanding, context-sensitive theming, distinctive visual language, and a systematic product rollout to make Nido's merchandise loved and memorable.",
+      "list": [
+        {
+          "number": "01",
+          "title": "Deep Dive on Consumer Insight",
+          "description": "We started by understanding a mother’s day-to-day with her child, from morning routines to bedtime, school prep, religious observances, and playtime. We mapped items they commonly use or see (stationery, clothing, school bags, small gifts). These insights became the playground for ideation."
+        },
+        {
+          "number": "02",
+          "title": "Occasions & Themes",
+          "description": "We focused on Back to School and Ramadan, two occasions with strong emotional linkage in Ghana. For each, we designed a set of merchandise that would feel useful, celebratory, and brand-relevant."
+        },
+        {
+          "number": "03",
+          "title": "Visual Style: Doodles, Brand Heart & Colors",
+          "description": "To keep it youthful and engaging, we adopted a doodle style in design. At the same time, we retained the iconic Nido “heart” motif and brand color palette to maintain strong recall. This balance of creativity and brand faithfulness is what top branding companies do best."
+        },
+        {
+          "number": "04",
+          "title": "Merchandise Forms & Catalog",
+          "description": "We created a full catalogue of merchandise (bags, t-shirts, stationery, gift items) for the events, each carrying consistent visual language and brand markers. The collection was rendered in 3D mockups so the client (and later the market) could see how every item would turn out in real life."
+        }
+      ]
+    },
+    "executionSection": {
+      "title": "THE CREATIVE EXECUTION",
+      "list": [
+        {
+          "src": "/icon/service/lightning.png",
+          "alt": "Brand Communication & Strategy icon",
+          "title": "Brand Communication & Strategy",
+          "description": "Each merchandise item was given a micro narrative, like “carry love to school” or “celebrate with joy,” tying back to Nido’s positioning as a caring, close companion for families."
+        },
+        {
+          "src": "/icon/service/fire.png",
+          "alt": "Print Media Advertising / Merchandise Promotion icon",
+          "title": "Print Media Advertising / Merchandise Promotion",
+          "description": "To launch these lines, we designed supporting print media such as posters, flyers, and school handouts to announce the merchandise, build excitement, and visually connect them with Nido’s packaging and brand identity."
+        },
+        {
+          "src": "/icon/service/users.png",
+          "alt": "Creative Print Advertisement icon",
+          "title": "Creative Print Advertisement",
+          "description": "Print materials were integrated from the start, not as an afterthought—flyers and posters used the same doodle elements, brand colors, and heart motif, ensuring the merchandise and print advertising told one consistent story."
+        },
+        {
+          "src": "/icon/service/star.png",
+          "alt": "Printing Services Coordination icon",
+          "title": "Printing Services Coordination",
+          "description": "We collaborated closely with boutique printing companies to guarantee that paper color, texture, and finish matched the vibrancy and quality seen in our 3D models and merchandise concepts."
+        },
+        {
+          "src": "/icon/service/star.png",
+          "alt": "Print and Media Advertising Integration icon",
+          "title": "Print and Media Advertising Integration",
+          "description": "The product line was promoted through both physical print touchpoints—retail signage, school posters—and digital notices, making the campaign truly omnichannel."
+        }
+      ]
+    },
+    "resultSection": {
+      "title": "The RESULT",
+      "description": "The catalog of merchandise was well received by both moms and kids, the playful doodle style, useful items, and emotional tie to Nido made it feel more than a promo.",
+      "list": [
+        {
+          "text": "The Nido heart and colors ensured parents could instantly trace the products to the brand, reinforcing brand identity through merchandise."
+        },
+        {
+          "text": "The print media advertising built anticipation and visibility, schools and local stores used posters and flyers to draw attention."
+        },
+        {
+          "text": "The campaign gave Nido more than merchandise, it gave the brand relevance in everyday life beyond nutrition."
+        },
+        {
+          "text": "For Prakria, this project demonstrated how creative design agency thinking plus brand strategy can transform merchandise into brand equity."
+        }
+      ]
+    },
+    "whySection": {
+      "title": "WHY THIS MATTERS",
+      "description": "Merchandise is often treated as a side effort or giveaway. But here, brand building companies can see how thoughtfully designed merchandise can become another medium of brand expression.",
+      "list": [
+        {
+          "text": "Print media advertising and promotional print collateral aren’t separate silos, they must align deeply with brand visuals."
+        },
+        {
+          "text": "Branding consultants must reach beyond identity and design into real consumer lives."
+        },
+        {
+          "text": "When printing services are integrated early, the final quality lives up to design ambition."
+        },
+        {
+          "text": "Combining creative print advertisement, merchandise, and brand strategy helps a brand move from transactional to relational."
+        }
+      ],
+      "subDescription": "Prakria’s collaboration with Nido demonstrates how creative design and brand strategy can transform merchandise into lasting brand equity."
+    }
+  },
+  "polo-extra-strong": {
+    "title": "Polo Extra Strong Print Advertising | Bold Visuals by Prakria",
+    "description": "Prakria delivered a high-energy print campaign for Polo Extra Strong featuring a dynamic “X” key visual and integrated print media designs including posters, billboards, and retail displays, ensuring powerful brand presence.",
+    "keywords": "Polo Extra Strong, Printing companies, Print advertising, Advertising printing services, Print media designs, Print advertisement design, Printing agency, Print and media advertising, Creative print advertisement, Printing services, Creative design agency",
+    "herosection": {
+      "title": "Polo Extra Strong — A Bold Visual Story Brought to Life Through Print",
+      "list": [
+        {
+          "src": "/assets_main/services/print_media/21/pm1.png",
+          "alt": "Polo Extra Strong print and media campaign visuals"
+        },
+        {
+          "src": "/assets_main/services/print_media/21/pm2.png",
+          "alt": "Laptop displaying Polo Extra Strong key visual design"
+        },
+        {
+          "src": "/assets_main/services/print_media/21/pm3.png",
+          "alt": "Posters and outdoor billboard design for Polo Extra Strong"
+        },
+        {
+          "src": "/assets_main/services/print_media/21/pm4.jpg",
+          "alt": "Retail display and print collateral for Polo Extra Strong"
+        }
+      ]
+    },
+    "storySection": {
+      "title": "A Bold Refresh Story",
+      "paragraphs": [
+        "Polo Extra Strong has always stood out for its intense flavor and strong personality. But the brand needed a sharper, fresher focus — one that visually conveyed the ‘Extra Strong’ energy across print communications, packaging, and in-store touchpoints.",
+        "The new campaign required a key visual that could seamlessly extend across print media advertising, outdoor billboards, in-store displays, and promotional material. It needed to be dynamic, gritty, and unmistakably Polo — while staying true to the brand’s legacy of boldness and clarity.",
+        "To achieve this, Polo sought more than a designer — they needed a creative design partner who understood both concept and execution. That’s where Prakria stepped in."
+      ]
+    },
+    "challenge": {
+      "title": "The Challage",
+      "description": "Polo Extra Strong had to deliver the brand’s punch-and-refresh positioning in a fiercely competitive, flavour-led mint market.",
+      "list": [
+        {
+          "text": "The mint category was crowded with strong flavour variants, making it difficult for Polo Extra Strong to differentiate based purely on something “extra strong”."
+        },
+        {
+          "text": "The brand had to enhance the perception of strength and refreshment without compromising the playful, approachable ethos of Polo (the “mint with the hole”)."
+        },
+        {
+          "text": "Packaging and communication needed to signal bold flavour clearly and instantly, across both retail shelves and digital thumbnails."
+        },
+        {
+          "text": "The challenge was to strike a balance between high impact messaging (strong mint) and brand continuity to ensure that the Polo identity was still recognisable and consistent."
+        }
+      ]
+    },
+    "startageySection": {
+      "title": "THE STRATEGY",
+      "description": "We began by exploring what “Extra Strong” truly feels like  not just a flavor, but a burst of intensity. That idea became the creative anchor for the entire design system.",
+      "list": [
+        {
+          "number": "01",
+          "title": "Creative Concept",
+          "description": "The centerpiece was a bold, slashing “X” from the word Extra, slicing through the visuals to express strength, speed, and power. It became the brand’s unmistakable symbol of energy."
+        },
+        {
+          "number": "02",
+          "title": "Design Execution",
+          "description": "Around this, we built a visual language of motion lines, textured backdrops, and high-contrast compositions that radiated dynamism and impact."
+        },
+        {
+          "number": "03",
+          "title": "Outcome",
+          "description": "The result was a flexible, scalable identity system, instantly recognizable as “Extra Strong” across packaging, print, and retail, a brand that visually hums with energy."
+        }
+      ]
+    },
+    "executionSection": {
+      "title": "THE CREATIVE EXECUTION",
+      "description": "Because print advertisement design was central to this project, we paid close attention to how the visual would perform on different surfaces. A key visual might look great on a laptop screen, but print is a different world.\n\nWe tested the design across small magazine formats, large outdoor billboards, and in-store panels. We adjusted typography, textures, and colour layers so that the final artwork would retain its boldness even at a distance or under different lighting.\n\nWe also worked hand in hand with trusted printing companies, providing precise colour separations, bleed settings, and finish specifications to make production seamless. This is where our experience as a printing agency really comes through, we don’t hand over files and hope for the best; we guide the entire print journey.",
+      "list": [
+        {
+          "src": "/icon/service/lightning.png",
+          "alt": "Print & media advertising icon",
+          "title": "Posters & Billboards",
+          "description": "Striking 'X' motifs provided instant outdoor visibility and made the campaign unmissable at street and highway scale."
+        },
+        {
+          "src": "/icon/service/users.png",
+          "alt": "Retail display icon",
+          "title": "Retail Display & Shelf Talkers",
+          "description": "Custom-designed panels and shelf talkers created an energetic presence at the point of sale, unifying the brand story on every aisle."
+        },
+        {
+          "src": "/icon/service/fire.png",
+          "alt": "Creative print icon",
+          "title": "Magazine & Flyer Advertising",
+          "description": "Dynamic print advertisement layouts were deployed across magazines and flyers to maintain the high-impact, bold aesthetic in editorial formats."
+        },
+        {
+          "src": "/icon/service/star.png",
+          "alt": "Technical print files icon",
+          "title": "Technical Print-Ready Files",
+          "description": "Production-ready files—color separations, finish specs, and print formats—were tailored to each vendor for seamless execution and consistent brand results."
+        }
+      ]
+    },
+    "resultSection": {
+      "title": "THE RESULT",
+      "description": "The new key visual gave Polo Extra Strong a fresh, attention-grabbing identity that worked beautifully in print media advertising and retail spaces.",
+      "list": [
+        {
+          "text": "Retailers noticed stronger shelf presence and improved recall."
+        },
+        {
+          "text": "Outdoor placements stopped traffic, thanks to the crisp, punchy visuals."
+        },
+        {
+          "text": "Because both the design and advertising print services were aligned from the beginning, the end products came out crisp, colorful, and just as planned."
+        },
+        {
+          "text": "It showed that by using the correct method, print advertising can still pack a punch."
+        }
+      ]
+    },
+    "whySection": {
+      "title": " WHY THIS MATTERS",
+      "description": "This project is a reminder that good branding doesn't stop at the computer screen. When design and print are hand in hand, the results are tangible, memorable, and powerful.Print media designs are strongest when they’re created with real materials and finishes in mind.",
+      "list": [
+        {
+          "src": "/icon/service/star.png",
+          "alt": "Print media icon",
+          "text": "Working closely with printing services ensures fidelity and consistency across every execution."
+        },
+        {
+          "src": "/icon/service/light.png",
+          "alt": "Printing collaboration icon",
+          "text": "A strong print advertisement design can unify a campaign across media, from retail to outdoor to editorial."
+        },
+        {
+          "src": "/icon/service/cursor.png",
+          "alt": "Design integration icon",
+          "text": "And above all, thoughtful print and media advertising can give a classic brand like Polo a fresh, modern punch."
+        }
+      ]
+    }
+  },
+  "nestle-grekyo-blueberry-yogurt": {
+    "title": "Nestlé Grekyo Blueberry Yogurt Packaging & Print Campaign | Prakria Creative Agency",
+    "description": "Prakria crafted a vibrant, hyper-real 3D key visual and dynamic print media campaign for Nestlé Grekyo Blueberry Yogurt, delivering fast, high-impact consumer appeal and consistent premium brand presence.",
+    "keywords": "Nestlé Grekyo Blueberry Yogurt, Print media designs, Print advertising, Printing companies, Brand communication & strategy, , Print advertisement design, Print media advertising, Print and media advertising, Creative print advertisements, Advertising printing services, Printing agencies, Printing services, Creative design agency, Printing agency",
+
+    "herosection": {
+      "title": "Nestlé Grekyo Blueberry Yogurt — A Key Visual That Bursts With Flavor",
+      "list": [
+        {
+          "src": "/assets_main/services/print_media/22/pm1.jpg",
+          "alt": "Nestlé Grekyo Blueberry Yogurt key visual and print campaign"
+        },
+        {
+          "src": "/assets_main/services/print_media/22/pm2.jpg",
+          "alt": "Laptop showing CGI visual design for Grekyo Blueberry Yogurt"
+        },
+        {
+          "src": "/assets_main/services/print_media/22/pm3.png",
+          "alt": "Creative advertisement visuals for Nestlé Grekyo Blueberry Yogurt"
+        },
+        {
+          "src": "/assets_main/services/print_media/22/pm4.png",
+          "alt": "3D rendered yogurt splash and packaging design"
+        }
+      ]
+    },
+    "storySection": {
+      "title": "A Visual Story That Redefined Speed and Flavor",
+      "paragraphs": [
+        "When Nestlé was preparing to introduce the new Grekyo Blueberry Yogurt flavor, the objective was clear: move fast, delight consumers, and make the product instantly recognizable on the shelf.",
+        "This refreshing, foreign-inspired flavor required a standout visual that could evoke indulgence, freshness, and the luxurious texture of blueberries at first glance.",
+        "But time was a challenge. Traditional studio product shoots were slow and costly — the team needed a faster solution that looked every bit as good as a full-scale shoot. That’s when Nestlé turned to Prakria to bring the idea to life."
+      ]
+    },
+    "challenge": {
+      "title": "THE CHALLENGE",
+      "description": "The launch of NESTLÉ Grekyo Blueberry yogurt flavor by the brand was an attempt to grab attention in a fast way with a strong visual language that matched the premium and exotic feel of the product.",
+      "list": [
+        {
+          "text": "The idea was to highlight the exotic and premium taste of the new Greek yogurt flavor and get it to the market quickly before competitors could react."
+        },
+        {
+          "text": "A traditional photoshoot posed time, cost and complexity constraints, making it difficult to meet the fast-turnaround requirement."
+        },
+        {
+          "text": "The key visual needed to be high impact and mouth-watering, not just a product shot, but something that conveyed flavour, texture and desirability instantly."
+        },
+        {
+          "text": "In short, the challenge was to create a standout, premium visual identity for Grekyo’s new blueberry flavour fast, cost-effectively and with maximum impact."
+        }
+      ]
+    },
+    "startageySection": {
+      "title": "THE STRATEGY",
+      "description": "We set out to combine speed and craft  delivering high-impact visuals without the delays of traditional photo shoots.",
+      "list": [
+        {
+          "number": "01",
+          "title": "Creative Concept",
+          "description": "Instead of photography, we built the entire scene in 3D and CGI, crafting a hyper-real blueberry explosion that captured the indulgence of Greek yogurt and exotic fruit in perfect harmony."
+        },
+        {
+          "number": "02",
+          "title": "Design Execution",
+          "description": "Every swirl, droplet, and berry was precisely rendered to feel luscious, creamy, and alive. Full digital control meant we could easily generate multiple visual variations for print, packaging, and retail, all without a physical setup."
+        },
+        {
+          "number": "03",
+          "title": "Outcome",
+          "description": "A visual masterpiece that married speed with precision,  enabling stunning, adaptable brand communication at record pace."
+        }
+      ]
+    },
+    "executionSection": {
+      "title": "THE CREATIVE EXECUTION",
+      "description": "Bringing It to Life Through Print & Media Advertising Once the key visual was approved, we extended it into a full suite of print and media advertising assets. This included:",
+      "list": [
+        {
+          "src": "/icon/service/lightning.png",
+          "alt": "Point-of-Sale Display icon",
+          "title": "Posters & Retail Panels for POS",
+          "description": "Posters and retail panels for point-of-sale displays."
+        },
+        {
+          "src": "/icon/service/fire.png",
+          "alt": "Print Advertisements icon",
+          "title": "Magazine & Flyer Layouts",
+          "description": "Magazine and flyer layouts created as creative print advertisements, ensuring the indulgent blueberry visuals took center stage."
+        },
+        {
+          "src": "/icon/service/users.png",
+          "alt": "Format Versatility icon",
+          "title": "Print Media Designs for All Formats",
+          "description": "Print media designs tailored for various formats from large outdoor billboards to compact shelf-talkers, ensuring the image quality and impact remained consistent."
+        },
+        {
+          "src": "/icon/service/star.png",
+          "alt": "Print Services Collaboration icon",
+          "title": "Advertising Printing Services",
+          "description": "Coordination with advertising printing services to ensure vibrant color reproduction and perfect material finishes."
+        }
+      ],
+      "subDescription": "Our team also worked closely with partner printing agencies to validate proofs and maintain quality across different printing processes. This ensured that what consumers saw in-store matched the stunning digital renders exactly."
+    },
+    "resultSection": {
+      "title": "The RESULT",
+      "description": "The Nestlé Grekyo Blueberry Yogurt launch made a splash, quite literally. The bold, indulgent visual caught consumer attention immediately, whether they saw it on a billboard, in a store, or in a magazine.",
+      "list": [
+        {
+          "text": "The print media advertising assets stood out in crowded retail spaces, helping the new flavor gain quick visibility."
+        },
+        {
+          "text": "The campaign maintained consistent quality across all printed materials thanks to careful collaboration with printing services and printing companies."
+        },
+        {
+          "text": "The creative print advertisement visuals allowed Nestlé to communicate freshness and indulgence without lengthy production timelines."
+        },
+        {
+          "text": "Most importantly, the brand achieved speed to market,  staying ahead of the competition while maintaining the premium image of the Grekyo brand."
+        }
+      ]
+    },
+    "whySection": {
+      "title": "WHY THIS MATTERS",
+      "description": "This project demonstrates that contemporary branding is all about flexibility as well as imagination. By combining sophisticated CGI, considered design, and high-end production, brands can generate campaign images that are breathtaking as well as print-ready across platforms.",
+
+      "list": [
+        {
+          "src": "/icon/service/star.png",
+          "alt": "Print ad technology icon",
+          "text": "Print ad design need not depend on conventional shoots, judicious application of technology can provide the same emotional impact quicker."
+        },
+        {
+          "src": "/icon/service/light.png",
+          "alt": "Creative convergence icon",
+          "text": "Early convergence of print advertising imagination guarantees what appears fabulous on a screen looks stunning on physical touchpoints."
+        },
+        {
+          "src": "/icon/service/cursor.png",
+          "alt": "Creative partnership icon",
+          "text": "Collaborating with a printing agency capable of grasping creative intent guarantees final execution is flawless."
+        }
+      ]
+    }
+  }
 }
