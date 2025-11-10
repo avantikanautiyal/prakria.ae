@@ -1,8 +1,8 @@
 {
   "nestle-maggi-social-media": {
-    "title" : "Nestlé Maggi #SuperMAGGILeague Campaign | Prakria Social Media Experts",
-    "description" : "Discover how Prakria crafted Nestlé Maggi’s #SuperMAGGILeague cricket-season campaign, blending creativity and strategy to boost engagement and brand love with interactive social media marketing.",
-    "keywords" : "Social media marketing agency, #SuperMAGGILeague, Digital marketing service provider, Content marketing agency,  Digital marketing company, Performance marketing, PPC marketing, Digital marketing consultant,  Performance marketing agency services, SEO agency, Pay per click advertising agency, SEO services, PPC marketing agencies, Content marketing agency solutions,",
+    "title": "Nestlé Maggi #SuperMAGGILeague Campaign | Prakria Social Media Experts",
+    "description": "Discover how Prakria crafted Nestlé Maggi’s #SuperMAGGILeague cricket-season campaign, blending creativity and strategy to boost engagement and brand love with interactive social media marketing.",
+    "keywords": "Social media marketing agency, #SuperMAGGILeague, Digital marketing service provider, Content marketing agency,  Digital marketing company, Performance marketing, PPC marketing, Digital marketing consultant,  Performance marketing agency services, SEO agency, Pay per click advertising agency, SEO services, PPC marketing agencies, Content marketing agency solutions,",
 
     "herosection": {
       "title": "Nestlé Maggi Social Media Campaign — #SuperMAGGILeague",
@@ -34,17 +34,21 @@
     "storySection": {
       "title": "A Creative Social Media Marketing Story",
       "paragraphs": [
-        "We at PRAKRIA believe that the most impactful campaigns stay successful when the creative side of the business meets the strategic one. When Nestlé Maggi got in touch with us to run a campaign during the cricket season, we as a digital marketing agency had our job cut out for us. The objective was to stir up enthusiasm, involve the target audience, and make sure the brand was still the talk of the town.",
-        "As a social media marketing agency, we came up with a campaign that blended the two biggest passions of India – food and cricket. The outcome? #SuperMAGGILeague — an engaging, lively, and interactive social media campaign, where Maggi’s flavors were represented as cricket-inspired teams, igniting involvement and brand affection."
+        "We at Prakria believe that the most impactful campaigns stay successful when the creative side of the business meets the strategic one. When Nestlé Maggi got in touch with us to run a campaign during the cricket season, we as a digital marketing agency had our job cut out for us. The objective was to stir up enthusiasm, involve the target audience, and make sure the brand was still the talk of the town.As a social media marketing agency, we came up with a campaign that blended the two biggest passions of India - food and cricket.",
+        "The outcome? #SuperMAGGILeague - an engaging, lively and interactive social media campaign, where Maggi's flavors were represented as cricket-inspired teams, igniting involvement and brand affection."
       ]
     },
     "challenge": {
       "title": "The Challenges",
       "description": "During cricket season, every brand is competing for attention. The challenge was to craft a unique social media marketing campaign that:",
       "list": [
-        "Broke through the noise of countless brand promotions.",
-        "Kept Maggi’s voice consistent with its identity — friendly, fun, and family-oriented.",
-        "Encouraged audiences to engage and interact rather than scroll past."
+        { "text": "Broke through the noise of countless brand promotions." },
+        {
+          "text": "Kept Maggi’s voice consistent with its identity — friendly, fun, and family-oriented."
+        },
+        {
+          "text": "Encouraged audiences to engage and interact rather than scroll past."
+        }
       ]
     },
     "startageySection": {
@@ -144,9 +148,9 @@
     }
   },
   "nestle-polo": {
-    "title" : "Nestlé Polo “POLO Keeps You Cool” Social Media Campaign | Prakria Digital Marketing",
-    "description" :"Experience the vibrant digital revival of Nestlé Polo with Prakria’s creative 360° social media campaign, boosting brand engagement and followers through AR, animations, and humor.",
-    "keywords" : "Nestlé Polo, Digital marketing agency, Social media marketing, Digital marketing company, Digital marketing service provider ,  Content marketing, Performance marketing services, , Social media marketing agency, Digital marketing consultant, Performance marketing agency, SEO services, SEO agency, PPC marketing agencies, Social media campaigns",
+    "title": "Nestlé Polo “POLO Keeps You Cool” Social Media Campaign | Prakria Digital Marketing",
+    "description": "Experience the vibrant digital revival of Nestlé Polo with Prakria’s creative 360° social media campaign, boosting brand engagement and followers through AR, animations, and humor.",
+    "keywords": "Nestlé Polo, Digital marketing agency, Social media marketing, Digital marketing company, Digital marketing service provider ,  Content marketing, Performance marketing services, , Social media marketing agency, Digital marketing consultant, Performance marketing agency, SEO services, SEO agency, PPC marketing agencies, Social media campaigns",
 
     "herosection": {
       "title": "Nestlé Polo Social Media — “POLO Keeps You Cool”",
@@ -182,93 +186,85 @@
       ]
     },
     "challenge": {
-      "title": "Why Prakria?",
-      "description": "Polo’s identity leans cool, crisp, and playful. Our job was to translate that into a vibrant social media marketing narrative. The Big Idea: “POLO Keeps You Cool.” To deliver, they needed digital assets that were not only visually strong but also strategically sound. They wanted more than just posts — they wanted a 360° digital presence. As a full-spectrum digital marketing company, Prakria was ready.",
+      "title": "The Challenge",
+      "description": "Polo, an iconic global brand built on a distinctive shape and a legacy of “cool” quality, was under-performing in the Indian market. Although the brand has strong global equity, in India its overall market presence and digital traction were weak: the brand wasn’t getting the attention it deserved from consumers. ",
       "list": [
-        "AR filters",
-        "Stop motion animations",
-        "3D animation",
-        "UI animations",
-        "Scalable content like a “Polo Humor Series”"
+        {
+          "text": "The brand’s social media presence – especially on platforms such as Instagram – was minimal, with follower numbers in the low thousands. "
+        },
+        {
+          "text": "The brand needed to reposition itself digitally, re-energise its “cool” essence, and develop a 360° digital presence (including AR, stop-motion, 3D, etc) to match its global status. "
+        },
+        {
+          "text": "The aim was to translate a simple Big Idea (“POLO Keeps You Cool”) into visual and interactive formats that would engage Indian consumers in a fun, modern way, bridging the gap between brand heritage and digital relevance."
+        }
       ]
     },
     "startageySection": {
-      "title": "Our Strategy & Execution",
-      "description": "We built a 360° digital experience that brought the 'POLO Keeps You Cool' idea to life through storytelling, design, and performance-driven marketing.",
+      "title": "The Strategy",
       "list": [
         {
           "number": "01",
-          "title": "Visual Language & Identity",
           "description": "We used the Polo ring as a visual anchor across all designs — a shape everyone recognizes. We paired that with playful, punny language (thanks to 'Excitemint') to bring the brand voice alive. Every asset carried a consistent aesthetic: cool tones, bold typography, and engaging motion."
         },
         {
           "number": "02",
-          "title": "360° Digital Experience",
-          "description": "We didn’t limit ourselves to static posts. Our integrated approach included AR filter campaigns to let users experience Polo in augmented environments, stop motion animations for handcrafted visuals, 3D animation to bring Polo visuals to life, and Instagram UI animations with dynamic transitions. Content series like 'Polo Humor Series' echoed the brand’s playful tone and ensured high engagement and shareability."
+          "description": "We paired that with playful, punny language (thanks to “Excitemint”) to bring the brand voice alive. "
         },
         {
           "number": "03",
-          "title": "Performance Marketing & Growth",
-          "description": "We supported the creative push with performance marketing services — optimizing for reach, engagement, and growth. From PPC marketing to organic campaigns, we managed data-driven performance to deliver measurable results."
+          "description": "Every asset carried a consistent aesthetic: cool tones, bold typography, engaging motion."
         }
       ]
     },
     "executionSection": {
-      "title": "Why PRAKRIA?",
-      "description": "Polo’s identity leans cool, crisp, and playful. Our job was to translate that into a vibrant social media marketing narrative built around the big idea — 'POLO Keeps You Cool.' We developed a full-spectrum digital marketing approach to achieve that.",
+      "title": "The Creative Execution",
       "list": [
         {
-          "src": "/icon/service/ar.png",
-          "alt": "AR filters icon",
-          "title": "AR Filters",
-          "description": "Immersive filters that allowed users to engage with the brand in new ways."
+          "src": "/icon/service/lightning.png",
+          "alt": "360° Digital Experience",
+          "title": "360° Digital Experience",
+          "description": "We didn’t limit ourselves to static posts. Our integrated approach included:"
         },
         {
-          "src": "/icon/service/motion.png",
+          "src": "/icon/service/fire.png",
           "alt": "Stop motion icon",
-          "title": "Stop Motion Animations",
-          "description": "Handcrafted visual storytelling using playful stop-motion sequences."
+          "title": "AR filter campaigns ",
+          "description": "Letting users experience Polo in augmented environments Stop motion animations for quirky, handcrafted visuals 3D animation to bring Polo visuals to life Instagram UI animations with dynamic transitions"
         },
         {
-          "src": "/icon/service/3d.png",
+          "src": "/icon/service/users.png",
           "alt": "3D animation icon",
-          "title": "3D Animation",
-          "description": "Modern, sleek 3D visuals that highlighted Polo’s freshness."
+          "title": "Content series",
+          "description": "“Polo Humor Series” that echoed the brand’s playful tone Each element was rooted in social engagement and shareability."
         },
         {
-          "src": "/icon/service/ui.png",
+          "src": "/icon/service/star.png",
           "alt": "UI animation icon",
-          "title": "UI Animations",
-          "description": "Smooth transitions and dynamic UI animations for Instagram and digital videos."
-        },
-        {
-          "src": "/icon/service/content.png",
-          "alt": "Content icon",
-          "title": "Scalable Content – 'Polo Humor Series'",
-          "description": "A series that celebrated Polo’s personality with humor, freshness, and youth energy."
+          "title": "Performance Marketing & Growth",
+          "description": "We supported the creative push with performance marketing services, optimizing for reach, engagement, and growth. From PPC marketing to organic growth, we managed campaigns to drive incremental gains."
         }
       ]
     },
     "resultSection": {
-      "title": "Results That Speak",
-      "description": "The campaign not only boosted numbers but also redefined what it means to be 'cool' in the digital age.",
+      "title": "The Result",
       "list": [
         {
-          "text": "Instagram followers soared from under 3,000 to over 20,000 in just 6–8 months."
+          "text": "Millions of views and interactions across digital assets"
         },
         {
-          "text": "Millions of views and interactions across digital assets."
+          "text": "Increased brand salience during the campaign period."
         },
         {
-          "text": "Increased brand salience during campaign periods."
+          "text": "A sharpened, consistent digital identity that positioned Polo as a youth-centric, fun brand again"
         },
         {
-          "text": "A sharpened, consistent digital identity that positioned Polo as a youth-centric, fun brand again."
+          "text": "The campaign not only boosted numbers but also redefined what it means to be “cool” in the digital age."
         }
       ]
     },
     "whySection": {
-      "title": "What Sets Our Approach Apart",
+      "title": "Why This Matters",
       "description": "We’re not just about creating campaigns — we build digital legacies.",
       "list": [
         {
@@ -277,12 +273,12 @@
           "text": "We’re more than just a social media marketing agency — we’re a digital marketing consultant and performance marketing agency all in one."
         },
         {
-          "src": "/icon/service/bulb.png",
+          "src": "/icon/service/light.png",
           "alt": "SEO PPC integration icon",
           "text": "We combine SEO services, PPC (pay per click), content creation, and brand storytelling to deliver holistic campaigns."
         },
         {
-          "src": "/icon/service/glow.png",
+          "src": "/icon/service/star.png",
           "alt": "Creativity and conversion icon",
           "text": "We believe in measurable creativity — designs that delight, campaigns that convert, and strategies that last."
         }
@@ -291,10 +287,10 @@
   },
 
   "nestle-munch-social-media": {
-    "title" : "Nestlé Munch “Unbelievably Loaded” Campaign | Prakria Digital Marketing",
-    "description" : "See how Prakria revitalized Nestlé Munch’s social media with the “Unbelievably Loaded” campaign, combining creative storytelling, performance marketing, and engaging content to boost brand engagement and visibility.",
-    "keywords" : " Performance marketing services, Digital marketing company, Content marketing agency, Performance marketing agency, SEO agency,  PPC marketing, Social media marketing agency, Digital marketing consultant, SEO services, PPC marketing agencies, Digital marketing service provider, Pay per click advertising agency",
-    
+    "title": "Nestlé Munch “Unbelievably Loaded” Campaign | Prakria Digital Marketing",
+    "description": "See how Prakria revitalized Nestlé Munch’s social media with the “Unbelievably Loaded” campaign, combining creative storytelling, performance marketing, and engaging content to boost brand engagement and visibility.",
+    "keywords": " Performance marketing services, Digital marketing company, Content marketing agency, Performance marketing agency, SEO agency,  PPC marketing, Social media marketing agency, Digital marketing consultant, SEO services, PPC marketing agencies, Digital marketing service provider, Pay per click advertising agency",
+
     "herosection": {
       "title": "Nestlé Munch Social Media — “Unbelievably Loaded” Digital Campaign",
       "list": [
@@ -332,15 +328,23 @@
       "title": "The Challenge",
       "description": "The objective was clear — create a bold, youthful identity that drives engagement and ties creativity to measurable growth.",
       "list": [
-        "Create a bold and youthful brand identity on digital platforms.",
-        "Drive engagement through interactive social media marketing.",
-        "Launch new product variants like Munch Fruit O’ Nuts and Munch Crisp Pop with excitement.",
-        "Ensure every campaign tied back to measurable results through performance marketing."
+        {
+          "text": "Create a bold and youthful brand identity on digital platforms."
+        },
+        {
+          "text": "Drive engagement through interactive social media marketing."
+        },
+        {
+          "text": "Launch new product variants like Munch Fruit O’ Nuts and Munch Crisp Pop with excitement."
+        },
+        {
+          "text": "Ensure every campaign tied back to measurable results through performance marketing."
+        }
       ]
     },
     "startageySection": {
-      "title": "Our Approach",
-      "description": "As a full-service digital marketing company and content marketing agency, we developed a layered strategy to position Munch as a vibrant, interactive, and youthful brand online.",
+      "title": "The Strategy ",
+      "description": "As a full-service digital marketing company and content marketing agency, we developed a layered strategy:",
       "list": [
         {
           "number": "01",
@@ -374,25 +378,25 @@
       "description": "Our execution combined the best of digital marketing services and creative innovation to make Munch an unforgettable brand experience online.",
       "list": [
         {
-          "src": "/icon/service/social.png",
+          "src": "/icon/service/lightning.png",
           "alt": "Social media content icon",
           "title": "Social Media First",
           "description": "Designed Instagram-centric content including polls, reels, AR filters, and static posts — maximizing engagement through interactive formats."
         },
         {
-          "src": "/icon/service/motion.png",
+          "src": "/icon/service/fire.png",
           "alt": "Motion content icon",
           "title": "Motion Content",
           "description": "Snack animations, quirky product reveals, and interactive motion graphics added energy and surprise to the campaign."
         },
         {
-          "src": "/icon/service/hook.png",
+          "src": "/icon/service/users.png",
           "alt": "Campaign hook icon",
           "title": "Campaign Hooks",
           "description": "Hooks like 'Woww Crunchy Almonds', 'Yumm Pomegranate', and 'Make this Festive Season Unbelievably Loaded' became viral conversation starters."
         },
         {
-          "src": "/icon/service/engagement.png",
+          "src": "/icon/service/star.png",
           "alt": "Engagement focus icon",
           "title": "Engagement Focus",
           "description": "Campaigns encouraged likes, comments, shares, and user-generated content — turning audiences into active brand advocates."
@@ -400,12 +404,9 @@
       ]
     },
     "resultSection": {
-      "title": "Results",
-      "description": "Our strategic and creative blend helped Munch regain its playful dominance in the digital landscape.",
+      "title": "The Result",
+      "description": "Munch’s digital presence was rejuvenated, with fresh engagement and high recall.",
       "list": [
-        {
-          "text": "Munch’s digital presence was rejuvenated, with fresh engagement and high recall."
-        },
         {
           "text": "Product launches gained momentum through strong creative storytelling."
         },
@@ -418,31 +419,25 @@
       ]
     },
     "whySection": {
-      "title": "Why It Worked",
-      "description": "Prakria didn’t just act as a social media marketing agency — we became a digital marketing consultant and growth partner for Munch. Our combination of SEO services, PPC marketing strategies, and high-impact creative design ensured a campaign that was both exciting and effective.",
+      "title": "Why This Matters",
       "list": [
         {
-          "src": "/icon/service/seo.png",
+          "src": "/icon/service/star.png",
           "alt": "SEO and PPC integration icon",
-          "text": "Integration of SEO and PPC for consistent, measurable growth."
+          "text": "Prakria didn’t just act as a social media marketing agency, we became a digital marketing consultant and growth partner for Munch."
         },
         {
-          "src": "/icon/service/creative.png",
+          "src": "/icon/service/light.png",
           "alt": "Creative storytelling icon",
-          "text": "High-impact design that aligned storytelling with performance."
-        },
-        {
-          "src": "/icon/service/strategy.png",
-          "alt": "Strategic marketing icon",
-          "text": "Data-backed strategies combining creative flair with audience insights."
+          "text": "Our combination of SEO services, PPC marketing agencies strategies, and high-impact creative design ensured a campaign that was both exciting and effective."
         }
       ]
     }
   },
   "unilever-dove-e-commerce": {
-    "title" : "Unilever Dove E-Commerce Success | Prakria Digital Marketing & SEO",
-    "description" :"Prakria elevates Dove’s e-commerce presence with brand-first design, SEO optimization, and performance marketing, driving sales and boosting digital shelf visibility in competitive markets.",
-    "keywords" : "Dove, Digital marketing firm, Performance marketing,  Digital marketing service provider, SEO services, Performance marketing agency, Content marketing agency, Digital marketing consultant, Digital marketing company, SEO agency, Social media marketing agency, Performance marketing services, SEO, PPC marketing agencies",
+    "title": "Unilever Dove E-Commerce Success | Prakria Digital Marketing & SEO",
+    "description": "Prakria elevates Dove’s e-commerce presence with brand-first design, SEO optimization, and performance marketing, driving sales and boosting digital shelf visibility in competitive markets.",
+    "keywords": "Dove, Digital marketing firm, Performance marketing,  Digital marketing service provider, SEO services, Performance marketing agency, Content marketing agency, Digital marketing consultant, Digital marketing company, SEO agency, Social media marketing agency, Performance marketing services, SEO, PPC marketing agencies",
 
     "herosection": {
       "title": "Unilever Dove E-Commerce — Elevating Dove’s Digital Shelf",
@@ -480,17 +475,28 @@
     },
     "challenge": {
       "title": "The Challenge",
-      "description": "Brands often lose visual identity and consistency when moving to e-commerce. For Dove, the hurdles were:",
+      "description": "The objective was clear:",
       "list": [
-        "Maintaining beauty and brand language (soft, premium) within a crowded online marketplace.",
-        "Designing product pages, visuals, and layouts that convert.",
-        "Integrating performance marketing tactics (PPC, social ads) to drive traffic.",
-        "Ensuring SEO compliance so Dove listings show up in search results."
+        {
+          "text": "Brands often lose visual identity and consistency when moving to e-commerce. For Dove, the hurdles were"
+        },
+        {
+          "text": "Maintaining beauty & brand language (soft, premium) within a crowded online marketplace"
+        },
+        {
+          "text": "Designing product pages, visuals, and layouts that convert"
+        },
+        {
+          "text": "Ensuring SEO compliance so Dove listings show up in search results"
+        },
+        {
+          "text": "Integrating performance marketing tactics (PPC, social ads) to drive traffic"
+        }
       ]
     },
     "startageySection": {
-      "title": "Strategy & Approach",
-      "description": "As a trusted digital marketing service provider, we built a layered plan for Dove’s e-commerce transformation.",
+      "title": "The Strategy",
+      "description": "As a trusted digital marketing service provider, we built a layered plan:",
       "list": [
         {
           "number": "01",
@@ -520,59 +526,44 @@
       ]
     },
     "executionSection": {
-      "title": "Execution Highlights",
-      "description": "Our execution united digital marketing strategy, creative design, and e-commerce optimization to deliver consistent, measurable impact.",
+      "title": "The Creative Execution",
+      "description": "High-fidelity product imagery with consistent lighting, style, and brand tone",
       "list": [
         {
-          "src": "/icon/service/imagery.png",
+          "src": "/icon/service/lightning.png",
           "alt": "Product imagery icon",
           "title": "High-Fidelity Product Imagery",
-          "description": "Created visuals with consistent lighting, color, and brand tone across platforms."
+          "description": "Clean product grid layouts and swipeable galleries for mobile shoppers"
         },
         {
-          "src": "/icon/service/layout.png",
+          "src": "/icon/service/fire.png",
           "alt": "Layout icon",
           "title": "Clean Product Layouts",
-          "description": "Developed grid-based layouts and swipeable galleries for an intuitive mobile shopping experience."
+          "description": "Popups and overlays for cross-sells / “You may also like” modules"
         },
         {
-          "src": "/icon/service/crosssell.png",
+          "src": "/icon/service/users.png",
           "alt": "Cross-sell modules icon",
           "title": "Cross-Sell Popups",
-          "description": "Designed 'You may also like' overlays to enhance user engagement and basket size."
+          "description": "Integration of creative banners / hero visuals promoting Dove’s USP (e.g. “Real Beauty”, “Gentle on Skin”)"
         },
         {
-          "src": "/icon/service/banner.png",
+          "src": "/icon/service/star.png",
           "alt": "Creative banners icon",
           "title": "Creative Banners",
-          "description": "Integrated brand-driven hero visuals highlighting Dove’s USPs like 'Real Beauty' and 'Gentle on Skin.'"
-        },
-        {
-          "src": "/icon/service/ad.png",
-          "alt": "Paid ad campaigns icon",
-          "title": "Paid Campaign Optimization",
-          "description": "Created and refined digital ad campaigns across search, social, and display channels."
-        },
-        {
-          "src": "/icon/service/data.png",
-          "alt": "Data-driven refinements icon",
-          "title": "Data-Driven Refinement",
-          "description": "Continuous optimization based on KPIs like CTR, add-to-cart, and conversions."
+          "description": "Paid ad campaigns created and optimized via digital marketing channels, search, social, display  "
         }
       ]
     },
     "resultSection": {
-      "title": "Results & Impact",
-      "description": "Our digital transformation for Dove delivered measurable brand and business impact.",
+      "title": "The Result",
+      "description": "Dove’s e-commerce listings saw increased click-through rates from optimized visuals and layout",
       "list": [
         {
-          "text": "Dove’s e-commerce listings saw increased click-through rates from optimized visuals and layout."
+          "text": "A stronger brand recall,  customers recognized Dove’s premium identity across digital platforms"
         },
         {
-          "text": "A stronger brand recall — customers recognized Dove’s premium identity across platforms."
-        },
-        {
-          "text": "Healthy ROI from PPC (pay per click) campaigns and performance marketing efforts."
+          "text": "Healthy ROI from PPC (pay per click) campaigns and performance marketing efforts"
         },
         {
           "text": "Improved search visibility and organic traffic through our SEO enhancements."
@@ -583,21 +574,21 @@
       ]
     },
     "whySection": {
-      "title": "Why It Worked",
-      "description": "This project highlights what sets Prakria apart as a full-service digital marketing and e-commerce transformation partner.",
+      "title": "Why This Matters",
+      "description": "This project underscores what sets Prakria apart as a digital marketing consultant and digital marketing company:",
       "list": [
         {
-          "src": "/icon/service/performance.png",
+          "src": "/icon/service/star.png",
           "alt": "Performance analytics icon",
           "text": "We don’t just do creative; we merge it with performance and analytics."
         },
         {
-          "src": "/icon/service/seo.png",
+          "src": "/icon/service/light.png",
           "alt": "SEO PPC strategy icon",
           "text": "Our approach blends SEO agency expertise, social media marketing, and performance marketing into one cohesive strategy."
         },
         {
-          "src": "/icon/service/brand.png",
+          "src": "/icon/service/cursor.png",
           "alt": "Brand strategy icon",
           "text": "We treat your e-commerce presence as a brand experience — not just a product listing."
         }
@@ -605,10 +596,10 @@
     }
   },
   "marie-claire-e-commerce": {
-    "title" : "Marie Claire India E-Commerce | Premium Fashion & Lifestyle by Prakria",
-    "description" :"Discover Marie Claire India’s stylish online boutique created by Prakria, blending editorial elegance with a seamless shopping experience. Elevate your fashion and lifestyle choices today.",
-    "keywords" : "Marie Claire, Digital marketing agency, Digital marketing services, SEO agency, Performance marketing agency, Content marketing agency, Digital marketing service provider, Social media marketing agency, SEO services, Performance marketing services,  PPC marketing agencies",
-    
+    "title": "Marie Claire India E-Commerce | Premium Fashion & Lifestyle by Prakria",
+    "description": "Discover Marie Claire India’s stylish online boutique created by Prakria, blending editorial elegance with a seamless shopping experience. Elevate your fashion and lifestyle choices today.",
+    "keywords": "Marie Claire, Digital marketing agency, Digital marketing services, SEO agency, Performance marketing agency, Content marketing agency, Digital marketing service provider, Social media marketing agency, SEO services, Performance marketing services,  PPC marketing agencies",
+
     "herosection": {
       "title": "Marie Claire E-Commerce — Fashion Meets Digital Excellence",
       "list": [
@@ -641,10 +632,10 @@
       "title": "The Challenge",
       "description": "Moving a magazine brand into e-commerce mode comes with unique hurdles:",
       "list": [
-        "Translating editorial elegance into a shopping experience.",
-        "Ensuring product visuals, layouts, and navigation reflect premium identity.",
-        "Driving traffic, conversion, and discoverability in a competitive fashion market.",
-        "Maintaining SEO health and integrated marketing performance."
+        { "text": "Translating editorial elegance into a shopping experience." },
+        { "text": "Ensuring product visuals, layouts, and navigation reflect premium identity." },
+        { "text": "Driving traffic, conversion, and discoverability in a competitive fashion market." },
+        { "text": "Maintaining SEO health and integrated marketing performance." }
       ]
     },
     "startageySection": {
@@ -679,54 +670,44 @@
       ]
     },
     "executionSection": {
-      "title": "Execution Highlights",
-      "description": "We executed a seamless digital transformation combining design sophistication with measurable marketing results.",
+      "title": "The Creative Execution",
       "list": [
         {
-          "src": "/icon/service/image.png",
+          "src": "/icon/service/lightning.png",
           "alt": "High-resolution imagery icon",
-          "title": "High-Resolution Lifestyle & Product Imagery",
-          "description": "All visuals aligned with Marie Claire’s editorial sensibility to maintain brand luxury and coherence."
+          "description": "High-resolution lifestyle & product imagery aligned with editorial sensibility"
         },
         {
-          "src": "/icon/service/look.png",
+          "src": "/icon/service/fire.png",
           "alt": "Shop the look icon",
-          "title": "‘Shop the Look’ Modules",
-          "description": "Integrated editorial bundles that allowed users to shop complete looks directly from curated content."
+          "description": "Iconic “shop the look” modules and editorial bundles"
         },
         {
-          "src": "/icon/service/mobile.png",
+          "src": "/icon/service/users.png",
           "alt": "Mobile optimization icon",
-          "title": "Seamless Mobile Experience",
-          "description": "Fast load times, optimized layouts, and mobile-first UI ensured a smooth shopping experience across devices."
+          "description": "Seamless mobile experience with fast load times and optimized layouts"
         },
         {
-          "src": "/icon/service/campaign.png",
+          "src": "/icon/service/star.png",
           "alt": "Marketing campaign icon",
-          "title": "Cross-Platform Performance Campaigns",
-          "description": "Unified campaigns across search and social under a cohesive digital marketing strategy."
+          "description": "Performance campaigns across search and social, managed under our digital marketing services umbrella"
         },
         {
-          "src": "/icon/service/seo.png",
+          "src": "/icon/service/light.png",
           "alt": "SEO optimization icon",
-          "title": "Targeted SEO Optimization",
-          "description": "Keyword optimization for beauty, fashion, magazine, and e-commerce terms to enhance organic discovery."
+          "description": "SEO optimizations targeting beauty, fashion, magazine + e-commerce keywords"
         },
         {
-          "src": "/icon/service/data.png",
+          "src": "/icon/service/interactive.png",
           "alt": "Analytics icon",
-          "title": "Data-Driven Decisions",
-          "description": "Refinements based on analytics, funnel metrics, and real-time performance insights."
+          "description": "Data-driven decisions based on analytics, funnel metrics, and real-time performance"
         }
       ]
     },
     "resultSection": {
-      "title": "Results & Impact",
-      "description": "The Marie Claire E-Commerce project delivered a perfect balance of design and digital performance.",
+      "title": "The Result",
+      "description": "A visually rich, brand-consistent digital storefront",
       "list": [
-        {
-          "text": "A visually rich, brand-consistent digital storefront."
-        },
         {
           "text": "Increased organic visibility and search rankings through SEO optimization."
         },
@@ -742,23 +723,23 @@
       ]
     },
     "whySection": {
-      "title": "Why This Project Matters",
-      "description": "This collaboration exemplifies Prakria’s strength as a digital marketing partner that fuses creative elegance with performance-driven rigor.",
+      "title": "Why This Matters",
+      "description": "This project highlights what sets PRAKRIA apart as a digital marketing consultant and digital marketing service provider:",
       "list": [
         {
-          "src": "/icon/service/performance.png",
+          "src": "/icon/service/star.png",
           "alt": "Performance analytics icon",
-          "text": "We don’t just do creative; we merge it with performance and analytics."
+          "text": "This partnership illustrates what Prakria offers as a digital marketing service provider: creative elegance + performance rigor. "
         },
         {
-          "src": "/icon/service/strategy.png",
+          "src": "/icon/service/light.png",
           "alt": "Integrated SEO and marketing icon",
-          "text": "Our approach blends SEO methods, social media marketing, and performance marketing services into one unified strategy."
+          "text": "We ensure that your vision doesn’t just look good, it performs. "
         },
         {
-          "src": "/icon/service/brand.png",
+          "src": "/icon/service/cursor.png",
           "alt": "Brand-first e-commerce icon",
-          "text": "We treat your e-commerce presence as a brand space — not just a listing."
+          "text": "Whether you need a social media marketing agency, SEO services, or performance marketing services, we bring all the pieces together for you."
         }
       ]
     }

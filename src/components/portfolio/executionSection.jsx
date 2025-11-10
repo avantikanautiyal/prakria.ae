@@ -6,8 +6,8 @@ function ExecutionSection(props) {
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-16 md:mb-24">
-          <h2 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-4">
-            {props?.title}
+        <h2 className="text-4xl sm:text-5xl md:text-5xl mb-4">
+        {props?.title}
           </h2>
           <p className="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto">
             {props?.description}

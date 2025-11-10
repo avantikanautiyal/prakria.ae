@@ -3,11 +3,11 @@ import React from "react";
 
 function StartageySection(props) {
   return (
-    <section className="min-h-screen bg-black text-white py-20 px-4 sm:px-8">
+    <section className="bg-black text-white py-20 px-4 sm:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Header: Title and Subtitle */}
         <div className="text-center mb-16 md:mb-24">
-          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-4">
+          <h1 className="text-4xl sm:text-5xl md:text-5xl mb-4">
             {props.title}
           </h1>
           <p className="text-base sm:text-lg text-gray-300 max-w-2xl mx-auto">
@@ -15,22 +15,41 @@ function StartageySection(props) {
           </p>
         </div>
 
-        <div
-          className={cn(
-            `flex flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap justify-center sm:justify-between gap-y-12 gap-x-8 lg:gap-x-16 text-center md:text-left`
-          )}
-        >
-          {props?.list?.map((startagey, index) => {
-            return (
-              <div
-                className="flex-1 min-w-[250px] max-w-md sm:basis-1/4 flex justify-center md:justify-start"
-                key={index}
-              >
-                <StartagyCard even={(index + 1) % 2 === 1} {...startagey} />
-              </div>
-            );
-          })}
-        </div>
+        {props?.list?.length > 5 ? (
+          <div
+            className={cn(
+              `flex flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap justify-center sm:justify-between gap-y-12 gap-x-8 lg:gap-x-16 text-center md:text-left`
+            )}
+          >
+            {props?.list?.map((startagey, index) => {
+              return (
+                <div
+                  className="flex-1 min-w-[250px] max-w-md sm:basis-1/4 flex justify-center md:justify-start"
+                  key={index}
+                >
+                  <StartagyCard even={(index + 1) % 2 === 1} {...startagey} />
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <div
+            className={cn(
+              `flex flex-col sm:flex-row sm:flex-wrap justify-center sm:justify-between gap-y-12 gap-x-8 lg:gap-x-16 text-center md:text-left`
+            )}
+          >
+            {props?.list?.map((startagey, index) => {
+              return (
+                <div
+                  className="flex-1 min-w-[250px] max-w-md sm:basis-1/4 flex justify-center md:justify-start"
+                  key={index}
+                >
+                  <StartagyCard even={(index + 1) % 2 === 1} {...startagey} />
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     </section>
   );

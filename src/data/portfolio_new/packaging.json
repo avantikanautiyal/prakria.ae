@@ -1,10 +1,10 @@
 {
   "kitkat-love-break": {
-    "title" : "KitKat Love Break Valentine’s Packaging Design | Prakria Packaging Agency",
-    "description" : "Celebrate love uniquely with KitKat’s “Love Break” limited edition Valentine’s packaging by Prakria. Personalized, millennial-centric designs combining creativity, technology, and brand storytelling.",
-    "keywords" : "KitKat Love Break packaging, Valentine’s packaging design, personalized packaging, digital printing packaging, food packaging design India, packaging design agency, millennial packaging design, packaging design company India, Prakria packaging design services , Brand packaging design, Custom packaging design, Packaging design services, Packaging designers, Packaging strategy & design consultancy, Cosmetic packaging design, Luxury packaging design, Retail packaging design, ",
+    "title": "KitKat Love Break Valentine’s Packaging Design | Prakria Packaging Agency",
+    "description": "Celebrate love uniquely with KitKat’s “Love Break” limited edition Valentine’s packaging by Prakria. Personalized, millennial-centric designs combining creativity, technology, and brand storytelling.",
+    "keywords": "KitKat Love Break packaging, Valentine’s packaging design, personalized packaging, digital printing packaging, food packaging design India, packaging design agency, millennial packaging design, packaging design company India, Prakria packaging design services , Brand packaging design, Custom packaging design, Packaging design services, Packaging designers, Packaging strategy & design consultancy, Cosmetic packaging design, Luxury packaging design, Retail packaging design, ",
     "herosection": {
-      "title": "KitKat Love Break — Valentine’s Packaging Design",
+      "title": "KitKat Love Break - Valentine’s Packaging Design",
       "list": [
         {
           "src": "/assets_main/services/packaging_design/6/pd1.jpg",
@@ -36,81 +36,72 @@
       ]
     },
     "challenge": {
-      "title": "Why PRAKRIA?",
-      "description": "KitKat required more than standard packaging designers; they needed a design agency that could think strategically, creatively, and technologically. The brief required speed, uniqueness, and impeccable execution. With a proven record of packaging design excellence, Prakria was selected to lead this high-profile campaign.",
+      "title": "Challenge",
+      "description": "For Valentine’s season, KitKat aimed to create a campaign that resonated with young audiences and reinforced its playful brand persona.",
       "list": [
-        "Strategic and creative packaging design thinking",
-        "Technological integration for customization and innovation",
-        "Fast-paced delivery with high creative standards",
-        "Packaging design that doubles as brand storytelling"
+        { "text": "The goal was to own the Valentine’s moment in India." },
+        {
+          "text": "Go beyond the core message “Have a Break, Have a Kit Kat” into a love-themed concept."
+        },
+        {
+          "text": "Mix “breaks” with “love” in a new, relatable way for Gen Z and millennials."
+        },
+        {
+          "text": "Differentiate among the cacophony of festive noise but without becoming risque or making the light, witty tone too far away from the spirit of KitKat."
+        }
       ]
     },
     "startageySection": {
-      "title": "Our Solution — The 'Love Break' Concept",
-      "description": "One concept emerged immediately in brainstorming: 'Love Break.' Love is emotional, personal, and individualized — much like each relationship. So what if the package itself told that story of individuality? Using HP Mosaic and Collage Digital Printing technology, we created thousands of unique packs, each with its own design, color palette, and message.",
+      "title": "THE STRATEGY",
+      "description": "One concept emerged immediately in brainstorming: 'Love Break.'",
       "list": [
         {
           "number": "01",
-          "title": "Conceptual Innovation",
-          "description": "The 'Love Break' idea positioned KitKat as more than a snack — it became a symbol of affection and connection."
+          "description": "Love is emotional, personal, and individualized, much like each relationship. What if the package itself told that story of being individualized? Rather than one single design, we saw custom packaging designs that honored individuality."
         },
         {
           "number": "02",
-          "title": "Mass Personalization",
-          "description": "Every KitKat pack had a unique design, featuring millennial slang, fun motifs, and vibrant tones appealing to a youthful audience."
+          "description": "With HP Mosaic and Collage Digital Printing technology, we produced thousands of individual packs, each with its own unique appearance and message. The imagery featured millennial slang acronyms, fun motifs, and bright colors, all appealing to the young KitKat consumer. "
         },
         {
           "number": "03",
-          "title": "Technology Meets Emotion",
-          "description": "Through HP Mosaic and Collage printing, digital technology was used to translate individuality into tangible design."
+          "description": "This wasn't food packaging design; this was innovative packaging design that combined technology and imagination and transformed a chocolate bar into a gift."
         }
       ]
     },
     "executionSection": {
-      "title": "Creative Execution",
-      "description": "Every layer of design was intentional — from concept to retail impact — ensuring KitKat’s Valentine campaign stood out as an emotional and visual experience.",
+      "title": "The Creative Execution",
+      "description": "Product Packaging Design: Each wrapper was crafted to feel fresh and collectible, using bold typography and millennial symbols.",
       "list": [
         {
-          "src": "/icon/service/product.png",
-          "alt": "Product Packaging Design icon",
-          "title": "Product Packaging Design",
-          "description": "Each wrapper was crafted to feel fresh and collectible, using bold typography and millennial-inspired symbols."
-        },
-        {
-          "src": "/icon/service/brand.png",
+          "src": "/icon/service/lightning.png",
           "alt": "Brand Packaging Design icon",
           "title": "Brand Packaging Design",
           "description": "Every element tied back to KitKat’s essence of sharing breaks, now reimagined around sharing love."
         },
         {
-          "src": "/icon/service/logo.png",
+          "src": "/icon/service/fire.png",
           "alt": "Logo Design icon",
           "title": "Package Logo Design & Labelling",
           "description": "The familiar KitKat identity remained central, surrounded by playful, love-centric graphics."
         },
         {
-          "src": "/icon/service/retail.png",
+          "src": "/icon/service/users.png",
           "alt": "Retail Packaging icon",
           "title": "Retail Packaging Design",
           "description": "Packs were optimized for shelf impact — instantly recognizable and attractive during the Valentine’s rush."
         },
         {
-          "src": "/icon/service/luxury.png",
+          "src": "/icon/service/star.png",
           "alt": "Luxury Packaging icon",
           "title": "Luxury Packaging Design Touch",
           "description": "Unique packs elevated KitKat from a simple treat to a thoughtful, gift-ready product."
-        },
-        {
-          "src": "/icon/service/limited.png",
-          "alt": "Limited Edition icon",
-          "title": "Every Pack Became a Limited Edition",
-          "description": "No two packs were alike — each one represented an individual love story."
         }
       ]
     },
     "resultSection": {
-      "title": "Impact",
-      "description": "The 'Love Break' campaign wasn’t just a packaging initiative — it became a nationwide phenomenon that inspired gifting and sharing.",
+      "title": "The Result",
+      "description": "The “Love Break” packaging wasn’t just a campaign; it was a phenomenon. Each package design felt like a personal token, encouraging fans to gift KitKat to their loved ones.",
       "list": [
         {
           "text": "Thousands of unique packs were rolled out across India, with no two designs alike."
@@ -119,37 +110,29 @@
           "text": "Social media buzz skyrocketed as users shared photos of their personalized KitKat wrappers."
         },
         {
-          "text": "Reinforced KitKat’s youthful and emotional connection through shareable, visually rich design."
-        },
-        {
           "text": "Retailers reported high shelf movement, making it one of the most successful Valentine’s pushes."
         },
         {
-          "text": "Strengthened KitKat’s brand perception in the digital and lifestyle space."
+          "text": "The campaign reinforced KitKat’s connection with youth culture through fun, emotional, and shareable packaging design services."
         }
       ]
     },
     "whySection": {
-      "title": "Why This Project Matters",
+      "title": "Why This Matters",
       "description": "This case study demonstrates how thoughtful packaging design can turn a wrapper into an emotional experience — merging creativity, technology, and storytelling.",
       "list": [
         {
-          "src": "/icon/service/food.png",
-          "alt": "Food Packaging Design icon",
-          "text": "Food packaging design that goes beyond function to spark emotion."
-        },
-        {
-          "src": "/icon/service/innovation.png",
+          "src": "/icon/service/star.png",
           "alt": "Innovation icon",
           "text": "Innovative packaging using digital printing for mass personalization."
         },
         {
-          "src": "/icon/service/story.png",
+          "src": "/icon/service/light.png",
           "alt": "Storytelling icon",
           "text": "Creative package design that blends storytelling with visual delight."
         },
         {
-          "src": "/icon/service/strategy.png",
+          "src": "/icon/service/cursor.png",
           "alt": "Strategy icon",
           "text": "Packaging strategy and design consultancy that connects brand narrative with consumer culture."
         }
@@ -157,16 +140,16 @@
     }
   },
   "100-pipers-limited-edition": {
-    "title" : "100 Pipers Limited Edition Packaging Design | Prakria Creative Agency",
-    "description" : "Discover how Prakria transformed 100 Pipers with the innovative Deconstructivist Art pack, creating a bold, collectible limited edition packaging design that captivates and elevates brand prestige.",
-    "keywords" : "100 Pipers, Packaging design agency, Creative package design, Custom packaging design, Packaging design services, Product packaging design,  Innovative packaging design, Packaging design company, Brand packaging design, Food packaging design, Luxury packaging design, Retail packaging design, Packaging designers",
+    "title": "100 Pipers Limited Edition Packaging Design | Prakria Creative Agency",
+    "description": "Discover how Prakria transformed 100 Pipers with the innovative Deconstructivist Art pack, creating a bold, collectible limited edition packaging design that captivates and elevates brand prestige.",
+    "keywords": "100 Pipers, Packaging design agency, Creative package design, Custom packaging design, Packaging design services, Product packaging design,  Innovative packaging design, Packaging design company, Brand packaging design, Food packaging design, Luxury packaging design, Retail packaging design, Packaging designers",
     "herosection": {
       "title": "100 Pipers — Disruptive Limited Edition Packaging Design",
       "list": [
         {
           "src": "/assets_main/services/packaging_design/7/file-1.mp4",
           "alt": "100 Pipers Limited Edition social media visuals",
-          "type"  : "video"
+          "type": "video"
         },
         {
           "src": "/assets_main/services/packaging_design/7/pd1.jpg",
@@ -194,17 +177,25 @@
       ]
     },
     "challenge": {
-      "title": "Why PRAKRIA?",
-      "description": "This project demanded creative freedom balanced with strategic discipline. The visual approach needed to push boundaries while staying true to brand identity and taste. That’s where Prakria shines — as a packaging design agency that blends artistic risk-taking with structural rigor.",
+      "title": "Challenge",
+      "description": "100 Pipers wanted to up its brand ante in a competitive market and connect better with its audience.",
       "list": [
-        "Creative freedom guided by strategic discipline",
-        "Visual storytelling while respecting brand identity",
-        "Expertise in custom packaging and structural design",
-        "Delivering artistry balanced with commercial functionality"
+        {
+          "text": "The brand was struggling to establish a distinctive position in the crowded spirits market."
+        },
+        {
+          "text": "It wanted a brand campaign which could appeal emotionally and culturally to its target adult segment."
+        },
+        {
+          "text": "There was a need to position 100 Pipers distinctively against other high-end blends, more-so in India by highlighting its heritage as well as contemporary positioning."
+        },
+        {
+          "text": "In addition, the campaign needed to be adaptable to various formats and platforms and comply with alcohol advertising regulations."
+        }
       ]
     },
     "startageySection": {
-      "title": "Our Solution — The Deconstructivist Art Pack",
+      "title": "THE STRATEGY",
       "description": "We wanted the pack itself to become an experience. So, we adopted a post-modern Deconstructivist art style — deconstructing the iconic Piper figure and reconstructing it across the bottle series. Each bottle became a fragment of a larger visual story. When placed side-by-side, the design completed itself.",
       "list": [
         {
@@ -230,37 +221,31 @@
       ]
     },
     "executionSection": {
-      "title": "Creative & Technical Execution",
-      "description": "Every design element was engineered for precision, harmony, and aesthetic delight. From label structure to final print, each step reinforced the art-led philosophy.",
+      "title": "The Creative Execution",
+      "description": "Package label design & graphic layout: We structured each label fragment so that lines, shapes, and negatives aligned seamlessly.",
       "list": [
         {
-          "src": "/icon/service/label.png",
+          "src": "/icon/service/light.png",
           "alt": "Label Design icon",
-          "title": "Package Label Design & Graphic Layout",
-          "description": "Each label fragment was structured so lines, shapes, and negatives aligned seamlessly across bottles."
+          "title": "Structural design coordination",
+          "description": "Working with bottling partners to ensure the deconstructed art aligned properly across cylindrical surfaces."
         },
         {
-          "src": "/icon/service/structure.png",
+          "src": "/icon/service/fire.png",
           "alt": "Structural Design icon",
-          "title": "Structural Design Coordination",
-          "description": "Collaborated with bottling partners to align deconstructed art accurately on cylindrical surfaces."
+          "title": "Premium finish & print execution",
+          "description": "High-contrast colors, crisp lines, and premium print finishes gave the pack luxury appeal."
         },
         {
-          "src": "/icon/service/print.png",
+          "src": "/icon/service/users.png",
           "alt": "Premium Finish icon",
-          "title": "Premium Finish & Print Execution",
-          "description": "High-contrast colors, crisp lines, and premium print finishes gave the pack its luxury feel."
-        },
-        {
-          "src": "/icon/service/range.png",
-          "alt": "Range Strategy icon",
-          "title": "Range Strategy",
-          "description": "The full visual narrative emerged only when the complete range was displayed side-by-side, boosting collectability and shelf storytelling."
+          "title": "Range strategy",
+          "description": "The complete visual was only visible when the full range was displayed side by side, enhancing collectability and shelf storytelling."
         }
       ]
     },
     "resultSection": {
-      "title": "Impact & Reception",
+      "title": "The Result",
       "description": "The Limited Edition 100 Pipers packaging became a retail standout — a fine balance of design, art, and brand storytelling.",
       "list": [
         {
@@ -278,36 +263,31 @@
       ]
     },
     "whySection": {
-      "title": "Why This Project Matters",
-      "description": "This case demonstrates how innovative packaging design merges creativity and brand essence to redefine shelf presence.",
+      "title": "Why This Matters",
+      "description": "This case shows how powerful product packaging design can be when creativity and brand essence intersect. It highlights:",
       "list": [
         {
-          "src": "/icon/service/innovation.png",
+          "src": "/icon/service/star.png",
           "alt": "Innovation icon",
-          "text": "The impact of innovative packaging design in saturated categories."
+          "text": "How custom packaging design can create emotional resonance"
         },
         {
-          "src": "/icon/service/emotion.png",
+          "src": "/icon/service/light.png",
           "alt": "Emotional Design icon",
-          "text": "How custom packaging design can create emotional resonance."
+          "text": "The role of a full-stack packaging design company that executes from concept through final art"
         },
         {
-          "src": "/icon/service/fullstack.png",
+          "src": "/icon/service/cursor.png",
           "alt": "Full-stack Design icon",
-          "text": "The role of a full-stack packaging design company that executes from concept through final art."
-        },
-        {
-          "src": "/icon/service/narrative.png",
-          "alt": "Visual Narrative icon",
-          "text": "The importance of brand packaging design that tells a visual story."
+          "text": "The importance of brand packaging design that tells a visual narrative"
         }
       ]
     }
   },
   "quality-street-diwali-pack": {
-    "title" : "Quality Street Diwali Packaging | Prakria Festive Chocolate Design",
-    "description" : "Celebrate the festival of lights with Quality Street’s unique Diwali box, designed by Prakria. A glowing diya-inspired package that blends tradition, elegance, and premium gifting experience.",
-    "keywords" : "Quality Street, Food packaging design, Packaging design services, Packaging design specialists, Package label design, Innovative packaging design, Retail packaging design, Custom packaging design, Luxury packaging design, Packaging designers, Packaging design company",
+    "title": "Quality Street Diwali Packaging | Prakria Festive Chocolate Design",
+    "description": "Celebrate the festival of lights with Quality Street’s unique Diwali box, designed by Prakria. A glowing diya-inspired package that blends tradition, elegance, and premium gifting experience.",
+    "keywords": "Quality Street, Food packaging design, Packaging design services, Packaging design specialists, Package label design, Innovative packaging design, Retail packaging design, Custom packaging design, Luxury packaging design, Packaging designers, Packaging design company",
     "herosection": {
       "title": "Quality Street — A Diwali Pack That Glowed Like a Diya",
       "list": [
@@ -336,72 +316,93 @@
     "storySection": {
       "title": "A Festive Story That Illuminated Hearts",
       "paragraphs": [
-        "Imagine seeing a box of chocolates in a Canadian store during Diwali that immediately brings back memories of home — its warmth, glow, and spirit. With its Quality Street line, Nestlé aimed to provide precisely that for Indians residing overseas. When they came to PRAKRIA TECH, the task was clear: create a festive package that carried emotions as much as chocolates — a pack that could illuminate hearts like a Diya lights up homes."
+        "For Indians living abroad, Diwali is more than a festival, it’s a feeling of home. Nestlé wanted to capture that emotion for its Quality Street range in Canada, turning a box of chocolates into something that would spark nostalgia, pride, and joy.",
+        "The brief to us at Prakria was exciting and demanding: design a packaging concept that honored tradition but felt modern, premium, and gift-worthy. Not just food packaging design is something people would want to keep on the table even after the last chocolate was eaten."
       ]
     },
     "challenge": {
       "title": "The Challenge",
-      "description": "For Indians living abroad, Diwali is more than a festival — it’s a feeling of home. Nestlé wanted to capture that emotion for its Quality Street range in Canada, turning a box of chocolates into something that would spark nostalgia, pride, and joy. The brief to us at Prakria was exciting and demanding: design a packaging concept that honored tradition but felt modern, premium, and gift-worthy — something people would treasure even after the last chocolate was gone.",
+      "description": "To really capture the Canadian Indian & Asian diaspora for Quality Street at Diwali, Quality Street had to be relevant and striking.",
       "list": [
-        "Translate cultural emotion into global design appeal",
-        "Create a premium festive package that felt collectible",
-        "Balance Indian symbolism with modern aesthetics",
-        "Design packaging that consumers would proudly display"
-      ]
+        {
+          "text": "The audience was the Indians in Canada, who are deeply attached to home and festivals."
+        },
+        {
+          "text": "The brand had to create a communication that was both in tune with traditional Diwali sensibilities and disruptive in terms of execution."
+        },
+        {
+          "text": "Their ask was for a limited-edition pack design that felt premium, collectible, and relevant beyond just the festival period."
+        },
+        {
+          "text": "The design needed to present a coexistence of the down to earth (traditional) and the heightened (innovative packaging)."
+        }
+      ],
+      "subDescription": "In other words, the task was to take a celebratory pack and turn it into a cultural keepsake that made an emotional connection with the diaspora, that also had a premium look and feel and standout design."
     },
     "startageySection": {
-      "title": "Why They Chose Us",
-      "description": "Quality Street needed more than packaging designers — they needed storytellers. They sought a design company that could blend creativity, cultural insight, and emotional storytelling. With our expertise in brand packaging design, custom packaging, and innovative design execution, Prakria was entrusted to bring Diwali to life through packaging that would glow both visually and emotionally.",
+      "title": "THE STRATEGY",
+      "description": "When we thought about Diwali, one image kept coming back, the Diya, glowing softly in The Strategy. Our vision was to make the Diwali gifting experience as special as the festival itself. The inspiration came from the humble Diya, a timeless symbol of light, warmth, and celebration.",
       "list": [
         {
           "number": "01",
-          "title": "Strategic Storytelling Approach",
-          "description": "Merged cultural symbolism with modern luxury packaging to evoke nostalgia and pride."
+          "title": "Creative Concept",
+          "description": "We reimagined the iconic Quality Street pack into the shape of a Diya. The design wasn’t just aesthetic, it carried cultural meaning, connecting instantly with the spirit of Diwali."
         },
         {
           "number": "02",
-          "title": "Design That Connects",
-          "description": "Focused on emotional resonance and shelf standout through light, color, and form."
+          "title": "Design Detailing",
+          "description": "Every element of the packaging was thoughtfully crafted:\n\n- The folds and contours of the box mirrored the flame of a Diya.\n- The color palette and finishes evoked festivity without falling into cliché.\n- The label design beautifully balanced Nestlé’s branding with traditional motifs."
         },
         {
           "number": "03",
-          "title": "Holistic Festive Experience",
-          "description": "Created a collectible pack that doubled as décor — more than just packaging."
+          "title": "Experience Design",
+          "description": "Inside, the chocolates were arranged like a treasure, making the unboxing feel like opening a festive gift. Every layer was designed to delight, from the first glance to the final bite."
+        },
+        {
+          "number": "04",
+          "title": "Outcome",
+          "description": "The result? A limited edition pack that looked more like décor than packaging, perfect for gifting, sharing, and cherishing."
         }
       ]
     },
     "executionSection": {
-      "title": "Our Idea: A Box That Lights Up the Festival",
-      "description": "We were inspired by the idea of the Diya — glowing softly in every Indian home. What if the box itself could become that symbol of light? We reshaped the familiar Quality Street pack into a Diya silhouette — elegant yet practical — connecting instantly with the spirit of Diwali. Every element was designed with intention and meaning.",
+      "title": "The Creative Execution",
+      "description": "A special edition pack was designed with festive spirit: elaborate gold foiling, rich jewel-tones – particularly purple – and a premium tin packaging that added a touch of luxury to the product for gifting during Diwali.",
       "list": [
         {
-          "src": "/icon/service/folds.png",
+          "src": "/icon/service/light.png",
           "alt": "Structural design icon",
-          "title": "The folds and angles",
-          "description": "The box structure mirrored the frame of a Diya, symbolizing warmth and togetherness."
+          "title": "Focus on differentiator",
+          "description": "packaging popped on shelf -higher-end material, celebratory cues, and a diaspora-specific framing (celebrating abroad, maintaining roots) lending the brand a particularly strong seasonal pull. Creative Execution"
         },
         {
-          "src": "/icon/service/colors.png",
+          "src": "/icon/service/fire.png",
           "alt": "Color palette icon",
-          "title": "Colors & Finishes",
-          "description": "The colors and metallic finishes felt celebratory — rich purples, golds, and warm hues, not cliché."
+          "title": "The limited-edition pack was made in a festive special",
+          "description": "rich gold foiling, deep jewel-tones (especially purple) and premium tin packaging that took the product to a level for Diwali gifting."
         },
         {
-          "src": "/icon/service/label.png",
+          "src": "/icon/service/users.png",
           "alt": "Label design icon",
-          "title": "Label Design",
-          "description": "Balanced Nestlé’s branding with intricate traditional motifs that carried festive meaning."
+          "title": "The design worked on a cultural level",
+          "description": "Patterns and colour references to Indian festive aesthetics (for the diaspora market) were incorporated, while maintaining the brand’s heritage. The pack and communication adopted a “keepsake” mindset—the tin is positioned not just as a chocolate box, but as a collectible or memento for the festival season."
         },
         {
-          "src": "/icon/service/chocolates.png",
+          "src": "/icon/service/star.png",
           "alt": "Interior design icon",
-          "title": "Inside Layout",
-          "description": "The chocolates were arranged like jewels — creating a glowing, gift-like experience upon opening."
+          "title": "Integrated across touch-points",
+          "description": "Social media teasers, influencer un-boxing videos, in-store displays and POS that reinforced “celebration”, “heritage” and “gift-worthiness”.\n\nMessaging leveraged the brand’s iconic legacy (wrappers, characters) but with a modern twist: suggesting “share the joy”, “make this Diwali a moment” and “a tradition re-imagined”."
+        },
+        {
+          "src": "/icon/service/cursor.png",
+          "alt": "Interior design icon",
+          "title": "Attention to differentiator",
+          "description": "packaging stood out on shelf,  premium material, festive cues, and a diaspora-specific framing (celebration abroad, staying connected with roots) giving the brand a strong seasonal pull."
         }
       ]
     },
     "resultSection": {
-      "title": "The Impact",
+      "title": "The Result",
       "description": "The response was overwhelming. For the Indian diaspora in Canada, the pack became more than a treat — it was a reminder of home. Families displayed it proudly during celebrations, while shoppers picked it up not just for chocolates but for its design. Retailers reported rapid sell-outs, and the campaign created buzz across communities. The design extended the product’s life well beyond the holiday, strengthening Quality Street’s visibility and emotional connection.",
       "list": [
         {
@@ -419,36 +420,31 @@
       ]
     },
     "whySection": {
-      "title": "Why This Project Matters",
-      "description": "This project is a reminder of how powerful packaging design can be when rooted in culture and emotion. The Quality Street Diwali pack succeeded because it married tradition with innovation.",
-      "list": [
+      "title": "Why This Matters",
+      "description": "This project is a great reminder of how powerful packaging design services can be when rooted in culture and creativity. The Quality Street Diwali pack worked because:It went beyond c to create an experience"
+     , "list": [
         {
-          "src": "/icon/service/experience.png",
+          "src": "/icon/service/star.png",
           "alt": "Experience design icon",
-          "text": "It went beyond just holding chocolates — it created an emotional experience."
+          "text":  "It showed how innovative packaging design can make a brand relevant during cultural moments."
         },
         {
-          "src": "/icon/service/innovation.png",
+          "src": "/icon/service/light.png",
           "alt": "Innovation icon",
-          "text": "Showed how innovative packaging can drive cultural relevance and brand love."
+          "text": "It delivered retail packaging designs that popped on shelves but also felt personal at home."
         },
         {
-          "src": "/icon/service/retail.png",
+          "src": "/icon/service/cursor.png",
           "alt": "Retail design icon",
-          "text": "Delivered retail design that stood out on shelves yet felt personal and warm."
-        },
-        {
-          "src": "/icon/service/luxury.png",
-          "alt": "Luxury packaging icon",
-          "text": "Blended luxury packaging with heartfelt storytelling — making it a keepsake."
+          "text": "It brought together the best of custom packaging design and luxury packaging design, making chocolates feel like a keepsake."
         }
       ]
     }
   },
   "perfetti-workdesk-pack": {
-    "title" : "Perfetti Workdesk Pack Packaging Design | Prakria Creative Pack",
-    "description" : "Prakria designed the vibrant and practical Perfetti Workdesk Pack, perfect for the new work-from-home culture. Smart, compact, and joyful packaging that connects with",
-    "keywords" : "Perfetti, Perfetti Workdesk packaging, Packaging design company, Packaging design services, Brand packaging design, Custom packaging design, Packaging designers, Food packaging design, Retail packaging design, Luxury packaging design, Creative package design",
+    "title": "Perfetti Workdesk Pack Packaging Design | Prakria Creative Pack",
+    "description": "Prakria designed the vibrant and practical Perfetti Workdesk Pack, perfect for the new work-from-home culture. Smart, compact, and joyful packaging that connects with",
+    "keywords": "Perfetti, Perfetti Workdesk packaging, Packaging design company, Packaging design services, Brand packaging design, Custom packaging design, Packaging designers, Food packaging design, Retail packaging design, Luxury packaging design, Creative package design",
     "herosection": {
       "title": "Perfetti Workdesk Pack — A Little Joy for the New Normal",
       "list": [
@@ -482,116 +478,111 @@
       ]
     },
     "challenge": {
-      "title": "Why Us",
-      "description": "This project wasn’t about simply placing candies in a box. Perfetti needed a team that could design something quick, clever, and full of personality. At Prakria, we blend product packaging design expertise with strategy and imagination. From bespoke packaging concepts to clever design execution, we know how to make brands sparkle. Perfetti trusted us because we’re not just designers — we’re storytellers who craft packaging that connects with people’s everyday lives.",
+      "title": "The Challenge",
+      "description": "With the move to remote working and “work from home” routines during/after lockdowns, working professionals were looking for easily-accessible refreshment options at their desks. ",
       "list": [
-        "Quick turnaround with creative precision",
-        "Packaging that balances fun with functionality",
-        "Design that fits perfectly into daily routines",
-        "A concept that’s instantly relatable and uplifting"
+        { "text": "Perfetti identified this shift as an opportunity: they needed to design a pack tailored for the work-desk environment, not just a regular retail pack." },
+        { "text": "The brand wanted to launch this “Work Desk Pack” primarily via digital channels, so speed, digital-readiness, and eye-catching design were all critical." }
       ]
     },
     "startageySection": {
-      "title": "Our Idea & Execution",
-      "description": "We asked ourselves: if a pack is going to sit on someone’s desk all day, what should it feel like? The answer — bright enough to lift moods, compact enough to fit anywhere, and fun enough to make people smile.",
+      "title": "THE STRATEGY",
+      "description": "Our goal was to align product innovation with a rapidly changing lifestyle, the work-from-home routine. The concept was aptly named “Work Desk Pack” to immediately communicate its purpose and utility.",
       "list": [
         {
           "number": "01",
-          "title": "Naming the Pack",
-          "description": "We kept it simple and relatable — 'Workdesk Pack'. The name says exactly what it is and connects instantly."
+          "title": "Creative Concept",
+          "description": "We designed a snack-pack that complemented the work desk environment,  compact, accessible, and tailored for quick refreshment during busy workdays."
         },
         {
           "number": "02",
-          "title": "Creative Package Design",
-          "description": "The visual style used bold, cheerful colors and clean lines, making the pack pop on both digital and physical shelves."
+          "title": "Design Detailing",
+          "description": "The packaging design reflected fun, refreshment, and enjoyment,  the core ethos of Perfetti. At the same time, it was shaped for functionality, making it convenient to keep and use on a desk without clutter."
         },
         {
           "number": "03",
-          "title": "Package Label Design",
-          "description": "Strong typography paired with playful product cues gave it a friendly yet professional vibe."
+          "title": "Speed to Market",
+          "description": "Leveraging agility, PRAKRIA and Perfetti executed the design and digital launch cycle at remarkable speed. This rapid turnaround helped the brand stay ahead of the curve, capturing the new market behaviour early and effectively."
         },
         {
           "number": "04",
-          "title": "Practicality First",
-          "description": "Compact, sturdy, and perfectly sized to sit neatly on a desk — always within reach for a quick treat."
+          "title": "Outcome",
+          "description": "The result was a product-pack that blended design thinking with timely relevance,  a perfect example of creativity meeting consumer insight in real time."
         }
       ]
     },
     "executionSection": {
-      "title": "From Idea to Launch",
-      "description": "With markets shifting rapidly, speed and agility were key. We moved quickly from concept to delivery, ensuring the design reflected both the tone of the times and Perfetti’s playful brand spirit.",
+      "title": "The Creative Execution",
+      "description": "We asked ourselves: If a pack is going to sit on someone’s desk all day, what should it feel like? The answer: bright enough to lift your mood, compact enough to fit anywhere, and fun enough to make you smile.",
       "list": [
         {
-          "src": "/icon/service/idea.png",
-          "alt": "Creative packaging icon",
-          "title": "Creative Packaging Design",
-          "description": "Cheerful, vibrant visuals that brought joy to the workspace."
+          "src": "/icon/service/light.png",
+          "alt": "Naming the Pack",
+          "title": "Naming the Pack",
+          "description": "We kept it simple and clear - “Workdesk Pack.” It says exactly what it is and makes it instantly relatable."
         },
         {
-          "src": "/icon/service/label.png",
+          "src": "/icon/service/fire.png",
           "alt": "Label design icon",
-          "title": "Label & Typography Design",
-          "description": "Clear, friendly typography ensured legibility while reinforcing approachability."
+          "title": "Creative Package Design",
+          "description": "The look combined bold, cheerful colors with clean lines, making it stand out on both physical and digital shelves."
         },
         {
-          "src": "/icon/service/structure.png",
+          "src": "/icon/service/users.png",
           "alt": "Structural design icon",
-          "title": "Structural Design",
-          "description": "Designed to fit perfectly on desks — compact, neat, and easy to handle."
+          "title": "Package Label Design",
+          "description": "Strong typography and playful product cues gave the pack a friendly yet professional vibe."
         },
         {
-          "src": "/icon/service/branding.png",
+          "src": "/icon/service/star.png",
           "alt": "Brand design icon",
-          "title": "Brand Integration",
-          "description": "Kept the brand’s youthful tone alive while addressing the evolving work-from-home lifestyle."
+          "title": "Practicality First",
+          "description": "The structure was compact so it could fit neatly on a desk, always within reach for a quick treat."
         }
       ]
     },
     "resultSection": {
-      "title": "The Impact",
-      "description": "The launch was an instant success. People loved the concept of a pack made for their new routines. It wasn’t just candy — it was a thoughtful little desk companion.",
+      "title": "The Result",
+      "description": "The launch was a hit. People loved the idea of having a pack that was made for their new routines. It wasn’t just another box of candy, it was a thoughtful little desk companion.Quick Market Response: By acting fast, Perfetti got ahead of the curve and grabbed attention early.",
       "list": [
         {
-          "text": "Quick market response — Perfetti captured attention early and stayed ahead of trends."
+          "text": "Digital Appeal: The bright, relatable design made it perfect for online promotion, sparking social shares and conversations."
         },
         {
-          "text": "Bright, relatable design made it ideal for online promotion and social sharing."
+          "text": "Brand Love: The pack reinforced Perfetti’s image as a brand that understands its audience and adapts to changing times."
         },
         {
-          "text": "Reinforced Perfetti’s image as a brand that understands evolving consumer behavior."
-        },
-        {
-          "text": "Balanced functionality with playfulness — showing how packaging can be both smart and joyful."
+          "text": "Practical & Fun: It balanced utility with playfulness, showing how brand packaging design can be both smart and joyful."
         }
       ]
     },
     "whySection": {
-      "title": "Why This Project Matters",
-      "description": "The Perfetti Workdesk Pack proved that great design doesn’t have to be complex — it just needs to connect emotionally and respond to the moment.",
+      "title": "Why This Matters",
+      "description": "The Perfetti Workdesk Pack is proof that great design doesn’t have to be complicated. Sometimes, it’s about reading the moment and responding with creativity.It's a custom packaging design built for a cultural shift.",
       "list": [
         {
-          "src": "/icon/service/custom.png",
+          "src": "/icon/service/star.png",
           "alt": "Custom design icon",
-          "text": "It’s custom packaging design built for a cultural shift."
+          "text": "It’s innovative packaging design that made WFH life feel a little brighter."
         },
         {
-          "src": "/icon/service/innovation.png",
+          "src": "/icon/service/light.png",
           "alt": "Innovation icon",
-          "text": "It’s innovative design that made work-from-home life feel a little brighter."
+          "text": "It shows how packaging designers can transform an everyday pack into something people talk about and share."
         },
         {
-          "src": "/icon/service/share.png",
+          "src": "/icon/service/cursor.png",
           "alt": "Shareable design icon",
-          "text": "It shows how packaging can turn everyday products into experiences people talk about and share."
+          "text":  "For us at Prakria, it reinforced what we believe: packaging isn’t just about wrapping a product, it’s about designing experiences people connect with."
         }
       ]
     }
   },
 
   "palmolive-european-treasures": {
-    "title" : "Palmolive European Treasures Packaging Design | Prakria Creative Agency",
-    "description" : "Prakria transformed Palmolive’s bathing kit into a sensorial journey with elegant packaging inspired by European spa traditions. Experience premium design that elevates daily rituals.",
-    "keywords" : "Palmolive, Packaging design agency, Creative package design, Brand packaging design, Product packaging design, Custom packaging design, Innovative packaging design services,  Retail packaging design, Packaging design services, Food packaging design, Cosmetic packaging design, Luxury packaging design, Packaging design company",
+    "title": "Palmolive European Treasures Packaging Design | Prakria Creative Agency",
+    "description": "Prakria transformed Palmolive’s bathing kit into a sensorial journey with elegant packaging inspired by European spa traditions. Experience premium design that elevates daily rituals.",
+    "keywords": "Palmolive, Packaging design agency, Creative package design, Brand packaging design, Product packaging design, Custom packaging design, Innovative packaging design services,  Retail packaging design, Packaging design services, Food packaging design, Cosmetic packaging design, Luxury packaging design, Packaging design company",
     "herosection": {
       "title": "Palmolive European Treasures — Packaging That Feels Like a Journey",
       "list": [
@@ -620,107 +611,99 @@
     "storySection": {
       "title": "The Story — Turning Everyday Moments into Escapes",
       "paragraphs": [
-        "Imagine a simple daily routine that suddenly feels like a vacation: opening a box that takes you to the lavender fields of France or the calm Mediterranean coastlines. Palmolive approached PRAKRIA TECH with a vision to make that happen — to turn a regular shower into a sensory retreat.",
-        "Our mission was clear: design packaging that carried feelings of wanderlust, luxury, and tranquility. We set out to create the 'European Bathing Treasures' pack — an experience that wasn’t just about products, but about emotion and escape."
+     "Palmolive is known for its great products. But in a marketspace as cluttered as that of bathing products, finding a unique space was quite a challenge. They needed something that was beyond a mere ‘product’. They needed an experience."
       ]
     },
     "challenge": {
       "title": "The Challenge",
       "description": "Palmolive, known globally for care products, wanted to go beyond the ordinary. They didn’t just want packaging — they wanted an experience. The brief was to make every unboxing moment feel like a mini holiday, blending visual indulgence with emotional resonance. The challenge was to make people pause, breathe, and experience calm in their everyday lives.",
       "list": [
-        "Create packaging that communicates calm, luxury, and escape.",
-        "Blend European aesthetics with modern simplicity.",
-        "Ensure design consistency across product formats.",
-        "Make the box feel like a gift, not just packaging."
+        { "text": "The goal was to transform the everyday shower into a moment of calm and self-care,  a brief escape from the busyness of daily life." },
+        { "text": "The challenge was to design packaging that evokes emotion and experience, not just shelf appeal." },
+        { "text": "The design needed to balance beauty and purpose, creating a sense of serenity while staying true to Palmolive’s identity." },
+        { "text": "In essence, the brief was simple yet ambitious: “Don’t just design packaging. Create an experience.”" }
       ]
     },
     "startageySection": {
-      "title": "Our Idea — “European Bathing Treasures”",
-      "description": "We asked ourselves: what makes a bath feel like a ritual? Scents, textures, and visuals that take you elsewhere. That’s how 'European Bathing Treasures' was born — a kit inspired by Europe’s spa traditions, designed to evoke serenity and luxury through every detail.",
+      "title": "THE STRATEGY",
+      "description": "Our aim was to transform a simple bath kit into a sensory ritual, something that evoked indulgence, calm, and escape. The concept was named “European Bathing Treasures” to capture the charm of Europe’s most luxurious spa traditions.",
       "list": [
         {
           "number": "01",
-          "title": "Soft Color Palette",
-          "description": "Used hues inspired by lavender fields and Mediterranean seasides to create a sense of calm and sophistication."
+          "title": "Creative Concept",
+          "description": "We explored what makes a bath feel special: the scents, textures, and little details that create a ritual. The idea was to make every aspect of the experience,  from visuals to structure — feel soothing and transportive."
         },
         {
           "number": "02",
-          "title": "Elegant Typography",
-          "description": "Refined, balanced fonts that felt premium yet approachable — evoking timeless European design cues."
+          "title": "Design Detailing",
+          "description": "Refined, balanced fonts that felt premium yet approachable — evoking timeless European design cues.\n\nEvery element of the packaging was crafted to echo this European sensibility:\n\nSoft, tranquil colors reminiscent of lavender fields and Mediterranean shores.\n\nElegant typography that conveyed premium quality while remaining warm and approachable.\n\nA structural design that unfolded gracefully, making the unboxing feel like a moment of calm and care."
         },
         {
           "number": "03",
-          "title": "Thoughtful Structure",
-          "description": "The kit unfolded gracefully, turning unboxing into a moment of mindfulness and beauty."
+          "title": "Experience Design",
+          "description": "The kit wasn’t just about holding products; it created an emotional experience. The act of opening it became part of the ritual, turning daily bathing into something to look forward to."
         }
       ]
     },
     "executionSection": {
-      "title": "How We Brought It to Life",
-      "description": "We transformed Palmolive’s idea into a tangible journey — a packaging design that felt luxurious yet comforting, indulgent yet accessible.",
+      "title": "THE CREATIVE EXECUTION",
+      "description": "Research & Inspiration: We studied spa rituals, nature, and art from across Europe to create moodboards that captured relaxation and luxury.",
       "list": [
         {
-          "src": "/icon/service/research.png",
+          "src": "/icon/service/lightning.png",
           "alt": "Research and inspiration icon",
-          "title": "Research & Inspiration",
-          "description": "We drew from spa rituals, European art, and natural textures to craft moodboards reflecting calmness and luxury."
-        },
-        {
-          "src": "/icon/service/concept.png",
-          "alt": "Concept development icon",
           "title": "Concept Development",
-          "description": "Explored structural and visual possibilities — from how the box opens to how the bottles rest inside."
+          "description": " Early sketches explored how the box could look and feel,  not just graphics, but the way it opened and held the bottles."
         },
         {
-          "src": "/icon/service/structure.png",
-          "alt": "Design and structure icon",
+          "src": "/icon/service/fire.png",
+          "alt": "Concept development icon",
           "title": "Design & Structure",
-          "description": "Created a sturdy, elegant, and gift-ready box where graphics and structure worked in harmony."
+          "description": "We crafted a box that was sturdy, elegant, and gift-ready. The package label design and outer visuals worked seamlessly with the structure."
         },
         {
-          "src": "/icon/service/finish.png",
-          "alt": "Finishing touches icon",
+          "src": "/icon/service/cursor.png",
+          "alt": "Design and structure icon",
           "title": "Finishing Touches",
-          "description": "Used soft-touch coating, subtle foil details, and premium materials for a refined, tactile experience."
+          "description": "Soft-touch textures, subtle foiling, and premium materials gave it that luxury feel without being over the top."
         }
       ]
     },
     "resultSection": {
-      "title": "The Impact",
-      "description": "The final design became more than packaging — it became an experience of European elegance at home. Retailers and customers alike admired its sophistication and giftability.",
+      "title": "The Result",
+      "description": "When the Palmolive European Treasures kit launched, the reaction was instant. Shoppers didn’t just see soap bottles, they saw a thoughtful kit they could display, gift, or keep for themselves.",
       "list": [
         {
-          "text": "Created strong shelf appeal and brand differentiation through emotional design."
+          "text": "The design made it stand out on digital platforms and retail shelves."        },
+        {
+          "text": "Reviews praised not only the product quality but the beauty of the packaging itself."
         },
         {
-          "text": "Strengthened Palmolive’s identity as a premium yet approachable care brand."
+          "text": "The brand felt elevated, moving from “everyday” to “premium.”"
         },
         {
-          "text": "Elevated the unboxing experience to evoke calm, relaxation, and indulgence."
-        },
-        {
-          "text": "Transformed everyday personal care into a sensory journey, beyond routine."
+          "text": "Most importantly, it made customers feel that a daily shower could be a little escape."
         }
       ]
     },
     "whySection": {
-      "title": "Why This Project Matters",
-      "description": "The Palmolive European Treasures project shows how packaging can be more than functional — it can be transformative. By blending storytelling, emotion, and design, we turned a shower kit into a sensory escape.",
+      "title": "Why This Matters",
+      "description": "This kit proved how powerful packaging design services can be: Custom packaging design can turn a routine product into something giftable.",
       "list": [
         {
-          "src": "/icon/service/experience.png",
+          "src": "/icon/service/star.png",
           "alt": "Experience design icon",
-          "text": "It turned packaging into a multisensory experience, not just a container."
+          "text": "Innovative packaging design can connect cultures and emotions."
         },
         {
-          "src": "/icon/service/luxury.png",
+          "src": "/icon/service/light.png",
           "alt": "Luxury branding icon",
-          "text": "It showcased how subtle design choices — color, texture, typography — can convey premium appeal."
+          "text": "Packaging designers can go beyond graphics to create experiences."
         },
         {
-          "src": "/icon/service/story.png",
+          "src": "/icon/service/cursor.png",
           "alt": "Storytelling design icon",
-          "text": "It reinforced our belief that packaging is storytelling — each detail should evoke emotion and meaning."
+          "text": "Retail packaging design doesn’t just sell, it tells a story."
         }
       ]
     }
