@@ -68,6 +68,9 @@ function WhySection(props) {
             ))}
           </div>
         )}
+        <p className="text-sm sm:text-base text-gray-300 w-full px-2 mt-10 text-center">
+          {props.conclusionLine}
+        </p>
       </div>
     </section>
   );

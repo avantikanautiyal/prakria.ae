@@ -21,12 +21,16 @@ function ResultSection(props) {
               key={index}
               className="bg-[#1D1D1D] p-8 rounded-xl shadow-xl hover:bg-[#1D1D1D] transition duration-300 flex items-center justify-center min-h-[150px]"
             >
-              <p className="text-sm font-medium text-gray-200 text-center">
-                {item.text}
-              </p>
+              <p
+                className="text-sm font-medium text-gray-200 text-center"
+                dangerouslySetInnerHTML={{ __html: item.text }}
+              />
             </div>
           ))}
         </div>
+        <p className="text-sm sm:text-base text-gray-300 w-full px-2 mt-10 text-center">
+          {props.conclusionLine}
+        </p>
       </div>
     </section>
   );

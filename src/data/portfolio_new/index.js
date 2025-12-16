@@ -4,6 +4,7 @@ import branding from "./branding.json";
 import digitalMarketing from "./digitalmarkiting.json";
 import packaging from "./packaging.json";
 import printMedia from "./printmedia.json";
+import website from "./website.json"
 
 const portfolioData = {
   threeDCGI,
@@ -12,6 +13,7 @@ const portfolioData = {
   digitalMarketing,
   packaging,
   printMedia,
+  website
 };
 // Creates an object with all portfolio item keys as keys and their category as value
 function getPortfolioPathObject(path) {

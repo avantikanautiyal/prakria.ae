@@ -162,7 +162,6 @@
     "title": "Polo Christmas AR Filter | Festive Augmented Reality Experience by Prakria",
     "description": "Celebrate the holidays with Polo’s Christmas AR filter designed by Prakria. Experience interactive festive animations like snow, candy canes, and sparkling lights that deliver joyful, shareable moments on mobile devices.",
     "keywords": "Christmas AR filter, AR app development, VR app development, , Motion effects, Animated video creation, 2D/3D animation, Augmented reality application development, AR + animation execution, , AR/VR studio",
-
     "herosection": {
       "title": "Polo Christmas AR Filter — When Holiday Cheer Meets Augmented Magic",
       "list": [
@@ -210,7 +209,8 @@
         {
           "text": "The deeper challenge was making sure the filter didn't just entertain but invited participation, creating and sharing one's own festive moments with Polo at the center."
         }
-      ]
+      ],
+      "conclusionLine": "The task, in short, was to change a humble social filter into a magical branded experience-one that spread Polo's festive cheer through interaction, not advertising."
     },
     "startageySection": {
       "title": "THE STRATEGY",
@@ -236,7 +236,8 @@
           "title": "Created an implementation",
           "description": "Assured the filter experience was performant across mobile devices, with little to no lag time, and visual fidelity."
         }
-      ]
+      ],
+      "conclusionLine": "Since filters are “always on screen”, each animation decision is light, festive, and non-intrusive - to provide delight, when possible, without interruption."
     },
     "executionSection": {
       "title": "THE CREATIVE EXECUTION",
@@ -257,7 +258,8 @@
           "alt": "Retail Packaging icon",
           "description": "Share directly to stories, messages, and social media etc."
         }
-      ]
+      ],
+      "conclusionLine": "We also created teaser animations, a promotional banner image, and AR previews to support Polo with the promotion of the filter across both its digital and physical channels."
     },
     "resultSection": {
       "title": "The Result",
@@ -298,7 +300,8 @@
           "alt": "Immersive strategy icon",
           "text": "Think of filters and immersive technology not just as novelties, but as strategic extensions to the brand."
         }
-      ]
+      ],
+      "conclusionLine": "As an animation / AR / VR studio, Prakria sees every filter as a connection between a brand and a user, a magical moment, and a chance to put some delight into someone’s day"
     }
   },
   "blanca-wine-proof-of-concept": {
@@ -324,7 +327,6 @@
           "src": "/assets_main/services/ar_vr/29/ar1.png",
           "alt": "Blanca Wine AR and immersive storytelling visuals"
         },
-
         {
           "src": "/assets_main/services/ar_vr/29/ar5.png",
           "alt": "Blanca Wine augmented reality promotional visuals"
@@ -358,7 +360,8 @@
         {
           "text": "As proof of concept, Blanca had to showcase what the future of brand storytelling looks and feels like, how creative technology can turn something as humble as packaging into a digital doorway of emotion and experience."
         }
-      ]
+      ],
+      "conclusionLine": "The challenge was to transform a conceptual wine brand into a real one, living and breathing, proof that technology and storytelling can fuse as beautifully as the wine itself"
     },
     "startageySection": {
       "title": "THE STRATEGY",
@@ -405,7 +408,8 @@
           "alt": "Modular Structure icon",
           "description": "Modular structure, so additional layers like mini-games or VR tours could be added without reworking the core"
         }
-      ]
+      ],
+      "conclusionLine": "Assets ready for social sharing, internal demos, and brand engagement"
     },
     "resultSection": {
       "title": "THE RESULT",
@@ -420,7 +424,8 @@
         {
           "text": "It highlighted Prakria’s ability in AR VR app development, VR development, and immersive storytelling, not just design."
         }
-      ]
+      ],
+      "conclusionLine": "Because Blanca was designed as a proof project, it let us experiment, iterate, and push boundaries without constraints."
     },
     "whySection": {
       "title": "WHY THIS MATTERS",
@@ -449,7 +454,8 @@
           "title": "Luxury Packaging Design Touch",
           "text": "As a studio for animation, also constructing AR/VR, smartphone apps, and interactive technology, Prakria employed Blanca to reveal the future of brand interaction."
         }
-      ]
+      ],
+      "conclusionLine": " If a plain wine bottle can be a gateway into Spain, just think of what we can do for your Brand."
     }
   }
 }

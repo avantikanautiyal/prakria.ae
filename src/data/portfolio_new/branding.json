@@ -55,7 +55,8 @@
         {
           "text": "It needed to feel like a premium gifting product (design, finishing) yet be broad in appeal and versatile."
         }
-      ]
+      ],
+      "conclusionLine": "In short, the challenge was to transform a scattered range of products into a single, premium, year-round boxed format that would stand out on shelf and appeal broadly"
     },
     "startageySection": {
       "title": "THE STRATEGY",
@@ -97,7 +98,7 @@
       "title": "THE CREATIVE EXECUTION",
       "list": [
         {
-          "src": "/icon/service/lightbulb.png",
+          "src": "/icon/service/cursor.png",
           "alt": "Research and positioning icon",
           "title": "Research & Positioning",
           "description": "We studied gifting categories and premium boxes to see what works. We wanted this box to sit naturally in gifting aisles but also hold ground on snack shelves."
@@ -121,7 +122,7 @@
           "description": "The box structure had to hold multiple snack products securely. Our structural designers modeled internal trays and partitions so that everything sat perfectly, even with transit."
         },
         {
-          "src": "/icon/service/brand.png",
+          "src": "/icon/service/fire.png",
           "alt": "Brand consistency icon",
           "title": "Brand Consistency",
           "description": "Logos, color tones, iconography, and typography all harmonized with Perfetti’s brand identity. The box never felt like a divergence from their overall brand language."
@@ -156,7 +157,7 @@
           "text": "It shows how creative package design can turn ordinary into aspirational."
         },
         {
-          "src": "/icon/service/lightbulb.png",
+          "src": "/icon/service/light.png",
           "alt": "Retail leadership icon",
           "text": "It’s a case of retail packaging design that doesn’t just blend in, it leads."
         },
@@ -170,7 +171,8 @@
           "alt": "Storytelling box icon",
           "text": "It underscores the role of a packaging design agency that sees boxes as canvases for brand storytelling."
         }
-      ]
+      ],
+      "conclusionLine": "At Prakria, we believe every box is an opportunity to be beautiful, meaningful, and memorable."
     }
   },
   "dr-oetker-premium-sauce": {
@@ -229,7 +231,8 @@
         {
           "text": "High stakes: the brand’s reputation was on the line; this wasn’t a small extension but a brand-heavy project that required both strategic depth and superb design studio outputs."
         }
-      ]
+      ],
+      "conclusionLine": "In a nutshell: the task was to help Dr. Oetker to re-position as the first ever premium global sauce brand in India, creating authenticity, desirability and shelf impact right from the word go."
     },
     "startageySection": {
       "title": "THE STRATEGY",
@@ -324,7 +327,8 @@
           "alt": "Retail standout icon",
           "text": "Retail packaging design can make products leap off the shelf and stand out online."
         }
-      ]
+      ],
+      "conclusionLine": "At Prakria, we believe that great packaging is more than a wrapper, it’s a cultural and emotional connector between brands and people"
     }
   },
   "nescafe-digital-packaging": {
@@ -407,8 +411,38 @@
         }
       ]
     },
+    "executionSection": {
+      "title": "THE CREATIVE EXECUTION",
+      "description": "Designed heritage-inspired packaging featuring custom typography, textured backgrounds, and illustrative storytelling elements.",
+      "list": [
+        {
+          "src": "/icon/service/cursor.png",
+          "alt": "high-impact stop-motion",
+          "title": "high-impact stop-motion",
+          "description": "Produced high-impact stop-motion, 3D and AR for social media."
+        },
+        {
+          "src": "/icon/service/star.png",
+          "alt": "celebrating Polo’s",
+          "title": "celebrating Polo’s",
+          "description": "Created designs celebrating Polo’s iconic circular shape and social copy with a witty tone of voice."
+        },
+        {
+          "src": "/icon/service/users.png",
+          "alt": "Brought humor and simplicity",
+          "title": "Brought humor and simplicity",
+          "description": "Brought humor and simplicity into every digital touchpoint."
+        },
+        {
+          "src": "/icon/service/users.png",
+          "alt": "execution re-established",
+          "title": "Execution re-established",
+          "description": "The execution re-established Polo as a timeless yet trendy brand, small, simple, and effortlessly cool."
+        }
+      ]
+    },
     "resultSection": {
-      "title": "The Impact",
+      "title": "The Result",
       "description": "The “Awesome Date” packaging didn’t just look impressive, it created conversation: It broke through the clutter of everyday coffee packs and became a social media moment",
       "list": [
         {
@@ -430,7 +464,35 @@
     },
     "whySection": {
       "title": "WHY THIS MATTERS",
-      "description": "This case shows how powerful packaging design services can be when combined with storytelling and tech: Custom packaging design becomes a narrative gateway."
+      "description": "This case shows how powerful packaging design services can be when combined with storytelling and tech",
+      "list": [
+        {
+          "src": "/icon/service/cursor.png",
+          "alt": "packaging",
+          "text": "Custom packaging design becomes a narrative gateway."
+        },
+        {
+          "src": "/icon/service/fire.png",
+          "alt": "Creative Marketing icon",
+          "text": "Innovative packaging design brings the physical and digital worlds together."
+        },
+        {
+          "src": "/icon/service/lightning.png",
+          "alt": "Communication Strategy icon",
+          "text": "Packaging designers can be engineers, technologists, and storytellers combined."
+        },
+        {
+          "src": "/icon/service/render.png",
+          "alt": "Best Branding icon",
+          "text": "Brand packaging design reinforces brand values, rather than merely aesthetics "
+        },
+        {
+          "src": "/icon/service/cursor.png",
+          "alt": "Best Branding icon",
+          "text": "Package Label Design: Brand elements, typography, and image all complemented each other,  readable, expressive, and emotionally stimulating."
+        }
+      ],
+      "conclusionLine": "At Prakria, we don’t just design boxes, we create experiences people feel. The Nescafé project was one such example."
     }
   },
   "coffee-fiesta-packaging": {
@@ -475,7 +537,7 @@
       ]
     },
     "challenge": {
-      "title": "Why PRAKRIA?",
+      "title": "THE CHALLENGE",
       "description": "When the culture of cafés and growing local coffee pride was all the rage, NESCAFÉ Singapore took it upon itself to celebrate the drink in a manner that brought together coffee lovers of all kinds.",
       "list": [
         {
@@ -490,7 +552,8 @@
         {
           "text": "The challenge was to globally align but locally infuse—to create something that would truly captivate the hearts and minds of Singapore’s coffee culture."
         }
-      ]
+      ],
+      "conclusionLine": "Simply put the challenge ahead was to weave together the traditional and the contemporary, to turn a household name into the lifeblood of Singapore’s largest ever coffee celebration."
     },
     "startageySection": {
       "title": "THE STRATEGY",
@@ -516,7 +579,6 @@
     },
     "executionSection": {
       "title": "THE CREATIVE EXECUTION",
-     
       "list": [
         {
           "src": "/icon/service/lightning.png",
@@ -554,7 +616,8 @@
           "title": "Retail Packaging Design",
           "description": "At the supermarket shelf or online, the Coffee Fiesta packs caught the eye and heart. This was more than just food packaging design, it was storytelling through design."
         }
-      ]
+      ],
+      "conclusionLine": "This was more than just food packaging design, it was storytelling through design."
     },
     "resultSection": {
       "title": "The Result",
@@ -581,32 +644,32 @@
         {
           "src": "/icon/service/light.png",
           "alt": "Product Packaging Design icon",
-          "description": "Product packaging design goes beyond functionality to inspire joy."
+          "text": "Product packaging design goes beyond functionality to inspire joy."
         },
         {
           "src": "/icon/service/fire.png",
           "alt": "Creative Package Design icon",
-          "description": "Creative package design tells a story through visuals and structure."
+          "text": "Creative package design tells a story through visuals and structure."
         },
         {
           "src": "/icon/service/animation.png",
           "alt": "Custom Packaging Design icon",
-          "description": "Custom packaging design adapts to different formats while keeping consistency."
+          "text": "Custom packaging design adapts to different formats while keeping consistency."
         },
         {
           "src": "/icon/service/users.png",
           "alt": "Packaging Designer Role icon",
-          "description": "Packaging designers become cultural interpreters, not just visual stylists."
+          "text": "Packaging designers become cultural interpreters, not just visual stylists."
         },
         {
           "src": "/icon/service/star.png",
           "alt": "Brand Packaging Design icon",
-          "description": "Brand packaging design creates trust, recall, and identity."
+          "text": "Brand packaging design creates trust, recall, and identity."
         },
         {
           "src": "/icon/service/cursor.png",
           "alt": "Retail Packaging Design icon",
-          "description": "Retail packaging design ensures standout presence both offline and online."
+          "text": "Retail packaging design ensures standout presence both offline and online."
         }
       ]
     }
@@ -668,7 +731,8 @@
         {
           "text": "The packaging, identity and naming all needed to align around the product’s “max” size/impact to justify the premium positioning."
         }
-      ]
+      ],
+      "conclusionLine": "In essence, the challenge was to elevate MUNCH into a premium league without losing what made the brand loved,turning a familiar bar into something bold, “maxed” and aspirational"
     },
     "startageySection": {
       "title": "THE STRATEGY",
@@ -727,7 +791,7 @@
     },
     "resultSection": {
       "title": "The Result",
-      "description":"The Munch Max launch stood out in multiple ways:",
+      "description": "The Munch Max launch stood out in multiple ways:",
       "list": [
         {
           "text": "Consumers noticed the difference. The bold “X” identity made packs instantly recognizable on shelves."
@@ -773,7 +837,8 @@
           "alt": "Best Branding icon",
           "text": "Best branding work balances visual impact with strategic depth."
         }
-      ]
+      ],
+      "conclusionLine": "At Prakria, we see branding as more than aesthetics. It’s the face of the brand, the first handshake with consumers, and often the reason someone chooses to engage."
     }
   },
   "kitkat-goa-branding": {
@@ -849,27 +914,27 @@
     },
     "executionSection": {
       "title": "THE CREATIVE EXECUTION",
-      "description": "Brand Communication & Strategy: Messaging was centered around Goa’s leisure, sunshine, escape, the idea of taking a mini break in your hand. This line of thinking became the narrative backbone in ads, social creatives, and in-store visuals.",
       "list": [
         {
           "src": "/icon/service/star.png",
           "alt": "Communication & Strategy icon",
           "title": "Brand Communication & Strategy",
-          "text": "Messaging was centered around Goa’s leisure, sunshine, escape, the idea of taking a mini break in your hand. This line of thinking became the narrative backbone in ads, social creatives, and in-store visuals."
+          "description": "Messaging was centered around Goa’s leisure, sunshine, escape, the idea of taking a mini break in your hand. This line of thinking became the narrative backbone in ads, social creatives, and in-store visuals."
         },
         {
           "src": "/icon/service/fire.png",
           "alt": "Brand Promotion icon",
           "title": "Brand Promotion",
-          "text": "Beyond packaging, we backed the identity with both digital and non-digital campaigns. The Goa motif was amplified across social media, OOH, retail activations, and influencer tie-ins, ensuring that the limited edition identity didn’t just exist on shelf, it lived in people’s lives."
+          "description": "Beyond packaging, we backed the identity with both digital and non-digital campaigns. The Goa motif was amplified across social media, OOH, retail activations, and influencer tie-ins, ensuring that the limited edition identity didn’t just exist on shelf, it lived in people’s lives."
         },
         {
           "src": "/icon/service/users.png",
           "alt": "Creative Design Agency Role icon",
           "title": "Creative Design Agency Role",
-          "text": "As a full-service branding company, Prakria oversaw not just the visual, but also guiding how the identity would roll out, how it would be communicated, and how it would build emotional resonance."
+          "description": "As a full-service branding company, Prakria oversaw not just the visual, but also guiding how the identity would roll out, how it would be communicated, and how it would build emotional resonance."
         }
-      ]
+      ],
+      "conclusionLine": "The result? KitKat Goa became more than a collectible or special pack, it became a small story of place, memory, and escape in the daily routine."
     },
     "resultSection": {
       "title": "The Result",
@@ -903,7 +968,8 @@
           "alt": "Brand Communication & Strategy icon",
           "text": "Brand communication & strategy drove across channels in a unified voice."
         }
-      ]
+      ],
+      "conclusionLine": "The project illustrates how branding consultants and creative marketing agencies should think of packaging as a storytelling medium, not just utility."
     }
   },
   "palmolive-sensory-branding": {
@@ -987,7 +1053,6 @@
     },
     "executionSection": {
       "title": "THE CREATIVE EXECUTION",
-     
       "list": [
         {
           "src": "/icon/service/lightning.png",
@@ -1047,7 +1112,8 @@
           "alt": "Brand Communication & Strategy icon",
           "text": "Brand communication & strategy tied sensory stories to real product benefits."
         }
-      ]
+      ],
+      "conclusionLine": "This is the kind of work top creative and branding companies are ideally positioned to deliver."
     }
   }
 }

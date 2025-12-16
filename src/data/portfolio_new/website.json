@@ -1,0 +1,1101 @@
+{
+    "rentopiaa": {
+        "title": "Rentopiaa Real Estate Platform Development | Scalable & User-Friendly Solutions by Prakria",
+        "description": "Prakria built Rentopiaa, a comprehensive, intuitive real estate platform that simplifies property listings, tenant searches, and communication, with scalable backend services and secure payment integration.",
+        "keywords": "Rentopiaa, UI/UX design agency and web solutions company, best web developers and website building companies, top web development and ecommerce website development companies, website development, web solutions company and UI/UX design agency, website designing ,mobile development agency",
+        "herosection": {
+            "title": "Rentopiaa -Building a Scalable Real Estate Platform for the Future",
+            "list": [
+                {
+                    "src": "/assets_main/services/web_dev/40/1.png",
+                    "alt": "Rentopiaa-1"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/40/2.png",
+                    "alt": "Rentopiaa-2"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/40/3.png",
+                    "alt": "Rentopiaa-3"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/40/5.mp4",
+                    "alt": "Rentopiaa-4",
+                    "type": "video"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/40/4.png",
+                    "alt": "Rentopiaa-5"
+                }
+            ]
+        },
+        "storySection": {
+            "title": "Building a Full Real Estate Ecosystem (Not Just Listings)",
+            "paragraphs": [
+                "Rentopiaa wanted to build something bigger than a regular property listing website. Their idea was to create a full real estate ecosystem - where landlords could easily list properties, and tenants could search, filter, and connect with no hassle or stress.",
+                "They also needed multiple membership tiers, and payment integration, and a way for users to communicate within the platform. Most importantly, the system needs to be safe, stable, and scalable - so that it can grow with the business.",
+                "In short, Rentopiaa wasn’t looking to just build a website; they needed a “one digital platform” built through strategic website development, user-centric web designing, and smart UI/UX design services."
+            ]
+        },
+        "challenge": {
+            "title": "THE CHALLENGE",
+            "description": "Founded to redefine real estate rentals in a space crowded with property portals, Rentopiaa aims to seamlessly connect landlords and tenants digitally, rather than simply provide listings and leads.",
+            "list": [
+                {
+                    "text": "Rentopiaa wanted to develop a complete ecosystem, not just a website, which would be able to handle listings, payments, messaging, and memberships all under one roof."
+                },
+                {
+                    "text": "Most existing property platforms felt cluttered, confusing, or just plain transactional."
+                },
+                {
+                    "text": "The challenge was to make a user experience that feels simple, credible, and human while managing high technical complexity in the background."
+                },
+                {
+                    "text": "The platform needed to serve two types of distinct users—landlords and tenants—who have different needs, workflows, and interaction patterns."
+                },
+                {
+                    "text": "It had to incorporate membership tiers, integrated payment gateways, and real-time communication tools while maintaining speed, security, and scalability."
+                },
+                {
+                    "text": "Finally, the administrative system had to provide full visibility and control so that the Rentopiaa team could independently manage listings, users, and transactions."
+                }
+            ],
+            "conclusionLine": "In other words, the challenge was to build a scalable, intuitive platform that makes renting a process as seamless and transparent as possible for all parties concerned."
+        },
+        "startageySection": {
+            "title": "THE STRATEGY",
+            "list": [
+                {
+                    "number": "01",
+                    "title": "Platform-First Approach",
+                    "description": "Rather than treating Rentopiaa as a website, Prakria positioned it as a full digital product, built for growth, flexibility, and automation."
+                },
+                {
+                    "number": "02",
+                    "title": "Dual-User Design Thinking",
+                    "description": "Designed parallel experiences for landlords and tenants, making sure each journey was optimized for clarity, engagement, and conversion."
+                },
+                {
+                    "number": "03",
+                    "title": "Smart Architecture",
+                    "description": "Created a robust, modular backend for listings, payments, memberships, and communication that will scale with growing numbers of users."
+                },
+                {
+                    "number": "04",
+                    "title": "Human-Centered Simplicity",
+                    "description": "Focused on clear information hierarchy and intuitive UI, ensuring that both the tech-savvy and first-time user could navigate through with ease."
+                },
+                {
+                    "number": "05",
+                    "title": "Admin Empowerment",
+                    "description": "Implemented a full admin control center to monitor the users, approve listings, manage payments, and send notifications without using any third-party dependency."
+                },
+                {
+                    "number": "06",
+                    "title": "Technology & Usability, Combined",
+                    "description": "The idea was to merge technology and usability, developing a platform that feels lightweight on the surface but is powerful internally, ready to scale with Rentopiaa's ambitions."
+                }
+            ]
+        },
+        "executionSection": {
+            "title": "THE CREATIVE EXECUTION",
+            "list": [
+                {
+                    "src": "/icon/service/users.png",
+                    "alt": "Landlord Dashboard icon",
+                    "title": "Landlord Dashboard",
+                    "description": "Designed a clean, modern dashboard where property owners can add listings, update images, track inquiries, and manage payments from one central space."
+                },
+                {
+                    "src": "/icon/service/cursor.png",
+                    "alt": "Tenant Experience icon",
+                    "title": "Tenant Experience",
+                    "description": "Designed an engaging, search-driven interface for users to filter properties by location, price, type, or amenities; ensuring that discovery is rapid and frictionless."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Membership & Payments icon",
+                    "title": "Membership & Payments",
+                    "description": "Integrated tiered membership plans and secure payment gateways will let users unlock premium features, enabling new revenue streams for Rentopiaa."
+                },
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Communication System icon",
+                    "title": "Communication System",
+                    "description": "In-platform messaging for the landlord and tenant to get in touch directly through the website without using third-party apps."
+                },
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Admin Portal icon",
+                    "title": "Admin Portal",
+                    "description": "A strong backend dashboard was developed for the Rentopiaa team so that they can observe user activity, approve listings, and analyze platform performance in real time."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Design Language icon",
+                    "title": "Design Language",
+                    "description": "Created an aesthetic that is minimal, trustworthy, and modern; clean layouts, easy navigation, and neutral color palettes convey professionalism and dependability."
+                },
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Scalable Foundation icon",
+                    "title": "Scalable Foundation",
+                    "description": "The development of the platform using the best web development frameworks, ensuring stability, security, and future-readiness."
+                }
+            ],
+            "conclusionLine": "With strategic design and technical craftsmanship, Prakria turned Rentopiaa's idea into a living, scalable platform that connects people, simplifies rentals, and reimagines the real estate experience."
+        },
+        "resultSection": {
+            "title": "The Result",
+            "description": "By the end of the project, Rentopiaa had a powerful, future-ready digital platform that simplified the rental experience for everyone involved.",
+            "list": [
+                {
+                    "text": "<p>For Landlords:</p> <p>A smooth, self-managed way to list and update properties</p> <p>Better visibility and faster communication with potential tenants</p>"
+                },
+                {
+                    "text": "<p>For Tenants:</p> <p>A clear, intuitive property search experience</p> <p>Flexible membership options and simple contact tools</p>"
+                },
+                {
+                    "text": "<p>For the Rentopiaa Team:</p> <p>A single platform to manage users, listings, and payments effortlessly</p> <p>A website development foundation built to scale with their business</p>"
+                }
+            ],
+            "conclusionLine": "The platform positioned Rentopiaa as a modern, credible real estate brand -ready to grow without constant technical rework or redesign."
+        },
+        "whySection": {
+            "title": "WHY THIS MATTERS",
+            "description": "This project proves that with the right web solutions company and UI/UX design agency, even complex ideas can become elegant, efficient digital experiences.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Long-Term Tool icon",
+                    "title": "A Business Platform, Not Just a Website",
+                    "text": "For Rentopiaa, it wasn’t just about launching a site—it was about building a long-term business tool that connects people, simplifies renting, and adapts as the market evolves."
+                },
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Prakria Core icon",
+                    "title": "Design, Strategy & Tech Combined",
+                    "text": "For Prakria, this project represents what we do best—combining design, strategy, and technology to create platforms that grow with their users."
+                }
+            ],
+            "conclusionLine": "It’s a showcase of how great website designing and mobile development agency expertise can transform an idea into an impactful, scalable reality -built for today and ready for tomorrow."
+        }
+    },
+    "terradef": {
+        "title": "Terradef Defense Mobility Solutions | Strategic Digital Branding by Prakria",
+        "description": "Prakria redesigned Terradef’s digital presence to showcase cutting-edge defense mobility solutions with immersive storytelling, responsive design, and trust-building brand strategy for India’s next-gen defense sector.",
+        "keywords": "Terradef, website development and web designing, UI/UX design agency and web solutions company, website designing, UI/UX design services, top web development, best web developers and website building companies, ecommerce website development company, web development, website designing and UI/UX design services, UI/UX design agency, web solutions company, app development company",
+        "herosection": {
+            "title": "Terradef -Empowering India’s Defense Mobility with Digital Excellence",
+            "list": [
+                {
+                    "src": "/assets_main/services/web_dev/41/1.png",
+                    "alt": "Terradef-1"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/41/2.png",
+                    "alt": "Terradef-2"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/41/3.png",
+                    "alt": "Terradef-3"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/41/4.png",
+                    "alt": "Terradef-4"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/41/5.png",
+                    "alt": "Terradef-6"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/41/6.mp4",
+                    "alt": "Terradef-5",
+                    "type": "video"
+                }
+            ]
+        },
+        "storySection": {
+            "title": "A Scenario: The Need for Digital Transformation in Defense Innovation",
+            "paragraphs": [
+                "Terradef builds advanced defense mobility and armour protection systems -from rolling chassis and all-terrain vehicle platforms to ballistic protection and composite panels. Their mission is bold and deeply national: to empower next-gen manufacturers in India to reduce import dependency and deliver home-grown, high-performance defense solutions.",
+                "However, their previous digital presence didn’t reflect that ambition. While functional, it lacked brand storytelling, emotional resonance, and a clear visual representation of scale and expertise. Terradef needed more than a standard website -they needed a powerful digital identity built through expert website development and web designing.",
+                "The challenge: to make defense technology — a highly technical and specialized domain — feel accessible, credible, and forward-looking online."
+            ]
+        },
+        "challenge": {
+            "title": "THE CHALLENGE",
+            "description": "In the fast-changing Indian defense landscape, Terradef set out to redefine indigenous mobility and protection systems, and the Company needed a digital identity bold enough to match its mission.",
+            "list": [
+                {
+                    "text": "The existing Terradef website was functional but unremarkable, poorly communicating the brand's scale, depth of engineering, and national vision."
+                },
+                {
+                    "text": "The company is into a very technical, specialized sector where armored platforms and chassis systems are inherently difficult to communicate visually."
+                },
+                {
+                    "text": "The digital experience did not resonate on an emotional level, nor was brand storytelling conveyed, ultimately making innovation and credibility hard to perceive online."
+                },
+                {
+                    "text": "The challenge was to humanize defense technology, making it understandable, credible, and future-forward, yet with the gravitas expected of the defense sector."
+                },
+                {
+                    "text": "The platform should balance transparency with authority, showing capability but without losing technical rigor."
+                },
+                {
+                    "text": "In other words, the challenge was to convert a purely technical manufacturer's website into an engaging, mission-driven digital brand that inspires the spirit of defense innovation in India."
+                }
+            ],
+            "conclusionLine": "The goal was to transform a purely technical manufacturer's website into an inspiring, engaging digital brand that embodies defense innovation for India."
+        },
+        "startageySection": {
+            "title": "THE STRATEGY",
+            "description": "We approached Terradef’s website as a mission-driven digital platform, not just a brochure. Our goal was to create a destination that communicates capability, confidence, and contribution.",
+            "list": [
+                {
+                    "number": "01",
+                    "title": "Narrative-Based Structure",
+                    "description": "We redefined the content architecture around their vision -“Unleashing Unstoppable Mobility.” Sections such as Mobility Solutions, Armor Protection, Turnkey Projects, and R&D / Innovation tell a coherent story of growth and expertise."
+                },
+                {
+                    "number": "02",
+                    "title": "Visual Emphasis on Capability",
+                    "description": "Hero visuals, dynamic 3D renders, and prototype showcases were used to highlight Terradef’s core platforms ,bringing engineering achievements to life through modern web designing practices and design-led storytelling."
+                },
+                {
+                    "number": "03",
+                    "title": "Trust & Transparency Elements",
+                    "description": "We included detailed sections on quality assurance, indigenous production, and defense partnerships. These website services strengthened their position as a trusted, reliable partner within the defense ecosystem."
+                },
+                {
+                    "number": "04",
+                    "title": "Responsive & Clean Design",
+                    "description": "The new site adapts seamlessly across all devices ,a result of thoughtful website development and design integration. Every pixel serves a purpose, ensuring effortless navigation and visual clarity."
+                },
+                {
+                    "number": "05",
+                    "title": "Content Management & Flexibility",
+                    "description": "We built a flexible system that allows the Terradef team to easily edit projects, update technical specifications, add news articles, or modify statistics ,without needing developer support. This future-proofs the site for long-term scalability."
+                },
+                {
+                    "number": "06",
+                    "title": "Robust and Secure Architecture",
+                    "description": "Drawing on our experience as an ecommerce website development company, we ensured the site architecture is robust, fast, and secure ,capable of handling growth while maintaining exceptional performance."
+                }
+            ]
+        },
+        "executionSection": {
+            "title": "THE CREATIVE EXECUTION",
+            "description": "For Terradef, we built a seamless digital experience through thoughtful UI/UX, modern website design, and robust web development.",
+            "list": [
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Intuitive UX icon",
+                    "title": "Intuitive Website UI/UX",
+                    "description": "Designed and developed a high-performance website with intuitive UI/UX, blending clean visuals with seamless user journeys."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Scalable Solutions icon",
+                    "title": "Scalable Web & App Development",
+                    "description": "Delivered scalable web and app development solutions, optimized for speed, usability, and future growth."
+                },
+                {
+                    "src": "/icon/service/users.png",
+                    "alt": "Conversion-Focused Design icon",
+                    "title": "Conversion-Focused, Future-Ready",
+                    "description": "Built conversion-focused, future-ready web solutions backed by strong design systems and modern development practices."
+                },
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Integrated Engineering icon",
+                    "title": "Design Meets Engineering",
+                    "description": "By combining website designing and UI/UX design services with robust engineering, Terradef reinforced its position among the best web developers and website building companies, delivering a digital product that balances design excellence with real-world performance."
+                }
+            ]
+        },
+        "resultSection": {
+            "title": "The Result",
+            "description": "The redesigned platform redefined how Terradef presents itself to partners, defense agencies, and stakeholders.",
+            "list": [
+                {
+                    "text": "Repositioned Brand Identity: Terradef evolved from a manufacturing company with a website to a strategic defense brand with purpose and authority."
+                },
+                {
+                    "text": "Enhanced Storytelling: Visitors now immediately understand their offerings, scale, and innovation through visual clarity and narrative structure."
+                },
+                {
+                    "text": "Improved Engagement: The site now acts as a conversion-driven hub, supporting inquiries, collaborations, and partnerships with ease."
+                },
+                {
+                    "text": "Future-Ready Framework: With intuitive management tools, Terradef can grow and adapt its online presence in sync with its expanding engineering capabilities."
+                },
+                {
+                    "text": "This wasn’t just web development -it was digital transformation aligned with national ambition."
+                }
+            ]
+        },
+        "whySection": {
+            "title": "WHY THIS MATTERS",
+            "description": "In the defense and mobility sectors, perception is as critical as performance. This project demonstrates how expert website designing and UI/UX design services can shape that perception -turning complex technology into a story of innovation, reliability, and national pride.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Digital Trust icon",
+                    "title": "Building Digital Trust",
+                    "text": "For Terradef, this project was about more than a new website. It was about building digital trust and reflecting their engineering strength in a way that engages and inspires."
+                },
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Design Thinking icon",
+                    "title": "Storytelling and Design Thinking",
+                    "text": "For Prakria -a UI/UX design agency, web solutions company, and app development company — this project showcases how design thinking and storytelling can amplify technical expertise."
+                },
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Digital Ecosystem icon",
+                    "title": "Ecosystems that Communicate Power",
+                    "text": "We don’t just create websites -we build digital ecosystems that communicate power, precision, and purpose."
+                }
+            ]
+        }
+    },
+    "cradleesoft": {
+        "title": "CradleeSoft Salon Management Software | Integrated Scheduling & Business Tools",
+        "description": "CradleeSoft, developed by Prakria, streamlines salon operations with features like online booking, staff management, inventory control, automated marketing, and reporting – empowering salon businesses to grow efficiently.",
+        "keywords": "CradleeSoft, UI/UX design agency, web solutions company, software solution, mobile development agency and website development partner, UI/UX design services, top web development, web development, website development, web solutions company and mobile development agency, web designing and application development, website development and UI/UX design services",
+        "herosection": {
+            "title": "CradleeSoft - Powering Salon Businesses Through Smart Software",
+            "list": [
+                {
+                    "src": "/assets_main/services/web_dev/42/1.png",
+                    "alt": "CradleeSoft-1"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/42/2.png",
+                    "alt": "CradleeSoft-2"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/42/3.png",
+                    "alt": "CradleeSoft-3"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/42/4.png",
+                    "alt": "CradleeSoft-4"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/42/5.png",
+                    "alt": "CradleeSoft-5"
+                }
+            ]
+        },
+        "storySection": {
+            "title": "A Scenario: Smart Digital Transformation for Salons",
+            "paragraphs": [
+                "Running a salon is more than just beauty; there’s a daily need for booking, staff schedules, payments, inventory, and customer relationships. Many salon owners are using spreadsheets, phone calls, and manual processes that get in the way of growth and efficiency.",
+                "CradleeSoft was founded to solve that. Their vision was to give salon owners a smart software solution that brings everything together ,booking, POS, inventory, staff scheduling, customer engagement, reports ,into the same experience.",
+                "CradleeSoft enlisted Prakria, a leading UI/UX design agency and web solutions company, to design and develop a salon management system. The plan was to keep the system user-friendly, scalable, and something that salon owners and staff would actually enjoy to use."
+            ]
+        },
+        "challenge": {
+            "title": "THE CHALLENGE",
+            "description": "In an industry where daily operations are fast-paced and fragmented, CradleeSoft was created to empower salons with one unified platform that intricately blends smart technology, intuitive design, and human understanding.",
+            "list": [
+                {
+                    "text": "Most salons were struggling with manually disconnected workflows, using different tools for bookings and payments, managing staff, and communicating."
+                },
+                {
+                    "text": "Owners dealt with scheduling chaos, inventory confusion, and no real visibility into performance or revenue trends."
+                },
+                {
+                    "text": "With limited technical knowledge, many salon teams found existing software too complex or fragmented to adopt."
+                },
+                {
+                    "text": "No single digital tool existed that could make bookings simple, manage staff, automate marketing, handle POS, and provide analytics all from one place."
+                },
+                {
+                    "text": "The challenge was to design a holistic, user-friendly ecosystem that felt effortless for small salon owners yet powerful enough for growing chains."
+                }
+            ],
+            "conclusionLine": "In other words, the challenge was to transform salon management from a daily struggle into a seamless digital experience, enabling owners to focus less on operations and more on their craft."
+        },
+        "startageySection": {
+            "title": "THE STRATEGY",
+            "description": "CradleeSoft was designed to be an end-to-end salon management software that would simplify day-to-day operations, equip the owner with more power, and enhance the customer experience using seamless technology combined with intuitive design.",
+            "list": [
+                {
+                    "number": "01",
+                    "title": "Empathy-Led Product Thinking",
+                    "description": "CradleeSoft was a tool built around the very real salon challenges of scheduling chaos, customer retention, manual billing, and inventory headaches. The strategy was to make every touchpoint seamless with thoughtful digital design."
+                },
+                {
+                    "number": "02",
+                    "title": "Unified Ecosystem Approach",
+                    "description": "Instead of developing tools for different needs, it should be one connected platform wherein booking, staff management, communication, billing, and analytics all come together, eliminating fragmentation."
+                },
+                {
+                    "number": "03",
+                    "title": "Non-Technical Accessibility",
+                    "description": "Understanding that most salons do not have dedicated IT teams, the product was designed with plug-and-play simplicity, easy setup, minimal onboarding, and an interface that anyone can use."
+                },
+                {
+                    "number": "04",
+                    "title": "Human-Technology Fusion",
+                    "description": "With a focus on making technology invisible, the salon owners can pay more attention to clients and business growth while the platform quietly manages the workflows behind the scenes."
+                },
+                {
+                    "number": "05",
+                    "title": "Mobile-First & Scalable",
+                    "description": "The basis of its architecture had to be mobile-first, work on any device, and scale for branch expansion."
+                }
+            ]
+        },
+        "executionSection": {
+            "title": "THE CREATIVE EXECUTION",
+            "description": "Pairing sleek design, robust technology, and empathetic understanding, CradleeSoft evolved to be a smart, connected salon ecosystem that easily turns everyday management into effortless mastery.",
+            "list": [
+                {
+                    "src": "/icon/service/cursor.png",
+                    "alt": "Booking icon",
+                    "title": "Appointment & Booking Management",
+                    "description": "Designed a sleek, responsive booking interface with real-time availability, automated reminders, and no-show tracking to maximize client engagement."
+                },
+                {
+                    "src": "/icon/service/users.png",
+                    "alt": "Staff icon",
+                    "title": "Staff & Service Management",
+                    "description": "Built intuitive scheduling tools to allow owners to manage shifts, define services, and monitor productivity without confusion."
+                },
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Marketing icon",
+                    "title": "Customer Communication Tools",
+                    "description": "A fully integrated WhatsApp and SMS marketing template system allows for seamless promotions, loyalty programs, and reminders-easily promoting repeat visits."
+                },
+                {
+                    "src": "/icon/service/fire.png",
+                    "alt": "POS Inventory icon",
+                    "title": "Point of Sale & Inventory System",
+                    "description": "Designed a completely integrated POS and inventory management module to track sales, create product alerts, and handle product bundles."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Analytics icon",
+                    "title": "Analytics & Reporting",
+                    "description": "Developed real-time dashboards with data visualizations that showcased revenue, popular services, and staff performance to better inform decision-making."
+                },
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Plug & Play icon",
+                    "title": "Plug-and-Play Setup",
+                    "description": "Enabled easy onboarding, with fast integrations for payment gateways and APIs, eliminating technical barriers for smaller salons."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "UX Design icon",
+                    "title": "Visual Identity & UX Design",
+                    "description": "Every screen followed clean, modern UI/UX design standards: soft color palettes, clear typography, and intuitive navigation to create a premium experience."
+                }
+            ]
+        },
+        "resultSection": {
+            "title": "The Result",
+            "description": "Since its launch, CradleeSoft has transformed how salons operate and engage with customers.",
+            "list": [
+                {
+                    "text": "Efficiency Boost: Less scheduling conflict, fewer missed appointments, and drastically reduced manual errors."
+                },
+                {
+                    "text": "Customer Engagement: Automating reminders and campaigns has led to a greater repeat booking and retention."
+                },
+                {
+                    "text": "Profitability: Better inventory control and bundled service management has improved overall margins."
+                },
+                {
+                    "text": "Data-Driven Insights: Owners no longer estimate how to plan staff, offers, and services using reports."
+                },
+                {
+                    "text": "Scalability: The software is built for growth -ready for multi-location setups and additional service lines."
+                },
+                {
+                    "text": "Prakria’s expertise as a web solutions company and mobile development agency ensured that CradleeSoft became not just a tool -but a business enabler."
+                }
+            ]
+        },
+        "whySection": {
+            "title": "WHY THIS MATTERS",
+            "description": "CradleeSoft proves what happens when technology is built with empathy, not just engineering. Salon owners, staff, and customers all experience a system that feels natural, frictionless, and empowering.",
+            "list": [
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Empathy icon",
+                    "title": "Tech Built for People",
+                    "text": "This project redefines web designing and application development for the beauty industry -combining booking, sales, marketing, and analytics into one cohesive digital platform. For salon owners, it simplifies chaos into clarity."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Unified icon",
+                    "title": "Great Web Solutions in Action",
+                    "text": "For Prakria, it reinforces our belief that great website development and UI/UX design services can transform everyday business operations into delightful digital experiences."
+                },
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Business growth icon",
+                    "title": "A Benchmark for Modern Salons",
+                    "text": "CradleeSoft stands as a benchmark for modern salon management -showing how creativity, strategy, and innovation can come together to power real-world growth."
+                }
+            ]
+        }
+    },
+    "supreme-forex": {
+        "title": "Supreme Forex Digital Platform | Trusted Currency Exchange & Money Transfer Services",
+        "description": "Supreme Forex, powered by Prakria, offers a secure, user-friendly digital platform for currency exchange and international money transfer with real-time rates, transparent processes, and comprehensive service guidance.",
+        "keywords": "Supreme Forex, website development solution, UI/UX design agency, web solutions company, best web developers, top web development, best web development practices, human-centered web designing, ecommerce website development companies, website development, web designing, app development company, website building company",
+        "herosection": {
+            "title": "Supreme Forex -Building a Trusted Digital Experience for Financial Services",
+            "list": [
+                {
+                    "src": "/assets_main/services/web_dev/44/1.png",
+                    "alt": "supreme-forex-1"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/44/2.png",
+                    "alt": "supreme-forex-2"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/44/3.png",
+                    "alt": "supreme-forex-3"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/44/4.png",
+                    "alt": "supreme-forex-4"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/44/5.png",
+                    "alt": "supreme-forex-5"
+                }
+            ]
+        },
+        "storySection": {
+            "title": "A Digital Scenario: From Complex to Confident Online Finance",
+            "paragraphs": [
+                "Supreme Forex is a well-known currency exchange and international money transfer company. With a growing client base, their existing digital presence was no longer representative of their organization's confidence, scale, and efficiency.",
+                "They needed more than just a website -they sought a full fledged website development solution that would convey their services clearly, showcase live exchange rates, and guide users through complex complexities with ease around foreign exchange and remittance.",
+                "The object was to create something that is often difficult, feel simple, credible, and transparent. It would need to marry smart web designing practices, user-friendly functionality, and credible storytelling around their brand - helping convert users to customers with confidence online."
+            ]
+        },
+        "challenge": {
+            "title": "THE CHALLENGE",
+            "description": "For a sector where the clarity and trust of each customer's decision depend on an online presence, Supreme Forex needed to have a simple, credible, and conversion-driven experience.",
+            "list": [
+                {
+                    "text": "Supreme Forex's existing website no longer reflected the confidence, professionalism, and scale of their fast-growing business."
+                },
+                {
+                    "text": "The firm needed to make foreign-exchange and remittance processes, which were normally too complex, simple for customers to understand and act upon."
+                },
+                {
+                    "text": "The new platform had to make technical information approachable and human, as financial jargon often intimidated users."
+                },
+                {
+                    "text": "This required presenting real-time data, such as exchange rates, in a clear manner while maintaining accuracy, security, and transparency."
+                },
+                {
+                    "text": "The challenge was to create a platform that would earn trust-one that balanced sleek design, regulatory credibility, and seamless usability for customers on every device."
+                }
+            ],
+            "conclusionLine": "In other words, the challenge was to turn a functional service website into a trusted, user-first digital ecosystem that would make complex financial decisions feel effortless and secure."
+        },
+        "startageySection": {
+            "title": "THE STRATEGY",
+            "description": "We approached this project with one guiding principle: make complex services feel simple. Our solution combined the precision of best web development practices with the empathy of human-centered web designing to deliver a platform that’s functional, credible, and visually clean.",
+            "list": [
+                {
+                    "number": "01",
+                    "title": "Clear Service Presentation",
+                    "description": "We designed a minimalist, contemporary website that showcased core offerings like Currency Exchange, Forex Cards, International Money Transfer, and Corporate Services, all explained in everyday language."
+                },
+                {
+                    "number": "02",
+                    "title": "Real-Time Rate Displays",
+                    "description": "We integrated live currency rate updates so users could instantly view buy, sell, and card rates ,removing friction and creating trust through transparency."
+                },
+                {
+                    "number": "03",
+                    "title": "Guided User Journeys",
+                    "description": "We streamlined each process flow to make navigation intuitive for first-time users. Every service page now clearly communicates “what to do next,” creating a frictionless digital path."
+                },
+                {
+                    "number": "04",
+                    "title": "Trust-Building Elements",
+                    "description": "We included verified regulatory information, RBI authorizations, partner credentials, and transparent communication to instill confidence."
+                },
+                {
+                    "number": "05",
+                    "title": "Mobile-First Experience",
+                    "description": "The platform was designed for performance and usability on every device, ensuring accessibility for customers on the go."
+                },
+                {
+                    "number": "06",
+                    "title": "Content & SEO Strategy",
+                    "description": "We structured the website for better visibility and organic reach, optimizing pages, FAQs, and information flow for both users and search engines."
+                },
+                {
+                    "number": "07",
+                    "title": "Scalable, Robust Design",
+                    "description": "Incorporating insights from ecommerce website development companies, we ensured the design’s scalability and technical robustness while maintaining an elegant simplicity."
+                }
+            ]
+        },
+        "executionSection": {
+            "title": "THE CREATIVE EXECUTION",
+            "description": "Prakria approached the project with one guiding idea: make complexity look simple. The creative execution turned Supreme Forex's platform into a benchmark of digital trust: elegant, transparent, and efficient online experiences that simplify finance while amplifying confidence.",
+            "list": [
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Services icon",
+                    "title": "Minimalist, Non-Jargon Interface",
+                    "description": "Designed an interface, clean and minimalistic, showcasing all services in a clear, non-jargon manner: Currency Exchange, Forex Cards, International Money Transfer, and Corporate Services."
+                },
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Live rates icon",
+                    "title": "Real-Time Currency Rates",
+                    "description": "Integrated real-time display of rates displays live buy/sell/card rates, instills transparency, and engenders immediate customer confidence."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Trust icon",
+                    "title": "Trust Indicators & Compliance",
+                    "description": "Added a variety of trust indicators throughout: RBI authorizations, verified partner logos, and compliance information, to instill confidence at every step."
+                },
+                {
+                    "src": "/icon/service/cursor.png",
+                    "alt": "Mobile icon",
+                    "title": "Mobile-First, Responsive Framework",
+                    "description": "Created a mobile-first, responsive framework that was optimized for speed and usability across devices, from desktops to smartphones."
+                },
+                {
+                    "src": "/icon/service/users.png",
+                    "alt": "Content & SEO",
+                    "title": "Content Architecture & SEO",
+                    "description": "Built in content architecture and SEO optimization to help improve discoverability and strengthen the brand's digital footprint."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Ecommerce Experience icon",
+                    "title": "E-commerce Grade Design Standards",
+                    "description": "Adopted design and performance standards inspired by e-commerce-grade experiences: smooth transitions, modular flexibility, and secure data handling."
+                }
+            ]
+        },
+        "resultSection": {
+            "title": "THE RESULT",
+            "description": "The new website positioned Supreme Forex as a modern, reliable, and customer-focused financial brand.",
+            "list": [
+                {
+                    "text": "Customers can now check live exchange rates instantly and understand services at a glance."
+                },
+                {
+                    "text": "The platform developed into a digital hub for inquiries, conversions, and customer engagement that the brand's customers trusted."
+                },
+                {
+                    "text": "The clean design, effortless flow, and transparent communication built trust with new and existing clients."
+                },
+                {
+                    "text": "The company’s online presence now matches its professional, well-established offline reputation ,strengthening brand credibility and expanding its customer base."
+                },
+                {
+                    "text": "Prakria’s website development approach didn’t just create a digital presence, it created a digital experience that users remember and trust."
+                }
+            ]
+        },
+        "whySection": {
+            "title": "WHY THIS MATTERS",
+            "description": "In industries like foreign exchange and remittance, trust, simplicity, and credibility are everything. This project shows how a thoughtful website development and web designing approach can make complex financial processes accessible, elegant, and secure.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Trust icon",
+                    "title": "Why Trust Matters Here",
+                    "text": "For Supreme Forex, the website became more than an online brochure, it evolved into a powerful digital gateway that connects customers with services while maintaining transparency and confidence."
+                },
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Simplicity icon",
+                    "title": "Humanizing Financial Services",
+                    "text": "For Prakria -a creative UI/UX design agency, app development company, and website building company, this project demonstrates our ability to blend strategy, creativity, and technology to humanize financial services online."
+                },
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Growth icon",
+                    "title": "Crafting Experiences for Growth",
+                    "text": "We don’t just build sites, we craft experiences that drive connection, trust, and growth."
+                }
+            ]
+        }
+    },
+    "skyimpact": {
+        "title": "SkyImpact Digital Platform | Purpose-Driven Investment Firm Web Design",
+        "description": "Prakria crafted SkyImpact’s digital presence to communicate mission-led investment ethos with impactful storytelling, data-driven visuals, and responsive design that balances authority with emotional resonance.",
+        "keywords": "SkyImpact, modern website designing, top web development, UI/UX design agency and website development partner, website designing, web development, UI/UX design services, best web developers and website building companies, web solutions company, ecommerce website development companies, ecommerce web design, website development project, app development company, ecommerce website designing company",
+        "herosection": {
+            "title": "SkyImpact - Crafting a Digital Identity for Purpose-Driven Growth",
+            "list": [
+                {
+                    "src": "/assets_main/services/web_dev/43/1.png",
+                    "alt": "SkyImpact-1"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/43/2.png",
+                    "alt": "SkyImpact-2"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/43/3.png",
+                    "alt": "SkyImpact-3"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/43/5.mp4",
+                    "alt": "SkyImpact-5",
+                    "type": "video"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/43/4.png",
+                    "alt": "SkyImpact-4"
+                }
+               
+            ]
+        },
+        "storySection": {
+            "title": "Turning Purpose into a Journey, Not Just a Website",
+            "paragraphs": [
+                "SkyImpact wanted more than a “corporate site.” As a mission-led investment firm, their story needed to reflect impact, scale, trust, and vision. They wanted a digital platform that could beautifully convey their underlying ethos—businesses that uplift lives—and would simultaneously articulate metrics, values, partnerships, and the ways in which they operate.",
+                "Their challenge: how to make the commonly abstract—impact, investment, enablement—feel concrete, credible, and most importantly, resonate with emotion.",
+                "The new site had to balance authentic storytelling with modern website designing and top web development precision. It needed to convey both authority and heart, blending purpose with polish."
+            ]
+        },
+        "challenge": {
+            "title": "THE CHALLENGE",
+            "description": "In the competitive world of investment and social impact, SkyImpact wanted a digital presence that communicates its heart just as powerfully as its numbers, purpose with precision.",
+            "list": [
+                {
+                    "text": "SkyImpact needed a website that could translate its mission of purpose-driven investment into an emotional and credible, visually engaging story."
+                },
+                {
+                    "text": "The most important challenge to the brand was to make abstract concepts of impact, enablement, and investment concrete, measurable, and human."
+                },
+                {
+                    "text": "The site had to strike a balance between empathy and authority in speaking to investors seeking transparency and communities valuing authenticity."
+                },
+                {
+                    "text": "Structurally, the digital platform needed to hold complex data, partnerships, and metrics while being simple, fluid, and easy to navigate."
+                },
+                {
+                    "text": "It wasn't about design alone; it was about crafting an ecosystem of storytelling where information, aesthetics, and intent come together seamlessly."
+                }
+            ],
+            "conclusionLine": "In other words, the challenge was to transform an impact-driven organization into a digital experience that evokes trust, emotion, and action in just one scroll."
+        },
+        "startageySection": {
+            "title": "THE STRATEGY",
+            "description": "We approached SkyImpact’s website as a storytelling journey, not just another brochure. Every decision—from design structure to visual language—was made to elevate both their mission and their message.",
+            "list": [
+                {
+                    "number": "01",
+                    "title": "Narrative-Centric Layout",
+                    "description": "The site structure was designed to guide visitors through: “Why we exist”, “What we do”, “The impact so far”, & “How to partner with us”. And in this narrative structure, we don’t just give the user context; we create an emotional connection."
+                },
+                {
+                    "number": "02",
+                    "title": "Impact Through Data & Visuals",
+                    "description": "The firm’s numbers (12 Mn+, 350k+, etc.) are front and center, brought to life through bold typography and iconography. Each figure is supported by clear context, ensuring they feel meaningful—not just statistical."
+                },
+                {
+                    "number": "03",
+                    "title": "Values & Ethos Framing",
+                    "description": "We built dedicated sections to highlight SkyImpact’s philosophy, team, and partnerships—humanizing what could otherwise feel like abstract investment language."
+                },
+                {
+                    "number": "04",
+                    "title": "Responsive & Elegant Web Designing",
+                    "description": "The site was developed with a best practices approach—mobile responsive, fast to load, and visually consistent. Every detail—spacing, typography, and imagery—was designed to convey confidence and clarity."
+                },
+                {
+                    "number": "05",
+                    "title": "Flexible Content Framework",
+                    "description": "As a forward-thinking web solutions company, we ensured that SkyImpact’s team could easily update content—from metrics and media to case studies—allowing the website to evolve with their growing impact."
+                },
+                {
+                    "number": "06",
+                    "title": "Trust & Credibility Focus",
+                    "description": "We emphasized partnership logos, testimonials, verified data, and clear calls to action—establishing credibility from the first scroll."
+                },
+                {
+                    "number": "07",
+                    "title": "Ecommerce-Grade Precision",
+                    "description": "Although not an ecommerce brand, SkyImpact’s build reflects the precision and scalability typical of ecommerce website development companies and ecommerce web design teams—seamless structure, modular flexibility, and a premium digital experience."
+                }
+            ]
+        },
+        "executionSection": {
+            "title": "THE CREATIVE EXECUTION",
+            "description": "Prakria's approach to the site was that it shouldn't be a static corporate brochure but a journey of stories; hence, every section leads through purpose, process, and proof.",
+            "list": [
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Story flow icon",
+                    "title": "Story-Led Design",
+                    "description": "Created a story-led design where pages organically flow from 'Why we exist' to 'How we create impact,' making sure visitors connect emotionally before engaging rationally."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Data visuals icon",
+                    "title": "Humanizing Data",
+                    "description": "Utilized bold typography and iconography to give life to data, embedding meaning into abstract numbers with humanized visuals."
+                },
+                {
+                    "src": "/icon/service/users.png",
+                    "alt": "Values icon",
+                    "title": "Distinct Content Zones",
+                    "description": "Created distinct content zones for values, ethos, and partnerships that humanize the brand, contextualizing complex ideas in approachable ways."
+                },
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Scalable system icon",
+                    "title": "Modular, Update-Friendly Structure",
+                    "description": "Implemented a clean, responsive, and modular web design system built for scalability, making it easy for SkyImpact's team to update metrics, stories, and partnerships."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Visual language icon",
+                    "title": "Confidence Through Design",
+                    "description": "Visual language emphasizes confidence, compassion, and clarity—using premium white space, elegant motion, and purposeful color to convey trust."
+                },
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Credibility cues icon",
+                    "title": "Integrated Credibility Cues",
+                    "description": "Integrated credibility cues like verified data, partner logos, and testimonials that reinforce reliability and transparency."
+                },
+                {
+                    "src": "/icon/service/users.png",
+                    "alt": "Storytelling execution icon",
+                    "title": "Blending Structure and Soul",
+                    "description": "Creative execution transformed SkyImpact's mission into a living digital story, blending storytelling with structure and soul to create a website that informs, inspires, and instills trust."
+                }
+            ]
+        },
+        "resultSection": {
+            "title": "THE RESULT",
+            "description": "Once live, the new SkyImpact site became a powerful digital asset, combining clarity, credibility, and compassion in equal measure.",
+            "list": [
+                {
+                    "text": "Visitors immediately confront impact; they confront scale; they confront purpose—avoiding the unnecessary complexities of typical corporate sites."
+                },
+                {
+                    "text": "The digital storytelling flow on the site allows investors, partners, and stakeholders to understand who SkyImpact is, what they do, and why it matters."
+                },
+                {
+                    "text": "It exists as a living, growing property that's easy to maintain and expand with new ventures or updated metrics."
+                },
+                {
+                    "text": "In presentations, pitches, and investor discussions, the site serves as a visual anchor for trust and alignment."
+                },
+                {
+                    "text": "The result: a digital identity that not only informs but inspires—built with the same precision and vision that define SkyImpact’s mission."
+                }
+            ]
+        },
+        "whySection": {
+            "title": "WHY THIS MATTERS",
+            "description": "In the investment and impact space, a well-crafted website development project is not optional—it’s foundational. It’s where mission meets credibility, and where a company's purpose turns into a digital experience.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Purpose and Credibility icon",
+                    "title": "Where Mission Meets Credibility",
+                    "text": "This project proves how thoughtful web designing and strong UI/UX design services can elevate even the most data-driven sectors into emotionally engaging narratives."
+                },
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Digital face icon",
+                    "title": "A Digital Face for Ambition",
+                    "text": "For SkyImpact, their website is now more than an information hub—it’s the digital face of their values and ambition."
+                },
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Platforms for Vision icon",
+                    "title": "Platforms that Connect Vision and Impact",
+                    "text": "For Prakria—a creative app development company, website development, and ecommerce website designing company—this project reflects our belief that design and storytelling together can reshape how purpose-driven brands are perceived online. We don’t just build websites—we build platforms that connect vision with impact."
+                }
+            ]
+        }
+    },
+    "shl-supreme-home-loans": {
+        "title": "SHL Supreme Home Loans | Digital Transformation for Rural India Lending",
+        "description": "Supreme Home Loans (SHL) partnered with Prakria to create a mobile-first loan distribution platform designed for rural and semi-urban India. The app enables offline loan processing, real-time agent-manager connectivity, transparent commission tracking, and regional language support to empower financial inclusion.",
+        "keywords": "Supreme Home Loans (SHL), mobile-first solution, mobile development agency, web solutions company, UI/UX design agency, human behavior and business goals, UI/UX design services, best web developers, SHL — Supreme Home Loans, intuitive design, fast performance",
+        "herosection": {
+            "title": "SHL - Supreme Home Loans: Empowering Rural India Through Smart Digital Transformation",
+            "list": [
+                {
+                    "src": "/assets_main/services/web_dev/45/1.png",
+                    "alt": "SHL-1"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/45/2.png",
+                    "alt": "SHL-2"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/45/3.png",
+                    "alt": "SHL-3"
+                },
+                {
+                    "src": "/assets_main/services/web_dev/45/4.png",
+                    "alt": "SHL-4"
+                }
+            ]
+        },
+        "storySection": {
+            "title": "Scenario: Enabling Field-Ready Financial Inclusion in Rural India",
+            "paragraphs": [
+                "Supreme Home Loans (SHL) wanted to make their growing loan distribution network more efficient, connected, and accessible, especially across rural and semi-urban regions of India, where financial inclusion remains a challenge.",
+                "The agents were on the go constantly. They were visiting villages, meeting families, collecting loan applications, and doing manual follow-up either through calls or spreadsheets. The traditional method of working made it difficult to track leads and manage commissions and it was hard to ensure the data was even accurate.",
+                "Managers typically had no visibility in real time, and agents faced connectivity challenges in rural areas. SHL needed a mobile-first solution that was easy to use that would enable loan processing, connect agents and managers on one platform, and allow rural communities to access loans more simply and transparently.",
+                "To bring this idea to life meant finding a mobile development agency that could think beyond technology; they needed a team that could design experiences specifically for the people that needed them most."
+            ]
+        },
+        "challenge": {
+            "title": "THE CHALLENGE",
+            "description": "In an effort to make financial access easier for India's underserved rural and semi-urban communities, Supreme Home Loans wanted to modernize its loan distribution network, using technology not as a barrier but as a bridge.",
+            "list": [
+                {
+                    "text": "Growing agents in the network of SHL, working across remote and low-connectivity regions relied on manual paperworks, calls, and spreadsheets."
+                },
+                {
+                    "text": "This old system resulted in data inaccuracies, loan processing delays, and a lack of transparency in real time for managers."
+                },
+                {
+                    "text": "Agents have faced difficulties in tracking leads, managing commissions, and keeping in touch with headquarters, especially while traveling between villages."
+                },
+                {
+                    "text": "SHL required a mobile-first, human-centered, offline-capable platform that eased processes and empowered agents and managers alike."
+                },
+                {
+                    "text": "The deeper challenge was not only digital transformation but also designing technology for people who had never used such systems before, keeping every interaction simple, inclusive, and reliable."
+                }
+            ],
+            "conclusionLine": "In essence, the challenge for SHL was to replace a fragmented and highly manual process with an intelligent and accessible ecosystem that would help bring financial inclusion to rural India, one mobile device at a time."
+        },
+        "startageySection": {
+            "title": "THE STRATEGY",
+            "description": "Prakria has taken a very human-centered design approach, based on usability by agents in real-world, low-tech situations. The strategy behind the design was to \"make technology invisible\"-to make the users focus on their work, not the interface.",
+            "list": [
+                {
+                    "number": "01",
+                    "title": "Human-Centered Simplicity",
+                    "description": "Designed every interaction so agents can focus on their work, not struggle with the interface; step-by-step, confidence-building processes."
+                },
+                {
+                    "number": "02",
+                    "title": "Mobile-First Ecosystem",
+                    "description": "Developed an ecosystem connecting field agents to managers seamlessly, using intuitive dashboards and real-time data syncing."
+                },
+                {
+                    "number": "03",
+                    "title": "Offline Readiness & Inclusion",
+                    "description": "Enabled offline workflows, added regional language support, and designed step-by-step forms for inclusivity and easy adoption."
+                },
+                {
+                    "number": "04",
+                    "title": "Manager Visibility & Control",
+                    "description": "Created a centralized admin and analytics panel for transparent lead tracking, commission management, and performance insights."
+                }
+            ]
+        },
+        "executionSection": {
+            "title": "THE CREATIVE EXECUTION",
+            "description": "Designed a clean, intuitive mobile interface with step-by-step loan forms; integrated offline storage and auto-sync for continuity; and created purpose-built dashboards and analytics for agents and managers—bringing SHL's vision to life with empathy and functional innovation.",
+            "list": [
+                {
+                    "src": "/icon/service/cursor.png",
+                    "alt": "Loan forms icon",
+                    "title": "Step-by-Step Loan Forms",
+                    "description": "Designed clean, guided forms that ensure clarity and comfort even for first-time users."
+                },
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Offline sync icon",
+                    "title": "Offline Storage + Auto Sync",
+                    "description": "Integrated offline data storage and auto-syncing so agents can continue work without network dependency, ensuring no interruptions or delays."
+                },
+                {
+                    "src": "/icon/service/users.png",
+                    "alt": "Agent dashboard icon",
+                    "title": "Agent Dashboard",
+                    "description": "Customized agent dashboard giving visibility into leads, commissions, and key performance metrics—driving motivation and ownership."
+                },
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Admin analytics icon",
+                    "title": "Central Admin & Analytics",
+                    "description": "Designed a Central Admin System and real-time analytics so managers can track lead progress and grant approvals smoothly."
+                },
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Inclusive design icon",
+                    "title": "Inclusive Visual System",
+                    "description": "Used visual design elements that reflect trust, simplicity, and optimism—with regional language support and lightweight architecture for fast, stable performance in rural contexts."
+                }
+            ]
+        },
+        "resultSection": {
+            "title": "The Result",
+            "description": "The launch of SHL transformed how Supreme Home Loans operated, driving financial empowerment where it matters most.",
+            "list": [
+                {
+                    "text": "Faster loan access: Rural agents could now register new leads instantly, cutting down processing time drastically."
+                },
+                {
+                    "text": "Offline continuity: Agents could continue their work without network dependency,  no interruptions, no delays."
+                },
+                {
+                    "text": "Better transparency: Managers gained complete visibility into lead progress, agent performance, and payouts."
+                },
+                {
+                    "text": "Increased trust: Borrowers experienced faster responses, clearer updates, and more reliable communication."
+                },
+                {
+                    "text": "Empowered workforce: Agents felt supported with digital tools that helped them serve their customers better."
+                },
+                {
+                    "text": "By combining simplicity, empathy, and technology, Prakria - one of the best web developers in the industry - helped SHL make loan access faster, fairer, and more inclusive across India’s rural communities."
+                }
+            ]
+        },
+        "whySection": {
+            "title": "WHY THIS MATTERS",
+            "description": "This project goes beyond technology - it’s about financial inclusion and empowerment. SHL wanted to bring banking closer to rural families, and through this app, they achieved exactly that.",
+            "list": [
+                {
+                    "src": "/icon/service/star.png",
+                    "alt": "Inclusion icon",
+                    "title": "Financial Inclusion in Action",
+                    "text": "By integrating thoughtful UI/UX design services, intelligent architecture, and field-ready performance, SHL’s platform now helps rural agents deliver hope, opportunity, and growth, right from their smartphones."
+                },
+                {
+                    "src": "/icon/service/light.png",
+                    "alt": "Empathy design icon",
+                    "title": "Designed for Real People",
+                    "text": "For Prakria, a creative UI/UX design agency, mobile development agency, and web solutions company, this project reaffirmed our belief that great design can change lives."
+                },
+                {
+                    "src": "/icon/service/lightning.png",
+                    "alt": "Field-ready tech icon",
+                    "title": "A Bridge Between Technology & Humanity",
+                    "text": "SHL - Supreme Home Loans is more than a digital tool, it’s a bridge between technology and humanity, bringing credit, confidence, and convenience to every corner of rural India."
+                }
+            ]
+        }
+    }
+}

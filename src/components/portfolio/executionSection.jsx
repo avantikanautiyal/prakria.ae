@@ -50,8 +50,14 @@ function ExecutionSection(props) {
               );
             })}
           </div>
+
+
         </div>
+        <p className="text-sm sm:text-base text-gray-300 w-full px-2 text-center">
+          {props.conclusionLine}
+        </p>
       </div>
+
     </section>
   );
 }

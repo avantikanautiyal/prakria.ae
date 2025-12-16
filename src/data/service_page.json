@@ -1617,32 +1617,34 @@
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
         {
-          "src": "/assets_main/services/web_dev/wd1.png",
-          "alt": "Maggi campaign and layouts"
+          "link": "portfolio-item/rentopiaa",
+          "src": "/assets_main/services/web_dev/1.png",
+          "alt": "rentopiaa"
         },
         {
-          "src": "/assets_main/services/web_dev/wd2.png",
-          "alt": "Nestlé Polo social & digital tiles"
+          "link": "portfolio-item/terradef",
+          "src": "/assets_main/services/web_dev/3.png",
+          "alt": "terradef"
         },
         {
-          "src": "/assets_main/services/web_dev/wd3.png",
-          "alt": "Festive campaign screens on mobile"
+          "link": "portfolio-item/cradleesoft",
+          "src": "/assets_main/services/web_dev/2.png",
+          "alt": "cradleesoft"
         },
         {
-          "src": "/assets_main/services/web_dev/wd4.png",
-          "alt": "Dove ecommerce / PDP content"
+          "link": "portfolio-item/supreme-forex",
+          "src": "/assets_main/services/web_dev/4.png",
+          "alt": "supreme-forex"
         },
         {
-          "src": "/assets_main/services/web_dev/wd5.png",
-          "alt": "Beauty / ecommerce creative layouts"
+          "link": "portfolio-item/skyimpact",
+          "src": "/assets_main/services/web_dev/5.png",
+          "alt": "skyimpact"
         },
         {
-          "src": "/assets_main/services/web_dev/wd6.png",
-          "alt": "Social media Valentine's Day post mockup"
-        },
-        {
-          "src": "/assets_main/services/web_dev/wd7.png",
-          "alt": "Instagram creative / social content mock"
+          "link": "portfolio-item/shl-supreme-home-loans",
+          "src": "/assets_main/services/web_dev/6.png",
+          "alt": "shl-supreme-home-loans"
         }
       ]
     },
