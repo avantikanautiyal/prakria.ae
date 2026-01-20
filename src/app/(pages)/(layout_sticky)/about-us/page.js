@@ -78,7 +78,7 @@ We are big enough to incubate some of the most innovative ideas and small enough
           </div>
 
           <div className=" flex-grow hidden md:flex sticky top-[100px]  rounded-lg overflow-hidden  justify-center items-center">
-            <img className="rounded" src="/assets_main/about1.jpeg" />
+            <img className="rounded" src="/assets_main/about1.jpeg" alt="About Prakria Team at Work" />
           </div>
         </div>
         <LogoMarquee />

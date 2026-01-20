@@ -139,7 +139,7 @@ function Whatwedo({ content }) {
             <Link href="/3d-cgi">
             <div className="about-feature-card two">
               <div className="icon d-flex justify-content-center">
-                <img className="rounded-sm" src="/images/3d_cgi.jpg" alt="" />
+                <img className="rounded-sm" src="/images/3d_cgi.jpg" alt="3D CGI Services" />
               </div>
               <div className="content">
                 <h4>3D & CGI</h4>
@@ -160,7 +160,7 @@ function Whatwedo({ content }) {
             <Link href="/ar-vr-game-tech">
               <div className="about-feature-card two">
                 <div className="icon d-flex justify-content-center">
-                  <img className="rounded-sm" src="/images/ar_vr.jpg" alt="" />
+                  <img className="rounded-sm" src="/images/ar_vr.jpg" alt="AR/VR Services" />
                 </div>
                 <div className="content">
                   <h4>AR, VR & GAME TECH</h4>

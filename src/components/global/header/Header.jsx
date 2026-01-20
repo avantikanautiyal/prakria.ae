@@ -292,10 +292,10 @@ const Header1 = () => {
         <div className="container d-flex flex-nowrap align-items-center justify-content-between py-2">
           <div className="company-logo">
             <Link href="/" className="logo-dark">
-              <img alt="image" className="img-fluid" src="/Prakria-logo.png" />
+              <img alt="Prakria Logo" className="img-fluid" src="/Prakria-logo.png" />
             </Link>
             <Link href="/" className="logo-light">
-              <img alt="image" className="img-fluid" src="/Prakria-logo.png" />
+              <img alt="Prakria Logo" className="img-fluid" src="/Prakria-logo.png" />
             </Link>
           </div>
           {/* <div className="main-menu d-lg-flex d-none">

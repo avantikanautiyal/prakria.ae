@@ -42,22 +42,22 @@ function Page() {
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
-            <img src="/assets_main/services/web_dev/wd1.png" alt="" />
+            <img src="/assets_main/services/web_dev/wd1.png" alt="Web Development Portfolio 1" />
           </div>
           <div className="col-lg-4">
-            <img src="/assets_main/services/web_dev/wd2.png" alt="" />
+            <img src="/assets_main/services/web_dev/wd2.png" alt="Web Development Portfolio 2" />
           </div>
           <div className="col-lg-4">
-            <img src="/assets_main/services/web_dev/wd3.png" alt="" />
+            <img src="/assets_main/services/web_dev/wd3.png" alt="Web Development Portfolio 3" />
           </div>
           <div className="col-lg-4">
-            <img src="/assets_main/services/web_dev/wd4.png" alt="" />
+            <img src="/assets_main/services/web_dev/wd4.png" alt="Web Development Portfolio 4" />
           </div>
           <div className="col-lg-4">
-            <img src="/assets_main/services/web_dev/wd5.png" alt="" />
+            <img src="/assets_main/services/web_dev/wd5.png" alt="Web Development Portfolio 5" />
           </div>
           <div className="col-lg-4">
-            <img src="/assets_main/services/web_dev/wd6.png" alt="" />
+            <img src="/assets_main/services/web_dev/wd6.png" alt="Web Development Portfolio 6" />
           </div>
         </div>
       </div>
