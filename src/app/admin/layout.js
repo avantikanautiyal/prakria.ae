@@ -39,6 +39,12 @@ export default function AdminLayout({ children }) {
           <Link href="/admin/case-studies" className="block hover:text-zinc-400 transition-colors">
             Case Studies
           </Link>
+          <Link href="/admin/sub-services" className="block hover:text-zinc-400 transition-colors">
+            Sub Services
+          </Link>
+          <Link href="/admin/inquiries" className="block hover:text-zinc-400 transition-colors">
+            Inquiries
+          </Link>
           <button
             onClick={handleLogout}
             className="block text-red-500 hover:text-red-400 transition-colors pt-4 mt-8 border-t border-zinc-800 w-full text-left"
