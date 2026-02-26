@@ -159,6 +159,10 @@ export default function SubServiceForm() {
             <input type="file" onChange={(e) => handleUpload(e.target.files[0], 'herosection.icon')} className="input w-full" />
             {formData.herosection?.icon && <img src={formData.herosection.icon} className="h-10 mt-2 bg-zinc-800 p-1" />}
           </div>
+          <div className="pt-2">
+            <label className="label">Section Conclusion</label>
+            <textarea {...register('herosection.conclusionLine')} className="input w-full" rows="1" />
+          </div>
         </section>
 
         {/* 2. introSection */}
@@ -171,6 +175,10 @@ export default function SubServiceForm() {
           <div>
             <label className="label">Intro Description</label>
             <textarea {...register('introSection.description')} className="input w-full" rows="4" />
+          </div>
+          <div className="pt-2">
+            <label className="label">Section Conclusion</label>
+            <textarea {...register('introSection.conclusionLine')} className="input w-full" rows="1" />
           </div>
         </section>
 
@@ -191,6 +199,10 @@ export default function SubServiceForm() {
                 <button type="button" onClick={() => removeService(index)} className="bg-red-900 px-3 rounded text-sm">×</button>
               </div>
             ))}
+          </div>
+          <div className="pt-4">
+            <label className="label">Section Conclusion</label>
+            <textarea {...register('servicesSection.conclusionLine')} className="input w-full" rows="1" />
           </div>
         </section>
 
@@ -219,6 +231,10 @@ export default function SubServiceForm() {
               </div>
             ))}
           </div>
+          <div className="pt-4">
+            <label className="label">Section Conclusion</label>
+            <textarea {...register('whyChooseSection.conclusionLine')} className="input w-full" rows="1" />
+          </div>
         </section>
 
         {/* 5. expertiseSection */}
@@ -238,6 +254,10 @@ export default function SubServiceForm() {
                 <button type="button" onClick={() => removeExpertise(index)} className="bg-red-900/50 px-1 rounded text-[10px]">×</button>
               </div>
             ))}
+          </div>
+          <div className="pt-4">
+            <label className="label">Section Conclusion</label>
+            <textarea {...register('expertiseSection.conclusionLine')} className="input w-full" rows="1" />
           </div>
         </section>
 
@@ -261,6 +281,10 @@ export default function SubServiceForm() {
               </div>
             ))}
           </div>
+          <div className="pt-4">
+            <label className="label">Section Conclusion</label>
+            <textarea {...register('platformsSection.conclusionLine')} className="input w-full" rows="1" />
+          </div>
         </section>
 
         {/* 7. differentiatorsSection */}
@@ -280,6 +304,10 @@ export default function SubServiceForm() {
                 <button type="button" onClick={() => removeDifferent(index)} className="bg-red-900/50 px-1 rounded text-[10px]">×</button>
               </div>
             ))}
+          </div>
+          <div className="pt-4">
+            <label className="label">Section Conclusion</label>
+            <textarea {...register('differentiatorsSection.conclusionLine')} className="input w-full" rows="1" />
           </div>
         </section>
 
@@ -302,6 +330,10 @@ export default function SubServiceForm() {
                 <input {...register(`useCasesSection.list.${index}.title`)} className="input w-full text-xs" placeholder="Use case name" />
               </div>
             ))}
+          </div>
+          <div className="pt-4">
+            <label className="label">Section Conclusion</label>
+            <textarea {...register('useCasesSection.conclusionLine')} className="input w-full" rows="1" />
           </div>
         </section>
 
@@ -346,6 +378,10 @@ export default function SubServiceForm() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="pt-4">
+            <label className="label">Section Conclusion</label>
+            <textarea {...register('relatedServicesSection.conclusionLine')} className="input w-full" rows="1" />
           </div>
         </section>
 

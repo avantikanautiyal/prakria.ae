@@ -22,13 +22,15 @@ const SubServiceSchema = new mongoose.Schema({
     title: String,
     description: String,
     buttonText: { type: String, default: 'Start a Project' },
-    icon: String // URL to icon
+    icon: String, // URL to icon
+    conclusionLine: String
   },
 
   // 2. Intro Section (Professional...)
   introSection: {
     title: String,
-    description: String
+    description: String,
+    conclusionLine: String
   },
 
   // 3. Services Section (Our Video Podcast Production Services)
@@ -37,7 +39,8 @@ const SubServiceSchema = new mongoose.Schema({
     subtitle: String,
     list: [{
       title: String
-    }]
+    }],
+    conclusionLine: String
   },
 
   // 4. Why Choose Section (Why Corporate Brands Choose...)
@@ -48,7 +51,8 @@ const SubServiceSchema = new mongoose.Schema({
       number: String,
       title: String,
       description: String
-    }]
+    }],
+    conclusionLine: String
   },
 
   // 5. Expertise Section (End-to-End Podcast Production Expertise)
@@ -57,7 +61,8 @@ const SubServiceSchema = new mongoose.Schema({
     description: String,
     list: [{
       title: String
-    }]
+    }],
+    conclusionLine: String
   },
 
   // 6. Platforms Section (Platforms We Optimize For)
@@ -67,7 +72,8 @@ const SubServiceSchema = new mongoose.Schema({
     list: [{
       icon: String, // URL to icon
       title: String
-    }]
+    }],
+    conclusionLine: String
   },
 
   // 7. Differentiators Section (What Makes PRAKRIA One of the Best...)
@@ -76,7 +82,8 @@ const SubServiceSchema = new mongoose.Schema({
     description: String,
     list: [{
       title: String
-    }]
+    }],
+    conclusionLine: String
   },
 
   // 8. Use Cases Section (Use Cases for Corporate Video Podcasts)
@@ -86,7 +93,8 @@ const SubServiceSchema = new mongoose.Schema({
     list: [{
       icon: String, // URL to icon
       title: String
-    }]
+    }],
+    conclusionLine: String
   },
 
   // 9. Related Services Section
@@ -98,7 +106,8 @@ const SubServiceSchema = new mongoose.Schema({
       description: String,
       buttonText: { type: String, default: 'Read more' },
       buttonLink: String
-    }]
+    }],
+    conclusionLine: String
   }
 }, {
   timestamps: true,
