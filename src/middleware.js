@@ -1,14 +1,20 @@
-import { NextResponse } from "next/server";
+import { NextResponse } from 'next/server';
 
-export function middleware(request) {
-  // Store current request url in a custom header, which you can read later
-  const requestHeaders = new Headers(request.headers);
-  requestHeaders.set("x-url", request.url);
+export function middleware(req) {
+  const { pathname } = req.nextUrl;
 
-  return NextResponse.next({
-    request: {
-      // Apply new request headers
-      headers: requestHeaders,
-    },
-  });
+  // Protect all /admin routes except /admin/login
+  if (pathname.startsWith('/admin') && pathname !== '/admin/login') {
+    const session = req.cookies.get('admin_session');
+
+    if (!session) {
+      return NextResponse.redirect(new URL('/admin/login', req.url));
+    }
+  }
+
+  return NextResponse.next();
 }
+
+export const config = {
+  matcher: ['/admin/:path*'],
+};

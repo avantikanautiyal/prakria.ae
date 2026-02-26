@@ -50,6 +50,8 @@ export const metadata = {
   },
 };
 
+import Providers from "@/components/Providers";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -97,12 +99,9 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-
-
-
-        <Whatsapp />
-        <SocialWidget />
-        {children}
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   );
