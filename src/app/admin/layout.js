@@ -43,7 +43,7 @@ export default function AdminLayout({ children }) {
             Services
           </Link>
           <Link href="/admin/sub-services" className="block hover:text-zinc-400 transition-colors">
-            Sub Services
+            AI Sub Services
           </Link>
           <Link href="/admin/inquiries" className="block hover:text-zinc-400 transition-colors">
             Inquiries

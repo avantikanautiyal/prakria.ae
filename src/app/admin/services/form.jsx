@@ -20,7 +20,7 @@ export default function ServiceForm() {
       metaDescription: '',
       metaKeywords: '',
       herosection: { title: '', description: '', buttonText: 'Enquire Now', buttonLink: '', conclusionLine: '' },
-      workSection: { title: '', description: '', list: [], conclusionLine: '' },
+      workSection: { title: '', description: '', buttonText: '', buttonLink: '', list: [{ url: '', mediaType: 'image', alt: '', slug: '', title: '', description: '' }], conclusionLine: '' },
       whyChooseSection: { title: '', description: '', list: [{ icon: '', title: '', description: '' }], conclusionLine: '' },
       coreServicesSection: { title: '', list: [{ icon: '', tabTitle: '', contentTitle: '', description: '', focusList: [''], bottomBox: '' }], conclusionLine: '' },
       howWeWorkSection: { title: '', description: '', list: [{ number: '', title: '', description: '' }], conclusionLine: '' },
@@ -34,6 +34,7 @@ export default function ServiceForm() {
   const { fields: howItems, append: appendHow, remove: removeHow } = useFieldArray({ control, name: 'howWeWorkSection.list' });
   const { fields: benefitItems, append: appendBenefit, remove: removeBenefit } = useFieldArray({ control, name: 'benefitsSection.list' });
   const { fields: faqItems, append: appendFaq, remove: removeFaq } = useFieldArray({ control, name: 'faqSection.list' });
+  const { fields: workItems, append: appendWork, remove: removeWork } = useFieldArray({ control, name: 'workSection.list' });
 
   const formData = watch();
   const [uploading, setUploading] = useState({});
@@ -95,8 +96,7 @@ export default function ServiceForm() {
 
   const handleWorkImageUpload = async (file) => {
     if (!file) return;
-    const path = 'workSection.list';
-    setUploading(prev => ({ ...prev, [path]: true }));
+    setUploading(prev => ({ ...prev, 'workSection.list': true }));
     const fd = new FormData();
     fd.append('file', file);
 
@@ -104,14 +104,13 @@ export default function ServiceForm() {
       const res = await fetch('/api/upload', { method: 'POST', body: fd });
       const data = await res.json();
       if (data.success) {
-        const currentList = watch('workSection.list') || [];
-        setValue('workSection.list', [...currentList, data.url]);
-        toast.success('Image added to portfolio');
+        appendWork({ url: data.url, mediaType: 'image', alt: '', slug: '', title: '', description: '' });
+        toast.success('Media added to portfolio');
       } else throw new Error(data.error);
     } catch (err) {
       toast.error('Upload failed');
     } finally {
-      setUploading(prev => ({ ...prev, [path]: false }));
+      setUploading(prev => ({ ...prev, 'workSection.list': false }));
     }
   };
 
@@ -183,7 +182,10 @@ export default function ServiceForm() {
 
         {/* 2. workSection */}
         <section className="bg-zinc-900 p-6 rounded-lg border border-zinc-800 space-y-4">
-          <h2 className="text-xl font-semibold border-b border-zinc-800 pb-2">2. Our Work (Portfolio)</h2>
+          <div className="flex justify-between items-center border-b border-zinc-800 pb-2">
+            <h2 className="text-xl font-semibold">2. Our Work (Portfolio)</h2>
+            <button type="button" onClick={() => appendWork({ url: '', mediaType: 'image', alt: '', slug: '', title: '', description: '' })} className="btn-sm">+ Add Item</button>
+          </div>
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="label">Title</label>
@@ -194,31 +196,89 @@ export default function ServiceForm() {
               <input {...register('workSection.description')} className="input w-full" />
             </div>
           </div>
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <label className="label">Button Text</label>
+              <input {...register('workSection.buttonText')} className="input w-full" placeholder="e.g. View All Work" />
+            </div>
+            <div>
+              <label className="label">Button Link</label>
+              <input {...register('workSection.buttonLink')} className="input w-full" placeholder="/portfolio" />
+            </div>
+          </div>
           <div className="space-y-4">
             <label className="label">Add Portfolio Images</label>
-            <input 
-              type="file" 
-              multiple 
+            {/* <input
+              type="file"
+              multiple
               onChange={(e) => {
                 const files = Array.from(e.target.files);
                 files.forEach(file => handleWorkImageUpload(file));
-              }} 
-              className="input w-full" 
-            />
-            <div className="grid grid-cols-4 gap-4 mt-4">
-              {formData.workSection?.list?.map((img, idx) => (
-                <div key={idx} className="relative group aspect-square bg-zinc-800 rounded overflow-hidden border border-zinc-700">
-                  <img src={img} className="w-full h-full object-cover" />
+              }}
+              className="input w-full"
+            /> */}
+            <div className="grid grid-cols-1 gap-6 mt-4">
+              {workItems.map((field, index) => (
+                <div key={field.id} className="relative group p-6 bg-zinc-950/40 rounded-xl border border-zinc-800 space-y-4">
+                  <div className="flex gap-6">
+                    <div className="w-48 h-48 flex-shrink-0 bg-black rounded-lg overflow-hidden border border-zinc-800 relative group/media">
+                      {formData.workSection?.list?.[index]?.url ? (
+                        formData.workSection.list[index].mediaType === 'video' ? (
+                          <video src={formData.workSection.list[index].url} className="w-full h-full object-cover" />
+                        ) : (
+                          <img src={formData.workSection.list[index].url} className="w-full h-full object-cover" />
+                        )
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center text-zinc-700 text-xs">No Media</div>
+                      )}
+                      <div className="absolute inset-0 bg-black/60 opacity-0 group-hover/media:opacity-100 flex items-center justify-center transition-opacity">
+                        <input
+                          type="file"
+                          className="absolute inset-0 opacity-0 cursor-pointer"
+                          onChange={(e) => handleUpload(e.target.files[0], `workSection.list.${index}.url`)}
+                        />
+                        <span className="text-[10px] font-bold">Change Media</span>
+                      </div>
+                    </div>
+
+                    <div className="flex-1 grid grid-cols-2 gap-4">
+                      <div className="col-span-2 grid grid-cols-3 gap-3">
+                        <div>
+                          <label className="label text-[10px]">Media Type</label>
+                          <select {...register(`workSection.list.${index}.mediaType`)} className="input w-full text-xs h-8 py-0">
+                            <option value="image">Image</option>
+                            <option value="video">Video</option>
+                            <option value="gif">GIF</option>
+                          </select>
+                        </div>
+                        <div className="col-span-2">
+                          <label className="label text-[10px]">Alt Tag (SEO)</label>
+                          <input {...register(`workSection.list.${index}.alt`)} className="input w-full text-xs h-8" placeholder="e.g. Branding for Nestle" />
+                        </div>
+                      </div>
+
+                      <div>
+                        <label className="label text-[10px]">Title</label>
+                        <input {...register(`workSection.list.${index}.title`)} className="input w-full text-xs h-8" placeholder="Project Title" />
+                      </div>
+                      <div>
+                        <label className="label text-[10px]">Slug</label>
+                        <input {...register(`workSection.list.${index}.slug`)} className="input w-full text-xs h-8" placeholder="e.g. nestle-nido" />
+                      </div>
+
+                      <div className="col-span-2">
+                        <label className="label text-[10px]">Description</label>
+                        <textarea {...register(`workSection.list.${index}.description`)} className="input w-full text-xs" rows="2" placeholder="Brief project description..." />
+                      </div>
+                    </div>
+                  </div>
+
                   <button 
                     type="button"
-                    onClick={() => {
-                      const newList = [...formData.workSection.list];
-                      newList.splice(idx, 1);
-                      setValue('workSection.list', newList);
-                    }}
-                    className="absolute inset-0 bg-red-600/80 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity font-bold"
+                    onClick={() => removeWork(index)}
+                    className="absolute -top-3 -right-3 bg-red-600 rounded-full w-7 h-7 flex items-center justify-center font-bold shadow-xl hover:bg-red-500 transition-colors"
                   >
-                    Delete
+                    ×
                   </button>
                 </div>
               ))}

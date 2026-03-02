@@ -29,7 +29,16 @@ const ServiceSchema = new mongoose.Schema({
   workSection: {
     title: String,
     description: String,
-    list: [String], // Array of image URLs
+    buttonText: String,
+    buttonLink: String,
+    list: [{
+      url: String,
+      mediaType: { type: String, enum: ['image', 'video', 'gif'], default: 'image' },
+      alt: String,
+      slug: String,
+      title: String,
+      description: String
+    }],
     conclusionLine: String
   },
 
