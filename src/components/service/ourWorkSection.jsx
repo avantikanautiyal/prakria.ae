@@ -71,6 +71,25 @@ function OurWorkSection(props) {
           </React.Fragment>
         ))}
       </div>
+
+      {/* Section CTA */}
+      {(props?.buttonText && props?.buttonLink) && (
+        <div className="flex justify-center mt-12">
+          <Link
+            href={props.buttonLink}
+            className="bg-[#363636] text-white font-semibold py-3 px-8 rounded-lg hover:bg-gray-600 transition-colors duration-300 shadow-lg"
+          >
+            {props.buttonText}
+          </Link>
+        </div>
+      )}
+
+      {/* Conclusion Line */}
+      {props?.conclusionLine && (
+        <div className="mt-16 text-center border-t border-gray-800 pt-8 max-w-4xl mx-auto">
+          <p className="text-gray-400 text-sm md:text-base italic">{props.conclusionLine}</p>
+        </div>
+      )}
     </section>
   );
 }

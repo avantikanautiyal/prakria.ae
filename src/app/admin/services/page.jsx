@@ -1,5 +1,4 @@
 'use client';
-
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import Link from 'next/link';
 import { toast } from 'react-toastify';
@@ -86,7 +85,7 @@ export default function ServicesPage() {
             {(!services || services.length === 0) && (
               <tr>
                 <td colSpan="3" className="px-6 py-10 text-center text-zinc-500 italic">
-                  No services found. Click "Add New Service" to get started.
+                  No services found. Click &quot;Add New Service&quot; to get started.
                 </td>
               </tr>
             )}

@@ -6,8 +6,18 @@ import { cookies } from 'next/headers';
 export async function GET(req, { params }) {
   await dbConnect();
   try {
-    const blog = await Blog.findById(params.id);
-    if (!blog) return NextResponse.json({ success: false }, { status: 404 });
+    let blog;
+    // Check if params.id is a valid MongoDB ObjectId
+    if (params.id.match(/^[0-9a-fA-F]{24}$/)) {
+      blog = await Blog.findById(params.id);
+    }
+
+    // If not found by ID, try searching by slug
+    if (!blog) {
+      blog = await Blog.findOne({ slug: params.id });
+    }
+
+    if (!blog) return NextResponse.json({ success: false, message: "Blog not found" }, { status: 404 });
     return NextResponse.json({ success: true, data: blog });
   } catch (error) {
     return NextResponse.json({ success: false, error: error.message }, { status: 400 });

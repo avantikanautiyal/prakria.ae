@@ -21,7 +21,7 @@ function CoreService(props) {
         {props?.title}
       </h2>
 
-      <p class="mx-auto max-w-2xl text-sm md:text-sm sm:text-sm text-gray-300 sm:mb-10 leading-relaxed">{props?.description}</p>
+      <p className="mx-auto max-w-2xl text-sm md:text-sm sm:text-sm text-gray-300 sm:mb-10 leading-relaxed">{props?.description}</p>
 
 
 
@@ -33,11 +33,11 @@ function CoreService(props) {
               key={service.id}
               onClick={() => setSelectedService(service.id)}
               className={`w-full flex items-center gap-4 p-4 rounded-lg transition-all duration-300 text-left ${selectedService === service.id
-                  ? "bg-[#1A1A1A] text-white"
-                  : "text-gray-400 hover:bg-[#1A1A1A] hover:text-white"
+                ? "bg-[#1A1A1A] text-white"
+                : "text-gray-400 hover:bg-[#1A1A1A] hover:text-white"
                 }`}
             >
-              <img src={`/icon/service/core-${index + 1}.png`} alt={service.name + " icon"} className="w-7 h-7 object-contain" />
+              <img src={service.icon || `/icon/service/core-${index + 1}.png`} alt={service.name + " icon"} className="w-7 h-7 object-contain" />
               <span className="font-medium">{service.name}</span>
             </button>
           ))}
@@ -79,6 +79,11 @@ function CoreService(props) {
                 </p>
               </div>
             )}
+          </div>
+        )}
+        {props?.conclusionLine && (
+          <div className="mt-16 text-center border-t border-gray-800 pt-8">
+            <p className="text-gray-400 text-lg italic">{props.conclusionLine}</p>
           </div>
         )}
       </div>

@@ -12,6 +12,12 @@
         "icon": false
     },
     {
+        "id": "5",
+        "label": "BLOGS",
+        "link": "/blogs",
+        "icon": false
+    },
+    {
         "id": "3",
         "label": "WHAT WE DO",
         "link": "#",

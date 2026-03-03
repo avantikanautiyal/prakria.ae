@@ -9,14 +9,15 @@ const Home1Blog = () => {
     // Fetch posts when the component mounts
     const fetchPosts = async () => {
       try {
-        const res = await fetch(
-          "https://blogs.prakria.tech/wp-json/wp/v2/posts?per_page=3"
-        );
-        const data = await res.json();
-        setPosts(data || []); // Set posts or an empty array if data is undefined
+        const res = await fetch("/api/blogs");
+        const json = await res.json();
+        if (json.success) {
+          // Limit to 3 posts for the home page
+          setPosts(json.data.slice(0, 3));
+        }
       } catch (error) {
         console.error("Error fetching posts:", error);
-        setPosts([]); // Set an empty array on error
+        setPosts([]);
       }
     };
 
@@ -43,12 +44,31 @@ const Home1Blog = () => {
           <div className="row g-md-4 gy-5">
             {posts.map((post, index) => (
               <BlogCard
-                key={post.id}
-                src={post.jetpack_featured_media_url || "/images/default.jpg"} // Replace with your default image path if needed
-                title={post.title.rendered}
-                link={post.link}
+                key={post._id}
+                src={post.image || "/images/default.jpg"}
+                title={post.title}
+                slug={post._id}
               />
             ))}
+          </div>
+          <div className="row mt-50">
+            <div className="col-lg-12 d-flex justify-content-center">
+              <Link href="/blogs" className="details-button">
+                View More Blogs
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={10}
+                  height={10}
+                  viewBox="0 0 10 10"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z"
+                  />
+                </svg>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -56,7 +76,7 @@ const Home1Blog = () => {
   );
 };
 
-function BlogCard({ src = "", title, link = "#" }) {
+function BlogCard({ src = "", title, slug = "#" }) {
   return (
     <div
       className="col-lg-4 col-md-6 wow animate fadeInUp"
@@ -64,7 +84,7 @@ function BlogCard({ src = "", title, link = "#" }) {
       data-wow-duration="500ms"
     >
       <div className="blog-card">
-        <Link target="_blank" href={link}>
+        <Link href={`/blogs/${slug}`}>
           <div className="blog-card-img-wrap">
             <div className="card-img">
               <img src={src} alt="blog image" />
@@ -72,7 +92,7 @@ function BlogCard({ src = "", title, link = "#" }) {
           </div>
           <div className="card-content">
             <h4>{title}</h4>
-            <div target="_blank" href={link} className="read-more-btn">
+            <div className="read-more-btn">
               Read More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
