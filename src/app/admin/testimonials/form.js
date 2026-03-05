@@ -5,6 +5,8 @@ import { useRouter, useParams } from 'next/navigation';
 import { toast } from 'react-toastify';
 import { useForm } from 'react-hook-form';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { s3Upload } from '@/utils/s3Upload';
+
 
 export default function TestimonialForm() {
   const router = useRouter();
@@ -62,31 +64,18 @@ export default function TestimonialForm() {
     },
   });
 
-  const handleFileUpload = async (e, type) => {
-    const file = e.target.files[0];
+  const handleUpload = async (file, path) => {
     if (!file) return;
-
-    setUploading((prev) => ({ ...prev, [type]: true }));
-
-    const formDataUpload = new FormData();
-    formDataUpload.append('file', file);
+    setUploading(prev => ({ ...prev, [path]: true }));
 
     try {
-      const res = await fetch('/api/upload', {
-        method: 'POST',
-        body: formDataUpload,
-      });
-      const data = await res.json();
-      if (data.success) {
-        setValue(type, data.url);
-        toast.success(`${type.charAt(0).toUpperCase() + type.slice(1)} uploaded successfully`);
-      } else {
-        toast.error(data.error || 'Upload failed');
-      }
-    } catch (error) {
-      toast.error('Failed to upload file');
+      const url = await s3Upload(file);
+      setValue(path, url);
+      toast.success('Image uploaded');
+    } catch (err) {
+      toast.error('Upload failed: ' + err.message);
     } finally {
-      setUploading((prev) => ({ ...prev, [type]: false }));
+      setUploading(prev => ({ ...prev, [path]: false }));
     }
   };
 
@@ -139,7 +128,7 @@ export default function TestimonialForm() {
                 type="file"
                 accept="image/*"
                 className="w-full p-2 bg-zinc-900 border border-zinc-800 rounded text-white"
-                onChange={(e) => handleFileUpload(e, 'image')}
+                onChange={(e) => handleUpload(e.target.files[0], 'image')}
               />
               {uploading.image && <p className="text-sm text-yellow-500">Uploading...</p>}
               {formData.image && (

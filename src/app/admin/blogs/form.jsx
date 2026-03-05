@@ -6,6 +6,8 @@ import { toast } from 'react-toastify';
 import dynamic from 'next/dynamic';
 import { useForm } from 'react-hook-form';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { s3Upload } from '@/utils/s3Upload';
+
 
 const JoditEditor = dynamic(() => import('jodit-react'), { ssr: false });
 
@@ -79,23 +81,12 @@ export default function BlogForm() {
 
     setUploading((prev) => ({ ...prev, [type]: true }));
 
-    const formDataUpload = new FormData();
-    formDataUpload.append('file', file);
-
     try {
-      const res = await fetch('/api/upload', {
-        method: 'POST',
-        body: formDataUpload,
-      });
-      const data = await res.json();
-      if (data.success) {
-        setValue(type, data.url);
-        toast.success(`${type.charAt(0).toUpperCase() + type.slice(1)} uploaded successfully`);
-      } else {
-        toast.error(data.error || 'Upload failed');
-      }
+      const url = await s3Upload(file);
+      setValue(type, url);
+      toast.success(`${type.charAt(0).toUpperCase() + type.slice(1)} uploaded successfully`);
     } catch (error) {
-      toast.error('Failed to upload file');
+      toast.error('Failed to upload file: ' + error.message);
     } finally {
       setUploading((prev) => ({ ...prev, [type]: false }));
     }

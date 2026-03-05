@@ -5,6 +5,8 @@ import { useRouter, useParams } from 'next/navigation';
 import { toast } from 'react-toastify';
 import { useForm, useFieldArray } from 'react-hook-form';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { s3Upload } from '@/utils/s3Upload';
+
 
 export default function SubServiceForm() {
   const router = useRouter();
@@ -81,18 +83,13 @@ export default function SubServiceForm() {
   const handleUpload = async (file, path) => {
     if (!file) return;
     setUploading(prev => ({ ...prev, [path]: true }));
-    const fd = new FormData();
-    fd.append('file', file);
 
     try {
-      const res = await fetch('/api/upload', { method: 'POST', body: fd });
-      const data = await res.json();
-      if (data.success) {
-        setValue(path, data.url);
-        toast.success('File uploaded');
-      } else throw new Error(data.error);
+      const url = await s3Upload(file);
+      setValue(path, url);
+      toast.success('File uploaded successfully');
     } catch (err) {
-      toast.error('Upload failed');
+      toast.error('Upload failed: ' + err.message);
     } finally {
       setUploading(prev => ({ ...prev, [path]: false }));
     }

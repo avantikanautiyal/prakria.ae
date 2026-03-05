@@ -13,8 +13,7 @@ function PortfolioPage(props) {
      <HeroSectionPortfolio {...props?.herosection}/>
      <StorySection {...props?.storySection}/>
      <section className="bg-black text-white py-20 px-4 sm:px-8 font-sans">
-     <ResultSection  {...props?.challenge} />
-
+        <ResultSection  {...props?.challenge} />
      </section>
      <StartageySection  {...props?.startageySection}/>
      <ExecutionSection  {...props?.executionSection}/>

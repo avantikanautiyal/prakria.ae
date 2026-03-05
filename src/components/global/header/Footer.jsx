@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import FooterData from "@/data/footerData.json";
+import FooterData from "../../../data/footerData.json"
+
 
 const Footer2 = () => {
   return (
