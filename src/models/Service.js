@@ -11,6 +11,8 @@ const ServiceSchema = new mongoose.Schema({
     unique: true,
   },
   
+  image: String,
+
   // SEO Fields
   metaTitle: String,
   metaDescription: String,

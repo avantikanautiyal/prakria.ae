@@ -59,6 +59,22 @@ const Header1 = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const headerRef = useRef(null);
   const [toggleMenuState, setToggleMenuState] = useState(null);
+  const [dbServices, setDbServices] = useState([]);
+
+  useEffect(() => {
+    const fetchServices = async () => {
+      try {
+        const res = await fetch("/api/services");
+        const json = await res.json();
+        if (json.success && json.data) {
+          setDbServices(json.data);
+        }
+      } catch (error) {
+        console.error("Error fetching services for header:", error);
+      }
+    };
+    fetchServices();
+  }, []);
 
   const handleScroll = () => {
     const { scrollY } = window;
@@ -139,44 +155,64 @@ const Header1 = () => {
                     toggleMenu={toggleRightSidebar}
                   />
 
+                  <MenuItems
+                    data={navData[2]}
+                    toggleMenu={toggleRightSidebar}
+                  />
+
                   <li>
-                    <Link href="#">{navData[2].label}</Link>
+                    <Link href="#">{navData[3].label}</Link>
                     <span
                       className="dropdown-icon2"
                       onClick={() => {
                         setToggleMenuState((s) =>
-                          !!s ? null : navData[2].label
+                          !!s ? null : navData[3].label
                         );
                       }}
                     >
                       <i
                         className={`bi ${
-                          toggleMenuState === navData[2].label
+                          toggleMenuState === navData[3].label
                             ? "bi-dash"
                             : "bi-plus"
                         }`}
                       />
                     </span>
-                    {
-                      <ul
-                        className={`submenu-list active ${
-                          toggleMenuState === navData[2].label
-                            ? "d-block"
-                            : "d-none"
+                    <ul
+                      className={`submenu-list active ${
+                        toggleMenuState === navData[3].label
+                          ? "d-block"
+                          : "d-none"
                         }`}
-                      >
-                        {navData[2]?.subMenu?.map((subMenu, subIndex) => (
+                    >
+                      {dbServices.length > 0 ? (
+                        dbServices.map((service, subIndex) => (
+                          <li key={subIndex} onClick={toggleRightSidebar}>
+                            <Link legacyBehavior href={`/services${service.slug}`}>
+                              <a>{service.name}</a>
+                            </Link>
+                          </li>
+                        ))
+                      ) : (
+                        navData[3].subMenu?.map((subMenu, subIndex) => (
                           <li key={subIndex} onClick={toggleRightSidebar}>
                             <Link legacyBehavior href={subMenu.link}>
                               <a>{subMenu.label}</a>
                             </Link>
                           </li>
-                        ))}
-                      </ul>
-                    }
+                        ))
+                      )}
+                      {(!dbServices.length || !dbServices.find(s => s.slug === "ai" || s.name.toLowerCase() === "ai")) && (
+                        <li onClick={toggleRightSidebar}>
+                          <Link legacyBehavior href="/ai">
+                            <a>AI</a>
+                          </Link>
+                        </li>
+                      )}
+                    </ul>
                   </li>
                   <MenuItems
-                    data={navData[3]}
+                    data={navData[4]}
                     toggleMenu={toggleRightSidebar}
                   />
                 </ul>

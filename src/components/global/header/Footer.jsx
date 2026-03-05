@@ -1,9 +1,28 @@
+"use client";
+
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import FooterData from "../../../data/footerData.json"
 
 
 const Footer2 = () => {
+  const [dbServices, setDbServices] = useState([]);
+
+  useEffect(() => {
+    const fetchServices = async () => {
+      try {
+        const res = await fetch("/api/services");
+        const json = await res.json();
+        if (json.success && json.data) {
+          setDbServices(json.data);
+        }
+      } catch (error) {
+        console.error("Error fetching services for footer:", error);
+      }
+    };
+    fetchServices();
+  }, []);
+
   return (
     <>
       <footer className="footer-section style-2">
@@ -33,13 +52,29 @@ const Footer2 = () => {
                   </div>
                 </div>
               </div>
-              {FooterData.map((section, index) => (
-                <FooterLinks
-                  key={index}
-                  title={section.title}
-                  links={section.links}
-                />
-              ))}
+              {FooterData.map((section, index) => {
+                let sectionLinks = section.links;
+
+                // If it's the Service section, use DB services if available
+                if (section.title === "Service" && dbServices.length > 0) {
+                  sectionLinks = dbServices.map(s => ({
+                    label: s.name,
+                    link: `/services${s.slug}`
+                  }));
+                  // also add AI if it's not in the list
+                  if (!dbServices.find(s => s.slug === "ai" || s.name.toLowerCase() === "ai")) {
+                    sectionLinks.push({ label: "AI", link: "/ai" });
+                  }
+                }
+
+                return (
+                  <FooterLinks
+                    key={index}
+                    title={section.title}
+                    links={sectionLinks}
+                  />
+                );
+              })}
             </div>
           </div>
           <div className="contact-area">

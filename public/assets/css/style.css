@@ -410,6 +410,9 @@ ul {
   padding-top: 120px;
 }
 
+.pt-150 {
+  padding-top: 150px;
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .pt-120 {
     padding-top: 100px;

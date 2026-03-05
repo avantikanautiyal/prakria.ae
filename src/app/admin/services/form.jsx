@@ -18,10 +18,11 @@ export default function ServiceForm() {
     defaultValues: {
       name: '',
       slug: '',
+      image: '',
       metaTitle: '',
       metaDescription: '',
       metaKeywords: '',
-      herosection: { title: '', description: '', buttonText: 'Enquire Now', buttonLink: '', conclusionLine: '' },
+      herosection: { title: '', description: '', buttonText: 'Enquire Now', buttonLink: '/contact-us', conclusionLine: '' },
       workSection: { title: '', description: '', buttonText: '', buttonLink: '', list: [{ url: '', mediaType: 'image', alt: '', slug: '', title: '', description: '' }], conclusionLine: '' },
       whyChooseSection: { title: '', description: '', list: [{ icon: '', title: '', description: '' }], conclusionLine: '' },
       coreServicesSection: { title: '', list: [{ icon: '', tabTitle: '', contentTitle: '', description: '', focusList: [''], bottomBox: '' }], conclusionLine: '' },
@@ -142,9 +143,26 @@ export default function ServiceForm() {
               <textarea {...register('metaDescription')} className="input w-full" rows="1" />
             </div>
           </div>
-          <div>
-            <label className="label">Meta Keywords</label>
-            <input {...register('metaKeywords')} className="input w-full" placeholder="comma separated" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label className="label">Meta Keywords</label>
+              <input {...register('metaKeywords')} className="input w-full" placeholder="comma separated" />
+            </div>
+            <div>
+              <label className="label">Service Grid Image (Main)</label>
+              <div className="flex items-center gap-4">
+                <input
+                  type="file"
+                  onChange={(e) => handleUpload(e.target.files[0], 'image')}
+                  className="input flex-1"
+                />
+                {watch('image') && (
+                  <div className="w-12 h-12 rounded border border-zinc-700 overflow-hidden flex-shrink-0 bg-black">
+                    <img src={watch('image')} className="w-full h-full object-cover" alt="Preview" />
+                  </div>
+                )}
+              </div>
+            </div>
           </div>
         </section>
 

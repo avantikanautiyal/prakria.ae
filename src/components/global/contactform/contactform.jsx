@@ -43,12 +43,22 @@ function ContactForm() {
     setIsSubmitting(true);
 
     try {
-      const res = await fetch("/api/send-email", {
+      // Map 'name' to 'fullName' to match the Inquiry model
+      const payload = {
+        fullName: formData.name,
+        company: formData.company,
+        phone: formData.phone,
+        email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      };
+
+      const res = await fetch("/api/inquiries", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(payload),
       });
 
       if (res.ok) {
@@ -63,7 +73,8 @@ function ContactForm() {
         });
         // router.push("/thank-you");
       } else {
-        setErrorMessage("Failed to send your message. Please try again.");
+        const errorData = await res.json();
+        setErrorMessage(errorData.error || "Failed to send your message. Please try again.");
       }
     } catch (error) {
       setErrorMessage("An error occurred. Please try again.");

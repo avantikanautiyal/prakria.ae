@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function HeroSection(props) {
@@ -10,9 +11,11 @@ function HeroSection(props) {
         {props?.description}
       </p>
       <div className="flex justify-center items-center ">
+        <Link href={props?.buttonLink}>
         <button className="bg-[#363636] text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-600 transition-colors duration-300 shadow-lg">
-          Enquire Now
+            {props?.buttonText}
         </button>
+        </Link>
       </div>
     </section>
   );

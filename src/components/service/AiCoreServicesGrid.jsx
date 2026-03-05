@@ -1,26 +1,13 @@
 "use client";
 import React, { useState } from "react";
-import { HiArrowRight, HiX } from "react-icons/hi";
+import { HiArrowRight } from "react-icons/hi";
+import { useRouter } from "next/navigation";
 
 function AiCoreServicesGrid({ subServices, title, description }) {
-  const [selectedSubService, setSelectedSubService] = useState(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [loadingDetail, setLoadingDetail] = useState(false);
+  const router = useRouter();
 
-  const handleCardClick = async (id) => {
-    setLoadingDetail(true);
-    try {
-      const res = await fetch(`/api/sub-services/${id}`);
-      const data = await res.json();
-      if (data.success) {
-        setSelectedSubService(data.data);
-        setIsModalOpen(true);
-      }
-    } catch (err) {
-      console.error("Error fetching sub-service detail:", err);
-    } finally {
-      setLoadingDetail(false);
-    }
+  const handleCardClick = (slug) => {
+    router.push(`/ai/${slug}`);
   };
 
   return (
@@ -66,55 +53,6 @@ function AiCoreServicesGrid({ subServices, title, description }) {
           </div>
         ))}
       </div>
-
-      {/* Detail Modal */}
-      {isModalOpen && selectedSubService && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
-          <div className="bg-[#111111] border border-zinc-800 rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-8 sm:p-12 relative shadow-2xl animate-in fade-in zoom-in duration-300">
-            <button 
-              onClick={() => setIsModalOpen(false)}
-              className="absolute top-6 right-6 p-2 text-zinc-400 hover:text-white transition-colors"
-            >
-              <HiX className="w-6 h-6" />
-            </button>
-
-            <div className="mb-8">
-              <span className="text-zinc-500 text-xs uppercase tracking-widest font-bold mb-4 block">
-                Sub-Service Detail
-              </span>
-              <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-6">
-                {selectedSubService.name}
-              </h2>
-              <p className="text-lg text-zinc-400 leading-relaxed">
-                {selectedSubService.introSection?.description || selectedSubService.herosection?.description}
-              </p>
-            </div>
-
-            {selectedSubService.servicesSection?.list && (
-              <div className="space-y-4 mb-8">
-                <h4 className="text-white font-medium mb-4">Key Offerings:</h4>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {selectedSubService.servicesSection.list.map((item, idx) => (
-                    <div key={idx} className="flex items-center gap-3 text-zinc-300 text-sm">
-                      <div className="w-1.5 h-1.5 bg-zinc-600 rounded-full" />
-                      {item.title}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            <div className="flex justify-end">
-              <button 
-                onClick={() => setIsModalOpen(false)}
-                className="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-zinc-200 transition-colors"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </section>
   );
 }

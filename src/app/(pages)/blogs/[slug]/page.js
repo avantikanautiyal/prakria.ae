@@ -28,7 +28,7 @@ const BlogDetailPage = () => {
 
   if (loading) {
     return (
-      <div className="py-100 text-center">
+      <div className="pt-150 pb-100 text-center">
         <h3>Loading...</h3>
       </div>
     );
@@ -36,14 +36,14 @@ const BlogDetailPage = () => {
 
   if (!blog) {
     return (
-      <div className="py-100 text-center">
+      <div className="pt-150 pb-100 text-center">
         <h3>Blog not found</h3>
       </div>
     );
   }
 
   return (
-    <div className="blog-details-wrapper py-100">
+    <div className="blog-details-wrapper pt-150 pb-100">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">

@@ -2,12 +2,9 @@ import dbConnect from '../../../../lib/mongodb';
 import CaseStudy from '../../../../models/CaseStudy';
 import SubService from '../../../../models/SubService';
 import OurWorkSection from '../../../../components/service/ourWorkSection';
-import WhyChoose from '../../../../components/service/whyChoose';
-import HowWeWork from '../../../../components/service/howWeWork';
 import ServiceFAQSection from '../../../../components/service/faqSection';
 import AiCoreServicesGrid from '../../../../components/service/AiCoreServicesGrid';
 import HeroSection from '../../../../components/service/heroSectionNew';
-import StartageySection from '@/components/portfolio/startagySection';
 import ExecutionSection from '@/components/portfolio/executionSection';
 
 export const metadata = {
@@ -32,7 +29,7 @@ export default async function AiServicePage() {
     title: "AI Services That Drive Growth",
     description: "In today's fast-evolving digital ecosystem, differentiation is no longer optional, it is structural. Brands, from early-stage startups to large enterprises, are under constant pressure to produce more content, more media, and more experiences at scale. This is where PRAKRIA TECH steps in.\n\nWith over 20 years of creative and production experience, we integrate AI-powered content creation, AI video creation, and AI music generation into practical, scalable workflows. Our approach blends advanced AI models with human oversight to deliver reliable, brand-safe outputs that improve speed, efficiency, and consistency across creative production.\n\nOur AI services are designed to help businesses produce more without compromising quality, enabling faster go-to-market and better utilization of creative resources.",
     buttonText: "Enquire Now",
-    buttonLink: "#",
+    buttonLink: "/contact-us",
   };
 
   const workProps = {
@@ -51,22 +48,22 @@ export default async function AiServicePage() {
     description: "Choosing the right AI service provider determines whether AI becomes a growth enabler or an operational risk. At PRAKRIA TECH, we do not treat AI as a standalone toolset; we design AI-powered creative systems aligned to business objectives.",
     list: [
       {
-        src: "/icon/service/proven-expertise.png",
+        src: "/icon/service/cursor.png",
         title: "Proven Expertise",
         description: "With decades of experience in creative production, we understand where AI adds value, and where human judgment remains critical.",
       },
       {
-        src: "/icon/service/end-to-end.png",
+        src: "/icon/service/phone.png",
         title: "End-to-End Services",
         description: "From AI content creation to AI video production and AI-generated music, our solutions cover the full creative pipeline.",
       },
       {
-        src: "/icon/service/consultative.png",
+        src: "/icon/service/lightning.png",
         title: "Consultative Approach",
         description: "We operate as strategic partners, helping clients decide how and where to deploy AI effectively, not just executing outputs.",
       },
       {
-        src: "/icon/service/focus-roi.png",
+        src: "/icon/service/star.png",
         title: "Focus on ROI",
         description: "Every AI implementation is evaluated against efficiency gains, cost reduction, and output quality; nothing is deployed without measurable benefit.",
       },
@@ -78,26 +75,15 @@ export default async function AiServicePage() {
     description: "Explore our cutting-edge AI-powered services designed to revolutionize your creative production and business growth.",
   };
 
-  const howWorkProps = {
-    title: "How We Work",
-    description: "Our structured approach ensures that AI is integrated seamlessly into your existing creative workflows.",
-    list: [
-      { count: "01", title: "Discovery", description: "We analyze your creative needs and identify the best AI models for your specific requirements." },
-      { count: "02", title: "Strategy", description: "Developing a tailored AI adoption roadmap aligned with your brand's voice and goals." },
-      { count: "03", title: "Implementation", description: "Executing AI-powered production workflows with rigorous human oversight." },
-      { count: "04", title: "Optimization", description: "Continuously refining models and workflows to improve output quality and efficiency." },
-    ],
-  };
-
   const benefitProps = {
     title: "Benefits of Partnering with PRAKRIA",
     description: "When you work with PRAKRIA TECH, you are not just outsourcing AI execution, you are building sustainable creative infrastructure.",
     list: [
-      { src: "/icon/service/benefit-1.png", title: "Faster production cycles across content, video, and audio" },
-      { src: "/icon/service/benefit-2.png", title: "Reduced operational and creative costs" },
-      { src: "/icon/service/benefit-3.png", title: "Consistent brand output at scale" },
-      { src: "/icon/service/benefit-4.png", title: "Improved speed-to-market" },
-      { src: "/icon/service/benefit-5.png", title: "Controlled and responsible AI adoption" },
+      { src: "/icon/service/cursor.png", title: "Faster production cycles across content, video, and audio" },
+      { src: "/icon/service/star.png", title: "Reduced operational and creative costs" },
+      { src: "/icon/service/phone.png", title: "Consistent brand output at scale" },
+      { src: "/icon/service/lightning.png", title: "Improved speed-to-market" },
+      { src: "/icon/service/users.png", title: "Controlled and responsible AI adoption" },
     ],
   };
 
@@ -126,7 +112,8 @@ export default async function AiServicePage() {
 
   return (
     <div className="bg-black text-white min-h-screen font-sans antialiased">
-      <div className="space-y-[48px] container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+      <div className="space-y-[48px] container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
+        <video src='/assets/video/production_.mp4' autoPlay loop muted className='w-full h-full object-cover' />
         <HeroSection {...heroProps} />
         <OurWorkSection {...workProps} />
         <ExecutionSection {...whyProps} />

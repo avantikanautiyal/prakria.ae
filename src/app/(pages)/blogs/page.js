@@ -24,7 +24,10 @@ const BlogsPage = () => {
   }, []);
 
   return (
-    <div className="blogs-page-wrapper py-100">
+
+
+
+    <div className="blogs-page-wrapper pt-150 pb-100">
       <div className="container">
         <div className="row mb-60">
           <div className="col-lg-12">

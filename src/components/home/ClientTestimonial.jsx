@@ -46,8 +46,8 @@ const Home1Testimonial = ({ style }) => {
         disableOnInteraction: true,
       },
       navigation: {
-        nextEl: ".case-study-slider-next",
-        prevEl: ".case-study-slider-prev",
+        nextEl: ".testi-slider-next",
+        prevEl: ".testi-slider-prev",
       },
 
       breakpoints: {
@@ -133,25 +133,35 @@ const Home1Testimonial = ({ style }) => {
             >
               <div className="tetimonial-slider-wrapper">
                 {testimonials.length > 0 && (
-                  <Swiper
-                    {...settings}
-                    className="swiper home1-testimonial-slider"
-                  >
-                    <div className="swiper-wrapper">
-                      {testimonials.map((testimonial, index) => (
-                        <SwiperSlide key={index} className="swiper-slide">
-                          <div className="testimonial-card3 style-2 flex gap-3 flex-col">
-                            <FaQuoteLeft />
-                            <p>{testimonial?.message}</p>
-                            <div className="testimonial-meta">
-                              <h5>{testimonial?.name}</h5>
-                              <span>{testimonial?.position}</span>
+                  <div className="position-relative">
+                    <Swiper
+                      {...settings}
+                      className="swiper home1-testimonial-slider"
+                    >
+                      <div className="swiper-wrapper">
+                        {testimonials.map((testimonial, index) => (
+                          <SwiperSlide key={index} className="swiper-slide">
+                            <div className="testimonial-card3 style-2 flex gap-3 flex-col">
+                              <FaQuoteLeft />
+                              <p>{testimonial?.message}</p>
+                              <div className="testimonial-meta">
+                                <h5>{testimonial?.name}</h5>
+                                <span>{testimonial?.position}</span>
+                              </div>
                             </div>
-                          </div>
-                        </SwiperSlide>
-                      ))}
+                          </SwiperSlide>
+                        ))}
+                      </div>
+                    </Swiper>
+                    <div className="slider-btn-grp d-flex justify-content-between w-100 position-absolute top-[90%] translate-middle-y z-10 px-3" style={{ pointerEvents: 'none', left: 0 }}>
+                      <div className="slider-btn testi-slider-prev position-absolute right-[60px]" style={{ pointerEvents: 'auto' }}>
+                        <i className="bi bi-arrow-left" />
+                      </div>
+                      <div className="slider-btn testi-slider-next position-absolute right-[20px]" style={{ pointerEvents: 'auto' }}>
+                        <i className="bi bi-arrow-right" />
+                      </div>
                     </div>
-                  </Swiper>
+                  </div>
                 )}
               </div>
             </div>

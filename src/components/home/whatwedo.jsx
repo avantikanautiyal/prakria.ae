@@ -1,17 +1,44 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { Half2Icon } from "@radix-ui/react-icons";
 
 function Whatwedo({ content }) {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const ref = useRef(null);
-  const variants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
-    exit: { opacity: 0 },
-  };
+  const [services, setServices] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  // Default fallback services as requested to be in an array
+  const defaultServices = [
+    { name: "DIGITAL MARKETING", image: "/images/digital_marketing.jpg", slug: "digital-marketing" },
+    { name: "PACKAGING DESIGN", image: "/images/packaging.jpg", slug: "packaging-design" },
+    { name: "BRANDING", image: "/images/branding.jpg", slug: "branding" },
+    { name: "PRINT MEDIA", image: "/images/print_media.jpg", slug: "print-media" },
+    { name: "3D & CGI", image: "/images/3d_cgi.jpg", slug: "3d-cgi" },
+    { name: "AR, VR & GAME TECH", image: "/images/ar_vr.jpg", slug: "ar-vr-game-tech" },
+    { name: "FILMS, ANIMATION & VFX", image: "/images/film_animation.jpg", slug: "films-animation-vfx" },
+    { name: "ILLUSTRATION", image: "/images/illustration.jpg", slug: "illustration" },
+    { name: "WEB DEVELOPMENT", image: "/images/web_dev.jpg", slug: "web-development" },
+  ];
+
+  useEffect(() => {
+    const fetchServices = async () => {
+      try {
+        const res = await fetch("/api/services");
+        const json = await res.json();
+        if (json.success && json.data && json.data.length > 0) {
+          setServices(json.data);
+        } else {
+          setServices(defaultServices);
+        }
+      } catch (error) {
+        console.error("Error fetching services:", error);
+        setServices(defaultServices);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchServices();
+  }, []);
+
   return (
     <div
       className="home4-banner-section"
@@ -26,219 +53,55 @@ function Whatwedo({ content }) {
           What we Do
         </h2>
         <div className="row g-4">
-          <div
-            className="col-lg-4 col-md-6 wow animate fadeInDown"
-            data-wow-delay="400ms"
-            data-wow-duration="1500ms"
-            style={{
-              visibility: "visible",
-              animationDuration: "1500ms",
-              animationDelay: "400ms",
-            }}
-          >
-            <Link href="/digital-marketing">
-              <div className="about-feature-card two">
-                <div className="icon d-flex justify-content-center">
-                  <img
-                    className="rounded-sm"
-                    src="/images/digital_marketing.jpg"
-                    alt=""
-                  />
+          {services.map((service, index) => (
+            <div
+              key={service._id || index}
+              className="col-lg-4 col-md-6 wow animate fadeInDown"
+              data-wow-delay={`${200 + (index % 3) * 100}ms`}
+              data-wow-duration="1500ms"
+              style={{
+                visibility: "visible",
+                animationDuration: "1500ms",
+                animationDelay: `${200 + (index % 3) * 100}ms`,
+              }}
+            >
+              <Link href={`/services${service.slug}`}>
+                <div className="about-feature-card two">
+                  <div className="icon d-flex justify-content-center">
+                    <img
+                      className="rounded-sm w-full h-48 object-cover"
+                      src={service.image || "/images/default_service.jpg"}
+                      alt={service.name}
+                    />
+                  </div>
+                  <div className="content">
+                    <h4 className="uppercase">{service.name}</h4>
+                  </div>
                 </div>
-                <div className="content">
-                  <h4>DIGITAL MARKETING</h4>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div
-            className="col-lg-4 col-md-6 wow animate fadeInDown"
-            data-wow-delay="400ms"
-            data-wow-duration="1500ms"
-            style={{
-              visibility: "visible",
-              animationDuration: "1500ms",
-              animationDelay: "400ms",
-            }}
-          >
-            <Link href="/packaging-design">
-              <div className="about-feature-card two">
-                <div className="icon d-flex justify-content-center">
-                  <img
-                    className="rounded-sm"
-                    src="/images/packaging.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="content">
-                  <h4>PACKAGING DESIGN</h4>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div
-            className="col-lg-4 col-md-6 wow animate fadeInDown"
-            data-wow-delay="400ms"
-            data-wow-duration="1500ms"
-            style={{
-              visibility: "visible",
-              animationDuration: "1500ms",
-              animationDelay: "400ms",
-            }}
-          >
-            <Link href="/branding">
-              <div className="about-feature-card two">
-                <div className="icon d-flex justify-content-center">
-                  <img
-                    className="rounded-sm"
-                    src="/images/branding.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="content">
-                  <h4>BRANDING</h4>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div
-            className="col-lg-4 col-md-6 wow animate fadeInDown"
-            data-wow-delay="400ms"
-            data-wow-duration="1500ms"
-            style={{
-              visibility: "visible",
-              animationDuration: "1500ms",
-              animationDelay: "400ms",
-            }}
-          >
-            <Link href="/print-media">
-              <div className="about-feature-card two">
-                <div className="icon d-flex justify-content-center">
-                  <img
-                    className="rounded-sm"
-                    src="/images/print_media.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="content">
-                  <h4>PRINT MEDIA</h4>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div
-            className="col-lg-4 col-md-6 wow animate fadeInDown"
-            data-wow-delay="400ms"
-            data-wow-duration="1500ms"
-            style={{
-              visibility: "visible",
-              animationDuration: "1500ms",
-              animationDelay: "400ms",
-            }}
-          >
-            <Link href="/3d-cgi">
-            <div className="about-feature-card two">
-              <div className="icon d-flex justify-content-center">
-                <img className="rounded-sm" src="/images/3d_cgi.jpg" alt="" />
-              </div>
-              <div className="content">
-                <h4>3D & CGI</h4>
-              </div>
+              </Link>
             </div>
-            </Link>
-          </div>
+          ))}
           <div
             className="col-lg-4 col-md-6 wow animate fadeInDown"
-            data-wow-delay="400ms"
+            data-wow-delay={`${200 + (9 % 3) * 100}ms`}
             data-wow-duration="1500ms"
             style={{
               visibility: "visible",
               animationDuration: "1500ms",
-              animationDelay: "400ms",
+              animationDelay: `${200 + (9 % 3) * 100}ms`,
             }}
           >
-            <Link href="/ar-vr-game-tech">
-              <div className="about-feature-card two">
-                <div className="icon d-flex justify-content-center">
-                  <img className="rounded-sm" src="/images/ar_vr.jpg" alt="" />
-                </div>
-                <div className="content">
-                  <h4>AR, VR & GAME TECH</h4>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div
-            className="col-lg-4 col-md-6 wow animate fadeInDown"
-            data-wow-delay="400ms"
-            data-wow-duration="1500ms"
-            style={{
-              visibility: "visible",
-              animationDuration: "1500ms",
-              animationDelay: "400ms",
-            }}
-          >
-            <Link href="/films-animation-vfx">
+            <Link href={"/ai"}>
               <div className="about-feature-card two">
                 <div className="icon d-flex justify-content-center">
                   <img
-                    className="rounded-sm"
-                    src="/images/film_animation.jpg"
-                    alt=""
+                    className="rounded-sm w-full h-48 object-cover"
+                    src={"/images/ai.jpg"}
+                    alt={"AI"}
                   />
                 </div>
                 <div className="content">
-                  <h4>FILMS, ANIMATION & VFX</h4>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div
-            className="col-lg-4 col-md-6 wow animate fadeInDown"
-            data-wow-delay="400ms"
-            data-wow-duration="1500ms"
-            style={{
-              visibility: "visible",
-              animationDuration: "1500ms",
-              animationDelay: "400ms",
-            }}
-          >
-            <Link href="/illustration">
-              <div className="about-feature-card two">
-                <div className="icon d-flex justify-content-center">
-                  <img
-                    className="rounded-sm"
-                    src="/images/illustration.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="content">
-                  <h4>ILLUSTRATION</h4>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div
-            className="col-lg-4 col-md-6 wow animate fadeInDown"
-            data-wow-delay="400ms"
-            data-wow-duration="1500ms"
-            style={{
-              visibility: "visible",
-              animationDuration: "1500ms",
-              animationDelay: "400ms",
-            }}
-          >
-            <Link href="/web-development">
-              <div className="about-feature-card two">
-                <div className="icon d-flex justify-content-center">
-                  <img
-                    className="rounded-sm"
-                    src="/images/web_dev.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="content">
-                  <h4>WEB DEVELOPMENT</h4>
+                  <h4 className="uppercase">AI</h4>
                 </div>
               </div>
             </Link>
