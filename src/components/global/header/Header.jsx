@@ -188,7 +188,7 @@ const Header1 = () => {
                       {dbServices.length > 0 ? (
                         dbServices.map((service, subIndex) => (
                           <li key={subIndex} onClick={toggleRightSidebar}>
-                            <Link legacyBehavior href={`/services${service.slug}`}>
+                            <Link legacyBehavior href={`/services${service.slug?.startsWith("/") ? service.slug : `/${service.slug}`}`}>
                               <a>{service.name}</a>
                             </Link>
                           </li>

@@ -10,13 +10,15 @@ function HeroSection(props) {
       <p className="mx-auto max-w-4xl text-sm md:text-sm sm:text-sm text-gray-300 mb-10 leading-relaxed">
         {props?.description}
       </p>
-      <div className="flex justify-center items-center ">
-        <Link href={props?.buttonLink}>
-        <button className="bg-[#363636] text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-600 transition-colors duration-300 shadow-lg">
-            {props?.buttonText}
-        </button>
-        </Link>
-      </div>
+      {props?.buttonLink && (
+        <div className="flex justify-center items-center ">
+          <Link href={props?.buttonLink}>
+            <button className="bg-[#363636] text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-600 transition-colors duration-300 shadow-lg">
+              {props?.buttonText}
+            </button>
+          </Link>
+        </div>
+      )}
     </section>
   );
 }

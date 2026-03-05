@@ -57,10 +57,14 @@ const Footer2 = () => {
 
                 // If it's the Service section, use DB services if available
                 if (section.title === "Service" && dbServices.length > 0) {
-                  sectionLinks = dbServices.map(s => ({
-                    label: s.name,
-                    link: `/services${s.slug}`
-                  }));
+                  sectionLinks = dbServices.map(s => {
+                    const slug = s.slug || "";
+                    const formattedSlug = slug.startsWith("/") ? slug : `/${slug}`;
+                    return {
+                      label: s.name,
+                      link: `/services${formattedSlug}`
+                    };
+                  });
                   // also add AI if it's not in the list
                   if (!dbServices.find(s => s.slug === "ai" || s.name.toLowerCase() === "ai")) {
                     sectionLinks.push({ label: "AI", link: "/ai" });
