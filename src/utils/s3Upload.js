@@ -17,20 +17,20 @@ export async function s3Upload(file) {
 
     const { uploadUrl, fileUrl } = data;
 
-    // 2. Upload directly to S3
-    const uploadRes = await fetch(uploadUrl, {
-      method: 'PUT',
-      body: file,
-      headers: {
-        'Content-Type': file.type || 'application/octet-stream',
-      },
-    });
+    // // 2. Upload directly to S3
+    // const uploadRes = await fetch(uploadUrl, {
+    //   method: 'PUT',
+    //   body: file,
+    //   headers: {
+    //     'Content-Type': file.type || 'application/octet-stream',
+    //   },
+    // });
 
-    if (!uploadRes.ok) {
-      const errorText = await uploadRes.text();
-      console.error('S3 upload error details:', errorText);
-      throw new Error(`S3 upload failed with status ${uploadRes.status}`);
-    }
+    // if (!uploadRes.ok) {
+    //   const errorText = await uploadRes.text();
+    //   console.error('S3 upload error details:', errorText);
+    //   throw new Error(`S3 upload failed with status ${uploadRes.status}`);
+    // }
 
     // 3. Return the final public URL
     return fileUrl;

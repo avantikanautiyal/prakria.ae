@@ -56,6 +56,7 @@ export default function SubServiceForm() {
       reset(data.data);
       return data.data;
     },
+    refetchOnWindowFocus: false,
     enabled: isEdit,
   });
 

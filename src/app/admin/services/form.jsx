@@ -53,6 +53,7 @@ export default function ServiceForm() {
       reset(data.data);
       return data.data;
     },
+    refetchOnWindowFocus: false,
     enabled: isEdit,
   });
 
@@ -94,6 +95,7 @@ export default function ServiceForm() {
 
     try {
       const url = await s3Upload(file);
+      console.log(url, "urlurlurl");
       setValue(path, url);
       toast.success('File uploaded');
     } catch (err) {
@@ -250,9 +252,9 @@ export default function ServiceForm() {
                     <div className="w-48 h-48 flex-shrink-0 bg-black rounded-lg overflow-hidden border border-zinc-800 relative group/media">
                       {formData.workSection?.list?.[index]?.url ? (
                         formData.workSection.list[index].mediaType === 'video' ? (
-                          <video src={formData.workSection.list[index].url} className="w-full h-full object-cover" />
+                          <video src={formData.workSection.list[index].url} className="w-full h-full object-cover" autoPlay muted loop playsInline />
                         ) : (
-                          <img src={formData.workSection.list[index].url} className="w-full h-full object-cover" />
+                            <img src={formData.workSection.list[index].url} className="w-full h-full object-cover" alt="Preview" />
                         )
                       ) : (
                         <div className="w-full h-full flex items-center justify-center text-zinc-700 text-xs">No Media</div>

@@ -27,6 +27,7 @@ export default function BlogForm() {
       image: '',
       category: '',
       slug: '',
+      video: '',
     }
   });
 
@@ -49,6 +50,7 @@ export default function BlogForm() {
       reset(data.data);
       return data.data;
     },
+    refetchOnWindowFocus: false,
     enabled: isEdit,
   });
 
@@ -95,7 +97,20 @@ export default function BlogForm() {
     try {
       const url = await s3Upload(file);
       setValue(type, url);
-      toast.success(`${type.charAt(0).toUpperCase() + type.slice(1)} uploaded successfully`);
+
+      // Auto-detect and set correct field for main media
+      if (type === 'image' || type === 'video') {
+        const isVideo = file.type.startsWith('video/') || file.name.endsWith('.mp4') || file.name.endsWith('.webm') || file.name.endsWith('.mov');
+        if (isVideo) {
+          setValue('video', url);
+          setValue('image', '');
+        } else {
+          setValue('image', url);
+          setValue('video', '');
+        }
+      }
+
+      toast.success('Media uploaded successfully');
     } catch (error) {
       toast.error('Failed to upload file: ' + error.message);
     } finally {
@@ -154,18 +169,25 @@ export default function BlogForm() {
             />
           </div>
           <div>
-            <label className="block text-zinc-400 mb-2">Main Image</label>
+            <label className="block text-zinc-400 mb-2">Media (Image/GIF/Video)</label>
             <div className="space-y-2">
               <input
                 type="file"
-                accept="image/*"
                 className="w-full p-2 bg-zinc-900 border border-zinc-800 rounded text-white"
                 onChange={(e) => handleFileUpload(e, 'image')}
               />
-              {uploading.image && <p className="text-sm text-yellow-500">Uploading...</p>}
-              {formData.image && (
-                <img src={formData.image} alt="Preview" className="h-20 w-32 object-cover rounded border border-zinc-800" />
-              )}
+              {uploading.image || uploading.video ? <p className="text-sm text-yellow-500">Uploading...</p> : null}
+              {formData.video ? (
+                <div className="relative border border-zinc-800 rounded overflow-hidden">
+                  <video src={formData.video} className="h-40 w-full object-cover" autoPlay muted loop playsInline />
+                  <button type="button" onClick={() => setValue('video', '')} className="absolute top-1 right-1 bg-red-600 rounded-full w-5 h-5 flex items-center justify-center text-xs">×</button>
+                </div>
+              ) : formData.image ? (
+                <div className="relative border border-zinc-800 rounded overflow-hidden">
+                  <img src={formData.image} alt="Preview" className="h-40 w-full object-cover" />
+                  <button type="button" onClick={() => setValue('image', '')} className="absolute top-1 right-1 bg-red-600 rounded-full w-5 h-5 flex items-center justify-center text-xs">×</button>
+                </div>
+              ) : null}
             </div>
           </div>
         </div>

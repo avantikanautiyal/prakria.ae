@@ -53,6 +53,7 @@ export default function CaseStudyForm() {
       reset(data.data);
       return data.data;
     },
+    refetchOnWindowFocus: false,
     enabled: isEdit,
   });
 
@@ -164,8 +165,12 @@ export default function CaseStudyForm() {
                   <label className="label text-xs">File</label>
                   <input type="file" onChange={(e) => handleUpload(e.target.files[0], `herosection.list.${index}.src`)} className="input w-full text-xs" />
                   {formData.herosection?.list?.[index]?.src && (
-                    <div className="mt-2 h-10 overflow-hidden">
-                      <span className="text-[10px] truncate block">{formData.herosection.list[index].src}</span>
+                    <div className="mt-2 h-20 rounded border border-zinc-800 overflow-hidden bg-black">
+                      {formData.herosection.list[index].type === 'video' ? (
+                        <video src={formData.herosection.list[index].src} className="w-full h-full object-cover" autoPlay muted loop playsInline />
+                      ) : (
+                        <img src={formData.herosection.list[index].src} className="w-full h-full object-cover" alt="Preview" />
+                      )}
                     </div>
                   )}
                 </div>
@@ -284,7 +289,15 @@ export default function CaseStudyForm() {
                 <div className="col-span-3">
                   <label className="label text-xs">Icon/Image</label>
                   <input type="file" onChange={(e) => handleUpload(e.target.files[0], `executionSection.list.${index}.src`)} className="input w-full text-xs" />
-                  {formData.executionSection?.list?.[index]?.src && <img src={formData.executionSection.list[index].src} className="h-10 mt-2" />}
+                  {formData.executionSection?.list?.[index]?.src && (
+                    <div className="mt-2 h-16 rounded border border-zinc-800 overflow-hidden bg-black">
+                      {formData.executionSection.list[index].src.toLowerCase().endsWith('.mp4') || formData.executionSection.list[index].src.toLowerCase().endsWith('.webm') ? (
+                        <video src={formData.executionSection.list[index].src} className="w-full h-full object-cover" autoPlay muted loop playsInline />
+                      ) : (
+                        <img src={formData.executionSection.list[index].src} className="w-full h-full object-cover" alt="Preview" />
+                      )}
+                    </div>
+                  )}
                 </div>
                 <div className="col-span-9 space-y-2">
                   <div className="grid grid-cols-2 gap-2">
@@ -343,7 +356,15 @@ export default function CaseStudyForm() {
                 <div className="col-span-3">
                   <label className="label text-xs">Icon</label>
                   <input type="file" onChange={(e) => handleUpload(e.target.files[0], `whySection.list.${index}.src`)} className="input w-full text-xs" />
-                  {formData.whySection?.list?.[index]?.src && <img src={formData.whySection.list[index].src} className="h-10 mt-2" />}
+                  {formData.whySection?.list?.[index]?.src && (
+                    <div className="mt-2 h-16 rounded border border-zinc-800 overflow-hidden bg-black">
+                      {formData.whySection.list[index].src.toLowerCase().endsWith('.mp4') || formData.whySection.list[index].src.toLowerCase().endsWith('.webm') ? (
+                        <video src={formData.whySection.list[index].src} className="w-full h-full object-cover" autoPlay muted loop playsInline />
+                      ) : (
+                        <img src={formData.whySection.list[index].src} className="w-full h-full object-cover" alt="Preview" />
+                      )}
+                    </div>
+                  )}
                 </div>
                 <div className="col-span-9 space-y-2">
                   <input {...register(`whySection.list.${index}.alt`)} className="input w-full" placeholder="Alt text" />

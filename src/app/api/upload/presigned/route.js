@@ -19,12 +19,14 @@ export async function POST(req) {
     const presignedUrl = await generatePresignedUrl(uniqueFileName, contentType);
     
     // Construct the final public URL
-    const fileUrl = `https://${process.env.S3_BUCKET_NAME}.s3.${process.env.REGION}.amazonaws.com/${uniqueFileName}`;
+    const region = process.env.REGION || 'us-east-1';
+    const fileUrl = `https://${process.env.S3_BUCKET_NAME}.s3.${region}.amazonaws.com/${uniqueFileName}`;
 
     return NextResponse.json({ 
       success: true, 
-      uploadUrl: presignedUrl,
-      fileUrl: fileUrl 
+      fileName: uniqueFileName,
+      fileUrl,
+      uploadUrl: presignedUrl 
     });
   } catch (error) {
     console.error("Presigned API Error:", error);

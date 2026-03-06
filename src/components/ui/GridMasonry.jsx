@@ -46,7 +46,7 @@ function GridMasonry({ random = true, data = [], fill = true }) {
 
     setList(items);
     // setList(li.map((l) => Math.floor(Math.random() * 3) + 1));
-  }, []);
+  }, [data, random]);
 
   return (
     <div className=" pb-4  rounded-lg grid gap-3 grid-cols-12 grid-flow-row-dense ">

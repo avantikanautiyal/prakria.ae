@@ -21,6 +21,7 @@ export default function TestimonialForm() {
       position: '',
       message: '',
       image: '',
+      video: '',
       rating: 5,
     }
   });
@@ -38,6 +39,7 @@ export default function TestimonialForm() {
       reset(data.data);
       return data.data;
     },
+    refetchOnWindowFocus: false,
     enabled: isEdit,
   });
 
@@ -82,7 +84,20 @@ export default function TestimonialForm() {
     try {
       const url = await s3Upload(file);
       setValue(path, url);
-      toast.success('Image uploaded');
+
+      // Auto-detect and set correct field if it's the main media
+      if (path === 'image' || path === 'video') {
+        const isVideo = file.type.startsWith('video/') || file.name.endsWith('.mp4') || file.name.endsWith('.webm') || file.name.endsWith('.mov');
+        if (isVideo) {
+          setValue('video', url);
+          setValue('image', ''); // Clear image if it's a video
+        } else {
+          setValue('image', url);
+          setValue('video', ''); // Clear video if it's an image
+        }
+      }
+
+      toast.success('Media uploaded successfully');
     } catch (err) {
       toast.error('Upload failed: ' + err.message);
     } finally {
@@ -123,28 +138,25 @@ export default function TestimonialForm() {
         </div>
         <div className="grid grid-cols-2 gap-6">
           <div>
-            <label className="block text-zinc-400 mb-2">Rating (1-5)</label>
-            <input
-              type="number"
-              min="1"
-              max="5"
-              {...register('rating', { valueAsNumber: true })}
-              className="w-full p-2 bg-zinc-900 border border-zinc-800 rounded text-white"
-            />
-          </div>
-          <div>
-            <label className="block text-zinc-400 mb-2">Image</label>
+            <label className="block text-zinc-400 mb-2">Media (Image/GIF/Video)</label>
             <div className="space-y-2">
               <input
                 type="file"
-                accept="image/*"
                 className="w-full p-2 bg-zinc-900 border border-zinc-800 rounded text-white"
                 onChange={(e) => handleUpload(e.target.files[0], 'image')}
               />
-              {uploading.image && <p className="text-sm text-yellow-500">Uploading...</p>}
-              {formData.image && (
-                <img src={formData.image} alt="Preview" className="h-20 w-32 object-cover rounded border border-zinc-800" />
-              )}
+              {uploading.image || uploading.video ? <p className="text-sm text-yellow-500">Uploading...</p> : null}
+              {formData.video ? (
+                <div className="relative border border-zinc-800 rounded overflow-hidden">
+                  <video src={formData.video} className="h-40 w-full object-cover" autoPlay muted loop playsInline />
+                  <button type="button" onClick={() => setValue('video', '')} className="absolute top-1 right-1 bg-red-600 rounded-full w-5 h-5 flex items-center justify-center text-xs">×</button>
+                </div>
+              ) : formData.image ? (
+                <div className="relative border border-zinc-800 rounded overflow-hidden">
+                  <img src={formData.image} alt="Preview" className="h-40 w-full object-cover" />
+                  <button type="button" onClick={() => setValue('image', '')} className="absolute top-1 right-1 bg-red-600 rounded-full w-5 h-5 flex items-center justify-center text-xs">×</button>
+                </div>
+              ) : null}
             </div>
           </div>
         </div>
