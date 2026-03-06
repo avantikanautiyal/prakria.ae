@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { toast } from 'react-toastify';
 import { useForm, useFieldArray, useWatch } from 'react-hook-form';
@@ -44,18 +44,24 @@ export default function ServiceForm() {
   const [uploading, setUploading] = useState({});
 
   // Fetch Data
-  const { isLoading } = useQuery({
+  const { data, isLoading } = useQuery({
     queryKey: ['service', params.id],
     queryFn: async () => {
       const res = await fetch(`/api/services/${params.id}`);
       const data = await res.json();
       if (!data.success) throw new Error('Failed to fetch');
-      reset(data.data);
       return data.data;
     },
-    // refetchOnWindowFocus: false,
+    refetchOnWindowFocus: false,
     enabled: isEdit,
   });
+
+  // Initialize form with fetched data
+  useEffect(() => {
+    if (data && !isDirty) {
+      reset(data);
+    }
+  }, [data, reset, isDirty]);
 
   const { clearStorage } = useFormAutoSave({
     key: `service-${params.id || 'new'}`,
@@ -95,33 +101,12 @@ export default function ServiceForm() {
 
     try {
       const url = await s3Upload(file);
-      console.log(url, "urlurlurl");
       setValue(path, url);
       toast.success('File uploaded');
     } catch (err) {
       toast.error('Upload failed: ' + err.message);
     } finally {
       setUploading(prev => ({ ...prev, [path]: false }));
-    }
-  };
-
-  const handleWorkImageUpload = async (file) => {
-    if (!file) return;
-    setUploading(prev => ({ ...prev, 'workSection.list': true }));
-    const fd = new FormData();
-    fd.append('file', file);
-
-    try {
-      const res = await fetch('/api/upload', { method: 'POST', body: fd });
-      const data = await res.json();
-      if (data.success) {
-        appendWork({ url: data.url, mediaType: 'image', alt: '', slug: '', title: '', description: '' });
-        toast.success('Media added to portfolio');
-      } else throw new Error(data.error);
-    } catch (err) {
-      toast.error('Upload failed');
-    } finally {
-      setUploading(prev => ({ ...prev, 'workSection.list': false }));
     }
   };
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { toast } from 'react-toastify';
 import { useForm, useFieldArray, useWatch } from 'react-hook-form';
@@ -47,18 +47,24 @@ export default function SubServiceForm() {
   const [uploading, setUploading] = useState({});
 
   // Fetch Data
-  const { isLoading } = useQuery({
+  const { data, isLoading } = useQuery({
     queryKey: ['sub-service', params.id],
     queryFn: async () => {
       const res = await fetch(`/api/sub-services/${params.id}`);
       const data = await res.json();
       if (!data.success) throw new Error('Failed to fetch');
-      reset(data.data);
       return data.data;
     },
-    // refetchOnWindowFocus: false,
+    refetchOnWindowFocus: false,
     enabled: isEdit,
   });
+
+  // Initialize form with fetched data
+  useEffect(() => {
+    if (data && !isDirty) {
+      reset(data);
+    }
+  }, [data, reset, isDirty]);
 
   const { clearStorage } = useFormAutoSave({
     key: `sub-service-${params.id || 'new'}`,

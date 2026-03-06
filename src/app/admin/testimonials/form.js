@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { toast } from 'react-toastify';
 import { useForm, useWatch } from 'react-hook-form';
@@ -30,18 +30,24 @@ export default function TestimonialForm() {
   const [uploading, setUploading] = useState({ image: false });
 
   // Fetch Testimonial Data
-  const { isLoading: isLoadingTestimonial } = useQuery({
+  const { data, isLoading: isLoadingTestimonial } = useQuery({
     queryKey: ['testimonial', params.id],
     queryFn: async () => {
       const res = await fetch(`/api/testimonials/${params.id}`);
       const data = await res.json();
-      if (!data.success) throw new Error('Failed to fetch testimonial');
-      reset(data.data);
+      if (!data.success) throw new Error('Failed to fetch');
       return data.data;
     },
-    // refetchOnWindowFocus: false,
+    refetchOnWindowFocus: false,
     enabled: isEdit,
   });
+
+  // Initialize form with fetched data
+  useEffect(() => {
+    if (data && !isDirty) {
+      reset(data);
+    }
+  }, [data, reset, isDirty]);
 
   const { clearStorage } = useFormAutoSave({
     key: `testimonial-${params.id || 'new'}`,

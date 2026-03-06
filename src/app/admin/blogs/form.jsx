@@ -31,6 +31,7 @@ export default function BlogForm() {
     }
   });
 
+
   const formData = useWatch({ control });
   const [uploading, setUploading] = useState({ image: false });
 
@@ -41,18 +42,24 @@ export default function BlogForm() {
   }), []);
 
   // Fetch Blog Data
-  const { isLoading: isLoadingBlog } = useQuery({
+  const { data, isLoading: isLoadingBlog } = useQuery({
     queryKey: ['blog', params.id],
     queryFn: async () => {
       const res = await fetch(`/api/blogs/${params.id}`);
       const data = await res.json();
       if (!data.success) throw new Error('Failed to fetch blog');
-      reset(data.data);
       return data.data;
     },
-    // refetchOnWindowFocus: false,
+    refetchOnWindowFocus: false,
     enabled: isEdit,
   });
+
+  // Initialize form with fetched data
+  useEffect(() => {
+    if (data && !isDirty) {
+      reset(data);
+    }
+  }, [data, reset, isDirty]);
 
   const { clearStorage } = useFormAutoSave({
     key: `blog-${params.id || 'new'}`,
