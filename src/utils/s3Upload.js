@@ -22,11 +22,15 @@ export async function s3Upload(file) {
       method: 'PUT',
       body: file,
       headers: {
-        'Content-Type': file.type,
+        'Content-Type': file.type || 'application/octet-stream',
       },
     });
 
-    if (!uploadRes.ok) throw new Error('S3 upload failed');
+    if (!uploadRes.ok) {
+      const errorText = await uploadRes.text();
+      console.error('S3 upload error details:', errorText);
+      throw new Error(`S3 upload failed with status ${uploadRes.status}`);
+    }
 
     // 3. Return the final public URL
     return fileUrl;

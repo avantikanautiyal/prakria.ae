@@ -3,9 +3,10 @@
 import { useState } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { toast } from 'react-toastify';
-import { useForm, useFieldArray } from 'react-hook-form';
+import { useForm, useFieldArray, useWatch } from 'react-hook-form';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { s3Upload } from '@/utils/s3Upload';
+import { useFormAutoSave, useNavigationGuard } from '@/hooks/useFormAutoSave';
 
 
 export default function ServiceForm() {
@@ -14,7 +15,7 @@ export default function ServiceForm() {
   const queryClient = useQueryClient();
   const isEdit = !!params.id;
 
-  const { register, control, handleSubmit, setValue, watch, reset } = useForm({
+  const { register, control, handleSubmit, setValue, watch, reset, formState: { isDirty } } = useForm({
     defaultValues: {
       name: '',
       slug: '',
@@ -39,7 +40,7 @@ export default function ServiceForm() {
   const { fields: faqItems, append: appendFaq, remove: removeFaq } = useFieldArray({ control, name: 'faqSection.list' });
   const { fields: workItems, append: appendWork, remove: removeWork } = useFieldArray({ control, name: 'workSection.list' });
 
-  const formData = watch();
+  const formData = useWatch({ control });
   const [uploading, setUploading] = useState({});
 
   // Fetch Data
@@ -54,6 +55,15 @@ export default function ServiceForm() {
     },
     enabled: isEdit,
   });
+
+  const { clearStorage } = useFormAutoSave({
+    key: `service-${params.id || 'new'}`,
+    watchValues: formData,
+    reset,
+    enabled: !isLoading
+  });
+
+  useNavigationGuard(isDirty);
 
   // Save Mutation
   const saveMutation = useMutation({
@@ -70,6 +80,7 @@ export default function ServiceForm() {
       return result;
     },
     onSuccess: () => {
+      clearStorage();
       toast.success('Service saved successfully');
       queryClient.invalidateQueries(['services']);
       router.push('/admin/services');

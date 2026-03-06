@@ -1,11 +1,12 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { toast } from 'react-toastify';
-import { useForm } from 'react-hook-form';
+import { useForm, useWatch } from 'react-hook-form';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { s3Upload } from '@/utils/s3Upload';
+import { useFormAutoSave, useNavigationGuard } from '@/hooks/useFormAutoSave';
 
 
 export default function TestimonialForm() {
@@ -14,7 +15,7 @@ export default function TestimonialForm() {
   const queryClient = useQueryClient();
   const isEdit = !!params.id;
 
-  const { register, handleSubmit, setValue, watch, reset, formState: { errors } } = useForm({
+  const { register, control, handleSubmit, setValue, watch, reset, formState: { errors, isDirty } } = useForm({
     defaultValues: {
       name: '',
       position: '',
@@ -24,7 +25,7 @@ export default function TestimonialForm() {
     }
   });
 
-  const formData = watch();
+  const formData = useWatch({ control });
   const [uploading, setUploading] = useState({ image: false });
 
   // Fetch Testimonial Data
@@ -39,6 +40,15 @@ export default function TestimonialForm() {
     },
     enabled: isEdit,
   });
+
+  const { clearStorage } = useFormAutoSave({
+    key: `testimonial-${params.id || 'new'}`,
+    watchValues: formData,
+    reset,
+    enabled: !isLoadingTestimonial
+  });
+
+  useNavigationGuard(isDirty);
 
   // Mutation for Create/Update
   const testimonialMutation = useMutation({
@@ -55,6 +65,7 @@ export default function TestimonialForm() {
       return result;
     },
     onSuccess: () => {
+      clearStorage();
       toast.success(`Testimonial ${isEdit ? 'updated' : 'created'} successfully`);
       queryClient.invalidateQueries(['testimonials']);
       router.push('/admin/testimonials');

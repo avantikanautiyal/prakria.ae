@@ -12,7 +12,10 @@ export async function POST(req) {
       );
     }
 
-    const uniqueFileName = `${Date.now()}-${fileName.replace(/\s+/g, "-")}`;
+    const timestamp = Date.now();
+    const sanitizedFileName = fileName.replace(/\s+/g, "-").replace(/[^a-zA-Z0-9.\-_]/g, "");
+    const uniqueFileName = `${timestamp}-${sanitizedFileName}`;
+
     const presignedUrl = await generatePresignedUrl(uniqueFileName, contentType);
     
     // Construct the final public URL

@@ -3,9 +3,10 @@
 import { useState } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { toast } from 'react-toastify';
-import { useForm, useFieldArray } from 'react-hook-form';
+import { useForm, useFieldArray, useWatch } from 'react-hook-form';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { s3Upload } from '@/utils/s3Upload';
+import { useFormAutoSave, useNavigationGuard } from '@/hooks/useFormAutoSave';
 
 
 export default function SubServiceForm() {
@@ -14,7 +15,7 @@ export default function SubServiceForm() {
   const queryClient = useQueryClient();
   const isEdit = !!params.id;
 
-  const { register, control, handleSubmit, setValue, watch, reset, formState: { errors } } = useForm({
+  const { register, control, handleSubmit, setValue, watch, reset, formState: { errors, isDirty } } = useForm({
     defaultValues: {
       name: '',
       slug: '',
@@ -42,7 +43,7 @@ export default function SubServiceForm() {
   const { fields: useCaseItems, append: appendUseCase, remove: removeUseCase } = useFieldArray({ control, name: 'useCasesSection.list' });
   const { fields: relatedItems, append: appendRelated, remove: removeRelated } = useFieldArray({ control, name: 'relatedServicesSection.list' });
 
-  const formData = watch();
+  const formData = useWatch({ control });
   const [uploading, setUploading] = useState({});
 
   // Fetch Data
@@ -57,6 +58,15 @@ export default function SubServiceForm() {
     },
     enabled: isEdit,
   });
+
+  const { clearStorage } = useFormAutoSave({
+    key: `sub-service-${params.id || 'new'}`,
+    watchValues: formData,
+    reset,
+    enabled: !isLoading
+  });
+
+  useNavigationGuard(isDirty);
 
   // Save Mutation
   const saveMutation = useMutation({
@@ -73,6 +83,7 @@ export default function SubServiceForm() {
       return result;
     },
     onSuccess: () => {
+      clearStorage();
       toast.success('Sub-service saved successfully');
       queryClient.invalidateQueries(['sub-services']);
       router.push('/admin/sub-services');
