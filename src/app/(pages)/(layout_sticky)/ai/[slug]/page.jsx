@@ -36,73 +36,91 @@ export default async function SubServicePage({ params }) {
 
   return (
     <main className="bg-black min-h-screen text-white overflow-hidden pb-20">
-      {/* 1. Hero Section */}
-      <SubServiceHero 
-        subtitle={subService.category || "AI Creative Production"}
-        title={subService.herosection?.title || subService.name}
-        description={subService.herosection?.description}
-        buttonText={subService.herosection?.buttonText}
-        buttonLink="/contact-us"
-      />
+      {/* 1. Hero Section - Usually required */}
+      {(subService.herosection?.title || subService.name) && (
+        <SubServiceHero
+          subtitle={subService.category || "AI Creative Production"}
+          title={subService.herosection?.title || subService.name}
+          description={subService.herosection?.description}
+          buttonText={subService.herosection?.buttonText}
+          buttonLink="/contact-us"
+        />
+      )}
 
       {/* 2. Intro Section */}
-      <SubServiceIntro 
-        title={subService.introSection?.title}
-        description={subService.introSection?.description}
-      />
+      {(subService.introSection?.title || subService.introSection?.description) && (
+        <SubServiceIntro
+          title={subService.introSection?.title}
+          description={subService.introSection?.description}
+        />
+      )}
 
       {/* 3. Services Grid */}
-      <SubServiceListGrid 
-        title={subService.servicesSection?.title}
-        subtitle={subService.servicesSection?.subtitle}
-        list={subService.servicesSection?.list}
-        conclusionLine={subService.servicesSection?.conclusionLine}
-      />
+      {(subService.servicesSection?.title || subService.servicesSection?.list?.length > 0) && (
+        <SubServiceListGrid
+          title={subService.servicesSection?.title}
+          subtitle={subService.servicesSection?.subtitle}
+          list={subService.servicesSection?.list}
+          conclusionLine={subService.servicesSection?.conclusionLine}
+        />
+      )}
 
       {/* 4. Why Choose / Numbered Cards */}
-      <SubServiceNumberedCards 
-        title={subService.whyChooseSection?.title}
-        description={subService.whyChooseSection?.description}
-        list={subService.whyChooseSection?.list}
-        conclusionLine={subService.whyChooseSection?.conclusionLine}
-      />
+      {(subService.whyChooseSection?.title || subService.whyChooseSection?.list?.length > 0) && (
+        <SubServiceNumberedCards
+          title={subService.whyChooseSection?.title}
+          description={subService.whyChooseSection?.description}
+          list={subService.whyChooseSection?.list}
+          conclusionLine={subService.whyChooseSection?.conclusionLine}
+        />
+      )}
 
       {/* 5. Expertise Section (Using ListGrid for consistency) */}
-      <SubServiceListGrid 
-        title={subService.expertiseSection?.title}
-        list={subService.expertiseSection?.list}
-        conclusionLine={subService.expertiseSection?.conclusionLine}
-      />
+      {(subService.expertiseSection?.title || subService.expertiseSection?.list?.length > 0) && (
+        <SubServiceListGrid
+          title={subService.expertiseSection?.title}
+          list={subService.expertiseSection?.list}
+          conclusionLine={subService.expertiseSection?.conclusionLine}
+        />
+      )}
 
       {/* 6. Platforms Section */}
-      <SubServicePlatforms 
-        title={subService.platformsSection?.title}
-        description={subService.platformsSection?.description}
-        list={subService.platformsSection?.list}
-        conclusionLine={subService.platformsSection?.conclusionLine}
-      />
+      {(subService.platformsSection?.title || subService.platformsSection?.list?.length > 0) && (
+        <SubServicePlatforms
+          title={subService.platformsSection?.title}
+          description={subService.platformsSection?.description}
+          list={subService.platformsSection?.list}
+          conclusionLine={subService.platformsSection?.conclusionLine}
+        />
+      )}
 
       {/* 7. Differentiators (Using ListGrid) */}
-      <SubServiceListGrid 
-        title={subService.differentiatorsSection?.title}
-        list={subService.differentiatorsSection?.list}
-        conclusionLine={subService.differentiatorsSection?.conclusionLine}
-      />
+      {(subService.differentiatorsSection?.title || subService.differentiatorsSection?.list?.length > 0) && (
+        <SubServiceListGrid
+          title={subService.differentiatorsSection?.title}
+          list={subService.differentiatorsSection?.list}
+          conclusionLine={subService.differentiatorsSection?.conclusionLine}
+        />
+      )}
 
       {/* 8. Use Cases Grid */}
-      <SubServiceUseCases 
-        title={subService.useCasesSection?.title}
-        description={subService.useCasesSection?.description}
-        list={subService.useCasesSection?.list}
-        conclusionLine={subService.useCasesSection?.conclusionLine}
-      />
+      {(subService.useCasesSection?.title || subService.useCasesSection?.list?.length > 0) && (
+        <SubServiceUseCases
+          title={subService.useCasesSection?.title}
+          description={subService.useCasesSection?.description}
+          list={subService.useCasesSection?.list}
+          conclusionLine={subService.useCasesSection?.conclusionLine}
+        />
+      )}
 
       {/* 9. Related Services */}
-      <SubServiceRelated 
-        title={subService.relatedServicesSection?.title}
-        list={subService.relatedServicesSection?.list}
-        conclusionLine={subService.relatedServicesSection?.conclusionLine}
-      />
+      {(subService.relatedServicesSection?.title || subService.relatedServicesSection?.list?.length > 0) && (
+        <SubServiceRelated
+          title={subService.relatedServicesSection?.title}
+          list={subService.relatedServicesSection?.list}
+          conclusionLine={subService.relatedServicesSection?.conclusionLine}
+        />
+      )}
     </main>
   );
 }
