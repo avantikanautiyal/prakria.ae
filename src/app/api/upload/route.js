@@ -11,7 +11,8 @@ export async function POST(req) {
     }
 
     const buffer = Buffer.from(await file.arrayBuffer());
-    const fileName = `${Date.now()}-${file.name.replace(/\s+/g, "-")}`;
+    const sanitizedFileName = file.name.replace(/\s+/g, "-").replace(/[^a-zA-Z0-9.\-_]/g, "");
+    const fileName = `${Date.now()}-${sanitizedFileName}`;
     const contentType = file.type;
 
     const fileUrl = await uploadToS3(buffer, fileName, contentType);

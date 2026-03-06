@@ -53,7 +53,7 @@ export default function ServiceForm() {
       reset(data.data);
       return data.data;
     },
-    refetchOnWindowFocus: false,
+    // refetchOnWindowFocus: false,
     enabled: isEdit,
   });
 

@@ -50,7 +50,7 @@ export default function BlogForm() {
       reset(data.data);
       return data.data;
     },
-    refetchOnWindowFocus: false,
+    // refetchOnWindowFocus: false,
     enabled: isEdit,
   });
 

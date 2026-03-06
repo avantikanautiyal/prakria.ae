@@ -39,7 +39,7 @@ export default function TestimonialForm() {
       reset(data.data);
       return data.data;
     },
-    refetchOnWindowFocus: false,
+    // refetchOnWindowFocus: false,
     enabled: isEdit,
   });
 

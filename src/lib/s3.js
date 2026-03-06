@@ -16,21 +16,11 @@ export async function uploadToS3(file, fileName, contentType) {
     Key: fileName,
     Body: file,
     ContentType: contentType,
-    ACL: 'public-read', // Ensure public accessibility if allowed
   };
 
   try {
     const command = new PutObjectCommand(params);
-    await s3Client.send(command).catch(async (e) => {
-      // Fallback if ACL is not supported by the bucket
-      if (e.name === 'AccessControlListNotSupported' || e.message.includes('ACL')) {
-        console.warn('ACL not supported, trying without ACL');
-        delete params.ACL;
-        const fallbackCommand = new PutObjectCommand(params);
-        return await s3Client.send(fallbackCommand);
-      }
-      throw e;
-    });
+    await s3Client.send(command);
     return `https://${process.env.S3_BUCKET_NAME}.s3.${region}.amazonaws.com/${fileName}`;
   } catch (error) {
     console.error("S3 Upload Error:", error);
@@ -43,7 +33,6 @@ export async function generatePresignedUrl(fileName, contentType) {
     Bucket: process.env.S3_BUCKET_NAME,
     Key: fileName,
     ContentType: contentType,
-    ACL: 'public-read', // Request public access for pre-signed upload
   };
 
   try {
@@ -51,12 +40,8 @@ export async function generatePresignedUrl(fileName, contentType) {
     const url = await getSignedUrl(s3Client, command, { expiresIn: 3600 });
     return url;
   } catch (error) {
-    // If ACL causes issues here, try without it
-    console.warn("Retrying presigned URL without ACL");
-    delete params.ACL;
-    const command = new PutObjectCommand(params);
-    const url = await getSignedUrl(s3Client, command, { expiresIn: 3600 });
-    return url;
+    console.error("Presigned URL generation error:", error);
+    throw error;
   }
 }
 
