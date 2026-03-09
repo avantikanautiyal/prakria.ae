@@ -1,45 +1,48 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
+import React from "react";
+import dbConnect from "@/lib/mongodb";
+import Blog from "@/models/Blog";
+import { notFound } from "next/navigation";
 
-const BlogDetailPage = () => {
-  const { slug } = useParams();
-  const [blog, setBlog] = useState(null);
-  const [loading, setLoading] = useState(true);
+// Fetch blog data by slug
+async function getBlog(slug) {
+  console.log(slug, "slugslug")
+  await dbConnect();
+  const blog = await Blog.findOne({ _id: slug }).lean();
+  if (!blog) return null;
+  // Convert _id to string to avoid serialization issues
+  return JSON.parse(JSON.stringify(blog));
+}
 
-  useEffect(() => {
-    const fetchBlog = async () => {
-      try {
-        const res = await fetch(`/api/blogs/${slug}`);
-        const json = await res.json();
-        if (json.success) {
-          setBlog(json.data);
-        }
-      } catch (error) {
-        console.error("Error fetching blog:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    if (slug) {
-      fetchBlog();
-    }
-  }, [slug]);
-
-  if (loading) {
-    return (
-      <div className="pt-150 pb-100 text-center">
-        <h3>Loading...</h3>
-      </div>
-    );
-  }
+// Generate SEO metadata
+export async function generateMetadata({ params }) {
+  const blog = await getBlog(params.slug);
 
   if (!blog) {
-    return (
-      <div className="pt-150 pb-100 text-center">
-        <h3>Blog not found</h3>
-      </div>
-    );
+    return {
+      title: "Blog Not Found",
+    };
+  }
+
+  return {
+    title: blog.metaTitle || blog.title,
+    description: blog.metaDescription || "Read our latest blog post.",
+    keywords: blog.metaKeywords ? blog.metaKeywords.split(',') : [],
+    openGraph: {
+      title: blog.metaTitle || blog.title,
+      description: blog.metaDescription || "Read our latest blog post.",
+      images: [blog.image || "/images/default.jpg"],
+      type: "article",
+      authors: [blog.author],
+    },
+  };
+}
+
+export default async function BlogDetailPage({ params }) {
+  console.log(params.slug, "Adfdsf")
+  const blog = await getBlog(params.slug);
+
+  if (!blog) {
+    notFound();
   }
 
   return (
@@ -60,10 +63,10 @@ const BlogDetailPage = () => {
                 <img src={blog.image || "/images/default.jpg"} alt={blog.title} className="img-fluid rounded w-100" />
               </div>
               <div className="content" dangerouslySetInnerHTML={{ __html: blog.content }} />
-              
+
               {blog.video && (
                 <div className="video-wrapper mt-5">
-                   <iframe
+                  <iframe
                     width="100%"
                     height="500"
                     src={blog.video}
@@ -80,6 +83,4 @@ const BlogDetailPage = () => {
       </div>
     </div>
   );
-};
-
-export default BlogDetailPage;
+}

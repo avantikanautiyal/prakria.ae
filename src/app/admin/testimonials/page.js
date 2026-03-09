@@ -61,7 +61,6 @@ export default function TestimonialList() {
         <table className="w-full text-left border-collapse">
           <thead>
             <tr className="border-b border-zinc-800">
-              <th className="py-4 px-2">Name</th>
               <th className="py-4 px-2">Position</th>
               <th className="py-4 px-2">Rating</th>
               <th className="py-4 px-2">Actions</th>
@@ -70,7 +69,6 @@ export default function TestimonialList() {
           <tbody>
             {testimonials.map((t) => (
               <tr key={t._id} className="border-b border-zinc-800 hover:bg-zinc-900 transition-colors">
-                <td className="py-4 px-2">{t.name}</td>
                 <td className="py-4 px-2">{t.position}</td>
                 <td className="py-4 px-2">{t.rating}/5</td>
                 <td className="py-4 px-2 space-x-4">

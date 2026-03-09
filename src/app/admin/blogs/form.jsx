@@ -28,6 +28,9 @@ export default function BlogForm() {
       category: '',
       slug: '',
       video: '',
+      metaTitle: '',
+      metaDescription: '',
+      metaKeywords: '',
     }
   });
 
@@ -211,6 +214,38 @@ export default function BlogForm() {
             />
           </div>
           {errors.content && <p className="text-red-500 text-xs mt-1">{errors.content.message}</p>}
+        </div>
+
+        <div className="border-t border-zinc-800 pt-6 mt-6">
+          <h2 className="text-xl text-white mb-4">SEO Information</h2>
+          <div className="space-y-4">
+            <div>
+              <label className="block text-zinc-400 mb-2">Meta Title</label>
+              <input
+                type="text"
+                {...register('metaTitle')}
+                className="w-full p-2 bg-zinc-900 border border-zinc-800 rounded text-white"
+                placeholder="SEO Title (Optional)"
+              />
+            </div>
+            <div>
+              <label className="block text-zinc-400 mb-2">Meta Description</label>
+              <textarea
+                {...register('metaDescription')}
+                className="w-full p-2 bg-zinc-900 border border-zinc-800 rounded text-white min-h-[100px]"
+                placeholder="SEO Description (Optional)"
+              />
+            </div>
+            <div>
+              <label className="block text-zinc-400 mb-2">Meta Keywords</label>
+              <input
+                type="text"
+                {...register('metaKeywords')}
+                className="w-full p-2 bg-zinc-900 border border-zinc-800 rounded text-white"
+                placeholder="Comma separated keywords (Optional)"
+              />
+            </div>
+          </div>
         </div>
 
         <div className="flex gap-4">

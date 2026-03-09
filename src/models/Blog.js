@@ -28,6 +28,15 @@ const BlogSchema = new mongoose.Schema({
   video: {
     type: String,
   },
+  metaTitle: {
+    type: String,
+  },
+  metaDescription: {
+    type: String,
+  },
+  metaKeywords: {
+    type: String,
+  },
 }, {
   timestamps: true,
 });

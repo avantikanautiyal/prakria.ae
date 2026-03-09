@@ -145,7 +145,6 @@ const Home1Testimonial = ({ style }) => {
                               <FaQuoteLeft />
                               <p>{testimonial?.message}</p>
                               <div className="testimonial-meta">
-                                <h5>{testimonial?.name}</h5>
                                 <span>{testimonial?.position}</span>
                               </div>
                             </div>

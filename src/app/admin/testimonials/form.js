@@ -17,7 +17,6 @@ export default function TestimonialForm() {
 
   const { register, control, handleSubmit, setValue, watch, reset, formState: { errors, isDirty } } = useForm({
     defaultValues: {
-      name: '',
       position: '',
       message: '',
       image: '',
@@ -124,15 +123,6 @@ export default function TestimonialForm() {
       <h1 className="text-3xl font-bold mb-8">{isEdit ? 'Edit Testimonial' : 'Add New Testimonial'}</h1>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
         <div className="grid grid-cols-2 gap-6">
-          <div>
-            <label className="block text-zinc-400 mb-2">Name</label>
-            <input
-              type="text"
-              {...register('name', { required: 'Name is required' })}
-              className={`w-full p-2 bg-zinc-900 border ${errors.name ? 'border-red-500' : 'border-zinc-800'} rounded text-white`}
-            />
-            {errors.name && <p className="text-red-500 text-xs mt-1">{errors.name.message}</p>}
-          </div>
           <div>
             <label className="block text-zinc-400 mb-2">Position</label>
             <input
