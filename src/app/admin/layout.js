@@ -1,11 +1,37 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { toast } from 'react-toastify';
+import { useEffect, useState } from 'react';
 
 export default function AdminLayout({ children }) {
   const router = useRouter();
+  const pathname = usePathname();
+  const [isAuthorized, setIsAuthorized] = useState(false);
+
+  useEffect(() => {
+    if (pathname === '/admin/login') {
+      setIsAuthorized(true);
+      return;
+    }
+
+    const checkAuth = async () => {
+      try {
+        const res = await fetch('/api/auth/check');
+        const data = await res.json();
+        if (data.success) {
+          setIsAuthorized(true);
+        } else {
+          router.push('/admin/login');
+        }
+      } catch (error) {
+        router.push('/admin/login');
+      }
+    };
+
+    checkAuth();
+  }, [pathname, router]);
 
   const handleLogout = async () => {
     try {
@@ -20,6 +46,18 @@ export default function AdminLayout({ children }) {
       toast.error('Failed to logout');
     }
   };
+
+  if (!isAuthorized && pathname !== '/admin/login') {
+    return (
+      <div className="flex min-h-screen bg-black text-white items-center justify-center">
+        <div className="text-xl font-bold animate-pulse text-zinc-400">Loading...</div>
+      </div>
+    );
+  }
+
+  if (pathname === '/admin/login') {
+    return <>{children}</>;
+  }
 
   return (
     <div className="flex min-h-screen bg-black text-white">
