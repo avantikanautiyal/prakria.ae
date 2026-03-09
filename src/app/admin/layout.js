@@ -16,39 +16,19 @@ export default function AdminLayout({ children }) {
       return;
     }
 
-    const checkAuth = async () => {
-      try {
-        const res = await fetch('/api/auth/check', {
-          credentials: 'include',
-        });
-        const data = await res.json();
-        if (data.success) {
-          setIsAuthorized(true);
-        } else {
-          router.push('/admin/login');
-        }
-      } catch (error) {
-        router.push('/admin/login');
-      }
-    };
-
-    checkAuth();
+    // Check sessionStorage for login state
+    const loggedIn = sessionStorage.getItem('admin_logged_in');
+    if (loggedIn === 'true') {
+      setIsAuthorized(true);
+    } else {
+      router.push('/admin/login');
+    }
   }, [pathname, router]);
 
-  const handleLogout = async () => {
-    try {
-      const res = await fetch('/api/auth/logout', {
-        method: 'POST',
-        credentials: 'include',
-      });
-      const data = await res.json();
-      if (data.success) {
-        toast.success('Logged out successfully');
-        window.location.href = '/admin/login';
-      }
-    } catch (error) {
-      toast.error('Failed to logout');
-    }
+  const handleLogout = () => {
+    sessionStorage.removeItem('admin_logged_in');
+    toast.success('Logged out successfully');
+    window.location.href = '/admin/login';
   };
 
   if (!isAuthorized && pathname !== '/admin/login') {

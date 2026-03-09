@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/mongodb';
 import SubService from '@/models/SubService';
-import { getSession, unauthorizedResponse } from '@/lib/auth';
 
 export async function GET(req, { params }) {
   await dbConnect();
@@ -15,11 +14,6 @@ export async function GET(req, { params }) {
 }
 
 export async function PUT(req, { params }) {
-  const session = await getSession();
-  if (!session) {
-    return unauthorizedResponse();
-  }
-
   await dbConnect();
   try {
     const body = await req.json();
@@ -35,11 +29,6 @@ export async function PUT(req, { params }) {
 }
 
 export async function DELETE(req, { params }) {
-  const session = await getSession();
-  if (!session) {
-    return unauthorizedResponse();
-  }
-
   await dbConnect();
   try {
     const deleted = await SubService.deleteOne({ _id: params.id });

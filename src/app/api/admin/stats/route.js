@@ -6,14 +6,8 @@ import Inquiry from '@/models/Inquiry';
 import Service from '@/models/Service';
 import SubService from '@/models/SubService';
 import Testimonial from '@/models/Testimonial';
-import { getSession, unauthorizedResponse } from '@/lib/auth';
 
 export async function GET() {
-  const session = await getSession();
-  if (!session) {
-    return unauthorizedResponse();
-  }
-
   await dbConnect();
 
   try {

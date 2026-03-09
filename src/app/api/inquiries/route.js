@@ -1,14 +1,8 @@
 import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/mongodb';
 import Inquiry from '@/models/Inquiry';
-import { getSession, unauthorizedResponse } from '@/lib/auth';
 
 export async function GET(req) {
-  const session = await getSession();
-  if (!session) {
-    return unauthorizedResponse();
-  }
-
   await dbConnect();
   try {
     const inquiries = await Inquiry.find({}).sort({ createdAt: -1 });
@@ -31,11 +25,6 @@ export async function POST(req) {
 
 // PATCH to update status (e.g. mark as read)
 export async function PATCH(req) {
-  const session = await getSession();
-  if (!session) {
-    return unauthorizedResponse();
-  }
-
   await dbConnect();
   try {
     const { id, status } = await req.json();

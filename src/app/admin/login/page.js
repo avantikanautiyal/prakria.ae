@@ -17,7 +17,6 @@ export default function LoginPage() {
       const res = await fetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        credentials: 'include',
         body: JSON.stringify(credentials),
       });
       const data = await res.json();
@@ -27,8 +26,9 @@ export default function LoginPage() {
       return data;
     },
     onSuccess: () => {
+      // Store login state in sessionStorage
+      sessionStorage.setItem('admin_logged_in', 'true');
       toast.success('Logged in successfully');
-      // Use full page navigation to ensure the cookie is sent with the first request
       window.location.href = '/admin';
     },
     onError: (error) => {
