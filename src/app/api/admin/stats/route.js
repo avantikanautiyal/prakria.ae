@@ -6,12 +6,12 @@ import Inquiry from '@/models/Inquiry';
 import Service from '@/models/Service';
 import SubService from '@/models/SubService';
 import Testimonial from '@/models/Testimonial';
-import { cookies } from 'next/headers';
+import { getSession, unauthorizedResponse } from '@/lib/auth';
 
 export async function GET() {
-  const session = cookies().get('admin_session');
+  const session = await getSession();
   if (!session) {
-    return NextResponse.json({ success: false, message: "Unauthorized" }, { status: 401 });
+    return unauthorizedResponse();
   }
 
   await dbConnect();

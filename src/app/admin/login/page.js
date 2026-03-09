@@ -1,13 +1,10 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import { toast } from 'react-toastify';
 import { useForm } from 'react-hook-form';
 import { useMutation } from '@tanstack/react-query';
 
 export default function LoginPage() {
-  const router = useRouter();
-  
   const { register, handleSubmit, formState: { errors } } = useForm({
     defaultValues: {
       email: '',
@@ -20,6 +17,7 @@ export default function LoginPage() {
       const res = await fetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
         body: JSON.stringify(credentials),
       });
       const data = await res.json();
@@ -30,8 +28,8 @@ export default function LoginPage() {
     },
     onSuccess: () => {
       toast.success('Logged in successfully');
-      router.push('/admin');
-      router.refresh();
+      // Use full page navigation to ensure the cookie is sent with the first request
+      window.location.href = '/admin';
     },
     onError: (error) => {
       toast.error(error.message || 'Something went wrong. Please try again.');

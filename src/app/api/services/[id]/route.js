@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/mongodb';
 import Service from '@/models/Service';
-import { cookies } from 'next/headers';
+import { getSession, unauthorizedResponse } from '@/lib/auth';
 
 export async function GET(req, { params }) {
   await dbConnect();
@@ -15,9 +15,9 @@ export async function GET(req, { params }) {
 }
 
 export async function PUT(req, { params }) {
-  const session = cookies().get('admin_session');
+  const session = await getSession();
   if (!session) {
-    return NextResponse.json({ success: false, message: "Unauthorized" }, { status: 401 });
+    return unauthorizedResponse();
   }
 
   await dbConnect();
@@ -35,9 +35,9 @@ export async function PUT(req, { params }) {
 }
 
 export async function DELETE(req, { params }) {
-  const session = cookies().get('admin_session');
+  const session = await getSession();
   if (!session) {
-    return NextResponse.json({ success: false, message: "Unauthorized" }, { status: 401 });
+    return unauthorizedResponse();
   }
 
   await dbConnect();

@@ -20,10 +20,11 @@ export async function POST(req) {
     }
 
     // Set a simple session cookie
-    cookies().set('admin_session', user._id.toString(), {
+    const cookieStore = await cookies();
+    cookieStore.set('admin_session', user._id.toString(), {
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
-      sameSite: 'strict',
+      sameSite: 'lax',
       maxAge: 60 * 60 * 24, // 1 day
       path: '/',
     });

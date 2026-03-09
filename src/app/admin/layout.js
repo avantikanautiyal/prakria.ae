@@ -18,7 +18,9 @@ export default function AdminLayout({ children }) {
 
     const checkAuth = async () => {
       try {
-        const res = await fetch('/api/auth/check');
+        const res = await fetch('/api/auth/check', {
+          credentials: 'include',
+        });
         const data = await res.json();
         if (data.success) {
           setIsAuthorized(true);
@@ -35,12 +37,14 @@ export default function AdminLayout({ children }) {
 
   const handleLogout = async () => {
     try {
-      const res = await fetch('/api/auth/logout', { method: 'POST' });
+      const res = await fetch('/api/auth/logout', {
+        method: 'POST',
+        credentials: 'include',
+      });
       const data = await res.json();
       if (data.success) {
         toast.success('Logged out successfully');
-        router.push('/admin/login');
-        router.refresh();
+        window.location.href = '/admin/login';
       }
     } catch (error) {
       toast.error('Failed to logout');
