@@ -142,6 +142,7 @@ const Home1Testimonial = ({ style }) => {
                         {testimonials.map((testimonial, index) => (
                           <SwiperSlide key={index} className="swiper-slide">
                             <div className="testimonial-card3 style-2 flex gap-3 flex-col">
+                              <img src={testimonial?.image || "/Prakria-logo.png"} alt="client" className="w-12 h-12 rounded-full object-cover mb-2" />
                               <FaQuoteLeft />
                               <p>{testimonial?.message}</p>
                               <div className="testimonial-meta">

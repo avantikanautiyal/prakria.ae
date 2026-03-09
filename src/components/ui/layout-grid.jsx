@@ -52,7 +52,7 @@ const BlurImage = ({ card, open, onClick, className, onHover }) => {
         onClick={onClick}
       >
         <img
-          src={card.thumbnail}
+          src={card.thumbnail || "/Prakria-logo.png"}
           height="900"
           width="900"
           onLoad={() => setLoaded(true)}

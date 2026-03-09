@@ -58,7 +58,7 @@ function WhyChoose(props) {
               role="img"
               aria-label={feature.title}
             >
-              <img  src={feature.src} alt={feature.title}/>
+              <img src={feature.src || "/Prakria-logo.png"} alt={feature.title} />
               {/* {feature.icon} */}
             </span>
           </div>

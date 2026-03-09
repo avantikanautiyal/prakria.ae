@@ -52,7 +52,7 @@ const BlogsPage = () => {
                   <Link href={`/blogs/${blog._id}`}>
                     <div className="blog-card-img-wrap">
                       <div className="card-img">
-                        <img src={blog.image || "/images/default.jpg"} alt={blog.title} />
+                        <img src={blog.image || "/Prakria-logo.png"} alt={blog.title} />
                       </div>
                     </div>
                     <div className="card-content">

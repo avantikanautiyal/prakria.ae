@@ -30,7 +30,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: blog.metaTitle || blog.title,
       description: blog.metaDescription || "Read our latest blog post.",
-      images: [blog.image || "/images/default.jpg"],
+      images: [blog.image || "/Prakria-logo.png"],
       type: "article",
       authors: [blog.author],
     },
@@ -60,7 +60,7 @@ export default async function BlogDetailPage({ params }) {
               </div>
               <h1 className="mb-4">{blog.title}</h1>
               <div className="featured-image mb-5">
-                <img src={blog.image || "/images/default.jpg"} alt={blog.title} className="img-fluid rounded w-100" />
+                <img src={blog.image || "/Prakria-logo.png"} alt={blog.title} className="img-fluid rounded w-100" />
               </div>
               <div className="content" dangerouslySetInnerHTML={{ __html: blog.content }} />
 

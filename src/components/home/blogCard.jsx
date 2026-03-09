@@ -45,7 +45,7 @@ const Home1Blog = () => {
             {posts.map((post, index) => (
               <BlogCard
                 key={post._id}
-                src={post.image || "/images/default.jpg"}
+                src={post.image || "/Prakria-logo.png"}
                 title={post.title}
                 slug={post._id}
               />

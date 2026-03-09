@@ -37,7 +37,7 @@ function CoreService(props) {
                 : "text-gray-400 hover:bg-[#1A1A1A] hover:text-white"
                 }`}
             >
-              <img src={service.icon || `/icon/service/core-${index + 1}.png`} alt={service.name + " icon"} className="w-7 h-7 object-contain" />
+              <img src={service.icon || `/Prakria-logo.png`} alt={service.name + " icon"} className="w-7 h-7 object-contain" />
               <span className="font-medium">{service.name}</span>
             </button>
           ))}
