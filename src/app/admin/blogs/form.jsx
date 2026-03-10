@@ -31,6 +31,8 @@ export default function BlogForm() {
       metaTitle: '',
       metaDescription: '',
       metaKeywords: '',
+      isPublished: false,
+      postDate: '',
     }
   });
 
@@ -60,7 +62,12 @@ export default function BlogForm() {
   // Initialize form with fetched data
   useEffect(() => {
     if (data && !isDirty) {
-      reset(data);
+      const formattedData = {
+        ...data,
+        postDate: data.postDate ? new Date(data.postDate).toISOString().split('T')[0] : '',
+        isPublished: !!data.isPublished,
+      };
+      reset(formattedData);
     }
   }, [data, reset, isDirty]);
 
@@ -167,6 +174,26 @@ export default function BlogForm() {
               className={`w-full p-2 bg-zinc-900 border ${errors.slug ? 'border-red-500' : 'border-zinc-800'} rounded text-white`}
             />
             {errors.slug && <p className="text-red-500 text-xs mt-1">{errors.slug.message}</p>}
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 gap-6">
+          <div>
+            <label className="block text-zinc-400 mb-2">Post Date</label>
+            <input
+              type="date"
+              {...register('postDate')}
+              className="w-full p-2 bg-zinc-900 border border-zinc-800 rounded text-white"
+            />
+          </div>
+          <div className="flex items-center space-x-3 pt-8">
+            <input
+              type="checkbox"
+              id="isPublished"
+              {...register('isPublished')}
+              className="w-5 h-5 bg-zinc-900 border-zinc-800 rounded text-white"
+            />
+            <label htmlFor="isPublished" className="text-zinc-400 mb-0">Published</label>
           </div>
         </div>
         <div className="grid grid-cols-2 gap-6">

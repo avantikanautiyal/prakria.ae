@@ -6,7 +6,6 @@ import bcrypt from 'bcryptjs';
 export async function GET() {
   await dbConnect();
   try {
-    console.log("Connecting to MongoDB");
     const userCount = await User.countDocuments();
     if (userCount > 0) {
       return NextResponse.json({ message: "Admin user already exists" });

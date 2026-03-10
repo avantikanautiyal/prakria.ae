@@ -20,7 +20,6 @@ export async function generateMetadata({ params }) {
 
 function Page({ params }) {
   const { item } = params;
-  console.log("getPortfolioPathObject", item);
   const data = portfolio.getPortfolioPathObject(item);
   //  getPortfolioPathObject(item);
   // getPortfolioPathObject(item);

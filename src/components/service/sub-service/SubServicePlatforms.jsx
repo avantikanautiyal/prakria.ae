@@ -2,35 +2,32 @@ const SubServicePlatforms = ({ title, description, list, conclusionLine }) => {
   if (!list || list.length === 0) return null;
 
   return (
-    <section className="py-20 lg:py-32">
+    <section className="mb-20 sm:mb-32">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         {title && (
-          <div className="mb-16 lg:mb-24">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <div className="text-center mb-12 sm:mb-16 max-w-4xl mx-auto">
+            <h2 className="text-balance text-4xl md:text-4xl tracking-tight mb-6">
               {title}
             </h2>
             {description && (
-              <p className="text-zinc-400 text-lg max-w-3xl mx-auto">
+              <p className="mx-auto max-w-4xl text-sm md:text-sm sm:text-sm text-gray-300 mb-10 leading-relaxed">
                 {description}
               </p>
             )}
           </div>
         )}
 
-        <div className="relative flex flex-wrap justify-between items-center gap-10 lg:gap-0 lg:px-10">
-          {/* Connector Line */}
-          <div className="hidden lg:block absolute top-12 left-0 w-full h-[1px] border-t border-dashed border-zinc-800 z-0"></div>
-
+        <div className="relative flex flex-wrap justify-center items-center gap-12 lg:px-10 mt-12">
           {list.map((item, index) => (
-            <div key={index} className="relative z-10 flex flex-col items-center group w-1/2 md:w-1/3 lg:w-auto">
-              <div className="w-20 h-20 lg:w-24 lg:h-24 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-white mb-6 group-hover:border-zinc-500 group-hover:scale-110 transition-all duration-500 shadow-xl">
+            <div key={index} className="flex flex-col items-center group">
+              <div className="w-16 h-16 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-white mb-4 group-hover:border-zinc-500 transition-all duration-300">
                 {item.icon ? (
-                  <img src={item.icon} alt={item.title} className="w-10 h-10 object-contain grayscale group-hover:grayscale-0 transition-all" />
+                  <img src={item.icon} alt={item.title} className="w-8 h-8 object-contain grayscale group-hover:grayscale-0 transition-all" />
                 ) : (
-                  <div className="w-10 h-10 bg-zinc-800 rounded-full animate-pulse"></div>
+                    <div className="w-8 h-8 bg-zinc-800 rounded-full"></div>
                 )}
               </div>
-              <p className="text-zinc-400 text-sm font-bold group-hover:text-white transition-colors max-w-[120px]">
+              <p className="text-gray-400 text-xs font-semibold group-hover:text-white transition-colors uppercase tracking-wider">
                 {item.title}
               </p>
             </div>
@@ -38,9 +35,9 @@ const SubServicePlatforms = ({ title, description, list, conclusionLine }) => {
         </div>
 
         {conclusionLine && (
-          <p className="text-zinc-500 mt-20 max-w-4xl mx-auto text-sm italic">
-            {conclusionLine}
-          </p>
+          <div className="mt-16 text-center border-t border-gray-800 pt-8">
+            <p className="text-gray-400 text-lg italic">{conclusionLine}</p>
+          </div>
         )}
       </div>
     </section>

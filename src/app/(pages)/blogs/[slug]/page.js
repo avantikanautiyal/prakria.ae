@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 
 // Fetch blog data by slug
 async function getBlog(slug) {
-  console.log(slug, "slugslug")
   await dbConnect();
   const blog = await Blog.findOne({ _id: slug }).lean();
   if (!blog) return null;
@@ -38,7 +37,6 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function BlogDetailPage({ params }) {
-  console.log(params.slug, "Adfdsf")
   const blog = await getBlog(params.slug);
 
   if (!blog) {
@@ -56,7 +54,7 @@ export default async function BlogDetailPage({ params }) {
                 <span className="mx-2">|</span>
                 <span className="author">By {blog.author}</span>
                 <span className="mx-2">|</span>
-                <span className="date">{new Date(blog.createdAt).toLocaleDateString()}</span>
+                <span className="date">{new Date(blog.postDate || blog.createdAt).toLocaleDateString()}</span>
               </div>
               <h1 className="mb-4">{blog.title}</h1>
               <div className="featured-image mb-5">

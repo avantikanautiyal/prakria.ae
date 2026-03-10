@@ -4,10 +4,10 @@ const SubServiceRelated = ({ title, list, conclusionLine }) => {
   if (!list || list.length === 0) return null;
 
   return (
-    <section className="py-20 lg:py-32 border-t border-zinc-900">
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section className="mb-20 sm:mb-32 border-t border-zinc-900 pt-20">
+      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         {title && (
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-16 italic">
+          <h2 className="text-balance text-4xl md:text-4xl tracking-tight mb-12 sm:mb-16">
             {title}
           </h2>
         )}
@@ -16,13 +16,9 @@ const SubServiceRelated = ({ title, list, conclusionLine }) => {
           {list.map((item, index) => (
             <div 
               key={index} 
-              className={`p-10 rounded-2xl border transition-all duration-300 flex flex-col min-h-[400px] ${
-                index === 1 
-                  ? 'bg-white border-white text-black' 
-                  : 'bg-zinc-950 border-zinc-900 text-white hover:border-zinc-800'
-              }`}
+              className="p-10 rounded-xl border border-zinc-900 bg-zinc-950 hover:border-zinc-700 transition-all duration-300 flex flex-col text-left min-h-[350px]"
             >
-               <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-8 ${index === 1 ? 'bg-zinc-100' : 'bg-zinc-900'}`}>
+              <div className="w-12 h-12 rounded-lg bg-zinc-900 flex items-center justify-center mb-8">
                 {item.icon ? (
                   <img src={item.icon} alt={item.title} className="w-6 h-6 object-contain" />
                 ) : (
@@ -30,18 +26,18 @@ const SubServiceRelated = ({ title, list, conclusionLine }) => {
                 )}
               </div>
 
-              <h3 className="text-2xl font-bold mb-6 italic leading-tight uppercase">
+              <h3 className="text-2xl font-semibold mb-4 text-white">
                 {item.title}
               </h3>
               
-              <p className={`text-lg leading-relaxed mb-10 line-clamp-4 ${index === 1 ? 'text-zinc-600' : 'text-zinc-400'}`}>
+              <p className="text-sm text-gray-400 leading-relaxed mb-8 line-clamp-4">
                 {item.description}
               </p>
 
               <div className="mt-auto">
                 <Link 
                   href={item.buttonLink || "#"}
-                  className={`inline-flex items-center gap-2 group font-bold ${index === 1 ? 'text-black' : 'text-white'}`}
+                  className="inline-flex items-center gap-2 group font-bold text-white hover:text-gray-300 transition-colors"
                 >
                   {item.buttonText || 'Read more'}
                   <span className="group-hover:translate-x-1 transition-transform">→</span>
@@ -52,9 +48,9 @@ const SubServiceRelated = ({ title, list, conclusionLine }) => {
         </div>
 
         {conclusionLine && (
-          <p className="text-center text-zinc-500 max-w-5xl mx-auto font-medium italic">
-            {conclusionLine}
-          </p>
+          <div className="mt-16 text-center border-t border-gray-800 pt-8">
+            <p className="text-gray-400 text-lg italic">{conclusionLine}</p>
+          </div>
         )}
       </div>
     </section>

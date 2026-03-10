@@ -37,6 +37,13 @@ const BlogSchema = new mongoose.Schema({
   metaKeywords: {
     type: String,
   },
+  isPublished: {
+    type: Boolean,
+    default: false,
+  },
+  postDate: {
+    type: Date,
+  },
 }, {
   timestamps: true,
 });

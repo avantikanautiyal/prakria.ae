@@ -16,8 +16,10 @@ export const metadata = {
 async function getAiDynamicData() {
   await dbConnect();
   const caseStudies = await CaseStudy.find({
-    name: { $regex: /ai/i }
-  }).sort({ createdAt: -1 }).lean();
+    name: { $regex: /\bai\b/i }
+  })
+    .sort({ createdAt: -1 })
+    .lean();
   const subServices = await SubService.find({}).sort({ createdAt: -1 }).lean();
   return { caseStudies, subServices };
 }
@@ -110,10 +112,11 @@ export default async function AiServicePage() {
     ],
   };
 
+
   return (
     <div className="bg-black text-white min-h-screen font-sans antialiased">
       <div className="space-y-[48px] container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
-        <video src='/assets/video/production_.mp4' autoPlay loop muted className='w-full h-full object-cover' />
+        <video src='/assets/video/ai-video.mp4' autoPlay loop muted className='w-full h-full object-cover rounded-lg' />
         <HeroSection {...heroProps} />
         <OurWorkSection {...workProps} />
         <ExecutionSection {...whyProps} />

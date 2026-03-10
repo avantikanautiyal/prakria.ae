@@ -2,40 +2,36 @@ const SubServiceNumberedCards = ({ title, description, list, conclusionLine }) =
   if (!list || list.length === 0) return null;
 
   return (
-    <section className="py-20 lg:py-32 bg-zinc-950/30">
+    <section className="mb-20 sm:mb-32">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {title && (
-          <div className="text-center mb-16 lg:mb-24">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <div className="text-center mb-12 sm:mb-16 max-w-4xl mx-auto">
+            <h2 className="text-balance text-4xl md:text-4xl tracking-tight mb-6">
               {title}
             </h2>
             {description && (
-              <p className="text-zinc-400 text-lg max-w-4xl mx-auto leading-relaxed">
+              <p className="mx-auto max-w-4xl text-sm md:text-sm sm:text-sm text-gray-300 mb-10 leading-relaxed">
                 {description}
               </p>
             )}
           </div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {list.map((item, index) => (
             <div 
               key={index} 
-              className={`group p-8 border rounded-2xl transition-all duration-500 flex flex-col justify-between min-h-[300px] ${
-                index === 1 
-                  ? 'bg-white border-white text-black' 
-                  : 'bg-zinc-900 border-zinc-800 text-white hover:border-zinc-700'
-              }`}
+              className="group p-8 bg-zinc-900/50 border border-zinc-900 rounded-xl hover:border-zinc-700 transition-all duration-300 flex flex-col min-h-[250px]"
             >
-              <div>
-                <span className={`text-5xl lg:text-6xl font-bold block mb-8 ${index === 1 ? 'text-black/10' : 'text-white/5'}`}>
+              <div className="mb-6">
+                <span className="text-4xl font-bold text-zinc-800 group-hover:text-zinc-600 transition-colors">
                   {item.number || (index + 1).toString().padStart(2, '0')}
                 </span>
-                <h3 className="text-xl font-bold leading-tight mb-4">
+                <h3 className="text-xl font-semibold text-white mt-4">
                   {item.title}
                 </h3>
               </div>
-              <p className={`text-sm leading-relaxed ${index === 1 ? 'text-zinc-600' : 'text-zinc-400 font-medium'}`}>
+              <p className="text-sm text-gray-400 leading-relaxed mt-auto">
                 {item.description}
               </p>
             </div>
@@ -43,9 +39,9 @@ const SubServiceNumberedCards = ({ title, description, list, conclusionLine }) =
         </div>
 
         {conclusionLine && (
-          <p className="text-center text-zinc-500 mt-16 max-w-4xl mx-auto font-medium">
-            {conclusionLine}
-          </p>
+          <div className="mt-16 text-center border-t border-gray-800 pt-8">
+            <p className="text-gray-400 text-lg italic">{conclusionLine}</p>
+          </div>
         )}
       </div>
     </section>

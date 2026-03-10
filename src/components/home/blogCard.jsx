@@ -12,8 +12,9 @@ const Home1Blog = () => {
         const res = await fetch("/api/blogs");
         const json = await res.json();
         if (json.success) {
-          // Limit to 3 posts for the home page
-          setPosts(json.data.slice(0, 3));
+          // Filter to only show published posts and limit to 3 for the home page
+          const publishedPosts = json.data.filter(post => post.isPublished).slice(0, 3);
+          setPosts(publishedPosts);
         }
       } catch (error) {
         console.error("Error fetching posts:", error);

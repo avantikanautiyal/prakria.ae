@@ -5,14 +5,14 @@ import Link from "next/link";
 const BlogsPage = () => {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
         const res = await fetch("/api/blogs");
         const json = await res.json();
         if (json.success) {
-          setBlogs(json.data);
+          const publishedBlogs = json.data.filter(blog => blog.isPublished);
+          setBlogs(publishedBlogs);
         }
       } catch (error) {
         console.error("Error fetching blogs:", error);

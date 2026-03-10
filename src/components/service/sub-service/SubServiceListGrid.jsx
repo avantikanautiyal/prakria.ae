@@ -4,31 +4,28 @@ const SubServiceListGrid = ({ title, subtitle, list, conclusionLine }) => {
   if (!list || list.length === 0) return null;
 
   return (
-    <section className="py-20 lg:py-32">
+    <section className="mb-20 sm:mb-32">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {title && (
-          <div className="text-center mb-16 lg:mb-24">
-            <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
+          <div className="text-center mb-12 sm:mb-16 max-w-4xl mx-auto">
+            <h2 className="text-balance text-4xl md:text-4xl tracking-tight mb-6">
               {title}
             </h2>
             {subtitle && (
-              <p className="text-zinc-400 text-lg max-w-3xl mx-auto">
+              <p className="mx-auto max-w-4xl text-sm md:text-sm sm:text-sm text-gray-300 mb-10 leading-relaxed">
                 {subtitle}
               </p>
             )}
           </div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
           {list.map((item, index) => (
             <div 
               key={index} 
-              className="group p-6 bg-zinc-900/50 border border-zinc-900 rounded-xl hover:border-zinc-700 transition-all duration-300 flex items-center gap-4"
+              className={`flex flex-col items-center p-6 border-b-[0.1px] border-gray-800 ${((index + 1) % 3 !== 0) ? "md:border-r-[0.1px]" : ""} gap-4`}
             >
-              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-zinc-800 flex items-center justify-center text-zinc-400 group-hover:text-white transition-colors">
-                <HiCheck size={14} />
-              </div>
-              <span className="text-lg text-zinc-300 group-hover:text-white transition-colors">
+              <span className="text-base text-gray-400 leading-relaxed text-center">
                 {item.title}
               </span>
             </div>
@@ -36,9 +33,9 @@ const SubServiceListGrid = ({ title, subtitle, list, conclusionLine }) => {
         </div>
 
         {conclusionLine && (
-          <p className="text-center text-zinc-500 mt-16 max-w-3xl mx-auto italic">
-            {conclusionLine}
-          </p>
+          <div className="mt-16 text-center border-t border-gray-800 pt-8">
+            <p className="text-gray-400 text-lg italic">{conclusionLine}</p>
+          </div>
         )}
       </div>
     </section>
