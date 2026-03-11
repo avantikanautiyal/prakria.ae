@@ -1,6 +1,8 @@
 import React from "react";
 
 function ExecutionSection(props) {
+  if (!props?.title && (!props?.list || props.list.length === 0)) return null;
+
   return (
     <section className="bg-black text-white py-20 px-4 sm:px-8 font-sans">
       <div className="max-w-6xl mx-auto">

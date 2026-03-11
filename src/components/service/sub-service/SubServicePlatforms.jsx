@@ -20,9 +20,9 @@ const SubServicePlatforms = ({ title, description, list, conclusionLine }) => {
         <div className="relative flex flex-wrap justify-center items-center gap-12 lg:px-10 mt-12">
           {list.map((item, index) => (
             <div key={index} className="flex flex-col items-center group">
-              <div className="w-16 h-16 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-white mb-4 group-hover:border-zinc-500 transition-all duration-300">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center text-white mb-4 group-hover:border-zinc-500 transition-all duration-300">
                 {item.icon ? (
-                  <img src={item.icon} alt={item.title} className="w-8 h-8 object-contain grayscale group-hover:grayscale-0 transition-all" />
+                  <img src={item.icon} alt={item.title} className="w-12 h-12 object-contain grayscale group-hover:grayscale-0 transition-all" />
                 ) : (
                     <div className="w-8 h-8 bg-zinc-800 rounded-full"></div>
                 )}

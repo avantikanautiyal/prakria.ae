@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 
 function StorySection(props) {
+  if (!props?.title && (!props?.paragraphs || props.paragraphs.length === 0)) return null;
+
   return (
     <section className="relative py-16 md:py-24 overflow-hidden bg-[#1B1B1B]">
       {/* Water drop SVG curve effect at the top */}

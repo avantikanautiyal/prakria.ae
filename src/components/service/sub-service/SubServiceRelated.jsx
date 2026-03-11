@@ -18,9 +18,9 @@ const SubServiceRelated = ({ title, list, conclusionLine }) => {
               key={index} 
               className="p-10 rounded-xl border border-zinc-900 bg-zinc-950 hover:border-zinc-700 transition-all duration-300 flex flex-col text-left min-h-[350px]"
             >
-              <div className="w-12 h-12 rounded-lg bg-zinc-900 flex items-center justify-center mb-8">
+              <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-8">
                 {item.icon ? (
-                  <img src={item.icon} alt={item.title} className="w-6 h-6 object-contain" />
+                  <img src={item.icon} alt={item.title} className="w-10 h-10 object-contain" />
                 ) : (
                   <div className="w-6 h-6 bg-zinc-800 rounded-lg"></div>
                 )}

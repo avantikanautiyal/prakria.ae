@@ -1,6 +1,8 @@
 import React from "react";
 
 function HeroSectionPortfolio(props) {
+  if (!props?.title && (!props?.list || props.list.length === 0)) return null;
+
   return (
     <div className="container mx-auto p-4 md:p-8">
       <section>
@@ -40,6 +42,11 @@ function HeroSectionPortfolio(props) {
             )
           ))}
         </main>
+        {props?.conclusionLine && (
+          <div className="mt-16 text-center border-t border-gray-800 pt-8">
+            <p className="text-gray-400 text-lg italic">{props?.conclusionLine}</p>
+          </div>
+        )}
       </section>
     </div>
   );
