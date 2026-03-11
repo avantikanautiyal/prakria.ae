@@ -11,7 +11,8 @@ import SubServiceRelated from '@/components/service/sub-service/SubServiceRelate
 
 export async function generateMetadata({ params }) {
   await dbConnect();
-  const subService = await SubService.findOne({ slug: params.slug });
+  const subService = await SubService.findOne({ _id: params.slug });
+  console.log(subService, "subServicesubService")
 
   if (!subService) return {};
 
@@ -35,7 +36,7 @@ export default async function SubServicePage({ params }) {
   const subService = JSON.parse(JSON.stringify(data));
 
   return (
-    <main className="bg-black min-h-screen text-white overflow-hidden pb-20">
+    <main className="bg-black min-h-screen text-white overflow-hidden">
       {/* 1. Hero Section - Usually required */}
       {(subService.herosection?.title || subService.name) && (
         <SubServiceHero
@@ -44,6 +45,7 @@ export default async function SubServicePage({ params }) {
           description={subService.herosection?.description}
           buttonText={subService.herosection?.buttonText}
           buttonLink="/contact-us"
+          image={subService.herosection?.icon}
         />
       )}
 
@@ -81,6 +83,7 @@ export default async function SubServicePage({ params }) {
           title={subService.expertiseSection?.title}
           list={subService.expertiseSection?.list}
           conclusionLine={subService.expertiseSection?.conclusionLine}
+          showCheckmark={false}
         />
       )}
 
@@ -100,6 +103,7 @@ export default async function SubServicePage({ params }) {
           title={subService.differentiatorsSection?.title}
           list={subService.differentiatorsSection?.list}
           conclusionLine={subService.differentiatorsSection?.conclusionLine}
+          showCheckmark={false}
         />
       )}
 

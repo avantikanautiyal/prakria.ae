@@ -4,52 +4,56 @@ const SubServiceRelated = ({ title, list, conclusionLine }) => {
   if (!list || list.length === 0) return null;
 
   return (
-    <section className="mb-20 sm:mb-32 border-t border-zinc-900 pt-20">
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+    <section className="py-10 md:py-20 border-t border-zinc-900/50">
+      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {title && (
-          <h2 className="text-balance text-4xl md:text-4xl tracking-tight mb-12 sm:mb-16">
+          <h2 className="text-4xl md:text-4xl font-serif tracking-tight leading-tight mb-12 md:mb-16 text-white">
             {title}
           </h2>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-          {list.map((item, index) => (
-            <div 
-              key={index} 
-              className="p-10 rounded-xl border border-zinc-900 bg-zinc-950 hover:border-zinc-700 transition-all duration-300 flex flex-col text-left min-h-[350px]"
-            >
-              <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-8">
-                {item.icon ? (
-                  <img src={item.icon} alt={item.title} className="w-10 h-10 object-contain" />
-                ) : (
-                  <div className="w-6 h-6 bg-zinc-800 rounded-lg"></div>
-                )}
-              </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {list.map((item, index) => {
+            return (
+              <div
+                key={index} 
+                className="group p-10 rounded-xl transition-all duration-500 flex flex-col min-h-[400px] bg-zinc-900/40 border border-zinc-800/50 text-white hover:bg-white hover:text-black active:bg-white active:text-black hover:border-transparent active:border-transparent cursor-pointer hover:shadow-2xl hover:scale-[1.02]"
+              >
+                <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-10 bg-zinc-900 group-hover:bg-zinc-100 group-active:bg-zinc-100 transition-colors duration-500">
+                  {item.icon ? (
+                    <img src={item.icon} alt={item.title} className="w-8 h-8 md:w-10 md:h-10 object-contain" />
+                  ) : (
+                    <div className="w-8 h-8 bg-zinc-800 rounded-lg group-hover:bg-zinc-200 group-active:bg-zinc-200 transition-colors" />
+                  )}
+                </div>
 
-              <h3 className="text-2xl font-semibold mb-4 text-white">
-                {item.title}
-              </h3>
-              
-              <p className="text-sm text-gray-400 leading-relaxed mb-8 line-clamp-4">
-                {item.description}
-              </p>
+                <h3 className="text-2xl font-serif mb-6 leading-tight text-zinc-400 group-hover:text-zinc-600 group-active:text-zinc-600 transition-colors duration-500">
+                  {item.title}
+                </h3>
 
-              <div className="mt-auto">
-                <Link 
-                  href={item.buttonLink || "#"}
-                  className="inline-flex items-center gap-2 group font-bold text-white hover:text-gray-300 transition-colors"
-                >
-                  {item.buttonText || 'Read more'}
-                  <span className="group-hover:translate-x-1 transition-transform">→</span>
-                </Link>
+                <p className="text-base leading-relaxed mb-10 line-clamp-4 font-light text-zinc-400 group-hover:text-zinc-600 group-active:text-zinc-600 transition-colors duration-500">
+                  {item.description}
+                </p>
+
+                <div className="mt-auto">
+                  <Link
+                    href={item._id || "#"}
+                    className="inline-flex items-center gap-2 font-bold text-sm text-zinc-400 group-hover:text-zinc-600 group-active:text-zinc-600 transition-colors duration-500"
+                  >
+                    {item.buttonText || 'Read more'}
+                    <span className="group-hover:translate-x-1 transition-transform group-hover:text-black">→</span>
+                  </Link>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {conclusionLine && (
-          <div className="mt-16 text-center border-t border-gray-800 pt-8">
-            <p className="text-gray-400 text-lg italic">{conclusionLine}</p>
+          <div className="mt-20 text-center">
+            <p className="text-zinc-500 text-sm md:text-base max-w-5xl mx-auto font-light leading-relaxed italic">
+              {conclusionLine}
+            </p>
           </div>
         )}
       </div>

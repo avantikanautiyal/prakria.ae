@@ -1,38 +1,55 @@
 import Link from 'next/link';
-import { HiOutlineMicrophone } from 'react-icons/hi'; // Default icon, can be replaced by prop
+import { HiArrowLeft } from 'react-icons/hi';
 
-const SubServiceHero = ({ subtitle, title, description, buttonText, buttonLink, icon: Icon }) => {
+const SubServiceHero = ({ subtitle, title, description, buttonText, buttonLink, image }) => {
   return (
-    <section className="flex px-0 py-4 md:p-4 flex-col gap-4 text-center mb-20 sm:mb-32">
+    <section className="relative pt-12 md:pt-16 pb-8 md:pb-12 overflow-hidden mb-20 sm:mb-32">
+      {/* Background Gradient Effect */}
+      <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.05),transparent_50%)] pointer-events-none" />
+
       <div className="container relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
-          {/* Breadcrumbs / Subtitle */}
+        {/* Back Link */}
+        <Link
+          href="/ai"
+          className="inline-flex items-center gap-2 text-zinc-500 hover:text-white transition-colors text-xs mb-8 group"
+        >
+          <HiArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+          Back to Services
+        </Link>
+
+        <div className="max-w-5xl">
+          {/* Category / Subtitle */}
           {subtitle && (
-            <div className="text-zinc-500 uppercase tracking-widest text-xs font-bold mb-4">
+            <div className="text-zinc-500 uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-bold mb-6">
               {subtitle}
             </div>
           )}
 
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col md:flex-row items-start gap-8 md:gap-12">
+            {/* Icon Box */}
+            <div className="w-20 h-20 md:w-24 md:h-24 rounded-2xl flex items-center shrink-0">
+              {image ? (
+                <img src={image} alt="icon" className="w-16 h-16 md:w-20 md:h-20 text-white opacity-80 object-contain" />
+              ) : (
+                <div className="w-8 h-8 md:w-10 md:h-10 border-2 border-dashed border-zinc-700 rounded-full" />
+              )}
+            </div>
+
             {/* Content */}
             <div className="flex-1">
-              <h1 className="text-white text-4xl md:text-5xl tracking-tight mb-6">
+              <h1 className="text-white text-4xl md:text-4xl font-serif tracking-tight leading-tight mb-6">
                 {title}
               </h1>
-              <p className="mx-auto max-w-4xl text-sm md:text-base text-gray-300 mb-10 leading-relaxed">
+              <p className="max-w-3xl text-sm md:text-sm text-zinc-400 mb-8 leading-relaxed font-light">
                 {description}
               </p>
-              
-              {buttonText && (
-                <div className="flex justify-center items-center">
-                  <Link
-                    href={buttonLink || "#"}
-                    className="bg-[#363636] text-white font-semibold py-2 px-6 rounded-lg hover:bg-gray-600 transition-colors duration-300 shadow-lg"
-                  >
-                    {buttonText}
-                  </Link>
-                </div>
-              )}
+
+              <Link
+                href={buttonLink || "/contact-us"}
+                className="inline-block bg-white text-black font-bold py-2.5 px-6 rounded-lg hover:bg-zinc-200 transition-all duration-300 shadow-xl text-xs uppercase tracking-wider"
+              >
+                {buttonText || "Start a Project"}
+              </Link>
             </div>
           </div>
         </div>
