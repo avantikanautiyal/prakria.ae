@@ -40,15 +40,13 @@ function WhyChoose(props) {
     </div>
 
     {/* New Features Grid */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div className="flex flex-wrap justify-center gap-3">
       {props?.list?.map((feature, index) => (
         <div
           key={index}
           className={
-            `flex flex-col items-center p-6 transition-all duration-300 border-gray-300 
-            ${[0, 1, 2].includes(index) ? "border-b-[0.1px]" : ""} 
-            ${((index + 1) % 3 !== 0) ? "border-r-[0.1px]" : ""}
-            gap-4`
+            `flex w-full flex-col items-center gap-4 rounded-lg border border-[#2b2b2b] bg-[#0F0F0F] px-4 py-6
+            transition-all duration-300 sm:flex-[0_1_calc(50%-0.75rem)] lg:flex-[0_1_calc(33.333%-0.75rem)]`
           }
         >
           <div className="w-20 h-20  rounded-full flex items-center justify-center mb-6">

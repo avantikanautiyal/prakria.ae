@@ -29,6 +29,7 @@ export default function Home() {
       <HomeTestimonial />
 
       <Blog />
+   
     </div>
   );
 }

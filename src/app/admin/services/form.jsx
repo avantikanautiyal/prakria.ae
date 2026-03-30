@@ -19,6 +19,7 @@ export default function ServiceForm() {
     defaultValues: {
       name: '',
       slug: '',
+      orderNumber: null,
       image: '',
       metaTitle: '',
       metaDescription: '',
@@ -121,7 +122,7 @@ export default function ServiceForm() {
         {/* Basic & SEO Info */}
         <section className="bg-zinc-900 p-6 rounded-lg border border-zinc-800 space-y-4">
           <h2 className="text-xl font-semibold border-b border-zinc-800 pb-2">Basic & SEO Info</h2>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-3 gap-4">
             <div>
               <label className="label">Service Name</label>
               <input {...register('name', { required: true })} className="input w-full" placeholder="Digital Marketing" />
@@ -129,6 +130,18 @@ export default function ServiceForm() {
             <div>
               <label className="label">Slug</label>
               <input {...register('slug', { required: true })} className="input w-full" placeholder="digital-marketing" />
+            </div>
+            <div>
+              <label className="label">Order Number</label>
+              <input
+                type="number"
+                {...register('orderNumber', {
+                  setValueAs: (value) => (value === '' ? null : Number(value)),
+                })}
+                className="input w-full"
+                placeholder="e.g. 1"
+                min="0"
+              />
             </div>
           </div>
           <div className="grid grid-cols-3 gap-4">

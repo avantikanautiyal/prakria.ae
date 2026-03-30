@@ -58,6 +58,7 @@ export default function ServicesPage() {
             <tr>
               <th className="px-6 py-4">Service Name</th>
               <th className="px-6 py-4">Slug</th>
+              <th className="px-6 py-4">Order</th>
               <th className="px-6 py-4 text-right">Actions</th>
             </tr>
           </thead>
@@ -66,6 +67,7 @@ export default function ServicesPage() {
               <tr key={service._id} className="hover:bg-zinc-800/50 transition-colors">
                 <td className="px-6 py-4 font-medium">{service.name}</td>
                 <td className="px-6 py-4 text-zinc-400">{service.slug}</td>
+                <td className="px-6 py-4 text-zinc-300">{service.orderNumber ?? '-'}</td>
                 <td className="px-6 py-4 text-right space-x-4">
                   <Link
                     href={`/admin/services/edit/${service._id}`}

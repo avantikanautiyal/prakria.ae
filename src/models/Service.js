@@ -10,6 +10,11 @@ const ServiceSchema = new mongoose.Schema({
     required: [true, 'Please provide a slug.'],
     unique: true,
   },
+
+  orderNumber: {
+    type: Number,
+    default: null,
+  },
   
   image: String,
 

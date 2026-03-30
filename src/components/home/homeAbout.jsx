@@ -30,9 +30,9 @@ const Home1About = () => {
                     src="https://zenfy-next-js.vercel.app/_next/static/media/home2-banner-vector2.f0e2a83d.svg"
                     alt=""
                   />
-                  <h2>
+                  <h1>
                     {`We Are Not Your Average Agency`}
-                  </h2>
+                  </h1>
                   <p>
                     We are not your average agency — we’re a 360° creative and packaging design agency that specializes in crafting experiences that make every brand building journey unforgettable. Whether it’s a magnificent logo, a jaw-dropping 3D design, a next-gen AR filter, or a stunning digital interface through expert web designing and UI/UX design services, we make brands come alive across every touchpoint.<br /><br />
                     Our internal creative resource delivers unparalleled speed, quality, and imagination. From custom product packaging that turn products into icons to mobile gaming that redefines interactivity—our designs capture, connect, and convert.<br /><br />

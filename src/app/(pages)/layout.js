@@ -20,6 +20,8 @@ import Header1 from "../../components/global/header/Header";
 import Footer from "../../components/global/header/Footer";
 import ThemeSwitch from "../../components/global/theme";
 import ContactUs from "../../components/home/homeContact";
+import Whatsapp from "@/components/global/whatsapp/Whatsapp";
+import SocialWidget from "@/components/global/socialmedia/SocialWidget";
 
 function ClientLayout({ children }) {
   useWow();
@@ -35,6 +37,8 @@ function ClientLayout({ children }) {
         <ContactUs />
         <Footer />
       </div>
+      <Whatsapp/>
+      <SocialWidget/>
     </div>
   );
 }
