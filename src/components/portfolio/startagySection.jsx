@@ -1,11 +1,10 @@
-import { cn } from "@/utils/cn";
 import React from "react";
 
 function StartageySection(props) {
   if (!props?.title && (!props?.list || props.list.length === 0)) return null;
 
   return (
-    <section className="bg-black text-white py-20 px-4 sm:px-6 md:px-8 overflow-x-hidden">
+    <section className="bg-black text-white py-8 px-4 sm:px-6 md:px-8 overflow-x-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Header: Title and Subtitle */}
         <div className="text-center mb-12 sm:mb-16 md:mb-24">
@@ -17,16 +16,10 @@ function StartageySection(props) {
           </p>
         </div>
 
-        <div
-          className={cn(
-            props?.list?.length > 5
-              ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-12 gap-x-6 text-center md:text-left"
-              : "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-12 gap-x-6 text-center md:text-left"
-          )}
-        >
+        <div className="flex flex-wrap justify-center gap-y-12 gap-x-6 text-center md:text-left">
           {props?.list?.map((startagey, index) => (
             <div
-              className="w-full flex justify-center md:justify-start"
+              className="basis-full sm:basis-[calc(50%-0.75rem)] lg:basis-[calc(33.333%-1rem)] flex justify-center md:justify-start"
               key={index}
             >
               <StartagyCard even={(index + 1) % 2 === 1} {...startagey} />
@@ -51,12 +44,12 @@ function StartagyCard({ number, title, description, even }) {
         <>
           {/* 3. Small Description Card */}
           <div className="bg-[#0F0F0F] p-4 sm:p-5 rounded-xl shadow-lg mb-4 md:mb-0 w-full">
-            <p className="text-sm sm:text-base font-normal leading-relaxed break-words">
+            <p className="text-xs sm:text-sm font-normal leading-relaxed break-words">
               {description}
             </p>
           </div>
           {/* 2. Small Title */}
-          <h2 className="text-base sm:text-lg font-normal font-serif tracking-widest uppercase mb-2 break-words w-full">
+          <h2 className="text-base sm:text-md font-normal font-serif tracking-widest uppercase mb-2 break-words w-full">
             {title}
           </h2>
           {/* 1. Small Number */}
@@ -77,12 +70,12 @@ function StartagyCard({ number, title, description, even }) {
             {number}
           </div>
           {/* 2. Small Title */}
-            <h2 className="text-base sm:text-lg font-normal font-serif tracking-widest uppercase mb-4 break-words w-full">
+            <h2 className="text-base sm:text-md font-normal font-serif tracking-widest uppercase mb-4 break-words w-full">
             {title}
           </h2>
           {/* 3. Small Description Card */}
             <div className="bg-[#0F0F0F] p-4 sm:p-5 rounded-xl shadow-lg w-full">
-              <p className="text-sm sm:text-base font-normal leading-relaxed break-words">
+              <p className="text-xs sm:text-sm font-normal leading-relaxed break-words">
               {description}
             </p>
           </div>

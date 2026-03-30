@@ -17,16 +17,18 @@ function ResultSection(props) {
         </div>
 
         {/* Result Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {props?.list?.map((item, index) => (
             <div
               key={index}
-              className="bg-[#1D1D1D] p-8 rounded-xl shadow-xl hover:bg-[#1D1D1D] transition duration-300 flex items-center justify-center min-h-[150px]"
+              className="basis-full sm:basis-[calc(50%-0.75rem)] lg:basis-[calc(33.333%-1rem)]"
             >
-              <p
-                className="text-sm font-medium text-gray-200 text-center"
-                dangerouslySetInnerHTML={{ __html: item.text }}
-              />
+              <div className="bg-[#1D1D1D] p-8 rounded-xl shadow-xl hover:bg-[#1D1D1D] transition duration-300 flex items-center justify-center min-h-[180px] h-full">
+                <p
+                  className="text-sm font-medium text-gray-200 text-center"
+                  dangerouslySetInnerHTML={{ __html: item.text }}
+                />
+              </div>
             </div>
           ))}
         </div>

@@ -45,7 +45,7 @@ function WhyChoose(props) {
         <div
           key={index}
           className={
-            `flex w-full flex-col items-center gap-4 rounded-lg border border-[#2b2b2b] bg-[#0F0F0F] px-4 py-6
+            `flex w-full flex-col items-center gap-4 rounded-lg border-2 border-[#fff]/10 bg-[#0F0F0F] px-4 py-6
             transition-all duration-300 sm:flex-[0_1_calc(50%-0.75rem)] lg:flex-[0_1_calc(33.333%-0.75rem)]`
           }
         >
