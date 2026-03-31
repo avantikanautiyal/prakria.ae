@@ -9,6 +9,9 @@ import SubServicePlatforms from '@/components/service/sub-service/SubServicePlat
 import SubServiceUseCases from '@/components/service/sub-service/SubServiceUseCases';
 import SubServiceRelated from '@/components/service/sub-service/SubServiceRelated';
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export async function generateMetadata({ params }) {
   await dbConnect();
   const publishQuery = { $or: [{ isPublished: true }, { isPublished: { $exists: false } }] };

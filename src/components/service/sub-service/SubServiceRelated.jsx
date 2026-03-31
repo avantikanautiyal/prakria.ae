@@ -39,7 +39,7 @@ const SubServiceRelated = ({ title, list, conclusionLine }) => {
                     className="inline-flex items-center gap-2 font-bold text-sm text-zinc-400 group-hover:text-zinc-600 group-active:text-zinc-600 transition-colors duration-500"
                   >
                     {item.buttonText || 'Read more'}
-                    <span className="group-hover:translate-x-1 transition-transform group-hover:text-black">→</span>
+                    <i className="bi bi-arrow-right group-hover:translate-x-1 transition-transform"></i>
                   </Link>
                 </div>
               </div>

@@ -268,12 +268,26 @@ export default function AiPageAdmin() {
                     <label className="label">Media</label>
                     <input type="file" onChange={(e) => handleUpload(e.target.files[0], `workSection.list.${index}.src`)} className={`${inputClass} text-xs`} />
                     {formData.workSection?.list?.[index]?.src && (
-                      <img src={formData.workSection.list[index].src} alt="Preview" className="w-full mt-2 rounded" />
+                      <>
+                        {formData.workSection?.list?.[index]?.mediaType === 'video' ? (
+                          <video
+                            src={formData.workSection.list[index].src}
+                            className="w-full mt-2 rounded"
+                            muted
+                            controls
+                          />
+                        ) : (
+                          <img src={formData.workSection.list[index].src} alt="Preview" className="w-full mt-2 rounded" />
+                        )}
+                      </>
                     )}
                   </div>
                   <div>
                     <label className="label">Poster (Video)</label>
                     <input type="file" onChange={(e) => handleUpload(e.target.files[0], `workSection.list.${index}.poster`)} className={`${inputClass} text-xs`} />
+                    {formData.workSection?.list?.[index]?.poster && (
+                      <img src={formData.workSection.list[index].poster} alt="Poster preview" className="w-full mt-2 rounded" />
+                    )}
                   </div>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
@@ -329,6 +343,9 @@ export default function AiPageAdmin() {
                 <div>
                   <label className="label">Icon</label>
                   <input type="file" onChange={(e) => handleUpload(e.target.files[0], `whySection.list.${index}.src`)} className={`${inputClass} text-xs`} />
+                  {formData.whySection?.list?.[index]?.src && (
+                    <img src={formData.whySection.list[index].src} alt="Icon preview" className="w-24 h-24 object-contain mt-2 rounded bg-zinc-950 p-2" />
+                  )}
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div>
@@ -385,6 +402,9 @@ export default function AiPageAdmin() {
                 <div>
                   <label className="label">Icon</label>
                   <input type="file" onChange={(e) => handleUpload(e.target.files[0], `benefitsSection.list.${index}.src`)} className={`${inputClass} text-xs`} />
+                  {formData.benefitsSection?.list?.[index]?.src && (
+                    <img src={formData.benefitsSection.list[index].src} alt="Icon preview" className="w-24 h-24 object-contain mt-2 rounded bg-zinc-950 p-2" />
+                  )}
                 </div>
                 <div className="grid grid-cols-2 gap-4 items-end">
                   <div>

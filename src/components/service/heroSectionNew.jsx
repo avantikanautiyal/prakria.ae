@@ -7,7 +7,7 @@ function HeroSection(props) {
       <h1 className="text-white text-4xl md:text-4xl tracking-tight mb-6">
        {props?.title}
       </h1>
-      <p className="mx-auto max-w-4xl text-sm md:text-sm sm:text-sm text-gray-300 mb-10 leading-relaxed">
+      <p className="mx-auto max-w-4xl text-sm md:text-sm sm:text-sm text-gray-300 mb-10 leading-relaxed whitespace-pre-line">
         {props?.description}
       </p>
       {props?.buttonLink && (

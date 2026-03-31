@@ -9,6 +9,9 @@ import AiCoreServicesGrid from '@/components/service/AiCoreServicesGrid';
 import HeroSection from '@/components/service/heroSectionNew';
 import ExecutionSection from '@/components/portfolio/executionSection';
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 const defaultAiPage = {
   metaTitle: "AI Services & Solutions | PRAKRIA TECH",
   metaDescription:
@@ -109,6 +112,17 @@ const normalizeCaseStudySlug = (slug) => {
   return clean ? `/case-study/${clean}` : null;
 };
 
+const normalizeWorkLink = (link) => {
+  if (!link) return null;
+  if (link.startsWith('http://') || link.startsWith('https://')) return link;
+  if (link.startsWith('/casestudy/')) return link.replace('/casestudy/', '/case-study/');
+  if (link.startsWith('casestudy/')) return `/${link.replace('casestudy/', 'case-study/')}`;
+  if (link.startsWith('case-study/')) return `/${link}`;
+  return link.startsWith('/') ? link : `/${link}`;
+};
+
+const normalizeMediaType = (value) => (value === 'video' ? 'video' : 'image');
+
 async function getAiDynamicData() {
   await dbConnect();
   const aiPage = await AiPage.findOne({ slug: 'ai' }).lean();
@@ -172,15 +186,15 @@ export default async function AiServicePage() {
       ? manualWorkItems.map((item) => ({
           src: item.src || "/images/placeholder.jpg",
           alt: item.alt || "Case study",
-          link: item.link || null,
-          type: item.mediaType || "image",
+          link: normalizeWorkLink(item.link),
+          type: normalizeMediaType(item.mediaType || item.type),
           poster: item.poster,
         }))
       : caseStudies.map((item) => ({
           src: item.herosection?.list?.[0]?.src || "/images/placeholder.jpg",
           alt: item.herosection?.list?.[0]?.alt || item.name,
           link: normalizeCaseStudySlug(item.slug),
-          type: item.herosection?.list?.[0]?.type || "image",
+          type: normalizeMediaType(item.herosection?.list?.[0]?.type),
         }));
 
   const workProps = {

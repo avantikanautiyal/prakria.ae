@@ -11,7 +11,7 @@ function ExecutionSection(props) {
         <h2 className="text-4xl sm:text-5xl md:text-5xl mb-4">
         {props?.title}
           </h2>
-          <p className="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto whitespace-pre-line">
             {props?.description}
           </p>
         </div>
@@ -36,9 +36,11 @@ function ExecutionSection(props) {
                   <h3 className="text-lg sm:text-xl font-semibold mb-3">
                     {sec?.title}
                   </h3>
-                  <p className="text-xs sm:text-base text-gray-300">
-                    {sec.description}
-                  </p>
+                  {(sec?.description || sec?.text) && (
+                    <p className="text-xs sm:text-base text-gray-300 whitespace-pre-line">
+                      {sec.description || sec.text}
+                    </p>
+                  )}
                 </div>
               );
             })}

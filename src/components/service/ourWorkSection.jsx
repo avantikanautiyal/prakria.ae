@@ -9,7 +9,7 @@ function OurWorkSection(props) {
         <h2 className="text-balance text-4xl md:text-4xl tracking-tight mb-6">
           {props?.title}
         </h2>
-        <p className="mx-auto max-w-4xl text-sm md:text-sm sm:text-sm text-gray-300 mb-10 leading-relaxed">
+        <p className="mx-auto max-w-4xl text-sm md:text-sm sm:text-sm text-gray-300 mb-10 leading-relaxed whitespace-pre-line">
           {props?.description}
         </p>
       </div>
