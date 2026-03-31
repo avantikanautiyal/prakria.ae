@@ -2,10 +2,23 @@ import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/mongodb';
 import SubService from '@/models/SubService';
 
-export async function GET() {
+export async function GET(req) {
   await dbConnect();
   try {
-    const subServices = await SubService.find({}).sort({ createdAt: -1 });
+    const { searchParams } = new URL(req.url);
+    const includeDrafts =
+      searchParams.get('includeDrafts') === 'true' ||
+      searchParams.get('includeDrafts') === '1';
+    const publishedParam = searchParams.get('published');
+    const onlyPublished =
+      publishedParam === null
+        ? !includeDrafts
+        : publishedParam === 'true' || publishedParam === '1';
+
+    const query = onlyPublished
+      ? { $or: [{ isPublished: true }, { isPublished: { $exists: false } }] }
+      : {};
+    const subServices = await SubService.find(query).sort({ createdAt: -1 });
     return NextResponse.json({ success: true, data: subServices });
   } catch (error) {
     return NextResponse.json({ success: false, error: error.message }, { status: 400 });

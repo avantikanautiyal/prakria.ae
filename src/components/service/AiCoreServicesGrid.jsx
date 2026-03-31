@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { HiArrowRight } from "react-icons/hi";
 import { useRouter } from "next/navigation";
 
 function AiCoreServicesGrid({ subServices = [], title, description }) {
@@ -32,38 +31,43 @@ function AiCoreServicesGrid({ subServices = [], title, description }) {
             <div
               key={service._id}
               onClick={() => handleCardClick(service._id)}
-              className={`relative group p-6 cursor-pointer border-[1px] border-zinc-800 overflow-hidden transition-all duration-300
+              className={`relative group p-6 cursor-pointer border-[1px] border-zinc-800 overflow-hidden transition-all duration-300 will-change-transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-black/40 hover:border-white/30
                 ${isGradientCard ? "bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.25),rgba(0,0,0,1)_60%)] text-white" : ""}
                 ${isBlackCard ? "bg-black text-white" : ""}
                 ${isWhiteCard ? "bg-white text-black" : ""}
               `}
             >
+              <div
+                className={`absolute inset-0 opacity-0 transition-opacity duration-300 pointer-events-none group-hover:opacity-100
+                  ${isWhiteCard ? "bg-black/5" : "bg-white/5"}
+                `}
+              />
               {/* Decorative shapes */}
               <div
-                className={`absolute top-1/4 left-1/4 w-32 h-32 rounded-full blur-3xl opacity-10
+                className={`absolute top-1/4 left-1/4 w-32 h-32 rounded-full blur-3xl opacity-10 transition-all duration-300 group-hover:scale-110 group-hover:opacity-20
                   ${isWhiteCard ? "bg-black" : "bg-white"}
                 `}
               />
               <div
-                className={`absolute top-20 right-[25%] w-12 h-12 rounded-full opacity-5
+                className={`absolute top-20 right-[25%] w-12 h-12 rounded-full opacity-5 transition-all duration-300 group-hover:opacity-15
                   ${isWhiteCard ? "bg-black" : "bg-white"}
                 `}
               />
               <div
-                className={`absolute bottom-24 right-[20%] w-10 h-10 rotate-[25deg] opacity-10
+                className={`absolute bottom-24 right-[20%] w-10 h-10 rotate-[25deg] opacity-10 transition-all duration-300 group-hover:translate-y-1 group-hover:opacity-20
                   ${isWhiteCard ? "bg-black" : "bg-white"}
                 `}
                 style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)", background: isWhiteCard ? "#000" : "#fff" }}
               />
 
               <div className="relative z-10 flex h-full flex-col">
-                <p
+                {/* <p
                   className={`text-[14px] uppercase mb-4 font-medium
                     ${isWhiteCard ? "text-slate-500" : "text-zinc-500"}
                   `}
                 >
                   {service.category || "Video Production Services"}
-                </p>
+                </p> */}
 
                 <div className="flex items-center gap-6 mb-10">
                   <div
@@ -75,19 +79,19 @@ function AiCoreServicesGrid({ subServices = [], title, description }) {
                       <img
                         src={service.herosection.icon}
                         alt={service.name}
-                        className={`w-12 h-12 object-contain ${isWhiteCard ? "" : "opacity-80 group-hover:opacity-100"}`}
+                        className={`w-12 h-12 object-contain transition-all duration-300 ${isWhiteCard ? "" : "opacity-80 group-hover:opacity-100"} group-hover:scale-105`}
                       />
                     ) : (
                       <div className="w-2 h-2 rounded-full bg-white opacity-20" />
                     )}
                   </div>
-                  <h3 className={`text-3xl md:text-4xl font-serif tracking-tight leading-tight ${isWhiteCard ? "text-black" : "text-white"}`}>
+                  <h3 className={`text-2xl md:text-3xl font-serif tracking-tight leading-tight ${isWhiteCard ? "text-black" : "text-white"}`}>
                     {service.name}
                   </h3>
                 </div>
 
                 <p
-                  className={`text-base leading-relaxed max-w-sm mb-12
+                  className={`text-base leading-relaxed mb-12 transition-all duration-300 group-hover:opacity-90
                     ${isWhiteCard ? "text-slate-600" : "text-zinc-400"}
                   `}
                 >
@@ -101,7 +105,7 @@ function AiCoreServicesGrid({ subServices = [], title, description }) {
                     ${isWhiteCard ? "text-black" : "text-white"}
                   `}
                 >
-                  Read more <HiArrowRight className="w-4 h-4" />
+                  Read more <i className="bi bi-arrow-right text-base" />
                 </button>
               </div>
             </div>

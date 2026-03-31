@@ -11,7 +11,22 @@ const normalizeOrderNumber = (value) => {
 export async function GET(req) {
   await dbConnect();
   try {
+    const { searchParams } = new URL(req.url);
+    const includeDrafts =
+      searchParams.get('includeDrafts') === 'true' ||
+      searchParams.get('includeDrafts') === '1';
+    const publishedParam = searchParams.get('published');
+    const onlyPublished =
+      publishedParam === null
+        ? !includeDrafts
+        : publishedParam === 'true' || publishedParam === '1';
+
+    const matchStage = onlyPublished
+      ? { $or: [{ isPublished: true }, { isPublished: { $exists: false } }] }
+      : {};
+
     const services = await Service.aggregate([
+      { $match: matchStage },
       {
         $addFields: {
           orderSort: {

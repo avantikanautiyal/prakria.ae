@@ -7,6 +7,7 @@ import FooterData from "../../../data/footerData.json"
 
 const Footer2 = () => {
   const [dbServices, setDbServices] = useState([]);
+  const [aiPagePublished, setAiPagePublished] = useState(false);
 
   useEffect(() => {
     const fetchServices = async () => {
@@ -21,6 +22,20 @@ const Footer2 = () => {
       }
     };
     fetchServices();
+  }, []);
+
+  useEffect(() => {
+    const fetchAiPage = async () => {
+      try {
+        const res = await fetch("/api/ai-page?published=true");
+        const json = await res.json();
+        setAiPagePublished(!!json.data);
+      } catch (error) {
+        console.error("Error fetching AI page status:", error);
+        setAiPagePublished(false);
+      }
+    };
+    fetchAiPage();
   }, []);
 
   return (
@@ -65,8 +80,14 @@ const Footer2 = () => {
                       link: `/services${formattedSlug}`
                     };
                   });
-                  // also add AI if it's not in the list
-                  if (!dbServices.find(s => s.slug === "ai" || s.name.toLowerCase() === "ai")) {
+                }
+
+                if (section.title === "Service" && aiPagePublished) {
+                  sectionLinks = [...sectionLinks];
+                  const hasAi = sectionLinks.find(
+                    (s) => s.link === "/ai" || s.label?.toLowerCase() === "ai"
+                  );
+                  if (!hasAi) {
                     sectionLinks.push({ label: "AI", link: "/ai" });
                   }
                 }

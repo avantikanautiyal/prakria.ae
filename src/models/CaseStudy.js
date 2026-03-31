@@ -12,6 +12,11 @@ const CaseStudySchema = new mongoose.Schema({
     unique: true,
   },
 
+  isAiFeatured: {
+    type: Boolean,
+    default: false,
+  },
+
   // SEO Fields
   metaTitle: String,
   metaDescription: String,

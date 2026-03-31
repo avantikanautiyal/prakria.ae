@@ -11,8 +11,8 @@ import SubServiceRelated from '@/components/service/sub-service/SubServiceRelate
 
 export async function generateMetadata({ params }) {
   await dbConnect();
-  const subService = await SubService.findOne({ _id: params.slug });
-  console.log(subService, "subServicesubService")
+  const publishQuery = { $or: [{ isPublished: true }, { isPublished: { $exists: false } }] };
+  const subService = await SubService.findOne({ $and: [{ _id: params.slug }, publishQuery] });
 
   if (!subService) return {};
 
@@ -25,7 +25,8 @@ export async function generateMetadata({ params }) {
 
 export default async function SubServicePage({ params }) {
   await dbConnect();
-  const data = await SubService.findOne({ _id: params.slug });
+  const publishQuery = { $or: [{ isPublished: true }, { isPublished: { $exists: false } }] };
+  const data = await SubService.findOne({ $and: [{ _id: params.slug }, publishQuery] });
 
   if (!data) {
     notFound();

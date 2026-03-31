@@ -10,7 +10,7 @@ export default function SubServicesPage() {
   const { data, isLoading } = useQuery({
     queryKey: ['sub-services'],
     queryFn: async () => {
-      const res = await fetch('/api/sub-services');
+      const res = await fetch('/api/sub-services?includeDrafts=true');
       const json = await res.json();
       return json.data;
     }
@@ -54,6 +54,7 @@ export default function SubServicesPage() {
               <th className="px-6 py-4">Name</th>
               <th className="px-6 py-4">Category</th>
               <th className="px-6 py-4">Slug</th>
+              <th className="px-6 py-4">Status</th>
               <th className="px-6 py-4">Actions</th>
             </tr>
           </thead>
@@ -63,6 +64,11 @@ export default function SubServicesPage() {
                 <td className="px-6 py-4 font-medium">{service.name}</td>
                 <td className="px-6 py-4 text-zinc-400">{service.category}</td>
                 <td className="px-6 py-4 text-zinc-400">{service.slug}</td>
+                <td className="px-6 py-4">
+                  <span className={service.isPublished === false ? 'text-yellow-400' : 'text-green-400'}>
+                    {service.isPublished === false ? 'Draft' : 'Published'}
+                  </span>
+                </td>
                 <td className="px-6 py-4">
                   <div className="flex gap-4">
                     <Link 
@@ -83,7 +89,7 @@ export default function SubServicesPage() {
             ))}
             {(!data || data.length === 0) && (
               <tr>
-                <td colSpan="4" className="px-6 py-10 text-center text-zinc-500 italic">
+                <td colSpan="5" className="px-6 py-10 text-center text-zinc-500 italic">
                   No sub-services found. Start by adding one.
                 </td>
               </tr>

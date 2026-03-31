@@ -18,25 +18,25 @@ function ExecutionSection(props) {
 
         {/* Cards Grid */}
         <div className="pb-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
+          <div className="flex flex-wrap justify-center gap-8 w-full">
             {props?.list?.map((sec, index) => {
               return (
                 <div
                   key={index}
-                  className="flex flex-col items-center text-center  border-2 border-[#fff]/20 rounded-2xl p-8 shadow-lg "
+                  className="flex flex-col items-center text-center border-2 border-[#fff]/20 rounded-2xl p-8 shadow-lg w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.334rem)]"
                 >
                   
-                  <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-gray-800 flex items-center justify-center mb-6 shadow-lg border border-gray-700">
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center mb-6 shadow-lg">
                     <img
                       src={sec?.src}
                       alt={sec?.alt}
                       className="w-full h-full"
                     />
                   </div>
-                  <h3 className="text-xl sm:text-2xl font-semibold mb-3">
+                  <h3 className="text-lg sm:text-xl font-semibold mb-3">
                     {sec?.title}
                   </h3>
-                  <p className="text-sm sm:text-base text-gray-300">
+                  <p className="text-xs sm:text-base text-gray-300">
                     {sec.description}
                   </p>
                 </div>

@@ -5,6 +5,8 @@ import Link from "next/link";
 function Whatwedo({ content }) {
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [aiPagePublished, setAiPagePublished] = useState(false);
+  const [aiPageData, setAiPageData] = useState(null);
 
   // Default fallback services as requested to be in an array
   const defaultServices = [
@@ -37,6 +39,22 @@ function Whatwedo({ content }) {
       }
     };
     fetchServices();
+  }, []);
+
+  useEffect(() => {
+    const fetchAiPage = async () => {
+      try {
+        const res = await fetch("/api/ai-page?published=true");
+        const json = await res.json();
+        setAiPagePublished(!!json.data);
+        setAiPageData(json.data || null);
+      } catch (error) {
+        console.error("Error fetching AI page status:", error);
+        setAiPagePublished(false);
+        setAiPageData(null);
+      }
+    };
+    fetchAiPage();
   }, []);
 
   return (
@@ -81,31 +99,33 @@ function Whatwedo({ content }) {
               </Link>
             </div>
           ))}
-          <div
-            className="col-lg-4 col-md-6 wow animate fadeInDown"
-            data-wow-delay={`${200 + (9 % 3) * 100}ms`}
-            data-wow-duration="1500ms"
-            style={{
-              visibility: "visible",
-              animationDuration: "1500ms",
-              animationDelay: `${200 + (9 % 3) * 100}ms`,
-            }}
-          >
-            <Link href={"/ai"}>
-              <div className="about-feature-card two">
-                <div className="icon d-flex justify-content-center">
-                  <img
-                    className="rounded-sm w-full h-48 object-cover"
-                    src={"/images/ai.jpg"}
-                    alt={"AI"}
-                  />
+          {aiPagePublished && !services.find((service) => service.slug === "ai" || service.name?.toLowerCase() === "ai") && (
+            <div
+              className="col-lg-4 col-md-6 wow animate fadeInDown"
+              data-wow-delay={`${200 + (9 % 3) * 100}ms`}
+              data-wow-duration="1500ms"
+              style={{
+                visibility: "visible",
+                animationDuration: "1500ms",
+                animationDelay: `${200 + (9 % 3) * 100}ms`,
+              }}
+            >
+              <Link href={"/ai"}>
+                <div className="about-feature-card two">
+                  <div className="icon d-flex justify-content-center">
+                    <img
+                      className="rounded-sm w-full h-48 object-cover"
+                      src={aiPageData?.thumbnailImage || "/images/ai.jpg"}
+                      alt={aiPageData?.thumbnailAlt || "AI"}
+                    />
+                  </div>
+                  <div className="content">
+                    <h4 className="uppercase">AI</h4>
+                  </div>
                 </div>
-                <div className="content">
-                  <h4 className="uppercase">AI</h4>
-                </div>
-              </div>
-            </Link>
-          </div>
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>

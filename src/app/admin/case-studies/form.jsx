@@ -19,6 +19,7 @@ export default function CaseStudyForm() {
     defaultValues: {
       name: '',
       slug: '',
+      isAiFeatured: false,
       metaTitle: '',
       metaDescription: '',
       metaKeywords: '',
@@ -143,6 +144,10 @@ export default function CaseStudyForm() {
             <label className="label">Meta Keywords</label>
             <input {...register('metaKeywords')} className="input w-full" placeholder="comma separated" />
           </div>
+          <label className="flex items-center gap-2 text-sm text-zinc-300">
+            <input type="checkbox" {...register('isAiFeatured')} />
+            Feature on AI page
+          </label>
         </section>
 
         {/* 1. herosection */}

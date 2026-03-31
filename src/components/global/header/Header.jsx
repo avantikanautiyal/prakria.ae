@@ -60,6 +60,7 @@ const Header1 = () => {
   const headerRef = useRef(null);
   const [toggleMenuState, setToggleMenuState] = useState(null);
   const [dbServices, setDbServices] = useState([]);
+  const [aiPagePublished, setAiPagePublished] = useState(false);
 
   useEffect(() => {
     const fetchServices = async () => {
@@ -74,6 +75,20 @@ const Header1 = () => {
       }
     };
     fetchServices();
+  }, []);
+
+  useEffect(() => {
+    const fetchAiPage = async () => {
+      try {
+        const res = await fetch("/api/ai-page?published=true");
+        const json = await res.json();
+        setAiPagePublished(!!json.data);
+      } catch (error) {
+        console.error("Error fetching AI page status:", error);
+        setAiPagePublished(false);
+      }
+    };
+    fetchAiPage();
   }, []);
 
   const handleScroll = () => {
@@ -202,7 +217,7 @@ const Header1 = () => {
                           </li>
                         ))
                       )}
-                      {(!dbServices.length || !dbServices.find(s => s.slug === "ai" || s.name.toLowerCase() === "ai")) && (
+                      {aiPagePublished && (!dbServices.length || !dbServices.find(s => s.slug === "ai" || s.name.toLowerCase() === "ai")) && (
                         <li onClick={toggleRightSidebar}>
                           <Link legacyBehavior href="/ai">
                             <a>AI</a>

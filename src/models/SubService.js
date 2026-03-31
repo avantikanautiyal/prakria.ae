@@ -10,6 +10,11 @@ const SubServiceSchema = new mongoose.Schema({
     required: [true, 'Please provide a slug.'],
     unique: true,
   },
+
+  isPublished: {
+    type: Boolean,
+    default: true,
+  },
   category: String,
 
   // SEO Fields

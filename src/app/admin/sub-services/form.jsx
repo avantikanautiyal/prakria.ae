@@ -20,6 +20,7 @@ export default function SubServiceForm() {
       name: '',
       slug: '',
       category: '',
+      isPublished: true,
       metaTitle: '',
       metaDescription: '',
       metaKeywords: '',
@@ -62,7 +63,11 @@ export default function SubServiceForm() {
   // Initialize form with fetched data
   useEffect(() => {
     if (data && !isDirty) {
-      reset(data);
+      const normalized = {
+        ...data,
+        isPublished: data.isPublished !== false,
+      };
+      reset(normalized);
     }
   }, [data, reset, isDirty]);
 
@@ -150,6 +155,10 @@ export default function SubServiceForm() {
             <label className="label">Meta Keywords</label>
             <input {...register('metaKeywords')} className="input w-full" placeholder="comma separated" />
           </div>
+          <label className="flex items-center gap-2 text-sm text-zinc-300">
+            <input type="checkbox" {...register('isPublished')} />
+            Published
+          </label>
         </section>
 
         {/* 1. herosection */}

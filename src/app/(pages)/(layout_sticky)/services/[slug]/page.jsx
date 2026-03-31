@@ -87,12 +87,13 @@ function mapServiceToProps(service) {
 export async function generateMetadata({ params }) {
   await dbConnect();
   const slugToFind = params.slug.startsWith('/') ? params.slug : `/${params.slug}`;
-  const service = await Service.findOne({ 
-    $or: [
-      { slug: params.slug },
-      { slug: slugToFind }
-    ]
-  }).lean();
+  const slugQuery = {
+    $or: [{ slug: params.slug }, { slug: slugToFind }],
+  };
+  const publishQuery = {
+    $or: [{ isPublished: true }, { isPublished: { $exists: false } }],
+  };
+  const service = await Service.findOne({ $and: [slugQuery, publishQuery] }).lean();
   
   if (!service) return {};
 
@@ -108,12 +109,13 @@ export async function generateMetadata({ params }) {
 export default async function ServiceDynamicPage({ params }) {
   await dbConnect();
   const slugToFind = params.slug.startsWith('/') ? params.slug : `/${params.slug}`;
-  const service = await Service.findOne({ 
-    $or: [
-      { slug: params.slug },
-      { slug: slugToFind }
-    ]
-  }).lean();
+  const slugQuery = {
+    $or: [{ slug: params.slug }, { slug: slugToFind }],
+  };
+  const publishQuery = {
+    $or: [{ isPublished: true }, { isPublished: { $exists: false } }],
+  };
+  const service = await Service.findOne({ $and: [slugQuery, publishQuery] }).lean();
 
   if (!service) {
     notFound();

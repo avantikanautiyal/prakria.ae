@@ -15,6 +15,11 @@ const ServiceSchema = new mongoose.Schema({
     type: Number,
     default: null,
   },
+
+  isPublished: {
+    type: Boolean,
+    default: true,
+  },
   
   image: String,
 

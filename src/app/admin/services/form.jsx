@@ -20,6 +20,7 @@ export default function ServiceForm() {
       name: '',
       slug: '',
       orderNumber: null,
+      isPublished: true,
       image: '',
       metaTitle: '',
       metaDescription: '',
@@ -60,7 +61,11 @@ export default function ServiceForm() {
   // Initialize form with fetched data
   useEffect(() => {
     if (data && !isDirty) {
-      reset(data);
+      const normalized = {
+        ...data,
+        isPublished: data.isPublished !== false,
+      };
+      reset(normalized);
     }
   }, [data, reset, isDirty]);
 
@@ -144,6 +149,10 @@ export default function ServiceForm() {
               />
             </div>
           </div>
+          <label className="flex items-center gap-2 text-sm text-zinc-300">
+            <input type="checkbox" {...register('isPublished')} />
+            Published
+          </label>
           <div className="grid grid-cols-3 gap-4">
             <div>
               <label className="label">Meta Title</label>

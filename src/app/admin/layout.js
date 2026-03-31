@@ -70,6 +70,9 @@ export default function AdminLayout({ children }) {
           <Link href="/admin/sub-services" className="block hover:text-zinc-400 transition-colors">
             AI Sub Services
           </Link>
+          <Link href="/admin/ai-page" className="block hover:text-zinc-400 transition-colors">
+            AI Page
+          </Link>
           <Link href="/admin/inquiries" className="block hover:text-zinc-400 transition-colors">
             Inquiries
           </Link>

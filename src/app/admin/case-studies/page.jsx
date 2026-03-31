@@ -52,6 +52,7 @@ export default function CaseStudyListPage() {
               <th className="px-6 py-4">Name</th>
               <th className="px-6 py-4">Slug</th>
               <th className="px-6 py-4">Meta Title</th>
+              <th className="px-6 py-4">AI</th>
               <th className="px-6 py-4">Actions</th>
             </tr>
           </thead>
@@ -61,6 +62,11 @@ export default function CaseStudyListPage() {
                 <td className="px-6 py-4 font-medium">{cs.name}</td>
                 <td className="px-6 py-4 text-zinc-400">{cs.slug}</td>
                 <td className="px-6 py-4 text-zinc-400 truncate max-w-xs">{cs.metaTitle}</td>
+                <td className="px-6 py-4">
+                  <span className={cs.isAiFeatured ? 'text-green-400' : 'text-zinc-500'}>
+                    {cs.isAiFeatured ? 'Yes' : 'No'}
+                  </span>
+                </td>
                 <td className="px-6 py-4">
                   <div className="flex gap-4">
                     <Link 
@@ -83,7 +89,7 @@ export default function CaseStudyListPage() {
             ))}
             {caseStudies?.length === 0 && (
               <tr>
-                <td colSpan="4" className="px-6 py-8 text-center text-zinc-500">
+                <td colSpan="5" className="px-6 py-8 text-center text-zinc-500">
                   No case studies found.
                 </td>
               </tr>
