@@ -39,4 +39,5 @@ function getAllPortfolioPath() {
   ];
   return allKeys;
 }
-export default { portfolioData, getPortfolioPathObject, getAllPortfolioPath };
+const portfolioExports = { portfolioData, getPortfolioPathObject, getAllPortfolioPath };
+export default portfolioExports;

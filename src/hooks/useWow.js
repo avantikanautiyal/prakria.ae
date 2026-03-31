@@ -11,8 +11,8 @@ const useWow = () => {
 
     const initWow = async () => {
       try {
-        const module = await import("wowjs");
-        const WOW = module?.default || module;
+        const wowModule = await import("wowjs");
+        const WOW = wowModule?.default || wowModule;
         if (cancelled) return;
         const wow = new WOW.WOW({
           boxClass: "wow",
