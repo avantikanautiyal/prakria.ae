@@ -3,10 +3,15 @@
 import { useEffect, useState } from "react";
 import ServiceSection from "@/components/home/serviceSection";
 
-const MAX_ITEMS_PER_SECTION = 4;
+const MAX_ITEMS_PER_SECTION = 6;
 
-function getCardClassName(totalItems) {
-  return totalItems >= 4 ? "col-lg-3 col-12" : "col-lg-4 col-12";
+function getCardClassNameForIndex(index, totalItems) {
+  if (totalItems <= 0) return "col-12";
+  if (totalItems === 1) return "col-lg-12 col-12";
+
+  if (index === 0) return "col-lg-8 col-12";
+  if (index === 1) return "col-lg-4 col-12";
+  return "col-lg-4 col-12";
 }
 
 export default function HomeServiceSections() {
@@ -44,11 +49,9 @@ export default function HomeServiceSections() {
       {sections.map((section) => {
         const trimmed = (section.items || []).slice(0, MAX_ITEMS_PER_SECTION);
         if (trimmed.length === 0) return null;
-        const cardClassName = getCardClassName(trimmed.length);
-
-        const content = trimmed.map((item) => ({
+        const content = trimmed.map((item, index) => ({
           id: item._id || item.title,
-          className: cardClassName,
+          className: getCardClassNameForIndex(index, trimmed.length),
           title: item.title || "Untitled",
           description: item.description || "",
           link: item.link || null,
