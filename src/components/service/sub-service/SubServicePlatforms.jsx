@@ -2,7 +2,7 @@ const SubServicePlatforms = ({ title, description, list, conclusionLine }) => {
   if (!list || list.length === 0) return null;
 
   return (
-    <section className="py-10 md:py-20">
+    <section className="py-10 md:py-20 border-2">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         {title && (
           <div className="text-center mb-12 sm:mb-16">
@@ -23,9 +23,10 @@ const SubServicePlatforms = ({ title, description, list, conclusionLine }) => {
 
           {list.map((item, index) => (
             <div key={index} className="flex flex-col items-center group relative z-10 w-32 md:w-40">
-              <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-white mb-6 group-hover:border-zinc-500 transition-all duration-300">
-                {item.icon ? (
-                  <img src={item.icon} alt={item.title} className="w-10 h-10 md:w-12 md:h-12 object-contain grayscale group-hover:grayscale-0 transition-all" />
+              
+              <div className="w-20 h-20 md:w-20 md:h-20 rounded-full  flex items-center justify-center text-white mb-6 group-hover:border-zinc-500 transition-all duration-300">
+                {!!item.icon ? (
+                  <img src={item.icon} alt={item.title} className="w-20 h-20 md:w-20 md:h-20 object-contain grayscale group-hover:grayscale-0 transition-all" />
                 ) : (
                     <div className="w-10 h-10 bg-zinc-800 rounded-full" />
                 )}

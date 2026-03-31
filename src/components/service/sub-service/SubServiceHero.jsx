@@ -3,7 +3,7 @@ import { HiArrowLeft } from 'react-icons/hi';
 
 const SubServiceHero = ({ subtitle, title, description, buttonText, buttonLink, image }) => {
   return (
-    <section className="relative pt-12 md:pt-16 pb-8 md:pb-12 overflow-hidden mb-20 sm:mb-32">
+    <section className="relative pt-12 md:pt-16 pb-8 md:pb-12 overflow-hidden mb-20 sm:mb-32 px-4">
       {/* Background Gradient Effect */}
       <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.05),transparent_50%)] pointer-events-none" />
 

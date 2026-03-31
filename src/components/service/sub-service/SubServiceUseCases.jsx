@@ -25,7 +25,7 @@ const SubServiceUseCases = ({ title, description, list, conclusionLine }) => {
             >
               <div className="w-20 h-20 rounded-full flex items-center justify-center text-white mb-10 group-hover:scale-110 transition-transform">
                  {!!item.icon && (
-                  <img src={item.icon} alt={item.title} className="w-10 h-10 md:w-20 md:h-20 object-contain opacity-80" />
+                  <img src={item.icon} alt={item.title} className="w-20 h-20 md:w-20 md:h-20 object-contain opacity-80" />
                 )}
               </div>
               <h3 className="text-sm md:text-base font-light text-zinc-300 tracking-wide">
