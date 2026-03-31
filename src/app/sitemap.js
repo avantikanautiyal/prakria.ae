@@ -1,73 +1,79 @@
-// TODO to be updated
-// import portfolioPage from "@/data/portfolio.json";
-import portfolioData from "@/data/portfolio_new/index";
+import dbConnect from '@/lib/mongodb';
+import CaseStudy from '@/models/CaseStudy';
+import Service from '@/models/Service';
 
-const baseURL = "https://www.prakria.com";
-export default async function sitemap() {
-  const path_list = portfolioData.getAllPortfolioPath();
-  const portfolio = path_list.map((p) => {
-    return { url: `${baseURL}/portfolio-item/${p}`, lastModified: new Date() };
+const baseURL = 'https://www.prakria.com';
+
+const toDate = (value) => {
+  if (!value) return new Date();
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? new Date() : parsed;
+};
+
+const normalizeDynamicSlug = (slug, routePrefix) => {
+  if (!slug || typeof slug !== 'string') return null;
+
+  let clean = slug.trim();
+  if (!clean) return null;
+
+  if (clean.startsWith('http://') || clean.startsWith('https://')) return null;
+
+  clean = clean.split('?')[0].split('#')[0];
+  clean = clean.replace(/^\/+|\/+$/g, '');
+
+  const lowerPrefix = routePrefix.toLowerCase();
+  const lowerClean = clean.toLowerCase();
+
+  if (lowerClean.startsWith(`${lowerPrefix}/`)) {
+    clean = clean.slice(routePrefix.length + 1);
+  } else if (lowerClean === lowerPrefix) {
+    return null;
+  }
+
+  return clean || null;
+};
+
+const buildEntries = (records, routePrefix) => {
+  const uniqueEntries = new Map();
+
+  records.forEach((record) => {
+    const normalizedSlug = normalizeDynamicSlug(record?.slug, routePrefix);
+    if (!normalizedSlug) return;
+
+    const url = `${baseURL}/${routePrefix}/${normalizedSlug}`;
+    const lastModified = toDate(record?.updatedAt || record?.createdAt);
+    uniqueEntries.set(url, { url, lastModified });
   });
 
-  const staticpages = [
-    {
-      url: `${baseURL}`,
-      lastModified: "",
-    },
-    {
-      url: `${baseURL}/contact-us`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseURL}/privacy-policy`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseURL}/disclaimer`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseURL}/about-us`,
-      lastModified: new Date(),
-    },
+  return Array.from(uniqueEntries.values());
+};
 
-    {
-      url: `${baseURL}/digital-marketing`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseURL}/packaging-design`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseURL}/branding`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseURL}/print-media`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseURL}/3d-cgi`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseURL}/ar-vr-game-tech`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseURL}/films-animation-vfx`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseURL}/illustration`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${baseURL}/web-development`,
-      lastModified: new Date(),
-    },
-  ];
+const staticpages = [
+  { url: `${baseURL}`, lastModified: new Date() },
+  { url: `${baseURL}/contact-us`, lastModified: new Date() },
+  { url: `${baseURL}/privacy-policy`, lastModified: new Date() },
+  { url: `${baseURL}/disclaimer`, lastModified: new Date() },
+  { url: `${baseURL}/about-us`, lastModified: new Date() },
+];
 
-  return [...staticpages, ...portfolio];
+export default async function sitemap() {
+  try {
+    await dbConnect();
+
+    const [caseStudies, services] = await Promise.all([
+      CaseStudy.find({}, { slug: 1, updatedAt: 1, createdAt: 1, _id: 0 }).lean(),
+      Service.find(
+        { $or: [{ isPublished: true }, { isPublished: { $exists: false } }] },
+        { slug: 1, updatedAt: 1, createdAt: 1, _id: 0 }
+      ).lean(),
+    ]);
+
+    const caseStudyEntries = buildEntries(caseStudies, 'case-study');
+    const serviceEntries = buildEntries(services, 'services');
+
+    return [...staticpages, ...caseStudyEntries, ...serviceEntries];
+  } catch (error) {
+    console.error('Sitemap dynamic generation failed:', error);
+    return staticpages;
+  }
 }

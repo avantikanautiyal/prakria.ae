@@ -20,13 +20,12 @@ export async function PUT(req, { params }) {
     // if (Object.prototype.hasOwnProperty.call(body, 'orderNumber')) {
     //   body.orderNumber ;
     // }
-    console.log("order number ", body.orderNumber)
     const service = await Service.findByIdAndUpdate(params.id, body, {
       new: true,
       runValidators: true,
     });
 
-    console.log("service " ,service)
+    // console.log("service " ,service)
     if (!service) return NextResponse.json({ success: false, message: "Service not found" }, { status: 404 });
     return NextResponse.json({ success: true, data: service });
   } catch (error) {
