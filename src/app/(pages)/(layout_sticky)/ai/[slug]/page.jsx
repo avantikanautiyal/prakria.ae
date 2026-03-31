@@ -91,6 +91,7 @@ export default async function SubServicePage({ params }) {
         />
       )}
 
+      
       {/* 6. Platforms Section */}
       {(subService.platformsSection?.title || subService.platformsSection?.list?.length > 0) && (
         <SubServicePlatforms
@@ -110,7 +111,7 @@ export default async function SubServicePage({ params }) {
           showCheckmark={false}
         />
       )}
-
+      
       {/* 8. Use Cases Grid */}
       {(subService.useCasesSection?.title || subService.useCasesSection?.list?.length > 0) && (
         <SubServiceUseCases

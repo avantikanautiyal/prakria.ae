@@ -2,7 +2,7 @@ const SubServicePlatforms = ({ title, description, list, conclusionLine }) => {
   if (!list || list.length === 0) return null;
 
   return (
-    <section className="py-10 md:py-20 border-2">
+    <section className="py-10 md:py-20">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         {title && (
           <div className="text-center mb-12 sm:mb-16">
@@ -17,7 +17,7 @@ const SubServicePlatforms = ({ title, description, list, conclusionLine }) => {
           </div>
         )}
 
-        <div className="relative flex flex-wrap justify-center items-center gap-12 lg:px-10 mt-12">
+        <div className="relative flex flex-wrap justify-center items-start gap-12 lg:px-10 mt-12">
           {/* Connector Line (Hidden on mobile) */}
           <div className="hidden lg:block absolute top-[2.5rem] left-[10%] right-[10%] h-[1px] border-t border-dashed border-zinc-800 z-0" />
 

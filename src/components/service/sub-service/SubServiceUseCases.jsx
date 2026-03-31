@@ -17,11 +17,11 @@ const SubServiceUseCases = ({ title, description, list, conclusionLine }) => {
           </div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {list.map((item, index) => (
             <div 
               key={index} 
-              className="p-12 bg-zinc-900/40 border border-zinc-800/50 rounded-2xl hover:bg-zinc-900/60 hover:border-zinc-700 transition-all duration-300 flex flex-col items-center justify-center min-h-[300px]"
+              className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] p-12 bg-zinc-900/40 border border-zinc-800/50 rounded-2xl hover:bg-zinc-900/60 hover:border-zinc-700 transition-all duration-300 flex flex-col items-center justify-center min-h-[300px]"
             >
               <div className="w-20 h-20 rounded-full flex items-center justify-center text-white mb-10 group-hover:scale-110 transition-transform">
                  {!!item.icon && (

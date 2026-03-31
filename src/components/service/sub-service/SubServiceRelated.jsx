@@ -7,7 +7,7 @@ const SubServiceRelated = ({ title, list, conclusionLine }) => {
     <section className="py-10 md:py-20 border-t border-zinc-900/50">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {title && (
-          <h2 className="text-4xl md:text-4xl font-serif tracking-tight leading-tight mb-12 md:mb-16 text-white">
+          <h2 className="text-center md:text-left text-4xl md:text-4xl font-serif tracking-tight leading-tight mb-12 md:mb-16 text-white">
             {title}
           </h2>
         )}
@@ -25,11 +25,11 @@ const SubServiceRelated = ({ title, list, conclusionLine }) => {
                   )}
                 </div>
 
-                <h3 className="text-2xl font-serif mb-6 leading-tight text-zinc-400 group-hover:text-zinc-600 group-active:text-zinc-600 transition-colors duration-500">
+                <h3 className="text-center text-2xl font-serif mb-6 leading-tight text-zinc-400 group-hover:text-zinc-600 group-active:text-zinc-600 transition-colors duration-500">
                   {item.title}
                 </h3>
 
-                <p className="text-base leading-relaxed mb-10 line-clamp-4 font-light text-zinc-400 group-hover:text-zinc-600 group-active:text-zinc-600 transition-colors duration-500">
+                <p className="text-center text-base leading-relaxed mb-10 line-clamp-4 font-light text-zinc-400 group-hover:text-zinc-600 group-active:text-zinc-600 transition-colors duration-500">
                   {item.description}
                 </p>
 
