@@ -7,6 +7,7 @@ function Whatwedo({ content }) {
   const [loading, setLoading] = useState(true);
   const [aiPagePublished, setAiPagePublished] = useState(false);
   const [aiPageData, setAiPageData] = useState(null);
+  const skeletonItems = Array.from({ length: 6 });
 
   // Default fallback services as requested to be in an array
   const defaultServices = [
@@ -71,7 +72,24 @@ function Whatwedo({ content }) {
           What we Do
         </h2>
         <div className="row g-4">
-          {services.map((service, index) => (
+          {loading
+            ? skeletonItems.map((_, index) => (
+                <div
+                  key={`skeleton-${index}`}
+                  className="col-lg-4 col-md-6"
+                  style={{ visibility: "visible" }}
+                >
+                  <div className="about-feature-card two">
+                    <div className="icon d-flex justify-content-center">
+                      <div className="whatwedo-media shimmer-block" />
+                    </div>
+                    <div className="content">
+                      <div className="shimmer-line" />
+                    </div>
+                  </div>
+                </div>
+              ))
+            : services.map((service, index) => (
             <div
               key={service._id || index}
               className="col-lg-4 col-md-6 wow animate fadeInDown"
@@ -87,7 +105,7 @@ function Whatwedo({ content }) {
                 <div className="about-feature-card two">
                   <div className="icon d-flex justify-content-center">
                     <img
-                      className="rounded-sm w-full h-48 object-cover"
+                      className="rounded-sm w-full object-cover whatwedo-media"
                       src={service.image || "/images/default_service.jpg"}
                       alt={service.name}
                     />
@@ -99,7 +117,9 @@ function Whatwedo({ content }) {
               </Link>
             </div>
           ))}
-          {aiPagePublished && !services.find((service) => service.slug === "ai" || service.name?.toLowerCase() === "ai") && (
+          {!loading &&
+            aiPagePublished &&
+            !services.find((service) => service.slug === "ai" || service.name?.toLowerCase() === "ai") && (
             <div
               className="col-lg-4 col-md-6 wow animate fadeInDown"
               data-wow-delay={`${200 + (9 % 3) * 100}ms`}
@@ -114,7 +134,7 @@ function Whatwedo({ content }) {
                 <div className="about-feature-card two">
                   <div className="icon d-flex justify-content-center">
                     <img
-                      className="rounded-sm w-full h-48 object-cover"
+                      className="rounded-sm w-full object-cover whatwedo-media"
                       src={aiPageData?.thumbnailImage || "/images/ai.jpg"}
                       alt={aiPageData?.thumbnailAlt || "AI"}
                     />

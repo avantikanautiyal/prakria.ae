@@ -26,7 +26,10 @@ import SocialWidget from "@/components/global/socialmedia/SocialWidget";
 function ClientLayout({ children }) {
   useWow();
   useEffect(() => {
-    import("bootstrap/dist/js/bootstrap.bundle.min.js");
+    if (typeof window === "undefined") return;
+    import("bootstrap/dist/js/bootstrap.bundle.min.js").catch((error) => {
+      console.warn("Bootstrap JS failed to load:", error);
+    });
   }, []);
   return (
     <div>

@@ -2,7 +2,7 @@ import React from "react";
 
 function HomeBanner() {
   return (
-    <div className="pt-[76px] sm:pt-0">
+    <div className="pt-[76px] sm:pt-0 h-auto md:h-[100dvh]">
       <video
         src="/images/home_video.mp4"
         muted

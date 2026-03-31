@@ -1,11 +1,19 @@
-'use clinet';
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 const useWow = () => {
+  const pathname = usePathname();
+
   useEffect(() => {
-    const initWow = () => {
-      import("wowjs").then((module) => {
-        const WOW = module.default;
+    if (typeof window === "undefined") return;
+
+    let cancelled = false;
+
+    const initWow = async () => {
+      try {
+        const module = await import("wowjs");
+        const WOW = module?.default || module;
+        if (cancelled) return;
         const wow = new WOW.WOW({
           boxClass: "wow",
           animateClass: "animated",
@@ -14,26 +22,18 @@ const useWow = () => {
           live: true,
         });
         wow.init();
-      });
+        window.WOW = wow;
+      } catch (error) {
+        console.warn("WOW init failed:", error);
+      }
     };
 
-    if (typeof window !== "undefined") {
-      initWow();
+    initWow();
 
-      const handleRouteChange = () => {
-        if (typeof window.WOW !== "undefined") {
-          window.WOW.sync();
-        }
-      };
-
-      // Listen for route changes
-      document.addEventListener("routeChangeComplete", handleRouteChange);
-
-      return () => {
-        document.removeEventListener("routeChangeComplete", handleRouteChange);
-      };
-    }
-  }, []);
+    return () => {
+      cancelled = true;
+    };
+  }, [pathname]);
 };
 
 export default useWow;
