@@ -61,6 +61,9 @@ export default function AdminLayout({ children }) {
           <Link href="/admin/case-studies" className="block hover:text-zinc-400 transition-colors">
             Case Studies
           </Link>
+          <Link href="/admin/homepage" className="block hover:text-zinc-400 transition-colors">
+            Homepage
+          </Link>
           <Link href="/admin/services" className="block hover:text-zinc-400 transition-colors">
             Services
           </Link>

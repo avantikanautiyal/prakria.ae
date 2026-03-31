@@ -12,6 +12,12 @@ export const LayoutGrid = ({ cards }) => {
   // const [selectedImage, setSelectedImage] = useState(null);
   // const [open, setOpen] = useState(false);
 
+  const getCardHref = (card) => {
+    if (card?.link) return card.link;
+    if (card?.id) return `/portfolio-item/${card.id}`;
+    return null;
+  };
+
   // useEffect(() => {
   //   console.log("open ", open);
   // }, [open]);
@@ -29,7 +35,8 @@ export const LayoutGrid = ({ cards }) => {
           card={card}
           // imageUrl={card.id}
           onClick={() => {
-            if (card?.id) router.push(`/portfolio-item/${card?.id}`);
+            const href = getCardHref(card);
+            if (href) router.push(href);
           }}
           onHover={() => {}}
           key={i}
@@ -44,6 +51,7 @@ export const LayoutGrid = ({ cards }) => {
 
 const BlurImage = ({ card, open, onClick, className, onHover }) => {
   const [loaded, setLoaded] = useState(false);
+  const isVideo = card?.mediaType === "video" || card?.type === "video";
   return (
     <>
       <span
@@ -51,14 +59,28 @@ const BlurImage = ({ card, open, onClick, className, onHover }) => {
         className={className + " mb-4 " + "image-container"}
         onClick={onClick}
       >
-        <img
-          src={card.thumbnail || "/Prakria-logo.png"}
-          height="900"
-          width="900"
-          onLoad={() => setLoaded(true)}
-          alt={card?.alt || "thumbnail"}
-          style={{ height: "100%" }}
-        />
+        {isVideo ? (
+          <video
+            src={card.thumbnail || "/Prakria-logo.png"}
+            height="900"
+            width="900"
+            autoPlay
+            muted
+            loop
+            playsInline
+            onLoadedData={() => setLoaded(true)}
+            style={{ height: "100%", width: "100%", objectFit: "cover" }}
+          />
+        ) : (
+          <img
+            src={card.thumbnail || "/Prakria-logo.png"}
+            height="900"
+            width="900"
+            onLoad={() => setLoaded(true)}
+            alt={card?.alt || "thumbnail"}
+            style={{ height: "100%" }}
+          />
+        )}
         <div className="overlay">
           <div className="text">{card.title}</div>
         </div>

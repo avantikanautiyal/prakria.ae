@@ -22,6 +22,7 @@ function MyMarquee({ list }) {
             <img
               className="rounded-full aspect-auto w-[100px] mix-blend-multiply bg-red-500"
               src={item}
+              alt={`Prakria Partner Brand Logo ${index % list.length + 1}`}
             />
           </li>
         ))}
