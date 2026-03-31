@@ -7,7 +7,7 @@ const SubServiceHero = ({ subtitle, title, description, buttonText, buttonLink, 
       {/* Background Gradient Effect */}
       <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.05),transparent_50%)] pointer-events-none" />
 
-      <div className="container relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="container relative z-10 mx-auto sm:px-6 px-0">
         {/* Back Link */}
         <Link
           href="/ai"
@@ -17,13 +17,13 @@ const SubServiceHero = ({ subtitle, title, description, buttonText, buttonLink, 
           Back to Services
         </Link>
 
-        <div className="max-w-5xl">
+        <div className="">
           {/* Category / Subtitle */}
-          {subtitle && (
+          {/* {subtitle && (
             <div className="text-zinc-500 uppercase tracking-[0.2em] text-[10px] md:text-[11px] font-bold mb-6">
               {subtitle}
             </div>
-          )}
+          )} */}
 
           <div className="flex flex-col md:flex-row items-start gap-8 md:gap-12">
             {/* Icon Box */}
@@ -40,7 +40,7 @@ const SubServiceHero = ({ subtitle, title, description, buttonText, buttonLink, 
               <h1 className="text-white text-4xl md:text-4xl font-serif tracking-tight leading-tight mb-6">
                 {title}
               </h1>
-              <p className="max-w-3xl text-sm md:text-sm text-zinc-400 mb-8 leading-relaxed font-light">
+              <p className="text-sm md:text-sm text-zinc-400 mb-8 leading-relaxed font-light">
                 {description}
               </p>
 

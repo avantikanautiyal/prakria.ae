@@ -12,18 +12,16 @@ const SubServiceRelated = ({ title, list, conclusionLine }) => {
           </h2>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {list.map((item, index) => {
             return (
               <div
                 key={index} 
-                className="group p-10 rounded-xl transition-all duration-500 flex flex-col min-h-[400px] bg-zinc-900/40 border border-zinc-800/50 text-white hover:bg-white hover:text-black active:bg-white active:text-black hover:border-transparent active:border-transparent cursor-pointer hover:shadow-2xl hover:scale-[1.02]"
+                className="group p-10 rounded-xl transition-all duration-500 flex flex-col min-h-[400px] bg-zinc-900/40 border border-zinc-800/50 text-white hover:bg-white hover:text-black active:bg-white active:text-black hover:border-transparent active:border-transparent cursor-pointer hover:shadow-2xl hover:scale-[1.02] w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]"
               >
-                <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-10 bg-zinc-900 group-hover:bg-zinc-100 group-active:bg-zinc-100 transition-colors duration-500">
-                  {item.icon ? (
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-xl flex items-center justify-center mb-10 bg-zinc-900 group-hover:bg-zinc-100 group-active:bg-zinc-100 transition-colors duration-500">
+                  {!!item.icon && (
                     <img src={item.icon} alt={item.title} className="w-8 h-8 md:w-10 md:h-10 object-contain" />
-                  ) : (
-                    <div className="w-8 h-8 bg-zinc-800 rounded-lg group-hover:bg-zinc-200 group-active:bg-zinc-200 transition-colors" />
                   )}
                 </div>
 

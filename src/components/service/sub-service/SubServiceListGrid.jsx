@@ -19,11 +19,11 @@ const SubServiceListGrid = ({ title, subtitle, list, conclusionLine, showCheckma
           </div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="flex flex-wrap justify-center gap-4">
           {list.map((item, index) => (
             <div 
               key={index} 
-              className="flex items-center gap-4 p-8 bg-zinc-900/30 border border-zinc-800/40 rounded-xl hover:bg-zinc-900/50 transition-all duration-300 group min-h-[100px]"
+              className="flex items-center gap-4 p-8 bg-zinc-900/30 border border-zinc-800/40 rounded-xl hover:bg-zinc-900/50 transition-all duration-300 group min-h-[100px] w-full md:max-w-[calc(50%-1rem)] lg:max-w-[calc(33.333%-1rem)] flex-grow"
             >
               {showCheckmark && (
                 <HiCheckCircle className="w-5 h-5 text-zinc-600 group-hover:text-zinc-400 transition-colors shrink-0" />
