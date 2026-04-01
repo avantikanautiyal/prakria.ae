@@ -5,7 +5,7 @@ function OurWorkSection(props) {
   return (
     <section className="mb-20 sm:mb-32">
       {/* Section Header */}
-      <div className="text-center mb-12 sm:mb-16">
+      <div className="text-center mb-4 sm:mb-10">
         <h2 className="text-balance text-4xl md:text-4xl tracking-tight mb-6">
           {props?.title}
         </h2>

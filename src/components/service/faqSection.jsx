@@ -5,7 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '..
 
 function ServiceFAQSection(props) {
   return (
-    <section className="mb-20 sm:mb-32">
+    <section className="mb-10 sm:mb-20">
           {/* Section Header */}
 
           <div className="text-center mb-12 sm:mb-16 max-w-4xl mx-auto">

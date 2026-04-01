@@ -217,7 +217,7 @@ export default async function AiServicePage() {
 
   return (
     <div className="bg-black text-white min-h-screen font-sans antialiased">
-      <div className="space-y-[48px] container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
+      <div className="space-y-[48px] container mx-auto container px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
         {heroProps?.videoSrc && (
           <video
             src={heroProps.videoSrc}

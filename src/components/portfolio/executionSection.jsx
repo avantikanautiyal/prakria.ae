@@ -4,10 +4,10 @@ function ExecutionSection(props) {
   if (!props?.title && (!props?.list || props.list.length === 0)) return null;
 
   return (
-    <section className="bg-black text-white py-20 px-4 sm:px-8 font-sans">
-      <div className="max-w-6xl mx-auto">
+    <section className="bg-black text-white py-4 px-4 sm:px-8">
+      <div className="container mx-auto">
         {/* Header Section */}
-        <div className="text-center mb-16 md:mb-24">
+        <div className="text-center mb-4 md:mb-10">
         <h2 className="text-4xl sm:text-5xl md:text-5xl mb-4">
         {props?.title}
           </h2>
@@ -17,7 +17,7 @@ function ExecutionSection(props) {
         </div>
 
         {/* Cards Grid */}
-        <div className="pb-12">
+        <div className="pb-1">
           <div className="flex flex-wrap justify-center gap-8 w-full">
             {props?.list?.map((sec, index) => {
               return (

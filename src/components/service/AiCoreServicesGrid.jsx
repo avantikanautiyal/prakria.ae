@@ -10,7 +10,7 @@ function AiCoreServicesGrid({ subServices = [], title, description }) {
   };
 
   return (
-    <section className="mb-20 sm:mb-32">
+    <section className="mb-4 sm:mb-10">
       <h2 className="text-4xl md:text-5xl tracking-tight mb-4 sm:mb-8 text-center text-white font-serif">
         {title || "Our Core AI Services"}
       </h2>
