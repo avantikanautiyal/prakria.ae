@@ -111,7 +111,7 @@ const Home1Testimonial = ({ style }) => {
                       partners.
                     </p>
                   </div>
-                  <Link
+                  {/* <Link
                     className="button-area d-xl-none d-flex"
                     href="/contact-us"
                   >
@@ -121,7 +121,7 @@ const Home1Testimonial = ({ style }) => {
                         <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
                       </svg>
                     </span>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -142,7 +142,12 @@ const Home1Testimonial = ({ style }) => {
                         {testimonials.map((testimonial, index) => (
                           <SwiperSlide key={index} className="swiper-slide">
                             <div className="testimonial-card3 style-2 flex gap-3 flex-col">
-                              <img src={testimonial?.image || "/Prakria-logo.png"} alt="client" className="w-12 h-12 rounded-full object-cover mb-2" />
+                              <div
+                              className="w-12 h-12 mb-2 overflow-hidden flex items-center justify-center p-1"
+                              >
+                              <img src={testimonial?.image || "/Prakria-logo.png"} alt="client" className=" w-full h-full object-contain rounded-full" />
+
+                              </div>
                               <FaQuoteLeft />
                               <p>{testimonial?.message}</p>
                               <div className="testimonial-meta">
@@ -153,7 +158,7 @@ const Home1Testimonial = ({ style }) => {
                         ))}
                       </div>
                     </Swiper>
-                    <div className="slider-btn-grp d-flex justify-content-between w-100 position-absolute top-[90%] translate-middle-y z-10 px-3" style={{ pointerEvents: 'none', left: 0 }}>
+                    <div className="slider-btn-grp d-flex justify-content-between w-100 position-absolute top-[95%] sm:top-[90%] translate-middle-y z-[20] px-3" style={{ pointerEvents: 'none', left: 0 }}>
                       <div className="slider-btn testi-slider-prev position-absolute right-[60px]" style={{ pointerEvents: 'auto' }}>
                         <i className="bi bi-arrow-left" />
                       </div>
@@ -163,13 +168,14 @@ const Home1Testimonial = ({ style }) => {
                     </div>
                   </div>
                 )}
+                
               </div>
             </div>
           </div>
         </div>
         <Link
           href="/contact-us"
-          className="button-area wow animate zoomIn"
+          className="button-area wow animate zoomIn !relative !bottom-0 !left-0 mx-auto md:!absolute md:bottom-[60px] md:left-[30px] mt-10 md:mt-0"
           data-wow-delay="400ms"
           data-wow-duration="1500ms"
           style={{

@@ -46,19 +46,19 @@ const Home1Contact = () => {
 
                   <div className="">
                     <p className="leading-tight">
-                      At Prakria, we don’t simply make visuals — we create
-                      connections of people to the thoughts through experiences.
+                      Do you have a project in mind? Regarding Digital
+                      Marketing, Packaging Design, Branding, Print Media, 3D
+                      &amp; CGI, AR/VR &amp; Game Tech, films, animation &amp; VFX,
+                      Illustration, Web Development, AI design—really any of our
+                      blend of creative services—we can help. Call us at our
+                      multimedia 360° marketing agency, animation studio, web
+                      development company, or video production house - we can&apos;t
+                      wait to team up.
                     </p>
                     <p className="leading-tight">
-                      Our team is ready to transform your idea into something
-                      amazing, no matter if it is 3D animation, 2D animation,
-                      VFX animation, or realistic 3D design.
-                    </p>
-                    <p className="leading-tight">{`Let's animate the fantasy.`}</p>
-                    <p className="leading-tight">
-                      Today, call or email us and find out how Prakria, your
-                      premier animation studio, can craft stunning 3D animation
-                      and CGI experiences that engage your audience.
+                      At PRAKRIA, we don&rsquo;t simply make visuals—we create
+                      connections of people to the thoughts through
+                      experiences.
                     </p>
                   </div>
                 </div>
