@@ -31,7 +31,7 @@ const SubServicePlatforms = ({ title, description, list, conclusionLine }) => {
                     <div className="w-10 h-10 bg-zinc-800 rounded-full" />
                 )}
               </div>
-              <p className="text-zinc-400 text-[10px] md:text-xs font-medium group-hover:text-white transition-colors uppercase tracking-[0.1em] text-center px-2">
+              <p className="text-zinc-400 text-[10px] md:text-xs font-medium group-hover:text-white transition-colors tracking-[0.1em] text-center px-2">
                 {item.title}
               </p>
             </div>
