@@ -3,11 +3,11 @@ import { HiArrowLeft } from 'react-icons/hi';
 
 const SubServiceHero = ({ subtitle, title, description, buttonText, buttonLink, image }) => {
   return (
-    <section className="relative pt-12 md:pt-16 pb-8 md:pb-12 overflow-hidden mb-20 sm:mb-32 px-4">
+    <section className="relative pt-12 md:pt-16 pb-4 md:pb-8 overflow-hidden mb-20 sm:mb-32 px-4">
       {/* Background Gradient Effect */}
       <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.05),transparent_50%)] pointer-events-none" />
 
-      <div className="container relative z-10 mx-auto sm:px-6 px-0">
+      <div className="container relative z-10 mx-auto pt-10 md:pt-5 sm:px-6 px-0">
         {/* Back Link */}
         <Link
           href="/ai"
@@ -46,9 +46,10 @@ const SubServiceHero = ({ subtitle, title, description, buttonText, buttonLink, 
 
               <Link
                 href={buttonLink || "/contact-us"}
-                className="inline-block bg-white text-black font-bold py-2.5 px-6 rounded-lg hover:bg-zinc-200 transition-all duration-300 shadow-xl text-xs uppercase tracking-wider"
+                className="primary-btn2 capitalize"
+                data-text={buttonText || "Start a Project"}
               >
-                {buttonText || "Start a Project"}
+                <span>{buttonText || "Start a Project"}</span>
               </Link>
             </div>
           </div>

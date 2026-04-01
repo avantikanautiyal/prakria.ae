@@ -22,7 +22,7 @@ const SubServiceNumberedCards = ({ title, description, list, conclusionLine }) =
             return (
               <div
                 key={index} 
-                className="group p-10 rounded-xl transition-all duration-500 flex flex-col min-h-[200px] bg-zinc-900/40 border border-zinc-800/50 text-white hover:bg-white hover:text-black active:bg-white active:text-black hover:border-transparent active:border-transparent cursor-pointer hover:shadow-2xl hover:scale-[1.02]"
+                className="group p-10 rounded-xl transition-all duration-500 flex flex-col min-h-[200px] bg-zinc-900/40 border-2 border-white/10 text-white hover:bg-white hover:text-black active:bg-white active:text-black hover:border-transparent active:border-transparent cursor-pointer hover:shadow-2xl hover:scale-[1.02]"
               >
                 <div className="text-5xl md:text-6xl font-bold mb-8 text-zinc-100 group-hover:text-zinc-800 group-active:text-zinc-800 transition-colors duration-500">
                   {item.number || (index + 1).toString().padStart(2, '0')}
@@ -39,7 +39,7 @@ const SubServiceNumberedCards = ({ title, description, list, conclusionLine }) =
         </div>
 
         {conclusionLine && (
-          <div className="mt-20 text-center">
+          <div className="mt-12 text-center">
             <p className="text-zinc-400 text-sm md:text-base max-w-5xl mx-auto font-light leading-relaxed">
               {conclusionLine}
             </p>

@@ -39,7 +39,7 @@ function HowWeWork(props) {
     </div>
       {props?.conclusionLine && (
         <div className="mt-16 text-center border-t border-gray-800 pt-8 max-w-4xl mx-auto">
-          <p className="text-gray-400 text-sm md:text-base italic">{props.conclusionLine}</p>
+          <p className="text-gray-400 text-sm md:text-base">{props.conclusionLine}</p>
         </div>
       )}
   </section>

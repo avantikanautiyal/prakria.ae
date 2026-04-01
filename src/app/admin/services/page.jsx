@@ -92,7 +92,7 @@ export default function ServicesPage() {
             ))}
             {(!services || services.length === 0) && (
               <tr>
-                <td colSpan="5" className="px-6 py-10 text-center text-zinc-500 italic">
+                <td colSpan="5" className="px-6 py-10 text-center text-zinc-500">
                   No services found. Click &quot;Add New Service&quot; to get started.
                 </td>
               </tr>

@@ -8,7 +8,7 @@ function ExecutionSection(props) {
       <div className="container mx-auto">
         {/* Header Section */}
         <div className="text-center mb-4 md:mb-10">
-        <h2 className="text-4xl sm:text-5xl md:text-5xl mb-4">
+        <h2 className="text-balance text-4xl md:text-4xl tracking-tight mb-4">
         {props?.title}
           </h2>
           <p className="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto whitespace-pre-line">

@@ -89,7 +89,7 @@ export default function SubServicesPage() {
             ))}
             {(!data || data.length === 0) && (
               <tr>
-                <td colSpan="5" className="px-6 py-10 text-center text-zinc-500 italic">
+                <td colSpan="5" className="px-6 py-10 text-center text-zinc-500">
                   No sub-services found. Start by adding one.
                 </td>
               </tr>

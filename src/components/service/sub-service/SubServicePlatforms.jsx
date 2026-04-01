@@ -2,7 +2,7 @@ const SubServicePlatforms = ({ title, description, list, conclusionLine }) => {
   if (!list || list.length === 0) return null;
 
   return (
-    <section className="py-10 md:py-20">
+    <section className="py-8 md:py-10">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         {title && (
           <div className="text-center mb-12 sm:mb-16">
@@ -10,7 +10,7 @@ const SubServicePlatforms = ({ title, description, list, conclusionLine }) => {
               {title}
             </h2>
             {description && (
-              <p className="mx-auto max-w-4xl text-sm md:text-sm text-zinc-400 mb-10 leading-relaxed font-light">
+              <p className="mx-auto max-w-4xl text-sm md:text-sm text-zinc-400 mb-8 leading-relaxed font-light">
                 {description}
               </p>
             )}
@@ -39,8 +39,8 @@ const SubServicePlatforms = ({ title, description, list, conclusionLine }) => {
         </div>
 
         {conclusionLine && (
-          <div className="mt-20 text-center">
-            <p className="text-zinc-500 text-sm md:text-base max-w-4xl mx-auto font-light leading-relaxed italic">
+          <div className="mt-12 text-center">
+            <p className="text-zinc-500 text-sm md:text-base max-w-4xl mx-auto font-light leading-relaxed">
               {conclusionLine}
             </p>
           </div>

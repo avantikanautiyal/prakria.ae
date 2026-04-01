@@ -43,14 +43,19 @@ export default async function SubServicePage({ params }) {
     <main className="bg-black min-h-screen text-white overflow-hidden">
       {/* 1. Hero Section - Usually required */}
       {(subService.herosection?.title || subService.name) && (
-        <SubServiceHero
-          subtitle={subService.category || "AI Creative Production"}
-          title={subService.herosection?.title || subService.name}
-          description={subService.herosection?.description}
-          buttonText={subService.herosection?.buttonText}
-          buttonLink="/contact-us"
-          image={subService.herosection?.icon}
-        />
+        <div className="relative w-full">
+          <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-white/10 via-transparent to-transparent" />
+          <div className="absolute top-0 left-0 w-3/4 h-3/4 pointer-events-none bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-white/15 via-transparent to-transparent" />
+          
+          <SubServiceHero
+            subtitle={subService.category || "AI Creative Production"}
+            title={subService.herosection?.title || subService.name}
+            description={subService.herosection?.description}
+            buttonText={subService.herosection?.buttonText}
+            buttonLink="/contact-us"
+            image={subService.herosection?.icon}
+          />
+        </div>
       )}
 
       {/* 2. Intro Section */}

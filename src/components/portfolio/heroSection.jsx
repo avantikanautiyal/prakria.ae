@@ -44,7 +44,7 @@ function HeroSectionPortfolio(props) {
         </main>
         {props?.conclusionLine && (
           <div className="mt-16 text-center border-t border-gray-800 pt-8">
-            <p className="text-gray-400 text-lg italic">{props?.conclusionLine}</p>
+            <p className="text-gray-400 text-lg">{props?.conclusionLine}</p>
           </div>
         )}
       </section>

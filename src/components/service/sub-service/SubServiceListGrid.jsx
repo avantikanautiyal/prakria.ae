@@ -4,10 +4,10 @@ const SubServiceListGrid = ({ title, subtitle, list, conclusionLine, showCheckma
   if (!list || list.length === 0) return null;
 
   return (
-    <section className="py-10 md:py-20 border-t border-zinc-900/30">
+    <section className="py-4 md:py-8">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {title && (
-          <div className="text-center mb-12 sm:mb-16">
+          <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-4xl md:text-4xl font-serif tracking-tight leading-tight mb-6 text-white text-balance">
               {title}
             </h2>
@@ -23,12 +23,12 @@ const SubServiceListGrid = ({ title, subtitle, list, conclusionLine, showCheckma
           {list.map((item, index) => (
             <div 
               key={index} 
-              className="flex items-center gap-4 p-8 bg-zinc-900/30 border border-zinc-800/40 rounded-xl hover:bg-zinc-900/50 transition-all duration-300 group min-h-[100px] w-full md:max-w-[calc(50%-1rem)] lg:max-w-[calc(33.333%-1rem)] flex-grow"
+              className="flex items-center gap-4 p-8 bg-zinc-900/30 border-2 border-white/10 rounded-xl hover:bg-zinc-900/50 transition-all duration-300 group min-h-[100px] w-full md:max-w-[calc(50%-1rem)] lg:max-w-[calc(33.333%-1rem)] flex-grow"
             >
               {showCheckmark && (
                 <HiCheckCircle className="w-5 h-5 text-zinc-600 group-hover:text-zinc-400 transition-colors shrink-0" />
               )}
-              <span className="text-sm md:text-base text-zinc-300 font-light tracking-wide leading-relaxed">
+              <span className={`text-sm md:text-base text-zinc-300 font-light tracking-wide leading-relaxed ${showCheckmark ? 'text-left' : 'text-center'}`}>
                 {item.title}
               </span>
             </div>

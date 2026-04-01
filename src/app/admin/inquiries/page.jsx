@@ -83,7 +83,7 @@ export default function InquiriesPage() {
                 ))}
                 {(!inquiries || inquiries.length === 0) && (
                   <tr>
-                    <td colSpan="5" className="px-6 py-10 text-center text-zinc-500 italic">
+                    <td colSpan="5" className="px-6 py-10 text-center text-zinc-500">
                       No inquiries found.
                     </td>
                   </tr>
