@@ -23,12 +23,12 @@ const SubServiceListGrid = ({ title, subtitle, list, conclusionLine, showCheckma
           {list.map((item, index) => (
             <div 
               key={index} 
-              className="flex items-center gap-4 p-8 bg-zinc-900/30 border-2 border-white/10 rounded-xl hover:bg-zinc-900/50 transition-all duration-300 group min-h-[100px] w-full md:max-w-[calc(50%-1rem)] lg:max-w-[calc(33.333%-1rem)] flex-grow"
+              className={`flex items-center gap-4 p-8 bg-zinc-900/30 border-2 border-white/10 rounded-xl hover:bg-zinc-900/50 transition-all duration-300 group min-h-[100px] w-full md:max-w-[calc(50%-1rem)] lg:max-w-[calc(33.333%-1rem)] flex-grow ${showCheckmark ? 'text-left' : 'text-center'}`}
             >
               {showCheckmark && (
                 <HiCheckCircle className="w-5 h-5 text-zinc-600 group-hover:text-zinc-400 transition-colors shrink-0" />
               )}
-              <span className={`text-sm md:text-base text-zinc-300 font-light tracking-wide leading-relaxed ${showCheckmark ? 'text-left' : 'text-center'}`}>
+              <span className={`w-full text-sm md:text-base text-zinc-300 font-light tracking-wide leading-relaxed ${showCheckmark ? 'text-left' : 'text-center'}`}>
                 {item.title}
               </span>
             </div>

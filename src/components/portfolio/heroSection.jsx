@@ -7,7 +7,7 @@ function HeroSectionPortfolio(props) {
     <div className="container mx-auto p-4 md:p-8">
       <section>
         {/* Header Section */}
-        <header className="text-center py-8 md:py-12">
+        <header className="text-center py-14 md:py-12">
           <h1 className="text-2xl md:text-3xl font-semibold text-gray-200">
             {props?.title}
           </h1>
