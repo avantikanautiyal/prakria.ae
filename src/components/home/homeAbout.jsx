@@ -23,12 +23,12 @@ const Home1About = () => {
                   <img
                     id="left-speaker"
                     src="https://zenfy-next-js.vercel.app/_next/static/media/home2-banner-vector1.a4dadb47.svg"
-                    alt=""
+                    alt="speaker icon"
                   />
                   <img
                     id="right-speaker"
                     src="https://zenfy-next-js.vercel.app/_next/static/media/home2-banner-vector2.f0e2a83d.svg"
-                    alt=""
+                    alt="speaker icon"
                   />
                   <h1>
                     {`We Are Not Your Average Agency`}
