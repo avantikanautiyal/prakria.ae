@@ -5,7 +5,19 @@ import { useRouter } from "next/navigation";
 function AiCoreServicesGrid({ subServices = [], title, description }) {
   const router = useRouter();
 
-  const handleCardClick = (slug) => {
+  const resolveServiceSlug = (service) => {
+    if (!service) return null;
+    const raw = String(service.slug || service._id || "").trim();
+    if (!raw) return null;
+    if (raw.startsWith("/ai/")) return raw.slice(4);
+    if (raw.startsWith("ai/")) return raw.slice(3);
+    if (raw.startsWith("/")) return raw.slice(1);
+    return raw;
+  };
+
+  const handleCardClick = (service) => {
+    const slug = resolveServiceSlug(service);
+    if (!slug) return;
     router.push(`/ai/${slug}`);
   };
 
@@ -30,7 +42,7 @@ function AiCoreServicesGrid({ subServices = [], title, description }) {
           return (
             <div
               key={service._id}
-              onClick={() => handleCardClick(service._id)}
+              onClick={() => handleCardClick(service)}
               className={`relative group p-6 cursor-pointer border-[1px] border-zinc-800 overflow-hidden transition-all duration-300 will-change-transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-black/40 hover:border-white/30
                 ${isGradientCard ? "bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.25),rgba(0,0,0,1)_60%)] text-white" : ""}
                 ${isBlackCard ? "bg-black text-white" : ""}

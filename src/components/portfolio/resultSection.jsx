@@ -4,7 +4,7 @@ function ResultSection(props) {
   if (!props?.title && (!props?.list || props.list.length === 0)) return null;
 
   return (
-    <section className="bg-black text-white py-20 px-4 sm:px-8 font-sans">
+    <section className="bg-black text-white py-8 px-4 sm:px-8 font-sans">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-16 md:mb-24">

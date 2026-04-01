@@ -3,6 +3,8 @@ import Link from 'next/link';
 const SubServiceRelated = ({ title, list, conclusionLine }) => {
   if (!list || list.length === 0) return null;
 
+  const getHref = (item) => item?.href || item?.buttonLink || "#";
+
   return (
     <section className="py-8 md:py-10 border-t border-zinc-900/50">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -35,7 +37,7 @@ const SubServiceRelated = ({ title, list, conclusionLine }) => {
 
                 <div className="mt-auto">
                   <Link
-                    href={item._id || "#"}
+                    href={getHref(item)}
                     className="inline-flex items-center gap-2 font-bold text-sm text-zinc-400 group-hover:text-zinc-600 group-active:text-zinc-600 transition-colors duration-500"
                   >
                     {item.buttonText || 'Read more'}
