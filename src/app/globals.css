@@ -4,6 +4,12 @@
 
 @layer base {
   :root {
+    --font-inter: var(--font-playfair);
+    --font-hankenGrotesk: var(--font-playfair);
+    --font-rubik: var(--font-playfair);
+    --font-open-sans: var(--font-playfair);
+    --font-prompt: var(--font-playfair);
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -70,8 +76,18 @@
   * {
     @apply border-border;
   }
+  html,
+  body {
+    font-family: var(--font-playfair), serif;
+  }
   body {
     @apply bg-background text-foreground;
+  }
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
   }
 }
 

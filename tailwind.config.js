@@ -12,6 +12,11 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      sans: ["var(--font-playfair)", "serif"],
+      serif: ["var(--font-playfair)", "serif"],
+      mono: ["var(--font-playfair)", "serif"],
+    },
     container: {
       center: true,
       padding: "2rem",

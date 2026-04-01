@@ -1,34 +1,12 @@
-import {
-  Inter,
-  Hanken_Grotesk,
-  Signika,
-  Playfair_Display,
-  Rubik,
-} from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Whatsapp from "@/components/global/whatsapp/Whatsapp";
 import SocialWidget from "@/components/global/socialmedia/SocialWidget";
 import Script from "next/script";
 
-const inter = Playfair_Display({
+const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-// Rubik({
-//   subsets: ["latin"],
-//   variable: "--font-inter",
-//   display: "swap",
-// });
-
-const signika = Playfair_Display({
-  subsets: ["latin"],
-});
-
-const hankenGrotesk = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-hankenGrotesk",
+  variable: "--font-playfair",
   display: "swap",
 });
 export const metadata = {
@@ -71,7 +49,7 @@ export default function RootLayout({ children }) {
 
       </head>
       <body
-        className={`${signika.className} ${inter.variable} ${hankenGrotesk.variable} dark`}
+        className={`${playfairDisplay.className} ${playfairDisplay.variable} dark`}
       >
 
         {/* Google Tag Manager (noscript) */}
