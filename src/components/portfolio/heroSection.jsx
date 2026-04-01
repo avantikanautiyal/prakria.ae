@@ -15,13 +15,13 @@ function HeroSectionPortfolio(props) {
             #SuperMAGGILeague
           </h2> */}
         </header>
-        <main className="grid grid-cols-5 grid-rows-3 gap-2">
+        <main className="grid grid-cols-1 auto-rows-[260px] gap-3 md:grid-cols-5 md:auto-rows-[400px] md:gap-2">
           {props?.list?.map((image, index) => (
             image?.type === "video" ? (
               <video
                 key={index}
                 src={image?.src}
-                className={`w-full h-[400px] object-cover ${getColSpan(index + 1)}`}
+                className={`w-full h-full object-cover bg-black ${getColSpan(index + 1)}`}
                 autoPlay
                 loop
                 muted
@@ -36,7 +36,7 @@ function HeroSectionPortfolio(props) {
                 key={index}
                 src={image?.src}
                 alt={image?.alt}
-                className={`w-full h-[400px] object-cover ${getColSpan(index + 1)}`}
+                className={`w-full h-full object-cover bg-black ${getColSpan(index + 1)}`}
                 // onError={(e) => { e.target.src = 'https://placehold.co/1200x400/333/FFF?text=Image+Error'; }}
               />
             )
@@ -54,8 +54,8 @@ function HeroSectionPortfolio(props) {
 
 
 function getColSpan(index) {
-    if (index === 1) return "col-span-5";
-    return index % 2 === 0 ? "col-span-3" : "col-span-2";
+    if (index === 1) return "md:col-span-5";
+    return index % 2 === 0 ? "md:col-span-3" : "md:col-span-2";
   }
   
 
