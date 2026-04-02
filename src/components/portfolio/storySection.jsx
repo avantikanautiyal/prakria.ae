@@ -5,7 +5,7 @@ function StorySection(props) {
   if (!props?.title && (!props?.paragraphs || props.paragraphs.length === 0)) return null;
 
   return (
-    <section className="relative py-8 md:py-10 overflow-hidden bg-[#1B1B1B]">
+    <section className="relative py-12 md:py-14 overflow-hidden bg-[#1B1B1B]">
       {/* Water drop SVG curve effect at the top */}
       <div
         className=" absolute top-0 left-0 w-full overflow-hidden pointer-events-none z-10"

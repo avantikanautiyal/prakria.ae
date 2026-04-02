@@ -44,7 +44,7 @@ export default async function BlogDetailPage({ params }) {
   }
 
   return (
-    <div className="blog-details-wrapper pt-150 pb-100">
+    <div className="blog-details-wrapper pt-150 pb-12">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
