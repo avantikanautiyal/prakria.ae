@@ -21,6 +21,10 @@
             {
                 "label": "Disclaimer",
                 "link": "/disclaimer"
+            },
+            {
+                "label": "Blogs",
+                "link": "/blogs"
             }
         ]
     },
