@@ -293,8 +293,7 @@ const Header1 = () => {
                             href="https://maps.app.goo.gl/4THy8p4FatQes1jZ7"
                           >
                             902, Aggarwal Corporate Heights, Netaji Subhash
-                            Place, Pitampura, Delhi 110034 Canada City,
-                            Office-02,
+                            Place, Pitampura, Delhi 110034
                           </Link>
                         </h6>
                       </div>
