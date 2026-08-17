@@ -4,14 +4,14 @@ import React from "react";
 
 const address = [
   {
-    country: "United Kingdom",
-    city: "London",
-    address: "105 Palewell Park London, England SW14 8JJ",
+    country: "U.A.E.",
+    city: "Dubai",
+    address: "Meydan Grandstand, 6th Floor, Meydan Road, Nad Al Sheba, Dubai, U.A.E.",
     closed: "Sunday",
     open: "Mon - Sat",
     time: "8 AM - 9 PM",
     location:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.5253602136936!2d-0.2682414200224422!3d51.46043466536791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760e91f1f19049%3A0xbdd0a091df159e20!2s105%20Palewell%20Park%2C%20London%20SW14%208JJ%2C%20UK!5e0!3m2!1sen!2sin!4v1716965093862!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.509!2d55.3006238!3d25.1595436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69c36f082541%3A0x16f65b407bb87f9!2sMeydan%20Grandstand!5e0!3m2!1sen!2sae!4v1723881600000!5m2!1sen!2sae",
   },
   {
     country: "India",
