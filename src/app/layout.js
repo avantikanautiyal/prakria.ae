@@ -1,8 +1,7 @@
 import { Playfair_Display } from "next/font/google";
 import "./globals.css";
-import Whatsapp from "@/components/global/whatsapp/Whatsapp";
-import SocialWidget from "@/components/global/socialmedia/SocialWidget";
 import Script from "next/script";
+import Providers from "@/components/Providers";
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
@@ -68,7 +67,13 @@ export const metadata = {
   },
 };
 
-import Providers from "@/components/Providers";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PRAKRIA",
+  "url": "https://www.prakria.com",
+  "logo": "https://www.prakria.com/logo.png"
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -86,6 +91,12 @@ export default function RootLayout({ children }) {
           `}
         </Script>
         {/* End Google Tag Manager */}
+        
+        {/* Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
 
       </head>
       <body

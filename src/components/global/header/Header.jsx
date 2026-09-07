@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useMemo, useReducer, useRef, useState } from "react";
+import { useEffect, useReducer, useRef, useState } from "react";
 import navData from "../../../data/navData.json";
 // import ScrollProgress from "../common/ScrollProgress";
 const initialState = {
@@ -126,14 +126,14 @@ const Header1 = () => {
             <div className="sidebar-menu-logo">
               <Link href="/" className="logo-dark">
                 <img
-                  alt="prakria logo"
+                  alt="Prakria Logo"
                   className="img-fluid"
                   src="/Prakria-logo.png"
                 />
               </Link>
               <Link href="/" className="logo-light">
                 <img
-                  alt="prakria logo"
+                  alt="Prakria Logo"
                   className="img-fluid"
                   src="/Prakria-logo.png"
                 />
@@ -342,10 +342,10 @@ const Header1 = () => {
         <div className="container d-flex flex-nowrap align-items-center justify-content-between py-2">
           <div className="company-logo">
             <Link href="/" className="logo-dark">
-              <img alt="prakria logo" className="img-fluid" src="/Prakria-logo.png" />
+              <img alt="Prakria Logo" className="img-fluid" src="/Prakria-logo.png" />
             </Link>
             <Link href="/" className="logo-light">
-              <img alt="prakria logo" className="img-fluid" src="/Prakria-logo.png" />
+              <img alt="Prakria Logo" className="img-fluid" src="/Prakria-logo.png" />
             </Link>
           </div>
           {/* <div className="main-menu d-lg-flex d-none">

@@ -58,6 +58,11 @@ function Whatwedo({ content }) {
     fetchAiPage();
   }, []);
 
+  const serviceHref = (slug = "") => {
+    const formattedSlug = slug.startsWith("/") ? slug : `/${slug}`;
+    return `/services${formattedSlug}`;
+  };
+
   return (
     <div
       className="home4-banner-section"
@@ -90,62 +95,65 @@ function Whatwedo({ content }) {
                 </div>
               ))
             : services.map((service, index) => (
-            <div
-              key={service._id || index}
-              className="col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay={`${200 + (index % 3) * 100}ms`}
-              data-wow-duration="1500ms"
-              style={{
-                visibility: "visible",
-                animationDuration: "1500ms",
-                animationDelay: `${200 + (index % 3) * 100}ms`,
-              }}
-            >
-              <Link href={`/services${service.slug}`}>
-                <div className="about-feature-card two">
-                  <div className="icon d-flex justify-content-center">
-                    <img
-                      className="rounded-sm w-full object-cover whatwedo-media"
-                      src={service.image || "/images/default_service.jpg"}
-                      alt={service.name}
-                    />
-                  </div>
-                  <div className="content">
-                    <h4 className="uppercase">{service.name}</h4>
-                  </div>
+                <div
+                  key={service._id || index}
+                  className="col-lg-4 col-md-6 wow animate fadeInDown"
+                  data-wow-delay={`${200 + (index % 3) * 100}ms`}
+                  data-wow-duration="1500ms"
+                  style={{
+                    visibility: "visible",
+                    animationDuration: "1500ms",
+                    animationDelay: `${200 + (index % 3) * 100}ms`,
+                  }}
+                >
+                  <Link href={serviceHref(service.slug)}>
+                    <div className="about-feature-card two">
+                      <div className="icon d-flex justify-content-center">
+                        <img
+                          className="rounded-sm w-full object-cover whatwedo-media"
+                          src={service.image || "/images/default_service.jpg"}
+                          alt={service.name}
+                        />
+                      </div>
+                      <div className="content">
+                        <h4 className="uppercase">{service.name}</h4>
+                      </div>
+                    </div>
+                  </Link>
                 </div>
-              </Link>
-            </div>
-          ))}
+              ))}
           {!loading &&
             aiPagePublished &&
-            !services.find((service) => service.slug === "ai" || service.name?.toLowerCase() === "ai") && (
-            <div
-              className="col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay={`${200 + (9 % 3) * 100}ms`}
-              data-wow-duration="1500ms"
-              style={{
-                visibility: "visible",
-                animationDuration: "1500ms",
-                animationDelay: `${200 + (9 % 3) * 100}ms`,
-              }}
-            >
-              <Link href={"/ai"}>
-                <div className="about-feature-card two">
-                  <div className="icon d-flex justify-content-center">
-                    <img
-                      className="rounded-sm w-full object-cover whatwedo-media"
-                      src={aiPageData?.thumbnailImage || "/images/ai.jpg"}
-                      alt={aiPageData?.thumbnailAlt || "AI"}
-                    />
+            !services.find(
+              (service) =>
+                service.slug === "ai" || service.name?.toLowerCase() === "ai"
+            ) && (
+              <div
+                className="col-lg-4 col-md-6 wow animate fadeInDown"
+                data-wow-delay={`${200 + (9 % 3) * 100}ms`}
+                data-wow-duration="1500ms"
+                style={{
+                  visibility: "visible",
+                  animationDuration: "1500ms",
+                  animationDelay: `${200 + (9 % 3) * 100}ms`,
+                }}
+              >
+                <Link href={"/ai"}>
+                  <div className="about-feature-card two">
+                    <div className="icon d-flex justify-content-center">
+                      <img
+                        className="rounded-sm w-full object-cover whatwedo-media"
+                        src={aiPageData?.thumbnailImage || "/images/ai.jpg"}
+                        alt={aiPageData?.thumbnailAlt || "AI"}
+                      />
+                    </div>
+                    <div className="content">
+                      <h4 className="uppercase">AI</h4>
+                    </div>
                   </div>
-                  <div className="content">
-                    <h4 className="uppercase">AI</h4>
-                  </div>
-                </div>
-              </Link>
-            </div>
-          )}
+                </Link>
+              </div>
+            )}
         </div>
       </div>
     </div>

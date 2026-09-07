@@ -48,10 +48,10 @@ const Footer2 = () => {
                 <div className="footer-widget">
                   <div className="footer-logo">
                     <Link href="/" className="logo-dark">
-                      <img src="/Prakria-logo.png" alt="prakria logo" />
+                      <img src="/Prakria-logo.png" alt="Prakria - Creative & Digital Marketing Agency" />
                     </Link>
                     <Link href="/" className="logo-light">
-                      <img src="/Prakria-logo.png" alt="prakria logo" />
+                      <img src="/Prakria-logo.png" alt="Prakria - Creative & Digital Marketing Agency" />
                     </Link>
                   </div>
                   <div className="content">
@@ -62,8 +62,8 @@ const Footer2 = () => {
                     </p>
                   </div>
                   <div className="d-flex" id="isoo">
-                  <img src="/images/2015.jpg" alt="iso certificate image" />
-                  <img src="/images/2022.jpg" alt="iso certificate image 2" />
+                  <img src="/images/2015.jpg" alt="ISO 9001:2015 Certification" />
+                  <img src="/images/2022.jpg" alt="ISO 27001:2022 Certification" />
                   </div>
                 </div>
               </div>

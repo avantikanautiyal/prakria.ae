@@ -11,7 +11,7 @@ function Whatsapp() {
   return (
     <div id="whatsappp">
       <Link target="_blank" href={whatsappUrl}>
-        <img src="/images/whatsapp.png" alt="WhatsApp icon" />
+        <img src="/images/whatsapp.png" alt="WhatsApp" />
       </Link>
     </div>
   );
