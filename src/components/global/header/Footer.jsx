@@ -121,7 +121,7 @@ const Footer2 = () => {
               <div className="content">
                 <span>Call anytime</span>
                 <h6>
-                  <a href="tel:9810810034">+91 98108 10034</a>
+                  <a href="tel:+971522607520">+971 52 260 7520</a>
                 </h6>
               </div>
             </div>
@@ -142,9 +142,9 @@ const Footer2 = () => {
               <div className="content">
                 <span>Address</span>
                 <h6 className="max-w-[400px]">
-                  <a href="https://maps.app.goo.gl/4THy8p4FatQes1jZ7">
-                    902, Aggarwal Corporate Heights, Netaji Subhash Place,
-                    Pitampura, Delhi 110034
+                  <a href="https://goo.gl/maps/4aaEmTtbjMSoimnB7">
+                    Meydan Grandstand, 6th Floor, Meydan Road, Nad Al Sheba,
+                    Dubai, U.A.E.
                   </a>
                 </h6>
               </div>

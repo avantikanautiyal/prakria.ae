@@ -18,7 +18,7 @@ const homepageSchema = {
       url: baseUrl,
       logo: `${baseUrl}/Prakria-logo.png`,
       email: "info@prakria.com",
-      telephone: "+91-11-4720-0902",
+      telephone: "+971-52-260-7520",
       sameAs: [
         "https://www.facebook.com/prakria/",
         "https://www.instagram.com/prakria/",

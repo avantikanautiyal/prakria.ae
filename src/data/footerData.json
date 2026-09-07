@@ -82,16 +82,12 @@
         "title": "Get in touch",
         "links": [
             {
-                "link": "https://maps.app.goo.gl/4THy8p4FatQes1jZ7",
-                "label": "902, Aggarwal Corporate Heights, Netaji Subhash Place, Pitampura, Delhi 110034"
+                "link": "https://goo.gl/maps/4aaEmTtbjMSoimnB7",
+                "label": "Meydan Grandstand, 6th Floor, Meydan Road, Nad Al Sheba, Dubai, U.A.E."
             },
             {
-                "label": "+91 11 4720 0902",
-                "link": "tel:+911147200902"
-            },
-            {
-                "label": "+91 98108 10034",
-                "link": "tel:+91 98108 10034"
+                "label": "+971 52 260 7520",
+                "link": "tel:+971522607520"
             }
         ]
     }

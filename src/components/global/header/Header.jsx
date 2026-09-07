@@ -252,7 +252,7 @@ const Header1 = () => {
                       <div className="contact">
                         <span>Phone</span>
                         <h6>
-                          <a href="tel:9810810034">+91 98108 10034</a>
+                          <a href="tel:+971522607520">+971 52 260 7520</a>
                         </h6>
                       </div>
                     </li>
@@ -290,10 +290,10 @@ const Header1 = () => {
                         <h6>
                           <Link
                             target="_blank"
-                            href="https://maps.app.goo.gl/4THy8p4FatQes1jZ7"
+                            href="https://goo.gl/maps/4aaEmTtbjMSoimnB7"
                           >
-                            902, Aggarwal Corporate Heights, Netaji Subhash
-                            Place, Pitampura, Delhi 110034
+                            Meydan Grandstand, 6th Floor, Meydan Road, Nad Al
+                            Sheba, Dubai, U.A.E.
                           </Link>
                         </h6>
                       </div>
@@ -457,7 +457,7 @@ const Header1 = () => {
                 <div className="content">
                   <span>Got questions? </span>
                   <h6>
-                    <Link href="tel:9810810034">+91 98108 10034</Link>
+                    <Link href="tel:+971522607520">+971 52 260 7520</Link>
                   </h6>
                 </div>
               </div>

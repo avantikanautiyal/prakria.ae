@@ -6,7 +6,7 @@ function Whatsapp() {
   const defaultMessage = encodeURIComponent(
     "Hi team PRAKRIA, I wish to enquire about my Website Development requirement."
   );
-  const whatsappUrl = `https://wa.me/+919810810034?text=${defaultMessage}`;
+  const whatsappUrl = `https://wa.me/+971522607520?text=${defaultMessage}`;
 
   return (
     <div id="whatsappp">
