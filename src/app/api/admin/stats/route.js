@@ -7,6 +7,9 @@ import Service from '@/models/Service';
 import SubService from '@/models/SubService';
 import Testimonial from '@/models/Testimonial';
 
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
+
 export async function GET() {
   await dbConnect();
 

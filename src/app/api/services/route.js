@@ -2,6 +2,9 @@ import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/mongodb';
 import Service from '@/models/Service';
 
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
+
 const normalizeOrderNumber = (value) => {
   if (value === '' || value === null || typeof value === 'undefined') return null;
   const numeric = Number(value);

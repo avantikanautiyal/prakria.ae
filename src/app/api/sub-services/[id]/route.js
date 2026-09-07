@@ -2,6 +2,9 @@ import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/mongodb';
 import SubService from '@/models/SubService';
 
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
+
 const isMongoObjectId = (value) => /^[a-f\d]{24}$/i.test(String(value || '').trim());
 
 const normalizeSlugForMatch = (value) =>

@@ -2,6 +2,9 @@ import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/mongodb';
 import AiPage from '@/models/AiPage';
 
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
+
 const parseBool = (value) => value === 'true' || value === '1';
 
 export async function GET(req) {
