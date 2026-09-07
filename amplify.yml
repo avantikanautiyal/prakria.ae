@@ -1,0 +1,21 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        # Amplify console env vars are build-only by default.
+        # Write them into .env.production so Next.js API/SSR can use them at runtime.
+        - env | grep -e MONGODB_URI -e EMAIL_USER -e EMAIL_PASS -e SMTP_HOST -e SMTP_PORT -e RECAPTCHA_SITE_KEY -e RECAPTCHA_SECRET_KEY -e ACCESS_KEY_ID -e SECRET_ACCESS_KEY -e REGION -e S3_BUCKET_NAME >> .env.production
+        - env | grep -e NEXT_PUBLIC_ >> .env.production || true
+        - npm run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+      - .next/cache/**/*
