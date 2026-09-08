@@ -6,7 +6,7 @@ import LogoMarquee from "@/components/home/InfiniteCarosal";
 import Blog from "@/components/home/blogCard";
 import HomeServiceSections from "@/components/home/homeServiceSections";
 
-const baseUrl = "https://www.prakria.com";
+const baseUrl = "https://www.prakria.ae";
 
 const homepageSchema = {
   "@context": "https://schema.org",
@@ -17,7 +17,7 @@ const homepageSchema = {
       name: "PRAKRIA",
       url: baseUrl,
       logo: `${baseUrl}/Prakria-logo.png`,
-      email: "info@prakria.com",
+      email: "info@prakria.ae",
       telephone: "+971-52-260-7520",
       sameAs: [
         "https://www.facebook.com/prakria/",

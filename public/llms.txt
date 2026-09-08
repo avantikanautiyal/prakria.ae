@@ -6,22 +6,22 @@ Use this file as a curated map of the highest-value public pages for understandi
 
 ## Important Pages
 
-- [Homepage](https://www.prakria.com/): Primary overview and key entry point.
-- [About Us](https://www.prakria.com/about-us): Company profile and background.
-- [Contact Us](https://www.prakria.com/contact-us): Contact details and inquiry path.
-- [Blogs](https://www.prakria.com/blogs): Articles, insights, and updates.
+- [Homepage](https://www.prakria.ae/): Primary overview and key entry point.
+- [About Us](https://www.prakria.ae/about-us): Company profile and background.
+- [Contact Us](https://www.prakria.ae/contact-us): Contact details and inquiry path.
+- [Blogs](https://www.prakria.ae/blogs): Articles, insights, and updates.
 
 ## Service Pages
 
-- [Digital Marketing](https://www.prakria.com/digital-marketing)
-- [Packaging Design](https://www.prakria.com/packaging-design)
-- [Branding](https://www.prakria.com/branding)
-- [Print Media](https://www.prakria.com/print-media)
-- [3D and CGI](https://www.prakria.com/3d-cgi)
-- [AR, VR and Game Tech](https://www.prakria.com/ar-vr-game-tech)
-- [Films, Animation and VFX](https://www.prakria.com/films-animation-vfx)
-- [Illustration](https://www.prakria.com/illustration)
-- [Web Development](https://www.prakria.com/web-development)
+- [Digital Marketing](https://www.prakria.ae/digital-marketing)
+- [Packaging Design](https://www.prakria.ae/packaging-design)
+- [Branding](https://www.prakria.ae/branding)
+- [Print Media](https://www.prakria.ae/print-media)
+- [3D and CGI](https://www.prakria.ae/3d-cgi)
+- [AR, VR and Game Tech](https://www.prakria.ae/ar-vr-game-tech)
+- [Films, Animation and VFX](https://www.prakria.ae/films-animation-vfx)
+- [Illustration](https://www.prakria.ae/illustration)
+- [Web Development](https://www.prakria.ae/web-development)
 
 ## AI Guidance
 
@@ -31,4 +31,4 @@ Use this file as a curated map of the highest-value public pages for understandi
 
 ## Contact
 
-- Email: info@prakria.com
+- Email: info@prakria.ae

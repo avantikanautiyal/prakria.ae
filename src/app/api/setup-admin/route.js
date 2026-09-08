@@ -16,7 +16,7 @@ export async function GET() {
 
     const hashedPassword = await bcrypt.hash("admin123", 10);
     const admin = await User.create({
-      email: "admin@prakria.com",
+      email: "admin@prakria.ae",
       password: hashedPassword,
       name: "Admin",
     });

@@ -2,7 +2,7 @@ import React from "react";
 import ContactForm from "@/components/global/contactform/contactform";
 const data = {
   number: "+971 52 260 7520",
-  email: "info@prakria.com",
+  email: "info@prakria.ae",
 };
 const Home1Contact = () => {
   return (

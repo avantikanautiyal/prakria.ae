@@ -98,7 +98,7 @@ function Page() {
           <p>
             If you have any questions or concerns regarding this Disclaimer,
             please contact us at{" "}
-            <a href="mailto:info@prakria.com">info@prakria.com</a>
+            <a href="mailto:info@prakria.ae">info@prakria.ae</a>
           </p>
           <p>
             By accessing and using this website, you agree to the terms of this

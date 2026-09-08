@@ -169,7 +169,7 @@ const Footer2 = () => {
               <div className="content">
                 <span>Say Hello</span>
                 <h6>
-                  <a href="mailto:info@prakria.com">info@prakria.com</a>
+                  <a href="mailto:info@prakria.ae">info@prakria.ae</a>
                 </h6>
               </div>
             </div>

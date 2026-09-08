@@ -9,7 +9,7 @@ const playfairDisplay = Playfair_Display({
   display: "swap",
 });
 export const metadata = {
-  metadataBase: new URL('https://www.prakria.com'),
+  metadataBase: new URL('https://www.prakria.ae'),
   alternates: {
     canonical: './'
   },
@@ -71,8 +71,8 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "PRAKRIA",
-  "url": "https://www.prakria.com",
-  "logo": "https://www.prakria.com/logo.png"
+  "url": "https://www.prakria.ae",
+  "logo": "https://www.prakria.ae/logo.png"
 };
 
 export default function RootLayout({ children }) {

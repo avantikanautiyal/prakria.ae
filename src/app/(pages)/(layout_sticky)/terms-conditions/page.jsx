@@ -91,7 +91,7 @@ function index() {
         <p>
           If you have any questions, concerns, or requests regarding this
           Privacy Policy or our privacy practices, please contact us at{" "}
-          <a href="mailto:info@prakria.com">info@prakria.com</a>
+          <a href="mailto:info@prakria.ae">info@prakria.ae</a>
         </p>
         <p>
           We have a dedicated team to assist you and address any privacy-related

@@ -1,4 +1,4 @@
-const baseURL = "https://www.prakria.com";
+const baseURL = "https://www.prakria.ae";
 
 export default function robots() {
   return {
