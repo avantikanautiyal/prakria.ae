@@ -40,7 +40,7 @@
         "id": "dabur-baby-e-commerce",
         "className": "col-lg-4 col-12",
         "title": "Dabur",
-        "link": "dabur-baby-e-commerce",
+        "link": "/digital-marketing",
         "thumbnail": "/assets_main/digital_marketing/dabur.jpg",
         "alt": "digital marketing dabur"
       }
@@ -55,7 +55,7 @@
         "id": "100-pipers",
         "className": "col-lg-4 col-12",
         "title": "100 Pipers",
-        "link": "100-pipers",
+        "link": "/portfolio-item/100-pipers-limited-edition",
         "thumbnail": "/assets_main/packaging_design/100_pipers.jpg",
         "alt": "packaging design 100 pipers"
       },
@@ -63,7 +63,7 @@
         "id": "kitkat",
         "className": "col-lg-8 col-12",
         "title": "kitkat",
-        "link": "kitkat",
+        "link": "/portfolio-item/kitkat-love-break",
         "thumbnail": "/assets_main/packaging_design/kitkat.png",
         "alt": "packaging design kitkat"
       },
@@ -79,7 +79,7 @@
         "id": "quality-street",
         "className": "col-lg-4 col-12",
         "title": "Quality Street",
-        "link": "quality-street",
+        "link": "/portfolio-item/quality-street-diwali-pack",
         "thumbnail": "/assets_main/packaging_design/quality_street.png",
         "alt": "packaging design quality street"
       },
@@ -118,7 +118,7 @@
         "id": "nestle-ramadan-mauritius",
         "className": "col-lg-4 col-12",
         "title": "CARNATION",
-        "link": "nestle-ramadan-mauritius",
+        "link": "/digital-marketing",
         "thumbnail": "/assets_main/print_media/carnation.png",
         "alt": "carnation print media image"
       },
@@ -126,7 +126,7 @@
         "id": "kohler",
         "className": "col-lg-4 col-12",
         "title": "KOHLER",
-        "link": "kohler",
+        "link": "/portfolio-item/kohler-vibrant-brochure",
         "thumbnail": "/assets_main/print_media/kohler.png",
         "alt": "kohler print media image"
       },
@@ -181,7 +181,7 @@
         "id": "kohler-3d",
         "className": "col-lg-4 col-12",
         "title": "KOHLER",
-        "link": "kohler-3d",
+        "link": "/portfolio-item/kohler-3d-design",
         "thumbnail": "/assets_main/3d_cgi/kohler.jpg",
         "alt": "kohler 3d image"
       }
@@ -204,7 +204,7 @@
         "id": "cricket-ar-filter",
         "className": "col-lg-4 col-12",
         "title": "CRICKET GAME",
-        "link": "cricket-ar-filter",
+        "link": "/ar-vr-game-tech",
         "thumbnail": "/assets_main/ar_vr/cricket_game.jpg",
         "alt": "cricket game ar vr image"
       },
@@ -212,7 +212,7 @@
         "id": "nestle-polo-christmas-ar-filter",
         "className": "col-lg-4 col-12",
         "title": "POLO",
-        "link": "nestle-polo-christmas-ar-filter",
+        "link": "/portfolio-item/polo-christmas-ar-filter",
         "thumbnail": "/assets_main/ar_vr/polo.png",
         "alt": "polo ar vr image"
       },
@@ -228,7 +228,7 @@
         "id": "cereal-killers-ar-packaging",
         "className": "col-lg-4 col-12",
         "title": "CEREAL KILLERS",
-        "link": "cereal-killers-ar-packaging",
+        "link": "/ar-vr-game-tech",
         "thumbnail": "/assets_main/ar_vr/cerel_killer.png",
         "alt": "cerel killer ar vr image"
       }
@@ -243,7 +243,7 @@
         "id": "nestle-polo-republic-day-stop-motion-animation",
         "className": "col-lg-4 col-12",
         "title": "POLO",
-        "link": "nestle-polo-republic-day-stop-motion-animation",
+        "link": "/portfolio-item/nestle-polo",
         "thumbnail": "/assets_main/film_animation/polo.gif",
         "alt": "animation polo"
       },
@@ -259,7 +259,7 @@
         "id": "munch-crispop-3d-creative",
         "className": "col-lg-4 col-12",
         "title": "MUNCH",
-        "link": "munch-crispop-3d-creative",
+        "link": "/3d-cgi",
         "thumbnail": "/assets_main/film_animation/munch.gif",
         "alt": "animation munch"
       },
@@ -267,7 +267,7 @@
         "id": "jolly-rancher-triple-pop-everest",
         "className": "col-lg-4 col-12",
         "title": "JOLLY RENCHER",
-        "link": "jolly-rancher-triple-pop-everest",
+        "link": "/3d-cgi",
         "thumbnail": "/assets_main/film_animation/jolly_rencher.gif",
         "alt": "animation jolly rencher"
       },
@@ -275,7 +275,7 @@
         "id": "something-special-film",
         "className": "col-lg-4 col-12",
         "title": "SOMETHING SPECIAL",
-        "link": "something-special-film",
+        "link": "/films-animation-vfx",
         "thumbnail": "/assets_main/film_animation/something_special.gif",
         "alt": "animation something special"
       }

@@ -28,7 +28,7 @@ function getPortfolioPathObject(path) {
 }
 
 function getAllPortfolioPath() {
-  // Gather all keys from each portfolio category into a single array
+  // Live portfolio slugs only (used by sitemap) — includes website work
   const allKeys = [
     ...Object.keys(portfolioData.threeDCGI),
     ...Object.keys(portfolioData.arVr),
@@ -36,6 +36,7 @@ function getAllPortfolioPath() {
     ...Object.keys(portfolioData.digitalMarketing),
     ...Object.keys(portfolioData.packaging),
     ...Object.keys(portfolioData.printMedia),
+    ...Object.keys(portfolioData.website),
   ];
   return allKeys;
 }

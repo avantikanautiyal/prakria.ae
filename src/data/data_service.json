@@ -140,7 +140,7 @@
         "type": "image",
         "src": "/assets_main/services/packaging_design/1.jpg",
         "id": "6",
-        "link": "/portfolio-item/kitkat",
+        "link": "/portfolio-item/kitkat-love-break",
         "row": 1,
         "col": 3
       },
@@ -155,7 +155,7 @@
         "type": "image",
         "src": "/assets_main/services/packaging_design/3.webp",
         "id": "1",
-        "link": "/portfolio-item/100-pipers",
+        "link": "/portfolio-item/100-pipers-limited-edition",
         "row": 1,
         "col": 3
       },
@@ -170,7 +170,7 @@
         "type": "image",
         "src": "/assets_main/services/packaging_design/5.webp",
         "id": "quality-street",
-        "link": "/portfolio-item/quality-street",
+        "link": "/portfolio-item/quality-street-diwali-pack",
         "row": 1,
         "col": 3
       },
@@ -207,7 +207,6 @@
         "type": "image",
         "src": "/assets_main/services/packaging_design/10.webp",
         "id": "1",
-        
         "row": 1,
         "col": 3
       },
@@ -273,7 +272,7 @@
         "type": "image",
         "src": "/assets_main/services/print_media/pm01.webp",
         "id": "kohler",
-        "link": "/portfolio-item/kohler",
+        "link": "/portfolio-item/kohler-vibrant-brochure",
         "row": 1,
         "col": 3
       },
@@ -289,7 +288,6 @@
         "type": "image",
         "src": "/assets_main/services/print_media/pm03.webp",
         "id": "1",
-        
         "row": 1,
         "col": 3
       },
@@ -305,7 +303,6 @@
         "type": "image",
         "src": "/assets_main/services/print_media/pm05.webp",
         "id": "1",
-        
         "row": 1,
         "col": 3
       },
@@ -321,7 +318,6 @@
         "type": "image",
         "src": "/assets_main/services/print_media/pm07.webp",
         "id": "1",
-        
         "row": 1,
         "col": 3
       },
@@ -329,7 +325,6 @@
         "type": "image",
         "src": "/assets_main/services/print_media/pm08.webp",
         "id": "1",
-        
         "row": 1,
         "col": 3
       },
@@ -337,7 +332,6 @@
         "type": "image",
         "src": "/assets_main/services/print_media/pm09.webp",
         "id": "1",
-        
         "row": 1,
         "col": 3
       },
@@ -345,7 +339,6 @@
         "type": "image",
         "src": "/assets_main/services/print_media/pm10.webp",
         "id": "1",
-        
         "row": 1,
         "col": 3
       }
@@ -377,7 +370,7 @@
         "type": "image",
         "src": "/assets_main/services/3d_cgi/cgi1.webp",
         "id": "kohler-3d",
-        "link": "/portfolio-item/kohler-3d",
+        "link": "/portfolio-item/kohler-3d-design",
         "row": 1,
         "col": 3
       },
@@ -385,7 +378,6 @@
         "type": "image",
         "src": "/assets_main/services/3d_cgi/cgi2.webp",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -425,7 +417,6 @@
         "type": "image",
         "src": "/assets_main/services/3d_cgi/cgi7.gif",
         "id": "1",
-        
         "row": 1,
         "col": 3
       },
@@ -433,7 +424,6 @@
         "type": "image",
         "src": "/assets_main/services/3d_cgi/cgi8.gif",
         "id": "1",
-        
         "row": 1,
         "col": 3
       }
@@ -485,7 +475,7 @@
         "type": "image",
         "src": "/assets_main/services/branding/1.jpg",
         "id": "kitkat-celebreak",
-        "link": "/portfolio-item/kitkat-celebreak",
+        "link": "/case-study/kitkat-celebreak-when-every-break-becomes-a-celebration",
         "row": 1,
         "col": 3
       },
@@ -501,7 +491,7 @@
         "type": "image",
         "src": "/assets_main/services/branding/3.jpg",
         "id": "dr-oetker",
-        "link": "/portfolio-item/dr-oetker",
+        "link": "/portfolio-item/dr-oetker-premium-sauce",
         "row": 1,
         "col": 3
       },
@@ -509,7 +499,7 @@
         "type": "image",
         "src": "/assets_main/services/branding/4.jpg",
         "id": "nescafe",
-        "link": "/portfolio-item/nescafe",
+        "link": "/portfolio-item/nescafe-digital-packaging",
         "row": 1,
         "col": 3
       },
@@ -517,7 +507,7 @@
         "type": "image",
         "src": "/assets_main/services/branding/5.jpg",
         "id": "coffee-fiesta",
-        "link": "/portfolio-item/coffee-fiesta",
+        "link": "/portfolio-item/coffee-fiesta-packaging",
         "row": 1,
         "col": 3
       },
@@ -525,7 +515,7 @@
         "type": "image",
         "src": "/assets_main/services/branding/6.jpg",
         "id": "munch-max",
-        "link": "/portfolio-item/munch-max",
+        "link": "/portfolio-item/munch-max-branding",
         "row": 1,
         "col": 3
       },
@@ -533,7 +523,7 @@
         "type": "image",
         "src": "/assets_main/services/branding/7.jpg",
         "id": "kitkat-goa",
-        "link": "/portfolio-item/kitkat-goa",
+        "link": "/portfolio-item/kitkat-goa-branding",
         "row": 1,
         "col": 3
       },
@@ -541,7 +531,7 @@
         "type": "image",
         "src": "/assets_main/services/branding/8.jpg",
         "id": "palmolive",
-        "link": "/portfolio-item/palmolive",
+        "link": "/portfolio-item/palmolive-european-treasures",
         "row": 1,
         "col": 3
       },
@@ -549,7 +539,6 @@
         "type": "image",
         "src": "/assets_main/services/branding/9.jpg",
         "id": "1",
-        
         "row": 1,
         "col": 3
       },
@@ -557,7 +546,6 @@
         "type": "image",
         "src": "/assets_main/services/branding/10.jpg",
         "id": "1",
-        
         "row": 1,
         "col": 3
       }
@@ -613,7 +601,6 @@
         "type": "video",
         "src": "/assets_main/services/ar_vr/Ar1.mp4",
         "id": "#",
-        
         "row": 2,
         "col": 3
       },
@@ -621,7 +608,6 @@
         "type": "video",
         "src": "/assets_main/services/ar_vr/Ar2.mp4",
         "id": "#",
-        
         "row": 2,
         "col": 3
       },
@@ -629,7 +615,6 @@
         "type": "video",
         "src": "/assets_main/services/ar_vr/Ar4.mp4",
         "id": "#",
-        
         "row": 2,
         "col": 3
       },
@@ -637,7 +622,6 @@
         "type": "video",
         "src": "/assets_main/services/ar_vr/Ar5.mp4",
         "id": "#",
-        
         "row": 2,
         "col": 3
       },
@@ -645,16 +629,13 @@
         "type": "image",
         "src": "/assets_main/services/ar_vr/ar2.gif",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
-
       {
         "type": "image",
         "src": "/assets_main/services/ar_vr/ar1.gif",
         "id": "11",
-        
         "row": 1,
         "col": 3
       },
@@ -662,7 +643,6 @@
         "type": "image",
         "src": "/assets_main/services/ar_vr/ar3.gif",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -678,7 +658,6 @@
         "type": "image",
         "src": "/assets_main/services/ar_vr/ar5.webp",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -694,7 +673,7 @@
         "type": "image",
         "src": "/assets_main/services/ar_vr/ar7.png",
         "id": "nestle-polo-christmas-ar-filter",
-        "link": "/portfolio-item/nestle-polo-christmas-ar-filter",
+        "link": "/portfolio-item/polo-christmas-ar-filter",
         "row": 1,
         "col": 3
       },
@@ -702,7 +681,6 @@
         "type": "image",
         "src": "/assets_main/services/ar_vr/ar8.gif",
         "id": "#",
-        
         "row": 1,
         "col": 3
       }
@@ -770,7 +748,6 @@
         "type": "video",
         "src": "/assets_main/services/film_animations/1.mp4",
         "id": "#",
-        
         "row": 1,
         "col": 6
       },
@@ -778,7 +755,6 @@
         "type": "video",
         "src": "/assets_main/services/film_animations/2.mp4",
         "id": "#",
-        
         "row": 1,
         "col": 6
       },
@@ -786,7 +762,6 @@
         "type": "video",
         "src": "/assets_main/services/film_animations/3.mp4",
         "id": "#",
-        
         "row": 1,
         "col": 6
       },
@@ -794,7 +769,6 @@
         "type": "video",
         "src": "/assets_main/services/film_animations/4.mp4",
         "id": "#",
-        
         "row": 1,
         "col": 6
       },
@@ -802,7 +776,6 @@
         "type": "video",
         "src": "/assets_main/services/film_animations/5.mp4",
         "id": "#",
-        
         "row": 1,
         "col": 6
       },
@@ -810,7 +783,6 @@
         "type": "video",
         "src": "/assets_main/services/film_animations/6.mp4",
         "id": "#",
-        
         "row": 1,
         "col": 6
       },
@@ -818,7 +790,6 @@
         "type": "video",
         "src": "/assets_main/services/film_animations/7.mp4",
         "id": "#",
-        
         "row": 1,
         "col": 6
       },
@@ -826,7 +797,6 @@
         "type": "video",
         "src": "/assets_main/services/film_animations/8.mp4",
         "id": "#",
-        
         "row": 1,
         "col": 6
       }
@@ -894,7 +864,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il01.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -902,7 +871,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il02.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -910,7 +878,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il03.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -918,7 +885,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il04.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -926,7 +892,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il05.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -934,7 +899,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il06.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -942,7 +906,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il07.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -950,7 +913,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il08.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -958,7 +920,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il09.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -966,7 +927,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il10.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -974,7 +934,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il11.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -982,7 +941,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il12.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -990,7 +948,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il13.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -998,7 +955,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il14.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -1006,7 +962,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il15.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       },
@@ -1014,7 +969,6 @@
         "type": "image",
         "src": "/assets_main/services/illustration/il16.jpg",
         "id": "#",
-        
         "row": 1,
         "col": 3
       }
@@ -1058,7 +1012,6 @@
         "type": "image",
         "src": "/assets_main/services/web_dev/wd1.png",
         "id": "#",
-        
         "row": 1,
         "col": 1
       },
@@ -1066,7 +1019,6 @@
         "type": "image",
         "src": "/assets_main/services/web_dev/wd1.png",
         "id": "#",
-        
         "row": 1,
         "col": 1
       },
@@ -1074,7 +1026,6 @@
         "type": "image",
         "src": "/assets_main/services/web_dev/wd3.png",
         "id": "#",
-        
         "row": 1,
         "col": 1
       },
@@ -1082,7 +1033,6 @@
         "type": "image",
         "src": "/assets_main/services/web_dev/wd4.png",
         "id": "#",
-        
         "row": 1,
         "col": 1
       },
@@ -1090,7 +1040,6 @@
         "type": "image",
         "src": "/assets_main/services/web_dev/wd5.png",
         "id": "#",
-        
         "row": 1,
         "col": 1
       },
@@ -1098,7 +1047,6 @@
         "type": "image",
         "src": "/assets_main/services/web_dev/wd6.png",
         "id": "#",
-        
         "row": 1,
         "col": 1
       },
@@ -1106,7 +1054,6 @@
         "type": "image",
         "src": "/assets_main/services/web_dev/wd7.png",
         "id": "#",
-        
         "row": 1,
         "col": 1
       }
