@@ -49,7 +49,7 @@ const Home1Blog = () => {
                 key={post._id}
                 src={post.image || "/Prakria-logo.png"}
                 title={post.title}
-                slug={post.slug || post._id}
+                slug={post._id}
                 date={formatDisplayDate(resolvePostDate(post))}
               />
             ))}

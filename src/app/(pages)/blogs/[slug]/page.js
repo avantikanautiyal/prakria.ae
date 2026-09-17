@@ -1,30 +1,44 @@
 import React from "react";
 import dbConnect from "@/lib/mongodb";
 import Blog from "@/models/Blog";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { formatDisplayDate, resolvePostDate } from "@/lib/dates";
 
-// Fetch blog by public slug or legacy ObjectId
-async function getBlog(slug) {
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+const OBJECT_ID_RE = /^[0-9a-fA-F]{24}$/;
+
+/**
+ * Public blog URLs are canonical as /blogs/{MongoDB _id}.
+ * Human-readable `slug` field visits permanently redirect to that URL.
+ */
+async function resolveBlogParam(param) {
   await dbConnect();
-  const raw = String(slug || "").trim();
-  if (!raw) return null;
+  const raw = String(param || "").trim();
+  if (!raw) return { blog: null, shouldRedirect: false };
 
-  let blog = null;
-  if (/^[0-9a-fA-F]{24}$/.test(raw)) {
-    blog = await Blog.findById(raw).lean();
+  if (OBJECT_ID_RE.test(raw)) {
+    const blog = await Blog.findById(raw).lean();
+    return {
+      blog: blog ? JSON.parse(JSON.stringify(blog)) : null,
+      shouldRedirect: false,
+    };
   }
-  if (!blog) {
-    blog = await Blog.findOne({ slug: raw }).lean();
-  }
-  if (!blog) return null;
 
-  return JSON.parse(JSON.stringify(blog));
+  // Pretty slug → find post, then redirect to canonical /blogs/{_id}
+  const bySlug = await Blog.findOne({ slug: raw }).lean();
+  if (!bySlug) return { blog: null, shouldRedirect: false };
+
+  return {
+    blog: JSON.parse(JSON.stringify(bySlug)),
+    shouldRedirect: true,
+  };
 }
 
 // Generate SEO metadata
 export async function generateMetadata({ params }) {
-  const blog = await getBlog(params.slug);
+  const { blog, shouldRedirect } = await resolveBlogParam(params.slug);
 
   if (!blog) {
     return {
@@ -32,25 +46,44 @@ export async function generateMetadata({ params }) {
     };
   }
 
+  // Avoid indexing the pretty-slug URL; canonical is /blogs/{_id}
+  if (shouldRedirect) {
+    return {
+      title: blog.metaTitle || blog.title,
+      alternates: {
+        canonical: `/blogs/${blog._id}`,
+      },
+    };
+  }
+
   return {
     title: blog.metaTitle || blog.title,
     description: blog.metaDescription || "Read our latest blog post.",
-    keywords: blog.metaKeywords ? blog.metaKeywords.split(',') : [],
+    keywords: blog.metaKeywords ? blog.metaKeywords.split(",") : [],
+    alternates: {
+      canonical: `/blogs/${blog._id}`,
+    },
     openGraph: {
       title: blog.metaTitle || blog.title,
       description: blog.metaDescription || "Read our latest blog post.",
       images: [blog.image || "/Prakria-logo.png"],
       type: "article",
       authors: [blog.author],
+      url: `/blogs/${blog._id}`,
     },
   };
 }
 
 export default async function BlogDetailPage({ params }) {
-  const blog = await getBlog(params.slug);
+  const { blog, shouldRedirect } = await resolveBlogParam(params.slug);
 
   if (!blog) {
     notFound();
+  }
+
+  // /blogs/my-pretty-slug → 308 /blogs/{_id}
+  if (shouldRedirect) {
+    permanentRedirect(`/blogs/${blog._id}`);
   }
 
   const displayDate = formatDisplayDate(resolvePostDate(blog));
@@ -62,7 +95,9 @@ export default async function BlogDetailPage({ params }) {
           <div className="col-lg-10">
             <div className="blog-details-content">
               <div className="meta mb-4">
-                <span className="category text-primary uppercase font-bold">{blog.category}</span>
+                <span className="category text-primary uppercase font-bold">
+                  {blog.category}
+                </span>
                 <span className="mx-2">|</span>
                 <span className="author">By {blog.author}</span>
                 {displayDate ? (
@@ -74,9 +109,16 @@ export default async function BlogDetailPage({ params }) {
               </div>
               <h1 className="mb-4">{blog.title}</h1>
               <div className="featured-image mb-5">
-                <img src={blog.image || "/Prakria-logo.png"} alt={blog.title} className="img-fluid rounded w-100" />
+                <img
+                  src={blog.image || "/Prakria-logo.png"}
+                  alt={blog.title}
+                  className="img-fluid rounded w-100"
+                />
               </div>
-              <div className="content" dangerouslySetInnerHTML={{ __html: blog.content }} />
+              <div
+                className="content"
+                dangerouslySetInnerHTML={{ __html: blog.content }}
+              />
 
               {blog.video && (
                 <div className="video-wrapper mt-5">

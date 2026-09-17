@@ -77,11 +77,9 @@ export default async function sitemap() {
 
     blogEntries = blogs
       .map((blog) => {
-        const slug = normalizePublicSlug(blog.slug);
-        // Prefer human slug; fall back to ObjectId for legacy posts
-        const pathSlug = isValidPublicSlug(slug) ? slug : String(blog._id);
-        if (!pathSlug || /^\d+$/.test(pathSlug)) return null;
-        return entry(`/blogs/${pathSlug}`, {
+        const id = String(blog._id || "");
+        if (!id || !/^[0-9a-fA-F]{24}$/.test(id)) return null;
+        return entry(`/blogs/${id}`, {
           lastModified: resolvePostDate(blog) || new Date(),
           changeFrequency: "weekly",
           priority: 0.7,

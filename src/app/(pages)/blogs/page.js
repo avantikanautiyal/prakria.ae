@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { formatDisplayDate, resolvePostDate } from "@/lib/dates";
 
-const blogPath = (blog) => `/blogs/${blog.slug || blog._id}`;
+const blogPath = (blog) => `/blogs/${blog._id}`;
 
 const BlogsPage = () => {
   const [blogs, setBlogs] = useState([]);
