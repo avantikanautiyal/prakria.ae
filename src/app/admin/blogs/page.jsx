@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { toast } from 'react-toastify';
+import { formatDisplayDate, resolvePostDate } from '@/lib/dates';
 
 export default function BlogList() {
   const [blogs, setBlogs] = useState([]);
@@ -72,7 +73,7 @@ export default function BlogList() {
               <tr key={blog._id} className="border-b border-zinc-800 hover:bg-zinc-900 transition-colors">
                 <td className="py-4 px-2">{blog.title}</td>
                 <td className="py-4 px-2">{blog.author}</td>
-                <td className="py-4 px-2">{new Date(blog.createdAt).toLocaleDateString()}</td>
+                <td className="py-4 px-2">{formatDisplayDate(resolvePostDate(blog)) || '—'}</td>
                 <td className="py-4 px-2 space-x-4">
                   <Link href={`/admin/blogs/edit/${blog._id}`} className="text-blue-500 hover:underline">
                     Edit

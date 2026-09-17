@@ -8,6 +8,7 @@ import { useForm, useWatch } from 'react-hook-form';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { s3Upload } from '@/utils/s3Upload';
 import { useFormAutoSave, useNavigationGuard } from '@/hooks/useFormAutoSave';
+import { formatLocalDateInput } from '@/lib/dates';
 
 
 const JoditEditor = dynamic(() => import('jodit-react'), { ssr: false });
@@ -32,7 +33,7 @@ export default function BlogForm() {
       metaDescription: '',
       metaKeywords: '',
       isPublished: false,
-      postDate: '',
+      postDate: formatLocalDateInput(new Date()),
     }
   });
 
@@ -59,12 +60,12 @@ export default function BlogForm() {
     enabled: isEdit,
   });
 
-  // Initialize form with fetched data
+  // Initialize form with fetched data (local YYYY-MM-DD — no UTC day shift)
   useEffect(() => {
     if (data && !isDirty) {
       const formattedData = {
         ...data,
-        postDate: data.postDate ? new Date(data.postDate).toISOString().split('T')[0] : '',
+        postDate: formatLocalDateInput(data.postDate || data.createdAt) || formatLocalDateInput(new Date()),
         isPublished: !!data.isPublished,
       };
       reset(formattedData);
@@ -182,9 +183,10 @@ export default function BlogForm() {
             <label className="block text-zinc-400 mb-2">Post Date</label>
             <input
               type="date"
-              {...register('postDate')}
-              className="w-full p-2 bg-zinc-900 border border-zinc-800 rounded text-white"
+              {...register('postDate', { required: 'Post date is required' })}
+              className={`w-full p-2 bg-zinc-900 border ${errors.postDate ? 'border-red-500' : 'border-zinc-800'} rounded text-white`}
             />
+            {errors.postDate && <p className="text-red-500 text-xs mt-1">{errors.postDate.message}</p>}
           </div>
           <div className="flex items-center space-x-3 pt-8">
             <input

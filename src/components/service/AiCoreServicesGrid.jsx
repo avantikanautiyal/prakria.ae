@@ -66,10 +66,7 @@ function AiCoreServicesGrid({ subServices = [], title, description }) {
                 `}
               />
               <div
-                className={`absolute bottom-24 right-[20%] w-10 h-10 rotate-[25deg] opacity-10 transition-all duration-300 group-hover:translate-y-1 group-hover:opacity-20
-                  ${isWhiteCard ? "bg-black" : "bg-white"}
-                `}
-                style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)", background: isWhiteCard ? "#000" : "#fff" }}
+                className={`absolute bottom-24 right-[20%] w-10 h-10 rotate-[25deg] opacity-10 transition-all duration-300 group-hover:translate-y-1 group-hover:opacity-20 ai-core-shape-rect ${isWhiteCard ? "ai-core-shape-rect--black" : "ai-core-shape-rect--white"}`}
               />
 
               <div className="relative z-10 flex h-full flex-col">

@@ -43,6 +43,7 @@ const BlogSchema = new mongoose.Schema({
   },
   postDate: {
     type: Date,
+    required: [true, 'Please provide a post date.'],
   },
 }, {
   timestamps: true,

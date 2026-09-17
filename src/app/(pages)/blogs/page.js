@@ -1,6 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { formatDisplayDate, resolvePostDate } from "@/lib/dates";
+
+const blogPath = (blog) => `/blogs/${blog.slug || blog._id}`;
 
 const BlogsPage = () => {
   const [blogs, setBlogs] = useState([]);
@@ -46,10 +49,12 @@ const BlogsPage = () => {
           </div>
         ) : (
           <div className="row g-4">
-            {blogs.map((blog) => (
+            {blogs.map((blog) => {
+              const displayDate = formatDisplayDate(resolvePostDate(blog));
+              return (
               <div key={blog._id} className="col-lg-4 col-md-6">
                 <div className="blog-card">
-                  <Link href={`/blogs/${blog._id}`}>
+                  <Link href={blogPath(blog)}>
                     <div className="blog-card-img-wrap">
                       <div className="card-img">
                         <img src={blog.image || "/Prakria-logo.png"} alt={blog.title} />
@@ -58,6 +63,9 @@ const BlogsPage = () => {
                     <div className="card-content">
                       <div className="meta mb-2">
                          <span className="category text-primary">{blog.category}</span>
+                         {displayDate ? (
+                           <span className="date text-zinc-400 ms-2">{displayDate}</span>
+                         ) : null}
                       </div>
                       <h4>{blog.title}</h4>
                       <div className="read-more-btn">
@@ -79,7 +87,8 @@ const BlogsPage = () => {
                   </Link>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         )}
       </div>

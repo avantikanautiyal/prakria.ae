@@ -168,7 +168,7 @@ function ContactForm() {
           <div className="col-lg-12 mb-30">
             <div className="flex items-center gap-2 mb-4">
               <input
-                style={{ height: "20px" }}
+                className="contact-agreement-checkbox"
                 type="checkbox"
                 required
                 name="agreement"

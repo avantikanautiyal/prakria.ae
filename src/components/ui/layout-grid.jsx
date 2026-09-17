@@ -55,8 +55,7 @@ const BlurImage = ({ card, open, onClick, className, onHover }) => {
   return (
     <>
       <span
-        style={{ cursor: "pointer" }}
-        className={className + " mb-4 " + "image-container"}
+        className={className + " mb-4 " + "image-container layout-grid-clickable"}
         onClick={onClick}
       >
         {isVideo ? (
@@ -69,7 +68,7 @@ const BlurImage = ({ card, open, onClick, className, onHover }) => {
             loop
             playsInline
             onLoadedData={() => setLoaded(true)}
-            style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            className="layout-grid-media-cover"
           />
         ) : (
           <img
@@ -78,7 +77,7 @@ const BlurImage = ({ card, open, onClick, className, onHover }) => {
             width="900"
             onLoad={() => setLoaded(true)}
             alt={card?.alt || "thumbnail"}
-            style={{ height: "100%" }}
+            className="layout-grid-img"
           />
         )}
         <div className="overlay">

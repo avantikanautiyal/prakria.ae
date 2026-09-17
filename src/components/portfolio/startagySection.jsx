@@ -53,10 +53,7 @@ function StartagyCard({ number, title, description, even }) {
             {title}
           </h2>
           {/* 1. Small Number */}
-          <div
-            className="w-full text-center font-serif text-4xl sm:text-5xl md:text-6xl leading-none tracking-tight break-words"
-            style={{ fontWeight: 700 }}
-          >
+          <div className="w-full text-center font-serif text-4xl sm:text-5xl md:text-6xl leading-none tracking-tight break-words strategy-number-weight">
             {number}
           </div>
         </>
@@ -64,8 +61,7 @@ function StartagyCard({ number, title, description, even }) {
         <>
           {/* 1. Small Number */}
           <div
-              className="w-full text-center font-serif text-4xl sm:text-5xl md:text-6xl leading-none mb-2 tracking-tight break-words"
-            style={{ fontWeight: 700 }}
+              className="w-full text-center font-serif text-4xl sm:text-5xl md:text-6xl leading-none mb-2 tracking-tight break-words strategy-number-weight"
           >
             {number}
           </div>

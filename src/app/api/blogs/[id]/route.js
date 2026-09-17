@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/mongodb';
 import Blog from '@/models/Blog';
+import { sanitizeBlogPayload } from '@/lib/dates';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
@@ -26,7 +27,16 @@ export async function PUT(req, { params }) {
   await dbConnect();
   try {
     const body = await req.json();
-    const blog = await Blog.findByIdAndUpdate(params.id, body, {
+    const payload = sanitizeBlogPayload(body);
+
+    if (Object.prototype.hasOwnProperty.call(body, 'postDate') && !payload.postDate) {
+      return NextResponse.json(
+        { success: false, error: 'Post date is required' },
+        { status: 400 }
+      );
+    }
+
+    const blog = await Blog.findByIdAndUpdate(params.id, payload, {
       new: true,
       runValidators: true,
     });

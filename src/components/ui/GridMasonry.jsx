@@ -65,11 +65,11 @@ function GridCard({ item, className, fill }) {
         id={"portfolio-card"}
         className={cn(
           className,
-          `rounded-lg wow animate zoomIn hidden  md:block col-span-12`
+          `rounded-lg wow animate zoomIn hidden  md:block col-span-12 grid-masonry-span`
         )}
         style={{
-          gridRow: `span ${item.row}`,
-          gridColumn: `span ${item.col}`,
+          "--masonry-row": item.row,
+          "--masonry-col": item.col,
         }}
       >
         {item.link ? (

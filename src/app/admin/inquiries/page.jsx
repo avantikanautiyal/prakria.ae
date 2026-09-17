@@ -3,7 +3,7 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useState } from 'react';
 import { toast } from 'react-toastify';
-import { format } from 'date-fns';
+import { formatSafeDateTime, formatSafeLongDateTime } from '@/lib/dates';
 
 export default function InquiriesPage() {
   const queryClient = useQueryClient();
@@ -74,7 +74,7 @@ export default function InquiriesPage() {
                     <td className="px-6 py-4 font-medium">{inquiry.fullName}</td>
                     <td className="px-6 py-4 text-zinc-400 truncate max-w-[200px]">{inquiry.subject}</td>
                     <td className="px-6 py-4 text-zinc-400 text-xs">
-                      {format(new Date(inquiry.createdAt), 'MMM d, yyyy HH:mm')}
+                      {formatSafeDateTime(inquiry.createdAt)}
                     </td>
                     <td className="px-6 py-4">
                       <button className="text-zinc-400 hover:text-white transition-colors text-sm">View</button>
@@ -100,7 +100,7 @@ export default function InquiriesPage() {
               <div className="flex justify-between items-start mb-6">
                 <div>
                   <h2 className="text-2xl font-bold">{selectedInquiry.subject}</h2>
-                  <p className="text-zinc-400 text-sm">{format(new Date(selectedInquiry.createdAt), 'PPPP p')}</p>
+                  <p className="text-zinc-400 text-sm">{formatSafeLongDateTime(selectedInquiry.createdAt)}</p>
                 </div>
                 <button 
                   onClick={() => setSelectedInquiry(null)}

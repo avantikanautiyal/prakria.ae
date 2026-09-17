@@ -107,6 +107,15 @@ const legacyRedirects = [
   { source: '/servicesprint-media', destination: '/print-media', permanent: true },
   { source: '/services3d-cgi', destination: '/3d-cgi', permanent: true },
   { source: '/services/print-media', destination: '/print-media', permanent: true },
+  // Prefixed /services/{static-slug} → live top-level service pages
+  { source: '/services/digital-marketing', destination: '/digital-marketing', permanent: true },
+  { source: '/services/packaging-design', destination: '/packaging-design', permanent: true },
+  { source: '/services/branding', destination: '/branding', permanent: true },
+  { source: '/services/3d-cgi', destination: '/3d-cgi', permanent: true },
+  { source: '/services/ar-vr-game-tech', destination: '/ar-vr-game-tech', permanent: true },
+  { source: '/services/films-animation-vfx', destination: '/films-animation-vfx', permanent: true },
+  { source: '/services/illustration', destination: '/illustration', permanent: true },
+  { source: '/services/web-development', destination: '/web-development', permanent: true },
 ];
 
 export default legacyRedirects;

@@ -661,30 +661,14 @@
           "link": "/portfolio-item/nestle-nido-merchandise-design"
         },
         {
-          "src": "/assets_main/services/print_media/pm03.webp",
-          "alt": "Event and festive print collateral"
-        },
-        {
           "src": "/assets_main/services/print_media/pm04.webp",
           "alt": "Beauty and skincare print ad design",
           "link": "/portfolio-item/polo-extra-strong"
         },
         {
-          "src": "/assets_main/services/print_media/pm05.webp",
-          "alt": "Fashion print media campaign"
-        },
-        {
           "src": "/assets_main/services/print_media/pm06.webp",
           "alt": "Social post print media combination",
           "link": "/portfolio-item/nestle-grekyo-blueberry-yogurt"
-        },
-        {
-          "src": "/assets_main/services/print_media/pm07.webp",
-          "alt": "Promotional poster design for print"
-        },
-        {
-          "src": "/assets_main/services/print_media/pm08.webp",
-          "alt": "Health product brochure and leaflet design"
         }
       ]
     },
@@ -1617,32 +1601,32 @@
       "description": "Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.",
       "list": [
         {
-          "link": "portfolio-item/rentopiaa",
+          "link": "/portfolio-item/rentopiaa",
           "src": "/assets_main/services/web_dev/1.png",
           "alt": "rentopiaa"
         },
         {
-          "link": "portfolio-item/terradef",
+          "link": "/portfolio-item/terradef",
           "src": "/assets_main/services/web_dev/3.png",
           "alt": "terradef"
         },
         {
-          "link": "portfolio-item/cradleesoft",
+          "link": "/portfolio-item/cradleesoft",
           "src": "/assets_main/services/web_dev/2.png",
           "alt": "cradleesoft"
         },
         {
-          "link": "portfolio-item/supreme-forex",
+          "link": "/portfolio-item/supreme-forex",
           "src": "/assets_main/services/web_dev/4.png",
           "alt": "supreme-forex"
         },
         {
-          "link": "portfolio-item/skyimpact",
+          "link": "/portfolio-item/skyimpact",
           "src": "/assets_main/services/web_dev/5.png",
           "alt": "skyimpact"
         },
         {
-          "link": "portfolio-item/shl-supreme-home-loans",
+          "link": "/portfolio-item/shl-supreme-home-loans",
           "src": "/assets_main/services/web_dev/6.png",
           "alt": "shl-supreme-home-loans"
         }

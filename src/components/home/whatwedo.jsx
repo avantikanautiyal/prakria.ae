@@ -64,14 +64,7 @@ function Whatwedo({ content }) {
   };
 
   return (
-    <div
-      className="home4-banner-section"
-      style={{
-        background:
-          "url(https://zenfy-next-js.vercel.app/_next/static/media/home4-banner-bg-dark.9899db56.png)",
-        padding: "50px 0px",
-      }}
-    >
+    <div className="home4-banner-section whatwedo-banner">
       <div className="container">
         <h2 className="font-bold text-center mb-3  uppercase">
           What we Do
@@ -81,8 +74,7 @@ function Whatwedo({ content }) {
             ? skeletonItems.map((_, index) => (
                 <div
                   key={`skeleton-${index}`}
-                  className="col-lg-4 col-md-6"
-                  style={{ visibility: "visible" }}
+                  className="col-lg-4 col-md-6 wow-visible"
                 >
                   <div className="about-feature-card two">
                     <div className="icon d-flex justify-content-center">
@@ -97,14 +89,9 @@ function Whatwedo({ content }) {
             : services.map((service, index) => (
                 <div
                   key={service._id || index}
-                  className="col-lg-4 col-md-6 wow animate fadeInDown"
+                  className="col-lg-4 col-md-6 wow animate fadeInDown wow-visible"
                   data-wow-delay={`${200 + (index % 3) * 100}ms`}
                   data-wow-duration="1500ms"
-                  style={{
-                    visibility: "visible",
-                    animationDuration: "1500ms",
-                    animationDelay: `${200 + (index % 3) * 100}ms`,
-                  }}
                 >
                   <Link href={serviceHref(service.slug)}>
                     <div className="about-feature-card two">
@@ -129,14 +116,9 @@ function Whatwedo({ content }) {
                 service.slug === "ai" || service.name?.toLowerCase() === "ai"
             ) && (
               <div
-                className="col-lg-4 col-md-6 wow animate fadeInDown"
+                className="col-lg-4 col-md-6 wow animate fadeInDown wow-visible"
                 data-wow-delay={`${200 + (9 % 3) * 100}ms`}
                 data-wow-duration="1500ms"
-                style={{
-                  visibility: "visible",
-                  animationDuration: "1500ms",
-                  animationDelay: `${200 + (9 % 3) * 100}ms`,
-                }}
               >
                 <Link href={"/ai"}>
                   <div className="about-feature-card two">

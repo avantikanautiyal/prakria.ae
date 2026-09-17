@@ -7,10 +7,7 @@ function StorySection(props) {
   return (
     <section className="relative py-12 md:py-14 overflow-hidden bg-[#1B1B1B]">
       {/* Water drop SVG curve effect at the top */}
-      <div
-        className=" absolute top-0 left-0 w-full overflow-hidden pointer-events-none z-10"
-        style={{ height: "110px" }}
-      >
+      <div className=" absolute top-0 left-0 w-full overflow-hidden pointer-events-none z-10 story-curve-clip">
         <svg
           viewBox="0 0 1440 110"
           width="100%"

@@ -423,3 +423,92 @@ h4 {
   border-radius: 5px;
   text-transform: uppercase;
 }
+
+/* ─── Extracted layout utilities (SEO/CSS hygiene pass) ─── */
+
+.gtm-noscript-iframe {
+  display: none;
+  visibility: hidden;
+}
+
+.header-menu-icon {
+  font-size: 35px;
+}
+
+.footer-bottom-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-masonry-span {
+  grid-row: span var(--masonry-row, 1);
+  grid-column: span var(--masonry-col, 1);
+}
+
+.layout-grid-clickable {
+  cursor: pointer;
+}
+
+.layout-grid-media-cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.layout-grid-img {
+  height: 100%;
+}
+
+.meteor-particle {
+  top: 0;
+  left: var(--meteor-left, 0px);
+  animation-delay: var(--meteor-delay, 0.2s);
+  animation-duration: var(--meteor-duration, 2s);
+}
+
+.whatwedo-banner {
+  background: url(https://zenfy-next-js.vercel.app/_next/static/media/home4-banner-bg-dark.9899db56.png);
+  padding: 50px 0;
+}
+
+.wow-visible {
+  visibility: visible;
+}
+
+.testimonial-section-spaced {
+  margin-top: 80px;
+}
+
+.testimonial-slider-controls {
+  pointer-events: none;
+  left: 0;
+}
+
+.testimonial-slider-btn {
+  pointer-events: auto;
+}
+
+.story-curve-clip {
+  height: 110px;
+}
+
+.strategy-number-weight {
+  font-weight: 700;
+}
+
+.ai-core-shape-rect {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.ai-core-shape-rect--black {
+  background: #000;
+}
+
+.ai-core-shape-rect--white {
+  background: #fff;
+}
+
+.contact-agreement-checkbox {
+  height: 20px;
+}

@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { formatDisplayDate, resolvePostDate } from "@/lib/dates";
 
 const Home1Blog = () => {
   const [posts, setPosts] = useState([]);
@@ -43,12 +44,13 @@ const Home1Blog = () => {
             </div>
           </div>
           <div className="row g-md-4 gy-5">
-            {posts.map((post, index) => (
+            {posts.map((post) => (
               <BlogCard
                 key={post._id}
                 src={post.image || "/Prakria-logo.png"}
                 title={post.title}
-                slug={post._id}
+                slug={post.slug || post._id}
+                date={formatDisplayDate(resolvePostDate(post))}
               />
             ))}
           </div>
@@ -77,7 +79,7 @@ const Home1Blog = () => {
   );
 };
 
-function BlogCard({ src = "", title, slug = "#" }) {
+function BlogCard({ src = "", title, slug = "#", date = "" }) {
   return (
     <div
       className="col-lg-4 col-md-6 wow animate fadeInUp"
@@ -92,6 +94,7 @@ function BlogCard({ src = "", title, slug = "#" }) {
             </div>
           </div>
           <div className="card-content">
+            {date ? <div className="meta mb-2"><span className="date">{date}</span></div> : null}
             <h4>{title}</h4>
             <div className="read-more-btn">
               Read More

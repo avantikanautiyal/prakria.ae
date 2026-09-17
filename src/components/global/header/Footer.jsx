@@ -174,15 +174,7 @@ const Footer2 = () => {
               </div>
             </div>
           </div>
-          <div
-            className="footer-bottom"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              alignItems: "center",
-            }}
-          >
+          <div className="footer-bottom footer-bottom-centered">
             <div className="copyright-area">
               <p>
                 © {new Date().getFullYear()} PRAKRIA | All Rights Reserved

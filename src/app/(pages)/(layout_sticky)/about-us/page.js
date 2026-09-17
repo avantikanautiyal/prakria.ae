@@ -84,13 +84,7 @@ Because for us, **“madness” isn’t chaos — it’s our method.**
           </div>
         </div>
         <LogoMarquee />
-        <HomeTestimonial
-          style={{
-            paddingBottom: "0px",
-            backgroundImage:
-              "url(../img/home1/testimonial-bg.png), linear-gradient(180deg, #000 0%, #000 100%)",
-          }}
-        />
+        <HomeTestimonial />
         <Home1Blog />
       </div>
     </>

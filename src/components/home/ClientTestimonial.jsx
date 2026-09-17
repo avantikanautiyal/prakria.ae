@@ -13,7 +13,7 @@ import Link from "next/link";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
-const Home1Testimonial = ({ style }) => {
+const Home1Testimonial = ({ style, className = "" }) => {
   const [testimonials, setTestimonials] = React.useState([]);
 
   React.useEffect(() => {
@@ -83,20 +83,15 @@ const Home1Testimonial = ({ style }) => {
   return (
     <>
       <div
-        className="home4-testimonial-section mb-80"
-        style={{ marginTop: "80px" }}
+        className={`home4-testimonial-section mb-80 testimonial-section-spaced ${className}`.trim()}
+        style={style}
       >
         <div className="container">
           <div className="row">
             <div
-              className="col-lg-5 d-flex align-items-center wow animate fadeInLeft"
+              className="col-lg-5 d-flex align-items-center wow animate fadeInLeft wow-visible"
               data-wow-delay="200ms"
               data-wow-duration="1500ms"
-              style={{
-                visibility: "visible",
-                animationDuration: "1500ms",
-                animationDelay: "200ms",
-              }}
             >
               <div className="row mb-60">
                 <div className="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-3">
@@ -158,11 +153,11 @@ const Home1Testimonial = ({ style }) => {
                         ))}
                       </div>
                     </Swiper>
-                    <div className="slider-btn-grp d-flex justify-content-between w-100 position-absolute top-[95%] sm:top-[90%] translate-middle-y z-[20] px-3" style={{ pointerEvents: 'none', left: 0 }}>
-                      <div className="slider-btn testi-slider-prev position-absolute right-[60px]" style={{ pointerEvents: 'auto' }}>
+                    <div className="slider-btn-grp d-flex justify-content-between w-100 position-absolute top-[95%] sm:top-[90%] translate-middle-y z-[20] px-3 testimonial-slider-controls">
+                      <div className="slider-btn testi-slider-prev position-absolute right-[60px] testimonial-slider-btn">
                         <i className="bi bi-arrow-left" />
                       </div>
-                      <div className="slider-btn testi-slider-next position-absolute right-[20px]" style={{ pointerEvents: 'auto' }}>
+                      <div className="slider-btn testi-slider-next position-absolute right-[20px] testimonial-slider-btn">
                         <i className="bi bi-arrow-right" />
                       </div>
                     </div>
@@ -175,14 +170,9 @@ const Home1Testimonial = ({ style }) => {
         </div>
         <Link
           href="/contact-us"
-          className="button-area wow animate zoomIn !relative !bottom-0 !left-0 mx-auto md:!absolute md:bottom-[60px] md:left-[30px] mt-10 md:mt-0"
+          className="button-area wow animate zoomIn !relative !bottom-0 !left-0 mx-auto md:!absolute md:bottom-[60px] md:left-[30px] mt-10 md:mt-0 wow-visible"
           data-wow-delay="400ms"
           data-wow-duration="1500ms"
-          style={{
-            visibility: "visible",
-            animationDuration: "1500ms",
-            animationDelay: "400ms",
-          }}
         >
           <span className="details-button">
             Become a Client

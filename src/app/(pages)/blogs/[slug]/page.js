@@ -2,13 +2,23 @@ import React from "react";
 import dbConnect from "@/lib/mongodb";
 import Blog from "@/models/Blog";
 import { notFound } from "next/navigation";
+import { formatDisplayDate, resolvePostDate } from "@/lib/dates";
 
-// Fetch blog data by slug
+// Fetch blog by public slug or legacy ObjectId
 async function getBlog(slug) {
   await dbConnect();
-  const blog = await Blog.findOne({ _id: slug }).lean();
+  const raw = String(slug || "").trim();
+  if (!raw) return null;
+
+  let blog = null;
+  if (/^[0-9a-fA-F]{24}$/.test(raw)) {
+    blog = await Blog.findById(raw).lean();
+  }
+  if (!blog) {
+    blog = await Blog.findOne({ slug: raw }).lean();
+  }
   if (!blog) return null;
-  // Convert _id to string to avoid serialization issues
+
   return JSON.parse(JSON.stringify(blog));
 }
 
@@ -43,6 +53,8 @@ export default async function BlogDetailPage({ params }) {
     notFound();
   }
 
+  const displayDate = formatDisplayDate(resolvePostDate(blog));
+
   return (
     <div className="blog-details-wrapper pt-150 pb-12">
       <div className="container">
@@ -53,8 +65,12 @@ export default async function BlogDetailPage({ params }) {
                 <span className="category text-primary uppercase font-bold">{blog.category}</span>
                 <span className="mx-2">|</span>
                 <span className="author">By {blog.author}</span>
-                <span className="mx-2">|</span>
-                <span className="date">{new Date(blog.postDate || blog.createdAt).toLocaleDateString()}</span>
+                {displayDate ? (
+                  <>
+                    <span className="mx-2">|</span>
+                    <span className="date">{displayDate}</span>
+                  </>
+                ) : null}
               </div>
               <h1 className="mb-4">{blog.title}</h1>
               <div className="featured-image mb-5">

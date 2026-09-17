@@ -462,7 +462,7 @@ const Header1 = () => {
                 </div>
               </div>
               <div className="sidebar-btn" onClick={toggleRightSidebar}>
-                <i className="bi bi-list" style={{ fontSize: "35px" }} />
+                <i className="bi bi-list header-menu-icon" />
               </div>
               <div className="sidebar-button mobile-menu-btn d-none">
                 <span />
